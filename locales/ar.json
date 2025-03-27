@@ -1,0 +1,538 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "استكشاف التحديات",
+    "thatInspire": "التي تلهم!",
+    "signUp": "التسجيل",
+    "signIn": "تسجيل الدخول"
+  },
+  "signUp": {
+    "title": "التسجيل",
+    "headerMessage": "أنشئ حسابًا جديدًا للبدء.",
+    "form": {
+      "username": {
+        "label": "اسم المستخدم",
+        "placeholder": "اختر اسم مستخدم",
+        "validation": {
+          "minLength": "يجب أن يكون اسم المستخدم على الأقل 3 أحرف.",
+          "regex": "يمكن أن يحتوي اسم المستخدم على أحرف وأرقام وشرطات سفلية فقط"
+        }
+      },
+      "firstname": {
+        "label": "الاسم الأول",
+        "placeholder": "أدخل اسمك الأول",
+        "validation": "يجب أن يكون الاسم الأول على الأقل 3 أحرف."
+      },
+      "lastname": {
+        "label": "اسم العائلة",
+        "placeholder": "أدخل اسم عائلتك",
+        "validation": "يجب أن يكون اسم العائلة على الأقل 3 أحرف."
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل عنوان بريدك الإلكتروني",
+        "validation": "يرجى إدخال عنوان بريد إلكتروني صالح."
+      },
+      "phoneNumber": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك",
+        "validation": "يرجى إدخال رقم هاتف صالح."
+      },
+      "birthday": {
+        "label": "تاريخ الميلاد",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "يجب أن يكون تاريخ الميلاد بالتنسيق YYYY-MM-DD",
+          "validDate": "تاريخ غير صالح",
+          "ageRestriction": "يجب أن تكون 18 عامًا أو أكثر لإنشاء حساب"
+        }
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور الخاصة بك",
+        "validation": {
+          "minLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل.",
+          "maxLength": "يجب أن تكون كلمة المرور أقل من 64 حرفًا.",
+          "uppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل.",
+          "lowercase": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل.",
+          "numberOrSpecial": "يجب أن تحتوي كلمة المرور على رقم واحد أو حرف خاص على الأقل."
+        },
+        "strength": {
+          "weak": "ضعيفة",
+          "fair": "متوسطة",
+          "good": "جيدة",
+          "strong": "قوية"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أعد إدخال كلمة المرور الخاصة بك",
+        "validation": "كلمتا المرور غير متطابقتين."
+      }
+    },
+    "buttons": {
+      "createAccount": "إنشاء حساب",
+      "alreadyHaveAccount": "هل لديك حساب؟ تسجيل الدخول"
+    },
+    "alerts": {
+      "error": {
+        "title": "خطأ",
+        "message": "حدث خطأ أثناء إنشاء حسابك. يرجى المحاولة مرة أخرى."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "بالتسجيل، أنت توافق على أنك قرأت",
+      "termsOfService": "شروط الخدمة",
+      "privacyPolicy": "سياسة الخصوصية",
+      "andAccepted": "وقبلت"
+    }
+  },
+  "signIn": {
+    "title": "تسجيل الدخول",
+    "headerMessage": "أدخل بيانات اعتمادك للوصول إلى حسابك.",
+    "form": {
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "كلمة المرور"
+    },
+    "buttons": {
+      "signIn": "تسجيل الدخول",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "signUp": "ليس لديك حساب؟ التسجيل"
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور",
+      "prompt": "يرجى إدخال بريدك الإلكتروني أولاً.",
+      "successTitle": "تحقق من بريدك الإلكتروني",
+      "successMessage": "لقد أرسلنا رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني.",
+      "errorTitle": "خطأ في إعادة التعيين"
+    },
+    "termsAndPrivacy": {
+      "message": "بالتسجيل، أنت توافق على أنك قرأت",
+      "termsOfService": "شروط الخدمة",
+      "privacyPolicy": "سياسة الخصوصية",
+      "andAccepted": "وقبلت"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "خطأ في تسجيل الدخول"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "رمز الوصول غير صالح أو مفقود.",
+      "sessionFailed": "فشل إنشاء الجلسة.",
+      "invalidPassword": "يرجى إدخال كلمة مرور صالحة مكونة من 8 أحرف على الأقل.",
+      "updateFailed": "فشل تحديث كلمة المرور الخاصة بك."
+    },
+    "success": {
+      "passwordUpdated": "تم تحديث كلمة مرورك. يرجى تسجيل الدخول مرة أخرى."
+    },
+    "title": "إعادة تعيين كلمة المرور",
+    "instructions": "أدخل كلمة مرور جديدة.",
+    "labels": {
+      "newPassword": "كلمة المرور الجديدة"
+    },
+    "placeholders": {
+      "newPassword": "أدخل كلمة المرور الجديدة"
+    },
+    "buttons": {
+      "updatePassword": "تحديث كلمة المرور"
+    }
+  },
+  "tabs": {
+    "home": "الرئيسية",
+    "search": "بحث",
+    "create": "إنشاء",
+    "explore": "المسابقات",
+    "profile": "الملف الشخصي",
+    "menu": "قائمة",
+    "settings": "الإعدادات",
+    "editProfile": "تعديل الملف الشخصي",
+    "otherUserProfile": "ملف مستخدم آخر",
+    "comment": "تعليق",
+    "contest": "مسابقة",
+    "challengeDetails": "تفاصيل التحدي",
+    "submissionDetails": "تفاصيل الإرسال",
+    "contestDetails": "تفاصيل المسابقة",
+    "followers": "المتابعون",
+    "following": "المتابعون",
+    "account": "الحساب",
+    "notifications": "الإشعارات",
+    "leaderboard": "لوحة المتصدرين",
+    "market": "السوق",
+    "rewards": "المكافآت"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "إنشاء",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "أيقونة الرئيسية",
+      "search": "أيقونة البحث",
+      "create": "أيقونة الإنشاء",
+      "explore": "أيقونة الاستكشاف",
+      "profile": "أيقونة الملف الشخصي"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "ابحث عن الإرسالات والمستخدمين والتحديات...",
+    "clearSearch": "مسح البحث",
+    "loading": "جارٍ التحميل...",
+    "error": {
+      "title": "خطأ في البحث",
+      "message": "حدث خطأ أثناء البحث."
+    },
+    "noPreviousSearches": "لا توجد عمليات بحث سابقة.",
+    "previousSearches": "عمليات البحث السابقة",
+    "submissions": {
+      "title": "الإرسالات",
+      "noResults": "لم يتم العثور على إرسالات.",
+      "videoError": {
+        "title": "خطأ في الفيديو",
+        "message": "فشل تحميل الفيديو."
+      }
+    },
+    "users": {
+      "title": "المستخدمون",
+      "noResults": "لم يتم العثور على مستخدمين."
+    },
+    "challenges": {
+      "title": "التحديات",
+      "noResults": "لم يتم العثور على تحديات.",
+      "videoError": {
+        "title": "خطأ في الفيديو",
+        "message": "فشل تحميل فيديو التحدي."
+      },
+      "category": "الفئة: ",
+      "seasonalTag": "موسمي",
+      "sponsoredTag": "برعاية"
+    },
+    "repeatSearch": "إعادة البحث عن",
+    "accessibility": {
+      "viewVideo": "عرض الفيديو بعنوان",
+      "viewProfile": "عرض ملف",
+      "viewChallenge": "عرض التحدي بعنوان"
+    }
+  },
+  "contest": {
+    "title": "جميع المسابقات",
+    "createContestButton": "إنشاء مسابقة"
+  },
+  "contests": {
+    "noContests": "لم يتم العثور على مسابقات.",
+    "error": {
+      "title": "خطأ",
+      "message": "فشل في جلب المسابقات."
+    },
+    "status": {
+      "notStarted": "لم يبدأ",
+      "ongoing": "قيد التنفيذ",
+      "ended": "منتهي"
+    },
+    "dates": {
+      "start": "البداية: ",
+      "end": "النهاية: ",
+      "notAvailable": "غير متاح"
+    },
+    "contestDetailsButton": "عرض تفاصيل المسابقة"
+  },
+  "newContest": {
+    "header": {
+      "title": "إنشاء مسابقة جديدة",
+      "backButton": "عودة"
+    },
+    "fields": {
+      "title": {
+        "label": "العنوان",
+        "placeholder": "مثال: تحدي رقص الصيف",
+        "validation": "العنوان مطلوب."
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "عن ماذا تدور هذه المسابقة؟"
+      },
+      "startDate": {
+        "label": "تاريخ البداية",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "يجب أن يكون تاريخ النهاية بعد تاريخ البداية."
+      },
+      "endDate": {
+        "label": "تاريخ النهاية",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "جائزة الفائز (عملات Uwaci)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "جائزة المشاركين (عملات Uwaci)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "وصف الفيديو (اختياري)",
+        "noVideoSelected": "أضف وصفًا بالفيديو.",
+        "picked": "تم اختيار: {filename}",
+        "uploaded": "تم التحميل: تم تحميل الفيديو بنجاح.",
+        "chooseVideoButton": "اختيار فيديو",
+        "uploadVideoButton": "تحميل الفيديو"
+      }
+    },
+    "buttons": {
+      "createContest": "إنشاء المسابقة"
+    },
+    "alerts": {
+      "error": {
+        "title": "خطأ",
+        "pickVideoMessage": "فشل في اختيار الفيديو.",
+        "uploadVideoMessage": "فشل في تحميل الفيديو.",
+        "createContestMessage": "فشل في إنشاء المسابقة."
+      },
+      "success": {
+        "videoUploadMessage": "تم تحميل الفيديو بنجاح!",
+        "createContestMessage": "تم إنشاء المسابقة بنجاح!"
+      },
+      "validation": {
+        "noTitle": "العنوان مطلوب.",
+        "invalidDates": "يجب أن يكون تاريخ النهاية بعد تاريخ البداية."
+      },
+      "noSession": {
+        "title": "يجب أن تكون مسجلاً للدخول لإنشاء مسابقة."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "الملف الشخصي",
+      "settingsButton": "الذهاب إلى الإعدادات"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "مطلوب إذن",
+        "message": "نحتاج إلى إذن للوصول إلى صورك."
+      },
+      "errorAlert": {
+        "title": "خطأ",
+        "message": "فشل في اختيار الصورة"
+      },
+      "successAlert": {
+        "title": "نجاح",
+        "message": "تم تحديث صورة الملف الشخصي بنجاح"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "خطأ في المشاركة",
+        "message": "غير قادر على مشاركة رابط الإحالة."
+      },
+      "successShare": {
+        "title": "انضم إلي في Challenz!",
+        "message": "مرحبًا! استخدم هذا الرابط للتسجيل: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "المتابعون",
+      "viewFollowers": "عرض المتابعين"
+    },
+    "following": {
+      "label": "المتابعون",
+      "viewFollowing": "عرض المتابعين"
+    },
+    "posts": {
+      "label": "المنشورات",
+      "viewPosts": "عرض المنشورات",
+      "noVideos": "لا توجد فيديوهات منشورة بعد."
+    },
+    "info": {
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "location": "الموقع",
+      "coins": "عملات Uwaci",
+      "bio": "السيرة الذاتية",
+      "noProfile": "لم يتم العثور على ملف شخصي"
+    },
+    "buttons": {
+      "inviteFriends": "مشاركة رابط الإحالة",
+      "deleteVideo": "حذف الفيديو",
+      "deleteVideoAlert": {
+        "title": "حذف الفيديو",
+        "message": "هل أنت متأكد من أنك تريد حذف هذا الفيديو؟"
+      },
+      "deleteSuccess": {
+        "title": "نجاح",
+        "message": "تم حذف الفيديو بنجاح."
+      },
+      "deleteError": {
+        "title": "خطأ",
+        "message": "فشل في حذف الفيديو."
+      }
+    },
+    "errors": {
+      "generalError": "حدث خطأ.",
+      "profileError": "فشل في جلب الملف الشخصي.",
+      "submissionsError": "فشل في جلب الإرسالات."
+    },
+    "loading": {
+      "profile": "جارٍ تحميل الملف الشخصي...",
+      "submissions": "جارٍ تحميل الإرسالات..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "تعديل الملف الشخصي",
+      "cancelButton": "إلغاء",
+      "saveButton": "حفظ التغييرات",
+      "savingButton": "جارٍ الحفظ..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "الاسم الأول",
+        "placeholder": "أدخل اسمك الأول",
+        "error": {
+          "tooShort": "الاسم الأول قصير جدًا"
+        }
+      },
+      "lastName": {
+        "label": "اسم العائلة",
+        "placeholder": "أدخل اسم عائلتك",
+        "error": {
+          "tooShort": "اسم العائلة قصير جدًا"
+        }
+      },
+      "phoneNumber": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك",
+        "error": {
+          "invalid": "يرجى إدخال رقم هاتف صالح"
+        }
+      },
+      "bio": {
+        "label": "السيرة الذاتية",
+        "placeholder": "حدثنا عن نفسك",
+        "error": {
+          "tooLong": "يجب أن تكون السيرة الذاتية أقل من 500 حرف"
+        }
+      },
+      "location": {
+        "label": "الموقع",
+        "placeholder": "أدخل موقعك",
+        "error": {
+          "tooLong": "يجب أن يكون الموقع أقل من 100 حرف"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "خطأ",
+        "message": "فشل في جلب بيانات الملف الشخصي"
+      },
+      "updateSuccess": {
+        "title": "نجاح",
+        "message": "تم تحديث الملف الشخصي بنجاح"
+      },
+      "updateError": {
+        "title": "خطأ",
+        "message": "فشل في تحديث الملف الشخصي"
+      }
+    },
+    "loading": {
+      "title": "جارٍ التحميل..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "جارٍ التحميل...",
+    "noProfileFound": "لم يتم العثور على ملف شخصي",
+    "authenticationRequired": "مطلوب المصادقة",
+    "pleaseLogIn": "يرجى تسجيل الدخول لمتابعة المستخدمين.",
+    "success": "نجاح",
+    "unfollowSuccess": "لقد توقفت عن المتابعة",
+    "followSuccess": "أنت الآن تتابع",
+    "error": "خطأ",
+    "followError": "فشل في تحديث حالة المتابعة.",
+    "posts": "المنشورات",
+    "followers": "المتابعون",
+    "following": "المتابعون",
+    "follow": "متابعة",
+    "unfollow": "إيقاف المتابعة",
+    "chat": "دردشة"
+  },
+  "menu": {
+    "menu": "Menu",
+    "settings": "الإعدادات",
+    "yourUwaciCoins": "Your Uwaci Coins",
+    "notifications": "الإشعارات",
+    "marketplace": "السوق",
+    "signOut": "تسجيل الخروج",
+    "confirmSignOut": "تأكيد تسجيل الخروج",
+    "areYouSureSignOut": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "cancel": "إلغاء",
+    "goBack": "العودة"
+  },
+  "settings": {
+    "settings": "الإعدادات",
+    "fontSelected": "الخط المختار",
+    "asYourFont": "تم تعيينه كخطك.",
+    "languageSelected": "اللغة المختارة",
+    "asYourLanguage": "تم تعيينها كلغتك.",
+    "themeSelected": "السمة المختارة",
+    "asYourTheme": "تم تعيينها كسمتك.",
+    "notifications": "الإشعارات",
+    "marketplace": "السوق",
+    "account": "الحساب",
+    "themes": "الثيمات",
+    "fonts": "الخطوط",
+    "languages": "اللغات",
+    "signOut": "تسجيل الخروج",
+    "confirmSignOut": "تأكيد تسجيل الخروج",
+    "areYouSureSignOut": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "cancel": "إلغاء",
+    "goBack": "العودة",
+    "selectFont": "اختر خط",
+    "selectLanguage": "اختر لغة",
+    "selectTheme": "اختر سمة"
+  },
+  "accountDetails": {
+    "settingsTitle": "إعدادات الحساب",
+    "profileSettings": "تعديل الملف الشخصي",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "deleteAccount": "حذف الحساب",
+    "resetPasswordModal": {
+      "title": "إعادة تعيين كلمة المرور",
+      "message": "سيتم إرسال بريد إلكتروني لإعادة تعيين كلمة المرور إلى",
+      "sendEmail": "إرسال البريد",
+      "cancel": "إلغاء"
+    },
+    "deleteAccountModal": {
+      "title": "حذف الحساب",
+      "message": "هل أنت متأكد أنك تريد حذف حسابك؟ هذا الإجراء لا يمكن التراجع عنه.",
+      "delete": "حذف",
+      "cancel": "إلغاء"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "تم تحديث الملف الشخصي",
+        "message": "تم تحديث ملفك الشخصي بنجاح."
+      },
+      "profileUpdateError": {
+        "title": "خطأ",
+        "message": "فشل في تحديث ملفك الشخصي. يرجى المحاولة مرة أخرى."
+      },
+      "passwordReset": {
+        "title": "إعادة تعيين كلمة المرور",
+        "message": "تم إرسال بريد إلكتروني لإعادة تعيين كلمة المرور."
+      },
+      "passwordResetError": {
+        "title": "خطأ",
+        "message": "فشل في إرسال بريد إعادة تعيين كلمة المرور. يرجى المحاولة مرة أخرى."
+      },
+      "accountDeleted": {
+        "title": "تم حذف الحساب",
+        "message": "تم حذف حسابك بنجاح."
+      },
+      "accountDeleteError": {
+        "title": "خطأ",
+        "message": "فشل في حذف حسابك. يرجى المحاولة مرة أخرى."
+      }
+    }
+  }
+}

@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Eksploren dagiti Karit",
+      "thatInspire": "nga Mangpregta!",
+      "signUp": "Agparehistro",
+      "signIn": "Sumrek"
+    },
+    "signUp": {
+      "title": "Agparehistro",
+      "headerMessage": "Agaramid ti baro nga account tapno makarugi.",
+      "businessTitle": "Agparehistro a kas Negosio",
+      "headerMessageBusiness": "Agaramid ti negosio nga account tapno makarugi.",
+      "form": {
+        "username": {
+          "label": "Username",
+          "placeholder": "Agpili ti username",
+          "validation": {
+            "minLength": "Ti username ket masapul nga addaan ti saan a nababbaba ngem 3 a karakter.",
+            "regex": "Ti username ket masapul a naglaon laeng dagiti letra, numero, ken underscore"
+          }
+        },
+        "firstname": {
+          "label": "Umuna a Nagan",
+          "placeholder": "Ikabil ti umuna a naganmo",
+          "validation": "Ti umuna a nagan ket masapul nga addaan ti saan a nababbaba ngem 3 a karakter."
+        },
+        "lastname": {
+          "label": "Apelyido",
+          "placeholder": "Ikabil ti apelyidom",
+          "validation": "Ti apelyido ket masapul nga addaan ti saan a nababbaba ngem 3 a karakter."
+        },
+        "businessName": {
+          "label": "Nagan ti Negosio",
+          "placeholder": "Ikabil ti nagan ti negosioyo",
+          "validation": "Ti nagan ti negosio ket masapul nga addaan ti saan a nababbaba ngem 3 a karakter."
+        },
+        "website": {
+          "label": "Website ti Negosio",
+          "placeholder": "Ikabil ti websitemo",
+          "validation": "Ti nagan ti negosio ket masapul nga addaan ti saan a nababbaba ngem 3 a karakter."
+        },
+        "businessType": {
+          "label": "Klase ti Negosio",
+          "placeholder": "Klase ti Negosio",
+          "validation": "Ti nagan ti negosio ket masapul nga addaan ti saan a nababbaba ngem 3 a karakter."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Ikabil ti email address mo",
+          "validation": "Maidawat nga ikabil ti umiso nga email address."
+        },
+        "phoneNumber": {
+          "label": "Numero ti Telepono",
+          "placeholder": "Ikabil ti numero ti teleponom",
+          "validation": "Maidawat nga ikabil ti umiso a numero ti telepono."
+        },
+        "birthday": {
+          "title": "Petsa ti Pannakaiyanak",
+          "label": "Petsa ti Pannakaiyanak",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Ti petsa ti pannakaiyanak ket masapul a naistruktura kas DD-MM-YYYY",
+            "validDate": "Saan a balido a petsa",
+            "ageRestriction": "Masapul nga 18 tawen wenno natataenganka tapno makaaramid ti account"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Ikabil ti passwordmo",
+          "validation": {
+            "minLength": "Ti password ket masapul nga addaan ti saan a nababbaba ngem 8 a karakter.",
+            "maxLength": "Ti password ket masapul nga addaan ti saan a nasursurok ngem 64 a karakter.",
+            "uppercase": "Ti password ket masapul nga addaan ti saan a nababbaba ngem maysa nga uppercase a letra.",
+            "lowercase": "Ti password ket masapul nga addaan ti saan a nababbaba ngem maysa a lowercase a letra.",
+            "numberOrSpecial": "Ti password ket masapul nga addaan ti saan a nababbaba ngem maysa a numero wenno espesial a karakter."
+          },
+          "strength": {
+            "weak": "Nakapsut",
+            "fair": "Kapkapnekan",
+            "good": "Nasayaat",
+            "strong": "Napigsa"
+          }
+        },
+        "confirmPassword": {
+          "label": "Pasingkedan ti Password",
+          "placeholder": "Ikabil manen ti passwordmo",
+          "validation": "Saan nga agtutunog dagiti password."
+        }
+      },
+      "buttons": {
+        "createAccount": "Agaramid ti Account",
+        "alreadyHaveAccount": "Adda accountmo?",
+        "signIn": "Sumrek",
+        "businessJoin": "Sumali iti Challenz a kas negosio a kakadua"
+      },
+      "alerts": {
+        "error": {
+          "title": "Biddut",
+          "message": "Adda biddut a napasamak bayat ti panagaramid ti accountmo. Maidawat a padasen manen."
+        },
+        "passwordMismatch": {
+          "title": "Saan nga Agtutunog ti Password",
+          "message": "Saan nga umiso ti Password. Maidawat a padasen manen."
+        },
+        "agreementRequired": {
+          "title": "Kasapulan ti Panagayon",
+          "message": "Maidawat nga awatem dagiti Termino ti Serbisio ken Polisia ti Pribasidad."
+        },
+        "success": {
+          "title": "Balligi",
+          "message": "Sibaballigi a naaramid ti account."
+        },
+        "signUpError": {
+          "title": "Biddut ti Panagparehistro",
+          "message": "Adda biddut a napasamak bayat ti panagaramid ti accountmo. Maidawat a padasen manen."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Babaen ti panagparehistro, umanamongka a binasam ti",
+        "termsOfService": "Termino ti Serbisio",
+        "privacyPolicy": "Polisia ti Pribasidad",
+        "andAccepted": "ken inawatmo ti"
+      }
+    },
+    "signIn": {
+      "title": "Sumrek",
+      "headerMessage": "Ikabil dagiti kredensialmo tapno maaksesmo ti accountmo.",
+      "form": {
+        "email": "Email",
+        "emailPlaceholder": "Ikabil ti Email mo",
+        "password": "Password",
+        "passwordPlaceholder": "Ikabil ti Password mo"
+      },
+      "buttons": {
+        "signIn": "Sumrek",
+        "forgotPassword": "Nalipatam ti Password?",
+        "noAccount": "Awan pay accountmo?",
+        "signUp": " Agparehistro"
+      },
+      "forgotPassword": {
+        "title": "Nalipatam ti Password",
+        "prompt": "Maidawat nga ikabil pay ti emailmo iti ngato.",
+        "successTitle": "Kitaem ti emailmo",
+        "successMessage": "Nangipatulodkami ti link ti panag-reset ti password iti emailmo.",
+        "errorTitle": "Biddut ti Panag-reset"
+      },
+      "termsAndPrivacy": {
+        "message": "Babaen ti panagparehistro, umanamongka a binasam ti",
+        "termsOfService": "Termino ti Serbisio",
+        "privacyPolicy": "Polisia ti Pribasidad",
+        "andAccepted": "ken inawatmo ti"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Biddut ti Panagserrek"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Nalipatam ti Password",
+      "description": "Ikabil ti email address mo iti baba ket mangipatulodkami ti link tapno mai-reset ti passwordmo.",
+      "form": {
+        "email": "Email Address"
+      },
+      "buttons": {
+        "reset": "I-reset ti Password",
+        "sending": "Maipatpatulod...",
+        "remembered": "Nalagipmo ti passwordmo?",
+        "signIn": "Sumrek"
+      },
+      "alerts": {
+        "enterEmail": "Maidawat nga ikabil ti email address mo.",
+        "checkEmail": "Kitaem ti emailmo para iti link ti panag-reset.",
+        "resetError": "Napaay ti panag-reset ti password"
+      }
+    },
+    "resetPassword": {
+      "title": "I-update ti Password",
+      "description": "Ikabil ti baro a passwordmo iti baba tapno mai-reset ti password ti accountmo.",
+      "form": {
+        "newPassword": "Ikabil ti baro a password",
+        "confirmPassword": "Pasingkedan ti baro a password"
+      },
+      "alerts": {
+        "enterBothPasswords": "Maidawat nga ikabil dagiti dua a pagikabilan ti password.",
+        "passwordMismatch": "Saan nga agtutunog dagiti password. Maidawat a padasen manen.",
+        "success": "Sibaballigi a na-update ti passwordmo.",
+        "updateError": "Biddut ti panag-update ti password. Maidawat a padasen manen."
+      },
+      "buttons": {
+        "saving": "Maidulin...",
+        "update": "I-update ti Password"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Saan a balido wenno napukaw a token ti panag-access.",
+        "sessionFailed": "Napaay ti panagikabil ti sesion.",
+        "invalidPassword": "Maidawat nga ikabil ti balido a password nga addaan ti saan a nababbaba ngem 8 a karakter.",
+        "updateFailed": "Napaay ti panag-update ti passwordmo."
+      },
+      "success": {
+        "passwordUpdated": "Na-update ti passwordmo. Maidawat nga agsrekkanto manen."
+      },
+      "title": "I-reset ti Passwordmo",
+      "instructions": "Mangikabil ti baro a password.",
+      "labels": {
+        "newPassword": "Baro a Password"
+      },
+      "placeholders": {
+        "newPassword": "Ikabil ti baro a password"
+      },
+      "buttons": {
+        "updatePassword": "I-update ti Password"
+      }
+    },
+    "tabs": {
+      "home": "Balay",
+      "search": "Agbiruk",
+      "create": "Agaramid",
+      "contest": "Kompetension",
+      "menu": "Menu",
+      "settings": "Dagiti Setting",
+      "profile": "Profile",
+      "editProfile": "Urnosem ti Profile mo",
+      "otherUserProfile": "Profile ti Agar-aramat",
+      "explore": "Eksplora",
+      "challengeDetails": "Detalye ti Karit",
+      "submissionDetails": "Detalye ti Panagited",
+      "contestDetails": "Detalye ti Kompetension",
+      "followers": "Dagiti Sumusurot ",
+      "following": "Dagiti Sursurotam ",
+      "account": "Account",
+      "notifications": "Dagiti Notifikasion",
+      "leaderboard": "Tabla ti Nangatngato",
+      "market": "Paglakuan",
+      "rewards": "Dagiti Gungona",
+      "coin": "Dagiti Coin mo"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Agaramid",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Icon ti balay",
+        "search": "Icon ti panagbiruk",
+        "create": "Icon ti panagaramid",
+        "explore": "Icon ti panageksplora",
+        "profile": "Icon ti profile"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Agbiruk kadagiti panagited, agar-aramat, karit...",
+      "clearSearch": "Punasen ti input ti panagbiruk",
+      "loading": "Agkarkarga...",
+      "error": {
+        "title": "Biddut ti Panagbiruk",
+        "message": "Adda biddut a napasamak bayat ti panagbiruk."
+      },
+      "noPreviousSearches": "Awan dagiti immuna a panagbiruk.",
+      "previousSearches": "Dagiti Immuna a Panagbiruk",
+      "submissions": {
+        "title": "Dagiti Panagited",
+        "noResults": "Awan dagiti nasarakan a panagited.",
+        "videoError": {
+          "title": "Biddut ti Video",
+          "message": "Napaay ti panagkarga ti video."
+        }
+      },
+      "users": {
+        "title": "Dagiti Agar-aramat",
+        "noResults": "Awan dagiti nasarakan nga agar-aramat."
+      },
+      "challenges": {
+        "title": "Dagiti Karit",
+        "noResults": "Awan dagiti nasarakan a karit.",
+        "videoError": {
+          "title": "Biddut ti Video",
+          "message": "Napaay ti panagkarga ti video ti karit."
+        },
+        "category": "Kategoria: ",
+        "seasonalTag": "Panawen",
+        "sponsoredTag": "Masponsor"
+      },
+      "repeatSearch": "Uliten ti panagbiruk para iti",
+      "accessibility": {
+        "viewVideo": "Kitaen ti video a titulo ti",
+        "viewProfile": "Kitaen ti profile ni",
+        "viewChallenge": "Kitaen ti karit a titulo ti"
+      }
+    },
+    "contest": {
+      "title": "Amin a Kompetension",
+      "createContestButton": "Agaramid ti Kompetension"
+    },
+    "contests": {
+      "noContests": "Awan dagiti nasarakan a kompetension.",
+      "error": {
+        "title": "Biddut",
+        "message": "Napaay ti panag-ala kadagiti kompetension."
+      },
+      "status": {
+        "notStarted": "Saan Pay a Nangrugi",
+        "ongoing": "Agtultuloy",
+        "ended": "Nalpas"
+      },
+      "dates": {
+        "start": "Pangrugi: ",
+        "end": "Panaglepas: ",
+        "notAvailable": "Awan"
+      },
+      "contestDetailsButton": "Kitaen ti Detalye ti Kompetension"
+    },
+    "newContest": {
+      "header": {
+        "title": "Agaramid ti Baro a Kompetension",
+        "backButton": "Agsubli"
+      },
+      "fields": {
+        "title": {
+          "label": "Titulo",
+          "placeholder": "e.g., Summer Dance-Off",
+          "validation": "Kasapulan ti titulo."
+        },
+        "description": {
+          "label": "Deskripsion",
+          "placeholder": "Ania ti maipanggep iti daytoy a kompetension?"
+        },
+        "startDate": {
+          "label": "Petsa ti Pangrugi",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Ti petsa ti panaglepas ket masapul a kalpasan ti petsa ti pangrugi."
+        },
+        "endDate": {
+          "label": "Petsa ti Panaglepas",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Gunggona dagiti Mangabak (Uwaci Coins)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Gunggona dagiti Makipartisipar (Uwaci Coins)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Deskripsion ti Video (Opsional)",
+          "noVideoSelected": "Mangnayon ti deskripsion ti video.",
+          "picked": "Napili: {filename}",
+          "uploaded": "Naipan: Sibaballigi a naipan ti video.",
+          "chooseVideoButton": "Agpili ti Video",
+          "uploadVideoButton": "Ipan ti Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Agaramid ti Kompetension"
+      },
+      "alerts": {
+        "error": {
+          "title": "Biddut",
+          "pickVideoMessage": "Napaay ti panagpili ti video.",
+          "uploadVideoMessage": "Napaay ti panagipan ti video.",
+          "createContestMessage": "Napaay ti panagaramid ti kompetension."
+        },
+        "success": {
+          "title": "Balligi.",
+          "videoUploadMessage": "Sibaballigi a naipan ti video!",
+          "createContestMessage": "Sibaballigi a naaramid ti kompetension!"
+        },
+        "validation": {
+          "noTitle": "Kasapulan ti titulo.",
+          "invalidDates": "Ti petsa ti panaglepas ket masapul a kalpasan ti petsa ti pangrugi."
+        },
+        "noSession": {
+          "title": "Masapul a sumsumrekka tapno makaaramidka ti kompetension."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profile",
+        "settingsButton": "Mapan kadagiti Setting"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Kasapulan ti pammalubos",
+          "message": "Kasapulanmi ti pammalubos tapno maaksesanmi dagiti ladawanmo."
+        },
+        "errorAlert": {
+          "title": "Biddut",
+          "message": "Napaay ti panagpili ti ladawan"
+        },
+        "successAlert": {
+          "title": "Balligi",
+          "message": "Sibaballigi a na-update ti ladawan ti profile"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Biddut ti Panagbingay",
+          "message": "Saan a maibingay ti referral link."
+        },
+        "successShare": {
+          "title": "Kumuyogka kaniak iti Challenz!",
+          "message": "Hoy! Usarem daytoy a link tapno agparehistro: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Dagiti Sumusurot",
+        "viewFollowers": "Kitaen dagiti Sumusurot"
+      },
+      "following": {
+        "label": "Dagiti Sursurotam",
+        "viewFollowing": "Kitaen dagiti Sursurotam"
+      },
+      "posts": {
+        "label": "Dagiti Post",
+        "viewPosts": "Kitaen dagiti Post",
+        "noVideos": "Awan pay dagiti video a naipablaak."
+      },
+      "info": {
+        "email": "Email",
+        "phone": "Telepono",
+        "location": "Lokasion",
+        "coins": "Uwaci Coins",
+        "bio": "Bio",
+        "noProfile": "Awan Nasarakan a Profile"
+      },
+      "buttons": {
+        "inviteFriends": "Mangawis kadagiti Gagayyem",
+        "deleteVideo": "Punasen ti Video",
+        "deleteVideoAlert": {
+          "title": "Punasen ti Video",
+          "message": "Siguradoka kadi a kayatmo a punasen daytoy a video?"
+        },
+        "deleteSuccess": {
+          "title": "Balligi",
+          "message": "Sibaballigi a napunas ti video."
+        },
+        "deleteError": {
+          "title": "Biddut",
+          "message": "Napaay ti panagpunas ti video."
+        }
+      },
+      "errors": {
+        "generalError": "Adda biddut a napasamak.",
+        "profileError": "Napaay ti panag-ala ti profile.",
+        "submissionsError": "Napaay ti panag-ala dagiti panagited."
+      },
+      "loading": {
+        "profile": "Agkarkarga ti profile...",
+        "submissions": "Agkarkarga dagiti panagited..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Urnosem ti Profile",
+        "cancelButton": "Ukasen",
+        "saveButton": "Idulin dagiti Panagsukat",
+        "savingButton": "Maidudulin..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Umuna a Nagan",
+          "placeholder": "Ikabil ti umuna a naganmo",
+          "error": {
+            "tooShort": "Nakapuy unay ti umuna a nagan"
+          }
+        },
+        "lastName": {
+          "label": "Apelyido",
+          "placeholder": "Ikabil ti apelyidom",
+          "error": {
+            "tooShort": "Nakapuy unay ti apelyido"
+          }
+        },
+        "phoneNumber": {
+          "label": "Numero ti Telepono",
+          "placeholder": "Ikabil ti numero ti teleponom",
+          "error": {
+            "invalid": "Maidawat nga ikabil ti umiso a numero ti telepono"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Istoriam ti maipanggep iti bagim",
+          "error": {
+            "tooLong": "Ti bio ket masapul a nababbaba ngem 500 a karakter"
+          }
+        },
+        "location": {
+          "label": "Lokasion",
+          "placeholder": "Ikabil ti lokasionmo",
+          "error": {
+            "tooLong": "Ti lokasion ket masapul a nababbaba ngem 100 a karakter"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Biddut",
+          "message": "Napaay ti panag-ala ti data ti profile"
+        },
+        "updateSuccess": {
+          "title": "Balligi",
+          "message": "Sibaballigi a na-update ti profile"
+        },
+        "updateError": {
+          "title": "Biddut",
+          "message": "Napaay ti panag-update ti profile"
+        }
+      },
+      "loading": {
+        "title": "Agkarkarga..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Agkarkarga...",
+      "noProfileFound": "Awan Nasarakan a Profile",
+      "authenticationRequired": "Kasapulan ti Autentikasion",
+      "pleaseLogIn": "Maidawat a sumrekka tapno makasursurotka kadagiti agar-aramat.",
+      "success": "Balligi",
+      "unfollowSuccess": "Saanmon a sursurotam ni",
+      "followSuccess": "Sursurotam itan ni",
+      "error": "Biddut",
+      "followError": "Napaay ti panag-update ti status ti panagsursurot.",
+      "posts": "Dagiti Post",
+      "followers": "Dagiti Sumusurot",
+      "following": "Dagiti Sursurotam",
+      "follow": "Surotam",
+      "unfollow": "Isardengmo a Suroten",
+      "chat": "Chat"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Dagiti Setting",
+      "yourUwaciCoins": "Dagiti Uwaci Coins mo",
+      "notifications": "Dagiti Notifikasion",
+      "marketplace": "Paglakuan",
+      "signOut": "Rummuar",
+      "confirmSignOut": "Pasingkedan ti Panaglogout",
+      "areYouSureSignOut": "Siguradoka kadi a kayatmo ti rummuar?",
+      "cancel": "Ukasen",
+      "goBack": "Agsubli"
+    },
+    "settings": {
+      "settings": "Dagiti Setting",
+      "fontSelected": "Napili ti Font",
+      "asYourFont": "naiset a kas fontmo.",
+      "languageSelected": "Napili ti Pagsasao",
+      "asYourLanguage": "naiset a kas pagsasaom.",
+      "themeSelected": "Napili ti Tema",
+      "asYourTheme": "naiset a kas temam.",
+      "notifications": "Dagiti Notifikasion",
+      "marketplace": "Paglakuan",
+      "account": "Account",
+      "themes": "Dagiti Tema",
+      "fonts": "Dagiti Font",
+      "languages": "Dagiti Pagsasao",
+      "signOut": "Rummuar",
+      "confirmSignOut": "Pasingkedan ti Panaglogout",
+      "areYouSureSignOut": "Siguradoka kadi a kayatmo ti rummuar?",
+      "cancel": "Ukasen",
+      "goBack": "Agsubli",
+      "selectFont": "Agpili ti Font",
+      "selectLanguage": "Agpili ti Pagsasao",
+      "selectTheme": "Agpili ti Tema",
+      "passwordSecurity": "Password & Seguridad",
+      "personalDetails": "Personal a Detalye",
+      "verification": "Beripikasion",
+      "paymentMethods": "Dagiti wagas ti panagbayad",
+      "adPreferences": "Dagiti Pagayatan a Ad",
+      "upgradePremium": "Agupgrade iti premium",
+      "content": "Linaon",
+      "language": "Pagsasao",
+      "savedDraft": "Naidulin a Draft",
+      "yourActivity": "Ti Aktibidadmo",
+      "accessibility": "Aksesibilidad",
+      "privacy": "Pribasidad",
+      "comments": "Dagiti Komentario",
+      "privateAccount": "Pribado nga Account",
+      "directMessaging": "Direkta a Mensahe",
+      "blockedReports": "Naserraan/Dagiti Report",
+      "termsPolicies": "Dagiti Termino ken Polisia",
+      "switchAccount": "Agsukat ti Account"
+    },
+    "accountDetails": {
+      "settingsTitle": "Dagiti Setting ti Account",
+      "profileSettings": "Urnosem ti Profile",
+      "resetPassword": "I-reset ti Password",
+      "deleteAccount": "Punasen ti Account",
+      "resetPasswordModal": {
+        "title": "I-reset ti Password",
+        "message": "Maipatulod ti email ti panag-reset ti password iti",
+        "sendEmail": "Mangipatulod ti Email",
+        "cancel": "Ukasen"
+      },
+      "deleteAccountModal": {
+        "title": "Punasen ti Account",
+        "message": "Siguradoka kadi a kayatmo a punasen ti accountmo? Saan a maisubli daytoy nga aramid.",
+        "delete": "Punasen",
+        "cancel": "Ukasen"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Na-update ti Profile",
+          "message": "Sibaballigi a na-update ti profilemo."
+        },
+        "profileUpdateError": {
+          "title": "Biddut",
+          "message": "Napaay ti panag-update ti profilemo. Maidawat a padasen manen."
+        },
+        "passwordReset": {
+          "title": "Panag-reset ti Password",
+          "message": "Naipatuloden ti email ti panag-reset ti password."
+        },
+        "passwordResetError": {
+          "title": "Biddut",
+          "message": "Napaay ti panagpatulod ti email ti panag-reset ti password. Maidawat a padasen manen."
+        },
+        "accountDeleted": {
+          "title": "Napunas ti Account",
+          "message": "Sibaballigi a napunas ti accountmo."
+        },
+        "accountDeleteError": {
+          "title": "Biddut",
+          "message": "Napaay ti panagpunas ti accountmo. Maidawat a padasen manen."
+        }
+      }
+    }
+  }

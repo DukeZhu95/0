@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Ṣawari Awọn italaya",
+    "thatInspire": "ti o Atilẹyin!",
+    "signUp": "Forukọsilẹ",
+    "signIn": "Wọle"
+  },
+  "signUp": {
+    "title": "Forukọsilẹ",
+    "headerMessage": "Ṣẹda iroyin titun lati bẹrẹ.",
+    "form": {
+      "username": {
+        "label": "Orukọ olumulo",
+        "placeholder": "Yan oruko lilo",
+        "validation": {
+          "minLength": "Orukọ olumulo gbọdọ jẹ o kere ju awọn ohun kikọ mẹta.",
+          "regex": "Orukọ olumulo le ni awọn lẹta nikan ninu, awọn nọmba, ati awọn abẹlẹ"
+        }
+      },
+      "firstname": {
+        "label": "Orukọ akọkọ",
+        "placeholder": "Tẹ orukọ akọkọ rẹ sii",
+        "validation": "Orukọ akọkọ gbọdọ jẹ o kere ju awọn ohun kikọ mẹta."
+      },
+      "lastname": {
+        "label": "Oruko idile",
+        "placeholder": "Tẹ orukọ ikẹhin rẹ sii",
+        "validation": "Orukọ idile gbọdọ jẹ o kere ju awọn ohun kikọ mẹta."
+      },
+      "email": {
+        "label": "Imeeli",
+        "placeholder": "Tẹ adirẹsi imeeli rẹ sii",
+        "validation": "Jowo fun fun wa ni imeli re to je otito."
+      },
+      "phoneNumber": {
+        "label": "Nomba fonu",
+        "placeholder": "Tẹ nọmba foonu rẹ sii",
+        "validation": "Jọwọ tẹ nọmba foonu to wulo."
+      },
+      "birthday": {
+        "label": "Ojo ibi",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Ọjọ ibi gbọdọ wa ni ọna kika YYYY-MM-DD",
+          "validDate": "Ọjọ ti ko tọ",
+          "ageRestriction": "O gbọdọ jẹ 18 tabi agbalagba lati ṣẹda akọọlẹ kan"
+        }
+      },
+      "password": {
+        "label": "Ọrọigbaniwọle",
+        "placeholder": "Tẹ ọrọ igbaniwọle rẹ sii",
+        "validation": {
+          "minLength": "Ọrọigbaniwọle gbọdọ jẹ o kere ju awọn ohun kikọ 8.",
+          "maxLength": "Ọrọigbaniwọle gbọdọ jẹ kere ju awọn ohun kikọ 64.",
+          "uppercase": "Ọrọigbaniwọle gbọdọ ni o kere ju lẹta nla kan ninu.",
+          "lowercase": "Ọrọigbaniwọle gbọdọ ni o kere ju lẹta kekere kan ninu.",
+          "numberOrSpecial": "Ọrọigbaniwọle gbọdọ ni o kere ju nọmba kan tabi ohun kikọ pataki."
+        },
+        "strength": {
+          "weak": "Alailagbara",
+          "fair": "Òótọ́",
+          "good": "O dara",
+          "strong": "Alagbara"
+        }
+      },
+      "confirmPassword": {
+        "label": "So ni pato orukoabawole re",
+        "placeholder": "Tun aṣínà rẹ sii",
+        "validation": "Awọn ọrọ igbaniwọle ko baramu."
+      }
+    },
+    "buttons": {
+      "createAccount": "Se akanti fun ra re",
+      "alreadyHaveAccount": "Ti ni iroyin tẹlẹ? Wọle"
+    },
+    "alerts": {
+      "error": {
+        "title": "Asise",
+        "message": "Aṣiṣe waye lakoko ṣiṣẹda akọọlẹ rẹ. Jọwọ gbiyanju lẹẹkansi."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Nipa fiforukọṣilẹ o gba pe o ti ka wa",
+      "termsOfService": "Awọn ofin ti Service",
+      "privacyPolicy": "Asiri Afihan",
+      "andAccepted": "o si gba wa"
+    }
+  },
+  "signIn": {
+    "title": "Wọle",
+    "headerMessage": "Tẹ awọn iwe-ẹri rẹ sii lati wọle si akọọlẹ rẹ.",
+    "form": {
+      "email": "Imeeli",
+      "emailPlaceholder": "Imeeli",
+      "password": "Ọrọigbaniwọle",
+      "passwordPlaceholder": "Ọrọigbaniwọle"
+    },
+    "buttons": {
+      "signIn": "Wọle",
+      "forgotPassword": "Gbagbe ọrọ aṣina bi?",
+      "signUp": "Ṣe ko ni akọọlẹ kan? Forukọsilẹ"
+    },
+    "forgotPassword": {
+      "title": "Gbagbe ọrọ aṣina bi",
+      "prompt": "Jọwọ tẹ imeeli rẹ si oke akọkọ.",
+      "successTitle": "Ṣayẹwo imeeli rẹ",
+      "successMessage": "A ti fi ọna asopọ atunto ọrọ igbaniwọle ranṣẹ si imeeli rẹ.",
+      "errorTitle": "Aṣiṣe atunto"
+    },
+    "termsAndPrivacy": {
+      "message": "Nipa fiforukọṣilẹ o gba pe o ti ka wa",
+      "termsOfService": "Awọn ofin ti Service",
+      "privacyPolicy": "Asiri Afihan",
+      "andAccepted": "o si gba wa"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Aṣiṣe Wọle"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Àmì iwọle ti ko tọ tabi nsọnu.",
+      "sessionFailed": "Kuna lati ṣeto igba.",
+      "invalidPassword": "Jọwọ tẹ ọrọ igbaniwọle to wulo ti o kere ju awọn ohun kikọ 8 sii.",
+      "updateFailed": "Kuna lati mu ọrọ igbaniwọle rẹ dojuiwọn."
+    },
+    "success": {
+      "passwordUpdated": "Ọrọigbaniwọle rẹ ti ni imudojuiwọn. Jọwọ wọle lẹẹkansi."
+    },
+    "title": "Tun ọrọ igbaniwọle rẹ tunto",
+    "instructions": "Tẹ ọrọ igbaniwọle titun sii.",
+    "labels": {
+      "newPassword": "Ọrọ aṣina Tuntun"
+    },
+    "placeholders": {
+      "newPassword": "Tẹ ọrọ igbaniwọle titun sii"
+    },
+    "buttons": {
+      "updatePassword": "Ṣe imudojuiwọn Ọrọigbaniwọle"
+    }
+  },
+  "tabs": {
+    "home": "Ile",
+    "search": "Wa",
+    "create": "Ṣẹda",
+    "explore": "Awọn idije",
+    "profile": "Profaili",
+    "settings": "Eto",
+    "editProfile": "Profaili Ṣatunkọ",
+    "otherUserProfile": "Profaili olumulo miiran",
+    "comment": "Ọrọìwòye",
+    "contest": "Idije",
+    "challengeDetails": "Awọn alaye Ipenija",
+    "submissionDetails": "Awọn alaye ifisilẹ",
+    "contestDetails": "Awọn alaye idije",
+    "followers": "Awọn ọmọlẹhin",
+    "following": "Awọn atẹle",
+    "account": "Iroyin",
+    "notifications": "Awọn iwifunni",
+    "leaderboard": "Atẹle olori",
+    "market": "Oja",
+    "rewards": "Awọn ere"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Ṣẹda",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Aami ile",
+      "search": "Aami àwárí",
+      "create": "Ṣẹda aami",
+      "explore": "Ye aami",
+      "profile": "Aami profaili"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Wa awọn ifisilẹ, awọn olumulo, awọn italaya...",
+    "clearSearch": "Ko igbewọle wiwa kuro",
+    "loading": "Nkojọpọ...",
+    "error": {
+      "title": "Aṣiṣe àwárí",
+      "message": "Aṣiṣe waye lakoko wiwa."
+    },
+    "noPreviousSearches": "Ko si awọn iwadii iṣaaju.",
+    "previousSearches": "Awọn iwadii iṣaaju",
+    "submissions": {
+      "title": "Awọn ifisilẹ",
+      "noResults": "Ko si awọn ifisilẹ.",
+      "videoError": {
+        "title": "Aṣiṣe fidio",
+        "message": "Kuna lati kojọpọ fidio naa."
+      }
+    },
+    "users": {
+      "title": "Awọn olumulo",
+      "noResults": "Ko si awọn olumulo ti a rii."
+    },
+    "challenges": {
+      "title": "Awọn italaya",
+      "noResults": "Ko si awọn italaya ti a rii.",
+      "videoError": {
+        "title": "Aṣiṣe fidio",
+        "message": "Kuna lati kojọpọ fidio ipenija."
+      },
+      "category": "Ẹka: ",
+      "seasonalTag": "Ti igba",
+      "sponsoredTag": "Onigbọwọ"
+    },
+    "repeatSearch": "Tun wiwa fun",
+    "accessibility": {
+      "viewVideo": "Wo akole fidio",
+      "viewProfile": "Wo profaili ti",
+      "viewChallenge": "Wo ipenija akole"
+    }
+  },
+  "contest": {
+    "title": "Gbogbo Idije",
+    "createContestButton": "Ṣẹda Idije"
+  },
+  "contests": {
+    "noContests": "Ko si awọn idije ti a rii.",
+    "error": {
+      "title": "Asise",
+      "message": "Kuna lati gba awọn idije."
+    },
+    "status": {
+      "notStarted": "Ko Bibẹrẹ",
+      "ongoing": "Ti nlọ lọwọ",
+      "ended": "Ti pari"
+    },
+    "dates": {
+      "start": "Bẹrẹ: ",
+      "end": "Ipari: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Wo Awọn alaye Idije"
+  },
+  "newContest": {
+    "header": {
+      "title": "Ṣẹda New idije",
+      "backButton": "Pada"
+    },
+    "fields": {
+      "title": {
+        "label": "Akọle",
+        "placeholder": "e.g., Summer Dance-Off",
+        "validation": "Akole wa ni ti beere."
+      },
+      "description": {
+        "label": "Apejuwe",
+        "placeholder": "Kini idije yii nipa?"
+      },
+      "startDate": {
+        "label": "Ọjọ Ibẹrẹ",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Ọjọ ipari gbọdọ jẹ lẹhin ọjọ ibẹrẹ."
+      },
+      "endDate": {
+        "label": "Ọjọ Ipari",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Ebun Winner (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Olukopa ère (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Apejuwe fidio (Aṣayan)",
+        "noVideoSelected": "Fi apejuwe fidio kun.",
+        "picked": "Ti yan: {orukọ faili}",
+        "uploaded": "Ti kojọpọ: Fidio ti gbejade ni aṣeyọri.",
+        "chooseVideoButton": "Yan Fidio",
+        "uploadVideoButton": "Gbe fidio"
+      }
+    },
+    "buttons": {
+      "createContest": "Ṣẹda Idije"
+    },
+    "alerts": {
+      "error": {
+        "title": "Asise",
+        "pickVideoMessage": "O kuna lati mu fidio.",
+        "uploadVideoMessage": "Kuna lati gbe fidio soke.",
+        "createContestMessage": "Kuna lati ṣẹda idije."
+      },
+      "success": {
+        "videoUploadMessage": "Fidio ti kojọpọ ni aṣeyọri!",
+        "createContestMessage": "Idije ti a ṣẹda ni aṣeyọri!"
+      },
+      "validation": {
+        "noTitle": "Akole wa ni ti beere.",
+        "invalidDates": "Ọjọ ipari gbọdọ jẹ lẹhin ọjọ ibẹrẹ."
+      },
+      "noSession": {
+        "title": "O gbọdọ wọle lati ṣẹda idije kan."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profaili",
+      "settingsButton": "Lọ si Eto"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Ti beere fun igbanilaaye",
+        "message": "A nilo igbanilaaye lati wọle si awọn fọto rẹ."
+      },
+      "errorAlert": {
+        "title": "Asise",
+        "message": "O kuna lati yan aworan"
+      },
+      "successAlert": {
+        "title": "Aseyori",
+        "message": "Aworan profaili ti ni imudojuiwọn ni aṣeyọri"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Aṣiṣe Pinpin",
+        "message": "Ko le pin ọna asopọ itọkasi."
+      },
+      "successShare": {
+        "title": "Darapọ mọ mi lori Challenz!",
+        "message": "Hey! Lo ọna asopọ yii lati forukọsilẹ: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Awọn ọmọlẹhin",
+      "viewFollowers": "Wo Awọn ọmọlẹyin"
+    },
+    "following": {
+      "label": "Awọn atẹle",
+      "viewFollowing": "Wo Awọn atẹle"
+    },
+    "posts": {
+      "label": "Awọn ifiweranṣẹ",
+      "viewPosts": "Wo Awọn ifiweranṣẹ",
+      "noVideos": "Ko si awọn fidio ti a firanṣẹ sibẹsibẹ."
+    },
+    "info": {
+      "email": "Imeeli",
+      "phone": "Foonu",
+      "location": "Ipo",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Ko ri Profaili"
+    },
+    "buttons": {
+      "inviteFriends": "Pe Awọn ọrẹ",
+      "deleteVideo": "Pa Fidio rẹ",
+      "deleteVideoAlert": {
+        "title": "Pa Fidio rẹ",
+        "message": "Ṣe o da ọ loju pe o fẹ pa fidio yii rẹ bi?"
+      },
+      "deleteSuccess": {
+        "title": "Aseyori",
+        "message": "Fidio paarẹ ni aṣeyọri."
+      },
+      "deleteError": {
+        "title": "Asise",
+        "message": "Kuna lati pa fidio rẹ."
+      }
+    },
+    "errors": {
+      "generalError": "Aṣiṣe kan ṣẹlẹ.",
+      "profileError": "Kuna lati mu profaili wa.",
+      "submissionsError": "Kuna lati mu awọn ifisilẹ."
+    },
+    "loading": {
+      "profile": "Nkojọpọ profaili...",
+      "submissions": "Nkojọpọ awọn ifisilẹ..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Profaili Ṣatunkọ",
+      "cancelButton": "Fagilee",
+      "saveButton": "Fipamọ awọn iyipada",
+      "savingButton": "Nfipamọ..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Orukọ akọkọ",
+        "placeholder": "Tẹ orukọ akọkọ rẹ sii",
+        "error": {
+          "tooShort": "Orukọ akọkọ ti kuru ju"
+        }
+      },
+      "lastName": {
+        "label": "Oruko idile",
+        "placeholder": "Tẹ orukọ ikẹhin rẹ sii",
+        "error": {
+          "tooShort": "Oruko idile ti kuru ju"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nomba fonu",
+        "placeholder": "Tẹ nọmba foonu rẹ sii",
+        "error": {
+          "invalid": "Jọwọ tẹ nọmba foonu to wulo"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Sọ fun wa nipa ara rẹ",
+        "error": {
+          "tooLong": "Bio gbọdọ jẹ kere ju awọn ohun kikọ 500"
+        }
+      },
+      "location": {
+        "label": "Ipo",
+        "placeholder": "Tẹ ipo rẹ sii",
+        "error": {
+          "tooLong": "Ipo gbọdọ jẹ kere ju awọn ohun kikọ 100 lọ"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Asise",
+        "message": "Kuna lati mu data profaili wa"
+      },
+      "updateSuccess": {
+        "title": "Aseyori",
+        "message": "Profaili ti ni imudojuiwọn ni aṣeyọri"
+      },
+      "updateError": {
+        "title": "Asise",
+        "message": "Kuna lati mu imudojuiwọn profaili"
+      }
+    },
+    "loading": {
+      "title": "Nkojọpọ..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Nkojọpọ...",
+    "noProfileFound": "Ko ri Profaili",
+    "authenticationRequired": "Ijeri beere",
+    "pleaseLogIn": "Jọwọ wọle lati tẹle awọn olumulo.",
+    "success": "Aseyori",
+    "unfollowSuccess": "O ti ko tẹle",
+    "followSuccess": "O n tẹle",
+    "error": "Asise",
+    "followError": "Kuna lati ṣe imudojuiwọn ipo atẹle.",
+    "posts": "Awọn ifiweranṣẹ",
+    "followers": "Awọn ọmọlẹhin",
+    "following": "Awọn atẹle",
+    "follow": "Tẹle",
+    "unfollow": "Ko tẹle",
+    "chat": "Wiregbe"
+  },
+  "settings": {
+    "settings": "Eto",
+    "fontSelected": "Font ti a ti yan",
+    "asYourFont": "ti ṣeto bi fonti rẹ.",
+    "languageSelected": "Ede ti a ti yan",
+    "asYourLanguage": "ti ṣeto bi ede rẹ.",
+    "themeSelected": "Ti yan Akori",
+    "asYourTheme": "ti ṣeto bi akori rẹ.",
+    "notifications": "Awọn iwifunni",
+    "marketplace": "Ibi ọja",
+    "account": "Iroyin",
+    "themes": "Awọn akori",
+    "fonts": "Awọn lẹta",
+    "languages": "Awọn ede",
+    "signOut": "Ifowosi jada",
+    "confirmSignOut": "Jẹrisi Wọle Jade",
+    "areYouSureSignOut": "Ṣe o da ọ loju pe o fẹ jade bi?",
+    "cancel": "Cancel",
+    "goBack": "Pada",
+    "selectFont": "Yan Font",
+    "selectLanguage": "Yan Ede",
+    "selectTheme": "Yan Akori"
+  },
+  "accountDetails": {
+    "settingsTitle": "Eto iroyin",
+    "profileSettings": "Profaili Ṣatunkọ",
+    "resetPassword": "Tun Ọrọigbaniwọle to",
+    "deleteAccount": "Pa Account",
+    "resetPasswordModal": {
+      "title": "Tun Ọrọigbaniwọle to",
+      "message": "Imeeli atunto ọrọ igbaniwọle yoo ranṣẹ si",
+      "sendEmail": "Firanṣẹ Imeeli",
+      "cancel": "Fagilee"
+    },
+    "deleteAccountModal": {
+      "title": "Pa Account",
+      "message": "Ṣe o da ọ loju pe o fẹ pa akọọlẹ rẹ rẹ bi? Iṣe yii ko le ṣe atunṣe.",
+      "delete": "Paarẹ",
+      "cancel": "Fagilee"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profaili Imudojuiwọn",
+        "message": "Profaili rẹ ti ni imudojuiwọn ni aṣeyọri."
+      },
+      "profileUpdateError": {
+        "title": "Asise",
+        "message": "Kuna lati ṣe imudojuiwọn profaili rẹ. Jọwọ gbiyanju lẹẹkansi."
+      },
+      "passwordReset": {
+        "title": "Ọrọigbaniwọle Tunto",
+        "message": "Imeeli atunto ọrọ igbaniwọle ti ti firanṣẹ."
+      },
+      "passwordResetError": {
+        "title": "Asise",
+        "message": "Kuna lati fi imeeli atunto ọrọ igbaniwọle ranṣẹ. Jọwọ gbiyanju lẹẹkansi."
+      },
+      "accountDeleted": {
+        "title": "Account Parẹ",
+        "message": "Akọọlẹ rẹ ti paarẹ ni aṣeyọri."
+      },
+      "accountDeleteError": {
+        "title": "Asise",
+        "message": "Kuna lati pa akọọlẹ rẹ rẹ. Jọwọ gbiyanju lẹẹkansi."
+      }
+    }
+  }
+}

@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Phonononga Imiceli-mngeni",
+      "thatInspire": "ekhuthazayo!",
+      "signUp": "Bhalisa",
+      "signIn": "Ngena"
+    },
+    "signUp": {
+      "title": "Bhalisa",
+      "headerMessage": "Yila i-akhawunti entsha ukuze uqale",
+      "businessTitle": "Bhalisa njengeSoShishini",
+      "headerMessageBusiness": "Yila i-akhawunti yeshishini ukuze uqale",
+      "form": {
+        "username": {
+          "label": "Igama lomsebenzisi",
+          "placeholder": "Khetha igama lomsebenzisi",
+          "validation": {
+            "minLength": "Igama lomsebenzisi kufuneka libe neziqalelo ezingekho ngaphantsi kwe-3",
+            "regex": "Igama lomsebenzisi lingaba neziqalelo, amanani, kunye nemigca emitsolo kuphela"
+          }
+        },
+        "firstname": {
+          "label": "Igama lokuqala",
+          "placeholder": "Faka igama lakho lokuqala",
+          "validation": "Igama lokuqala kufuneka libe neziqalelo ezingekho ngaphantsi kwe-3"
+        },
+        "lastname": {
+          "label": "Ifani",
+          "placeholder": "Faka ifani yakho",
+          "validation": "Ifani kufuneka ibe neziqalelo ezingekho ngaphantsi kwe-3"
+        },
+        "businessName": {
+          "label": "Igama leShoShishini",
+          "placeholder": "Faka igama leshishini lakho",
+          "validation": "Igama leshishini kufuneka libe neziqalelo ezingekho ngaphantsi kwe-3"
+        },
+        "website": {
+          "label": "Iwebhusayithi yeShoShishini",
+          "placeholder": "Faka iwebhusayithi yakho",
+          "validation": "Igama leshishini kufuneka libe neziqalelo ezingekho ngaphantsi kwe-3"
+        },
+        "businessType": {
+          "label": "Uhlobo lweShoShishini",
+          "placeholder": "Uhlobo lweShoShishini",
+          "validation": "Igama leshishini kufuneka libe neziqalelo ezingekho ngaphantsi kwe-3"
+        },
+        "email": {
+          "label": "I-imeyile",
+          "placeholder": "Faka idilesi yakho ye-imeyile",
+          "validation": "Nceda ufake idilesi ye-imeyile esebenzayo"
+        },
+        "phoneNumber": {
+          "label": "Inombolo yomnxeba",
+          "placeholder": "Faka inombolo yakho yomnxeba",
+          "validation": "Nceda ufake inombolo yomnxeba esebenzayo"
+        },
+        "birthday": {
+          "title": "Usuku lokuzalwa",
+          "label": "Usuku lokuzalwa",
+          "placeholder": "MM-NN-EEEE",
+          "validation": {
+            "format": "Usuku lokuzalwa kufuneka lube kuhlobo lwe-MM-NN-EEEE",
+            "validDate": "Usuku olungasebenziyo",
+            "ageRestriction": "Kufuneka ube neminyaka eli-18 okanye ngaphezulu ukuze uyile i-akhawunti"
+          }
+        },
+        "password": {
+          "label": "Igama lokugqithisa",
+          "placeholder": "Faka igama lakho lokugqithisa",
+          "validation": {
+            "minLength": "Igama lokugqithisa kufuneka libe neziqalelo ezingekho ngaphantsi kwe-8",
+            "maxLength": "Igama lokugqithisa kufuneka libe ngaphantsi kweziqalelo ezingama-64",
+            "uppercase": "Igama lokugqithisa kufuneka libe nesiqalelo esikhulu esinye",
+            "lowercase": "Igama lokugqithisa kufuneka libe nesiqalelo esincinci esinye",
+            "numberOrSpecial": "Igama lokugqithisa kufuneka libe nenani okanye isiqalelo esikhethekileyo esinye"
+          },
+          "strength": {
+            "weak": "Ibuthathaka",
+            "fair": "Ilungile",
+            "good": "Iyancomeka",
+            "strong": "Iyomelele"
+          }
+        },
+        "confirmPassword": {
+          "label": "Qinisekisa Igama lokugqithisa",
+          "placeholder": "Phinda ufake igama lakho lokugqithisa",
+          "validation": "Amagama okugqithisa awahambelani"
+        }
+      },
+      "buttons": {
+        "createAccount": "Yila I-akhawunti",
+        "alreadyHaveAccount": "Unayo i-akhawunti kakade?",
+        "signIn": "Ngena",
+        "businessJoin": "Joyina iChallenz njengeqabane leshishini"
+      },
+      "alerts": {
+        "error": {
+          "title": "Impazamo",
+          "message": "Kwenzeke impazamo xa kuyilwa i-akhawunti yakho. Nceda uzame kwakhona"
+        },
+        "passwordMismatch": {
+          "title": "Ukungahambelani Kwegama Lokugqithisa",
+          "message": "Igama lokugqithisa elingachanekanga. Nceda uzame kwakhona"
+        },
+        "agreementRequired": {
+          "title": "Isivumelwano Siyafuneka",
+          "message": "Nceda uvume Imiqathango Yokusebenza kunye Nomgaqo-nkqubo Wabucala"
+        },
+        "success": {
+          "title": "Impumelelo",
+          "message": "I-akhawunti iyilwe ngempumelelo"
+        },
+        "signUpError": {
+          "title": "Impazamo Yokubhalisa",
+          "message": "Kwenzeke impazamo xa kuyilwa i-akhawunti yakho. Nceda uzame kwakhona"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Ngokubhalisa, uqinisekisa ukuba ufundile",
+        "termsOfService": "Imiqathango Yokusebenza",
+        "privacyPolicy": "Umgaqo-nkqubo Wabucala",
+        "andAccepted": "kwaye uyivumile"
+      }
+    },
+    "signIn": {
+      "title": "Ngena",
+      "headerMessage": "Faka iimpawu zakho ukuze ufikelele kwi-akhawunti yakho",
+      "form": {
+        "email": "I-imeyile",
+        "emailPlaceholder": "Faka i-imeyile yakho",
+        "password": "Igama lokugqithisa",
+        "passwordPlaceholder": "Faka igama lakho lokugqithisa"
+      },
+      "buttons": {
+        "signIn": "Ngena",
+        "forgotPassword": "Ulibele igama lokugqithisa?",
+        "noAccount": "Awunayo i-akhawunti?",
+        "signUp": " Bhalisa"
+      },
+      "forgotPassword": {
+        "title": "Ilityalwe Igama Lokugqithisa",
+        "prompt": "Nceda ufake i-imeyile yakho kuqala",
+        "successTitle": "Jonga i-imeyile yakho",
+        "successMessage": "Sithumele ikhonco yokusetha kwakhona igama lokugqithisa kwi-imeyile yakho",
+        "errorTitle": "Impazamo Yokusetha Kwakhona"
+      },
+      "termsAndPrivacy": {
+        "message": "Ngokubhalisa, uqinisekisa ukuba ufundile",
+        "termsOfService": "Imiqathango Yokusebenza",
+        "privacyPolicy": "Umgaqo-nkqubo Wabucala",
+        "andAccepted": "kwaye uyivumile"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Impazamo Yokungena"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Ilityalwe Igama Lokugqithisa",
+      "description": "Faka idilesi yakho ye-imeyile ngezantsi kwaye sikuthumelela ikhonco yokusetha kwakhona igama lakho lokugqithisa",
+      "form": {
+        "email": "Idilesi ye-imeyile"
+      },
+      "buttons": {
+        "reset": "Setha kwakhona igama lokugqithisa",
+        "sending": "Iyathumela...",
+        "remembered": "Ukhumbule igama lakho lokugqithisa?",
+        "signIn": "Ngena"
+      },
+      "alerts": {
+        "enterEmail": "Nceda ufake idilesi yakho ye-imeyile",
+        "checkEmail": "Jonga i-imeyile yakho ukwenzela ikhonco yokusetha kwakhona",
+        "resetError": "Ayiphumelelanga ukusetha kwakhona igama lokugqithisa"
+      }
+    },
+    "resetPassword": {
+      "title": "Hlaziya Igama Lokugqithisa",
+      "description": "Faka igama lakho lokugqithisa elitsha ngezantsi ukuze usethe kwakhona igama lokugqithisa le-akhawunti yakho",
+      "form": {
+        "newPassword": "Faka igama lokugqithisa elitsha",
+        "confirmPassword": "Qinisekisa igama lokugqithisa elitsha"
+      },
+      "alerts": {
+        "enterBothPasswords": "Nceda uzalise izibonisi zombini zamagama okugqithisa",
+        "passwordMismatch": "Amagama okugqithisa awahambelani. Nceda uzame kwakhona",
+        "success": "Igama lakho lokugqithisa lihlaziyiwe ngempumelelo",
+        "updateError": "Impazamo yokuhlaziyo igama lokugqithisa. Nceda uzame kwakhona"
+      },
+      "buttons": {
+        "saving": "Iyagcina...",
+        "update": "Hlaziya Igama Lokugqithisa"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Ithokheni yokufikelela engasebenziyo okanye engekhoyo",
+        "sessionFailed": "Ayiphumelelanga ukusetha iseshoni",
+        "invalidPassword": "Nceda ufake igama lokugqithisa esebenzayo eline ziqalelo ezingekho ngaphantsi kwe-8",
+        "updateFailed": "Ayiphumelelanga ukuhlaziya igama lakho lokugqithisa"
+      },
+      "success": {
+        "passwordUpdated": "Igama lakho lokugqithisa lihlaziyiwe. Nceda ungene kwakhona"
+      },
+      "title": "Setha Kwakhona Igama Lokugqithisa Lakho",
+      "instructions": "Faka igama lokugqithisa elitsha",
+      "labels": {
+        "newPassword": "Igama Lokugqithisa Elitsha"
+      },
+      "placeholders": {
+        "newPassword": "Faka igama lokugqithisa elitsha"
+      },
+      "buttons": {
+        "updatePassword": "Hlaziya Igama Lokugqithisa"
+      }
+    },
+    "tabs": {
+      "home": "Ikhaya",
+      "search": "Khangela",
+      "create": "Yila",
+      "contest": "Ukhuphiswano",
+      "menu": "Imenyu",
+      "settings": "Izilungiselelo",
+      "profile": "Iprofayile",
+      "editProfile": "Hlela Iprofayile Yakho",
+      "otherUserProfile": "Iprofayile Yomsebenzisi",
+      "explore": "Phonononga",
+      "challengeDetails": "Iinkcukacha Zomceli-mngeni",
+      "submissionDetails": "Iinkcukacha Zokungeniswa",
+      "contestDetails": "Iinkcukacha Zokhuphiswano",
+      "followers": "Abalandeli ",
+      "following": "Ukulandela ",
+      "account": "I-akhawunti",
+      "notifications": "Izaziso",
+      "leaderboard": "Ibhodi yabazikhokeli",
+      "market": "Imarike",
+      "rewards": "Imivuzo",
+      "coin": "Iikhoini Zakho"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Yila",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Umfanekiso wekhaya",
+        "search": "Umfanekiso wokukhangela",
+        "create": "Umfanekiso wokuyila",
+        "explore": "Umfanekiso wokuphonononga",
+        "profile": "Umfanekiso weprofayile"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Khangela okungenisiweyo, abasebenzisi, imiceli-mngeni...",
+      "clearSearch": "Cima imfakelo yokukhangela",
+      "loading": "Iyalayisha...",
+      "error": {
+        "title": "Impazamo Yokukhangela",
+        "message": "Kwenzeke impazamo ngexesha lokukhangela"
+      },
+      "noPreviousSearches": "Azikho iimfuno ezidlulileyo zokukhangela",
+      "previousSearches": "Iimfuno Ezidlulileyo Zokukhangela",
+      "submissions": {
+        "title": "Okungenisiweyo",
+        "noResults": "Akukho ngeniso ifunyenweyo",
+        "videoError": {
+          "title": "Impazamo Yevidiyo",
+          "message": "Ayiphumelelanga ukulayisha ividiyo"
+        }
+      },
+      "users": {
+        "title": "Abasebenzisi",
+        "noResults": "Akukho abasebenzisi bafunyenweyo"
+      },
+      "challenges": {
+        "title": "Imiceli-mngeni",
+        "noResults": "Akukho miceli-mngeni ifunyenweyo",
+        "videoError": {
+          "title": "Impazamo Yevidiyo",
+          "message": "Ayiphumelelanga ukulayisha ividiyo yomceli-mngeni"
+        },
+        "category": "Icandelo: ",
+        "seasonalTag": "Yesizini",
+        "sponsoredTag": "Yoxhaso"
+      },
+      "repeatSearch": "Phinda ukhangele",
+      "accessibility": {
+        "viewVideo": "Buka ividiyo enesihloko",
+        "viewProfile": "Buka iprofayile ka",
+        "viewChallenge": "Buka umceli-mngeni onesihloko"
+      }
+    },
+    "contest": {
+      "title": "Lonke Ukhuphiswano",
+      "createContestButton": "Yila Ukhuphiswano"
+    },
+    "contests": {
+      "noContests": "Akukho khuphiswano lufunyenweyo",
+      "error": {
+        "title": "Impazamo",
+        "message": "Ayiphumelanga ukufumana ukhuphiswano"
+      },
+      "status": {
+        "notStarted": "Ayiqalanga",
+        "ongoing": "Iqhubekeka",
+        "ended": "Iphelile"
+      },
+      "dates": {
+        "start": "Ukuqala: ",
+        "end": "Ukuphela: ",
+        "notAvailable": "Ayikho"
+      },
+      "contestDetailsButton": "Buka Iinkcukacha Zokhuphiswano"
+    },
+    "newContest": {
+      "header": {
+        "title": "Yila Ukhuphiswano Olutsha",
+        "backButton": "Emva"
+      },
+      "fields": {
+        "title": {
+          "label": "Isihloko",
+          "placeholder": "umzekelo, Ukudanisa kweHlobo",
+          "validation": "Isihloko siyafuneka"
+        },
+        "description": {
+          "label": "Inkcazelo",
+          "placeholder": "Ukhuphiswano lungantoni?"
+        },
+        "startDate": {
+          "label": "Usuku Lokuqala",
+          "placeholder": "MM-NN-EEEE",
+          "validation": "Usuku lokuphela kufuneka lube emva kosuku lokuqala"
+        },
+        "endDate": {
+          "label": "Usuku Lokuphela",
+          "placeholder": "MM-NN-EEEE"
+        },
+        "winnerReward": {
+          "label": "Umbuyekezo Womphumeleli (Iikhoini ze-Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Umbuyekezo Womthathi-nxaxheba (Iikhoini ze-Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Ividiyo Yenkcazelo (Ukhetho)",
+          "noVideoSelected": "Yongeza ividiyo yenkcazelo",
+          "picked": "Ikhethiwe: {filename}",
+          "uploaded": "Ilayishiwe: Ividiyo ilayishwe ngempumelelo",
+          "chooseVideoButton": "Khetha Ividiyo",
+          "uploadVideoButton": "Layisha Ividiyo"
+        }
+      },
+      "buttons": {
+        "createContest": "Yila Ukhuphiswano"
+      },
+      "alerts": {
+        "error": {
+          "title": "Impazamo",
+          "pickVideoMessage": "Ayiphumelelanga ukukhetha ividiyo",
+          "uploadVideoMessage": "Ayiphumelelanga ukulayisha ividiyo",
+          "createContestMessage": "Ayiphumelelanga ukuyila ukhuphiswano"
+        },
+        "success": {
+          "title": "Impumelelo",
+          "videoUploadMessage": "Ividiyo ilayishwe ngempumelelo!",
+          "createContestMessage": "Ukhuphiswano luyilwe ngempumelelo!"
+        },
+        "validation": {
+          "noTitle": "Isihloko siyafuneka",
+          "invalidDates": "Usuku lokuphela kufuneka lube emva kosuku lokuqala"
+        },
+        "noSession": {
+          "title": "Kufuneka ungene ukuze uyile ukhuphiswano"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Iprofayile",
+        "settingsButton": "Yiya Kwizilungiselelo"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Imvume iyafuneka",
+          "message": "Sifuna imvume yokufikelela kwizinto ezifotwe kuwe"
+        },
+        "errorAlert": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukukhetha umfanekiso"
+        },
+        "successAlert": {
+          "title": "Impumelelo",
+          "message": "Umfanekiso weprofayile uhlaziyiwe ngempumelelo"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Impazamo Yokwabelana",
+          "message": "Akukwazeki ukwabelana ngekhonco yesalathiso"
+        },
+        "successShare": {
+          "title": "Joyina nam kwiChallenz!",
+          "message": "Molo! Sebenzisa le khonco ukuze ubhalise: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Abalandeli",
+        "viewFollowers": "Buka Abalandeli"
+      },
+      "following": {
+        "label": "Ukulandela",
+        "viewFollowing": "Buka Ukulandela"
+      },
+      "posts": {
+        "label": "Izithunyelwe",
+        "viewPosts": "Buka Izithunyelwe",
+        "noVideos": "Akukho vidiyo zithunyelwe okwangoku"
+      },
+      "info": {
+        "email": "I-imeyile",
+        "phone": "Umnxeba",
+        "location": "Indawo",
+        "coins": "Iikhoini ze-Uwaci",
+        "bio": "I-bhayografi",
+        "noProfile": "Akukho Profayile Ifunyenweyo"
+      },
+      "buttons": {
+        "inviteFriends": "Mema Abahlobo",
+        "deleteVideo": "Cima Ividiyo",
+        "deleteVideoAlert": {
+          "title": "Cima Ividiyo",
+          "message": "Ingaba uqinisekile ukuba ufuna ukucima le vidiyo?"
+        },
+        "deleteSuccess": {
+          "title": "Impumelelo",
+          "message": "Ividiyo icinyiwe ngempumelelo"
+        },
+        "deleteError": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukucima ividiyo"
+        }
+      },
+      "errors": {
+        "generalError": "Kwenzeke impazamo",
+        "profileError": "Ayiphumelelanga ukufumana iprofayile",
+        "submissionsError": "Ayiphumelelanga ukufumana izinto ezingenisiweyo"
+      },
+      "loading": {
+        "profile": "Iyalayisha iprofayile...",
+        "submissions": "Iyalayisha izinto ezingenisiweyo..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Hlela Iprofayile",
+        "cancelButton": "Rhoxisa",
+        "saveButton": "Gcina Iinguqulelo",
+        "savingButton": "Iyagcina..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Igama lokuqala",
+          "placeholder": "Faka igama lakho lokuqala",
+          "error": {
+            "tooShort": "Igama lokuqala lifutshane kakhulu"
+          }
+        },
+        "lastName": {
+          "label": "Ifani",
+          "placeholder": "Faka ifani yakho",
+          "error": {
+            "tooShort": "Ifani ifutshane kakhulu"
+          }
+        },
+        "phoneNumber": {
+          "label": "Inombolo yomnxeba",
+          "placeholder": "Faka inombolo yakho yomnxeba",
+          "error": {
+            "invalid": "Nceda ufake inombolo yomnxeba esebenzayo"
+          }
+        },
+        "bio": {
+          "label": "I-bhayografi",
+          "placeholder": "Sixelele ngawe",
+          "error": {
+            "tooLong": "I-bhayografi kufuneka ibe neziqalelo ezingaphantsi kwama-500"
+          }
+        },
+        "location": {
+          "label": "Indawo",
+          "placeholder": "Faka indawo yakho",
+          "error": {
+            "tooLong": "Indawo kufuneka ibe neziqalelo ezingaphantsi kwe-100"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukufumana idatha yeprofayile"
+        },
+        "updateSuccess": {
+          "title": "Impumelelo",
+          "message": "Iprofayile ihlaziyiwe ngempumelelo"
+        },
+        "updateError": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukuhlaziya iprofayile"
+        }
+      },
+      "loading": {
+        "title": "Iyalayisha..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Iyalayisha...",
+      "noProfileFound": "Akukho Profayile Ifunyenweyo",
+      "authenticationRequired": "Ingqinisekiso Iyafuneka",
+      "pleaseLogIn": "Nceda ungene ukuze ulandele abasebenzisi",
+      "success": "Impumelelo",
+      "unfollowSuccess": "Awusalandeli",
+      "followSuccess": "Ngoku uyalandela",
+      "error": "Impazamo",
+      "followError": "Ayiphumelelanga ukuhlaziya imeko yokulandela",
+      "posts": "Izithunyelwe",
+      "followers": "Abalandeli",
+      "following": "Ukulandela",
+      "follow": "Landela",
+      "unfollow": "Ungalandeli",
+      "chat": "Ncokola"
+    },
+    "menu": {
+      "menu": "Imenyu",
+      "settings": "Izilungiselelo",
+      "yourUwaciCoins": "Iikhoini zakho ze-Uwaci",
+      "notifications": "Izaziso",
+      "marketplace": "Imarike",
+      "signOut": "Phuma",
+      "confirmSignOut": "Qinisekisa Ukuphuma",
+      "areYouSureSignOut": "Ingaba uqinisekile ukuba ufuna ukuphuma?",
+      "cancel": "Rhoxisa",
+      "goBack": "Buyela Emva"
+    },
+    "settings": {
+      "settings": "Izilungiselelo",
+      "fontSelected": "Ifonti Ekhethiweyo",
+      "asYourFont": "ibekwe njengefonti yakho",
+      "languageSelected": "Ulwimi Olukhethiweyo",
+      "asYourLanguage": "lubekwe njengolwimi lwakho",
+      "themeSelected": "Ithima Ekhethiweyo",
+      "asYourTheme": "ibekwe njengethima yakho",
+      "notifications": "Izaziso",
+      "marketplace": "Imarike",
+      "account": "I-akhawunti",
+      "themes": "Iithima",
+      "fonts": "Iifonti",
+      "languages": "Iilwimi",
+      "signOut": "Phuma",
+      "confirmSignOut": "Qinisekisa Ukuphuma",
+      "areYouSureSignOut": "Ingaba uqinisekile ukuba ufuna ukuphuma?",
+      "cancel": "Rhoxisa",
+      "goBack": "Buyela Emva",
+      "selectFont": "Khetha Ifonti",
+      "selectLanguage": "Khetha Ulwimi",
+      "selectTheme": "Khetha Ithima",
+      "passwordSecurity": "Igama Lokugqithisa Nokhuseleko",
+      "personalDetails": "Iinkcukacha Zobuqu",
+      "verification": "Ingqinisekiso",
+      "paymentMethods": "Iindlela zokuhlawula",
+      "adPreferences": "Izikhethwa Zezibhengezo",
+      "upgradePremium": "Nyukela kwi-premium",
+      "content": "Umxholo",
+      "language": "Ulwimi",
+      "savedDraft": "Okugciniweyo Okuzakuhlela",
+      "yourActivity": "Umsebenzi Wakho",
+      "accessibility": "Ukufikeleleka",
+      "privacy": "Ubungasese",
+      "comments": "Izimvo",
+      "privateAccount": "I-akhawunti Yangasese",
+      "directMessaging": "Umyalezo Ongqalileyo",
+      "blockedReports": "Ezithinteleweyo/Iingxelo",
+      "termsPolicies": "Imiqathango kunye Nemigaqo-nkqubo",
+      "switchAccount": "Tshintsha I-akhawunti"
+    },
+    "accountDetails": {
+      "settingsTitle": "Izilungiselelo ze-Akhawunti",
+      "profileSettings": "Hlela Iprofayile ",
+      "resetPassword": "Setha Kwakhona Igama Lokugqithisa",
+      "deleteAccount": "Cima I-akhawunti",
+      "resetPasswordModal": {
+        "title": "Setha Kwakhona Igama Lokugqithisa",
+        "message": "I-imeyile yokusetha kwakhona igama lokugqithisa iyakuthunyelwa ku",
+        "sendEmail": "Thumela I-imeyile",
+        "cancel": "Rhoxisa"
+      },
+      "deleteAccountModal": {
+        "title": "Cima I-akhawunti",
+        "message": "Ingaba uqinisekile ukuba ufuna ukucima i-akhawunti yakho? Esi senzo asinakupheliswa",
+        "delete": "Cima",
+        "cancel": "Rhoxisa"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Iprofayile Ihlaziyiwe",
+          "message": "Iprofayile yakho ihlaziyiwe ngempumelelo"
+        },
+        "profileUpdateError": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukuhlaziya iprofayile yakho. Nceda uzame kwakhona"
+        },
+        "passwordReset": {
+          "title": "Ukusetha Kwakhona Igama Lokugqithisa",
+          "message": "I-imeyile yokusetha kwakhona igama lokugqithisa ithunyelwe"
+        },
+        "passwordResetError": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukuthumela i-imeyile yokusetha kwakhona igama lokugqithisa. Nceda uzame kwakhona"
+        },
+        "accountDeleted": {
+          "title": "I-akhawunti Icinyiwe",
+          "message": "I-akhawunti yakho icinyiwe ngempumelelo"
+        },
+        "accountDeleteError": {
+          "title": "Impazamo",
+          "message": "Ayiphumelelanga ukucima i-akhawunti yakho. Nceda uzame kwakhona"
+        }
+      }
+    }
+  }

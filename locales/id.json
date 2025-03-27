@@ -1,0 +1,630 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Jelajahi Tantangan",
+    "thatInspire": "yang Menginspirasi!",
+    "signUp": "Daftar",
+    "signIn": "Masuk"
+  },
+  "signUp": {
+    "title": "Daftar",
+    "headerMessage": "Buat akun baru untuk memulai.",
+    "businessTitle": "Daftar sebagai Bisnis",
+    "headerMessageBusiness": "Buat akun bisnis untuk memulai.",
+    "form": {
+      "username": {
+        "label": "Nama Pengguna",
+        "placeholder": "Pilih nama pengguna",
+        "validation": {
+          "minLength": "Nama pengguna harus minimal 3 karakter.",
+          "regex": "Nama pengguna hanya boleh berisi huruf, angka, dan garis bawah"
+        }
+      },
+      "firstname": {
+        "label": "Nama Depan",
+        "placeholder": "Masukkan nama depan Anda",
+        "validation": "Nama depan harus minimal 3 karakter."
+      },
+      "lastname": {
+        "label": "Nama Belakang",
+        "placeholder": "Masukkan nama belakang Anda",
+        "validation": "Nama belakang harus minimal 3 karakter."
+      },
+      "businessName": {
+        "label": "Nama Bisnis",
+        "placeholder": "Masukkan nama bisnis Anda",
+        "validation": "Nama bisnis harus minimal 3 karakter."
+      },
+      "website": {
+        "label": "Situs Web Bisnis",
+        "placeholder": "Masukkan situs web Anda",
+        "validation": "Nama bisnis harus minimal 3 karakter."
+      },
+      "businessType": {
+        "label": "Jenis Bisnis",
+        "placeholder": "Jenis Bisnis",
+        "validation": "Nama bisnis harus minimal 3 karakter."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Masukkan alamat email Anda",
+        "validation": "Silakan masukkan alamat email yang valid."
+      },
+      "phoneNumber": {
+        "label": "Nomor Telepon",
+        "placeholder": "Masukkan nomor telepon Anda",
+        "validation": "Silakan masukkan nomor telepon yang valid."
+      },
+      "birthday": {
+        "title": "Tanggal Lahir",
+        "label": "Tanggal Lahir",
+        "placeholder": "DD-MM-YYYY",
+        "validation": {
+          "format": "Tanggal lahir harus dalam format DD-MM-YYYY",
+          "validDate": "Tanggal tidak valid",
+          "ageRestriction": "Anda harus berusia 18 tahun atau lebih untuk membuat akun"
+        }
+      },
+      "password": {
+        "label": "Kata Sandi",
+        "placeholder": "Masukkan kata sandi Anda",
+        "validation": {
+          "minLength": "Kata sandi harus minimal 8 karakter.",
+          "maxLength": "Kata sandi harus kurang dari 64 karakter.",
+          "uppercase": "Kata sandi harus mengandung minimal satu huruf besar.",
+          "lowercase": "Kata sandi harus mengandung minimal satu huruf kecil.",
+          "numberOrSpecial": "Kata sandi harus mengandung minimal satu angka atau karakter khusus."
+        },
+        "strength": {
+          "weak": "Lemah",
+          "fair": "Cukup",
+          "good": "Baik",
+          "strong": "Kuat"
+        }
+      },
+      "confirmPassword": {
+        "label": "Konfirmasi Kata Sandi",
+        "placeholder": "Masukkan kembali kata sandi Anda",
+        "validation": "Kata sandi tidak cocok."
+      }
+    },
+    "buttons": {
+      "createAccount": "Buat Akun",
+      "alreadyHaveAccount": "Sudah memiliki akun?",
+      "signIn": "Masuk",
+      "businessJoin": "Bergabung dengan Challenz sebagai mitra bisnis"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kesalahan",
+        "message": "Terjadi kesalahan saat membuat akun Anda. Silakan coba lagi."
+      },
+      "passwordMismatch": {
+        "title": "Kata Sandi Tidak Cocok",
+        "message": "Kata Sandi Salah. Silakan coba lagi."
+      },
+      "agreementRequired": {
+        "title": "Persetujuan Diperlukan",
+        "message": "Silakan terima Ketentuan Layanan dan Kebijakan Privasi."
+      },
+      "success": {
+        "title": "Berhasil",
+        "message": "Akun berhasil dibuat."
+      },
+      "signUpError": {
+        "title": "Kesalahan Pendaftaran",
+        "message": "Terjadi kesalahan saat membuat akun Anda. Silakan coba lagi."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Dengan mendaftar, Anda menyetujui bahwa Anda telah membaca",
+      "termsOfService": "Ketentuan Layanan",
+      "privacyPolicy": "Kebijakan Privasi",
+      "andAccepted": "dan menerima"
+    }
+  },
+  "signIn": {
+    "title": "Masuk",
+    "headerMessage": "Masukkan kredensial Anda untuk mengakses akun Anda.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Masukkan Email Anda",
+      "password": "Kata Sandi",
+      "passwordPlaceholder": "Masukkan Kata Sandi Anda"
+    },
+    "buttons": {
+      "signIn": "Masuk",
+      "forgotPassword": "Lupa Kata Sandi?",
+      "noAccount": "Belum memiliki akun?",
+      "signUp": " Daftar"
+    },
+    "forgotPassword": {
+      "title": "Lupa Kata Sandi",
+      "prompt": "Silakan masukkan email Anda terlebih dahulu.",
+      "successTitle": "Periksa email Anda",
+      "successMessage": "Kami telah mengirimkan tautan reset kata sandi ke email Anda.",
+      "errorTitle": "Kesalahan Reset"
+    },
+    "termsAndPrivacy": {
+      "message": "Dengan mendaftar, Anda menyetujui bahwa Anda telah membaca",
+      "termsOfService": "Ketentuan Layanan",
+      "privacyPolicy": "Kebijakan Privasi",
+      "andAccepted": "dan menerima"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Kesalahan Masuk"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Lupa Kata Sandi",
+    "description": "Masukkan alamat email Anda di bawah ini dan kami akan mengirimkan tautan untuk mereset kata sandi Anda.",
+    "form": {
+      "email": "Alamat Email"
+    },
+    "buttons": {
+      "reset": "Reset Kata Sandi",
+      "sending": "Mengirim...",
+      "remembered": "Ingat kata sandi Anda?",
+      "signIn": "Masuk"
+    },
+    "alerts": {
+      "enterEmail": "Silakan masukkan alamat email Anda.",
+      "checkEmail": "Periksa email Anda untuk tautan reset.",
+      "resetError": "Gagal mereset kata sandi"
+    }
+  },
+  "resetPassword": {
+    "title": "Perbarui Kata Sandi",
+    "description": "Masukkan kata sandi baru Anda di bawah ini untuk mereset kata sandi akun Anda.",
+    "form": {
+      "newPassword": "Masukkan kata sandi baru",
+      "confirmPassword": "Konfirmasi kata sandi baru"
+    },
+    "alerts": {
+      "enterBothPasswords": "Silakan masukkan kedua bidang kata sandi.",
+      "passwordMismatch": "Kata sandi tidak cocok. Silakan coba lagi.",
+      "success": "Kata sandi Anda telah berhasil diperbarui.",
+      "updateError": "Kesalahan memperbarui kata sandi. Silakan coba lagi."
+    },
+    "buttons": {
+      "saving": "Menyimpan...",
+      "update": "Perbarui Kata Sandi"
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Token akses tidak valid atau hilang.",
+      "sessionFailed": "Gagal mengatur sesi.",
+      "invalidPassword": "Silakan masukkan kata sandi yang valid minimal 8 karakter.",
+      "updateFailed": "Gagal memperbarui kata sandi Anda."
+    },
+    "success": {
+      "passwordUpdated": "Kata sandi Anda telah diperbarui. Silakan masuk lagi."
+    },
+    "title": "Reset Kata Sandi Anda",
+    "instructions": "Masukkan kata sandi baru.",
+    "labels": {
+      "newPassword": "Kata Sandi Baru"
+    },
+    "placeholders": {
+      "newPassword": "Masukkan kata sandi baru"
+    },
+    "buttons": {
+      "updatePassword": "Perbarui Kata Sandi"
+    }
+  },
+  "tabs": {
+    "home": "Beranda",
+    "search": "Cari",
+    "create": "Buat",
+    "contest": "Kontes",
+    "menu": "Menu",
+    "settings": "Pengaturan",
+    "profile": "Profil",
+    "editProfile": "Edit Profil Anda",
+    "otherUserProfile": "Profil Pengguna",
+    "explore": "Jelajahi",
+    "challengeDetails": "Detail Tantangan",
+    "submissionDetails": "Detail Kiriman",
+    "contestDetails": "Detail Kontes",
+    "followers": "Pengikut ",
+    "following": "Mengikuti ",
+    "account": "Akun",
+    "notifications": "Notifikasi",
+    "leaderboard": "Papan Peringkat",
+    "market": "Pasar",
+    "rewards": "Hadiah",
+    "coin": "Koin Anda"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Buat",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Ikon beranda",
+      "search": "Ikon pencarian",
+      "create": "Ikon buat",
+      "explore": "Ikon jelajahi",
+      "profile": "Ikon profil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Cari kiriman, pengguna, tantangan...",
+    "clearSearch": "Hapus input pencarian",
+    "loading": "Memuat...",
+    "error": {
+      "title": "Kesalahan Pencarian",
+      "message": "Terjadi kesalahan selama pencarian."
+    },
+    "noPreviousSearches": "Tidak ada pencarian sebelumnya.",
+    "previousSearches": "Pencarian Sebelumnya",
+    "submissions": {
+      "title": "Kiriman",
+      "noResults": "Tidak ada kiriman yang ditemukan.",
+      "videoError": {
+        "title": "Kesalahan Video",
+        "message": "Gagal memuat video."
+      }
+    },
+    "users": {
+      "title": "Pengguna",
+      "noResults": "Tidak ada pengguna yang ditemukan."
+    },
+    "challenges": {
+      "title": "Tantangan",
+      "noResults": "Tidak ada tantangan yang ditemukan.",
+      "videoError": {
+        "title": "Kesalahan Video",
+        "message": "Gagal memuat video tantangan."
+      },
+      "category": "Kategori: ",
+      "seasonalTag": "Musiman",
+      "sponsoredTag": "Disponsori"
+    },
+    "repeatSearch": "Ulangi pencarian untuk",
+    "accessibility": {
+      "viewVideo": "Lihat video berjudul",
+      "viewProfile": "Lihat profil dari",
+      "viewChallenge": "Lihat tantangan berjudul"
+    }
+  },
+  "contest": {
+    "title": "Semua Kontes",
+    "createContestButton": "Buat Kontes"
+  },
+  "contests": {
+    "noContests": "Tidak ada kontes yang ditemukan.",
+    "error": {
+      "title": "Kesalahan",
+      "message": "Gagal mengambil kontes."
+    },
+    "status": {
+      "notStarted": "Belum Dimulai",
+      "ongoing": "Berlangsung",
+      "ended": "Berakhir"
+    },
+    "dates": {
+      "start": "Mulai: ",
+      "end": "Akhir: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Lihat Detail Kontes"
+  },
+  "newContest": {
+    "header": {
+      "title": "Buat Kontes Baru",
+      "backButton": "Kembali"
+    },
+    "fields": {
+      "title": {
+        "label": "Judul",
+        "placeholder": "mis., Tarian Musim Panas",
+        "validation": "Judul diperlukan."
+      },
+      "description": {
+        "label": "Deskripsi",
+        "placeholder": "Kontes ini tentang apa?"
+      },
+      "startDate": {
+        "label": "Tanggal Mulai",
+        "placeholder": "DD-MM-YYYY",
+        "validation": "Tanggal akhir harus setelah tanggal mulai."
+      },
+      "endDate": {
+        "label": "Tanggal Akhir",
+        "placeholder": "DD-MM-YYYY"
+      },
+      "winnerReward": {
+        "label": "Hadiah Pemenang (Koin Uwaci)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Hadiah Peserta (Koin Uwaci)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Deskripsi Video (Opsional)",
+        "noVideoSelected": "Tambahkan deskripsi video.",
+        "picked": "Dipilih: {filename}",
+        "uploaded": "Diunggah: Video berhasil diunggah.",
+        "chooseVideoButton": "Pilih Video",
+        "uploadVideoButton": "Unggah Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Buat Kontes"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kesalahan",
+        "pickVideoMessage": "Gagal memilih video.",
+        "uploadVideoMessage": "Gagal mengunggah video.",
+        "createContestMessage": "Gagal membuat kontes."
+      },
+      "success": {
+        "title": "Berhasil.",
+        "videoUploadMessage": "Video berhasil diunggah!",
+        "createContestMessage": "Kontes berhasil dibuat!"
+      },
+      "validation": {
+        "noTitle": "Judul diperlukan.",
+        "invalidDates": "Tanggal akhir harus setelah tanggal mulai."
+      },
+      "noSession": {
+        "title": "Anda harus masuk untuk membuat kontes."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Buka Pengaturan"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Izin diperlukan",
+        "message": "Kami memerlukan izin untuk mengakses foto Anda."
+      },
+      "errorAlert": {
+        "title": "Kesalahan",
+        "message": "Gagal memilih gambar"
+      },
+      "successAlert": {
+        "title": "Berhasil",
+        "message": "Foto profil berhasil diperbarui"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Kesalahan Berbagi",
+        "message": "Tidak dapat membagikan tautan rujukan."
+      },
+      "successShare": {
+        "title": "Bergabunglah dengan saya di Challenz!",
+        "message": "Hei! Gunakan tautan ini untuk mendaftar: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Pengikut",
+      "viewFollowers": "Lihat Pengikut"
+    },
+    "following": {
+      "label": "Mengikuti",
+      "viewFollowing": "Lihat Mengikuti"
+    },
+    "posts": {
+      "label": "Kiriman",
+      "viewPosts": "Lihat Kiriman",
+      "noVideos": "Belum ada video yang diposting."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Telepon",
+      "location": "Lokasi",
+      "coins": "Koin Uwaci",
+      "bio": "Bio",
+      "noProfile": "Tidak Ada Profil Ditemukan"
+    },
+    "buttons": {
+      "inviteFriends": "Undang Teman",
+      "deleteVideo": "Hapus Video",
+      "deleteVideoAlert": {
+        "title": "Hapus Video",
+        "message": "Apakah Anda yakin ingin menghapus video ini?"
+      },
+      "deleteSuccess": {
+        "title": "Berhasil",
+        "message": "Video berhasil dihapus."
+      },
+      "deleteError": {
+        "title": "Kesalahan",
+        "message": "Gagal menghapus video."
+      }
+    },
+    "errors": {
+      "generalError": "Terjadi kesalahan.",
+      "profileError": "Gagal mengambil profil.",
+      "submissionsError": "Gagal mengambil kiriman."
+    },
+    "loading": {
+      "profile": "Memuat profil...",
+      "submissions": "Memuat kiriman..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Edit Profil",
+      "cancelButton": "Batal",
+      "saveButton": "Simpan Perubahan",
+      "savingButton": "Menyimpan..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Nama Depan",
+        "placeholder": "Masukkan nama depan Anda",
+        "error": {
+          "tooShort": "Nama depan terlalu pendek"
+        }
+      },
+      "lastName": {
+        "label": "Nama Belakang",
+        "placeholder": "Masukkan nama belakang Anda",
+        "error": {
+          "tooShort": "Nama belakang terlalu pendek"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nomor Telepon",
+        "placeholder": "Masukkan nomor telepon Anda",
+        "error": {
+          "invalid": "Silakan masukkan nomor telepon yang valid"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Ceritakan tentang diri Anda",
+        "error": {
+          "tooLong": "Bio harus kurang dari 500 karakter"
+        }
+      },
+      "location": {
+        "label": "Lokasi",
+        "placeholder": "Masukkan lokasi Anda",
+        "error": {
+          "tooLong": "Lokasi harus kurang dari 100 karakter"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Kesalahan",
+        "message": "Gagal mengambil data profil"
+      },
+      "updateSuccess": {
+        "title": "Berhasil",
+        "message": "Profil berhasil diperbarui"
+      },
+      "updateError": {
+        "title": "Kesalahan",
+        "message": "Gagal memperbarui profil"
+      }
+    },
+    "loading": {
+      "title": "Memuat..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Memuat...",
+    "noProfileFound": "Tidak Ada Profil Ditemukan",
+    "authenticationRequired": "Otentikasi Diperlukan",
+    "pleaseLogIn": "Silakan masuk untuk mengikuti pengguna.",
+    "success": "Berhasil",
+    "unfollowSuccess": "Anda telah berhenti mengikuti",
+    "followSuccess": "Anda sekarang mengikuti",
+    "error": "Kesalahan",
+    "followError": "Gagal memperbarui status mengikuti.",
+    "posts": "Kiriman",
+    "followers": "Pengikut",
+    "following": "Mengikuti",
+    "follow": "Ikuti",
+    "unfollow": "Berhenti Mengikuti",
+    "chat": "Obrolan"
+  },
+  "menu": {
+    "menu": "Menu",
+    "settings": "Pengaturan",
+    "yourUwaciCoins": "Koin Uwaci Anda",
+    "notifications": "Notifikasi",
+    "marketplace": "Pasar",
+    "signOut": "Keluar",
+    "confirmSignOut": "Konfirmasi Keluar",
+    "areYouSureSignOut": "Apakah Anda yakin ingin keluar?",
+    "cancel": "Batal",
+    "goBack": "Kembali"
+  },
+  "settings": {
+    "settings": "Pengaturan",
+    "fontSelected": "Font Dipilih",
+    "asYourFont": "telah diatur sebagai font Anda.",
+    "languageSelected": "Bahasa Dipilih",
+    "asYourLanguage": "telah diatur sebagai bahasa Anda.",
+    "themeSelected": "Tema Dipilih",
+    "asYourTheme": "telah diatur sebagai tema Anda.",
+    "notifications": "Notifikasi",
+    "marketplace": "Pasar",
+    "account": "Akun",
+    "themes": "Tema",
+    "fonts": "Font",
+    "languages": "Bahasa",
+    "signOut": "Keluar",
+    "confirmSignOut": "Konfirmasi Keluar",
+    "areYouSureSignOut": "Apakah Anda yakin ingin keluar?",
+    "cancel": "Batal",
+    "goBack": "Kembali",
+    "selectFont": "Pilih Font",
+    "selectLanguage": "Pilih Bahasa",
+    "selectTheme": "Pilih Tema",
+    "passwordSecurity": "Kata Sandi & Keamanan",
+    "personalDetails": "Detail Pribadi",
+    "verification": "Verifikasi",
+    "paymentMethods": "Metode pembayaran",
+    "adPreferences": "Preferensi Iklan",
+    "upgradePremium": "Tingkatkan ke premium",
+    "content": "Konten",
+    "language": "Bahasa",
+    "savedDraft": "Draf Tersimpan",
+    "yourActivity": "Aktivitas Anda",
+    "accessibility": "Aksesibilitas",
+    "privacy": "Privasi",
+    "comments": "Komentar",
+    "privateAccount": "Akun Pribadi",
+    "directMessaging": "Pesan Langsung",
+    "blockedReports": "Diblokir/Laporan",
+    "termsPolicies": "Ketentuan dan Kebijakan",
+    "switchAccount": "Beralih Akun"
+  },
+  "accountDetails": {
+    "settingsTitle": "Pengaturan Akun",
+    "profileSettings": "Edit Profil ",
+    "resetPassword": "Reset Kata Sandi",
+    "deleteAccount": "Hapus Akun",
+    "resetPasswordModal": {
+      "title": "Reset Kata Sandi",
+      "message": "Email reset kata sandi akan dikirim ke",
+      "sendEmail": "Kirim Email",
+      "cancel": "Batal"
+    },
+    "deleteAccountModal": {
+      "title": "Hapus Akun",
+      "message": "Apakah Anda yakin ingin menghapus akun Anda? Tindakan ini tidak dapat dibatalkan.",
+      "delete": "Hapus",
+      "cancel": "Batal"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Diperbarui",
+        "message": "Profil Anda telah berhasil diperbarui."
+      },
+      "profileUpdateError": {
+        "title": "Kesalahan",
+        "message": "Gagal memperbarui profil Anda. Silakan coba lagi."
+      },
+      "passwordReset": {
+        "title": "Reset Kata Sandi",
+        "message": "Email reset kata sandi telah dikirim."
+      },
+      "passwordResetError": {
+        "title": "Kesalahan",
+        "message": "Gagal mengirim email reset kata sandi. Silakan coba lagi."
+      },
+      "accountDeleted": {
+        "title": "Akun Dihapus",
+        "message": "Akun Anda telah berhasil dihapus."
+      },
+      "accountDeleteError": {
+        "title": "Kesalahan",
+        "message": "Gagal menghapus akun Anda. Silakan coba lagi."
+      }
+    }
+  }
+}

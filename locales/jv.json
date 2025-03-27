@@ -1,0 +1,102 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Eksplorasi Tantangan",
+    "thatInspire": "sing Nginspirasi!",
+    "signUp": "Ndhaftar",
+    "signIn": "Mlebu"
+  },
+  "signUp": {
+    "title": "Ndhaftar",
+    "headerMessage": "Gawe akun anyar kanggo miwiti.",
+    "businessTitle": "Ndhaftar minangka Bisnis",
+    "headerMessageBusiness": "Gawe akun bisnis kanggo miwiti.",
+    "form": {
+      "username": {
+        "label": "Jeneng Panganggo",
+        "placeholder": "Milih jeneng panganggo",
+        "validation": {
+          "minLength": "Jeneng panganggo kudu minimal 3 karakter.",
+          "regex": "Jeneng panganggo mung bisa ngemot huruf, angka, lan garis ngisor"
+        }
+      },
+      "firstname": {
+        "label": "Jeneng Ngarep",
+        "placeholder": "Lebokno jeneng ngarep sampeyan",
+        "validation": "Jeneng ngarep kudu minimal 3 karakter."
+      },
+      "lastname": {
+        "label": "Jeneng Mburi",
+        "placeholder": "Lebokno jeneng mburi sampeyan",
+        "validation": "Jeneng mburi kudu minimal 3 karakter."
+      },
+      "businessName": {
+        "label": "Jeneng Bisnis",
+        "placeholder": "Lebokno jeneng bisnis sampeyan",
+        "validation": "Jeneng bisnis kudu minimal 3 karakter."
+      }
+    },
+    "buttons": {
+      "createAccount": "Gawe Akun",
+      "alreadyHaveAccount": "Wis duwe akun?",
+      "signIn": "Mlebu",
+      "businessJoin": "Gabung Challenz minangka mitra bisnis"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kesalahan",
+        "message": "Ana kesalahan nalika nggawe akun sampeyan. Mangga cobi malih."
+      }
+    }
+  },
+  "tabs": {
+    "home": "Omah",
+    "search": "Nggoleki",
+    "create": "Gawe",
+    "contest": "Lomba",
+    "menu": "Menu",
+    "settings": "Pangaturan",
+    "profile": "Profil",
+    "editProfile": "Ngedit Profil",
+    "otherUserProfile": "Profil Panganggo",
+    "explore": "Eksplorasi",
+    "challengeDetails": "Detail Tantangan",
+    "submissionDetails": "Detail Kiriman",
+    "contestDetails": "Detail Lomba",
+    "followers": "Pengikut",
+    "following": "Diikuti",
+    "account": "Akun",
+    "notifications": "Notifikasi",
+    "leaderboard": "Papan Peringkat",
+    "market": "Pasar",
+    "rewards": "Hadiah",
+    "coin": "Dhuwit Sampeyan"
+  },
+  "menu": {
+    "menu": "Menu",
+    "settings": "Pangaturan",
+    "yourUwaciCoins": "Dhuwit Uwaci Sampeyan",
+    "notifications": "Notifikasi",
+    "marketplace": "Pasar",
+    "signOut": "Metu",
+    "confirmSignOut": "Konfirmasi Metu",
+    "areYouSureSignOut": "Apa sampeyan yakin arep metu?",
+    "cancel": "Batal",
+    "goBack": "Bali"
+  },
+  "settings": {
+    "settings": "Pangaturan",
+    "fontSelected": "Font Dipilih",
+    "asYourFont": "wis diatur dadi font sampeyan.",
+    "languageSelected": "Basa Dipilih",
+    "asYourLanguage": "wis diatur dadi basa sampeyan.",
+    "themeSelected": "Tema Dipilih",
+    "asYourTheme": "wis diatur dadi tema sampeyan.",
+    "notifications": "Notifikasi",
+    "marketplace": "Pasar",
+    "account": "Akun",
+    "themes": "Tema",
+    "fonts": "Font",
+    "languages": "Basa",
+    "signOut": "Metu"
+  }
+}

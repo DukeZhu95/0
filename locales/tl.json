@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Tuklasin ang mga Hamon",
+      "thatInspire": "na Nagbibigay-inspirasyon!",
+      "signUp": "Mag-sign Up",
+      "signIn": "Mag-sign In"
+    },
+    "signUp": {
+      "title": "Mag-sign Up",
+      "headerMessage": "Lumikha ng bagong account para makapagsimula.",
+      "businessTitle": "Mag-rehistro bilang Negosyo",
+      "headerMessageBusiness": "Lumikha ng business account para makapagsimula.",
+      "form": {
+        "username": {
+          "label": "Username",
+          "placeholder": "Pumili ng username",
+          "validation": {
+            "minLength": "Ang username ay dapat may hindi bababa sa 3 character.",
+            "regex": "Ang username ay maaari lamang maglaman ng mga letra, numero, at underscore"
+          }
+        },
+        "firstname": {
+          "label": "Pangalan",
+          "placeholder": "Ilagay ang iyong pangalan",
+          "validation": "Ang pangalan ay dapat may hindi bababa sa 3 character."
+        },
+        "lastname": {
+          "label": "Apelyido",
+          "placeholder": "Ilagay ang iyong apelyido",
+          "validation": "Ang apelyido ay dapat may hindi bababa sa 3 character."
+        },
+        "businessName": {
+          "label": "Pangalan ng Negosyo",
+          "placeholder": "Ilagay ang pangalan ng iyong negosyo",
+          "validation": "Ang pangalan ng negosyo ay dapat may hindi bababa sa 3 character."
+        },
+        "website": {
+          "label": "Website ng Negosyo",
+          "placeholder": "Ilagay ang iyong website",
+          "validation": "Ang pangalan ng negosyo ay dapat may hindi bababa sa 3 character."
+        },
+        "businessType": {
+          "label": "Uri ng Negosyo",
+          "placeholder": "Uri ng Negosyo",
+          "validation": "Ang pangalan ng negosyo ay dapat may hindi bababa sa 3 character."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Ilagay ang iyong email address",
+          "validation": "Mangyaring maglagay ng wastong email address."
+        },
+        "phoneNumber": {
+          "label": "Numero ng Telepono",
+          "placeholder": "Ilagay ang iyong numero ng telepono",
+          "validation": "Mangyaring maglagay ng wastong numero ng telepono."
+        },
+        "birthday": {
+          "title": "Kaarawan",
+          "label": "Kaarawan",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Ang kaarawan ay dapat nasa format na DD-MM-YYYY",
+            "validDate": "Hindi wastong petsa",
+            "ageRestriction": "Dapat ay 18 taong gulang pataas ka para makagawa ng account"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Ilagay ang iyong password",
+          "validation": {
+            "minLength": "Ang password ay dapat may hindi bababa sa 8 character.",
+            "maxLength": "Ang password ay dapat may hindi hihigit sa 64 character.",
+            "uppercase": "Ang password ay dapat maglaman ng hindi bababa sa isang malalaking letra.",
+            "lowercase": "Ang password ay dapat maglaman ng hindi bababa sa isang maliit na letra.",
+            "numberOrSpecial": "Ang password ay dapat maglaman ng hindi bababa sa isang numero o special character."
+          },
+          "strength": {
+            "weak": "Mahina",
+            "fair": "Katamtaman",
+            "good": "Maganda",
+            "strong": "Malakas"
+          }
+        },
+        "confirmPassword": {
+          "label": "Kumpirmahin ang Password",
+          "placeholder": "Ilagay muli ang iyong password",
+          "validation": "Hindi magkatugma ang mga password."
+        }
+      },
+      "buttons": {
+        "createAccount": "Lumikha ng Account",
+        "alreadyHaveAccount": "Mayroon ka nang account?",
+        "signIn": "Mag-sign In",
+        "businessJoin": "Sumali sa Challenz bilang business partner"
+      },
+      "alerts": {
+        "error": {
+          "title": "Error",
+          "message": "May naganap na error habang nililikha ang iyong account. Pakisubukang muli."
+        },
+        "passwordMismatch": {
+          "title": "Hindi Magkatugma ang Password",
+          "message": "Mali ang Password. Pakisubukang muli."
+        },
+        "agreementRequired": {
+          "title": "Kinakailangan ang Kasunduan",
+          "message": "Mangyaring tanggapin ang Mga Tuntunin ng Serbisyo at Patakaran sa Privacy."
+        },
+        "success": {
+          "title": "Tagumpay",
+          "message": "Matagumpay na nalikha ang account."
+        },
+        "signUpError": {
+          "title": "Error sa Pag-sign Up",
+          "message": "May naganap na error habang nililikha ang iyong account. Pakisubukang muli."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Sa pamamagitan ng pagpaparehistro, sumasang-ayon ka na nabasa mo ang aming",
+        "termsOfService": "Mga Tuntunin ng Serbisyo",
+        "privacyPolicy": "Patakaran sa Privacy",
+        "andAccepted": "at tinanggap ang aming"
+      }
+    },
+    "signIn": {
+      "title": "Mag-sign In",
+      "headerMessage": "Ilagay ang iyong mga kredensyal para ma-access ang iyong account.",
+      "form": {
+        "email": "Email",
+        "emailPlaceholder": "Ilagay ang iyong Email",
+        "password": "Password",
+        "passwordPlaceholder": "Ilagay ang iyong Password"
+      },
+      "buttons": {
+        "signIn": "Mag-sign In",
+        "forgotPassword": "Nakalimutan ang Password?",
+        "noAccount": "Wala kang account?",
+        "signUp": " Mag-sign Up"
+      },
+      "forgotPassword": {
+        "title": "Nakalimutan ang Password",
+        "prompt": "Mangyaring ilagay muna ang iyong email sa itaas.",
+        "successTitle": "Tingnan ang iyong email",
+        "successMessage": "Nagpadala kami ng link para sa pag-reset ng password sa iyong email.",
+        "errorTitle": "Error sa Pag-reset"
+      },
+      "termsAndPrivacy": {
+        "message": "Sa pamamagitan ng pagpaparehistro, sumasang-ayon ka na nabasa mo ang aming",
+        "termsOfService": "Mga Tuntunin ng Serbisyo",
+        "privacyPolicy": "Patakaran sa Privacy",
+        "andAccepted": "at tinanggap ang aming"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Error sa Pag-sign In"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Nakalimutan ang Password",
+      "description": "Ilagay ang iyong email address sa ibaba at magpapadala kami ng link para i-reset ang iyong password.",
+      "form": {
+        "email": "Email Address"
+      },
+      "buttons": {
+        "reset": "I-reset ang Password",
+        "sending": "Ipinapadala...",
+        "remembered": "Naalala mo na ang iyong password?",
+        "signIn": "Mag-sign In"
+      },
+      "alerts": {
+        "enterEmail": "Mangyaring ilagay ang iyong email address.",
+        "checkEmail": "Tingnan ang iyong email para sa link ng pag-reset.",
+        "resetError": "Hindi na-reset ang password"
+      }
+    },
+    "resetPassword": {
+      "title": "I-update ang Password",
+      "description": "Ilagay ang iyong bagong password sa ibaba para i-reset ang password ng iyong account.",
+      "form": {
+        "newPassword": "Ilagay ang bagong password",
+        "confirmPassword": "Kumpirmahin ang bagong password"
+      },
+      "alerts": {
+        "enterBothPasswords": "Mangyaring punan ang parehong field ng password.",
+        "passwordMismatch": "Hindi magkatugma ang mga password. Pakisubukang muli.",
+        "success": "Matagumpay na na-update ang iyong password.",
+        "updateError": "Error sa pag-update ng password. Pakisubukang muli."
+      },
+      "buttons": {
+        "saving": "Sine-save...",
+        "update": "I-update ang Password"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Hindi wasto o nawawalang access token.",
+        "sessionFailed": "Nabigong itakda ang session.",
+        "invalidPassword": "Mangyaring maglagay ng wastong password na may hindi bababa sa 8 character.",
+        "updateFailed": "Nabigo ang pag-update ng iyong password."
+      },
+      "success": {
+        "passwordUpdated": "Na-update na ang iyong password. Mangyaring mag-sign in muli."
+      },
+      "title": "I-reset ang Iyong Password",
+      "instructions": "Maglagay ng bagong password.",
+      "labels": {
+        "newPassword": "Bagong Password"
+      },
+      "placeholders": {
+        "newPassword": "Ilagay ang bagong password"
+      },
+      "buttons": {
+        "updatePassword": "I-update ang Password"
+      }
+    },
+    "tabs": {
+      "home": "Home",
+      "search": "Paghahanap",
+      "create": "Lumikha",
+      "contest": "Mga Paligsahan",
+      "menu": "Menu",
+      "settings": "Mga Setting",
+      "profile": "Profile",
+      "editProfile": "I-edit ang Iyong Profile",
+      "otherUserProfile": "Profile ng User",
+      "explore": "Explore",
+      "challengeDetails": "Mga Detalye ng Hamon",
+      "submissionDetails": "Mga Detalye ng Submission",
+      "contestDetails": "Mga Detalye ng Paligsahan",
+      "followers": "Mga Tagasubaybay ",
+      "following": "Sinusubaybayan ",
+      "account": "Account",
+      "notifications": "Mga Notification",
+      "leaderboard": "Leaderboard",
+      "market": "Marketplace",
+      "rewards": "Mga Reward",
+      "coin": "Iyong mga Coin"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Lumikha",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Icon ng home",
+        "search": "Icon ng paghahanap",
+        "create": "Icon ng paggawa",
+        "explore": "Icon ng pag-explore",
+        "profile": "Icon ng profile"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Maghanap ng mga submission, users, hamon...",
+      "clearSearch": "I-clear ang input ng paghahanap",
+      "loading": "Naglo-load...",
+      "error": {
+        "title": "Error sa Paghahanap",
+        "message": "May naganap na error habang naghahanap."
+      },
+      "noPreviousSearches": "Walang nakaraang paghahanap.",
+      "previousSearches": "Nakaraang Mga Paghahanap",
+      "submissions": {
+        "title": "Mga Submission",
+        "noResults": "Walang nahanap na mga submission.",
+        "videoError": {
+          "title": "Error sa Video",
+          "message": "Hindi maload ang video."
+        }
+      },
+      "users": {
+        "title": "Mga User",
+        "noResults": "Walang nahanap na mga user."
+      },
+      "challenges": {
+        "title": "Mga Hamon",
+        "noResults": "Walang nahanap na mga hamon.",
+        "videoError": {
+          "title": "Error sa Video",
+          "message": "Hindi maload ang video ng hamon."
+        },
+        "category": "Kategorya: ",
+        "seasonalTag": "Pana-panahon",
+        "sponsoredTag": "May Sponsor"
+      },
+      "repeatSearch": "Ulitin ang paghahanap para sa",
+      "accessibility": {
+        "viewVideo": "Tingnan ang video na may pamagat na",
+        "viewProfile": "Tingnan ang profile ni",
+        "viewChallenge": "Tingnan ang hamon na may pamagat na"
+      }
+    },
+    "contest": {
+      "title": "Lahat ng Paligsahan",
+      "createContestButton": "Lumikha ng Paligsahan"
+    },
+    "contests": {
+      "noContests": "Walang nahanap na mga paligsahan.",
+      "error": {
+        "title": "Error",
+        "message": "Hindi makuha ang mga paligsahan."
+      },
+      "status": {
+        "notStarted": "Hindi Pa Nagsisimula",
+        "ongoing": "Kasalukuyang Ginaganap",
+        "ended": "Natapos Na"
+      },
+      "dates": {
+        "start": "Simula: ",
+        "end": "Katapusan: ",
+        "notAvailable": "Wala"
+      },
+      "contestDetailsButton": "Tingnan ang Mga Detalye ng Paligsahan"
+    },
+    "newContest": {
+      "header": {
+        "title": "Lumikha ng Bagong Paligsahan",
+        "backButton": "Bumalik"
+      },
+      "fields": {
+        "title": {
+          "label": "Pamagat",
+          "placeholder": "hal., Sayawan sa Tag-init",
+          "validation": "Kinakailangan ang pamagat."
+        },
+        "description": {
+          "label": "Paglalarawan",
+          "placeholder": "Ano ang tungkol sa paligsahang ito?"
+        },
+        "startDate": {
+          "label": "Petsa ng Pagsisimula",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Ang petsa ng pagtatapos ay dapat na pagkatapos ng petsa ng pagsisimula."
+        },
+        "endDate": {
+          "label": "Petsa ng Pagtatapos",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Gantimpala ng Nanalo (Uwaci Coins)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Gantimpala ng Kalahok (Uwaci Coins)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Paglalarawan ng Video (Opsyonal)",
+          "noVideoSelected": "Magdagdag ng paglalarawan ng video.",
+          "picked": "Napili: {filename}",
+          "uploaded": "Nai-upload: Matagumpay na nai-upload ang video.",
+          "chooseVideoButton": "Pumili ng Video",
+          "uploadVideoButton": "I-upload ang Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Lumikha ng Paligsahan"
+      },
+      "alerts": {
+        "error": {
+          "title": "Error",
+          "pickVideoMessage": "Hindi mapili ang video.",
+          "uploadVideoMessage": "Hindi ma-upload ang video.",
+          "createContestMessage": "Hindi malikha ang paligsahan."
+        },
+        "success": {
+          "title": "Tagumpay.",
+          "videoUploadMessage": "Matagumpay na nai-upload ang video!",
+          "createContestMessage": "Matagumpay na nalikha ang paligsahan!"
+        },
+        "validation": {
+          "noTitle": "Kinakailangan ang pamagat.",
+          "invalidDates": "Ang petsa ng pagtatapos ay dapat na pagkatapos ng petsa ng pagsisimula."
+        },
+        "noSession": {
+          "title": "Kailangan mong mag-sign in para lumikha ng paligsahan."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profile",
+        "settingsButton": "Pumunta sa Mga Setting"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Kinakailangan ang pahintulot",
+          "message": "Kailangan namin ng pahintulot para ma-access ang iyong mga larawan."
+        },
+        "errorAlert": {
+          "title": "Error",
+          "message": "Hindi mapili ang larawan"
+        },
+        "successAlert": {
+          "title": "Tagumpay",
+          "message": "Matagumpay na na-update ang larawan ng profile"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Error sa Pagbabahagi",
+          "message": "Hindi maibahagi ang referral link."
+        },
+        "successShare": {
+          "title": "Sumali sa akin sa Challenz!",
+          "message": "Hey! Gamitin ang link na ito para mag-sign up: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Mga Tagasubaybay",
+        "viewFollowers": "Tingnan ang Mga Tagasubaybay"
+      },
+      "following": {
+        "label": "Sinusubaybayan",
+        "viewFollowing": "Tingnan ang Sinusubaybayan"
+      },
+      "posts": {
+        "label": "Mga Post",
+        "viewPosts": "Tingnan ang Mga Post",
+        "noVideos": "Wala pang nai-post na mga video."
+      },
+      "info": {
+        "email": "Email",
+        "phone": "Telepono",
+        "location": "Lokasyon",
+        "coins": "Uwaci Coins",
+        "bio": "Bio",
+        "noProfile": "Walang Nahanap na Profile"
+      },
+      "buttons": {
+        "inviteFriends": "Mag-imbita ng Mga Kaibigan",
+        "deleteVideo": "Burahin ang Video",
+        "deleteVideoAlert": {
+          "title": "Burahin ang Video",
+          "message": "Sigurado ka bang gusto mong burahin ang video na ito?"
+        },
+        "deleteSuccess": {
+          "title": "Tagumpay",
+          "message": "Matagumpay na nabura ang video."
+        },
+        "deleteError": {
+          "title": "Error",
+          "message": "Hindi mabura ang video."
+        }
+      },
+      "errors": {
+        "generalError": "May naganap na error.",
+        "profileError": "Hindi makuha ang profile.",
+        "submissionsError": "Hindi makuha ang mga submission."
+      },
+      "loading": {
+        "profile": "Naglo-load ng profile...",
+        "submissions": "Naglo-load ng mga submission..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "I-edit ang Profile",
+        "cancelButton": "Kanselahin",
+        "saveButton": "I-save ang Mga Pagbabago",
+        "savingButton": "Sine-save..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Pangalan",
+          "placeholder": "Ilagay ang iyong pangalan",
+          "error": {
+            "tooShort": "Masyadong maikli ang pangalan"
+          }
+        },
+        "lastName": {
+          "label": "Apelyido",
+          "placeholder": "Ilagay ang iyong apelyido",
+          "error": {
+            "tooShort": "Masyadong maikli ang apelyido"
+          }
+        },
+        "phoneNumber": {
+          "label": "Numero ng Telepono",
+          "placeholder": "Ilagay ang iyong numero ng telepono",
+          "error": {
+            "invalid": "Mangyaring maglagay ng wastong numero ng telepono"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Ikwento mo ang tungkol sa iyong sarili",
+          "error": {
+            "tooLong": "Ang bio ay dapat na mas mababa sa 500 character"
+          }
+        },
+        "location": {
+          "label": "Lokasyon",
+          "placeholder": "Ilagay ang iyong lokasyon",
+          "error": {
+            "tooLong": "Ang lokasyon ay dapat na mas mababa sa 100 character"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Error",
+          "message": "Hindi makuha ang data ng profile"
+        },
+        "updateSuccess": {
+          "title": "Tagumpay",
+          "message": "Matagumpay na na-update ang profile"
+        },
+        "updateError": {
+          "title": "Error",
+          "message": "Hindi ma-update ang profile"
+        }
+      },
+      "loading": {
+        "title": "Naglo-load..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Naglo-load...",
+      "noProfileFound": "Walang Nahanap na Profile",
+      "authenticationRequired": "Kinakailangan ang Authentication",
+      "pleaseLogIn": "Mangyaring mag-log in para ma-follow ang mga user.",
+      "success": "Tagumpay",
+      "unfollowSuccess": "Hindi mo na sinusubaybayan si",
+      "followSuccess": "Sinusubaybayan mo na ngayon si",
+      "error": "Error",
+      "followError": "Hindi ma-update ang status ng pag-follow.",
+      "posts": "Mga Post",
+      "followers": "Mga Tagasubaybay",
+      "following": "Sinusubaybayan",
+      "follow": "I-follow",
+      "unfollow": "I-unfollow",
+      "chat": "Chat"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Mga Setting",
+      "yourUwaciCoins": "Iyong Uwaci Coins",
+      "notifications": "Mga Notification",
+      "marketplace": "Marketplace",
+      "signOut": "Mag-sign Out",
+      "confirmSignOut": "Kumpirmahin ang Pag-sign Out",
+      "areYouSureSignOut": "Sigurado ka bang gusto mong mag-sign out?",
+      "cancel": "Kanselahin",
+      "goBack": "Bumalik"
+    },
+    "settings": {
+      "settings": "Mga Setting",
+      "fontSelected": "Napili ang Font",
+      "asYourFont": "ay naitakda bilang iyong font.",
+      "languageSelected": "Napili ang Wika",
+      "asYourLanguage": "ay naitakda bilang iyong wika.",
+      "themeSelected": "Napili ang Theme",
+      "asYourTheme": "ay naitakda bilang iyong theme.",
+      "notifications": "Mga Notification",
+      "marketplace": "Marketplace",
+      "account": "Account",
+      "themes": "Mga Theme",
+      "fonts": "Mga Font",
+      "languages": "Mga Wika",
+      "signOut": "Mag-sign Out",
+      "confirmSignOut": "Kumpirmahin ang Pag-sign Out",
+      "areYouSureSignOut": "Sigurado ka bang gusto mong mag-sign out?",
+      "cancel": "Kanselahin",
+      "goBack": "Bumalik",
+      "selectFont": "Pumili ng Font",
+      "selectLanguage": "Pumili ng Wika",
+      "selectTheme": "Pumili ng Theme",
+      "passwordSecurity": "Password & Seguridad",
+      "personalDetails": "Personal na Detalye",
+      "verification": "Beripikasyon",
+      "paymentMethods": "Mga paraan ng pagbabayad",
+      "adPreferences": "Mga Kagustuhan sa Ad",
+      "upgradePremium": "Mag-upgrade sa premium",
+      "content": "Content",
+      "language": "Wika",
+      "savedDraft": "Naka-save na Draft",
+      "yourActivity": "Iyong Aktibidad",
+      "accessibility": "Accessibility",
+      "privacy": "Privacy",
+      "comments": "Mga Komento",
+      "privateAccount": "Pribadong Account",
+      "directMessaging": "Direct Messaging",
+      "blockedReports": "Naka-block/Mga Ulat",
+      "termsPolicies": "Mga Tuntunin at Patakaran",
+      "switchAccount": "Lumipat ng Account"
+    },
+    "accountDetails": {
+      "settingsTitle": "Mga Setting ng Account",
+      "profileSettings": "I-edit ang Profile",
+      "resetPassword": "I-reset ang Password",
+      "deleteAccount": "Burahin ang Account",
+      "resetPasswordModal": {
+        "title": "I-reset ang Password",
+        "message": "Ipapadala ang email para sa pag-reset ng password sa",
+        "sendEmail": "Magpadala ng Email",
+        "cancel": "Kanselahin"
+      },
+      "deleteAccountModal": {
+        "title": "Burahin ang Account",
+        "message": "Sigurado ka bang gusto mong burahin ang iyong account? Hindi na mababawi ang aksyong ito.",
+        "delete": "Burahin",
+        "cancel": "Kanselahin"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Na-update ang Profile",
+          "message": "Matagumpay na na-update ang iyong profile."
+        },
+        "profileUpdateError": {
+          "title": "Error",
+          "message": "Hindi ma-update ang iyong profile. Pakisubukang muli."
+        },
+        "passwordReset": {
+          "title": "Pag-reset ng Password",
+          "message": "Napadala na ang email para sa pag-reset ng password."
+        },
+        "passwordResetError": {
+          "title": "Error",
+          "message": "Hindi maipadala ang email para sa pag-reset ng password. Pakisubukang muli."
+        },
+        "accountDeleted": {
+          "title": "Nabura ang Account",
+          "message": "Matagumpay na nabura ang iyong account."
+        },
+        "accountDeleteError": {
+          "title": "Error",
+          "message": "Hindi mabura ang iyong account. Pakisubukang muli."
+        }
+      }
+    }
+  }

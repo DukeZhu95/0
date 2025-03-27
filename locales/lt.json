@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Tyrinėkite Iššūkius",
+      "thatInspire": "kurie Įkvepia!",
+      "signUp": "Registruotis",
+      "signIn": "Prisijungti"
+    },
+    "signUp": {
+      "title": "Registracija",
+      "headerMessage": "Sukurkite naują paskyrą, kad pradėtumėte.",
+      "businessTitle": "Registruotis kaip Verslas",
+      "headerMessageBusiness": "Sukurkite verslo paskyrą, kad pradėtumėte.",
+      "form": {
+        "username": {
+          "label": "Vartotojo vardas",
+          "placeholder": "Pasirinkite vartotojo vardą",
+          "validation": {
+            "minLength": "Vartotojo vardas turi būti mažiausiai 3 simbolių ilgio.",
+            "regex": "Vartotojo vardas gali turėti tik raides, skaičius ir pabraukimus"
+          }
+        },
+        "firstname": {
+          "label": "Vardas",
+          "placeholder": "Įveskite savo vardą",
+          "validation": "Vardas turi būti mažiausiai 3 simbolių ilgio."
+        },
+        "lastname": {
+          "label": "Pavardė",
+          "placeholder": "Įveskite savo pavardę",
+          "validation": "Pavardė turi būti mažiausiai 3 simbolių ilgio."
+        },
+        "businessName": {
+          "label": "Įmonės Pavadinimas",
+          "placeholder": "Įveskite savo įmonės pavadinimą",
+          "validation": "Įmonės pavadinimas turi būti mažiausiai 3 simbolių ilgio."
+        },
+        "website": {
+          "label": "Įmonės Internetinė Svetainė",
+          "placeholder": "Įveskite savo internetinę svetainę",
+          "validation": "Įmonės pavadinimas turi būti mažiausiai 3 simbolių ilgio."
+        },
+        "businessType": {
+          "label": "Verslo Tipas",
+          "placeholder": "Verslo Tipas",
+          "validation": "Įmonės pavadinimas turi būti mažiausiai 3 simbolių ilgio."
+        },
+        "email": {
+          "label": "El. paštas",
+          "placeholder": "Įveskite savo el. pašto adresą",
+          "validation": "Prašome įvesti galiojantį el. pašto adresą."
+        },
+        "phoneNumber": {
+          "label": "Telefono Numeris",
+          "placeholder": "Įveskite savo telefono numerį",
+          "validation": "Prašome įvesti galiojantį telefono numerį."
+        },
+        "birthday": {
+          "title": "Gimimo data",
+          "label": "Gimimo data",
+          "placeholder": "DD-MM-MMMM",
+          "validation": {
+            "format": "Gimimo data turi būti formatu DD-MM-MMMM",
+            "validDate": "Neteisinga data",
+            "ageRestriction": "Jums turi būti 18 metų arba daugiau, kad galėtumėte sukurti paskyrą"
+          }
+        },
+        "password": {
+          "label": "Slaptažodis",
+          "placeholder": "Įveskite savo slaptažodį",
+          "validation": {
+            "minLength": "Slaptažodis turi būti mažiausiai 8 simbolių ilgio.",
+            "maxLength": "Slaptažodis turi būti mažiau nei 64 simbolių ilgio.",
+            "uppercase": "Slaptažodyje turi būti bent viena didžioji raidė.",
+            "lowercase": "Slaptažodyje turi būti bent viena mažoji raidė.",
+            "numberOrSpecial": "Slaptažodyje turi būti bent vienas skaičius arba specialus simbolis."
+          },
+          "strength": {
+            "weak": "Silpnas",
+            "fair": "Vidutinis",
+            "good": "Geras",
+            "strong": "Stiprus"
+          }
+        },
+        "confirmPassword": {
+          "label": "Patvirtinti Slaptažodį",
+          "placeholder": "Pakartokite savo slaptažodį",
+          "validation": "Slaptažodžiai nesutampa."
+        }
+      },
+      "buttons": {
+        "createAccount": "Sukurti Paskyrą",
+        "alreadyHaveAccount": "Jau turite paskyrą?",
+        "signIn": "Prisijungti",
+        "businessJoin": "Prisijunkite prie Challenz kaip verslo partneris"
+      },
+      "alerts": {
+        "error": {
+          "title": "Klaida",
+          "message": "Kuriant jūsų paskyrą įvyko klaida. Prašome bandyti dar kartą."
+        },
+        "passwordMismatch": {
+          "title": "Slaptažodžiai Nesutampa",
+          "message": "Neteisingas slaptažodis. Prašome bandyti dar kartą."
+        },
+        "agreementRequired": {
+          "title": "Reikalingas Sutikimas",
+          "message": "Prašome priimti Paslaugų Teikimo Sąlygas ir Privatumo Politiką."
+        },
+        "success": {
+          "title": "Sėkmė",
+          "message": "Paskyra sėkmingai sukurta."
+        },
+        "signUpError": {
+          "title": "Registracijos Klaida",
+          "message": "Kuriant jūsų paskyrą įvyko klaida. Prašome bandyti dar kartą."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Registruodamiesi jūs patvirtinate, kad perskaitėte mūsų",
+        "termsOfService": "Paslaugų Teikimo Sąlygas",
+        "privacyPolicy": "Privatumo Politiką",
+        "andAccepted": "ir priėmėte mūsų"
+      }
+    },
+    "signIn": {
+      "title": "Prisijungimas",
+      "headerMessage": "Įveskite savo prisijungimo duomenis, kad prisijungtumėte prie savo paskyros.",
+      "form": {
+        "email": "El. paštas",
+        "emailPlaceholder": "Įveskite savo El. paštą",
+        "password": "Slaptažodis",
+        "passwordPlaceholder": "Įveskite savo Slaptažodį"
+      },
+      "buttons": {
+        "signIn": "Prisijungti",
+        "forgotPassword": "Pamiršote Slaptažodį?",
+        "noAccount": "Neturite paskyros?",
+        "signUp": " Registruotis"
+      },
+      "forgotPassword": {
+        "title": "Pamirštas Slaptažodis",
+        "prompt": "Prašome pirma įvesti savo el. paštą aukščiau.",
+        "successTitle": "Patikrinkite savo el. paštą",
+        "successMessage": "Išsiuntėme slaptažodžio atstatymo nuorodą į jūsų el. paštą.",
+        "errorTitle": "Atstatymo Klaida"
+      },
+      "termsAndPrivacy": {
+        "message": "Registruodamiesi jūs patvirtinate, kad perskaitėte mūsų",
+        "termsOfService": "Paslaugų Teikimo Sąlygas",
+        "privacyPolicy": "Privatumo Politiką",
+        "andAccepted": "ir priėmėte mūsų"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Prisijungimo Klaida"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Pamirštas Slaptažodis",
+      "description": "Įveskite savo el. pašto adresą žemiau, ir mes jums atsiųsime slaptažodžio atstatymo nuorodą.",
+      "form": {
+        "email": "El. pašto Adresas"
+      },
+      "buttons": {
+        "reset": "Atstatyti Slaptažodį",
+        "sending": "Siunčiama...",
+        "remembered": "Prisiminėte slaptažodį?",
+        "signIn": "Prisijungti"
+      },
+      "alerts": {
+        "enterEmail": "Prašome įvesti savo el. pašto adresą.",
+        "checkEmail": "Patikrinkite savo el. paštą dėl atstatymo nuorodos.",
+        "resetError": "Nepavyko atstatyti slaptažodžio"
+      }
+    },
+    "resetPassword": {
+      "title": "Atnaujinti Slaptažodį",
+      "description": "Įveskite savo naują slaptažodį žemiau, kad atstatytumėte paskyros slaptažodį.",
+      "form": {
+        "newPassword": "Įveskite naują slaptažodį",
+        "confirmPassword": "Patvirtinkite naują slaptažodį"
+      },
+      "alerts": {
+        "enterBothPasswords": "Prašome užpildyti abu slaptažodžio laukus.",
+        "passwordMismatch": "Slaptažodžiai nesutampa. Prašome bandyti dar kartą.",
+        "success": "Jūsų slaptažodis sėkmingai atnaujintas.",
+        "updateError": "Klaida atnaujinant slaptažodį. Prašome bandyti dar kartą."
+      },
+      "buttons": {
+        "saving": "Išsaugoma...",
+        "update": "Atnaujinti Slaptažodį"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Neteisingas arba trūkstamas prieigos raktas.",
+        "sessionFailed": "Nepavyko nustatyti sesijos.",
+        "invalidPassword": "Prašome įvesti galiojantį slaptažodį su mažiausiai 8 simboliais.",
+        "updateFailed": "Nepavyko atnaujinti jūsų slaptažodžio."
+      },
+      "success": {
+        "passwordUpdated": "Jūsų slaptažodis atnaujintas. Prašome prisijungti iš naujo."
+      },
+      "title": "Atstatyti Slaptažodį",
+      "instructions": "Įveskite naują slaptažodį.",
+      "labels": {
+        "newPassword": "Naujas Slaptažodis"
+      },
+      "placeholders": {
+        "newPassword": "Įveskite naują slaptažodį"
+      },
+      "buttons": {
+        "updatePassword": "Atnaujinti Slaptažodį"
+      }
+    },
+    "tabs": {
+      "home": "Pagrindinis",
+      "search": "Paieška",
+      "create": "Kurti",
+      "contest": "Konkursai",
+      "menu": "Meniu",
+      "settings": "Nustatymai",
+      "profile": "Profilis",
+      "editProfile": "Redaguoti Profilį",
+      "otherUserProfile": "Vartotojo Profilis",
+      "explore": "Tyrinėti",
+      "challengeDetails": "Iššūkio Detalės",
+      "submissionDetails": "Pateikimo Detalės",
+      "contestDetails": "Konkurso Detalės",
+      "followers": "Sekėjai ",
+      "following": "Sekimai ",
+      "account": "Paskyra",
+      "notifications": "Pranešimai",
+      "leaderboard": "Lyderių Lentelė",
+      "market": "Rinka",
+      "rewards": "Apdovanojimai",
+      "coin": "Jūsų Monetos",
+      "savedChallenges": "Išsaugoti Iššūkiai"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Kurti",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Pagrindinio piktograma",
+        "search": "Paieškos piktograma",
+        "create": "Kūrimo piktograma",
+        "explore": "Tyrinėjimo piktograma",
+        "profile": "Profilio piktograma"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Ieškoti pateikimų, vartotojų, iššūkių...",
+      "clearSearch": "Išvalyti paiešką",
+      "loading": "Įkeliama...",
+      "error": {
+        "title": "Paieškos Klaida",
+        "message": "Įvyko klaida vykdant paiešką."
+      },
+      "noPreviousSearches": "Nėra ankstesnių paieškų.",
+      "previousSearches": "Ankstesnės Paieškos",
+      "submissions": {
+        "title": "Pateikimai",
+        "noResults": "Pateikimų nerasta.",
+        "videoError": {
+          "title": "Vaizdo Įrašo Klaida",
+          "message": "Nepavyko įkelti vaizdo įrašo."
+        }
+      },
+      "users": {
+        "title": "Vartotojai",
+        "noResults": "Vartotojų nerasta."
+      },
+      "challenges": {
+        "title": "Iššūkiai",
+        "noResults": "Iššūkių nerasta.",
+        "videoError": {
+          "title": "Vaizdo Įrašo Klaida",
+          "message": "Nepavyko įkelti iššūkio vaizdo įrašo."
+        },
+        "category": "Kategorija: ",
+        "seasonalTag": "Sezoninis",
+        "sponsoredTag": "Remiamas"
+      },
+      "repeatSearch": "Pakartoti paiešką",
+      "accessibility": {
+        "viewVideo": "Peržiūrėti vaizdo įrašą pavadinimu",
+        "viewProfile": "Peržiūrėti profilį",
+        "viewChallenge": "Peržiūrėti iššūkį pavadinimu"
+      }
+    },
+    "contest": {
+      "title": "Visi Konkursai",
+      "createContestButton": "Sukurti Konkursą"
+    },
+    "contests": {
+      "noContests": "Konkursų nerasta.",
+      "error": {
+        "title": "Klaida",
+        "message": "Nepavyko gauti konkursų."
+      },
+      "status": {
+        "notStarted": "Neprasidėjęs",
+        "ongoing": "Vykstantis",
+        "ended": "Pasibaigęs"
+      },
+      "dates": {
+        "start": "Pradžia: ",
+        "end": "Pabaiga: ",
+        "notAvailable": "Negalima"
+      },
+      "contestDetailsButton": "Peržiūrėti Konkurso Detales"
+    },
+    "newContest": {
+      "header": {
+        "title": "Sukurti Naują Konkursą",
+        "backButton": "Atgal"
+      },
+      "fields": {
+        "title": {
+          "label": "Pavadinimas",
+          "placeholder": "pvz., Vasaros Šokių Konkursas",
+          "validation": "Pavadinimas yra būtinas."
+        },
+        "description": {
+          "label": "Aprašymas",
+          "placeholder": "Apie ką šis konkursas?"
+        },
+        "startDate": {
+          "label": "Pradžios Data",
+          "placeholder": "DD-MM-MMMM",
+          "validation": "Pabaigos data turi būti po pradžios datos."
+        },
+        "endDate": {
+          "label": "Pabaigos Data",
+          "placeholder": "DD-MM-MMMM"
+        },
+        "winnerReward": {
+          "label": "Nugalėtojo Apdovanojimas (Uwaci Monetos)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Dalyvio Apdovanojimas (Uwaci Monetos)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Vaizdo Įrašo Aprašymas (Neprivaloma)",
+          "noVideoSelected": "Pridėkite vaizdo įrašo aprašymą.",
+          "picked": "Pasirinkta: {filename}",
+          "uploaded": "Įkelta: Vaizdo įrašas sėkmingai įkeltas.",
+          "chooseVideoButton": "Pasirinkti Vaizdo Įrašą",
+          "uploadVideoButton": "Įkelti Vaizdo Įrašą"
+        }
+      },
+      "buttons": {
+        "createContest": "Sukurti Konkursą"
+      },
+      "alerts": {
+        "error": {
+          "title": "Klaida",
+          "pickVideoMessage": "Nepavyko pasirinkti vaizdo įrašo.",
+          "uploadVideoMessage": "Nepavyko įkelti vaizdo įrašo.",
+          "createContestMessage": "Nepavyko sukurti konkurso."
+        },
+        "success": {
+          "title": "Sėkmė.",
+          "videoUploadMessage": "Vaizdo įrašas sėkmingai įkeltas!",
+          "createContestMessage": "Konkursas sėkmingai sukurtas!"
+        },
+        "validation": {
+          "noTitle": "Pavadinimas yra būtinas.",
+          "invalidDates": "Pabaigos data turi būti po pradžios datos."
+        },
+        "noSession": {
+          "title": "Turite būti prisijungę, kad galėtumėte sukurti konkursą."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profilis",
+        "settingsButton": "Eiti į Nustatymus"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Reikalingas leidimas",
+          "message": "Mums reikia leidimo pasiekti jūsų nuotraukas."
+        },
+        "errorAlert": {
+          "title": "Klaida",
+          "message": "Nepavyko pasirinkti nuotraukos"
+        },
+        "successAlert": {
+          "title": "Sėkmė",
+          "message": "Profilio nuotrauka sėkmingai atnaujinta"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Dalinimosi Klaida",
+          "message": "Neįmanoma pasidalinti nukreipimo nuoroda."
+        },
+        "successShare": {
+          "title": "Prisijunk prie manęs Challenz!",
+          "message": "Sveiki! Naudokite šią nuorodą registracijai: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Sekėjai",
+        "viewFollowers": "Peržiūrėti Sekėjus"
+      },
+      "following": {
+        "label": "Sekimai",
+        "viewFollowing": "Peržiūrėti Sekimus"
+      },
+      "posts": {
+        "label": "Įrašai",
+        "viewPosts": "Peržiūrėti Įrašus",
+        "noVideos": "Dar nėra paskelbtų vaizdo įrašų."
+      },
+      "info": {
+        "email": "El. paštas",
+        "phone": "Telefonas",
+        "location": "Vieta",
+        "coins": "Uwaci Monetos",
+        "bio": "Bio",
+        "noProfile": "Profilis Nerastas"
+      },
+      "buttons": {
+        "inviteFriends": "Pakviesti Draugus",
+        "deleteVideo": "Ištrinti Vaizdo Įrašą",
+        "deleteVideoAlert": {
+          "title": "Ištrinti Vaizdo Įrašą",
+          "message": "Ar tikrai norite ištrinti šį vaizdo įrašą?"
+        },
+        "deleteSuccess": {
+          "title": "Sėkmė",
+          "message": "Vaizdo įrašas sėkmingai ištrintas."
+        },
+        "deleteError": {
+          "title": "Klaida",
+          "message": "Nepavyko ištrinti vaizdo įrašo."
+        }
+      },
+      "errors": {
+        "generalError": "Įvyko klaida.",
+        "profileError": "Nepavyko gauti profilio.",
+        "submissionsError": "Nepavyko gauti pateikimų."
+      },
+      "loading": {
+        "profile": "Įkeliamas profilis...",
+        "submissions": "Įkeliami pateikimai..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Redaguoti Profilį",
+        "cancelButton": "Atšaukti",
+        "saveButton": "Išsaugoti Pakeitimus",
+        "savingButton": "Išsaugoma..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Vardas",
+          "placeholder": "Įveskite savo vardą",
+          "error": {
+            "tooShort": "Vardas per trumpas"
+          }
+        },
+        "lastName": {
+          "label": "Pavardė",
+          "placeholder": "Įveskite savo pavardę",
+          "error": {
+            "tooShort": "Pavardė per trumpa"
+          }
+        },
+        "phoneNumber": {
+          "label": "Telefono Numeris",
+          "placeholder": "Įveskite savo telefono numerį",
+          "error": {
+            "invalid": "Prašome įvesti galiojantį telefono numerį"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Papasakokite apie save",
+          "error": {
+            "tooLong": "Bio turi būti trumpesnis nei 500 simbolių"
+          }
+        },
+        "location": {
+          "label": "Vieta",
+          "placeholder": "Įveskite savo vietą",
+          "error": {
+            "tooLong": "Vieta turi būti trumpesnė nei 100 simbolių"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Klaida",
+          "message": "Nepavyko gauti profilio duomenų"
+        },
+        "updateSuccess": {
+          "title": "Sėkmė",
+          "message": "Profilis sėkmingai atnaujintas"
+        },
+        "updateError": {
+          "title": "Klaida",
+          "message": "Nepavyko atnaujinti profilio"
+        }
+      },
+      "loading": {
+        "title": "Įkeliama..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Įkeliama...",
+      "noProfileFound": "Profilis Nerastas",
+      "authenticationRequired": "Reikalingas Autentifikavimas",
+      "pleaseLogIn": "Prašome prisijungti, kad galėtumėte sekti vartotojus.",
+      "success": "Sėkmė",
+      "unfollowSuccess": "Jūs nebesekate",
+      "followSuccess": "Dabar jūs sekate",
+      "error": "Klaida",
+      "followError": "Nepavyko atnaujinti sekimo būsenos.",
+      "posts": "Įrašai",
+      "followers": "Sekėjai",
+      "following": "Sekimai",
+      "follow": "Sekti",
+      "unfollow": "Nebesekti",
+      "chat": "Pokalbis"
+    },
+    "menu": {
+      "menu": "Meniu",
+      "settings": "Nustatymai",
+      "yourUwaciCoins": "Jūsų Uwaci Monetos",
+      "notifications": "Pranešimai",
+      "marketplace": "Prekyvietė",
+      "signOut": "Atsijungti",
+      "confirmSignOut": "Patvirtinti Atsijungimą",
+      "areYouSureSignOut": "Ar tikrai norite atsijungti?",
+      "cancel": "Atšaukti",
+      "goBack": "Grįžti",
+      "joinNow": "Prisijungti Dabar",
+      "joinLater": "Prisijungti Vėliau",
+      "savedChallenges": "Iššūkiai, prie kurių prisijungti"
+    },
+    "settings": {
+      "settings": "Nustatymai",
+      "fontSelected": "Šriftas Pasirinktas",
+      "asYourFont": "nustatytas kaip jūsų šriftas.",
+      "languageSelected": "Kalba Pasirinkta",
+      "asYourLanguage": "nustatyta kaip jūsų kalba.",
+      "themeSelected": "Tema Pasirinkta",
+      "asYourTheme": "nustatyta kaip jūsų tema.",
+      "notifications": "Pranešimai",
+      "marketplace": "Prekyvietė",
+      "account": "Paskyra",
+      "themes": "Temos",
+      "fonts": "Šriftai",
+      "languages": "Kalbos",
+      "signOut": "Atsijungti",
+      "confirmSignOut": "Patvirtinti Atsijungimą",
+      "areYouSureSignOut": "Ar tikrai norite atsijungti?",
+      "cancel": "Atšaukti",
+      "goBack": "Grįžti",
+      "selectFont": "Pasirinkti Šriftą",
+      "selectLanguage": "Pasirinkti Kalbą",
+      "selectTheme": "Pasirinkti Temą",
+      "passwordSecurity": "Slaptažodis ir Saugumas",
+      "personalDetails": "Asmeninė Informacija",
+      "verification": "Patvirtinimas",
+      "paymentMethods": "Mokėjimo Būdai",
+      "adPreferences": "Reklamos Nuostatos",
+      "upgradePremium": "Atnaujinti į Premium",
+      "content": "Turinys",
+      "language": "Kalba",
+      "savedDraft": "Išsaugotas Juodraštis",
+      "yourActivity": "Jūsų Veikla",
+      "accessibility": "Prieinamumas",
+      "privacy": "Privatumas",
+      "comments": "Komentarai",
+      "privateAccount": "Privati Paskyra",
+      "directMessaging": "Tiesioginiai Pranešimai",
+      "blockedReports": "Užblokuoti/Pranešimai",
+      "termsPolicies": "Sąlygos ir Politikos",
+      "switchAccount": "Perjungti Paskyrą"
+    },
+    "accountDetails": {
+      "settingsTitle": "Paskyros Nustatymai",
+      "profileSettings": "Redaguoti Profilį ",
+      "resetPassword": "Atstatyti Slaptažodį",
+      "deleteAccount": "Ištrinti Paskyrą",
+      "resetPasswordModal": {
+        "title": "Atstatyti Slaptažodį",
+        "message": "Slaptažodžio atstatymo el. laiškas bus išsiųstas į",
+        "sendEmail": "Siųsti El. laišką",
+        "cancel": "Atšaukti"
+      },
+      "deleteAccountModal": {
+        "title": "Ištrinti Paskyrą",
+        "message": "Ar tikrai norite ištrinti savo paskyrą? Šio veiksmo negalima atšaukti.",
+        "delete": "Ištrinti",
+        "cancel": "Atšaukti"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profilis Atnaujintas",
+          "message": "Jūsų profilis sėkmingai atnaujintas."
+        },
+        "profileUpdateError": {
+          "title": "Klaida",
+          "message": "Nepavyko atnaujinti jūsų profilio. Prašome bandyti dar kartą."
+        },
+        "passwordReset": {
+          "title": "Slaptažodžio Atstatymas",
+          "message": "Slaptažodžio atstatymo el. laiškas išsiųstas."
+        },
+        "passwordResetError": {
+          "title": "Klaida",
+          "message": "Nepavyko išsiųsti slaptažodžio atstatymo el. laiško. Prašome bandyti dar kartą."
+        },
+        "accountDeleted": {
+          "title": "Paskyra Ištrinta",
+          "message": "Jūsų paskyra sėkmingai ištrinta."
+        },
+        "accountDeleteError": {
+          "title": "Klaida",
+          "message": "Nepavyko ištrinti jūsų paskyros. Prašome bandyti dar kartą."
+        }
+      }
+    }
+  }

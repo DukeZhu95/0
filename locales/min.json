@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Jelajahi Tantangan",
+      "thatInspire": "nan Manginspirasi!",
+      "signUp": "Daftar",
+      "signIn": "Masuak"
+    },
+    "signUp": {
+      "title": "Daftar",
+      "headerMessage": "Buek akun baru untuak mulai.",
+      "businessTitle": "Daftar sabagai Bisnis",
+      "headerMessageBusiness": "Buek akun bisnis untuak mulai.",
+      "form": {
+        "username": {
+          "label": "Namo Pangguno",
+          "placeholder": "Piliah namo pangguno",
+          "validation": {
+            "minLength": "Namo pangguno paliang saketek 3 karakter.",
+            "regex": "Namo pangguno hanyo dapek manggunoan huruf, angko, jo garih bawah"
+          }
+        },
+        "firstname": {
+          "label": "Namo Partamo",
+          "placeholder": "Masuakan namo partamo angkau",
+          "validation": "Namo partamo paliang saketek 3 karakter."
+        },
+        "lastname": {
+          "label": "Namo Tarakhir",
+          "placeholder": "Masuakan namo tarakhir angkau",
+          "validation": "Namo tarakhir paliang saketek 3 karakter."
+        },
+        "businessName": {
+          "label": "Namo Bisnis",
+          "placeholder": "Masuakan namo bisnis angkau",
+          "validation": "Namo bisnis paliang saketek 3 karakter."
+        },
+        "website": {
+          "label": "Situs Web Bisnis",
+          "placeholder": "Masuakan situs web angkau",
+          "validation": "Namo bisnis paliang saketek 3 karakter."
+        },
+        "businessType": {
+          "label": "Jenis Bisnis",
+          "placeholder": "Jenis Bisnis",
+          "validation": "Namo bisnis paliang saketek 3 karakter."
+        },
+        "email": {
+          "label": "Surek",
+          "placeholder": "Masuakan alamaik surek angkau",
+          "validation": "Tolong masuakan alamaik surek nan sah."
+        },
+        "phoneNumber": {
+          "label": "Nomor Telepon",
+          "placeholder": "Masuakan nomor telepon angkau",
+          "validation": "Tolong masuakan nomor telepon nan sah."
+        },
+        "birthday": {
+          "title": "Hari Lahia",
+          "label": "Hari Lahia",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Hari lahia musti dalam format DD-MM-YYYY",
+            "validDate": "Tanggal indak sah",
+            "ageRestriction": "Angkau musti umua 18 tahun atau labiah untuak mambuek akun"
+          }
+        },
+        "password": {
+          "label": "Kato Sandi",
+          "placeholder": "Masuakan kato sandi angkau",
+          "validation": {
+            "minLength": "Kato sandi paliang saketek 8 karakter.",
+            "maxLength": "Kato sandi paliang banyak 64 karakter.",
+            "uppercase": "Kato sandi musti ado sakurang-kurangnyo ciek huruf kapital.",
+            "lowercase": "Kato sandi musti ado sakurang-kurangnyo ciek huruf ketek.",
+            "numberOrSpecial": "Kato sandi musti ado sakurang-kurangnyo ciek angko atau karakter khusus."
+          },
+          "strength": {
+            "weak": "Lamah",
+            "fair": "Cukuik",
+            "good": "Rancak",
+            "strong": "Kuaik"
+          }
+        },
+        "confirmPassword": {
+          "label": "Konfirmasi Kato Sandi",
+          "placeholder": "Masuakan baliak kato sandi angkau",
+          "validation": "Kato sandi indak cocok."
+        }
+      },
+      "buttons": {
+        "createAccount": "Buek Akun",
+        "alreadyHaveAccount": "Alah punyo akun?",
+        "signIn": "Masuak",
+        "businessJoin": "Gabung Challenz sabagai mitra bisnis"
+      },
+      "alerts": {
+        "error": {
+          "title": "Kasalahan",
+          "message": "Kasalahan tajadi katiko mambuek akun angkau. Tolong cubo baliak."
+        },
+        "passwordMismatch": {
+          "title": "Kato Sandi Indak Cocok",
+          "message": "Kato sandi salah. Tolong cubo baliak."
+        },
+        "agreementRequired": {
+          "title": "Pasatujuan Diparaluan",
+          "message": "Tolong tarimolah Katantuan Layanan jo Kabijakan Privasi."
+        },
+        "success": {
+          "title": "Barasil",
+          "message": "Akun barasil dibuek."
+        },
+        "signUpError": {
+          "title": "Kasalahan Daftar",
+          "message": "Kasalahan tajadi katiko mambuek akun angkau. Tolong cubo baliak."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Dengan mandaftar angkau satuju bahaso angkau alah mambaco",
+        "termsOfService": "Katantuan Layanan",
+        "privacyPolicy": "Kabijakan Privasi",
+        "andAccepted": "jo manarimo"
+      }
+    },
+    "signIn": {
+      "title": "Masuak",
+      "headerMessage": "Masuakan data diri angkau untuak mangakses akun angkau.",
+      "form": {
+        "email": "Surek",
+        "emailPlaceholder": "Masuakan Surek angkau",
+        "password": "Kato Sandi",
+        "passwordPlaceholder": "Masuakan Kato Sandi angkau"
+      },
+      "buttons": {
+        "signIn": "Masuak",
+        "forgotPassword": "Lupo Kato Sandi?",
+        "noAccount": "Alun punyo akun?",
+        "signUp": " Daftar"
+      },
+      "forgotPassword": {
+        "title": "Lupo Kato Sandi",
+        "prompt": "Tolong masuakan surek angkau partamo.",
+        "successTitle": "Caliak surek angkau",
+        "successMessage": "Kami alah mangiriman tautan reset kato sandi ka surek angkau.",
+        "errorTitle": "Kasalahan Reset"
+      },
+      "termsAndPrivacy": {
+        "message": "Dengan mandaftar angkau satuju bahaso angkau alah mambaco",
+        "termsOfService": "Katantuan Layanan",
+        "privacyPolicy": "Kabijakan Privasi",
+        "andAccepted": "jo manarimo"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Kasalahan Masuak"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Lupo Kato Sandi",
+      "description": "Masuakan alamaik surek angkau di bawah jo kami akan mangiriman tautan untuak mereset kato sandi angkau.",
+      "form": {
+        "email": "Alamaik Surek"
+      },
+      "buttons": {
+        "reset": "Reset Kato Sandi",
+        "sending": "Mangiriman...",
+        "remembered": "Takana kato sandi angkau?",
+        "signIn": "Masuak"
+      },
+      "alerts": {
+        "enterEmail": "Tolong masuakan alamaik surek angkau.",
+        "checkEmail": "Caliak surek angkau untuak tautan reset.",
+        "resetError": "Gagal reset kato sandi"
+      }
+    },
+    "resetPassword": {
+      "title": "Pabarui Kato Sandi",
+      "description": "Masuakan kato sandi baru angkau di bawah untuak mereset kato sandi akun angkau.",
+      "form": {
+        "newPassword": "Masuakan kato sandi baru",
+        "confirmPassword": "Konfirmasi kato sandi baru"
+      },
+      "alerts": {
+        "enterBothPasswords": "Tolong masuakan kaduo bidang kato sandi.",
+        "passwordMismatch": "Kato sandi indak cocok. Tolong cubo baliak.",
+        "success": "Kato sandi angkau alah dipabarui.",
+        "updateError": "Kasalahan katiko mampabarui kato sandi. Tolong cubo baliak."
+      },
+      "buttons": {
+        "saving": "Manyimpan...",
+        "update": "Pabarui Kato Sandi"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Token akses indak sah atau hilang.",
+        "sessionFailed": "Gagal manatapan sesi.",
+        "invalidPassword": "Tolong masuakan kato sandi nan sah paliang saketek 8 karakter.",
+        "updateFailed": "Gagal mampabarui kato sandi angkau."
+      },
+      "success": {
+        "passwordUpdated": "Kato sandi angkau alah dipabarui. Tolong masuak baliak."
+      },
+      "title": "Reset Kato Sandi Angkau",
+      "instructions": "Masuakan kato sandi baru.",
+      "labels": {
+        "newPassword": "Kato Sandi Baru"
+      },
+      "placeholders": {
+        "newPassword": "Masuakan kato sandi baru"
+      },
+      "buttons": {
+        "updatePassword": "Pabarui Kato Sandi"
+      }
+    },
+    "tabs": {
+      "home": "Utamo",
+      "search": "Cari",
+      "create": "Buek",
+      "contest": "Kontes",
+      "menu": "Menu",
+      "settings": "Pangaturan",
+      "profile": "Profil",
+      "editProfile": "Ubah Profil Angkau",
+      "otherUserProfile": "Profil Pangguno",
+      "explore": "Jelajah",
+      "challengeDetails": "Rincian Tantangan",
+      "submissionDetails": "Rincian Kiriman",
+      "contestDetails": "Rincian Kontes",
+      "followers": "Pangikuik ",
+      "following": "Mangikuik ",
+      "account": "Akun",
+      "notifications": "Pambaritauan",
+      "leaderboard": "Papan Paringkek",
+      "market": "Pasar",
+      "rewards": "Hadiah",
+      "coin": "Uwaci Angkau"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Buek",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Ikon utamo",
+        "search": "Ikon cari",
+        "create": "Ikon buek",
+        "explore": "Ikon jelajah",
+        "profile": "Ikon profil"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Cari kiriman, pangguno, tantangan...",
+      "clearSearch": "Hapuih input pancarian",
+      "loading": "Mamuat...",
+      "error": {
+        "title": "Kasalahan Pancarian",
+        "message": "Kasalahan tajadi salamo pancarian."
+      },
+      "noPreviousSearches": "Indak ado pancarian sabalumnyo.",
+      "previousSearches": "Pancarian Sabalumnyo",
+      "submissions": {
+        "title": "Kiriman",
+        "noResults": "Indak ado kiriman nan dapek.",
+        "videoError": {
+          "title": "Kasalahan Video",
+          "message": "Gagal mamuat video."
+        }
+      },
+      "users": {
+        "title": "Pangguno",
+        "noResults": "Indak ado pangguno nan dapek."
+      },
+      "challenges": {
+        "title": "Tantangan",
+        "noResults": "Indak ado tantangan nan dapek.",
+        "videoError": {
+          "title": "Kasalahan Video",
+          "message": "Gagal mamuat video tantangan."
+        },
+        "category": "Kategori: ",
+        "seasonalTag": "Musiman",
+        "sponsoredTag": "Disponsori"
+      },
+      "repeatSearch": "Ulangi pancarian untuak",
+      "accessibility": {
+        "viewVideo": "Caliak video bajudul",
+        "viewProfile": "Caliak profil dari",
+        "viewChallenge": "Caliak tantangan bajudul"
+      }
+    },
+    "contest": {
+      "title": "Sado Kontes",
+      "createContestButton": "Buek Kontes"
+    },
+    "contests": {
+      "noContests": "Indak ado kontes nan dapek.",
+      "error": {
+        "title": "Kasalahan",
+        "message": "Gagal maambiak kontes."
+      },
+      "status": {
+        "notStarted": "Alun Dimulai",
+        "ongoing": "Sadang Bajalan",
+        "ended": "Alah Salasai"
+      },
+      "dates": {
+        "start": "Mulai: ",
+        "end": "Salasai: ",
+        "notAvailable": "Indak Ado"
+      },
+      "contestDetailsButton": "Caliak Rincian Kontes"
+    },
+    "newContest": {
+      "header": {
+        "title": "Buek Kontes Baru",
+        "backButton": "Kumbali"
+      },
+      "fields": {
+        "title": {
+          "label": "Judul",
+          "placeholder": "cth., Lomba Tari Musim Paneh",
+          "validation": "Judul diparaluan."
+        },
+        "description": {
+          "label": "Deskripsi",
+          "placeholder": "Apo iko kontes tantang?"
+        },
+        "startDate": {
+          "label": "Tanggal Mulai",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Tanggal salasai musti sasudah tanggal mulai."
+        },
+        "endDate": {
+          "label": "Tanggal Salasai",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Hadiah Pamanang (Uwaci Coins)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Hadiah Pasarato (Uwaci Coins)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Deskripsi Video (Opsional)",
+          "noVideoSelected": "Tambahkan deskripsi video.",
+          "picked": "Dipilih: {filename}",
+          "uploaded": "Diunggah: Video barasil diunggah.",
+          "chooseVideoButton": "Piliah Video",
+          "uploadVideoButton": "Unggah Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Buek Kontes"
+      },
+      "alerts": {
+        "error": {
+          "title": "Kasalahan",
+          "pickVideoMessage": "Gagal mamiliah video.",
+          "uploadVideoMessage": "Gagal mangunggah video.",
+          "createContestMessage": "Gagal mambuek kontes."
+        },
+        "success": {
+          "title": "Barasil.",
+          "videoUploadMessage": "Video barasil diunggah!",
+          "createContestMessage": "Kontes barasil dibuek!"
+        },
+        "validation": {
+          "noTitle": "Judul diparaluan.",
+          "invalidDates": "Tanggal salasai musti sasudah tanggal mulai."
+        },
+        "noSession": {
+          "title": "Angkau musti masuak untuak mambuek kontes."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profil",
+        "settingsButton": "Ka Pangaturan"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Izin diparaluan",
+          "message": "Kami mamaraluan izin untuak mangakses foto angkau."
+        },
+        "errorAlert": {
+          "title": "Kasalahan",
+          "message": "Gagal mamiliah gambar"
+        },
+        "successAlert": {
+          "title": "Barasil",
+          "message": "Gambar profil barasil dipabarui"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Kasalahan Babagi",
+          "message": "Indak dapek babagi tautan referral."
+        },
+        "successShare": {
+          "title": "Gabung jo ambo di Challenz!",
+          "message": "Hai! Gunoan tautan iko untuak mandaftar: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Pangikuik",
+        "viewFollowers": "Caliak Pangikuik"
+      },
+      "following": {
+        "label": "Mangikuik",
+        "viewFollowing": "Caliak Mangikuik"
+      },
+      "posts": {
+        "label": "Kiriman",
+        "viewPosts": "Caliak Kiriman",
+        "noVideos": "Alun ado video nan diunggah."
+      },
+      "info": {
+        "email": "Surek",
+        "phone": "Telepon",
+        "location": "Lokasi",
+        "coins": "Uwaci Coins",
+        "bio": "Bio",
+        "noProfile": "Indak Ado Profil"
+      },
+      "buttons": {
+        "inviteFriends": "Undang Kawan",
+        "deleteVideo": "Hapuih Video",
+        "deleteVideoAlert": {
+          "title": "Hapuih Video",
+          "message": "Apokah angkau yakin nio manghapuih video iko?"
+        },
+        "deleteSuccess": {
+          "title": "Barasil",
+          "message": "Video barasil dihapuih."
+        },
+        "deleteError": {
+          "title": "Kasalahan",
+          "message": "Gagal manghapuih video."
+        }
+      },
+      "errors": {
+        "generalError": "Kasalahan tajadi.",
+        "profileError": "Gagal maambiak profil.",
+        "submissionsError": "Gagal maambiak kiriman."
+      },
+      "loading": {
+        "profile": "Mamuat profil...",
+        "submissions": "Mamuat kiriman..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Ubah Profil",
+        "cancelButton": "Batal",
+        "saveButton": "Simpan Parubahan",
+        "savingButton": "Manyimpan..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Namo Partamo",
+          "placeholder": "Masuakan namo partamo angkau",
+          "error": {
+            "tooShort": "Namo partamo talalu pendek"
+          }
+        },
+        "lastName": {
+          "label": "Namo Tarakhir",
+          "placeholder": "Masuakan namo tarakhir angkau",
+          "error": {
+            "tooShort": "Namo tarakhir talalu pendek"
+          }
+        },
+        "phoneNumber": {
+          "label": "Nomor Telepon",
+          "placeholder": "Masuakan nomor telepon angkau",
+          "error": {
+            "invalid": "Tolong masuakan nomor telepon nan sah"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Carito tantang diri angkau",
+          "error": {
+            "tooLong": "Bio musti kurang dari 500 karakter"
+          }
+        },
+        "location": {
+          "label": "Lokasi",
+          "placeholder": "Masuakan lokasi angkau",
+          "error": {
+            "tooLong": "Lokasi musti kurang dari 100 karakter"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Kasalahan",
+          "message": "Gagal maambiak data profil"
+        },
+        "updateSuccess": {
+          "title": "Barasil",
+          "message": "Profil barasil dipabarui"
+        },
+        "updateError": {
+          "title": "Kasalahan",
+          "message": "Gagal mampabarui profil"
+        }
+      },
+      "loading": {
+        "title": "Mamuat..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Mamuat...",
+      "noProfileFound": "Indak Ado Profil",
+      "authenticationRequired": "Otentikasi Diparaluan",
+      "pleaseLogIn": "Tolong masuak untuak mangikuti pangguno.",
+      "success": "Barasil",
+      "unfollowSuccess": "Angkau alah barantian mangikuti",
+      "followSuccess": "Angkau kini mangikuti",
+      "error": "Kasalahan",
+      "followError": "Gagal mampabarui status mangikuti.",
+      "posts": "Kiriman",
+      "followers": "Pangikuik",
+      "following": "Mangikuik",
+      "follow": "Ikuti",
+      "unfollow": "Baranti Ikuti",
+      "chat": "Obrolan"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Pangaturan",
+      "yourUwaciCoins": "Uwaci Coins Angkau",
+      "notifications": "Pambaritauan",
+      "marketplace": "Pasar",
+      "signOut": "Kalua",
+      "confirmSignOut": "Konfirmasi Kalua",
+      "areYouSureSignOut": "Apokah angkau yakin nio kalua?",
+      "cancel": "Batal",
+      "goBack": "Kumbali"
+    },
+    "settings": {
+      "settings": "Pangaturan",
+      "fontSelected": "Fon Dipilih",
+      "asYourFont": "alah ditatapan sabagai fon angkau.",
+      "languageSelected": "Bahaso Dipilih",
+      "asYourLanguage": "alah ditatapan sabagai bahaso angkau.",
+      "themeSelected": "Tema Dipilih",
+      "asYourTheme": "alah ditatapan sabagai tema angkau.",
+      "notifications": "Pambaritauan",
+      "marketplace": "Pasar",
+      "account": "Akun",
+      "themes": "Tema",
+      "fonts": "Fon",
+      "languages": "Bahaso",
+      "signOut": "Kalua",
+      "confirmSignOut": "Konfirmasi Kalua",
+      "areYouSureSignOut": "Apokah angkau yakin nio kalua?",
+      "cancel": "Batal",
+      "goBack": "Kumbali",
+      "selectFont": "Piliah Fon",
+      "selectLanguage": "Piliah Bahaso",
+      "selectTheme": "Piliah Tema",
+      "passwordSecurity": "Kato Sandi & Kamanan",
+      "personalDetails": "Rincian Pribadi",
+      "verification": "Verifikasi",
+      "paymentMethods": "Metode pambayaran",
+      "adPreferences": "Preferensi Iklan",
+      "upgradePremium": "Upgrade ka premium",
+      "content": "Konten",
+      "language": "Bahaso",
+      "savedDraft": "Konsep Tasimpan",
+      "yourActivity": "Aktivitas Angkau",
+      "accessibility": "Aksesibilitas",
+      "privacy": "Privasi",
+      "comments": "Komentar",
+      "privateAccount": "Akun Pribadi",
+      "directMessaging": "Pasan Langsuang",
+      "blockedReports": "Diblokir/Laporan",
+      "termsPolicies": "Katantuan jo Kabijakan",
+      "switchAccount": "Ganti Akun"
+    },
+    "accountDetails": {
+      "settingsTitle": "Pangaturan Akun",
+      "profileSettings": "Ubah Profil",
+      "resetPassword": "Reset Kato Sandi",
+      "deleteAccount": "Hapuih Akun",
+      "resetPasswordModal": {
+        "title": "Reset Kato Sandi",
+        "message": "Surek reset kato sandi akan dikirim ka",
+        "sendEmail": "Kirim Surek",
+        "cancel": "Batal"
+      },
+      "deleteAccountModal": {
+        "title": "Hapuih Akun",
+        "message": "Apokah angkau yakin nio manghapuih akun angkau? Tindakan iko indak dapek dibatalkan.",
+        "delete": "Hapuih",
+        "cancel": "Batal"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profil Dipabarui",
+          "message": "Profil angkau alah barasil dipabarui."
+        },
+        "profileUpdateError": {
+          "title": "Kasalahan",
+          "message": "Gagal mampabarui profil angkau. Tolong cubo baliak."
+        },
+        "passwordReset": {
+          "title": "Reset Kato Sandi",
+          "message": "Surek reset kato sandi alah dikirim."
+        },
+        "passwordResetError": {
+          "title": "Kasalahan",
+          "message": "Gagal mangiriman surek reset kato sandi. Tolong cubo baliak."
+        },
+        "accountDeleted": {
+          "title": "Akun Dihapuih",
+          "message": "Akun angkau alah barasil dihapuih."
+        },
+        "accountDeleteError": {
+          "title": "Kasalahan",
+          "message": "Gagal manghapuih akun angkau. Tolong cubo baliak."
+        }
+      }
+    }
+  }

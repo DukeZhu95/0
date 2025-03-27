@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Eksplora an mga Hagit",
+      "thatInspire": "nga Nakadasig!",
+      "signUp": "Pagrehistro",
+      "signIn": "Pagsulod"
+    },
+    "signUp": {
+      "title": "Pagrehistro",
+      "headerMessage": "Paghimo hin bag-o nga account para makatikang.",
+      "businessTitle": "Pagrehistro komo Negosyo",
+      "headerMessageBusiness": "Paghimo hin negosyo nga account para makatikang.",
+      "form": {
+        "username": {
+          "label": "Username",
+          "placeholder": "Pagpili hin username",
+          "validation": {
+            "minLength": "An username dapat may labing gutiay 3 ka karakter.",
+            "regex": "An username puyde la magamit hin mga letra, numero, ngan underscore"
+          }
+        },
+        "firstname": {
+          "label": "Ngaran",
+          "placeholder": "Ibutang an im ngaran",
+          "validation": "An ngaran dapat may labing gutiay 3 ka karakter."
+        },
+        "lastname": {
+          "label": "Apelyido",
+          "placeholder": "Ibutang an im apelyido",
+          "validation": "An apelyido dapat may labing gutiay 3 ka karakter."
+        },
+        "businessName": {
+          "label": "Ngaran han Negosyo",
+          "placeholder": "Ibutang an ngaran han im negosyo",
+          "validation": "An ngaran han negosyo dapat may labing gutiay 3 ka karakter."
+        },
+        "website": {
+          "label": "Website han Negosyo",
+          "placeholder": "Ibutang an im website",
+          "validation": "An ngaran han negosyo dapat may labing gutiay 3 ka karakter."
+        },
+        "businessType": {
+          "label": "Klase han Negosyo",
+          "placeholder": "Klase han Negosyo",
+          "validation": "An ngaran han negosyo dapat may labing gutiay 3 ka karakter."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Ibutang an im email address",
+          "validation": "Alayon pagbutang hin balido nga email address."
+        },
+        "phoneNumber": {
+          "label": "Numero han Telepono",
+          "placeholder": "Ibutang an im numero han telepono",
+          "validation": "Alayon pagbutang hin balido nga numero han telepono."
+        },
+        "birthday": {
+          "title": "Adlaw han Pagkatawo",
+          "label": "Adlaw han Pagkatawo",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "An adlaw han pagkatawo dapat nasa format nga DD-MM-YYYY",
+            "validDate": "Diri balido nga petsa",
+            "ageRestriction": "Kinahanglan ikaw 18 anyos o mas magulang para makahimo hin account"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Ibutang an im password",
+          "validation": {
+            "minLength": "An password dapat may labing gutiay 8 ka karakter.",
+            "maxLength": "An password dapat may labing damo 64 ka karakter.",
+            "uppercase": "An password dapat may labing gutiay usa nga uppercase nga letra.",
+            "lowercase": "An password dapat may labing gutiay usa nga lowercase nga letra.",
+            "numberOrSpecial": "An password dapat may labing gutiay usa nga numero o espesyal nga karakter."
+          },
+          "strength": {
+            "weak": "Maluya",
+            "fair": "Pasado",
+            "good": "Maupay",
+            "strong": "Makusog"
+          }
+        },
+        "confirmPassword": {
+          "label": "Kumpirma han Password",
+          "placeholder": "Ibutang utro an im password",
+          "validation": "Diri nagtutugma an mga password."
+        }
+      },
+      "buttons": {
+        "createAccount": "Paghimo hin Account",
+        "alreadyHaveAccount": "May-ada ka na account?",
+        "signIn": "Pagsulod",
+        "businessJoin": "Pag-apin ha Challenz komo business partner"
+      },
+      "alerts": {
+        "error": {
+          "title": "Sayop",
+          "message": "May-ada sayop nga nahitabo samtang ginhihimo an im account. Alayon pagutro."
+        },
+        "passwordMismatch": {
+          "title": "Diri Nagtutugma an Password",
+          "message": "Sayop nga Password. Alayon pagutro."
+        },
+        "agreementRequired": {
+          "title": "Kinahanglan an Kasabotan",
+          "message": "Alayon pag-aproba han mga Termino han Serbisyo ngan Polisiya han Pribasidad."
+        },
+        "success": {
+          "title": "Malinamposon",
+          "message": "Malinamposon nga nahimo an account."
+        },
+        "signUpError": {
+          "title": "Sayop ha Pagrehistro",
+          "message": "May-ada sayop nga nahitabo samtang ginhihimo an im account. Alayon pagutro."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Pinaagi ha pagrehistro, nasugot ka nga nabasa mo an amon",
+        "termsOfService": "Mga Termino han Serbisyo",
+        "privacyPolicy": "Polisiya han Pribasidad",
+        "andAccepted": "ngan gin-aprubahan an amon"
+      }
+    },
+    "signIn": {
+      "title": "Pagsulod",
+      "headerMessage": "Ibutang an im mga kredensyal para ma-access an im account.",
+      "form": {
+        "email": "Email",
+        "emailPlaceholder": "Ibutang an im Email",
+        "password": "Password",
+        "passwordPlaceholder": "Ibutang an im Password"
+      },
+      "buttons": {
+        "signIn": "Pagsulod",
+        "forgotPassword": "Nakalimot han Password?",
+        "noAccount": "Waray account?",
+        "signUp": " Pagrehistro"
+      },
+      "forgotPassword": {
+        "title": "Nakalimot han Password",
+        "prompt": "Alayon pagbutang anay han im email ha igbaw.",
+        "successTitle": "Kitaa an im email",
+        "successMessage": "Nagpadara kami hin link para ha pag-reset han password ha im email.",
+        "errorTitle": "Sayop ha Pag-reset"
+      },
+      "termsAndPrivacy": {
+        "message": "Pinaagi ha pagrehistro, nasugot ka nga nabasa mo an amon",
+        "termsOfService": "Mga Termino han Serbisyo",
+        "privacyPolicy": "Polisiya han Pribasidad",
+        "andAccepted": "ngan gin-aprubahan an amon"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Sayop ha Pagsulod"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Nakalimot han Password",
+      "description": "Ibutang an im email address ha ubos ngan magpapadara kami hin link para ma-reset an im password.",
+      "form": {
+        "email": "Email Address"
+      },
+      "buttons": {
+        "reset": "I-reset an Password",
+        "sending": "Nagpapadara...",
+        "remembered": "Nahinumdoman mo an im password?",
+        "signIn": "Pagsulod"
+      },
+      "alerts": {
+        "enterEmail": "Alayon pagbutang han im email address.",
+        "checkEmail": "Kitaa an im email para han link han pag-reset.",
+        "resetError": "Pakyas pag-reset han password"
+      }
+    },
+    "resetPassword": {
+      "title": "I-update an Password",
+      "description": "Ibutang an im bag-o nga password ha ubos para ma-reset an password han im account.",
+      "form": {
+        "newPassword": "Ibutang an bag-o nga password",
+        "confirmPassword": "Kumpirma han bag-o nga password"
+      },
+      "alerts": {
+        "enterBothPasswords": "Alayon pagbutang han duha nga lugar han password.",
+        "passwordMismatch": "Diri nagtutugma an mga password. Alayon pagutro.",
+        "success": "Malinamposon nga na-update an im password.",
+        "updateError": "Sayop ha pag-update han password. Alayon pagutro."
+      },
+      "buttons": {
+        "saving": "Nagtitipig...",
+        "update": "I-update an Password"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Diri balido o nawara nga access token.",
+        "sessionFailed": "Pakyas pagbutang han session.",
+        "invalidPassword": "Alayon pagbutang hin balido nga password nga may labing gutiay 8 ka karakter.",
+        "updateFailed": "Pakyas pag-update han im password."
+      },
+      "success": {
+        "passwordUpdated": "Na-update na an im password. Alayon pagsulod utro."
+      },
+      "title": "I-reset an Im Password",
+      "instructions": "Pagbutang hin bag-o nga password.",
+      "labels": {
+        "newPassword": "Bag-o nga Password"
+      },
+      "placeholders": {
+        "newPassword": "Ibutang an bag-o nga password"
+      },
+      "buttons": {
+        "updatePassword": "I-update an Password"
+      }
+    },
+    "tabs": {
+      "home": "Balay",
+      "search": "Pagbiling",
+      "create": "Paghimo",
+      "contest": "Mga Kompetisyon",
+      "menu": "Menu",
+      "settings": "Mga Setting",
+      "profile": "Profile",
+      "editProfile": "I-edit an Im Profile",
+      "otherUserProfile": "Profile han Magamit",
+      "explore": "Eksplora",
+      "challengeDetails": "Mga Detalye han Hagit",
+      "submissionDetails": "Mga Detalye han Submission",
+      "contestDetails": "Mga Detalye han Kompetisyon",
+      "followers": "Mga Tagasunod ",
+      "following": "Ginsusunodan ",
+      "account": "Account",
+      "notifications": "Mga Notipikasyon",
+      "leaderboard": "Leaderboard",
+      "market": "Merkado",
+      "rewards": "Mga Premyo",
+      "coin": "Im Mga Coin"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Paghimo",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Icon han balay",
+        "search": "Icon han pagbiling",
+        "create": "Icon han paghimo",
+        "explore": "Icon han pag-eksplora",
+        "profile": "Icon han profile"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Pagbiling hin mga submission, magamit, hagit...",
+      "clearSearch": "Paglinisan an input han pagbiling",
+      "loading": "Nagkakarga...",
+      "error": {
+        "title": "Sayop ha Pagbiling",
+        "message": "May-ada sayop nga nahitabo samtang nagbibiling."
+      },
+      "noPreviousSearches": "Waray nauna nga mga pagbiling.",
+      "previousSearches": "Nauna nga Mga Pagbiling",
+      "submissions": {
+        "title": "Mga Submission",
+        "noResults": "Waray nakit-an nga mga submission.",
+        "videoError": {
+          "title": "Sayop ha Video",
+          "message": "Pakyas pagkarga han video."
+        }
+      },
+      "users": {
+        "title": "Mga Magamit",
+        "noResults": "Waray nakit-an nga mga magamit."
+      },
+      "challenges": {
+        "title": "Mga Hagit",
+        "noResults": "Waray nakit-an nga mga hagit.",
+        "videoError": {
+          "title": "Sayop ha Video",
+          "message": "Pakyas pagkarga han video han hagit."
+        },
+        "category": "Kategorya: ",
+        "seasonalTag": "Panapanahon",
+        "sponsoredTag": "May Sponsor"
+      },
+      "repeatSearch": "Utroha an pagbiling para han",
+      "accessibility": {
+        "viewVideo": "Kitaa an video nga may titulo nga",
+        "viewProfile": "Kitaa an profile han",
+        "viewChallenge": "Kitaa an hagit nga may titulo nga"
+      }
+    },
+    "contest": {
+      "title": "Ngatanan nga Kompetisyon",
+      "createContestButton": "Paghimo hin Kompetisyon"
+    },
+    "contests": {
+      "noContests": "Waray nakit-an nga mga kompetisyon.",
+      "error": {
+        "title": "Sayop",
+        "message": "Pakyas pagkuha han mga kompetisyon."
+      },
+      "status": {
+        "notStarted": "Diri Pa Nagtitikang",
+        "ongoing": "Nagpapabilin",
+        "ended": "Natapos Na"
+      },
+      "dates": {
+        "start": "Pagtikang: ",
+        "end": "Katapusan: ",
+        "notAvailable": "Waray"
+      },
+      "contestDetailsButton": "Kitaa an Mga Detalye han Kompetisyon"
+    },
+    "newContest": {
+      "header": {
+        "title": "Paghimo hin Bag-o nga Kompetisyon",
+        "backButton": "Pagbalik"
+      },
+      "fields": {
+        "title": {
+          "label": "Titulo",
+          "placeholder": "pananglitan, Summer Dance-Off",
+          "validation": "Kinahanglan an titulo."
+        },
+        "description": {
+          "label": "Deskripsyon",
+          "placeholder": "Ano an mahitungod hini nga kompetisyon?"
+        },
+        "startDate": {
+          "label": "Petsa han Pagtikang",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "An petsa han katapusan dapat pagkatapos han petsa han pagtikang."
+        },
+        "endDate": {
+          "label": "Petsa han Katapusan",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Premyo han Manraraog (Uwaci Coins)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Premyo han Partisipante (Uwaci Coins)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Deskripsyon han Video (Opsyonal)",
+          "noVideoSelected": "Pagdugang hin deskripsyon han video.",
+          "picked": "Pinili: {filename}",
+          "uploaded": "Na-upload: Malinamposon nga na-upload an video.",
+          "chooseVideoButton": "Pagpili hin Video",
+          "uploadVideoButton": "I-upload an Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Paghimo hin Kompetisyon"
+      },
+      "alerts": {
+        "error": {
+          "title": "Sayop",
+          "pickVideoMessage": "Pakyas pagpili han video.",
+          "uploadVideoMessage": "Pakyas pag-upload han video.",
+          "createContestMessage": "Pakyas paghimo han kompetisyon."
+        },
+        "success": {
+          "title": "Malinamposon.",
+          "videoUploadMessage": "Malinamposon nga na-upload an video!",
+          "createContestMessage": "Malinamposon nga nahimo an kompetisyon!"
+        },
+        "validation": {
+          "noTitle": "Kinahanglan an titulo.",
+          "invalidDates": "An petsa han katapusan dapat pagkatapos han petsa han pagtikang."
+        },
+        "noSession": {
+          "title": "Kinahanglan ikaw magsulod para makahimo hin kompetisyon."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profile",
+        "settingsButton": "Kadto ha Mga Setting"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Kinahanglan an permiso",
+          "message": "Kinahanglan namon an permiso para ma-access an im mga retrato."
+        },
+        "errorAlert": {
+          "title": "Sayop",
+          "message": "Pakyas pagpili han retrato"
+        },
+        "successAlert": {
+          "title": "Malinamposon",
+          "message": "Malinamposon nga na-update an retrato han profile"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Sayop ha Pagbahin",
+          "message": "Diri mababahin an referral link."
+        },
+        "successShare": {
+          "title": "Pag-urupod ha akon ha Challenz!",
+          "message": "Hey! Gamita ini nga link para mag-rehistro: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Mga Tagasunod",
+        "viewFollowers": "Kitaa an Mga Tagasunod"
+      },
+      "following": {
+        "label": "Ginsusunodan",
+        "viewFollowing": "Kitaa an Ginsusunodan"
+      },
+      "posts": {
+        "label": "Mga Post",
+        "viewPosts": "Kitaa an Mga Post",
+        "noVideos": "Waray pa mga video nga na-post."
+      },
+      "info": {
+        "email": "Email",
+        "phone": "Telepono",
+        "location": "Lokasyon",
+        "coins": "Uwaci Coins",
+        "bio": "Bio",
+        "noProfile": "Waray Nakit-an nga Profile"
+      },
+      "buttons": {
+        "inviteFriends": "Pag-imbitar hin Mga Sangkay",
+        "deleteVideo": "Pagpara han Video",
+        "deleteVideoAlert": {
+          "title": "Pagpara han Video",
+          "message": "Sigurado ka ba nga gusto mo pag-para hini nga video?"
+        },
+        "deleteSuccess": {
+          "title": "Malinamposon",
+          "message": "Malinamposon nga napara an video."
+        },
+        "deleteError": {
+          "title": "Sayop",
+          "message": "Pakyas pagpara han video."
+        }
+      },
+      "errors": {
+        "generalError": "May-ada sayop nga nahitabo.",
+        "profileError": "Pakyas pagkuha han profile.",
+        "submissionsError": "Pakyas pagkuha han mga submission."
+      },
+      "loading": {
+        "profile": "Nagkakarga han profile...",
+        "submissions": "Nagkakarga han mga submission..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "I-edit an Profile",
+        "cancelButton": "Pagkanselar",
+        "saveButton": "I-save an Mga Pagliwan",
+        "savingButton": "Nagtitipig..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Ngaran",
+          "placeholder": "Ibutang an im ngaran",
+          "error": {
+            "tooShort": "Halipot kaupay an ngaran"
+          }
+        },
+        "lastName": {
+          "label": "Apelyido",
+          "placeholder": "Ibutang an im apelyido",
+          "error": {
+            "tooShort": "Halipot kaupay an apelyido"
+          }
+        },
+        "phoneNumber": {
+          "label": "Numero han Telepono",
+          "placeholder": "Ibutang an im numero han telepono",
+          "error": {
+            "invalid": "Alayon pagbutang hin balido nga numero han telepono"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Isumat an mahitungod ha im kalugaringon",
+          "error": {
+            "tooLong": "An bio dapat kulang ha 500 ka karakter"
+          }
+        },
+        "location": {
+          "label": "Lokasyon",
+          "placeholder": "Ibutang an im lokasyon",
+          "error": {
+            "tooLong": "An lokasyon dapat kulang ha 100 ka karakter"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Sayop",
+          "message": "Pakyas pagkuha han data han profile"
+        },
+        "updateSuccess": {
+          "title": "Malinamposon",
+          "message": "Malinamposon nga na-update an profile"
+        },
+        "updateError": {
+          "title": "Sayop",
+          "message": "Pakyas pag-update han profile"
+        }
+      },
+      "loading": {
+        "title": "Nagkakarga..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Nagkakarga...",
+      "noProfileFound": "Waray Nakit-an nga Profile",
+      "authenticationRequired": "Kinahanglan an Otentikasyon",
+      "pleaseLogIn": "Alayon pagsulod para makasunod ha mga magamit.",
+      "success": "Malinamposon",
+      "unfollowSuccess": "Diri ka na nasunodan kan",
+      "followSuccess": "Nagsusunodan ka na yana kan",
+      "error": "Sayop",
+      "followError": "Pakyas pag-update han status han pagsunod.",
+      "posts": "Mga Post",
+      "followers": "Mga Tagasunod",
+      "following": "Ginsusunodan",
+      "follow": "Sunod",
+      "unfollow": "Diri na Sundon",
+      "chat": "Chat"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Mga Setting",
+      "yourUwaciCoins": "Im Uwaci Coins",
+      "notifications": "Mga Notipikasyon",
+      "marketplace": "Merkado",
+      "signOut": "Paggawas",
+      "confirmSignOut": "Kumpirma han Paggawas",
+      "areYouSureSignOut": "Sigurado ka ba nga gusto mo maggawas?",
+      "cancel": "Pagkanselar",
+      "goBack": "Pagbalik"
+    },
+    "settings": {
+      "settings": "Mga Setting",
+      "fontSelected": "Pinili nga Font",
+      "asYourFont": "nakatakda na komo im font.",
+      "languageSelected": "Pinili nga Yinaknan",
+      "asYourLanguage": "nakatakda na komo im yinaknan.",
+      "themeSelected": "Pinili nga Tema",
+      "asYourTheme": "nakatakda na komo im tema.",
+      "notifications": "Mga Notipikasyon",
+      "marketplace": "Merkado",
+      "account": "Account",
+      "themes": "Mga Tema",
+      "fonts": "Mga Font",
+      "languages": "Mga Yinaknan",
+      "signOut": "Paggawas",
+      "confirmSignOut": "Kumpirma han Paggawas",
+      "areYouSureSignOut": "Sigurado ka ba nga gusto mo maggawas?",
+      "cancel": "Pagkanselar",
+      "goBack": "Pagbalik",
+      "selectFont": "Pagpili hin Font",
+      "selectLanguage": "Pagpili hin Yinaknan",
+      "selectTheme": "Pagpili hin Tema",
+      "passwordSecurity": "Password & Seguridad",
+      "personalDetails": "Personal nga Detalye",
+      "verification": "Beripikasyon",
+      "paymentMethods": "Mga paagi han pagbayad",
+      "adPreferences": "Mga Gusto ha Ad",
+      "upgradePremium": "Mag-upgrade ha premium",
+      "content": "Sulod",
+      "language": "Yinaknan",
+      "savedDraft": "Natipig nga Draft",
+      "yourActivity": "Im Aktibidad",
+      "accessibility": "Accessibility",
+      "privacy": "Pribasidad",
+      "comments": "Mga Komento",
+      "privateAccount": "Pribado nga Account",
+      "directMessaging": "Direct Messaging",
+      "blockedReports": "Nakablock/Mga Report",
+      "termsPolicies": "Mga Termino ngan Polisiya",
+      "switchAccount": "Pagbalhin hin Account"
+    },
+    "accountDetails": {
+      "settingsTitle": "Mga Setting han Account",
+      "profileSettings": "I-edit an Profile",
+      "resetPassword": "I-reset an Password",
+      "deleteAccount": "Pagpara han Account",
+      "resetPasswordModal": {
+        "title": "I-reset an Password",
+        "message": "An email ha pag-reset han password ipapadara ha",
+        "sendEmail": "Pagpadara hin Email",
+        "cancel": "Pagkanselar"
+      },
+      "deleteAccountModal": {
+        "title": "Pagpara han Account",
+        "message": "Sigurado ka ba nga gusto mo pag-para han im account? Diri na ini mababawi nga aksyon.",
+        "delete": "Pagpara",
+        "cancel": "Pagkanselar"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Na-update an Profile",
+          "message": "Malinamposon nga na-update an im profile."
+        },
+        "profileUpdateError": {
+          "title": "Sayop",
+          "message": "Pakyas pag-update han im profile. Alayon pagutro."
+        },
+        "passwordReset": {
+          "title": "Pag-reset han Password",
+          "message": "Napadara na an email ha pag-reset han password."
+        },
+        "passwordResetError": {
+          "title": "Sayop",
+          "message": "Pakyas pagpadara han email ha pag-reset han password. Alayon pagutro."
+        },
+        "accountDeleted": {
+          "title": "Napara an Account",
+          "message": "Malinamposon nga napara an im account."
+        },
+        "accountDeleteError": {
+          "title": "Sayop",
+          "message": "Pakyas pagpara han im account. Alayon pagutro."
+        }
+      }
+    }
+  }

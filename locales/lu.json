@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Tangila ntatu",
+    "thatInspire": "tshidi Inspire!",
+    "signUp": "Difundija",
+    "signIn": "Buela"
+  },
+  "signUp": {
+    "title": "Difundija",
+    "headerMessage": "Enza konte mupiamupia bua kutuadija.",
+    "form": {
+      "username": {
+        "label": "Dîna dia muena mudimu",
+        "placeholder": "Sungula dina dia muena mudimu",
+        "validation": {
+          "minLength": "Dîna dia muena mudimu didi ne tshia kuikala ne maleta 3.",
+          "regex": "Dîna dia muena mudimu didi mua kuikala anu ne maleta, nomba, ne tumanyinu tua kuinshi"
+        }
+      },
+      "firstname": {
+        "label": "Dîna dia kumpala",
+        "placeholder": "Funda dina diebe dia kumpala",
+        "validation": "Dîna dia kumpala didi ne tshia kuikala ne maleta 3."
+      },
+      "lastname": {
+        "label": "Dîna dia ndekelu",
+        "placeholder": "Funda dina diebe dia ndekelu",
+        "validation": "Dîna dia ndekelu didi ne tshia kuikala ne maleta 3."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Funda adrese webe wa e-mail",
+        "validation": "Suaku ufunda adrese wa e-mail udi mukumbane."
+      },
+      "phoneNumber": {
+        "label": "Nomba ya telefone",
+        "placeholder": "Funda nomba webe wa telefone",
+        "validation": "Suaku ufunda nimero ya telefone idi mikumbane."
+      },
+      "birthday": {
+        "label": "Dituku dia diledibua",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Dituku dia diledibua didi ne tshia kuikala mu mushindu YYYY-MM-DD",
+          "validDate": "Dituku didi kadiyi diakane",
+          "ageRestriction": "Udi ne tshia kuikala ne bidimu 18 anyi kupita apu bua kuenza konte"
+        }
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Funda mot de passe webe",
+        "validation": {
+          "minLength": "Mot de passe udi ne tshia kuikala ne maleta 8.",
+          "maxLength": "Muaku wa tshisokomenu udi ne tshia kuikala muinshi mua maleta 64.",
+          "uppercase": "Mot de passe udi ne tshia kuikala ne dileta dimue dinene.",
+          "lowercase": "Mot de passe udi ne tshia kuikala ne dileta dimue dikese.",
+          "numberOrSpecial": "Mot de passe udi ne tshia kuikala ne nomba umua anyi tshimanyinu tshia pa buadi."
+        },
+        "strength": {
+          "weak": "Butekete",
+          "fair": "Buakane",
+          "good": "Bimpa",
+          "strong": "Bukole"
+        }
+      },
+      "confirmPassword": {
+        "label": "Ikala ujadika meyi a tshisokomenu",
+        "placeholder": "Bueja kabidi mot de passe webe",
+        "validation": "Mêyi a tshisokomenu kaena apetangana to."
+      }
+    },
+    "buttons": {
+      "createAccount": "Enza konte",
+      "alreadyHaveAccount": "Ukadi ne konte anyi? Buela"
+    },
+    "alerts": {
+      "error": {
+        "title": "Tshilema",
+        "message": "Tshilema tshidi tshienzeke paudi wenza konte webe. Teta kabidi."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Paudi udifundisha udi witaba ne udi mubale",
+      "termsOfService": "Mikenji ya mudimu",
+      "privacyPolicy": "Mikenji ya malu masokoka",
+      "andAccepted": "ne kuitaba tshietu"
+    }
+  },
+  "signIn": {
+    "title": "Buela",
+    "headerMessage": "Funda bintu biebe bua kubuela mu konte webe.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Mot de passe"
+    },
+    "buttons": {
+      "signIn": "Buela",
+      "forgotPassword": "Udi mupue mot de passe muoyo anyi?",
+      "signUp": "Kuena ne konte anyi? Difundija"
+    },
+    "forgotPassword": {
+      "title": "Ndi mupue meyi a tshisokomenu muoyo",
+      "prompt": "Tudi tukulomba bua kuanji kufunda e-mail webe udi kulu eku.",
+      "successTitle": "Tangila e-mail webe",
+      "successMessage": "Tudi batume njila wa kupingaja meyi a tshisokomenu ku e-mail webe.",
+      "errorTitle": "Tshilema tshia kupingaja"
+    },
+    "termsAndPrivacy": {
+      "message": "Paudi udifundisha udi witaba ne udi mubale",
+      "termsOfService": "Mikenji ya mudimu",
+      "privacyPolicy": "Mikenji ya malu masokoka",
+      "andAccepted": "ne kuitaba tshietu"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Tshilema tshia kubuela"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Tshimanyinu tshia dibuela tshidi katshiyi tshikumbane anyi tshidi katshiyiku.",
+      "sessionFailed": "Kavua mua kuenza tshisangilu to.",
+      "invalidPassword": "Suaku ufunda meyi a tshisokomenu adi ne maleta 8.",
+      "updateFailed": "Katuena mua kuakaja meyi eba a tshisokomenu to."
+    },
+    "success": {
+      "passwordUpdated": "Mot de passe webe mmushintuludibue. Suaku ubuela kabidi."
+    },
+    "title": "Pingaja mot de passe webe",
+    "instructions": "Funda mot de passe mupiamupia.",
+    "labels": {
+      "newPassword": "Mot de passe mupiamupia"
+    },
+    "placeholders": {
+      "newPassword": "Enter new password"
+    },
+    "buttons": {
+      "updatePassword": "Kushintulula mot de passe"
+    }
+  },
+  "tabs": {
+    "home": "Nzubu",
+    "search": "Keba",
+    "create": "Fuka",
+    "explore": "Malu a ditembangana",
+    "profile": "Muyuki",
+    "settings": "Malongolola",
+    "editProfile": "Shintulula tshilejelu",
+    "otherUserProfile": "Muyuki mukuabu wa muena mudimu",
+    "comment": "Lungenyi",
+    "contest": "Dikokangana",
+    "challengeDetails": "Malu adi atangila lutatu",
+    "submissionDetails": "Bintu bya kutumas",
+    "contestDetails": "Malu a dinaya",
+    "followers": "Balonda",
+    "following": "Kulonda",
+    "account": "Konte",
+    "notifications": "Mamanyisha",
+    "leaderboard": "Tablo wa balombodi",
+    "market": "Nsoko",
+    "rewards": "Mafutu"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Fuka",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Tshimfuanyi tshia nzubu",
+      "search": "Tshimfuanyi tshia kukeba",
+      "create": "Enza tshimfuanyi",
+      "explore": "Tangila tshimfuanyi",
+      "profile": "Tshimfuanyi tshia profil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Keba bintu bifila, bena mudimu, ntatu...",
+    "clearSearch": "Kumbusha tshikebelu",
+    "loading": "Kuela...",
+    "error": {
+      "title": "Tshilema tshia kukeba",
+      "message": "Tshilema tshiakenzeka mu tshikondo tshia dikeba."
+    },
+    "noPreviousSearches": "Kakuena dikebulula dia kumpala to.",
+    "previousSearches": "Makebulula a kale",
+    "submissions": {
+      "title": "Malu adibu batuma",
+      "noResults": "Kakuena difila dia bintu dipeta to.",
+      "videoError": {
+        "title": "Tshilema tshia video",
+        "message": "Katuena mua kuela video to."
+      }
+    },
+    "users": {
+      "title": "Bena mudimu",
+      "noResults": "Kakuena muena mudimu udibu bapeta to."
+    },
+    "challenges": {
+      "title": "Ntatu",
+      "noResults": "Kakuena ntatu mipeta to.",
+      "videoError": {
+        "title": "Tshilema tshia video",
+        "message": "Katuena mua kuela video wa lutatu to."
+      },
+      "category": "Tshitupa: ",
+      "seasonalTag": "Tshikondo",
+      "sponsoredTag": "Mufidibue"
+    },
+    "repeatSearch": "Upingaje dikeba dia",
+    "accessibility": {
+      "viewVideo": "Tangila filme udi ne tshiena bualu tshia",
+      "viewProfile": "Tangila tshimfuanyi tshia",
+      "viewChallenge": "Tangila lutatu ludi ne tshiena bualu"
+    }
+  },
+  "contest": {
+    "title": "Malu onso",
+    "createContestButton": "Kuenza manaya"
+  },
+  "contests": {
+    "noContests": "Kakuena mvita mipeta to.",
+    "error": {
+      "title": "Tshilema",
+      "message": "Kavua mufike ku dipeta manaya to."
+    },
+    "status": {
+      "notStarted": "Katuena batuadije to",
+      "ongoing": "Bidi bitungunuka",
+      "ended": "Kujika"
+    },
+    "dates": {
+      "start": "Tuadija: ",
+      "end": "Ndekelu: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Tangila malu a dinaya"
+  },
+  "newContest": {
+    "header": {
+      "title": "Enza dinaya dipiadipia",
+      "backButton": "Kunyima"
+    },
+    "fields": {
+      "title": {
+        "label": "Mutu wa bualu",
+        "placeholder": "e.g., Summer Dance-Off",
+        "validation": "Muanzu udi ukengela."
+      },
+      "description": {
+        "label": "Diumvuija",
+        "placeholder": "Dikokangana edi didi ditangila tshinyi?"
+      },
+      "startDate": {
+        "label": "Dituku dia ntuadijilu",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Dituku dia ndekelu didi ne tshia kuikala panyima pa dituku dia ntuadijilu."
+      },
+      "endDate": {
+        "label": "Dituku dia ndekelu",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Difutu dia mutshimunyi (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Difutu dia muena mudimu (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Diumvuija dia tshinjinjimbi (tshia kusungula)",
+        "noVideoSelected": "Weja diumvuija dia video.",
+        "picked": "Tshisungula: {dîna dia mukanda}",
+        "uploaded": "Tshibandilu: Tshinjinjimbi ntshiteka bimpa.",
+        "chooseVideoButton": "Sungula video",
+        "uploadVideoButton": "Ela video"
+      }
+    },
+    "buttons": {
+      "createContest": "Kuenza manaya"
+    },
+    "alerts": {
+      "error": {
+        "title": "Tshilema",
+        "pickVideoMessage": "Kavua mua kuangata video to.",
+        "uploadVideoMessage": "Katuena mua kuela video to.",
+        "createContestMessage": "Kavua mufike ku dienza manaya to."
+      },
+      "success": {
+        "videoUploadMessage": "Tshinjinjimbi tshiteka bimpa!",
+        "createContestMessage": "Dikokangana dienzeke bimpa!"
+      },
+      "validation": {
+        "noTitle": "Muanzu udi ukengela.",
+        "invalidDates": "Dituku dia ndekelu didi ne tshia kuikala panyima pa dituku dia ntuadijilu."
+      },
+      "noSession": {
+        "title": "Udi ne tshia kuikala mubuela bua kuenza manaya."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Muyuki",
+      "settingsButton": "Enda mu Paramètres"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Dianyisha didi dikengedibua",
+        "message": "Tudi dijinga ne bukenji bua kumona foto yebe."
+      },
+      "errorAlert": {
+        "title": "Tshilema",
+        "message": "Kavua mua kuangata tshimfuanyi to"
+      },
+      "successAlert": {
+        "title": "Ditanta",
+        "message": "Tshimfuanyi tshia kumpala tshiakalengejibua bimpa"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Tshilema tshia diabanya",
+        "message": "Kakuena mushindu wa kuabanya link wa dituma to."
+      },
+      "successShare": {
+        "title": "Ikala nanyi pa Challenz!",
+        "message": "Wewe! Enza mudimu ne link ewu bua kudifundisha: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Balonda",
+      "viewFollowers": "Tangila balonda"
+    },
+    "following": {
+      "label": "Kulonda",
+      "viewFollowing": "Tangila bidi bilonda"
+    },
+    "posts": {
+      "label": "Mifundu",
+      "viewPosts": "Tangila mikanda",
+      "noVideos": "Kakuena mavideo adibu batume to."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Telefone",
+      "location": "Muaba",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Kakuena tshilejelu tshipeta to"
+    },
+    "buttons": {
+      "inviteFriends": "Bikila balunda",
+      "deleteVideo": "Supula video",
+      "deleteVideoAlert": {
+        "title": "Supula video",
+        "message": "Udi mujadike ne udi musue kujimija tshinjinjimbi etshi anyi?"
+      },
+      "deleteSuccess": {
+        "title": "Ditanta",
+        "message": "Tshinjinjimbi tshijimija bimpa."
+      },
+      "deleteError": {
+        "title": "Tshilema",
+        "message": "Katuena mua kumbusha filme to."
+      }
+    },
+    "errors": {
+      "generalError": "Tshilema tshienzeke.",
+      "profileError": "Kakuvua mushindu wa kupeta profil to.",
+      "submissionsError": "Katuena mua kupeta bintu bivuabu batume to."
+    },
+    "loading": {
+      "profile": "Kubandisha profile...",
+      "submissions": "Kuteka bintu bidibu batume..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Shintulula tshilejelu",
+      "cancelButton": "Kulekela",
+      "saveButton": "Lama malu adibu bashintulule",
+      "savingButton": "Kulama..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Dîna dia kumpala",
+        "placeholder": "Funda dina diebe dia kumpala",
+        "error": {
+          "tooShort": "Dîna dia kumpala ndipi"
+        }
+      },
+      "lastName": {
+        "label": "Dîna dia ndekelu",
+        "placeholder": "Funda dina diebe dia ndekelu",
+        "error": {
+          "tooShort": "Dîna dia ndekelu ndipi"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nomba ya telefone",
+        "placeholder": "Funda nomba webe wa telefone",
+        "error": {
+          "invalid": "Suaku ufunda nimero ya telefone idi mikumbane"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Tuambila bualu buebe",
+        "error": {
+          "tooLong": "Bio udi ne tshia kuikala muinshi mua maleta 500"
+        }
+      },
+      "location": {
+        "label": "Muaba",
+        "placeholder": "Funda muaba uudi musombele",
+        "error": {
+          "tooLong": "Muaba udi ne tshia kuikala muinshi mua maleta 100"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Tshilema",
+        "message": "Bivua bikumbane bua kupeta malu a muntu"
+      },
+      "updateSuccess": {
+        "title": "Ditanta",
+        "message": "Mukanda wa muntu udi mulongolola bimpa"
+      },
+      "updateError": {
+        "title": "Tshilema",
+        "message": "Kakuyi mushindu wa kuakaja malu"
+      }
+    },
+    "loading": {
+      "title": "Kuela..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Kuela...",
+    "noProfileFound": "Kakuena tshilejelu tshipeta to",
+    "authenticationRequired": "Dijadika didi dikengedibua",
+    "pleaseLogIn": "Tuasakidila bua kubuela bua kulonda bena mudimu.",
+    "success": "Ditanta",
+    "unfollowSuccess": "Udi mulekele kulonda",
+    "followSuccess": "Udi mpindieu ulonda",
+    "error": "Tshilema",
+    "followError": "Kakuena mushindu wa kuakaja nsombelu wa dilonda to.",
+    "posts": "Mifundu",
+    "followers": "Balonda",
+    "following": "Kulonda",
+    "follow": "Londa",
+    "unfollow": "Lekela kulonda",
+    "chat": "Yukila"
+  },
+  "settings": {
+    "settings": "Malongolola",
+    "fontSelected": "Maleta masungula",
+    "asYourFont": "mmuteka bu fonte webe.",
+    "languageSelected": "Muakulu musungula",
+    "asYourLanguage": "mmuteka bu muakulu webe.",
+    "themeSelected": "Tshiena bualu tshisungula",
+    "asYourTheme": "mmuteka bu tshiena bualu tshieba.",
+    "notifications": "Mamanyisha",
+    "marketplace": "Tshisalu",
+    "account": "Konte",
+    "themes": "Mitu ya malu",
+    "fonts": "Maleta",
+    "languages": "Miakulu",
+    "signOut": "Patuka",
+    "confirmSignOut": "Ikala ujadika dipatuka",
+    "areYouSureSignOut": "Udi mujadike ne udi musue kupatuka anyi?",
+    "cancel": "Kulekela",
+    "goBack": "Kupingana",
+    "selectFont": "Sungula mfundilu",
+    "selectLanguage": "Sungula muakulu",
+    "selectTheme": "Sungula tshiena bualu"
+  },
+  "accountDetails": {
+    "settingsTitle": "Malongolola a konte",
+    "profileSettings": "Shintulula tshilejelu",
+    "resetPassword": "Kupingaja meyi a tshisokomenu",
+    "deleteAccount": "Kujimija konte",
+    "resetPasswordModal": {
+      "title": "Kupingaja meyi a tshisokomenu",
+      "message": "E-mail wa kupingaja meyi a tshisokomenu neatumibue kudi",
+      "sendEmail": "Tuma e-mail",
+      "cancel": "Kulekela"
+    },
+    "deleteAccountModal": {
+      "title": "Kujimija konte",
+      "message": "Udi mujadike ne udi musue kujimija konte webe anyi? Tshienzedi etshi katshiena mua kupingajibua to.",
+      "delete": "Supula",
+      "cancel": "Kulekela"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Muyuki mulongolola",
+        "message": "Muyuki webe mmushintuluke bimpa."
+      },
+      "profileUpdateError": {
+        "title": "Tshilema",
+        "message": "Katuena mua kuakaja malu eba to. Teta kabidi."
+      },
+      "passwordReset": {
+        "title": "Kupingaja meyi a tshisokomenu",
+        "message": "Mukenji wa kupingaja meyi a tshisokomenu mmutumibua."
+      },
+      "passwordResetError": {
+        "title": "Tshilema",
+        "message": "Katuena mua kutuma e-mail wa dipingaja dia meyi a tshisokomenu to. Teta kabidi."
+      },
+      "accountDeleted": {
+        "title": "Konte mmujimijibua",
+        "message": "Konte webe mmujimijibue bimpa."
+      },
+      "accountDeleteError": {
+        "title": "Tshilema",
+        "message": "Katuena mua kujimija konte weba to. Teta kabidi."
+      }
+    }
+  }
+}

@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Explorează Provocări",
+      "thatInspire": "care Inspiră!",
+      "signUp": "Înregistrare",
+      "signIn": "Conectare"
+    },
+    "signUp": {
+      "title": "Înregistrare",
+      "headerMessage": "Creează un cont nou pentru a începe.",
+      "businessTitle": "Înregistrează-te ca Afacere",
+      "headerMessageBusiness": "Creează un cont de afaceri pentru a începe.",
+      "form": {
+        "username": {
+          "label": "Nume de utilizator",
+          "placeholder": "Alege un nume de utilizator",
+          "validation": {
+            "minLength": "Numele de utilizator trebuie să conțină cel puțin 3 caractere.",
+            "regex": "Numele de utilizator poate conține doar litere, cifre și caractere de subliniere"
+          }
+        },
+        "firstname": {
+          "label": "Prenume",
+          "placeholder": "Introdu prenumele tău",
+          "validation": "Prenumele trebuie să conțină cel puțin 3 caractere."
+        },
+        "lastname": {
+          "label": "Nume",
+          "placeholder": "Introdu numele tău",
+          "validation": "Numele trebuie să conțină cel puțin 3 caractere."
+        },
+        "businessName": {
+          "label": "Numele Afacerii",
+          "placeholder": "Introdu numele afacerii tale",
+          "validation": "Numele afacerii trebuie să conțină cel puțin 3 caractere."
+        },
+        "website": {
+          "label": "Site-ul Web al Afacerii",
+          "placeholder": "Introdu site-ul tău web",
+          "validation": "Numele afacerii trebuie să conțină cel puțin 3 caractere."
+        },
+        "businessType": {
+          "label": "Tipul Afacerii",
+          "placeholder": "Tipul Afacerii",
+          "validation": "Numele afacerii trebuie să conțină cel puțin 3 caractere."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Introdu adresa ta de email",
+          "validation": "Te rugăm să introduci o adresă de email validă."
+        },
+        "phoneNumber": {
+          "label": "Număr de Telefon",
+          "placeholder": "Introdu numărul tău de telefon",
+          "validation": "Te rugăm să introduci un număr de telefon valid."
+        },
+        "birthday": {
+          "title": "Data nașterii",
+          "label": "Data nașterii",
+          "placeholder": "ZZ-LL-AAAA",
+          "validation": {
+            "format": "Data nașterii trebuie să fie în formatul ZZ-LL-AAAA",
+            "validDate": "Dată invalidă",
+            "ageRestriction": "Trebuie să ai cel puțin 18 ani pentru a crea un cont"
+          }
+        },
+        "password": {
+          "label": "Parolă",
+          "placeholder": "Introdu parola ta",
+          "validation": {
+            "minLength": "Parola trebuie să conțină cel puțin 8 caractere.",
+            "maxLength": "Parola trebuie să conțină mai puțin de 64 de caractere.",
+            "uppercase": "Parola trebuie să conțină cel puțin o literă mare.",
+            "lowercase": "Parola trebuie să conțină cel puțin o literă mică.",
+            "numberOrSpecial": "Parola trebuie să conțină cel puțin un număr sau un caracter special."
+          },
+          "strength": {
+            "weak": "Slabă",
+            "fair": "Acceptabilă",
+            "good": "Bună",
+            "strong": "Puternică"
+          }
+        },
+        "confirmPassword": {
+          "label": "Confirmă Parola",
+          "placeholder": "Reintrodu parola ta",
+          "validation": "Parolele nu se potrivesc."
+        }
+      },
+      "buttons": {
+        "createAccount": "Creează Cont",
+        "alreadyHaveAccount": "Ai deja un cont?",
+        "signIn": "Conectare",
+        "businessJoin": "Alătură-te Challenz ca partener de afaceri"
+      },
+      "alerts": {
+        "error": {
+          "title": "Eroare",
+          "message": "A apărut o eroare la crearea contului tău. Te rugăm să încerci din nou."
+        },
+        "passwordMismatch": {
+          "title": "Nepotrivire Parole",
+          "message": "Parolă incorectă. Te rugăm să încerci din nou."
+        },
+        "agreementRequired": {
+          "title": "Acord Necesar",
+          "message": "Te rugăm să accepți Termenii de Serviciu și Politica de Confidențialitate."
+        },
+        "success": {
+          "title": "Succes",
+          "message": "Contul a fost creat cu succes."
+        },
+        "signUpError": {
+          "title": "Eroare de Înregistrare",
+          "message": "A apărut o eroare la crearea contului tău. Te rugăm să încerci din nou."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Prin înregistrare confirmi că ai citit",
+        "termsOfService": "Termenii de Serviciu",
+        "privacyPolicy": "Politica de Confidențialitate",
+        "andAccepted": "și ai acceptat"
+      }
+    },
+    "signIn": {
+      "title": "Conectare",
+      "headerMessage": "Introdu datele tale pentru a accesa contul tău.",
+      "form": {
+        "email": "Email",
+        "emailPlaceholder": "Introdu Email-ul tău",
+        "password": "Parolă",
+        "passwordPlaceholder": "Introdu Parola ta"
+      },
+      "buttons": {
+        "signIn": "Conectare",
+        "forgotPassword": "Ai uitat Parola?",
+        "noAccount": "Nu ai un cont?",
+        "signUp": " Înregistrare"
+      },
+      "forgotPassword": {
+        "title": "Ai uitat Parola",
+        "prompt": "Te rugăm să introduci emailul tău mai sus.",
+        "successTitle": "Verifică-ți emailul",
+        "successMessage": "Am trimis un link de resetare a parolei la adresa ta de email.",
+        "errorTitle": "Eroare de Resetare"
+      },
+      "termsAndPrivacy": {
+        "message": "Prin înregistrare confirmi că ai citit",
+        "termsOfService": "Termenii de Serviciu",
+        "privacyPolicy": "Politica de Confidențialitate",
+        "andAccepted": "și ai acceptat"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Eroare de Conectare"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Ai uitat Parola",
+      "description": "Introdu adresa ta de email mai jos și îți vom trimite un link pentru a-ți reseta parola.",
+      "form": {
+        "email": "Adresă de Email"
+      },
+      "buttons": {
+        "reset": "Resetează Parola",
+        "sending": "Se trimite...",
+        "remembered": "Ți-ai amintit parola?",
+        "signIn": "Conectare"
+      },
+      "alerts": {
+        "enterEmail": "Te rugăm să introduci adresa ta de email.",
+        "checkEmail": "Verifică-ți emailul pentru link-ul de resetare.",
+        "resetError": "Nu s-a putut reseta parola"
+      }
+    },
+    "resetPassword": {
+      "title": "Actualizează Parola",
+      "description": "Introdu noua ta parolă mai jos pentru a-ți reseta parola contului.",
+      "form": {
+        "newPassword": "Introdu noua parolă",
+        "confirmPassword": "Confirmă noua parolă"
+      },
+      "alerts": {
+        "enterBothPasswords": "Te rugăm să completezi ambele câmpuri pentru parolă.",
+        "passwordMismatch": "Parolele nu se potrivesc. Te rugăm să încerci din nou.",
+        "success": "Parola ta a fost actualizată cu succes.",
+        "updateError": "Eroare la actualizarea parolei. Te rugăm să încerci din nou."
+      },
+      "buttons": {
+        "saving": "Se salvează...",
+        "update": "Actualizează Parola"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Token de acces invalid sau lipsă.",
+        "sessionFailed": "Nu s-a putut configura sesiunea.",
+        "invalidPassword": "Te rugăm să introduci o parolă validă de cel puțin 8 caractere.",
+        "updateFailed": "Nu s-a putut actualiza parola ta."
+      },
+      "success": {
+        "passwordUpdated": "Parola ta a fost actualizată. Te rugăm să te conectezi din nou."
+      },
+      "title": "Resetează-ți Parola",
+      "instructions": "Introdu o parolă nouă.",
+      "labels": {
+        "newPassword": "Parolă Nouă"
+      },
+      "placeholders": {
+        "newPassword": "Introdu parolă nouă"
+      },
+      "buttons": {
+        "updatePassword": "Actualizează Parola"
+      }
+    },
+    "tabs": {
+      "home": "Acasă",
+      "search": "Caută",
+      "create": "Creează",
+      "contest": "Concursuri",
+      "menu": "Meniu",
+      "settings": "Setări",
+      "profile": "Profil",
+      "editProfile": "Editează Profilul Tău",
+      "otherUserProfile": "Profilul Utilizatorului",
+      "explore": "Explorează",
+      "challengeDetails": "Detalii Provocare",
+      "submissionDetails": "Detalii Trimitere",
+      "contestDetails": "Detalii Concurs",
+      "followers": "Urmăritori ",
+      "following": "Urmărește ",
+      "account": "Cont",
+      "notifications": "Notificări",
+      "leaderboard": "Clasament",
+      "market": "Piață",
+      "rewards": "Recompense",
+      "coin": "Monedele Tale",
+      "savedChallenges": "Provocări Salvate"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Creează",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Pictogramă acasă",
+        "search": "Pictogramă căutare",
+        "create": "Pictogramă creare",
+        "explore": "Pictogramă explorare",
+        "profile": "Pictogramă profil"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Caută trimiteri, utilizatori, provocări...",
+      "clearSearch": "Șterge căutarea",
+      "loading": "Se încarcă...",
+      "error": {
+        "title": "Eroare de Căutare",
+        "message": "A apărut o eroare în timpul căutării."
+      },
+      "noPreviousSearches": "Nu există căutări anterioare.",
+      "previousSearches": "Căutări Anterioare",
+      "submissions": {
+        "title": "Trimiteri",
+        "noResults": "Nu s-au găsit trimiteri.",
+        "videoError": {
+          "title": "Eroare Video",
+          "message": "Nu s-a putut încărca videoclipul."
+        }
+      },
+      "users": {
+        "title": "Utilizatori",
+        "noResults": "Nu s-au găsit utilizatori."
+      },
+      "challenges": {
+        "title": "Provocări",
+        "noResults": "Nu s-au găsit provocări.",
+        "videoError": {
+          "title": "Eroare Video",
+          "message": "Nu s-a putut încărca videoclipul provocării."
+        },
+        "category": "Categorie: ",
+        "seasonalTag": "Sezonier",
+        "sponsoredTag": "Sponsorizat"
+      },
+      "repeatSearch": "Repetă căutarea pentru",
+      "accessibility": {
+        "viewVideo": "Vizualizează video intitulat",
+        "viewProfile": "Vizualizează profilul lui",
+        "viewChallenge": "Vizualizează provocarea intitulată"
+      }
+    },
+    "contest": {
+      "title": "Toate Concursurile",
+      "createContestButton": "Creează Concurs"
+    },
+    "contests": {
+      "noContests": "Nu s-au găsit concursuri.",
+      "error": {
+        "title": "Eroare",
+        "message": "Nu s-au putut prelua concursurile."
+      },
+      "status": {
+        "notStarted": "Neînceput",
+        "ongoing": "În desfășurare",
+        "ended": "Încheiat"
+      },
+      "dates": {
+        "start": "Început: ",
+        "end": "Sfârșit: ",
+        "notAvailable": "N/A"
+      },
+      "contestDetailsButton": "Vezi Detaliile Concursului"
+    },
+    "newContest": {
+      "header": {
+        "title": "Creează Concurs Nou",
+        "backButton": "Înapoi"
+      },
+      "fields": {
+        "title": {
+          "label": "Titlu",
+          "placeholder": "ex., Concurs de Dans de Vară",
+          "validation": "Titlul este obligatoriu."
+        },
+        "description": {
+          "label": "Descriere",
+          "placeholder": "Despre ce este acest concurs?"
+        },
+        "startDate": {
+          "label": "Data de Început",
+          "placeholder": "ZZ-LL-AAAA",
+          "validation": "Data de sfârșit trebuie să fie după data de început."
+        },
+        "endDate": {
+          "label": "Data de Sfârșit",
+          "placeholder": "ZZ-LL-AAAA"
+        },
+        "winnerReward": {
+          "label": "Recompensă pentru Câștigător (Monede Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Recompensă pentru Participant (Monede Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Descriere Video (Opțional)",
+          "noVideoSelected": "Adaugă o descriere video.",
+          "picked": "Selectat: {filename}",
+          "uploaded": "Încărcat: Videoclipul a fost încărcat cu succes.",
+          "chooseVideoButton": "Alege Video",
+          "uploadVideoButton": "Încarcă Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Creează Concurs"
+      },
+      "alerts": {
+        "error": {
+          "title": "Eroare",
+          "pickVideoMessage": "Nu s-a putut selecta videoclipul.",
+          "uploadVideoMessage": "Nu s-a putut încărca videoclipul.",
+          "createContestMessage": "Nu s-a putut crea concursul."
+        },
+        "success": {
+          "title": "Succes.",
+          "videoUploadMessage": "Videoclipul a fost încărcat cu succes!",
+          "createContestMessage": "Concursul a fost creat cu succes!"
+        },
+        "validation": {
+          "noTitle": "Titlul este obligatoriu.",
+          "invalidDates": "Data de sfârșit trebuie să fie după data de început."
+        },
+        "noSession": {
+          "title": "Trebuie să fii conectat pentru a crea un concurs."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profil",
+        "settingsButton": "Mergi la Setări"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Permisiune necesară",
+          "message": "Avem nevoie de permisiune pentru a accesa fotografiile tale."
+        },
+        "errorAlert": {
+          "title": "Eroare",
+          "message": "Nu s-a putut selecta imaginea"
+        },
+        "successAlert": {
+          "title": "Succes",
+          "message": "Imaginea de profil a fost actualizată cu succes"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Eroare la Partajare",
+          "message": "Nu se poate partaja linkul de referință."
+        },
+        "successShare": {
+          "title": "Alătură-te mie pe Challenz!",
+          "message": "Hei! Folosește acest link pentru a te înregistra: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Urmăritori",
+        "viewFollowers": "Vezi Urmăritorii"
+      },
+      "following": {
+        "label": "Urmărește",
+        "viewFollowing": "Vezi pe cine Urmărești"
+      },
+      "posts": {
+        "label": "Postări",
+        "viewPosts": "Vezi Postările",
+        "noVideos": "Nu există videoclipuri postate încă."
+      },
+      "info": {
+        "email": "Email",
+        "phone": "Telefon",
+        "location": "Locație",
+        "coins": "Monede Uwaci",
+        "bio": "Bio",
+        "noProfile": "Nu s-a găsit Profilul"
+      },
+      "buttons": {
+        "inviteFriends": "Invită Prieteni",
+        "deleteVideo": "Șterge Video",
+        "deleteVideoAlert": {
+          "title": "Șterge Video",
+          "message": "Ești sigur că vrei să ștergi acest videoclip?"
+        },
+        "deleteSuccess": {
+          "title": "Succes",
+          "message": "Videoclipul a fost șters cu succes."
+        },
+        "deleteError": {
+          "title": "Eroare",
+          "message": "Nu s-a putut șterge videoclipul."
+        }
+      },
+      "errors": {
+        "generalError": "A apărut o eroare.",
+        "profileError": "Nu s-a putut prelua profilul.",
+        "submissionsError": "Nu s-au putut prelua trimiterile."
+      },
+      "loading": {
+        "profile": "Se încarcă profilul...",
+        "submissions": "Se încarcă trimiterile..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Editează Profilul",
+        "cancelButton": "Anulează",
+        "saveButton": "Salvează Modificările",
+        "savingButton": "Se salvează..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Prenume",
+          "placeholder": "Introdu prenumele tău",
+          "error": {
+            "tooShort": "Prenumele este prea scurt"
+          }
+        },
+        "lastName": {
+          "label": "Nume",
+          "placeholder": "Introdu numele tău",
+          "error": {
+            "tooShort": "Numele este prea scurt"
+          }
+        },
+        "phoneNumber": {
+          "label": "Număr de Telefon",
+          "placeholder": "Introdu numărul tău de telefon",
+          "error": {
+            "invalid": "Te rugăm să introduci un număr de telefon valid"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Spune-ne despre tine",
+          "error": {
+            "tooLong": "Bio trebuie să conțină mai puțin de 500 de caractere"
+          }
+        },
+        "location": {
+          "label": "Locație",
+          "placeholder": "Introdu locația ta",
+          "error": {
+            "tooLong": "Locația trebuie să conțină mai puțin de 100 de caractere"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Eroare",
+          "message": "Nu s-au putut prelua datele profilului"
+        },
+        "updateSuccess": {
+          "title": "Succes",
+          "message": "Profilul a fost actualizat cu succes"
+        },
+        "updateError": {
+          "title": "Eroare",
+          "message": "Nu s-a putut actualiza profilul"
+        }
+      },
+      "loading": {
+        "title": "Se încarcă..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Se încarcă...",
+      "noProfileFound": "Nu s-a găsit Profilul",
+      "authenticationRequired": "Autentificare Necesară",
+      "pleaseLogIn": "Te rugăm să te conectezi pentru a urmări utilizatori.",
+      "success": "Succes",
+      "unfollowSuccess": "Ai încetat să urmărești pe",
+      "followSuccess": "Acum urmărești pe",
+      "error": "Eroare",
+      "followError": "Nu s-a putut actualiza statusul de urmărire.",
+      "posts": "Postări",
+      "followers": "Urmăritori",
+      "following": "Urmărește",
+      "follow": "Urmărește",
+      "unfollow": "Nu mai urmări",
+      "chat": "Chat"
+    },
+    "menu": {
+      "menu": "Meniu",
+      "settings": "Setări",
+      "yourUwaciCoins": "Monedele tale Uwaci",
+      "notifications": "Notificări",
+      "marketplace": "Piață",
+      "signOut": "Deconectare",
+      "confirmSignOut": "Confirmă Deconectarea",
+      "areYouSureSignOut": "Ești sigur că vrei să te deconectezi?",
+      "cancel": "Anulează",
+      "goBack": "Înapoi",
+      "joinNow": "Alătură-te Acum",
+      "joinLater": "Alătură-te Mai Târziu",
+      "savedChallenges": "Provocări de Alăturat"
+    },
+    "settings": {
+      "settings": "Setări",
+      "fontSelected": "Font Selectat",
+      "asYourFont": "a fost setat ca fontul tău.",
+      "languageSelected": "Limbă Selectată",
+      "asYourLanguage": "a fost setată ca limba ta.",
+      "themeSelected": "Temă Selectată",
+      "asYourTheme": "a fost setată ca tema ta.",
+      "notifications": "Notificări",
+      "marketplace": "Piață",
+      "account": "Cont",
+      "themes": "Teme",
+      "fonts": "Fonturi",
+      "languages": "Limbi",
+      "signOut": "Deconectare",
+      "confirmSignOut": "Confirmă Deconectarea",
+      "areYouSureSignOut": "Ești sigur că vrei să te deconectezi?",
+      "cancel": "Anulează",
+      "goBack": "Înapoi",
+      "selectFont": "Selectează Font",
+      "selectLanguage": "Selectează Limbă",
+      "selectTheme": "Selectează Temă",
+      "passwordSecurity": "Parolă & Securitate",
+      "personalDetails": "Detalii Personale",
+      "verification": "Verificare",
+      "paymentMethods": "Metode de Plată",
+      "adPreferences": "Preferințe Anunțuri",
+      "upgradePremium": "Actualizează la premium",
+      "content": "Conținut",
+      "language": "Limbă",
+      "savedDraft": "Schițe Salvate",
+      "yourActivity": "Activitatea Ta",
+      "accessibility": "Accesibilitate",
+      "privacy": "Confidențialitate",
+      "comments": "Comentarii",
+      "privateAccount": "Cont Privat",
+      "directMessaging": "Mesagerie Directă",
+      "blockedReports": "Blocări/Raportări",
+      "termsPolicies": "Termeni și Politici",
+      "switchAccount": "Schimbă Contul"
+    },
+    "accountDetails": {
+      "settingsTitle": "Setări Cont",
+      "profileSettings": "Editează Profilul ",
+      "resetPassword": "Resetează Parola",
+      "deleteAccount": "Șterge Contul",
+      "resetPasswordModal": {
+        "title": "Resetează Parola",
+        "message": "Un email de resetare a parolei va fi trimis la",
+        "sendEmail": "Trimite Email",
+        "cancel": "Anulează"
+      },
+      "deleteAccountModal": {
+        "title": "Șterge Contul",
+        "message": "Ești sigur că vrei să-ți ștergi contul? Această acțiune nu poate fi anulată.",
+        "delete": "Șterge",
+        "cancel": "Anulează"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profil Actualizat",
+          "message": "Profilul tău a fost actualizat cu succes."
+        },
+        "profileUpdateError": {
+          "title": "Eroare",
+          "message": "Nu s-a putut actualiza profilul tău. Te rugăm să încerci din nou."
+        },
+        "passwordReset": {
+          "title": "Resetare Parolă",
+          "message": "Un email de resetare a parolei a fost trimis."
+        },
+        "passwordResetError": {
+          "title": "Eroare",
+          "message": "Nu s-a putut trimite emailul de resetare a parolei. Te rugăm să încerci din nou."
+        },
+        "accountDeleted": {
+          "title": "Cont Șters",
+          "message": "Contul tău a fost șters cu succes."
+        },
+        "accountDeleteError": {
+          "title": "Eroare",
+          "message": "Nu s-a putut șterge contul tău. Te rugăm să încerci din nou."
+        }
+      }
+    }
+  }

@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Batlisisa Dikgwetlho",
+      "thatInspire": "tse di Tlhotlheletsang!",
+      "signUp": "Ikwadise",
+      "signIn": "Tsena"
+    },
+    "signUp": {
+      "title": "Ikwadise",
+      "headerMessage": "Tlhola akhaonto e ntšha go simolola.",
+      "businessTitle": "Ikwadise jaaka Kgwebo",
+      "headerMessageBusiness": "Tlhola akhaonto ya kgwebo go simolola.",
+      "form": {
+        "username": {
+          "label": "Leina la modirisi",
+          "placeholder": "Tlhopha leina la modirisi",
+          "validation": {
+            "minLength": "Leina la modirisi le tshwanetse go nna le ditlhaka di le 3 kgotsa go feta.",
+            "regex": "Leina la modirisi le ka nna le ditlhaka, dinomoro, le matshwao a fa tlase fela"
+          }
+        },
+        "firstname": {
+          "label": "Leina la ntlha",
+          "placeholder": "Tsenya leina la gago la ntlha",
+          "validation": "Leina la ntlha le tshwanetse go nna le ditlhaka di le 3 kgotsa go feta."
+        },
+        "lastname": {
+          "label": "Sefane",
+          "placeholder": "Tsenya sefane sa gago",
+          "validation": "Sefane se tshwanetse go nna le ditlhaka di le 3 kgotsa go feta."
+        },
+        "businessName": {
+          "label": "Leina la Kgwebo",
+          "placeholder": "Tsenya leina la kgwebo ya gago",
+          "validation": "Leina la kgwebo le tshwanetse go nna le ditlhaka di le 3 kgotsa go feta."
+        },
+        "website": {
+          "label": "Webesaete ya Kgwebo",
+          "placeholder": "Tsenya webesaete ya gago",
+          "validation": "Leina la kgwebo le tshwanetse go nna le ditlhaka di le 3 kgotsa go feta."
+        },
+        "businessType": {
+          "label": "Mofuta wa Kgwebo",
+          "placeholder": "Mofuta wa Kgwebo",
+          "validation": "Leina la kgwebo le tshwanetse go nna le ditlhaka di le 3 kgotsa go feta."
+        },
+        "email": {
+          "label": "Imeile",
+          "placeholder": "Tsenya aterese ya gago ya imeile",
+          "validation": "Tsweetswee tsenya aterese ya imeile e e dirang."
+        },
+        "phoneNumber": {
+          "label": "Nomoro ya Mogala",
+          "placeholder": "Tsenya nomoro ya gago ya mogala",
+          "validation": "Tsweetswee tsenya nomoro ya mogala e e dirang."
+        },
+        "birthday": {
+          "title": "Letsatsi la botsalo",
+          "label": "Letsatsi la botsalo",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Letsatsi la botsalo le tshwanetse go nna ka sebopego sa DD-MM-YYYY",
+            "validDate": "Letsatsi le le sa dirang",
+            "ageRestriction": "O tshwanetse go nna le dingwaga di le 18 kgotsa go feta go tlhola akhaonto"
+          }
+        },
+        "password": {
+          "label": "Khunololamoraba",
+          "placeholder": "Tsenya khunololamoraba ya gago",
+          "validation": {
+            "minLength": "Khunololamoraba e tshwanetse go nna le ditlhaka di le 8 kgotsa go feta.",
+            "maxLength": "Khunololamoraba e tshwanetse go nna ka tlase ga ditlhaka di le 64.",
+            "uppercase": "Khunololamoraba e tshwanetse go nna le tlhaka e le nngwe e kgolo.",
+            "lowercase": "Khunololamoraba e tshwanetse go nna le tlhaka e le nngwe e nnye.",
+            "numberOrSpecial": "Khunololamoraba e tshwanetse go nna le nomoro e le nngwe kgotsa letshwao le le kgethegileng."
+          },
+          "strength": {
+            "weak": "E bokoa",
+            "fair": "E siame",
+            "good": "E ntle",
+            "strong": "E tiileng"
+          }
+        },
+        "confirmPassword": {
+          "label": "Netefatsa Khunololamoraba",
+          "placeholder": "Tsenya khunololamoraba ya gago gape",
+          "validation": "Dikhunololamoraba ga di tshwane."
+        }
+      },
+      "buttons": {
+        "createAccount": "Tlhola Akhaonto",
+        "alreadyHaveAccount": "O setse o na le akhaonto?",
+        "signIn": "Tsena",
+        "businessJoin": "Ipataganya le Challenz jaaka molekane wa kgwebo"
+      },
+      "alerts": {
+        "error": {
+          "title": "Phoso",
+          "message": "Go ne go na le phoso fa go tlholwa akhaonto ya gago. Tsweetswee leka gape."
+        },
+        "passwordMismatch": {
+          "title": "Khunololamoraba ga e Tshwane",
+          "message": "Khunololamoraba e e fosagetseng. Tsweetswee leka gape."
+        },
+        "agreementRequired": {
+          "title": "Tumalano e a Tlhokega",
+          "message": "Tsweetswee amogela Melawana ya Tirelo le Pholisi ya Sephiri."
+        },
+        "success": {
+          "title": "Katlego",
+          "message": "Akhaonto e tlhotswe ka katlego."
+        },
+        "signUpError": {
+          "title": "Phoso ya go Ikwadisa",
+          "message": "Go ne go na le phoso fa go tlholwa akhaonto ya gago. Tsweetswee leka gape."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Ka go ikwadisa o dumela gore o badile",
+        "termsOfService": "Melawana ya Tirelo",
+        "privacyPolicy": "Pholisi ya Sephiri",
+        "andAccepted": "mme o amogetse"
+      }
+    },
+    "signIn": {
+      "title": "Tsena",
+      "headerMessage": "Tsenya dinetefatso tsa gago go tsena mo akhaontong ya gago.",
+      "form": {
+        "email": "Imeile",
+        "emailPlaceholder": "Tsenya Imeile ya gago",
+        "password": "Khunololamoraba",
+        "passwordPlaceholder": "Tsenya Khunololamoraba ya gago"
+      },
+      "buttons": {
+        "signIn": "Tsena",
+        "forgotPassword": "O Lebetse Khunololamoraba?",
+        "noAccount": "Ga o na akhaonto?",
+        "signUp": " Ikwadise"
+      },
+      "forgotPassword": {
+        "title": "Lebetse Khunololamoraba",
+        "prompt": "Tsweetswee tsenya imeile ya gago pele.",
+        "successTitle": "Lekola imeile ya gago",
+        "successMessage": "Re romeletse kgolagano ya go dira setšha khunololamoraba mo imeileng ya gago.",
+        "errorTitle": "Phoso ya go Dira Setšha"
+      },
+      "termsAndPrivacy": {
+        "message": "Ka go ikwadisa o dumela gore o badile",
+        "termsOfService": "Melawana ya Tirelo",
+        "privacyPolicy": "Pholisi ya Sephiri",
+        "andAccepted": "mme o amogetse"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Phoso ya go Tsena"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Lebetse Khunololamoraba",
+      "description": "Tsenya aterese ya gago ya imeile fa tlase mme re tla go romelela kgolagano ya go dira setšha khunololamoraba ya gago.",
+      "form": {
+        "email": "Aterese ya Imeile"
+      },
+      "buttons": {
+        "reset": "Dira Setšha Khunololamoraba",
+        "sending": "E a romelwa...",
+        "remembered": "O gopotse khunololamoraba ya gago?",
+        "signIn": "Tsena"
+      },
+      "alerts": {
+        "enterEmail": "Tsweetswee tsenya aterese ya gago ya imeile.",
+        "checkEmail": "Lekola imeile ya gago go bona kgolagano ya go dira setšha.",
+        "resetError": "Go paletswe go dira setšha khunololamoraba"
+      }
+    },
+    "resetPassword": {
+      "title": "Ntšhwafatsa Khunololamoraba",
+      "description": "Tsenya khunololamoraba ya gago e ntšha fa tlase go dira setšha khunololamoraba ya akhaonto ya gago.",
+      "form": {
+        "newPassword": "Tsenya khunololamoraba e ntšha",
+        "confirmPassword": "Netefatsa khunololamoraba e ntšha"
+      },
+      "alerts": {
+        "enterBothPasswords": "Tsweetswee tsenya mafelo ka bobedi a khunololamoraba.",
+        "passwordMismatch": "Dikhunololamoraba ga di tshwane. Tsweetswee leka gape.",
+        "success": "Khunololamoraba ya gago e ntšhwafaditswe ka katlego.",
+        "updateError": "Phoso ya go ntšhwafatsa khunololamoraba. Tsweetswee leka gape."
+      },
+      "buttons": {
+        "saving": "E a boloka...",
+        "update": "Ntšhwafatsa Khunololamoraba"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Tokene ya phitlhelelo e e sa dirang kgotsa e e tlhokagalang.",
+        "sessionFailed": "Go paletswe go baakanya tulo.",
+        "invalidPassword": "Tsweetswee tsenya khunololamoraba e e dirang ya ditlhaka di le 8 kgotsa go feta.",
+        "updateFailed": "Go paletswe go ntšhwafatsa khunololamoraba ya gago."
+      },
+      "success": {
+        "passwordUpdated": "Khunololamoraba ya gago e ntšhwafaditswe. Tsweetswee tsena gape."
+      },
+      "title": "Dira Setšha Khunololamoraba ya gago",
+      "instructions": "Tsenya khunololamoraba e ntšha.",
+      "labels": {
+        "newPassword": "Khunololamoraba e Ntšha"
+      },
+      "placeholders": {
+        "newPassword": "Tsenya khunololamoraba e ntšha"
+      },
+      "buttons": {
+        "updatePassword": "Ntšhwafatsa Khunololamoraba"
+      }
+    },
+    "tabs": {
+      "home": "Gae",
+      "search": "Batla",
+      "create": "Tlhola",
+      "contest": "Ditlhodisano",
+      "menu": "Menyu",
+      "settings": "Dipeakanyo",
+      "profile": "Profaele",
+      "editProfile": "Baakanya Profaele ya Gago",
+      "otherUserProfile": "Profaele ya Modirisi",
+      "explore": "Batlisisa",
+      "challengeDetails": "Dintlha tsa Kgwetlho",
+      "submissionDetails": "Dintlha tsa Tlhagiso",
+      "contestDetails": "Dintlha tsa Tlhodisano",
+      "followers": "Balatedi ",
+      "following": "Latela ",
+      "account": "Akhaonto",
+      "notifications": "Dikitsiso",
+      "leaderboard": "Papetla ya Baetapele",
+      "market": "Mmaraka",
+      "rewards": "Dikatlo",
+      "coin": "Dikhoine tsa Gago",
+      "savedChallenges": "Dikgwetlho tse di Bolokilweng"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Tlhola",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Aekhone ya gae",
+        "search": "Aekhone ya go batla",
+        "create": "Aekhone ya go tlhola",
+        "explore": "Aekhone ya go batlisisa",
+        "profile": "Aekhone ya profaele"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Batla ditlhagiso, badirisi, dikgwetlho...",
+      "clearSearch": "Phimola dipatlisiso",
+      "loading": "E a laisa...",
+      "error": {
+        "title": "Phoso ya go Batla",
+        "message": "Go ne go na le phoso nakong ya go batla."
+      },
+      "noPreviousSearches": "Ga go na dipatlisiso tsa pele.",
+      "previousSearches": "Dipatlisiso tsa Pele",
+      "submissions": {
+        "title": "Ditlhagiso",
+        "noResults": "Ga go na ditlhagiso tse di bonweng.",
+        "videoError": {
+          "title": "Phoso ya Video",
+          "message": "Go paletswe go laisa video."
+        }
+      },
+      "users": {
+        "title": "Badirisi",
+        "noResults": "Ga go na badirisi ba ba bonweng."
+      },
+      "challenges": {
+        "title": "Dikgwetlho",
+        "noResults": "Ga go na dikgwetlho tse di bonweng.",
+        "videoError": {
+          "title": "Phoso ya Video",
+          "message": "Go paletswe go laisa video ya kgwetlho."
+        },
+        "category": "Setlhopha: ",
+        "seasonalTag": "Ya Setlha",
+        "sponsoredTag": "E Tshegetswa"
+      },
+      "repeatSearch": "Boeletsa patlisiso ya",
+      "accessibility": {
+        "viewVideo": "Leba video ya setlhogo",
+        "viewProfile": "Leba profaele ya",
+        "viewChallenge": "Leba kgwetlho ya setlhogo"
+      }
+    },
+    "contest": {
+      "title": "Ditlhodisano Tsotlhe",
+      "createContestButton": "Tlhola Tlhodisano"
+    },
+    "contests": {
+      "noContests": "Ga go na ditlhodisano tse di bonweng.",
+      "error": {
+        "title": "Phoso",
+        "message": "Go paletswe go bona ditlhodisano."
+      },
+      "status": {
+        "notStarted": "Ga e Ise e Simolole",
+        "ongoing": "E Tsweletse",
+        "ended": "E Fedile"
+      },
+      "dates": {
+        "start": "Simolola: ",
+        "end": "Fela: ",
+        "notAvailable": "N/A"
+      },
+      "contestDetailsButton": "Leba Dintlha tsa Tlhodisano"
+    },
+    "newContest": {
+      "header": {
+        "title": "Tlhola Tlhodisano e Ntšha",
+        "backButton": "Morago"
+      },
+      "fields": {
+        "title": {
+          "label": "Setlhogo",
+          "placeholder": "sekao, Tlhodisano ya Mabina ya Selemo",
+          "validation": "Setlhogo se a tlhokega."
+        },
+        "description": {
+          "label": "Tlhaloso",
+          "placeholder": "Tlhodisano e ke ka ga eng?"
+        },
+        "startDate": {
+          "label": "Letsatsi la Tshimololo",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Letsatsi la bokhutlo le tshwanetse go nna morago ga letsatsi la tshimololo."
+        },
+        "endDate": {
+          "label": "Letsatsi la Bokhutlo",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Katlo ya Mofenyi (Dikhoine tsa Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Katlo ya Motsayakarolo (Dikhoine tsa Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Tlhaloso ya Video (Ga e Pateletswe)",
+          "noVideoSelected": "Tsenya tlhaloso ya video.",
+          "picked": "E tlhophilwe: {filename}",
+          "uploaded": "E laisitswe: Video e laisitswe ka katlego.",
+          "chooseVideoButton": "Tlhopha Video",
+          "uploadVideoButton": "Laisa Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Tlhola Tlhodisano"
+      },
+      "alerts": {
+        "error": {
+          "title": "Phoso",
+          "pickVideoMessage": "Go paletswe go tlhopha video.",
+          "uploadVideoMessage": "Go paletswe go laisa video.",
+          "createContestMessage": "Go paletswe go tlhola tlhodisano."
+        },
+        "success": {
+          "title": "Katlego.",
+          "videoUploadMessage": "Video e laisitswe ka katlego!",
+          "createContestMessage": "Tlhodisano e tlhotswe ka katlego!"
+        },
+        "validation": {
+          "noTitle": "Setlhogo se a tlhokega.",
+          "invalidDates": "Letsatsi la bokhutlo le tshwanetse go nna morago ga letsatsi la tshimololo."
+        },
+        "noSession": {
+          "title": "O tshwanetse go tsena go tlhola tlhodisano."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profaele",
+        "settingsButton": "Ya kwa Dipeakanyong"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Tetla e a tlhokega",
+          "message": "Re tlhoka tetla go fitlhelela ditshwantsho tsa gago."
+        },
+        "errorAlert": {
+          "title": "Phoso",
+          "message": "Go paletswe go tlhopha setshwantsho"
+        },
+        "successAlert": {
+          "title": "Katlego",
+          "message": "Setshwantsho sa profaele se ntšhwafaditswe ka katlego"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Phoso ya go Abelana",
+          "message": "Ga go kgonege go abelana kgolagano ya tshupetso."
+        },
+        "successShare": {
+          "title": "Tla le nna mo Challenz!",
+          "message": "Dumela! Dirisa kgolagano e go ikwadisa: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Balatedi",
+        "viewFollowers": "Leba Balatedi"
+      },
+      "following": {
+        "label": "Latela",
+        "viewFollowing": "Leba ba o ba Latelang"
+      },
+      "posts": {
+        "label": "Diposo",
+        "viewPosts": "Leba Diposo",
+        "noVideos": "Ga go na dibidio tse di posetsweng ga jaana."
+      },
+      "info": {
+        "email": "Imeile",
+        "phone": "Mogala",
+        "location": "Lefelo",
+        "coins": "Dikhoine tsa Uwaci",
+        "bio": "Tshobokanyo",
+        "noProfile": "Ga go na Profaele e e Bonweng"
+      },
+      "buttons": {
+        "inviteFriends": "Laletsa Ditsala",
+        "deleteVideo": "Phimola Video",
+        "deleteVideoAlert": {
+          "title": "Phimola Video",
+          "message": "A o tlhomamisitse gore o batla go phimola video e?"
+        },
+        "deleteSuccess": {
+          "title": "Katlego",
+          "message": "Video e phimoletswe ka katlego."
+        },
+        "deleteError": {
+          "title": "Phoso",
+          "message": "Go paletswe go phimola video."
+        }
+      },
+      "errors": {
+        "generalError": "Go ne go na le phoso.",
+        "profileError": "Go paletswe go bona profaele.",
+        "submissionsError": "Go paletswe go bona ditlhagiso."
+      },
+      "loading": {
+        "profile": "Go laisa profaele...",
+        "submissions": "Go laisa ditlhagiso..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Baakanya Profaele",
+        "cancelButton": "Khansela",
+        "saveButton": "Boloka Diphetogo",
+        "savingButton": "Go a boloka..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Leina la Ntlha",
+          "placeholder": "Tsenya leina la gago la ntlha",
+          "error": {
+            "tooShort": "Leina la ntlha le khutshwafetse thata"
+          }
+        },
+        "lastName": {
+          "label": "Sefane",
+          "placeholder": "Tsenya sefane sa gago",
+          "error": {
+            "tooShort": "Sefane se khutshwafetse thata"
+          }
+        },
+        "phoneNumber": {
+          "label": "Nomoro ya Mogala",
+          "placeholder": "Tsenya nomoro ya gago ya mogala",
+          "error": {
+            "invalid": "Tsweetswee tsenya nomoro ya mogala e e dirang"
+          }
+        },
+        "bio": {
+          "label": "Tshobokanyo",
+          "placeholder": "Re bolelele ka ga wena",
+          "error": {
+            "tooLong": "Tshobokanyo e tshwanetse go nna ka tlase ga ditlhaka di le 500"
+          }
+        },
+        "location": {
+          "label": "Lefelo",
+          "placeholder": "Tsenya lefelo la gago",
+          "error": {
+            "tooLong": "Lefelo le tshwanetse go nna ka tlase ga ditlhaka di le 100"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Phoso",
+          "message": "Go paletswe go bona tshedimosetso ya profaele"
+        },
+        "updateSuccess": {
+          "title": "Katlego",
+          "message": "Profaele e ntšhwafaditswe ka katlego"
+        },
+        "updateError": {
+          "title": "Phoso",
+          "message": "Go paletswe go ntšhwafatsa profaele"
+        }
+      },
+      "loading": {
+        "title": "Go laisa..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Go laisa...",
+      "noProfileFound": "Ga go na Profaele e e Bonweng",
+      "authenticationRequired": "Netefatso e a Tlhokega",
+      "pleaseLogIn": "Tsweetswee tsena go latela badirisi.",
+      "success": "Katlego",
+      "unfollowSuccess": "O tlogetswe go latelwa",
+      "followSuccess": "O jaanong o latela",
+      "error": "Phoso",
+      "followError": "Go paletswe go ntšhwafatsa maemo a go latela.",
+      "posts": "Diposo",
+      "followers": "Balatedi",
+      "following": "Latela",
+      "follow": "Latela",
+      "unfollow": "Khutlisa go Latela",
+      "chat": "Khutsa"
+    },
+    "menu": {
+      "menu": "Menyu",
+      "settings": "Dipeakanyo",
+      "yourUwaciCoins": "Dikhoine tsa Gago tsa Uwaci",
+      "notifications": "Dikitsiso",
+      "marketplace": "Mmaraka",
+      "signOut": "Tswa",
+      "confirmSignOut": "Netefatsa go Tswa",
+      "areYouSureSignOut": "A o tlhomamisitse gore o batla go tswa?",
+      "cancel": "Khansela",
+      "goBack": "Boela Morago",
+      "joinNow": "Tsenela Jaanong",
+      "joinLater": "Tsenela Moragonyana",
+      "savedChallenges": "Dikgwetlho tse o ka di Tsenelang"
+    },
+    "settings": {
+      "settings": "Dipeakanyo",
+      "fontSelected": "Mokwalo o Tlhophilwe",
+      "asYourFont": "o beilwe jaaka mokwalo wa gago.",
+      "languageSelected": "Puo e Tlhophilwe",
+      "asYourLanguage": "e beilwe jaaka puo ya gago.",
+      "themeSelected": "Theme e Tlhophilwe",
+      "asYourTheme": "e beilwe jaaka theme ya gago.",
+      "notifications": "Dikitsiso",
+      "marketplace": "Mmaraka",
+      "account": "Akhaonto",
+      "themes": "Ditheme",
+      "fonts": "Mekwalo",
+      "languages": "Dipuo",
+      "signOut": "Tswa",
+      "confirmSignOut": "Netefatsa go Tswa",
+      "areYouSureSignOut": "A o tlhomamisitse gore o batla go tswa?",
+      "cancel": "Khansela",
+      "goBack": "Boela Morago",
+      "selectFont": "Tlhopha Mokwalo",
+      "selectLanguage": "Tlhopha Puo",
+      "selectTheme": "Tlhopha Theme",
+      "passwordSecurity": "Khunololamoraba & Tshireletsego",
+      "personalDetails": "Dintlha tsa Sebele",
+      "verification": "Netefatso",
+      "paymentMethods": "Mekgwa ya Tuelo",
+      "adPreferences": "Dikgatlhego tsa Papatso",
+      "upgradePremium": "Godisa go ya kwa premium",
+      "content": "Diteng",
+      "language": "Puo",
+      "savedDraft": "Kakanyetso e e Bolokilweng",
+      "yourActivity": "Tiro ya Gago",
+      "accessibility": "Phitlhelelo",
+      "privacy": "Sephiri",
+      "comments": "Ditshwaelo",
+      "privateAccount": "Akhaonto ya Sephiri",
+      "directMessaging": "Go Romela Melaetsa Thwii",
+      "blockedReports": "Thibetswe/Dipego",
+      "termsPolicies": "Melawana le Dipholisi",
+      "switchAccount": "Fetola Akhaonto"
+    },
+    "accountDetails": {
+      "settingsTitle": "Dipeakanyo tsa Akhaonto",
+      "profileSettings": "Baakanya Profaele ",
+      "resetPassword": "Dira Setšha Khunololamoraba",
+      "deleteAccount": "Phimola Akhaonto",
+      "resetPasswordModal": {
+        "title": "Dira Setšha Khunololamoraba",
+        "message": "Imeile ya go dira setšha khunololamoraba e tla romelwa go",
+        "sendEmail": "Romela Imeile",
+        "cancel": "Khansela"
+      },
+      "deleteAccountModal": {
+        "title": "Phimola Akhaonto",
+        "message": "A o tlhomamisitse gore o batla go phimola akhaonto ya gago? Tiro e ga e kake ya sokollwa.",
+        "delete": "Phimola",
+        "cancel": "Khansela"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profaele e Ntšhwafaditswe",
+          "message": "Profaele ya gago e ntšhwafaditswe ka katlego."
+        },
+        "profileUpdateError": {
+          "title": "Phoso",
+          "message": "Go paletswe go ntšhwafatsa profaele ya gago. Tsweetswee leka gape."
+        },
+        "passwordReset": {
+          "title": "Khunololamoraba e Dirilwe Setšha",
+          "message": "Imeile ya go dira setšha khunololamoraba e rometilwe."
+        },
+        "passwordResetError": {
+          "title": "Phoso",
+          "message": "Go paletswe go romela imeile ya go dira setšha khunololamoraba. Tsweetswee leka gape."
+        },
+        "accountDeleted": {
+          "title": "Akhaonto e Phimoletswe",
+          "message": "Akhaonto ya gago e phimoletswe ka katlego."
+        },
+        "accountDeleteError": {
+          "title": "Phoso",
+          "message": "Go paletswe go phimola akhaonto ya gago. Tsweetswee leka gape."
+        }
+      }
+    }
+  }

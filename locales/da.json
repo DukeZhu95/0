@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Udforsk Udfordringer",
+    "thatInspire": "der inspirerer!",
+    "signUp": "Tilmeld dig",
+    "signIn": "Log ind"
+  },
+  "signUp": {
+    "title": "Tilmeld dig",
+    "headerMessage": "Opret en ny konto for at komme i gang.",
+    "form": {
+      "username": {
+        "label": "Brugernavn",
+        "placeholder": "Vælg et brugernavn",
+        "validation": {
+          "minLength": "Brugernavnet skal være mindst 3 tegn langt.",
+          "regex": "Brugernavnet må kun indeholde bogstaver, tal og understregninger."
+        }
+      },
+      "firstname": {
+        "label": "Fornavn",
+        "placeholder": "Indtast dit fornavn",
+        "validation": "Fornavnet skal være mindst 3 tegn langt."
+      },
+      "lastname": {
+        "label": "Efternavn",
+        "placeholder": "Indtast dit efternavn",
+        "validation": "Efternavnet skal være mindst 3 tegn langt."
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Indtast din e-mailadresse",
+        "validation": "Indtast venligst en gyldig e-mailadresse."
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Indtast dit telefonnummer",
+        "validation": "Indtast venligst et gyldigt telefonnummer."
+      },
+      "birthday": {
+        "label": "Fødselsdag",
+        "placeholder": "ÅÅÅÅ-MM-DD",
+        "validation": {
+          "format": "Fødselsdagen skal være i formatet ÅÅÅÅ-MM-DD",
+          "validDate": "Ugyldig dato",
+          "ageRestriction": "Du skal være 18 år eller ældre for at oprette en konto"
+        }
+      },
+      "password": {
+        "label": "Adgangskode",
+        "placeholder": "Indtast din adgangskode",
+        "validation": {
+          "minLength": "Adgangskoden skal være mindst 8 tegn lang.",
+          "maxLength": "Adgangskoden skal være mindre end 64 tegn.",
+          "uppercase": "Adgangskoden skal indeholde mindst ét stort bogstav.",
+          "lowercase": "Adgangskoden skal indeholde mindst ét lille bogstav.",
+          "numberOrSpecial": "Adgangskoden skal indeholde mindst ét tal eller specialtegn."
+        },
+        "strength": {
+          "weak": "Svæk",
+          "fair": "Middel",
+          "good": "God",
+          "strong": "Stærk"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekræft Adgangskode",
+        "placeholder": "Indtast din adgangskode igen",
+        "validation": "Adgangskoderne matcher ikke."
+      }
+    },
+    "buttons": {
+      "createAccount": "Opret Konto",
+      "alreadyHaveAccount": "Har du allerede en konto? Log ind"
+    },
+    "alerts": {
+      "error": {
+        "title": "Fejl",
+        "message": "Der opstod en fejl under oprettelsen af din konto. Prøv venligst igen."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Ved at tilmelde dig accepterer du, at du har læst vores",
+      "termsOfService": "Servicevilkår",
+      "privacyPolicy": "Privatlivspolitik",
+      "andAccepted": "og har accepteret vores"
+    }
+  },
+  "signIn": {
+    "title": "Log ind",
+    "headerMessage": "Indtast dine legitimationsoplysninger for at få adgang til din konto.",
+    "form": {
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "password": "Adgangskode",
+      "passwordPlaceholder": "Adgangskode"
+    },
+    "buttons": {
+      "signIn": "Log ind",
+      "forgotPassword": "Glemt adgangskode?",
+      "signUp": "Har du ingen konto? Tilmeld dig"
+    },
+    "forgotPassword": {
+      "title": "Glemt adgangskode",
+      "prompt": "Indtast venligst din e-mailadresse først.",
+      "successTitle": "Tjek din e-mail",
+      "successMessage": "Vi har sendt et link til at nulstille din adgangskode til din e-mail.",
+      "errorTitle": "Fejl ved nulstilling"
+    },
+    "termsAndPrivacy": {
+      "message": "Ved at tilmelde dig accepterer du, at du har læst vores",
+      "termsOfService": "Servicevilkår",
+      "privacyPolicy": "Privatlivspolitik",
+      "andAccepted": "og har accepteret vores"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Fejl ved login"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Ugyldig eller manglende adgangstoken.",
+      "sessionFailed": "Session kunne ikke oprettes.",
+      "invalidPassword": "Indtast venligst en gyldig adgangskode med mindst 8 tegn.",
+      "updateFailed": "Opdatering af din adgangskode mislykkedes."
+    },
+    "success": {
+      "passwordUpdated": "Din adgangskode er blevet opdateret. Log venligst ind igen."
+    },
+    "title": "Nulstil din adgangskode",
+    "instructions": "Indtast en ny adgangskode.",
+    "labels": {
+      "newPassword": "Ny adgangskode"
+    },
+    "placeholders": {
+      "newPassword": "Indtast den nye adgangskode"
+    },
+    "buttons": {
+      "updatePassword": "Opdater adgangskode"
+    }
+  },
+  "tabs": {
+    "home": "Hjem",
+    "search": "Søg",
+    "create": "Opret",
+    "explore": "Konkurrencer",
+    "profile": "Profil",
+    "settings": "Indstillinger",
+    "editProfile": "Rediger Profil",
+    "otherUserProfile": "Anden Brugerprofil",
+    "comment": "Kommentar",
+    "contest": "Konkurrence",
+    "challengeDetails": "Udfordringsdetaljer",
+    "submissionDetails": "Indsendelsesdetaljer",
+    "contestDetails": "Konkurrencedetaljer",
+    "followers": "Følgere",
+    "following": "Følger",
+    "account": "Konto",
+    "notifications": "Notifikationer",
+    "leaderboard": "Leaderboard",
+    "market": "Markedsplads",
+    "rewards": "Belønninger"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Opret",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Hjem-ikon",
+      "search": "Søgeikon",
+      "create": "Opret-ikon",
+      "explore": "Udforsk-ikon",
+      "profile": "Profil-ikon"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Søg efter indsendelser, brugere, udfordringer...",
+    "clearSearch": "Ryd søgning",
+    "loading": "Indlæser...",
+    "error": {
+      "title": "Søgefejl",
+      "message": "Der opstod en fejl under søgningen."
+    },
+    "noPreviousSearches": "Ingen tidligere søgninger.",
+    "previousSearches": "Tidligere søgninger",
+    "submissions": {
+      "title": "Indsendelser",
+      "noResults": "Ingen indsendelser fundet.",
+      "videoError": {
+        "title": "Video Fejl",
+        "message": "Video kunne ikke indlæses."
+      }
+    },
+    "users": {
+      "title": "Brugere",
+      "noResults": "Ingen brugere fundet."
+    },
+    "challenges": {
+      "title": "Udfordringer",
+      "noResults": "Ingen udfordringer fundet.",
+      "videoError": {
+        "title": "Video Fejl",
+        "message": "Videoen til udfordringen kunne ikke indlæses."
+      },
+      "category": "Kategori: ",
+      "seasonalTag": "Sæsonbetonet",
+      "sponsoredTag": "Sponsoreret"
+    },
+    "repeatSearch": "Gentag søgning for",
+    "accessibility": {
+      "viewVideo": "Se video med titlen",
+      "viewProfile": "Se profil af",
+      "viewChallenge": "Se udfordring med titlen"
+    }
+  },
+  "contest": {
+    "title": "Alle Konkurrencer",
+    "createContestButton": "Opret Konkurrence"
+  },
+  "contests": {
+    "noContests": "Ingen konkurrencer fundet.",
+    "error": {
+      "title": "Fejl",
+      "message": "Kunne ikke hente konkurrencer."
+    },
+    "status": {
+      "notStarted": "Ikke startet",
+      "ongoing": "I gang",
+      "ended": "Afsluttet"
+    },
+    "dates": {
+      "start": "Start: ",
+      "end": "Slut: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Se Konkurrencedetaljer"
+  },
+  "newContest": {
+    "header": {
+      "title": "Opret Ny Konkurrence",
+      "backButton": "Tilbage"
+    },
+    "fields": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "f.eks. Sommer Dans Udfordring",
+        "validation": "Titel er påkrævet."
+      },
+      "description": {
+        "label": "Beskrivelse",
+        "placeholder": "Hvad handler denne konkurrence om?"
+      },
+      "startDate": {
+        "label": "Startdato",
+        "placeholder": "ÅÅÅÅ-MM-DD",
+        "validation": "Slutdatoen skal være efter startdatoen."
+      },
+      "endDate": {
+        "label": "Slutdato",
+        "placeholder": "ÅÅÅÅ-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Vinderbelønning (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Deltagerbelønning (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Video Beskrivelse (Valgfri)",
+        "noVideoSelected": "Tilføj en video beskrivelse.",
+        "picked": "Valgt: {filename}",
+        "uploaded": "Uploadet: Videoen er blevet uploadet succesfuldt.",
+        "chooseVideoButton": "Vælg Video",
+        "uploadVideoButton": "Upload Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Opret Konkurrence"
+    },
+    "alerts": {
+      "error": {
+        "title": "Fejl",
+        "pickVideoMessage": "Fejl ved valg af video.",
+        "uploadVideoMessage": "Fejl ved upload af video.",
+        "createContestMessage": "Fejl ved oprettelse af konkurrence."
+      },
+      "success": {
+        "videoUploadMessage": "Video uploadet succesfuldt!",
+        "createContestMessage": "Konkurrence oprettet succesfuldt!"
+      },
+      "validation": {
+        "noTitle": "Titel er påkrævet.",
+        "invalidDates": "Slutdatoen skal være efter startdatoen."
+      },
+      "noSession": {
+        "title": "Du skal være logget ind for at oprette en konkurrence."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Gå til Indstillinger"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Tilladelse Påkrævet",
+        "message": "Vi har brug for tilladelse til at få adgang til dine fotos."
+      },
+      "errorAlert": {
+        "title": "Fejl",
+        "message": "Fejl ved valg af billede"
+      },
+      "successAlert": {
+        "title": "Succes",
+        "message": "Profilbillede opdateret succesfuldt"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Delingsfejl",
+        "message": "Referral-link kunne ikke deles."
+      },
+      "successShare": {
+        "title": "Deltag sammen med mig på Challenz!",
+        "message": "Hej! Brug dette link til at tilmelde dig: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Følgere",
+      "viewFollowers": "Vis Følgere"
+    },
+    "following": {
+      "label": "Følger",
+      "viewFollowing": "Vis Følger"
+    },
+    "posts": {
+      "label": "Indlæg",
+      "viewPosts": "Vis Indlæg",
+      "noVideos": "Ingen videoer offentliggjort endnu."
+    },
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "location": "Beliggenhed",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Ingen Profil Fundet"
+    },
+    "buttons": {
+      "inviteFriends": "Del Referral-link",
+      "deleteVideo": "Slet Video",
+      "deleteVideoAlert": {
+        "title": "Slet Video",
+        "message": "Er du sikker på, at du vil slette denne video?"
+      },
+      "deleteSuccess": {
+        "title": "Succes",
+        "message": "Video slettet succesfuldt."
+      },
+      "deleteError": {
+        "title": "Fejl",
+        "message": "Fejl ved sletning af video."
+      }
+    },
+    "errors": {
+      "generalError": "Der opstod en fejl.",
+      "profileError": "Fejl ved hentning af profil.",
+      "submissionsError": "Fejl ved hentning af indsendelser."
+    },
+    "loading": {
+      "profile": "Indlæser profil...",
+      "submissions": "Indlæser indsendelser..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Rediger Profil",
+      "cancelButton": "Annuller",
+      "saveButton": "Gem Ændringer",
+      "savingButton": "Gemmer..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Fornavn",
+        "placeholder": "Indtast dit fornavn",
+        "error": {
+          "tooShort": "Fornavn er for kort"
+        }
+      },
+      "lastName": {
+        "label": "Efternavn",
+        "placeholder": "Indtast dit efternavn",
+        "error": {
+          "tooShort": "Efternavn er for kort"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Indtast dit telefonnummer",
+        "error": {
+          "invalid": "Indtast venligst et gyldigt telefonnummer"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Fortæl os om dig selv",
+        "error": {
+          "tooLong": "Bio skal være mindre end 500 tegn"
+        }
+      },
+      "location": {
+        "label": "Beliggenhed",
+        "placeholder": "Indtast din beliggenhed",
+        "error": {
+          "tooLong": "Beliggenhed skal være mindre end 100 tegn"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Fejl",
+        "message": "Fejl ved hentning af profildata"
+      },
+      "updateSuccess": {
+        "title": "Succes",
+        "message": "Profil opdateret succesfuldt"
+      },
+      "updateError": {
+        "title": "Fejl",
+        "message": "Fejl ved opdatering af profil"
+      }
+    },
+    "loading": {
+      "title": "Indlæser..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Indlæser...",
+    "noProfileFound": "Ingen profil fundet",
+    "authenticationRequired": "Autentificering Påkrævet",
+    "pleaseLogIn": "Log venligst ind for at følge brugere.",
+    "success": "Succes",
+    "unfollowSuccess": "Du har stoppet med at følge",
+    "followSuccess": "Du følger nu",
+    "error": "Fejl",
+    "followError": "Fejl ved opdatering af følgesstatus.",
+    "posts": "Indlæg",
+    "followers": "Følgere",
+    "following": "Følger",
+    "follow": "Følg",
+    "unfollow": "Stop med at følge",
+    "chat": "Chat"
+  },
+  "settings": {
+    "settings": "Indstillinger",
+    "fontSelected": "Valgt skrifttype",
+    "asYourFont": "er sat som din skrifttype.",
+    "languageSelected": "Valgt sprog",
+    "asYourLanguage": "er sat som dit sprog.",
+    "themeSelected": "Valgt tema",
+    "asYourTheme": "er sat som dit tema.",
+    "notifications": "Notifikationer",
+    "marketplace": "Markedsplads",
+    "account": "Konto",
+    "themes": "Temaer",
+    "fonts": "Skrifttyper",
+    "languages": "Sprog",
+    "signOut": "Log ud",
+    "confirmSignOut": "Bekræft Log ud",
+    "areYouSureSignOut": "Er du sikker på, at du vil logge ud?",
+    "cancel": "Annuller",
+    "goBack": "Gå tilbage",
+    "selectFont": "Vælg skrifttype",
+    "selectLanguage": "Vælg sprog",
+    "selectTheme": "Vælg tema"
+  },
+  "accountDetails": {
+    "settingsTitle": "Kontoindstillinger",
+    "profileSettings": "Rediger Profil",
+    "resetPassword": "Nulstil Adgangskode",
+    "deleteAccount": "Slet Konto",
+    "resetPasswordModal": {
+      "title": "Nulstil Adgangskode",
+      "message": "En e-mail til nulstilling af adgangskode vil blive sendt til",
+      "sendEmail": "Send E-mail",
+      "cancel": "Annuller"
+    },
+    "deleteAccountModal": {
+      "title": "Slet Konto",
+      "message": "Er du sikker på, at du vil slette din konto? Denne handling kan ikke fortrydes.",
+      "delete": "Slet",
+      "cancel": "Annuller"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Opdateret",
+        "message": "Din profil er blevet opdateret succesfuldt."
+      },
+      "profileUpdateError": {
+        "title": "Fejl",
+        "message": "Kunne ikke opdatere din profil. Prøv venligst igen."
+      },
+      "passwordReset": {
+        "title": "Adgangskode Nulstil",
+        "message": "En e-mail til nulstilling af adgangskode er blevet sendt."
+      },
+      "passwordResetError": {
+        "title": "Fejl",
+        "message": "Kunne ikke sende e-mail til nulstilling af adgangskode. Prøv venligst igen."
+      },
+      "accountDeleted": {
+        "title": "Konto Slettet",
+        "message": "Din konto er blevet slettet succesfuldt."
+      },
+      "accountDeleteError": {
+        "title": "Fejl",
+        "message": "Kunne ikke slette din konto. Prøv venligst igen."
+      }
+    }
+  }
+}

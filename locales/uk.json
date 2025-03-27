@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Досліджуйте Виклики",
+    "thatInspire": "які надихають!",
+    "signUp": "Зареєструватися",
+    "signIn": "Увійти"
+  },
+  "signUp": {
+    "title": "Зареєструватися",
+    "headerMessage": "Створіть новий акаунт, щоб розпочати.",
+    "form": {
+      "username": {
+        "label": "Ім'я користувача",
+        "placeholder": "Виберіть ім'я користувача",
+        "validation": {
+          "minLength": "Ім'я користувача повинно містити не менше 3 символів.",
+          "regex": "Ім'я користувача може містити лише літери, цифри та підкреслення."
+        }
+      },
+      "firstname": {
+        "label": "Ім'я",
+        "placeholder": "Введіть своє ім'я",
+        "validation": "Ім'я повинно містити не менше 3 символів."
+      },
+      "lastname": {
+        "label": "Прізвище",
+        "placeholder": "Введіть своє прізвище",
+        "validation": "Прізвище повинно містити не менше 3 символів."
+      },
+      "email": {
+        "label": "Електронна пошта",
+        "placeholder": "Введіть свою електронну адресу",
+        "validation": "Будь ласка, введіть дійсну електронну адресу."
+      },
+      "phoneNumber": {
+        "label": "Номер телефону",
+        "placeholder": "Введіть свій номер телефону",
+        "validation": "Будь ласка, введіть дійсний номер телефону."
+      },
+      "birthday": {
+        "label": "Дата народження",
+        "placeholder": "РРРР-ММ-ДД",
+        "validation": {
+          "format": "Дата народження повинна бути у форматі РРРР-ММ-ДД.",
+          "validDate": "Невірна дата",
+          "ageRestriction": "Ви повинні бути не менше 18 років, щоб створити акаунт."
+        }
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Введіть свій пароль",
+        "validation": {
+          "minLength": "Пароль повинен містити не менше 8 символів.",
+          "maxLength": "Пароль повинен містити менше 64 символів.",
+          "uppercase": "Пароль повинен містити принаймні одну велику літеру.",
+          "lowercase": "Пароль повинен містити принаймні одну малу літеру.",
+          "numberOrSpecial": "Пароль повинен містити принаймні одну цифру або спеціальний символ."
+        },
+        "strength": {
+          "weak": "Слабкий",
+          "fair": "Помірний",
+          "good": "Добрий",
+          "strong": "Сильний"
+        }
+      },
+      "confirmPassword": {
+        "label": "Підтвердіть пароль",
+        "placeholder": "Введіть свій пароль ще раз",
+        "validation": "Паролі не збігаються."
+      }
+    },
+    "buttons": {
+      "createAccount": "Створити акаунт",
+      "alreadyHaveAccount": "Вже маєте акаунт? Увійти"
+    },
+    "alerts": {
+      "error": {
+        "title": "Помилка",
+        "message": "Сталася помилка під час створення вашого акаунту. Будь ласка, спробуйте ще раз."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Реєструючись, ви погоджуєтеся, що прочитали наші",
+      "termsOfService": "Умови обслуговування",
+      "privacyPolicy": "Політику конфіденційності",
+      "andAccepted": "і погоджуєтеся з ними"
+    }
+  },
+  "signIn": {
+    "title": "Увійти",
+    "headerMessage": "Введіть свої облікові дані, щоб отримати доступ до акаунту.",
+    "form": {
+      "email": "Електронна пошта",
+      "emailPlaceholder": "Електронна пошта",
+      "password": "Пароль",
+      "passwordPlaceholder": "Пароль"
+    },
+    "buttons": {
+      "signIn": "Увійти",
+      "forgotPassword": "Забули пароль?",
+      "signUp": "Немає акаунту? Зареєструватися"
+    },
+    "forgotPassword": {
+      "title": "Забули пароль",
+      "prompt": "Будь ласка, спочатку введіть свою електронну адресу вище.",
+      "successTitle": "Перевірте свою електронну пошту",
+      "successMessage": "Ми надіслали посилання для скидання пароля на вашу електронну пошту.",
+      "errorTitle": "Помилка скидання"
+    },
+    "termsAndPrivacy": {
+      "message": "Реєструючись, ви погоджуєтеся, що прочитали наші",
+      "termsOfService": "Умови обслуговування",
+      "privacyPolicy": "Політику конфіденційності",
+      "andAccepted": "і погоджуєтеся з ними"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Помилка входу"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Недійсний або відсутній токен доступу.",
+      "sessionFailed": "Не вдалося створити сесію.",
+      "invalidPassword": "Будь ласка, введіть дійсний пароль не менше 8 символів.",
+      "updateFailed": "Не вдалося оновити ваш пароль."
+    },
+    "success": {
+      "passwordUpdated": "Ваш пароль було оновлено. Будь ласка, увійдіть знову."
+    },
+    "title": "Скинути пароль",
+    "instructions": "Введіть новий пароль.",
+    "labels": {
+      "newPassword": "Новий пароль"
+    },
+    "placeholders": {
+      "newPassword": "Введіть свій новий пароль"
+    },
+    "buttons": {
+      "updatePassword": "Оновити пароль"
+    }
+  },
+  "tabs": {
+    "home": "Головна",
+    "search": "Пошук",
+    "create": "Створити",
+    "explore": "Конкурси",
+    "profile": "Профіль",
+    "settings": "Налаштування",
+    "editProfile": "Редагувати профіль",
+    "otherUserProfile": "Профіль іншого користувача",
+    "comment": "Коментар",
+    "contest": "Конкурс",
+    "challengeDetails": "Деталі Виклику",
+    "submissionDetails": "Деталі Подання",
+    "contestDetails": "Деталі Конкурсу",
+    "followers": "Підписники",
+    "following": "Підписані",
+    "account": "Акаунт",
+    "notifications": "Повідомлення",
+    "leaderboard": "Таблиця лідерів",
+    "market": "Ринок",
+    "rewards": "Нагороди"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Створити",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Іконка головної сторінки",
+      "search": "Іконка пошуку",
+      "create": "Іконка створення",
+      "explore": "Іконка дослідження",
+      "profile": "Іконка профілю"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Шукати подання, користувачів, виклики...",
+    "clearSearch": "Очистити пошук",
+    "loading": "Завантаження...",
+    "error": {
+      "title": "Помилка пошуку",
+      "message": "Сталася помилка під час пошуку."
+    },
+    "noPreviousSearches": "Немає попередніх пошуків.",
+    "previousSearches": "Попередні пошуки",
+    "submissions": {
+      "title": "Подання",
+      "noResults": "Подань не знайдено.",
+      "videoError": {
+        "title": "Помилка відео",
+        "message": "Не вдалося завантажити відео."
+      }
+    },
+    "users": {
+      "title": "Користувачі",
+      "noResults": "Користувачів не знайдено."
+    },
+    "challenges": {
+      "title": "Виклики",
+      "noResults": "Викликів не знайдено.",
+      "videoError": {
+        "title": "Помилка відео",
+        "message": "Не вдалося завантажити відео виклику."
+      },
+      "category": "Категорія: ",
+      "seasonalTag": "Сезонний",
+      "sponsoredTag": "Спонсорований"
+    },
+    "repeatSearch": "Повторити пошук для",
+    "accessibility": {
+      "viewVideo": "Переглянути відео з назвою",
+      "viewProfile": "Переглянути профіль користувача",
+      "viewChallenge": "Переглянути виклик з назвою"
+    }
+  },
+  "contest": {
+    "title": "Всі конкурси",
+    "createContestButton": "Створити конкурс"
+  },
+  "contests": {
+    "noContests": "Конкурси не знайдено.",
+    "error": {
+      "title": "Помилка",
+      "message": "Не вдалося отримати конкурси."
+    },
+    "status": {
+      "notStarted": "Не розпочато",
+      "ongoing": "Триває",
+      "ended": "Закінчено"
+    },
+    "dates": {
+      "start": "Початок: ",
+      "end": "Кінець: ",
+      "notAvailable": "Н/Д"
+    },
+    "contestDetailsButton": "Переглянути деталі конкурсу"
+  },
+  "newContest": {
+    "header": {
+      "title": "Створити новий конкурс",
+      "backButton": "Назад"
+    },
+    "fields": {
+      "title": {
+        "label": "Назва",
+        "placeholder": "наприклад, Літній танцювальний конкурс",
+        "validation": "Назва є обов'язковою."
+      },
+      "description": {
+        "label": "Опис",
+        "placeholder": "Про що цей конкурс?"
+      },
+      "startDate": {
+        "label": "Дата початку",
+        "placeholder": "РРРР-ММ-ДД",
+        "validation": "Дата закінчення повинна бути після дати початку."
+      },
+      "endDate": {
+        "label": "Дата закінчення",
+        "placeholder": "РРРР-ММ-ДД"
+      },
+      "winnerReward": {
+        "label": "Нагорода переможцю (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Нагорода учасникам (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Пояснювальне відео (необов'язково)",
+        "noVideoSelected": "Додайте пояснювальне відео.",
+        "picked": "Вибрано: {filename}",
+        "uploaded": "Завантажено: Відео успішно завантажено.",
+        "chooseVideoButton": "Вибрати відео",
+        "uploadVideoButton": "Завантажити відео"
+      }
+    },
+    "buttons": {
+      "createContest": "Створити конкурс"
+    },
+    "alerts": {
+      "error": {
+        "title": "Помилка",
+        "pickVideoMessage": "Не вдалося вибрати відео.",
+        "uploadVideoMessage": "Не вдалося завантажити відео.",
+        "createContestMessage": "Не вдалося створити конкурс."
+      },
+      "success": {
+        "videoUploadMessage": "Відео успішно завантажено!",
+        "createContestMessage": "Конкурс успішно створено!"
+      },
+      "validation": {
+        "noTitle": "Назва є обов'язковою.",
+        "invalidDates": "Дата закінчення повинна бути після дати початку."
+      },
+      "noSession": {
+        "title": "Ви повинні увійти, щоб створити конкурс."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Профіль",
+      "settingsButton": "Перейти до налаштувань"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Потрібні дозволи",
+        "message": "Нам потрібен дозвіл на доступ до ваших фотографій."
+      },
+      "errorAlert": {
+        "title": "Помилка",
+        "message": "Не вдалося вибрати зображення."
+      },
+      "successAlert": {
+        "title": "Успіх",
+        "message": "Профільне зображення успішно оновлено."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Помилка спільного доступу",
+        "message": "Не вдалося поділитися реферальним посиланням."
+      },
+      "successShare": {
+        "title": "Приєднуйтесь до мене на Challenz!",
+        "message": "Привіт! Використовуйте це посилання, щоб зареєструватися: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Підписники",
+      "viewFollowers": "Переглянути підписників"
+    },
+    "following": {
+      "label": "Підписані",
+      "viewFollowing": "Переглянути підписані"
+    },
+    "posts": {
+      "label": "Пости",
+      "viewPosts": "Переглянути пости",
+      "noVideos": "Поки що немає опублікованих відео."
+    },
+    "info": {
+      "email": "Електронна пошта",
+      "phone": "Телефон",
+      "location": "Місцезнаходження",
+      "coins": "Uwaci Coins",
+      "bio": "Біо",
+      "noProfile": "Профіль не знайдено"
+    },
+    "buttons": {
+      "inviteFriends": "Поділитися реферальним посиланням",
+      "deleteVideo": "Видалити відео",
+      "deleteVideoAlert": {
+        "title": "Видалити відео",
+        "message": "Ви впевнені, що хочете видалити це відео?"
+      },
+      "deleteSuccess": {
+        "title": "Успіх",
+        "message": "Відео успішно видалено."
+      },
+      "deleteError": {
+        "title": "Помилка",
+        "message": "Не вдалося видалити відео."
+      }
+    },
+    "errors": {
+      "generalError": "Сталася помилка.",
+      "profileError": "Не вдалося завантажити профіль.",
+      "submissionsError": "Не вдалося завантажити подання."
+    },
+    "loading": {
+      "profile": "Завантаження профілю...",
+      "submissions": "Завантаження подань..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Редагувати профіль",
+      "cancelButton": "Скасувати",
+      "saveButton": "Зберегти зміни",
+      "savingButton": "Зберігається..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Ім'я",
+        "placeholder": "Введіть своє ім'я",
+        "error": {
+          "tooShort": "Ім'я занадто коротке"
+        }
+      },
+      "lastName": {
+        "label": "Прізвище",
+        "placeholder": "Введіть своє прізвище",
+        "error": {
+          "tooShort": "Прізвище занадто коротке"
+        }
+      },
+      "phoneNumber": {
+        "label": "Номер телефону",
+        "placeholder": "Введіть свій номер телефону",
+        "error": {
+          "invalid": "Будь ласка, введіть дійсний номер телефону"
+        }
+      },
+      "bio": {
+        "label": "Біо",
+        "placeholder": "Розкажіть про себе",
+        "error": {
+          "tooLong": "Біо має містити менше 500 символів"
+        }
+      },
+      "location": {
+        "label": "Місцезнаходження",
+        "placeholder": "Введіть своє місцезнаходження",
+        "error": {
+          "tooLong": "Місцезнаходження має містити менше 100 символів"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Помилка",
+        "message": "Не вдалося завантажити дані профілю."
+      },
+      "updateSuccess": {
+        "title": "Успіх",
+        "message": "Профіль успішно оновлено."
+      },
+      "updateError": {
+        "title": "Помилка",
+        "message": "Не вдалося оновити профіль."
+      }
+    },
+    "loading": {
+      "title": "Завантаження..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Завантаження...",
+    "noProfileFound": "Профіль не знайдено",
+    "authenticationRequired": "Потрібна аутентифікація",
+    "pleaseLogIn": "Будь ласка, увійдіть, щоб слідкувати за користувачами.",
+    "success": "Успіх",
+    "unfollowSuccess": "Ви перестали слідкувати",
+    "followSuccess": "Ви зараз слідкуєте",
+    "error": "Помилка",
+    "followError": "Не вдалося оновити статус слідкування.",
+    "posts": "Пости",
+    "followers": "Підписники",
+    "following": "Слідкує",
+    "follow": "Слідкувати",
+    "unfollow": "Припинити слідкування",
+    "chat": "Чат"
+  },
+  "settings": {
+    "settings": "Налаштування",
+    "fontSelected": "Вибраний шрифт",
+    "asYourFont": "було встановлено як ваш шрифт.",
+    "languageSelected": "Вибрана мова",
+    "asYourLanguage": "було встановлено як ваша мова.",
+    "themeSelected": "Вибрана тема",
+    "asYourTheme": "було встановлено як ваша тема.",
+    "notifications": "Повідомлення",
+    "marketplace": "Маркетплейс",
+    "account": "Акаунт",
+    "themes": "Теми",
+    "fonts": "Шрифти",
+    "languages": "Мови",
+    "signOut": "Вийти",
+    "confirmSignOut": "Підтвердити вихід",
+    "areYouSureSignOut": "Ви впевнені, що хочете вийти?",
+    "cancel": "Скасувати",
+    "goBack": "Повернутися",
+    "selectFont": "Вибрати шрифт",
+    "selectLanguage": "Вибрати мову",
+    "selectTheme": "Вибрати тему"
+  },
+  "accountDetails": {
+    "settingsTitle": "Налаштування акаунту",
+    "profileSettings": "Редагувати профіль",
+    "resetPassword": "Скинути пароль",
+    "deleteAccount": "Видалити акаунт",
+    "resetPasswordModal": {
+      "title": "Скинути пароль",
+      "message": "Лист для скидання пароля буде надіслано на",
+      "sendEmail": "Надіслати лист",
+      "cancel": "Скасувати"
+    },
+    "deleteAccountModal": {
+      "title": "Видалити акаунт",
+      "message": "Ви впевнені, що хочете видалити свій акаунт? Ця дія не може бути скасована.",
+      "delete": "Видалити",
+      "cancel": "Скасувати"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Профіль оновлено",
+        "message": "Ваш профіль успішно оновлено."
+      },
+      "profileUpdateError": {
+        "title": "Помилка",
+        "message": "Не вдалося оновити профіль. Будь ласка, спробуйте ще раз."
+      },
+      "passwordReset": {
+        "title": "Пароль скинуто",
+        "message": "Лист для скидання пароля було надіслано."
+      },
+      "passwordResetError": {
+        "title": "Помилка",
+        "message": "Не вдалося надіслати лист для скидання пароля. Будь ласка, спробуйте ще раз."
+      },
+      "accountDeleted": {
+        "title": "Акаунт видалено",
+        "message": "Ваш акаунт успішно видалено."
+      },
+      "accountDeleteError": {
+        "title": "Помилка",
+        "message": "Не вдалося видалити ваш акаунт. Будь ласка, спробуйте ще раз."
+      }
+    }
+  }
+}

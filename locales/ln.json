@@ -1,0 +1,530 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Talá Mikakatano",
+    "thatInspire": "oyo Inspire!",
+    "signUp": "Kokoma na nkombo",
+    "signIn": "Kokota na site"
+  },
+  "signUp": {
+    "title": "Kokoma na nkombo",
+    "headerMessage": "Salá compte ya sika mpo na kobanda.",
+    "form": {
+      "username": {
+        "label": "Nkombo ya mosaleli",
+        "placeholder": "Pona nkombo ya mosaleli",
+        "validation": {
+          "minLength": "Nkombo ya mosaleli esengeli kozala ata na bilembo 3.",
+          "regex": "Nkombo ya mosaleli ekoki kozala kaka na balɛtrɛ, mituya, mpe bilembo ya nse"
+        }
+      },
+      "firstname": {
+        "label": "Prenom",
+        "placeholder": "Tyá nkombo na yo ya liboso",
+        "validation": "Nkombo ya liboso esengeli kozala ata bilembo 3."
+      },
+      "lastname": {
+        "label": "Nkombo ya libota",
+        "placeholder": "Tyá nkombo na yo ya nsuka",
+        "validation": "Nkombo ya nsuka esengeli kozala ata bilembo 3."
+      },
+      "businessname": {
+        "label": "Kombo ya Mombongo",
+        "placeholder": "Tyá nkombo ya mombongo na yo",
+        "validation": "Nkombo ya mombongo esengeli kozala ata na bilembo 3."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Tyá adresi na yo ya email",
+        "validation": "Svp kotia adresse email ya malamu."
+      },
+      "phoneNumber": {
+        "label": "Nimero ya Telephone",
+        "placeholder": "Tyá nimero na yo ya telefone",
+        "validation": "Tosɛngi yo otya nimero ya telefone oyo ezali na ntina."
+      },
+      "birthday": {
+        "label": "Aniversere",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Anniversaire esengeli ezala na format YYYY-MM-DD",
+          "validDate": "Date oyo ezali na ntina te",
+          "ageRestriction": "Esengeli ozala na mbula 18 to koleka mpo na kosala compte"
+        }
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Tyá motó ya likambo na yo",
+        "validation": {
+          "minLength": "Mot de passe esengeli kozala ata na ba caractères 8.",
+          "maxLength": "Mot ya nzela esengeli kozala na nse ya bilembo 64.",
+          "uppercase": "Mot ya nzela esengeli kozala na ata lɛtrɛ moko ya monene.",
+          "lowercase": "Mot ya nzela esengeli kozala na ata lɛtrɛ moko ya mike.",
+          "numberOrSpecial": "Mot de passe esengeli kozala na ata nimero moko to elembo moko ya sipesiale."
+        },
+        "strength": {
+          "weak": "Kolemba",
+          "fair": "Bosembo",
+          "good": "Malamu",
+          "strong": "Makasi"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirmer Mot de passe",
+        "placeholder": "Tyá lisusu mot de passe na yo",
+        "validation": "Ba mots de passe ekokani te."
+      }
+    },
+    "buttons": {
+      "createAccount": "Salá Compte",
+      "alreadyHaveAccount": "Ozali déjà na compte? Kokota na site"
+    },
+    "alerts": {
+      "error": {
+        "title": "Libunga",
+        "message": "Libunga esalemaki ntango ozali kosala kɔnti na yo. Svp meka lisusu."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Na kokomisa nkombo ondimi ete otangi ya biso",
+      "termsOfService": "Mibeko ya Mosala",
+      "privacyPolicy": "Politiki ya kobatela makambo ya moto ye moko",
+      "andAccepted": "mpe andimaki ya biso"
+    }
+  },
+  "signIn": {
+    "title": "Kokota na site",
+    "headerMessage": "Tyá ba credentiels na yo mpo na kokɔta na kɔnti na yo.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Mot de passe"
+    },
+    "buttons": {
+      "signIn": "Kokota na site",
+      "forgotPassword": "Obosani Mot de passe?",
+      "signUp": "Ozali na compte te? Kokoma na nkombo"
+    },
+    "forgotPassword": {
+      "title": "Abosani Mot de passe",
+      "prompt": "Svp kotisa nanu email na yo likolo.",
+      "successTitle": "Tala email na yo",
+      "successMessage": "Totindi lien ya kozongisa mot de passe na email na yo.",
+      "errorTitle": "Erreur ya Réinitialisation"
+    },
+    "termsAndPrivacy": {
+      "message": "Na kokomisa nkombo ondimi ete otangi ya biso",
+      "termsOfService": "Mibeko ya Mosala",
+      "privacyPolicy": "Politiki ya kobatela makambo ya moto ye moko",
+      "andAccepted": "mpe andimaki ya biso"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Libunga ya Kokɔta"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Jeton ya accès oyo ezali ya mabe to oyo ezangi.",
+      "sessionFailed": "Elongi te kotiya session.",
+      "invalidPassword": "Svp kotia mot de passe ya valide ya au moins 8 caractères.",
+      "updateFailed": "Elongi te kosala mise à jour ya mot de passe na yo."
+    },
+    "success": {
+      "passwordUpdated": "Mot de passe na yo ebongwani. Svp bo kota lisusu."
+    },
+    "title": "Réinitialiser Mot de passe na yo",
+    "instructions": "Tyá motó ya likambo ya sika.",
+    "labels": {
+      "newPassword": "Mot de passe ya sika"
+    },
+    "placeholders": {
+      "newPassword": "Tyá motó ya likambo ya sika"
+    },
+    "buttons": {
+      "updatePassword": "Mikolo oyo Mot de passe"
+    }
+  },
+  "tabs": {
+    "home": "Ndako",
+    "search": "Koluka",
+    "create": "Kosala",
+    "explore": "Mimekano ya kosala",
+    "profile": "Profil",
+    "settings": "Ba paramètres",
+    "editProfile": "Bobongisi Profil",
+    "otherUserProfile": "Profil ya Mosaleli mosusu",
+    "comment": "Komantere",
+    "contest": "Lisano ya komekana",
+    "challengeDetails": "Makambo ya mikemike ya mokakatano",
+    "submissionDetails": "Makambo ya botindiki",
+    "contestDetails": "Makambo ya Momekano",
+    "followers": "Bato oyo balandi",
+    "following": "Kolanda",
+    "account": "Konte",
+    "notifications": "Mayebisi",
+    "leaderboard": "Tableau ya bakambi",
+    "market": "Zando",
+    "rewards": "Mbano ya kozwa"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Kosala",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Icône ya ndako",
+      "search": "Icône ya boluki",
+      "create": "Bosala elembo",
+      "explore": "Icône ya explorer",
+      "profile": "Icône ya profil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Boluka ba soumissions, ba usagers, ba défis...",
+    "clearSearch": "Effacer entrée ya boluki",
+    "loading": "Ezali ko charger...",
+    "error": {
+      "title": "Libunga ya boluki",
+      "message": "Libunga esalemaki na ntango ya boluki."
+    },
+    "noPreviousSearches": "Ba recherches ya kala te.",
+    "previousSearches": "Bolukiluki ya kala",
+    "submissions": {
+      "title": "Makambo oyo batindi",
+      "noResults": "Ba soumissions moko te ezwami.",
+      "videoError": {
+        "title": "Libunga ya Video",
+        "message": "Elongi te ko charger video."
+      }
+    },
+    "users": {
+      "title": "Bato oyo basalelaka yango",
+      "noResults": "Ba usagers bazwami te."
+    },
+    "challenges": {
+      "title": "Mikakatano",
+      "noResults": "Mikakatano moko te ezwami.",
+      "videoError": {
+        "title": "Libunga ya Video",
+        "message": "Elongi te ko charger vidéo ya défi."
+      },
+      "category": "Lolenge: ",
+      "seasonalTag": "Saisonnière ya eleko",
+      "sponsoredTag": "Esalemi na mbongo"
+    },
+    "repeatSearch": "Zongela koluka",
+    "accessibility": {
+      "viewVideo": "Talá video oyo ezali na motó ya likambo",
+      "viewProfile": "Tala profil ya",
+      "viewChallenge": "Tala mokakatano oyo ezali na motó ya likambo"
+    }
+  },
+  "contest": {
+    "title": "Ba Concours Nionso",
+    "createContestButton": "Bosala Concours"
+  },
+  "contests": {
+    "noContests": "Ba concours moko te ezwami.",
+    "error": {
+      "title": "Libunga",
+      "message": "Elongi te kozua ba concours."
+    },
+    "status": {
+      "notStarted": "Ebandi Te",
+      "ongoing": "Ezali kokoba",
+      "ended": "Esili"
+    },
+    "dates": {
+      "start": "Kobanda: ",
+      "end": "Nsuka: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Tala Makambo ya Momekano"
+  },
+  "newContest": {
+    "header": {
+      "title": "Bosala Concours ya Sika",
+      "backButton": "Mukongo"
+    },
+    "fields": {
+      "title": {
+        "label": "Titre",
+        "placeholder": "e.g., Summer Dance-Off",
+        "validation": "Titre esengeli."
+      },
+      "description": {
+        "label": "Ndimbola",
+        "placeholder": "Concours oyo eza pona nini?"
+      },
+      "startDate": {
+        "label": "Mokolo ya Kobanda",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Mokolo ya suka esengeli kozala sima ya mokolo ya kobanda."
+      },
+      "endDate": {
+        "label": "Mokolo ya nsuka",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Libonza ya molongi (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Libonza ya mosangani (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Bolimbisi ya video (Ekoki kozala na bolingi)",
+        "noVideoSelected": "Bakisa ndimbola ya video.",
+        "picked": "Eponami: {nkombo ya fisyé}",
+        "uploaded": "Uploaded: Video esili ko uploader malamu.",
+        "chooseVideoButton": "Pona Video",
+        "uploadVideoButton": "Télécharger Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Bosala Concours"
+    },
+    "alerts": {
+      "error": {
+        "title": "Libunga",
+        "pickVideoMessage": "Elongi te kopona video.",
+        "uploadVideoMessage": "Elongi te ko uploader video.",
+        "createContestMessage": "Elongi te kosala concours."
+      },
+      "success": {
+        "videoUploadMessage": "Video etiemaki na malonga!",
+        "createContestMessage": "Concours esalemi na malonga!"
+      },
+      "validation": {
+        "noTitle": "Titre esengeli.",
+        "invalidDates": "Mokolo ya suka esengeli kozala sima ya mokolo ya kobanda."
+      },
+      "noSession": {
+        "title": "Esengeli okota mpo na kosala momekano."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Kende na Paramètres"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Esengeli kozwa ndingisa",
+        "message": "Tozali na mposa ya ndingisa mpo na kokɔta na bafɔtɔ na yo."
+      },
+      "errorAlert": {
+        "title": "Libunga",
+        "message": "Elongi te kopona elilingi"
+      },
+      "successAlert": {
+        "title": "Kolonga",
+        "message": "Elilingi ya profil ebongwani"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Libunga ya kokabola",
+        "message": "Ezali na makoki te ya kokabola lien ya référence."
+      },
+      "successShare": {
+        "title": "Sangisa ngai na Challenz!",
+        "message": "Eh! Salelá lien oyo mpo na kokoma: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Bato oyo balandi",
+      "viewFollowers": "Tala Balandi"
+    },
+    "following": {
+      "label": "Kolanda",
+      "viewFollowing": "Tala Oyo elandi"
+    },
+    "posts": {
+      "label": "Ba postes na ba postes",
+      "viewPosts": "Tala ba Posts",
+      "noVideos": "Ba vidéos moko te etiemaki nanu."
+    },
+    "info": {
+      "email": "Email na nzela ya email",
+      "phone": "Tyombo",
+      "location": "Esika",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Profil moko te ezwami"
+    },
+    "buttons": {
+      "inviteFriends": "Bengisa Baninga",
+      "deleteVideo": "Bolongola Video",
+      "deleteVideoAlert": {
+        "title": "Bolongola Video",
+        "message": "Ozali sûr que olingi o supprimer vidéo oyo?"
+      },
+      "deleteSuccess": {
+        "title": "Kolonga",
+        "message": "Video elongolami malamu."
+      },
+      "deleteError": {
+        "title": "Libunga",
+        "message": "Elongi te ko effacer video."
+      }
+    },
+    "errors": {
+      "generalError": "Libunga moko esalemaki.",
+      "profileError": "Elongi te kozwa profil.",
+      "submissionsError": "Elongi te kozwa ba soumissions."
+    },
+    "loading": {
+      "profile": "Nazali ko charger profil...",
+      "submissions": "Ezali ko charger ba soumissions..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Bobongisi Profil",
+      "cancelButton": "Kolongola",
+      "saveButton": "Bomba Mbongwana",
+      "savingButton": "Kobomba..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Prenom",
+        "placeholder": "Tyá nkombo na yo ya liboso",
+        "error": {
+          "tooShort": "Kombo ya liboso ezali mokuse mingi"
+        }
+      },
+      "lastName": {
+        "label": "Nkombo ya libota",
+        "placeholder": "Tyá nkombo na yo ya nsuka",
+        "error": {
+          "tooShort": "Kombo ya nsuka ezali mokuse mingi"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nimero ya Telephone",
+        "placeholder": "Tyá nimero na yo ya telefone",
+        "error": {
+          "invalid": "Tosɛngi yo otya nimero ya telefone oyo ezali na ntina"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Yebisa biso makambo na yo moko",
+        "error": {
+          "tooLong": "Bio esengeli kozala na se ya 500 caractères"
+        }
+      },
+      "location": {
+        "label": "Esika",
+        "placeholder": "Tyá esika ozali",
+        "error": {
+          "tooLong": "Esika esengeli kozala na nse ya bilembo 100"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Libunga",
+        "message": "Elongi te kozua ba données ya profil"
+      },
+      "updateSuccess": {
+        "title": "Kolonga",
+        "message": "Profil ebongwani na malonga"
+      },
+      "updateError": {
+        "title": "Libunga",
+        "message": "Elongi te kosala mise à jour ya profil"
+      }
+    },
+    "loading": {
+      "title": "Ezali ko charger..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Ezali ko charger...",
+    "noProfileFound": "Profil moko te ezwami",
+    "authenticationRequired": "Esengeli kosala authentification",
+    "pleaseLogIn": "Svp kota mpo na kolanda basaleli.",
+    "success": "Kolonga",
+    "unfollowSuccess": "Osili kosala unfollow",
+    "followSuccess": "Ozali sikoyo kolanda",
+    "error": "Libunga",
+    "followError": "Elongi te ko mettre à jour état ya suivi.",
+    "posts": "Ba postes na ba postes",
+    "followers": "Bato oyo balandi",
+    "following": "Kolanda",
+    "follow": "Kolanda",
+    "unfollow": "Kotika kolanda",
+    "chat": "Kosolola"
+  },
+  "settings": {
+    "settings": "Ba paramètres",
+    "fontSelected": "Font Eponami",
+    "asYourFont": "esili kotyama lokola fonte na yo.",
+    "languageSelected": "Monoko oyo eponami",
+    "asYourLanguage": "etiamaki lokola monoko na yo.",
+    "themeSelected": "Motó ya likambo oyo eponami",
+    "asYourTheme": "esili kotyama lokola motó ya likambo na yo.",
+    "notifications": "Mayebisi",
+    "marketplace": "Esika ya zando",
+    "account": "Konte",
+    "themes": "Mitó ya makambo",
+    "fonts": "Ba fonts",
+    "languages": "Minɔkɔ",
+    "signOut": "Kobima na site",
+    "confirmSignOut": "Confirmer Kobima na libanda",
+    "areYouSureSignOut": "Ozali na ntembe te ete olingi kobima na nkombo?",
+    "cancel": "Kolongola",
+    "goBack": "Bozonga sima",
+    "selectFont": "Pona Font",
+    "selectLanguage": "Poná Monoko",
+    "selectTheme": "Poná Motó ya likambo"
+  },
+  "accountDetails": {
+    "settingsTitle": "Paramètres ya compte",
+    "profileSettings": "Bobongisi Profil ",
+    "resetPassword": "Réinitialiser Mot de passe",
+    "deleteAccount": "Bolongola Compte",
+    "resetPasswordModal": {
+      "title": "Réinitialiser Mot de passe",
+      "message": "Email ya kozongisa mot de passe ekotindama na",
+      "sendEmail": "Tinda Email",
+      "cancel": "Kolongola"
+    },
+    "deleteAccountModal": {
+      "title": "Bolongola Compte",
+      "message": "Ozali sûr que olingi o supprimer compte na yo? Action oyo ekoki kozongisama sima te.",
+      "delete": "Boma",
+      "cancel": "Kolongola"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Ebongwani na mikolo",
+        "message": "Profil na yo ebongwani."
+      },
+      "profileUpdateError": {
+        "title": "Libunga",
+        "message": "Elongi te ko mettre à jour profil na yo. Svp meka lisusu."
+      },
+      "passwordReset": {
+        "title": "Password Reset",
+        "message": "Email ya kozongisa mot de passe etindami."
+      },
+      "passwordResetError": {
+        "title": "Libunga",
+        "message": "Elongi te kotinda email ya kozongisa mot de passe. Svp meka lisusu."
+      },
+      "accountDeleted": {
+        "title": "Account Deleted",
+        "message": "Compte na yo elongolami malamu."
+      },
+      "accountDeleteError": {
+        "title": "Libunga",
+        "message": "Elongi te ko effacer compte na yo. Svp meka lisusu."
+      }
+    }
+  }
+}

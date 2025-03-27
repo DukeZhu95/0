@@ -1,0 +1,665 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Explore Challenges",
+    "thatInspire": "that Inspire!",
+    "signUp": "Sign Up",
+    "signIn": "Sign In"
+  },
+  "signUp": {
+    "title": "Sign Up",
+    "headerMessage": "Create a new account to get started.",
+    "businessTitle": "Register as a Business ",
+    "headerMessageBusiness": "Create a business account to get started.",
+    "form": {
+      "username": {
+        "label": "Username",
+        "placeholder": "Choose a username",
+        "validation": {
+          "minLength": "Username must be at least 3 characters.",
+          "regex": "Username can only contain letters, numbers, and underscores"
+        }
+      },
+      "firstname": {
+        "label": "First Name",
+        "placeholder": "Enter your first name",
+        "validation": "First name must be at least 3 characters."
+      },
+      "lastname": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name",
+        "validation": "Last name must be at least 3 characters."
+      },
+
+      "businessName": {
+        "label": "Business Name",
+        "placeholder": "Enter your business name",
+        "validation": "Business name must be at least 3 characters."
+      },
+      "website": {
+        "label": "Business Website",
+        "placeholder": "Enter your website",
+        "validation": "Business name must be at least 3 characters."
+      },
+      "businessType": {
+        "label": "Type of Business",
+        "placeholder": "Type of Business",
+        "validation": "Business name must be at least 3 characters."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email address",
+        "validation": "Please enter a valid email address."
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "validation": "Please enter a valid phone number."
+      },
+      "birthday": {
+        "title": "Birthday",
+        "label": "Birthday",
+        "placeholder": "DD-MM-YYYY",
+        "validation": {
+          "format": "Birthday must be in the format DD-MM-YYYY",
+          "validDate": "Invalid date",
+          "ageRestriction": "You must be 18 or older to create an account"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password",
+        "validation": {
+          "minLength": "Password must be at least 8 characters.",
+          "maxLength": "Password must be less than 64 characters.",
+          "uppercase": "Password must contain at least one uppercase letter.",
+          "lowercase": "Password must contain at least one lowercase letter.",
+          "numberOrSpecial": "Password must contain at least one number or special character."
+        },
+        "strength": {
+          "weak": "Weak",
+          "fair": "Fair",
+          "good": "Good",
+          "strong": "Strong"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Re-enter your password",
+        "validation": "Passwords do not match."
+      }
+    },
+    "buttons": {
+      "createAccount": "Create Account",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "businessJoin": "Join Challenz as a business partner"
+    },
+    "alerts": {
+      "error": {
+        "title": "Error",
+        "message": "An error occurred while creating your account. Please try again."
+      },
+      "passwordMismatch": {
+        "title": "Password Mismatch",
+        "message": "Incorrect Password. Please try again."
+      },
+      "agreementRequired": {
+        "title": "Agreement Required",
+        "message": "Please accept the Terms of Service and Privacy Policy."
+      },
+      "success": {
+        "title": "Success",
+        "message": "Account created successfully."
+      },
+      "signUpError": {
+        "title": "Sign Up Error",
+        "message": "An error occurred while creating your account. Please try again."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "By registering you agree that you have read our",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "andAccepted": "and accepted our"
+    }
+  },
+  "signIn": {
+    "title": "Sign In",
+    "headerMessage": "Enter your credentials to access your account.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Enter your Email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your Password"
+    },
+    "buttons": {
+      "signIn": "Sign In",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": " Sign Up"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "prompt": "Please enter your email above first.",
+      "successTitle": "Check your email",
+      "successMessage": "We've sent a password reset link to your email.",
+      "errorTitle": "Reset Error"
+    },
+    "termsAndPrivacy": {
+      "message": "By registering you agree that you have read our",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "andAccepted": "and accepted our"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Sign In Error"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "description": "Enter your email address below and we will send you a link to reset your password.",
+    "form": {
+      "email": "Email Address"
+    },
+    "buttons": {
+      "reset": "Reset Password",
+      "sending": "Sending...",
+      "remembered": "Remembered your password?",
+      "signIn": "Sign In"
+    },
+    "alerts": {
+      "enterEmail": "Please enter your email address.",
+      "checkEmail": "Check your email for the reset link.",
+      "resetError": "Failed to reset password"
+    }
+  },
+  "resetPassword": {
+    "title": "Update Password",
+    "description": "Enter your new password below to reset your account password.",
+    "form": {
+      "newPassword": "Enter new password",
+      "confirmPassword": "Confirm new password"
+    },
+    "alerts": {
+      "enterBothPasswords": "Please enter both password fields.",
+      "passwordMismatch": "Passwords do not match. Please try again.",
+      "success": "Your password has been updated successfully.",
+      "updateError": "Error updating password. Please try again."
+    },
+    "buttons": {
+      "saving": "Saving...",
+      "update": "Update Password"
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Invalid or missing access token.",
+      "sessionFailed": "Failed to set session.",
+      "invalidPassword": "Please enter a valid password of at least 8 characters.",
+      "updateFailed": "Failed to update your password."
+    },
+    "success": {
+      "passwordUpdated": "Your password has been updated. Please sign in again."
+    },
+    "title": "Reset Your Password",
+    "instructions": "Enter a new password.",
+    "labels": {
+      "newPassword": "New Password"
+    },
+    "placeholders": {
+      "newPassword": "Enter new password"
+    },
+    "buttons": {
+      "updatePassword": "Update Password"
+    }
+  },
+  "tabs": {
+    "home": "Home",
+    "search": "Search",
+    "create": "Create",
+    "contest": "Contests",
+    "faq": "Frequently Asked Questions",
+    "menu": "Menu",
+    "settings": "Settings",
+    "profile": "Profile",
+    "editProfile": "Edit Your Profile",
+    "otherUserProfile": "User Profile",
+    "explore": "Explore",
+    "challengeDetails": "Challenge Details",
+    "submissionDetails": "Submission Details",
+    "contestDetails": "Contest Details",
+    "contestList": "Contest Listings",
+    "newContest": "New",
+    "followers": "Followers ",
+    "following": "Following ",
+    "account": "Account",
+    "notifications": "Notifications",
+    "leaderboard": "Leaderboard",
+    "market": "Market",
+    "rewards": "Rewards",
+    "coin": "Your Coins",
+    "savedChallenges": "Saved Challenges"
+  },
+
+  "tabsMessages": {
+    "tabBarCreateTitle": "Create",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Home icon",
+      "search": "Search icon",
+      "create": "Create icon",
+      "explore": "Explore icon",
+      "profile": "Profile icon"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Search submissions, users, challenges...",
+    "clearSearch": "Clear search input",
+    "loading": "Loading...",
+    "error": {
+      "title": "Search Error",
+      "message": "An error occurred during search."
+    },
+    "noPreviousSearches": "No previous searches.",
+    "previousSearches": "Previous Searches",
+    "submissions": {
+      "title": "Submissions",
+      "noResults": "No submissions found.",
+      "videoError": {
+        "title": "Video Error",
+        "message": "Failed to load the video."
+      }
+    },
+    "users": {
+      "title": "Users",
+      "noResults": "No users found."
+    },
+    "challenges": {
+      "title": "Challenges",
+      "noResults": "No challenges found.",
+      "videoError": {
+        "title": "Video Error",
+        "message": "Failed to load the challenge video."
+      },
+      "category": "Category: ",
+      "seasonalTag": "Seasonal",
+      "sponsoredTag": "Sponsored"
+    },
+    "repeatSearch": "Repeat search for",
+    "accessibility": {
+      "viewVideo": "View video titled",
+      "viewProfile": "View profile of",
+      "viewChallenge": "View challenge titled"
+    }
+  },
+  "contest": {
+    "title": "All Contests",
+    "createContestButton": "Create Contest"
+  },
+  "contests": {
+    "listTitle":"Contest List",
+    "noContests": "No contests found.",
+    "error": {
+      "title": "Error",
+      "message": "Failed to fetch contests."
+    },
+    "status": {
+      "notStarted": "Not Started",
+      "ongoing": "Ongoing",
+      "ended": "Ended"
+    },
+    "dates": {
+      "start": "Start: ",
+      "end": "End: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "View Contest Details"
+  },
+  "newContest": {
+    "header": {
+      "title": "Create New Contest",
+      "backButton": "Back"
+    },
+    "fields": {
+      "title": {
+        "label": "Title",
+        "placeholder": "e.g., Summer Dance-Off",
+        "validation": "Title is required."
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "What's this contest about?"
+      },
+      "startDate": {
+        "label": "Start Date",
+        "placeholder": "DD-MM-YYYY",
+        "validation": "End date must be after start date."
+      },
+      "endDate": {
+        "label": "End Date",
+        "placeholder": "DD-MM-YYYY"
+      },
+      "winnerReward": {
+        "label": "Winner Reward (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Participant Reward (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "sponsored":{
+        "label":"Is this a Sponsored Contest?",
+        "sponsorName":"Name of Sponsor",
+        "placeholder": "Enter the Name of Sponsor"
+      },
+      "explanationVideo": {
+        "label": "Video Description (Optional)",
+        "noVideoSelected": "Add a video description.",
+        "picked": "Picked: {filename}",
+        "uploaded": "Uploaded: Video is successfully uploaded.",
+        "chooseVideoButton": "Choose Video",
+        "uploadVideoButton": "Upload Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Create Contest"
+    },
+    "alerts": {
+      "error": {
+        "title": "Error",
+        "pickVideoMessage": "Failed to pick video.",
+        "uploadVideoMessage": "Failed to upload video.",
+        "createContestMessage": "Failed to create contest."
+      },
+      "success": {
+        "title": "Success.",
+        "videoUploadMessage": "Video uploaded successfully!",
+        "createContestMessage": "Contest created successfully!"
+      },
+      "validation": {
+        "noTitle": "Title is required.",
+        "invalidDates": "End date must be after start date."
+      },
+      "noSession": {
+        "title": "You must be signed in to create a contest."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profile",
+      "settingsButton": "Go to Settings"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Permission required",
+        "message": "We need permission to access your photos."
+      },
+      "errorAlert": {
+        "title": "Error",
+        "message": "Failed to pick image"
+      },
+      "successAlert": {
+        "title": "Success",
+        "message": "Profile picture updated successfully"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Share Error",
+        "message": "Unable to share referral link."
+      },
+      "successShare": {
+        "title": "Join me on Challenz!",
+        "message": "Hey! Use this link to sign up: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Followers",
+      "viewFollowers": "View Followers"
+    },
+    "following": {
+      "label": "Following",
+      "viewFollowing": "View Following"
+    },
+    "posts": {
+      "label": "Posts",
+      "viewPosts": "View Posts",
+      "noVideos": "No videos posted yet."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "No Profile Found"
+    },
+    "buttons": {
+      "inviteFriends": "Invite Friends",
+      "inbox":"Inbox",
+      "deleteVideo": "Delete Video",
+      "selectVideos": "Select Videos",
+      "deleteSelected": "Delete Selected",
+      "deleteSelectedAlert": {
+        "title": "Delete Selected Videos",
+        "message": "Are you sure you want to delete all selected videos?"
+      },
+      "cancel": "Cancel",
+      "deleteVideoAlert": {
+        "title": "Delete Video",
+        "message": "Are you sure you want to delete this video?"
+      },
+      "deleteSuccess": {
+        "title": "Success",
+        "message": "Video deleted successfully."
+      },
+      "deleteSelectedSuccess": {
+        "title": "Success",
+        "message": "Selected videos deleted successfully."
+      },
+      "deleteError": {
+        "title": "Error",
+        "message": "Failed to delete video."
+      }
+    },
+    "errors": {
+      "generalError": "An error occurred.",
+      "profileError": "Failed to fetch profile.",
+      "submissionsError": "Failed to fetch submissions."
+    },
+    "loading": {
+      "profile": "Loading profile...",
+      "submissions": "Loading submissions..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Edit Profile",
+      "cancelButton": "Cancel",
+      "saveButton": "Save Changes",
+      "savingButton": "Saving..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name",
+        "error": {
+          "tooShort": "First name is too short"
+        }
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name",
+        "error": {
+          "tooShort": "Last name is too short"
+        }
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "error": {
+          "invalid": "Please enter a valid phone number"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Tell us about yourself",
+        "error": {
+          "tooLong": "Bio must be less than 500 characters"
+        }
+      },
+      "location": {
+        "label": "Location",
+        "placeholder": "Enter your location",
+        "error": {
+          "tooLong": "Location must be less than 100 characters"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Error",
+        "message": "Failed to fetch profile data"
+      },
+      "updateSuccess": {
+        "title": "Success",
+        "message": "Profile updated successfully"
+      },
+      "updateError": {
+        "title": "Error",
+        "message": "Failed to update profile"
+      }
+    },
+    "loading": {
+      "title": "Loading..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Loading...",
+    "noProfileFound": "No Profile Found",
+    "authenticationRequired": "Authentication Required",
+    "pleaseLogIn": "Please log in to follow users.",
+    "success": "Success",
+    "unfollowSuccess": "You have unfollowed",
+    "followSuccess": "You are now following",
+    "error": "Error",
+    "followError": "Failed to update follow status.",
+    "posts": "Posts",
+    "followers": "Followers",
+    "following": "Following",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "chat": "Chat"
+  },
+  "menu": {
+    "menu": "Menu",
+    "profile": "Profile",
+    "settings": "Settings",
+    "faq": "Frequently Asked Questions",
+    "yourUwaciCoins": "Your Uwaci Coins",
+    "notifications": "Notifications",
+    "marketplace": "Marketplace",
+    "signOut": "Sign Out",
+    "confirmSignOut": "Confirm Sign Out",
+    "areYouSureSignOut": "Are you sure you want to sign out?",
+    "cancel": "Cancel",
+    "goBack": "Go Back",
+    "joinNow": "Join Now",
+    "joinLater": "Join Later",
+    "savedChallenges": "Saved Challenges"
+  },
+  "settings": {
+    "settings": "Settings",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "eulaAgreement": "EULA Agreement",
+    "fontSelected": "Font Selected",
+    "confirmDelete": "Confirm Delete",
+    "deleteWarning": "Delete Warning",
+    "asYourFont": "has been set as your font.",
+    "languageSelected": "Language Selected",
+    "asYourLanguage": "has been set as your language.",
+    "themeSelected": "Theme Selected",
+    "asYourTheme": "has been set as your theme.",
+    "notifications": "Notifications",
+    "marketplace": "Marketplace",
+    "account": "Account",
+    "themes": "Themes",
+    "fonts": "Fonts",
+    "languages": "Languages",
+    "signOut": "Sign Out",
+    "confirmSignOut": "Confirm Sign Out",
+    "areYouSureSignOut": "Are you sure you want to sign out?",
+    "cancel": "Cancel",
+    "goBack": "Go Back",
+    "selectFont": "Select Font",
+    "selectLanguage": "Select Language",
+    "selectTheme": "Select Theme",
+    "passwordSecurity": "Password & Security",
+    "personalDetails": "Personal Details",
+    "verification": "Verification",
+    "paymentMethods": "Payment methods",
+    "adPreferences": "Ad Preferences",
+    "upgradePremium": "Upgrade to premium",
+    "content": "Content",
+    "language": "Language",
+    "savedDraft": "Saved Draft",
+    "yourActivity": "Your Activity",
+    "accessibility": "Accessibility",
+    "privacy": "Privacy",
+    "comments": "Comments",
+    "privateAccount": "Private Account",
+    "directMessaging": "Direct Messaging",
+    "blockedReports": "Blocked/Reports",
+    "blockedUsers": "Blocked Users",
+    "termsPolicies": "Terms and Policies",
+    "switchAccount": "Switch Account"
+  },
+  "accountDetails": {
+    "settingsTitle": "Account Settings",
+    "profileSettings": "Edit Profile ",
+    "resetPassword": "Reset Password",
+    "deleteAccount": "Delete Account",
+    "resetPasswordModal": {
+      "title": "Reset Password",
+      "message": "A password reset email will be sent to",
+      "sendEmail": "Send Email",
+      "cancel": "Cancel"
+    },
+    "deleteAccountModal": {
+      "title": "Delete Account",
+      "message": "Are you sure you want to \ndelete your account? \nThis action cannot be undone.",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profile Updated",
+        "message": "Your profile has been updated successfully."
+      },
+      "profileUpdateError": {
+        "title": "Error",
+        "message": "Failed to update your profile. Please try again."
+      },
+      "passwordReset": {
+        "title": "Password Reset",
+        "message": "A password reset email has been sent."
+      },
+      "passwordResetError": {
+        "title": "Error",
+        "message": "Failed to send password reset email. Please try again."
+      },
+      "accountDeleted": {
+        "title": "Account Deleted",
+        "message": "Your account has been deleted successfully."
+      },
+      "accountDeleteError": {
+        "title": "Error",
+        "message": "Failed to delete your account. Please try again."
+      }
+    }
+  }
+}

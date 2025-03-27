@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Исследуйте Вызовы",
+    "thatInspire": "которые вдохновляют!",
+    "signUp": "Зарегистрироваться",
+    "signIn": "Войти"
+  },
+  "signUp": {
+    "title": "Зарегистрироваться",
+    "headerMessage": "Создайте новый аккаунт, чтобы начать.",
+    "form": {
+      "username": {
+        "label": "Имя пользователя",
+        "placeholder": "Выберите имя пользователя",
+        "validation": {
+          "minLength": "Имя пользователя должно содержать не менее 3 символов.",
+          "regex": "Имя пользователя может содержать только буквы, цифры и подчеркивания."
+        }
+      },
+      "firstname": {
+        "label": "Имя",
+        "placeholder": "Введите свое имя",
+        "validation": "Имя должно содержать не менее 3 символов."
+      },
+      "lastname": {
+        "label": "Фамилия",
+        "placeholder": "Введите свою фамилию",
+        "validation": "Фамилия должна содержать не менее 3 символов."
+      },
+      "email": {
+        "label": "Электронная почта",
+        "placeholder": "Введите свой адрес электронной почты",
+        "validation": "Пожалуйста, введите действительный адрес электронной почты."
+      },
+      "phoneNumber": {
+        "label": "Номер телефона",
+        "placeholder": "Введите свой номер телефона",
+        "validation": "Пожалуйста, введите действительный номер телефона."
+      },
+      "birthday": {
+        "label": "Дата рождения",
+        "placeholder": "ГГГГ-ММ-ДД",
+        "validation": {
+          "format": "Дата рождения должна быть в формате ГГГГ-ММ-ДД.",
+          "validDate": "Недействительная дата",
+          "ageRestriction": "Вам должно быть не менее 18 лет, чтобы создать аккаунт."
+        }
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Введите свой пароль",
+        "validation": {
+          "minLength": "Пароль должен содержать не менее 8 символов.",
+          "maxLength": "Пароль должен содержать менее 64 символов.",
+          "uppercase": "Пароль должен содержать хотя бы одну заглавную букву.",
+          "lowercase": "Пароль должен содержать хотя бы одну строчную букву.",
+          "numberOrSpecial": "Пароль должен содержать хотя бы одну цифру или специальный символ."
+        },
+        "strength": {
+          "weak": "Слабый",
+          "fair": "Средний",
+          "good": "Хороший",
+          "strong": "Сильный"
+        }
+      },
+      "confirmPassword": {
+        "label": "Подтвердите пароль",
+        "placeholder": "Введите свой пароль снова",
+        "validation": "Пароли не совпадают."
+      }
+    },
+    "buttons": {
+      "createAccount": "Создать аккаунт",
+      "alreadyHaveAccount": "У вас уже есть аккаунт? Войти"
+    },
+    "alerts": {
+      "error": {
+        "title": "Ошибка",
+        "message": "Произошла ошибка при создании вашего аккаунта. Пожалуйста, попробуйте снова."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Регистрируясь, вы соглашаетесь с нашими",
+      "termsOfService": "Условиями обслуживания",
+      "privacyPolicy": "Политикой конфиденциальности",
+      "andAccepted": "и приняли наши"
+    }
+  },
+  "signIn": {
+    "title": "Войти",
+    "headerMessage": "Введите свои учетные данные, чтобы получить доступ к своему аккаунту.",
+    "form": {
+      "email": "Электронная почта",
+      "emailPlaceholder": "Электронная почта",
+      "password": "Пароль",
+      "passwordPlaceholder": "Пароль"
+    },
+    "buttons": {
+      "signIn": "Войти",
+      "forgotPassword": "Забыли пароль?",
+      "signUp": "Нет аккаунта? Зарегистрироваться"
+    },
+    "forgotPassword": {
+      "title": "Забыли пароль",
+      "prompt": "Пожалуйста, сначала введите свой email выше.",
+      "successTitle": "Проверьте свою почту",
+      "successMessage": "Мы отправили ссылку для сброса пароля на вашу электронную почту.",
+      "errorTitle": "Ошибка сброса"
+    },
+    "termsAndPrivacy": {
+      "message": "Регистрируясь, вы соглашаетесь с нашими",
+      "termsOfService": "Условиями обслуживания",
+      "privacyPolicy": "Политикой конфиденциальности",
+      "andAccepted": "и приняли наши"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Ошибка входа"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Неверный или отсутствующий токен доступа.",
+      "sessionFailed": "Не удалось создать сессию.",
+      "invalidPassword": "Пожалуйста, введите действительный пароль не менее 8 символов.",
+      "updateFailed": "Не удалось обновить ваш пароль."
+    },
+    "success": {
+      "passwordUpdated": "Ваш пароль был обновлен. Пожалуйста, войдите снова."
+    },
+    "title": "Сбросить пароль",
+    "instructions": "Введите новый пароль.",
+    "labels": {
+      "newPassword": "Новый пароль"
+    },
+    "placeholders": {
+      "newPassword": "Введите новый пароль"
+    },
+    "buttons": {
+      "updatePassword": "Обновить пароль"
+    }
+  },
+  "tabs": {
+    "home": "Главная",
+    "search": "Поиск",
+    "create": "Создать",
+    "explore": "Конкурсы",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "editProfile": "Редактировать профиль",
+    "otherUserProfile": "Профиль другого пользователя",
+    "comment": "Комментарий",
+    "contest": "Конкурс",
+    "challengeDetails": "Детали вызова",
+    "submissionDetails": "Детали подачи",
+    "contestDetails": "Детали конкурса",
+    "followers": "Подписчики",
+    "following": "Подписки",
+    "account": "Аккаунт",
+    "notifications": "Уведомления",
+    "leaderboard": "Таблица лидеров",
+    "market": "Рынок",
+    "rewards": "Награды"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Создать",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Иконка главной страницы",
+      "search": "Иконка поиска",
+      "create": "Иконка создания",
+      "explore": "Иконка исследования",
+      "profile": "Иконка профиля"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Ищите подачи, пользователей, вызовы...",
+    "clearSearch": "Очистить поиск",
+    "loading": "Загрузка...",
+    "error": {
+      "title": "Ошибка поиска",
+      "message": "Произошла ошибка во время поиска."
+    },
+    "noPreviousSearches": "Нет предыдущих поисков.",
+    "previousSearches": "Предыдущие поиски",
+    "submissions": {
+      "title": "Подачи",
+      "noResults": "Подачи не найдены.",
+      "videoError": {
+        "title": "Ошибка видео",
+        "message": "Не удалось загрузить видео."
+      }
+    },
+    "users": {
+      "title": "Пользователи",
+      "noResults": "Пользователи не найдены."
+    },
+    "challenges": {
+      "title": "Вызовы",
+      "noResults": "Вызовы не найдены.",
+      "videoError": {
+        "title": "Ошибка видео",
+        "message": "Не удалось загрузить видео вызова."
+      },
+      "category": "Категория: ",
+      "seasonalTag": "Сезонный",
+      "sponsoredTag": "Спонсируемый"
+    },
+    "repeatSearch": "Повторить поиск для",
+    "accessibility": {
+      "viewVideo": "Просмотреть видео с заголовком",
+      "viewProfile": "Просмотреть профиль",
+      "viewChallenge": "Просмотреть вызов с заголовком"
+    }
+  },
+  "contest": {
+    "title": "Все Конкурсы",
+    "createContestButton": "Создать конкурс"
+  },
+  "contests": {
+    "noContests": "Конкурсы не найдены.",
+    "error": {
+      "title": "Ошибка",
+      "message": "Не удалось получить конкурсы."
+    },
+    "status": {
+      "notStarted": "Не начался",
+      "ongoing": "В процессе",
+      "ended": "Завершен"
+    },
+    "dates": {
+      "start": "Начало: ",
+      "end": "Конец: ",
+      "notAvailable": "Н/Д"
+    },
+    "contestDetailsButton": "Посмотреть детали конкурса"
+  },
+  "newContest": {
+    "header": {
+      "title": "Создать новый конкурс",
+      "backButton": "Назад"
+    },
+    "fields": {
+      "title": {
+        "label": "Название",
+        "placeholder": "например, Летний танцевальный вызов",
+        "validation": "Название обязательно."
+      },
+      "description": {
+        "label": "Описание",
+        "placeholder": "О чем этот конкурс?"
+      },
+      "startDate": {
+        "label": "Дата начала",
+        "placeholder": "ГГГГ-ММ-ДД",
+        "validation": "Дата окончания должна быть после даты начала."
+      },
+      "endDate": {
+        "label": "Дата окончания",
+        "placeholder": "ГГГГ-ММ-ДД"
+      },
+      "winnerReward": {
+        "label": "Награда победителю (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Награда участникам (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Объяснительное видео (опционально)",
+        "noVideoSelected": "Добавьте объяснительное видео.",
+        "picked": "Выбрано: {filename}",
+        "uploaded": "Загружено: Видео успешно загружено.",
+        "chooseVideoButton": "Выбрать видео",
+        "uploadVideoButton": "Загрузить видео"
+      }
+    },
+    "buttons": {
+      "createContest": "Создать конкурс"
+    },
+    "alerts": {
+      "error": {
+        "title": "Ошибка",
+        "pickVideoMessage": "Ошибка при выборе видео.",
+        "uploadVideoMessage": "Ошибка при загрузке видео.",
+        "createContestMessage": "Ошибка при создании конкурса."
+      },
+      "success": {
+        "videoUploadMessage": "Видео успешно загружено!",
+        "createContestMessage": "Конкурс успешно создан!"
+      },
+      "validation": {
+        "noTitle": "Название обязательно.",
+        "invalidDates": "Дата окончания должна быть после даты начала."
+      },
+      "noSession": {
+        "title": "Вам нужно войти в систему, чтобы создать конкурс."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Профиль",
+      "settingsButton": "Перейти в настройки"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Требуются разрешения",
+        "message": "Нам нужны разрешения для доступа к вашим фотографиям."
+      },
+      "errorAlert": {
+        "title": "Ошибка",
+        "message": "Не удалось выбрать изображение."
+      },
+      "successAlert": {
+        "title": "Успех",
+        "message": "Изображение профиля успешно обновлено."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Ошибка при обмене",
+        "message": "Не удалось поделиться реферальной ссылкой."
+      },
+      "successShare": {
+        "title": "Присоединяйтесь ко мне на Challenz!",
+        "message": "Привет! Используйте эту ссылку для регистрации: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Подписчики",
+      "viewFollowers": "Посмотреть подписчиков"
+    },
+    "following": {
+      "label": "Подписки",
+      "viewFollowing": "Посмотреть подписки"
+    },
+    "posts": {
+      "label": "Посты",
+      "viewPosts": "Посмотреть посты",
+      "noVideos": "Еще нет опубликованных видео."
+    },
+    "info": {
+      "email": "Электронная почта",
+      "phone": "Телефон",
+      "location": "Местоположение",
+      "coins": "Uwaci Coins",
+      "bio": "Био",
+      "noProfile": "Профиль не найден"
+    },
+    "buttons": {
+      "inviteFriends": "Поделиться реферальной ссылкой",
+      "deleteVideo": "Удалить видео",
+      "deleteVideoAlert": {
+        "title": "Удалить видео",
+        "message": "Вы уверены, что хотите удалить это видео?"
+      },
+      "deleteSuccess": {
+        "title": "Успех",
+        "message": "Видео успешно удалено."
+      },
+      "deleteError": {
+        "title": "Ошибка",
+        "message": "Не удалось удалить видео."
+      }
+    },
+    "errors": {
+      "generalError": "Произошла ошибка.",
+      "profileError": "Не удалось загрузить профиль.",
+      "submissionsError": "Не удалось загрузить подачи."
+    },
+    "loading": {
+      "profile": "Загрузка профиля...",
+      "submissions": "Загрузка подач..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Редактировать профиль",
+      "cancelButton": "Отмена",
+      "saveButton": "Сохранить изменения",
+      "savingButton": "Сохранение..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Имя",
+        "placeholder": "Введите свое имя",
+        "error": {
+          "tooShort": "Имя слишком короткое"
+        }
+      },
+      "lastName": {
+        "label": "Фамилия",
+        "placeholder": "Введите свою фамилию",
+        "error": {
+          "tooShort": "Фамилия слишком короткая"
+        }
+      },
+      "phoneNumber": {
+        "label": "Номер телефона",
+        "placeholder": "Введите свой номер телефона",
+        "error": {
+          "invalid": "Пожалуйста, введите действительный номер телефона"
+        }
+      },
+      "bio": {
+        "label": "Био",
+        "placeholder": "Расскажите о себе",
+        "error": {
+          "tooLong": "Био должно содержать менее 500 символов"
+        }
+      },
+      "location": {
+        "label": "Местоположение",
+        "placeholder": "Введите свое местоположение",
+        "error": {
+          "tooLong": "Местоположение должно содержать менее 100 символов"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Ошибка",
+        "message": "Не удалось загрузить данные профиля."
+      },
+      "updateSuccess": {
+        "title": "Успех",
+        "message": "Профиль успешно обновлен."
+      },
+      "updateError": {
+        "title": "Ошибка",
+        "message": "Не удалось обновить профиль."
+      }
+    },
+    "loading": {
+      "title": "Загрузка..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Загрузка...",
+    "noProfileFound": "Профиль не найден",
+    "authenticationRequired": "Требуется аутентификация",
+    "pleaseLogIn": "Пожалуйста, войдите в систему, чтобы следить за пользователями.",
+    "success": "Успех",
+    "unfollowSuccess": "Вы перестали следить",
+    "followSuccess": "Вы теперь следите",
+    "error": "Ошибка",
+    "followError": "Не удалось обновить статус подписки.",
+    "posts": "Посты",
+    "followers": "Подписчики",
+    "following": "Подписки",
+    "follow": "Подписаться",
+    "unfollow": "Отписаться",
+    "chat": "Чат"
+  },
+  "settings": {
+    "settings": "Настройки",
+    "fontSelected": "Выбранный шрифт",
+    "asYourFont": "был установлен как ваш шрифт.",
+    "languageSelected": "Выбранный язык",
+    "asYourLanguage": "был установлен как ваш язык.",
+    "themeSelected": "Выбранная тема",
+    "asYourTheme": "была установлена как ваша тема.",
+    "notifications": "Уведомления",
+    "marketplace": "Маркетплейс",
+    "account": "Аккаунт",
+    "themes": "Темы",
+    "fonts": "Шрифты",
+    "languages": "Языки",
+    "signOut": "Выйти",
+    "confirmSignOut": "Подтвердить выход",
+    "areYouSureSignOut": "Вы уверены, что хотите выйти?",
+    "cancel": "Отмена",
+    "goBack": "Вернуться",
+    "selectFont": "Выбрать шрифт",
+    "selectLanguage": "Выбрать язык",
+    "selectTheme": "Выбрать тему"
+  },
+  "accountDetails": {
+    "settingsTitle": "Настройки аккаунта",
+    "profileSettings": "Редактировать профиль",
+    "resetPassword": "Сбросить пароль",
+    "deleteAccount": "Удалить аккаунт",
+    "resetPasswordModal": {
+      "title": "Сбросить пароль",
+      "message": "На ваш email будет отправлено письмо для сброса пароля",
+      "sendEmail": "Отправить Email",
+      "cancel": "Отмена"
+    },
+    "deleteAccountModal": {
+      "title": "Удалить аккаунт",
+      "message": "Вы уверены, что хотите удалить свой аккаунт? Это действие необратимо.",
+      "delete": "Удалить",
+      "cancel": "Отмена"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Профиль обновлен",
+        "message": "Ваш профиль был успешно обновлен."
+      },
+      "profileUpdateError": {
+        "title": "Ошибка",
+        "message": "Не удалось обновить ваш профиль. Пожалуйста, попробуйте снова."
+      },
+      "passwordReset": {
+        "title": "Пароль сброшен",
+        "message": "На ваш email было отправлено письмо для сброса пароля."
+      },
+      "passwordResetError": {
+        "title": "Ошибка",
+        "message": "Не удалось отправить письмо для сброса пароля. Пожалуйста, попробуйте снова."
+      },
+      "accountDeleted": {
+        "title": "Аккаунт удален",
+        "message": "Ваш аккаунт был успешно удален."
+      },
+      "accountDeleteError": {
+        "title": "Ошибка",
+        "message": "Не удалось удалить ваш аккаунт. Пожалуйста, попробуйте снова."
+      }
+    }
+  }
+}

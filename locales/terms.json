@@ -1,0 +1,90 @@
+{
+  "termsOfService": {
+    "title": "Our Terms of Service",
+    "lastUpdated": "Last updated: November 25, 2024",
+    "welcomeMessage": "Welcome to Challenz. Please read these Terms of Service (\"Terms\") carefully before using the Challenz platform (the “Platform”) operated by MegaBliss LTD, with its registered address at 30A Sunnymead Road, Glen Innes, Auckland 1072, New Zealand (“Challenz,” “we,” “us,” or “our”). These Terms govern your access to and use of the Platform, including any content, functionality, and services offered on or through the Platform.",
+    "sections": {
+      "acceptanceOfTerms": {
+        "title": "1. Acceptance of Terms",
+        "description": "By accessing or using the Platform, you agree to be bound by these Terms and our Privacy Policy. If you do not agree with these Terms, you must not use the Platform."
+      },
+      "eligibility": {
+        "title": "2. Eligibility",
+        "description": "You must be at least 13 years old (or the minimum age required in your jurisdiction) to use the Platform. By agreeing to these Terms, you represent and warrant that you meet the eligibility requirements."
+      },
+      "accountRegistration": {
+        "title": "3. Account Registration",
+        "accountCreation": "To access certain features of the Platform, you may need to create an account by providing accurate and complete information, including a valid email address, username, and password.",
+        "responsibility": "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account."
+      },
+      "userConduct": {
+        "title": "4. User Conduct",
+        "description": "You agree to use the Platform only for lawful purposes and in accordance with these Terms. You agree not to:",
+        "points": [
+          "Violate any applicable laws or regulations.",
+          "Infringe upon the intellectual property rights of others.",
+          "Transmit any content that is unlawful, harmful, defamatory, obscene, or otherwise objectionable.",
+          "Engage in any form of harassment or bullying.",
+          "Attempt to disrupt or interfere with the security or functionality of the Platform.",
+          "Use automated means to access the Platform for any purpose without our express written permission."
+        ]
+      },
+      "contentOwnershipAndLicensing": {
+        "title": "5. Content Ownership and Licensing",
+        "userContent": "You retain ownership of any content you create and upload to the Platform (\"User Content\"). By uploading User Content, you grant Challenz a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the User Content in connection with the Platform and Challenz's business operations.",
+        "challenzContent": "All content provided by Challenz on the Platform, including text, graphics, logos, images, and software, is the property of Challenz or its licensors and is protected by intellectual property laws. You may not use, reproduce, or distribute any Challenz content without prior written permission from Challenz."
+      },
+      "termination": {
+        "title": "6. Termination",
+        "description": "We reserve the right to terminate or suspend your access to the Platform immediately, without prior notice or liability, for any reason, including if you breach these Terms. Upon termination, your right to use the Platform will cease immediately. If you wish to terminate your account, you may do so through your account settings."
+      },
+      "disclaimers": {
+        "title": "7. Disclaimers",
+        "points": [
+          "The Platform is provided on an \"AS IS\" and \"AS AVAILABLE\" basis. Challenz disclaims all warranties, whether express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.",
+          "Challenz does not warrant that the Platform will be uninterrupted, secure, or free from errors.",
+          "Challenz is not responsible for any content posted by users or third parties and does not endorse any user-generated content."
+        ]
+      },
+      "limitationOfLiability": {
+        "title": "8. Limitation of Liability",
+        "description": "In no event shall Challenz, its directors, employees, partners, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:",
+        "points": [
+          "Your access to or use of or inability to access or use the Platform;",
+          "Any conduct or content of any third party on the Platform;",
+          "Any content obtained from the Platform;",
+          "Unauthorized access, use, or alteration of your transmissions or content."
+        ]
+      },
+      "indemnification": {
+        "title": "9. Indemnification",
+        "description": "You agree to defend, indemnify, and hold harmless Challenz and its affiliates, licensors, and service providers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees arising out of or relating to your violation of these Terms or your use of the Platform, including any User Content submitted by you."
+      },
+      "governingLaw": {
+        "title": "10. Governing Law",
+        "description": "These Terms shall be governed and construed in accordance with the laws of New Zealand, without regard to its conflict of law provisions."
+      },
+      "disputeResolution": {
+        "title": "11. Dispute Resolution",
+        "description": "Any disputes arising out of or related to these Terms or the Platform shall be resolved through binding arbitration in Auckland, New Zealand, under the rules of the New Zealand Arbitration Association. The decision of the arbitrator shall be final and binding."
+      },
+      "changesToTerms": {
+        "title": "12. Changes to Terms",
+        "description": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least thirty (30) days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use the Platform after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the Platform."
+      },
+      "severability": {
+        "title": "13. Severability",
+        "description": "If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. The invalid or unenforceable provision will be replaced by a valid and enforceable provision that most closely matches the intent of the original provision."
+      },
+      "entireAgreement": {
+        "title": "14. Entire Agreement",
+        "description": "These Terms constitute the entire agreement between you and Challenz regarding your use of the Platform and supersede all prior agreements, understandings, and representations regarding the same."
+      },
+      "contactUs": {
+        "title": "15. Contact Us",
+        "description": "If you have any questions about these Terms, please contact us at challenzsocial@gmail.com or visit our Contact Page."
+      }
+    },
+    "copyright": "© 2025. All rights reserved."
+  }
+}

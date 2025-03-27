@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "สำรวจความท้าทาย",
+      "thatInspire": "ที่สร้างแรงบันดาลใจ!",
+      "signUp": "สมัครสมาชิก",
+      "signIn": "เข้าสู่ระบบ"
+    },
+    "signUp": {
+      "title": "สมัครสมาชิก",
+      "headerMessage": "สร้างบัญชีใหม่เพื่อเริ่มต้น",
+      "businessTitle": "ลงทะเบียนเป็นธุรกิจ",
+      "headerMessageBusiness": "สร้างบัญชีธุรกิจเพื่อเริ่มต้น",
+      "form": {
+        "username": {
+          "label": "ชื่อผู้ใช้",
+          "placeholder": "เลือกชื่อผู้ใช้",
+          "validation": {
+            "minLength": "ชื่อผู้ใช้ต้องมีอย่างน้อย 3 ตัวอักษร",
+            "regex": "ชื่อผู้ใช้สามารถมีตัวอักษร ตัวเลข และขีดล่างเท่านั้น"
+          }
+        },
+        "firstname": {
+          "label": "ชื่อจริง",
+          "placeholder": "ใส่ชื่อจริงของคุณ",
+          "validation": "ชื่อจริงต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "lastname": {
+          "label": "นามสกุล",
+          "placeholder": "ใส่นามสกุลของคุณ",
+          "validation": "นามสกุลต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "businessName": {
+          "label": "ชื่อธุรกิจ",
+          "placeholder": "ใส่ชื่อธุรกิจของคุณ",
+          "validation": "ชื่อธุรกิจต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "website": {
+          "label": "เว็บไซต์ธุรกิจ",
+          "placeholder": "ใส่เว็บไซต์ของคุณ",
+          "validation": "ชื่อธุรกิจต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "businessType": {
+          "label": "ประเภทธุรกิจ",
+          "placeholder": "ประเภทธุรกิจ",
+          "validation": "ชื่อธุรกิจต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "email": {
+          "label": "อีเมล",
+          "placeholder": "ใส่อีเมลของคุณ",
+          "validation": "กรุณาใส่อีเมลที่ถูกต้อง"
+        },
+        "phoneNumber": {
+          "label": "เบอร์โทรศัพท์",
+          "placeholder": "ใส่เบอร์โทรศัพท์ของคุณ",
+          "validation": "กรุณาใส่เบอร์โทรศัพท์ที่ถูกต้อง"
+        },
+        "birthday": {
+          "title": "วันเกิด",
+          "label": "วันเกิด",
+          "placeholder": "วว-ดด-ปปปป",
+          "validation": {
+            "format": "วันเกิดต้องอยู่ในรูปแบบ วว-ดด-ปปปป",
+            "validDate": "วันที่ไม่ถูกต้อง",
+            "ageRestriction": "คุณต้องมีอายุ 18 ปีขึ้นไปเพื่อสร้างบัญชี"
+          }
+        },
+        "password": {
+          "label": "รหัสผ่าน",
+          "placeholder": "ใส่รหัสผ่านของคุณ",
+          "validation": {
+            "minLength": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+            "maxLength": "รหัสผ่านต้องมีน้อยกว่า 64 ตัวอักษร",
+            "uppercase": "รหัสผ่านต้องมีตัวอักษรตัวพิมพ์ใหญ่อย่างน้อย 1 ตัว",
+            "lowercase": "รหัสผ่านต้องมีตัวอักษรตัวพิมพ์เล็กอย่างน้อย 1 ตัว",
+            "numberOrSpecial": "รหัสผ่านต้องมีตัวเลขหรืออักขระพิเศษอย่างน้อย 1 ตัว"
+          },
+          "strength": {
+            "weak": "อ่อน",
+            "fair": "พอใช้",
+            "good": "ดี",
+            "strong": "แข็งแรง"
+          }
+        },
+        "confirmPassword": {
+          "label": "ยืนยันรหัสผ่าน",
+          "placeholder": "ใส่รหัสผ่านอีกครั้ง",
+          "validation": "รหัสผ่านไม่ตรงกัน"
+        }
+      },
+      "buttons": {
+        "createAccount": "สร้างบัญชี",
+        "alreadyHaveAccount": "มีบัญชีอยู่แล้ว?",
+        "signIn": "เข้าสู่ระบบ",
+        "businessJoin": "เข้าร่วม Challenz เป็นพันธมิตรทางธุรกิจ"
+      },
+      "alerts": {
+        "error": {
+          "title": "ข้อผิดพลาด",
+          "message": "เกิดข้อผิดพลาดในการสร้างบัญชี กรุณาลองอีกครั้ง"
+        },
+        "passwordMismatch": {
+          "title": "รหัสผ่านไม่ตรงกัน",
+          "message": "รหัสผ่านไม่ถูกต้อง กรุณาลองอีกครั้ง"
+        },
+        "agreementRequired": {
+          "title": "ต้องยอมรับข้อตกลง",
+          "message": "กรุณายอมรับเงื่อนไขการให้บริการและนโยบายความเป็นส่วนตัว"
+        },
+        "success": {
+          "title": "สำเร็จ",
+          "message": "สร้างบัญชีสำเร็จแล้ว"
+        },
+        "signUpError": {
+          "title": "ข้อผิดพลาดในการสมัคร",
+          "message": "เกิดข้อผิดพลาดในการสร้างบัญชี กรุณาลองอีกครั้ง"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "การสมัครแสดงว่าคุณได้อ่าน",
+        "termsOfService": "เงื่อนไขการให้บริการ",
+        "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+        "andAccepted": "และยอมรับ"
+      }
+    },
+    "signIn": {
+      "title": "เข้าสู่ระบบ",
+      "headerMessage": "ป้อนข้อมูลประจำตัวเพื่อเข้าถึงบัญชีของคุณ",
+      "form": {
+        "email": "อีเมล",
+        "emailPlaceholder": "ใส่อีเมลของคุณ",
+        "password": "รหัสผ่าน",
+        "passwordPlaceholder": "ใส่รหัสผ่านของคุณ"
+      },
+      "buttons": {
+        "signIn": "เข้าสู่ระบบ",
+        "forgotPassword": "ลืมรหัสผ่าน?",
+        "noAccount": "ยังไม่มีบัญชี?",
+        "signUp": " สมัครสมาชิก"
+      },
+      "forgotPassword": {
+        "title": "ลืมรหัสผ่าน",
+        "prompt": "กรุณาใส่อีเมลของคุณก่อน",
+        "successTitle": "ตรวจสอบอีเมลของคุณ",
+        "successMessage": "เราได้ส่งลิงก์รีเซ็ตรหัสผ่านไปยังอีเมลของคุณแล้ว",
+        "errorTitle": "ข้อผิดพลาดในการรีเซ็ต"
+      },
+      "termsAndPrivacy": {
+        "message": "การสมัครแสดงว่าคุณได้อ่าน",
+        "termsOfService": "เงื่อนไขการให้บริการ",
+        "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+        "andAccepted": "และยอมรับ"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "ข้อผิดพลาดในการเข้าสู่ระบบ"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "ลืมรหัสผ่าน",
+      "description": "ใส่อีเมลของคุณด้านล่างและเราจะส่งลิงก์เพื่อรีเซ็ตรหัสผ่านให้คุณ",
+      "form": {
+        "email": "อีเมล"
+      },
+      "buttons": {
+        "reset": "รีเซ็ตรหัสผ่าน",
+        "sending": "กำลังส่ง...",
+        "remembered": "จำรหัสผ่านได้แล้ว?",
+        "signIn": "เข้าสู่ระบบ"
+      },
+      "alerts": {
+        "enterEmail": "กรุณาใส่อีเมลของคุณ",
+        "checkEmail": "ตรวจสอบอีเมลของคุณเพื่อดูลิงก์รีเซ็ต",
+        "resetError": "ล้มเหลวในการรีเซ็ตรหัสผ่าน"
+      }
+    },
+    "resetPassword": {
+      "title": "อัปเดตรหัสผ่าน",
+      "description": "ใส่รหัสผ่านใหม่ของคุณด้านล่างเพื่อรีเซ็ตรหัสผ่านบัญชี",
+      "form": {
+        "newPassword": "ใส่รหัสผ่านใหม่",
+        "confirmPassword": "ยืนยันรหัสผ่านใหม่"
+      },
+      "alerts": {
+        "enterBothPasswords": "กรุณาใส่รหัสผ่านทั้งสองช่อง",
+        "passwordMismatch": "รหัสผ่านไม่ตรงกัน กรุณาลองใหม่",
+        "success": "รหัสผ่านของคุณได้รับการอัปเดตเรียบร้อยแล้ว",
+        "updateError": "เกิดข้อผิดพลาดในการอัปเดตรหัสผ่าน กรุณาลองใหม่"
+      },
+      "buttons": {
+        "saving": "กำลังบันทึก...",
+        "update": "อัปเดตรหัสผ่าน"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "โทเค็นการเข้าถึงไม่ถูกต้องหรือหายไป",
+        "sessionFailed": "ล้มเหลวในการตั้งค่าเซสชัน",
+        "invalidPassword": "กรุณาใส่รหัสผ่านที่ถูกต้องอย่างน้อย 8 ตัวอักษร",
+        "updateFailed": "ล้มเหลวในการอัปเดตรหัสผ่านของคุณ"
+      },
+      "success": {
+        "passwordUpdated": "รหัสผ่านของคุณได้รับการอัปเดตแล้ว กรุณาเข้าสู่ระบบอีกครั้ง"
+      },
+      "title": "รีเซ็ตรหัสผ่านของคุณ",
+      "instructions": "ใส่รหัสผ่านใหม่",
+      "labels": {
+        "newPassword": "รหัสผ่านใหม่"
+      },
+      "placeholders": {
+        "newPassword": "ใส่รหัสผ่านใหม่"
+      },
+      "buttons": {
+        "updatePassword": "อัปเดตรหัสผ่าน"
+      }
+    },
+    "tabs": {
+      "home": "หน้าแรก",
+      "search": "ค้นหา",
+      "create": "สร้าง",
+      "contest": "การแข่งขัน",
+      "menu": "เมนู",
+      "settings": "ตั้งค่า",
+      "profile": "โปรไฟล์",
+      "editProfile": "แก้ไขโปรไฟล์",
+      "otherUserProfile": "โปรไฟล์ผู้ใช้",
+      "explore": "สำรวจ",
+      "challengeDetails": "รายละเอียดความท้าทาย",
+      "submissionDetails": "รายละเอียดการส่ง",
+      "contestDetails": "รายละเอียดการแข่งขัน",
+      "followers": "ผู้ติดตาม ",
+      "following": "กำลังติดตาม ",
+      "account": "บัญชี",
+      "notifications": "การแจ้งเตือน",
+      "leaderboard": "อันดับ",
+      "market": "ตลาด",
+      "rewards": "รางวัล",
+      "coin": "เหรียญของคุณ"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "สร้าง",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "ไอคอนหน้าแรก",
+        "search": "ไอคอนค้นหา",
+        "create": "ไอคอนสร้าง",
+        "explore": "ไอคอนสำรวจ",
+        "profile": "ไอคอนโปรไฟล์"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "ค้นหาการส่ง ผู้ใช้ ความท้าทาย...",
+      "clearSearch": "ล้างการค้นหา",
+      "loading": "กำลังโหลด...",
+      "error": {
+        "title": "ข้อผิดพลาดในการค้นหา",
+        "message": "เกิดข้อผิดพลาดระหว่างการค้นหา"
+      },
+      "noPreviousSearches": "ไม่มีการค้นหาก่อนหน้า",
+      "previousSearches": "การค้นหาก่อนหน้า",
+      "submissions": {
+        "title": "การส่ง",
+        "noResults": "ไม่พบการส่ง",
+        "videoError": {
+          "title": "ข้อผิดพลาดวิดีโอ",
+          "message": "ล้มเหลวในการโหลดวิดีโอ"
+        }
+      },
+      "users": {
+        "title": "ผู้ใช้",
+        "noResults": "ไม่พบผู้ใช้"
+      },
+      "challenges": {
+        "title": "ความท้าทาย",
+        "noResults": "ไม่พบความท้าทาย",
+        "videoError": {
+          "title": "ข้อผิดพลาดวิดีโอ",
+          "message": "ล้มเหลวในการโหลดวิดีโอความท้าทาย"
+        },
+        "category": "หมวดหมู่: ",
+        "seasonalTag": "ตามฤดูกาล",
+        "sponsoredTag": "สนับสนุน"
+      },
+      "repeatSearch": "ค้นหาซ้ำสำหรับ",
+      "accessibility": {
+        "viewVideo": "ดูวิดีโอชื่อ",
+        "viewProfile": "ดูโปรไฟล์ของ",
+        "viewChallenge": "ดูความท้าทายชื่อ"
+      }
+    },
+    "contest": {
+      "title": "การแข่งขันทั้งหมด",
+      "createContestButton": "สร้างการแข่งขัน"
+    },
+    "contests": {
+      "noContests": "ไม่พบการแข่งขัน",
+      "error": {
+        "title": "ข้อผิดพลาด",
+        "message": "ล้มเหลวในการดึงข้อมูลการแข่งขัน"
+      },
+      "status": {
+        "notStarted": "ยังไม่เริ่ม",
+        "ongoing": "กำลังดำเนินการ",
+        "ended": "สิ้นสุดแล้ว"
+      },
+      "dates": {
+        "start": "เริ่ม: ",
+        "end": "สิ้นสุด: ",
+        "notAvailable": "ไม่มี"
+      },
+      "contestDetailsButton": "ดูรายละเอียดการแข่งขัน"
+    },
+    "newContest": {
+      "header": {
+        "title": "สร้างการแข่งขันใหม่",
+        "backButton": "กลับ"
+      },
+      "fields": {
+        "title": {
+          "label": "ชื่อ",
+          "placeholder": "เช่น การแข่งขันเต้นฤดูร้อน",
+          "validation": "ต้องระบุชื่อ"
+        },
+        "description": {
+          "label": "คำอธิบาย",
+          "placeholder": "การแข่งขันนี้เกี่ยวกับอะไร?"
+        },
+        "startDate": {
+          "label": "วันที่เริ่มต้น",
+          "placeholder": "วว-ดด-ปปปป",
+          "validation": "วันที่สิ้นสุดต้องอยู่หลังวันที่เริ่มต้น"
+        },
+        "endDate": {
+          "label": "วันที่สิ้นสุด",
+          "placeholder": "วว-ดด-ปปปป"
+        },
+        "winnerReward": {
+          "label": "รางวัลผู้ชนะ (เหรียญ Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "รางวัลผู้เข้าร่วม (เหรียญ Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "วิดีโออธิบาย (ตัวเลือก)",
+          "noVideoSelected": "เพิ่มวิดีโออธิบาย",
+          "picked": "เลือกแล้ว: {filename}",
+          "uploaded": "อัปโหลดแล้ว: วิดีโออัปโหลดสำเร็จแล้ว",
+          "chooseVideoButton": "เลือกวิดีโอ",
+          "uploadVideoButton": "อัปโหลดวิดีโอ"
+        }
+      },
+      "buttons": {
+        "createContest": "สร้างการแข่งขัน"
+      },
+      "alerts": {
+        "error": {
+          "title": "ข้อผิดพลาด",
+          "pickVideoMessage": "ล้มเหลวในการเลือกวิดีโอ",
+          "uploadVideoMessage": "ล้มเหลวในการอัปโหลดวิดีโอ",
+          "createContestMessage": "ล้มเหลวในการสร้างการแข่งขัน"
+        },
+        "success": {
+          "title": "สำเร็จ",
+          "videoUploadMessage": "อัปโหลดวิดีโอสำเร็จ!",
+          "createContestMessage": "สร้างการแข่งขันสำเร็จ!"
+        },
+        "validation": {
+          "noTitle": "ต้องระบุชื่อ",
+          "invalidDates": "วันที่สิ้นสุดต้องอยู่หลังวันที่เริ่มต้น"
+        },
+        "noSession": {
+          "title": "คุณต้องเข้าสู่ระบบเพื่อสร้างการแข่งขัน"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "โปรไฟล์",
+        "settingsButton": "ไปที่การตั้งค่า"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "ต้องการการอนุญาต",
+          "message": "เราต้องการสิทธิ์ในการเข้าถึงรูปภาพของคุณ"
+        },
+        "errorAlert": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการเลือกรูปภาพ"
+        },
+        "successAlert": {
+          "title": "สำเร็จ",
+          "message": "อัปเดตรูปโปรไฟล์สำเร็จแล้ว"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "ข้อผิดพลาดในการแชร์",
+          "message": "ไม่สามารถแชร์ลิงก์แนะนำได้"
+        },
+        "successShare": {
+          "title": "เข้าร่วม Challenz กับฉัน!",
+          "message": "สวัสดี! ใช้ลิงก์นี้เพื่อสมัคร: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "ผู้ติดตาม",
+        "viewFollowers": "ดูผู้ติดตาม"
+      },
+      "following": {
+        "label": "กำลังติดตาม",
+        "viewFollowing": "ดูกำลังติดตาม"
+      },
+      "posts": {
+        "label": "โพสต์",
+        "viewPosts": "ดูโพสต์",
+        "noVideos": "ยังไม่มีวิดีโอที่โพสต์"
+      },
+      "info": {
+        "email": "อีเมล",
+        "phone": "โทรศัพท์",
+        "location": "ที่อยู่",
+        "coins": "เหรียญ Uwaci",
+        "bio": "ประวัติโดยย่อ",
+        "noProfile": "ไม่พบโปรไฟล์"
+      },
+      "buttons": {
+        "inviteFriends": "เชิญเพื่อน",
+        "deleteVideo": "ลบวิดีโอ",
+        "deleteVideoAlert": {
+          "title": "ลบวิดีโอ",
+          "message": "คุณแน่ใจหรือไม่ว่าต้องการลบวิดีโอนี้?"
+        },
+        "deleteSuccess": {
+          "title": "สำเร็จ",
+          "message": "ลบวิดีโอสำเร็จแล้ว"
+        },
+        "deleteError": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการลบวิดีโอ"
+        }
+      },
+      "errors": {
+        "generalError": "เกิดข้อผิดพลาด",
+        "profileError": "ล้มเหลวในการดึงข้อมูลโปรไฟล์",
+        "submissionsError": "ล้มเหลวในการดึงข้อมูลการส่ง"
+      },
+      "loading": {
+        "profile": "กำลังโหลดโปรไฟล์...",
+        "submissions": "กำลังโหลดการส่ง..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "แก้ไขโปรไฟล์",
+        "cancelButton": "ยกเลิก",
+        "saveButton": "บันทึกการเปลี่ยนแปลง",
+        "savingButton": "กำลังบันทึก..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "ชื่อจริง",
+          "placeholder": "ใส่ชื่อจริงของคุณ",
+          "error": {
+            "tooShort": "ชื่อจริงสั้นเกินไป"
+          }
+        },
+        "lastName": {
+          "label": "นามสกุล",
+          "placeholder": "ใส่นามสกุลของคุณ",
+          "error": {
+            "tooShort": "นามสกุลสั้นเกินไป"
+          }
+        },
+        "phoneNumber": {
+          "label": "เบอร์โทรศัพท์",
+          "placeholder": "ใส่เบอร์โทรศัพท์ของคุณ",
+          "error": {
+            "invalid": "กรุณาใส่เบอร์โทรศัพท์ที่ถูกต้อง"
+          }
+        },
+        "bio": {
+          "label": "ประวัติโดยย่อ",
+          "placeholder": "บอกเราเกี่ยวกับตัวคุณ",
+          "error": {
+            "tooLong": "ประวัติโดยย่อต้องมีน้อยกว่า 500 ตัวอักษร"
+          }
+        },
+        "location": {
+          "label": "ที่อยู่",
+          "placeholder": "ใส่ที่อยู่ของคุณ",
+          "error": {
+            "tooLong": "ที่อยู่ต้องมีน้อยกว่า 100 ตัวอักษร"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการดึงข้อมูลโปรไฟล์"
+        },
+        "updateSuccess": {
+          "title": "สำเร็จ",
+          "message": "อัปเดตโปรไฟล์สำเร็จแล้ว"
+        },
+        "updateError": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการอัปเดตโปรไฟล์"
+        }
+      },
+      "loading": {
+        "title": "กำลังโหลด..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "กำลังโหลด...",
+      "noProfileFound": "ไม่พบโปรไฟล์",
+      "authenticationRequired": "ต้องการการยืนยันตัวตน",
+      "pleaseLogIn": "กรุณาเข้าสู่ระบบเพื่อติดตามผู้ใช้",
+      "success": "สำเร็จ",
+      "unfollowSuccess": "คุณได้เลิกติดตาม",
+      "followSuccess": "ตอนนี้คุณกำลังติดตาม",
+      "error": "ข้อผิดพลาด",
+      "followError": "ล้มเหลวในการอัปเดตสถานะการติดตาม",
+      "posts": "โพสต์",
+      "followers": "ผู้ติดตาม",
+      "following": "กำลังติดตาม",
+      "follow": "ติดตาม",
+      "unfollow": "เลิกติดตาม",
+      "chat": "แชท"
+    },
+    "menu": {
+      "menu": "เมนู",
+      "settings": "ตั้งค่า",
+      "yourUwaciCoins": "เหรียญ Uwaci ของคุณ",
+      "notifications": "การแจ้งเตือน",
+      "marketplace": "ตลาด",
+      "signOut": "ออกจากระบบ",
+      "confirmSignOut": "ยืนยันการออกจากระบบ",
+      "areYouSureSignOut": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+      "cancel": "ยกเลิก",
+      "goBack": "กลับ"
+    },
+    "settings": {
+      "settings": "ตั้งค่า",
+      "fontSelected": "เลือกฟอนต์แล้ว",
+      "asYourFont": "ได้ถูกตั้งเป็นฟอนต์ของคุณ",
+      "languageSelected": "เลือกภาษาแล้ว",
+      "asYourLanguage": "ได้ถูกตั้งเป็นภาษาของคุณ",
+      "themeSelected": "เลือกธีมแล้ว",
+      "asYourTheme": "ได้ถูกตั้งเป็นธีมของคุณ",
+      "notifications": "การแจ้งเตือน",
+      "marketplace": "ตลาด",
+      "account": "บัญชี",
+      "themes": "ธีม",
+      "fonts": "ฟอนต์",
+      "languages": "ภาษา",
+      "signOut": "ออกจากระบบ",
+      "confirmSignOut": "ยืนยันการออกจากระบบ",
+      "areYouSureSignOut": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+      "cancel": "ยกเลิก",
+      "goBack": "กลับ",
+      "selectFont": "เลือกฟอนต์",
+      "selectLanguage": "เลือกภาษา",
+      "selectTheme": "เลือกธีม",
+      "passwordSecurity": "รหัสผ่านและความปลอดภัย",
+      "personalDetails": "ข้อมูลส่วนตัว",
+      "verification": "การยืนยัน",
+      "paymentMethods": "วิธีการชำระเงิน",
+      "adPreferences": "การตั้งค่าโฆษณา",
+      "upgradePremium": "อัปเกรดเป็นพรีเมียม",
+      "content": "เนื้อหา",
+      "language": "ภาษา",
+      "savedDraft": "แบบร่างที่บันทึกไว้",
+      "yourActivity": "กิจกรรมของคุณ",
+      "accessibility": "การเข้าถึง",
+      "privacy": "ความเป็นส่วนตัว",
+      "comments": "ความคิดเห็น",
+      "privateAccount": "บัญชีส่วนตัว",
+      "directMessaging": "ข้อความโดยตรง",
+      "blockedReports": "การบล็อก/การรายงาน",
+      "termsPolicies": "ข้อกำหนดและนโยบาย",
+      "switchAccount": "สลับบัญชี"
+    },
+    "accountDetails": {
+      "settingsTitle": "ตั้งค่าบัญชี",
+      "profileSettings": "แก้ไขโปรไฟล์ ",
+      "resetPassword": "รีเซ็ตรหัสผ่าน",
+      "deleteAccount": "ลบบัญชี",
+      "resetPasswordModal": {
+        "title": "รีเซ็ตรหัสผ่าน",
+        "message": "อีเมลรีเซ็ตรหัสผ่านจะถูกส่งไปที่",
+        "sendEmail": "ส่งอีเมล",
+        "cancel": "ยกเลิก"
+      },
+      "deleteAccountModal": {
+        "title": "ลบบัญชี",
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีของคุณ? การกระทำนี้ไม่สามารถเปลี่ยนแปลงได้",
+        "delete": "ลบ",
+        "cancel": "ยกเลิก"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "อัปเดตโปรไฟล์แล้ว",
+          "message": "โปรไฟล์ของคุณได้รับการอัปเดตเรียบร้อยแล้ว"
+        },
+        "profileUpdateError": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการอัปเดตโปรไฟล์ของคุณ กรุณาลองอีกครั้ง"
+        },
+        "passwordReset": {
+          "title": "รีเซ็ตรหัสผ่าน",
+          "message": "อีเมลรีเซ็ตรหัสผ่านได้ถูกส่งแล้ว"
+        },
+        "passwordResetError": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการส่งอีเมลรีเซ็ตรหัสผ่าน กรุณาลองอีกครั้ง"
+        },
+        "accountDeleted": {
+          "title": "ลบบัญชีแล้ว",
+          "message": "บัญชีของคุณได้ถูกลบเรียบร้อยแล้ว"
+        },
+        "accountDeleteError": {
+          "title": "ข้อผิดพลาด",
+          "message": "ล้มเหลวในการลบบัญชีของคุณ กรุณาลองอีกครั้ง"
+        }
+      }
+    }
+  }

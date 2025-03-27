@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Ch'axwanaka Uñjam",
+      "thatInspire": "¡kunaymana amtayiriwa!",
+      "signUp": "Qillqantasiñani",
+      "signIn": "Mantaña"
+    },
+    "signUp": {
+      "title": "Qillqantasiñani",
+      "headerMessage": "Machaq cuenta uñstayañataki",
+      "businessTitle": "Negocio ukhama qillqantasiñani",
+      "headerMessageBusiness": "Machaq cuenta negocio uñstayañataki",
+      "form": {
+        "username": {
+          "label": "Sutimasti",
+          "placeholder": "Sutimasti ajlliñani",
+          "validation": {
+            "minLength": "Sutimasti kimsa qillqaniñapawa",
+            "regex": "Sutimasti qillqanaka, jakhu, ukata qillqata manqha chimpukiwa"
+          }
+        },
+        "firstname": {
+          "label": "Nayra suti",
+          "placeholder": "Nayra sutima apantañani",
+          "validation": "Nayra suti kimsa qillqaniñapawa"
+        },
+        "lastname": {
+          "label": "Taykanakan suti",
+          "placeholder": "Taykanakan sutima apantañani",
+          "validation": "Taykanakan suti kimsa qillqaniñapawa"
+        },
+        "businessName": {
+          "label": "Negocio suti",
+          "placeholder": "Negocio sutima apantañani",
+          "validation": "Negocio suti kimsa qillqaniñapawa"
+        },
+        "website": {
+          "label": "Negocio web utapa",
+          "placeholder": "Web utama apantañani",
+          "validation": "Negocio suti kimsa qillqaniñapawa"
+        },
+        "businessType": {
+          "label": "Kuna negocio",
+          "placeholder": "Kuna negocio",
+          "validation": "Negocio suti kimsa qillqaniñapawa"
+        },
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "Correo electrónicoma apantañani",
+          "validation": "Chiqapa correo electrónico apantañani"
+        },
+        "phoneNumber": {
+          "label": "Jawsaña número",
+          "placeholder": "Jawsaña numeroma apantañani",
+          "validation": "Chiqapa jawsaña número apantañani"
+        },
+        "birthday": {
+          "title": "Yurita",
+          "label": "Yurita",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Yurita akhamatäñapawa DD-MM-YYYY",
+            "validDate": "Jan wali uruwa",
+            "ageRestriction": "Tunka kimsaqallquni maranïñapawa cuenta uñstayañataki"
+          }
+        },
+        "password": {
+          "label": "Imt'aña aru",
+          "placeholder": "Imt'aña aruma apantañani",
+          "validation": {
+            "minLength": "Imt'aña aru kimsaqallqu qillqaniñapawa",
+            "maxLength": "Imt'aña aru pusi tunka pusini qillqankañapawa",
+            "uppercase": "Imt'aña aru maya jach'a qillqaniñapawa",
+            "lowercase": "Imt'aña aru maya jisk'a qillqaniñapawa",
+            "numberOrSpecial": "Imt'aña aru maya jakhu jan ukasti wali qillqaniñapawa"
+          },
+          "strength": {
+            "weak": "Jani ch'amani",
+            "fair": "Juk'ampi",
+            "good": "Suma",
+            "strong": "Wali ch'amani"
+          }
+        },
+        "confirmPassword": {
+          "label": "Imt'aña aru yaqha kuti",
+          "placeholder": "Imt'aña aruma mayampi apantañani",
+          "validation": "Imt'aña arusti janiwa kikipakiti"
+        }
+      },
+      "buttons": {
+        "createAccount": "Cuenta uñstayañani",
+        "alreadyHaveAccount": "¿Nayaxa cuenta utjitu?",
+        "signIn": "Mantaña",
+        "businessJoin": "Challenz ukan negocio ukhama mantaña"
+      },
+      "alerts": {
+        "error": {
+          "title": "Pantjawi",
+          "message": "Cuenta uñstayañ pantjawiwa. Mayampi yant'añani"
+        },
+        "passwordMismatch": {
+          "title": "Imt'aña aru jani kikipa",
+          "message": "Imt'aña aru jan waliwa. Mayampi yant'añani"
+        },
+        "agreementRequired": {
+          "title": "Aruskipawi munasiwa",
+          "message": "Servicio arunaka, ukhamaraki privacidad arunakampi jaysaña"
+        },
+        "success": {
+          "title": "Wali sumawa",
+          "message": "Cuenta wali uñstatawa"
+        },
+        "signUpError": {
+          "title": "Qillqantasiñ pantjawi",
+          "message": "Cuenta uñstayañ pantjawiwa. Mayampi yant'añani"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Qillqantasisa, jumasti ulltasti",
+        "termsOfService": "Servicio arunaka",
+        "privacyPolicy": "Privacidad arunaka",
+        "andAccepted": "ukhamaraki jaysasti"
+      }
+    },
+    "signIn": {
+      "title": "Mantaña",
+      "headerMessage": "Cuenta mantañataki",
+      "form": {
+        "email": "Correo electrónico",
+        "emailPlaceholder": "Correo electrónicoma apantañani",
+        "password": "Imt'aña aru",
+        "passwordPlaceholder": "Imt'aña aruma apantañani"
+      },
+      "buttons": {
+        "signIn": "Mantaña",
+        "forgotPassword": "¿Imt'aña aru armt'ata?",
+        "noAccount": "¿Jani cuenta utjiti?",
+        "signUp": " Qillqantasiñani"
+      },
+      "forgotPassword": {
+        "title": "Imt'aña aru armt'ata",
+        "prompt": "Correo electrónicoma nayraqata apantañani",
+        "successTitle": "Correo electrónicoma uñakipaña",
+        "successMessage": "Imt'aña aru machaqachañataki enlace correo electrónicorumwa apayatawa",
+        "errorTitle": "Machaqach pantjawi"
+      },
+      "termsAndPrivacy": {
+        "message": "Qillqantasisa, jumasti ulltasti",
+        "termsOfService": "Servicio arunaka",
+        "privacyPolicy": "Privacidad arunaka",
+        "andAccepted": "ukhamaraki jaysasti"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Mantañ pantjawi"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Imt'aña aru armt'ata",
+      "description": "Correo electrónicoma aka manqhita apantaña, ukata imt'aña aru machaqachañataki enlace apayatäni",
+      "form": {
+        "email": "Correo electrónico"
+      },
+      "buttons": {
+        "reset": "Imt'aña aru machaqachaña",
+        "sending": "Apayaskiwa...",
+        "remembered": "¿Imt'aña aruma amtastati?",
+        "signIn": "Mantaña"
+      },
+      "alerts": {
+        "enterEmail": "Correo electrónicoma apantañani",
+        "checkEmail": "Imt'aña aru machaqachañ enlace correo electrónicoman uñakipaña",
+        "resetError": "Imt'aña aru machaqachañ pantjawiwa"
+      }
+    },
+    "resetPassword": {
+      "title": "Imt'aña aru machaqacha",
+      "description": "Machaq imt'aña aruma aka manqhita apantaña, cuenta imt'aña aru machaqachañataki",
+      "form": {
+        "newPassword": "Machaq imt'aña aru apantañani",
+        "confirmPassword": "Machaq imt'aña aru yaqha kuti"
+      },
+      "alerts": {
+        "enterBothPasswords": "Paya imt'aña aru uka campo apantañani",
+        "passwordMismatch": "Imt'aña arusti janiwa kikipakiti. Mayampi yant'añani",
+        "success": "Imt'aña aruma wali machaqachatawa",
+        "updateError": "Imt'aña aruma machaqachañ pantjawiwa. Mayampi yant'añani"
+      },
+      "buttons": {
+        "saving": "Imaski...",
+        "update": "Imt'aña aru machaqacha"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Mantañ chimpusti jan waliwa, jani ukjamasti chhaqatawa",
+        "sessionFailed": "Sesión uskuñ pantjawiwa",
+        "invalidPassword": "Wali imt'aña aru apantañani, kimsaqallquni",
+        "updateFailed": "Imt'aña aruma machaqachañ pantjawiwa"
+      },
+      "success": {
+        "passwordUpdated": "Imt'aña aruma machaqachatawa. Mayampi mantañamawa"
+      },
+      "title": "Imt'aña aru machaqacha",
+      "instructions": "Machaq imt'aña aru apantañani",
+      "labels": {
+        "newPassword": "Machaq imt'aña aru"
+      },
+      "placeholders": {
+        "newPassword": "Machaq imt'aña aru apantañani"
+      },
+      "buttons": {
+        "updatePassword": "Imt'aña aru machaqacha"
+      }
+    },
+    "tabs": {
+      "home": "Utana",
+      "search": "Thaqhaña",
+      "create": "Uñstayaña",
+      "contest": "Llalliña",
+      "menu": "Ajllina",
+      "settings": "Wakichañanaka",
+      "profile": "Utjawima",
+      "editProfile": "Utjawima askichaña",
+      "otherUserProfile": "Yaqha jaqi utjawi",
+      "explore": "Uñtaña",
+      "challengeDetails": "Ch'axwa yatiyawi",
+      "submissionDetails": "Apantawi yatiyawi",
+      "contestDetails": "Llalliña yatiyawi",
+      "followers": "Arkirinakas ",
+      "following": "Arkaskin ",
+      "account": "Cuenta",
+      "notifications": "Yatiyanaka",
+      "leaderboard": "Jilïrinaka",
+      "market": "Alakiña",
+      "rewards": "Samiqnaka",
+      "coin": "Qullqima"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Uñstayaña",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Uta chimpu",
+        "search": "Thaqhaña chimpu",
+        "create": "Uñstayaña chimpu",
+        "explore": "Uñtaña chimpu",
+        "profile": "Utjawi chimpu"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Apantawinaka, jaqinaka, ch'axwanaka thaqhañani...",
+      "clearSearch": "Thaqhaña tukuya",
+      "loading": "Qamasaki...",
+      "error": {
+        "title": "Thaqhañ pantjawi",
+        "message": "Thaqhañataki pantjawiwa"
+      },
+      "noPreviousSearches": "Janiwa nayra thaqhañanika.",
+      "previousSearches": "Nayra thaqhañanaka",
+      "submissions": {
+        "title": "Apantawinaka",
+        "noResults": "Apantawinaka janiwa jikiskiti.",
+        "videoError": {
+          "title": "Video pantjawi",
+          "message": "Video uñjayañ pantjawiwa."
+        }
+      },
+      "users": {
+        "title": "Jaqinaka",
+        "noResults": "Jaqinaka janiwa jikiskiti."
+      },
+      "challenges": {
+        "title": "Ch'axwanaka",
+        "noResults": "Ch'axwanaka janiwa jikiskiti.",
+        "videoError": {
+          "title": "Video pantjawi",
+          "message": "Ch'axwa video uñjayañ pantjawiwa."
+        },
+        "category": "Jaljta: ",
+        "seasonalTag": "Pacha pacha",
+        "sponsoredTag": "Yanapata"
+      },
+      "repeatSearch": "Mayampi thaqhaña",
+      "accessibility": {
+        "viewVideo": "Aka sutini video uñjaña",
+        "viewProfile": "Aka sutini utjawi uñjaña",
+        "viewChallenge": "Aka sutini ch'axwa uñjaña"
+      }
+    },
+    "contest": {
+      "title": "Taqi llalliñanaka",
+      "createContestButton": "Llalliña uñstayaña"
+    },
+    "contests": {
+      "noContests": "Llalliñanaka janiwa jikiskiti.",
+      "error": {
+        "title": "Pantjawi",
+        "message": "Llalliñanaka thaqhañ pantjawiwa."
+      },
+      "status": {
+        "notStarted": "Jan qalltata",
+        "ongoing": "Sarantaski",
+        "ended": "Tukuta"
+      },
+      "dates": {
+        "start": "Qalltawi: ",
+        "end": "Tukuyawi: ",
+        "notAvailable": "Jan utjiti"
+      },
+      "contestDetailsButton": "Llalliña yatiyawi uñjaña"
+    },
+    "newContest": {
+      "header": {
+        "title": "Machaq llalliña uñstayaña",
+        "backButton": "Kutiña"
+      },
+      "fields": {
+        "title": {
+          "label": "Suti",
+          "placeholder": "amuyañataki, Lupi phaxsi thuquña",
+          "validation": "Suti munasiwa."
+        },
+        "description": {
+          "label": "Qillqatapa",
+          "placeholder": "¿Kuna llalliñasa?"
+        },
+        "startDate": {
+          "label": "Qalltañ uru",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Tukuyañ urumasti qalltañ uru qhiparukiwa."
+        },
+        "endDate": {
+          "label": "Tukuyañ uru",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Atipiri samiq (Uwaci qullqi)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Participante samiq (Uwaci qullqi)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Video qillqawimpi (Jan utjaspasa)",
+          "noVideoSelected": "Video qillqawimpi yapt'añani.",
+          "picked": "Ajllita: {filename}",
+          "uploaded": "Apayata: Video wali apayatawa.",
+          "chooseVideoButton": "Video ajlliña",
+          "uploadVideoButton": "Video apayaña"
+        }
+      },
+      "buttons": {
+        "createContest": "Llalliñ uñstayaña"
+      },
+      "alerts": {
+        "error": {
+          "title": "Pantjawi",
+          "pickVideoMessage": "Video ajlliñ pantjawiwa.",
+          "uploadVideoMessage": "Video apayañ pantjawiwa.",
+          "createContestMessage": "Llalliñ uñstayañ pantjawiwa."
+        },
+        "success": {
+          "title": "Wali sumawa",
+          "videoUploadMessage": "¡Video wali apayatawa!",
+          "createContestMessage": "¡Llalliña wali uñstayatawa!"
+        },
+        "validation": {
+          "noTitle": "Suti munasiwa.",
+          "invalidDates": "Tukuyañ urumasti qalltañ uru qhiparukiwa."
+        },
+        "noSession": {
+          "title": "Llalliña uñstayañataki mantañamawa."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Utjawima",
+        "settingsButton": "Wakichañanakaru saraña"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Permiso munasiwa",
+          "message": "Foto uñjañataki permiso munapxtwa."
+        },
+        "errorAlert": {
+          "title": "Pantjawi",
+          "message": "Foto ajlliñ pantjawiwa"
+        },
+        "successAlert": {
+          "title": "Wali sumawa",
+          "message": "Utjawima foto wali machaqachatawa"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Churasiñani pantjawi",
+          "message": "Llamayasi enlace churasiñ janiwa"
+        },
+        "successShare": {
+          "title": "¡Nayampi Challenz ukaru mantañani!",
+          "message": "¡Kamisaki! Aka enlace apnuqama qillqantasiñataki: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Arkirinakas",
+        "viewFollowers": "Arkirinakas uñjaña"
+      },
+      "following": {
+        "label": "Arkaskin",
+        "viewFollowing": "Arkaskin uñjaña"
+      },
+      "posts": {
+        "label": "Apantawinaka",
+        "viewPosts": "Apantawinaka uñjaña",
+        "noVideos": "Janiwa video apayatakisa."
+      },
+      "info": {
+        "email": "Correo electrónico",
+        "phone": "Jawsaña",
+        "location": "Utjawi",
+        "coins": "Uwaci qullqi",
+        "bio": "Jakawima",
+        "noProfile": "Utjawima jikiskiti"
+      },
+      "buttons": {
+        "inviteFriends": "Masinaka jawsaña",
+        "deleteVideo": "Video chhaqayaña",
+        "deleteVideoAlert": {
+          "title": "Video chhaqayaña",
+          "message": "¿Aka video chhaqayañ munatati?"
+        },
+        "deleteSuccess": {
+          "title": "Wali sumawa",
+          "message": "Video wali chhaqayatawa."
+        },
+        "deleteError": {
+          "title": "Pantjawi",
+          "message": "Video chhaqayañ pantjawiwa."
+        }
+      },
+      "errors": {
+        "generalError": "Maya pantjawi utjiwa.",
+        "profileError": "Utjawima thaqhañ pantjawiwa.",
+        "submissionsError": "Apantawinaka thaqhañ pantjawiwa."
+      },
+      "loading": {
+        "profile": "Utjawima uskuski...",
+        "submissions": "Apantawinaka uskuski..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Utjawima askichaña",
+        "cancelButton": "Jan munañani",
+        "saveButton": "Mayjt'awinaka imaña",
+        "savingButton": "Imaski..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Nayra suti",
+          "placeholder": "Nayra sutima apantañani",
+          "error": {
+            "tooShort": "Nayra suti wali jisk'akiwa"
+          }
+        },
+        "lastName": {
+          "label": "Taykanakan suti",
+          "placeholder": "Taykanakan sutima apantañani",
+          "error": {
+            "tooShort": "Taykanakan suti wali jisk'akiwa"
+          }
+        },
+        "phoneNumber": {
+          "label": "Jawsaña número",
+          "placeholder": "Jawsaña numeroma apantañani",
+          "error": {
+            "invalid": "Chiqapa jawsaña número apantañani"
+          }
+        },
+        "bio": {
+          "label": "Jakawima",
+          "placeholder": "Jumjata yatiyapxistati",
+          "error": {
+            "tooLong": "Jakawima phisqa pataka qillqanikiñapawa"
+          }
+        },
+        "location": {
+          "label": "Utjawi",
+          "placeholder": "Utjawima apantañani",
+          "error": {
+            "tooLong": "Utjawima pataka qillqanikiñapawa"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Pantjawi",
+          "message": "Utjawima thaqhañ pantjawiwa"
+        },
+        "updateSuccess": {
+          "title": "Wali sumawa",
+          "message": "Utjawima wali machaqachatawa"
+        },
+        "updateError": {
+          "title": "Pantjawi",
+          "message": "Utjawima machaqachañ pantjawiwa"
+        }
+      },
+      "loading": {
+        "title": "Uskuski..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Uskuski...",
+      "noProfileFound": "Utjawi jikiskiti",
+      "authenticationRequired": "Uñt'ayasi munasiwa",
+      "pleaseLogIn": "Jaqinaka arkañataki mantañani",
+      "success": "Wali sumawa",
+      "unfollowSuccess": "Jan arkaski",
+      "followSuccess": "Jichhasti arkaski",
+      "error": "Pantjawi",
+      "followError": "Arkañ mayjt'ayañ pantjawiwa",
+      "posts": "Apantawinaka",
+      "followers": "Arkirinakas",
+      "following": "Arkaskin",
+      "follow": "Arkaña",
+      "unfollow": "Jan arkaña",
+      "chat": "Aruskipaña"
+    },
+    "menu": {
+      "menu": "Ajllina",
+      "settings": "Wakichañanaka",
+      "yourUwaciCoins": "Uwaci qullqima",
+      "notifications": "Yatiyanaka",
+      "marketplace": "Alakiña",
+      "signOut": "Mistuña",
+      "confirmSignOut": "Mistuñ jaysaña",
+      "areYouSureSignOut": "¿Mistuñ munatati?",
+      "cancel": "Jan munañani",
+      "goBack": "Kutiña"
+    },
+    "settings": {
+      "settings": "Wakichañanaka",
+      "fontSelected": "Qillqañ ajllita",
+      "asYourFont": "qillqañamawa",
+      "languageSelected": "Aru ajllita",
+      "asYourLanguage": "arumawa",
+      "themeSelected": "Sami ajllita",
+      "asYourTheme": "samimawa",
+      "notifications": "Yatiyanaka",
+      "marketplace": "Alakiña",
+      "account": "Cuenta",
+      "themes": "Saminaka",
+      "fonts": "Qillqañanaka",
+      "languages": "Arunaka",
+      "signOut": "Mistuña",
+      "confirmSignOut": "Mistuñ jaysaña",
+      "areYouSureSignOut": "¿Mistuñ munatati?",
+      "cancel": "Jan munañani",
+      "goBack": "Kutiña",
+      "selectFont": "Qillqañ ajlliña",
+      "selectLanguage": "Aru ajlliña",
+      "selectTheme": "Sami ajlliña",
+      "passwordSecurity": "Imt'aña aru ukhamaraki seguridad",
+      "personalDetails": "Jumankir yatiyawinaka",
+      "verification": "Chiqanchañanaka",
+      "paymentMethods": "Paguiri amtañanaka",
+      "adPreferences": "Yatiyañ ajlliña",
+      "upgradePremium": "Premium wakichañataki",
+      "content": "Contenido",
+      "language": "Aru",
+      "savedDraft": "Imata qillqata",
+      "yourActivity": "Lurawinakama",
+      "accessibility": "Puriñawi",
+      "privacy": "Sapachasi",
+      "comments": "Amuyt'awinaka",
+      "privateAccount": "Sapaki cuenta",
+      "directMessaging": "Chiqaki yatiyaña",
+      "blockedReports": "Jark'atanaka/Yatiyawinaka",
+      "termsPolicies": "Arunaka ukhamaraki kamachinakas",
+      "switchAccount": "Cuenta turkaña"
+    },
+    "accountDetails": {
+      "settingsTitle": "Cuenta wakichañanaka",
+      "profileSettings": "Utjawima askichaña ",
+      "resetPassword": "Imt'aña aru machaqachaña",
+      "deleteAccount": "Cuenta chhaqayaña",
+      "resetPasswordModal": {
+        "title": "Imt'aña aru machaqachaña",
+        "message": "Correo electrónicorumwa imt'aña aru machaqachañataki",
+        "sendEmail": "Correo electrónico apayaña",
+        "cancel": "Jan munañani"
+      },
+      "deleteAccountModal": {
+        "title": "Cuenta chhaqayaña",
+        "message": "¿Cuentama chhaqayañ munatati? Aka lurañasa janipiniwa kutikisa",
+        "delete": "Chhaqayaña",
+        "cancel": "Jan munañani"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Utjawima mayjt'ayata",
+          "message": "Utjawima wali machaqachatawa."
+        },
+        "profileUpdateError": {
+          "title": "Pantjawi",
+          "message": "Utjawima machaqachañ pantjawiwa. Mayampi yant'añani."
+        },
+        "passwordReset": {
+          "title": "Imt'aña aru machaqachaña",
+          "message": "Correo imt'aña aru machaqachañ apayatawa."
+        },
+        "passwordResetError": {
+          "title": "Pantjawi",
+          "message": "Correo imt'aña aru machaqachañ apayañ pantjawiwa. Mayampi yant'añani."
+        },
+        "accountDeleted": {
+          "title": "Cuenta chhaqayata",
+          "message": "Cuentama wali chhaqayatawa."
+        },
+        "accountDeleteError": {
+          "title": "Pantjawi",
+          "message": "Cuentama chhaqayañ pantjawiwa. Mayampi yant'añani."
+        }
+      }
+    }
+  }

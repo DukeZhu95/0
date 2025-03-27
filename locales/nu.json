@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Gɔa mäni kɛɛl yiow",
+      "thatInspire": "mäni kɛ yiëë ɣöö!",
+      "signUp": "Gät Ciaŋdu",
+      "signIn": "Bi Lät Thïn"
+    },
+    "signUp": {
+      "title": "Gät Ciaŋdu",
+      "headerMessage": "Cak akaundu mi kɔn ɛmɔ bi run gɔa",
+      "businessTitle": "Gät Ciaŋdu kɛ ciaŋ bizizni",
+      "headerMessageBusiness": "Cak akaundu bizizni kɔn ɛmɔ bi run gɔa",
+      "form": {
+        "username": {
+          "label": "Ciaŋ Min Ti Luäk",
+          "placeholder": "Lɔc ciaŋ mi ti luäk",
+          "validation": {
+            "minLength": "Ciaŋ mi ti luäk bikɛ diɔk akuɛnä käp",
+            "regex": "Ciaŋ mi ti luäk bikɛ akuɛnä, naambä, kɛ dhuɔk ciɛɛŋ la ti kɛ bikɛ yiöw"
+          }
+        },
+        "firstname": {
+          "label": "Ciaŋ min Gɔa Nhiam",
+          "placeholder": "Gɔ̱r ciaŋdu min gɔa nhiam",
+          "validation": "Ciaŋ min gɔa nhiam bikɛ diɔk akuɛnä käp"
+        },
+        "lastname": {
+          "label": "Ciaŋ Wä",
+          "placeholder": "Gɔ̱r ciaŋ wä",
+          "validation": "Ciaŋ wä bikɛ diɔk akuɛnä käp"
+        },
+        "businessName": {
+          "label": "Ciaŋ Bizizni",
+          "placeholder": "Gɔ̱r ciaŋ bizinizdu",
+          "validation": "Ciaŋ bizizni bikɛ diɔk akuɛnä käp"
+        },
+        "website": {
+          "label": "Webthaayt Bizizni",
+          "placeholder": "Gɔ̱r webthaaytdu",
+          "validation": "Ciaŋ bizizni bikɛ diɔk akuɛnä käp"
+        },
+        "businessType": {
+          "label": "Nɔɔŋ Bizizni",
+          "placeholder": "Nɔɔŋ Bizizni",
+          "validation": "Ciaŋ bizizni bikɛ diɔk akuɛnä käp"
+        },
+        "email": {
+          "label": "Ɣimeel",
+          "placeholder": "Gɔ̱r ɣimeeldu",
+          "validation": "Gɔ̱r ɣimeel min gɔa yiöw"
+        },
+        "phoneNumber": {
+          "label": "Naambä Tɛliwon",
+          "placeholder": "Gɔ̱r naambä tɛliwondu",
+          "validation": "Gɔ̱r naambä tɛliwon min gɔa yiöw"
+        },
+        "birthday": {
+          "title": "Cäŋ Mi Kɛ Guan",
+          "label": "Cäŋ Mi Kɛ Guan",
+          "placeholder": "NN-PP-KKKK",
+          "validation": {
+            "format": "Cäŋ mi kɛ guan bi kɛ ɣöö NN-PP-KKKK",
+            "validDate": "Cäŋ mi kä goa ŋuak",
+            "ageRestriction": "Bikɛ run 18 kɛnɛ mi tɛɛth ɛmɔ bi akaundu cak"
+          }
+        },
+        "password": {
+          "label": "Cet Mi Thiec",
+          "placeholder": "Gɔ̱r cet mi thiec",
+          "validation": {
+            "minLength": "Cet mi thiec bikɛ bët akuɛnä käp",
+            "maxLength": "Cet mi thiec bikɛ 64 akuɛnä kä tɔt kɛnɛ tɛɛth",
+            "uppercase": "Cet mi thiec bikɛ dït akuɛnä tɔk käp",
+            "lowercase": "Cet mi thiec bikɛ thii akuɛnä tɔk käp",
+            "numberOrSpecial": "Cet mi thiec bikɛ naambä tɔk kɛnɛ akuɛnä gɔali tɔk käp"
+          },
+          "strength": {
+            "weak": "Biöc",
+            "fair": "Mi Thieec",
+            "good": "Mi Goa",
+            "strong": "Mi Tɛɛk"
+          }
+        },
+        "confirmPassword": {
+          "label": "Ca Cet Mi Thiec Cɔak",
+          "placeholder": "Gɔ̱r cet mi thiec ɛɛ lɔŋ",
+          "validation": "Cet mi thiec kä thööŋ"
+        }
+      },
+      "buttons": {
+        "createAccount": "Cak Akaunt",
+        "alreadyHaveAccount": "Ka akaundu cak?",
+        "signIn": "Bi Lät Thïn",
+        "businessJoin": "Mat kɛ Challenz kɛɛl kɛ patnä biziznidu"
+      },
+      "alerts": {
+        "error": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ cäk akaundu. Bï ruac lɔŋ"
+        },
+        "passwordMismatch": {
+          "title": "Cet Mi Thiec Kä Thööŋ",
+          "message": "Cet mi thiec min käc cak. Bï ruac lɔŋ"
+        },
+        "agreementRequired": {
+          "title": "Goa Thɔŋ Puɔn",
+          "message": "Gät puänydu amäni ji kɛ thööŋ puɔn kɛnɛ thööŋ ciɛɛŋ ciɛŋ täth"
+        },
+        "success": {
+          "title": "Mi Goa",
+          "message": "Akaunt ci cak mi goa"
+        },
+        "signUpError": {
+          "title": "Jɔk Ti Gät Ciaŋdu",
+          "message": "Jɔk mi luel kɛnɛ cäk akaundu. Bï ruac lɔŋ"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Kɛnɛ gät ciaŋdu, ca yi jiɛɛk lɔn ca kuän",
+        "termsOfService": "Thööŋ Puɔn Luäk",
+        "privacyPolicy": "Thööŋ Ciɛɛŋ Ciɛŋ Täth",
+        "andAccepted": "kɛnɛ ca gät puänydu"
+      }
+    },
+    "signIn": {
+      "title": "Bi Lät Thïn",
+      "headerMessage": "Gɔ̱r thönydu kɛnɛ dhukdu amäni bi lät akaundu",
+      "form": {
+        "email": "Ɣimeel",
+        "emailPlaceholder": "Gɔ̱r ɣimeeldu",
+        "password": "Cet Mi Thiec",
+        "passwordPlaceholder": "Gɔ̱r cet mi thiec"
+      },
+      "buttons": {
+        "signIn": "Bi Lät Thïn",
+        "forgotPassword": "Ca cet mi thiec määr?",
+        "noAccount": "Kä kɛn akaundu?",
+        "signUp": " Gät Ciaŋdu"
+      },
+      "forgotPassword": {
+        "title": "Ca Cet Mi Thiec Määr",
+        "prompt": "Gɔ̱r ɣimeeldu kɔn tin",
+        "successTitle": "Diaal ɣimeeldu",
+        "successMessage": "Ci thuk tuöc tin gɔr kɛnɛ cet mi thiec lɔn lɔŋ kä ɣimeeldu",
+        "errorTitle": "Jɔk Dhuk Lɔn Lɔŋ"
+      },
+      "termsAndPrivacy": {
+        "message": "Kɛnɛ gät ciaŋdu, ca yi jiɛɛk lɔn ca kuän",
+        "termsOfService": "Thööŋ Puɔn Luäk",
+        "privacyPolicy": "Thööŋ Ciɛɛŋ Ciɛŋ Täth",
+        "andAccepted": "kɛnɛ ca gät puänydu"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Jɔk Lät Thïn"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Ca Cet Mi Thiec Määr",
+      "description": "Gɔ̱r ɣimeeldu kɔn tin kɛnɛ bi ŋuak tuöc kɛnɛ tin gɔr kɛnɛ cet mi thiec lɔn lɔŋ",
+      "form": {
+        "email": "Ɣimeel"
+      },
+      "buttons": {
+        "reset": "Dhuk Cet Mi Thiec Lɔn Lɔŋ",
+        "sending": "Tuöc duɛl...",
+        "remembered": "Ca cet mi thiec tak?",
+        "signIn": "Bi Lät Thïn"
+      },
+      "alerts": {
+        "enterEmail": "Gɔ̱r ɣimeeldu",
+        "checkEmail": "Diaal ɣimeeldu kɛnɛ tin dhuk lɔn lɔŋ",
+        "resetError": "Jɔk mi luel kɛnɛ dhuk lɔn lɔŋ cet mi thiec"
+      }
+    },
+    "resetPassword": {
+      "title": "Dhuk Cet Mi Thiec",
+      "description": "Gɔ̱r cet mi thiec kɔn tin kɛ bi cet mi thiec ti akaundu dhuk lɔn lɔŋ",
+      "form": {
+        "newPassword": "Gɔ̱r cet mi thiec mi kɔn",
+        "confirmPassword": "Cɔak cet mi thiec mi kɔn"
+      },
+      "alerts": {
+        "enterBothPasswords": "Gɔ̱r kuïth cetha mi thiec kɛrɔ",
+        "passwordMismatch": "Cet mi thiec kä thööŋ. Bï ruac lɔŋ",
+        "success": "Cet mi thiec ci dhuk lɔn lɔŋ mi goa",
+        "updateError": "Jɔk dhuk lɔn lɔŋ cet mi thiec. Bï ruac lɔŋ"
+      },
+      "buttons": {
+        "saving": "Tääu duɛl...",
+        "update": "Dhuk Cet Mi Thiec"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Raan naath lät thïn duɛl mi käc ŋuak kɛnɛ mi määr",
+        "sessionFailed": "Jɔk mi luel kɛnɛ tɛt",
+        "invalidPassword": "Gɔ̱r cet mi thiec mi goa mi kɛ akuɛnä bët",
+        "updateFailed": "Jɔk mi luel kɛnɛ dhuk cet mi thiecdu lɔn lɔŋ"
+      },
+      "success": {
+        "passwordUpdated": "Cet mi thiecdu ci dhuk. Bi lät thïn lɔŋ"
+      },
+      "title": "Dhuk Cet Mi Thiecdu Lɔn Lɔŋ",
+      "instructions": "Gɔ̱r cet mi thiec mi kɔn",
+      "labels": {
+        "newPassword": "Cet Mi Thiec Mi Kɔn"
+      },
+      "placeholders": {
+        "newPassword": "Gɔ̱r cet mi thiec mi kɔn"
+      },
+      "buttons": {
+        "updatePassword": "Dhuk Cet Mi Thiec"
+      }
+    },
+    "tabs": {
+      "home": "Ciɛŋ",
+      "search": "Yuɔ̱p",
+      "create": "Cak",
+      "contest": "Kuëny",
+      "menu": "Minu",
+      "settings": "Thëëth",
+      "profile": "Puɔlu",
+      "editProfile": "Juäk Puɔludu",
+      "otherUserProfile": "Puɔlu Raan Kɔ̱k",
+      "explore": "Gɔa yiow",
+      "challengeDetails": "Thök Kɛɛl Yiow",
+      "submissionDetails": "Thök Tuöc",
+      "contestDetails": "Thök Kuëny",
+      "followers": "Buööth ",
+      "following": "Buööth ",
+      "account": "Akaunt",
+      "notifications": "Lëk",
+      "leaderboard": "Bwoc Bää Nhiam",
+      "market": "Ɣɔɔc",
+      "rewards": "Kuaar",
+      "coin": "Juaakdu"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Cak",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Kïn ciɛŋ",
+        "search": "Kïn yuɔ̱p",
+        "create": "Kïn cak",
+        "explore": "Kïn gɔa yiow",
+        "profile": "Kïn puɔlu"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Yuɔ̱p tuöc, naath, kɛɛl yiow...",
+      "clearSearch": "Woc yuɔ̱p",
+      "loading": "Gɔa duɛl...",
+      "error": {
+        "title": "Jɔk Yuɔ̱p",
+        "message": "Jɔk mi luel kɛnɛ yuɔp"
+      },
+      "noPreviousSearches": "Kä kɛn yuɔ̱p cäk",
+      "previousSearches": "Yuɔ̱p Cäk",
+      "submissions": {
+        "title": "Tuöc",
+        "noResults": "Kä kɛn tuöc mi kɛ yök",
+        "videoError": {
+          "title": "Jɔk Bidio",
+          "message": "Jɔk mi luel kɛnɛ lät bidio"
+        }
+      },
+      "users": {
+        "title": "Naath",
+        "noResults": "Kä kɛn naath mi kɛ yök"
+      },
+      "challenges": {
+        "title": "Kɛɛl Yiow",
+        "noResults": "Kä kɛn kɛɛl yiow mi kɛ yök",
+        "videoError": {
+          "title": "Jɔk Bidio",
+          "message": "Jɔk mi luel kɛnɛ lät bidio kɛɛl yiow"
+        },
+        "category": "Dueeri: ",
+        "seasonalTag": "Yuäl",
+        "sponsoredTag": "Mi Muöc"
+      },
+      "repeatSearch": "Yuɔ̱p lɔŋ kɛnɛ",
+      "accessibility": {
+        "viewVideo": "Diaal bidio min cööl",
+        "viewProfile": "Diaal puɔlu",
+        "viewChallenge": "Diaal kɛɛl yiow min cööl"
+      }
+    },
+    "contest": {
+      "title": "Kuëny Diaal",
+      "createContestButton": "Cak Kuëny"
+    },
+    "contests": {
+      "noContests": "Kä kɛn kuëny mi kɛ yök",
+      "error": {
+        "title": "Jɔk",
+        "message": "Jɔk mi luel kɛnɛ gɔa kuëny"
+      },
+      "status": {
+        "notStarted": "Kä Mɔ Gɔa",
+        "ongoing": "Lät Duɛl",
+        "ended": "Ci Thök"
+      },
+      "dates": {
+        "start": "Gɔa: ",
+        "end": "Thök: ",
+        "notAvailable": "Kä Kɛ Gɔa"
+      },
+      "contestDetailsButton": "Diaal Thök Kuëny"
+    },
+    "newContest": {
+      "header": {
+        "title": "Cak Kuëny Mi Kɔn",
+        "backButton": "Dhuk"
+      },
+      "fields": {
+        "title": {
+          "label": "Ciaŋ",
+          "placeholder": "luel, Diɛny Jäl Tɛ Liɛɛc",
+          "validation": "Ciaŋ goa tääu"
+        },
+        "description": {
+          "label": "Thök Mi Lät",
+          "placeholder": "Kuëny ɛnɛ titi ŋö?"
+        },
+        "startDate": {
+          "label": "Cäŋ Mi Gɔa",
+          "placeholder": "NN-PP-KKKK",
+          "validation": "Cäŋ mi thök bi nhial gat kɛnɛ cäŋ mi gɔa"
+        },
+        "endDate": {
+          "label": "Cäŋ Mi Thök",
+          "placeholder": "NN-PP-KKKK"
+        },
+        "winnerReward": {
+          "label": "Kuaar Kuar (Juaak Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Kuaar Mat (Juaak Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Bidio Thöku (Kɛɛl Kuany)",
+          "noVideoSelected": "Mat bidio thöku",
+          "picked": "Ci Kuany: {filename}",
+          "uploaded": "Ci Lät: Bidio ci lät mi goa",
+          "chooseVideoButton": "Kuany Bidio",
+          "uploadVideoButton": "Lät Bidio"
+        }
+      },
+      "buttons": {
+        "createContest": "Cak Kuëny"
+      },
+      "alerts": {
+        "error": {
+          "title": "Jɔk",
+          "pickVideoMessage": "Jɔk mi luel kɛnɛ kuany bidio",
+          "uploadVideoMessage": "Jɔk mi luel kɛnɛ lät bidio",
+          "createContestMessage": "Jɔk mi luel kɛnɛ cak kuëny"
+        },
+        "success": {
+          "title": "Mi Goa",
+          "videoUploadMessage": "Bidio ci lät mi goa!",
+          "createContestMessage": "Kuëny ci cak mi goa!"
+        },
+        "validation": {
+          "noTitle": "Ciaŋ goa tääu",
+          "invalidDates": "Cäŋ mi thök bi nhial gat kɛnɛ cäŋ mi gɔa"
+        },
+        "noSession": {
+          "title": "Goa bi lät thïn amäni bi kuëny cak"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Puɔlu",
+        "settingsButton": "Wä kä Thëëth"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Goa thöŋ puɔn",
+          "message": "Goa duɛl wiic thöŋ puɔn amäni bi piny potodu"
+        },
+        "errorAlert": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ kuany poto"
+        },
+        "successAlert": {
+          "title": "Mi Goa",
+          "message": "Poto puɔlu ci dhuk mi goa"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Jɔk Ti Gam",
+          "message": "Jɔk mi luel kɛnɛ thuk ref tin gam"
+        },
+        "successShare": {
+          "title": "Mat ɣän Challenz!",
+          "message": "Malɛ! Mat tin ɛnɛ amäni bi ciaŋdu gät: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Buööth",
+        "viewFollowers": "Diaal Buööth"
+      },
+      "following": {
+        "label": "Buööth",
+        "viewFollowing": "Diaal Buööth"
+      },
+      "posts": {
+        "label": "Thuk",
+        "viewPosts": "Diaal Thuk",
+        "noVideos": "Kä kɛn bidio ci thuk"
+      },
+      "info": {
+        "email": "Ɣimeel",
+        "phone": "Tɛliwon",
+        "location": "Thin",
+        "coins": "Juaak Uwaci",
+        "bio": "Mɛt Ciɛɛŋ",
+        "noProfile": "Kä Kɛn Puɔlu Mi Kɛ Yök"
+      },
+      "buttons": {
+        "inviteFriends": "Gɔ̱ɔ̱r Määth",
+        "deleteVideo": "Luaany Bidio",
+        "deleteVideoAlert": {
+          "title": "Luaany Bidio",
+          "message": "Ca gat kɛn puɔnydu min wic luaany bidio ɛnɛ?"
+        },
+        "deleteSuccess": {
+          "title": "Mi Goa",
+          "message": "Bidio ci luaany mi goa"
+        },
+        "deleteError": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ luaany bidio"
+        }
+      },
+      "errors": {
+        "generalError": "Jɔk mi luel",
+        "profileError": "Jɔk mi luel kɛnɛ gɔa puɔlu",
+        "submissionsError": "Jɔk mi luel kɛnɛ gɔa tuöc"
+      },
+      "loading": {
+        "profile": "Gɔa puɔlu duɛl...",
+        "submissions": "Gɔa tuöc duɛl..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Juäk Puɔlu",
+        "cancelButton": "Duëër",
+        "saveButton": "Muk Waar",
+        "savingButton": "Muk duɛl..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Ciaŋ Min Gɔa Nhiam",
+          "placeholder": "Gɔ̱r ciaŋdu min gɔa nhiam",
+          "error": {
+            "tooShort": "Ciaŋ min gɔa nhiam thii kä dör"
+          }
+        },
+        "lastName": {
+          "label": "Ciaŋ Wä",
+          "placeholder": "Gɔ̱r ciaŋ wä",
+          "error": {
+            "tooShort": "Ciaŋ wä thii kä dör"
+          }
+        },
+        "phoneNumber": {
+          "label": "Naambä Tɛliwon",
+          "placeholder": "Gɔ̱r naambä tɛliwondu",
+          "error": {
+            "invalid": "Gɔ̱r naambä tɛliwon min goa yiöw"
+          }
+        },
+        "bio": {
+          "label": "Mɛt Ciɛɛŋ",
+          "placeholder": "Luel ɣɔk kɛnɛ yïn",
+          "error": {
+            "tooLong": "Mɛt ciɛɛŋ bi 500 akuɛnä kä tɔt kɛnɛ tɛɛth"
+          }
+        },
+        "location": {
+          "label": "Thin",
+          "placeholder": "Gɔ̱r thindu",
+          "error": {
+            "tooLong": "Thin bi 100 akuɛnä kä tɔt kɛnɛ tɛɛth"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ gɔa lëk puɔlu"
+        },
+        "updateSuccess": {
+          "title": "Mi Goa",
+          "message": "Puɔlu ci dhuk mi goa"
+        },
+        "updateError": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ dhuk puɔlu"
+        }
+      },
+      "loading": {
+        "title": "Gɔa duɛl..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Gɔa duɛl...",
+      "noProfileFound": "Kä Kɛn Puɔlu Mi Kɛ Yök",
+      "authenticationRequired": "Goa Lɛkdien",
+      "pleaseLogIn": "Bi lät thïn amäni bi naath buöth",
+      "success": "Mi Goa",
+      "unfollowSuccess": "Ca puɔndu juäk kɛnɛ buöth",
+      "followSuccess": "Yïn buöth tin",
+      "error": "Jɔk",
+      "followError": "Jɔk mi luel kɛnɛ dhuk jiɛɛk buöth",
+      "posts": "Thuk",
+      "followers": "Buööth",
+      "following": "Buööth",
+      "follow": "Buööth",
+      "unfollow": "Juäk Buööth",
+      "chat": "Jaak"
+    },
+    "menu": {
+      "menu": "Minu",
+      "settings": "Thëëth",
+      "yourUwaciCoins": "Juaak Uwacidu",
+      "notifications": "Lëk",
+      "marketplace": "Ɣɔɔc",
+      "signOut": "Bɛɛ",
+      "confirmSignOut": "Cɔak Bɛɛ",
+      "areYouSureSignOut": "Ca gat kɛn puɔnydu min wic bɛɛ?",
+      "cancel": "Duëër",
+      "goBack": "Dhuk"
+    },
+    "settings": {
+      "settings": "Thëëth",
+      "fontSelected": "Diöök Mi Ci Kuany",
+      "asYourFont": "ci tääu kɛɛl kɛ diöökdu",
+      "languageSelected": "Thok Mi Ci Kuany",
+      "asYourLanguage": "ci tääu kɛɛl kɛ thokdu",
+      "themeSelected": "Mɛt Mi Ci Kuany",
+      "asYourTheme": "ci tääu kɛɛl kɛ mɛtdu",
+      "notifications": "Lëk",
+      "marketplace": "Ɣɔɔc",
+      "account": "Akaunt",
+      "themes": "Mɛt",
+      "fonts": "Diööka",
+      "languages": "Thoka",
+      "signOut": "Bɛɛ",
+      "confirmSignOut": "Cɔak Bɛɛ",
+      "areYouSureSignOut": "Ca gat kɛn puɔnydu min wic bɛɛ?",
+      "cancel": "Duëër",
+      "goBack": "Dhuk",
+      "selectFont": "Kuany Diöök",
+      "selectLanguage": "Kuany Thok",
+      "selectTheme": "Kuany Mɛt",
+      "passwordSecurity": "Cet Mi Thiec kɛnɛ Woc",
+      "personalDetails": "Lëk Puɔlu",
+      "verification": "Cɔak",
+      "paymentMethods": "Tɛ Yiöw Thilɛ",
+      "adPreferences": "Kuäny poth tin raar",
+      "upgradePremium": "Dhuk nhial dueeri premium",
+      "content": "Lëk",
+      "language": "Thok",
+      "savedDraft": "Muök tiŋdien gɔa ti",
+      "yourActivity": "Lät Dudu",
+      "accessibility": "Lät",
+      "privacy": "Ciɛɛŋ Ciɛŋ Täth",
+      "comments": "Lëk",
+      "privateAccount": "Akaunt Ciɛɛŋ Täth",
+      "directMessaging": "Tuöc Thukä",
+      "blockedReports": "Thiec/Läar",
+      "termsPolicies": "Thööŋ kɛnɛ Thäka",
+      "switchAccount": "Waar Akaunt"
+    },
+    "accountDetails": {
+      "settingsTitle": "Thëëth Akaunt",
+      "profileSettings": "Juäk Puɔlu ",
+      "resetPassword": "Dhuk Cet Mi Thiec",
+      "deleteAccount": "Luaany Akaunt",
+      "resetPasswordModal": {
+        "title": "Dhuk Cet Mi Thiec",
+        "message": "Ɣimeel ti dhuk cet mi thiec bi tuöc",
+        "sendEmail": "Tuöc Ɣimeel",
+        "cancel": "Duëër"
+      },
+      "deleteAccountModal": {
+        "title": "Luaany Akaunt",
+        "message": "Ca gat kɛn puɔnydu min wic luaany akaundu? Lät ɛnɛ käc jɔk waar",
+        "delete": "Luaany",
+        "cancel": "Duëër"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Puɔlu Ci Dhuk",
+          "message": "Puɔludu ci dhuk mi goa"
+        },
+        "profileUpdateError": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ dhuk puɔludu. Bï ruac lɔŋ"
+        },
+        "passwordReset": {
+          "title": "Dhuk Cet Mi Thiec",
+          "message": "Ɣimeel ti dhuk cet mi thiec ci tuöc"
+        },
+        "passwordResetError": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ tuöc ɣimeel ti dhuk cet mi thiec. Bï ruac lɔŋ"
+        },
+        "accountDeleted": {
+          "title": "Akaunt Ci Luaany",
+          "message": "Akaundu ci luaany mi goa"
+        },
+        "accountDeleteError": {
+          "title": "Jɔk",
+          "message": "Jɔk mi luel kɛnɛ luaany akaundu. Bï ruac lɔŋ"
+        }
+      }
+    }
+  }

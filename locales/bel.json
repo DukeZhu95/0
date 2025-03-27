@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Даследуйце Выклікі",
+      "thatInspire": "якія Натхняюць!",
+      "signUp": "Зарэгістравацца",
+      "signIn": "Увайсці"
+    },
+    "signUp": {
+      "title": "Рэгістрацыя",
+      "headerMessage": "Стварыце новы ўліковы запіс, каб пачаць.",
+      "businessTitle": "Зарэгістравацца як Бізнес",
+      "headerMessageBusiness": "Стварыце бізнес-уліковы запіс, каб пачаць.",
+      "form": {
+        "username": {
+          "label": "Імя карыстальніка",
+          "placeholder": "Выберыце імя карыстальніка",
+          "validation": {
+            "minLength": "Імя карыстальніка павінна змяшчаць не менш за 3 сімвалы.",
+            "regex": "Імя карыстальніка можа ўтрымліваць толькі літары, лічбы і знакі падкрэслівання"
+          }
+        },
+        "firstname": {
+          "label": "Імя",
+          "placeholder": "Увядзіце сваё імя",
+          "validation": "Імя павінна змяшчаць не менш за 3 сімвалы."
+        },
+        "lastname": {
+          "label": "Прозвішча",
+          "placeholder": "Увядзіце сваё прозвішча",
+          "validation": "Прозвішча павінна змяшчаць не менш за 3 сімвалы."
+        },
+        "businessName": {
+          "label": "Назва Кампаніі",
+          "placeholder": "Увядзіце назву вашай кампаніі",
+          "validation": "Назва кампаніі павінна змяшчаць не менш за 3 сімвалы."
+        },
+        "website": {
+          "label": "Вэб-сайт Кампаніі",
+          "placeholder": "Увядзіце ваш вэб-сайт",
+          "validation": "Назва кампаніі павінна змяшчаць не менш за 3 сімвалы."
+        },
+        "businessType": {
+          "label": "Тып Бізнесу",
+          "placeholder": "Тып Бізнесу",
+          "validation": "Назва кампаніі павінна змяшчаць не менш за 3 сімвалы."
+        },
+        "email": {
+          "label": "Электронная пошта",
+          "placeholder": "Увядзіце ваш адрас электроннай пошты",
+          "validation": "Калі ласка, увядзіце сапраўдны адрас электроннай пошты."
+        },
+        "phoneNumber": {
+          "label": "Нумар тэлефона",
+          "placeholder": "Увядзіце ваш нумар тэлефона",
+          "validation": "Калі ласка, увядзіце сапраўдны нумар тэлефона."
+        },
+        "birthday": {
+          "title": "Дата нараджэння",
+          "label": "Дата нараджэння",
+          "placeholder": "ДД-ММ-ГГГГ",
+          "validation": {
+            "format": "Дата нараджэння павінна быць у фармаце ДД-ММ-ГГГГ",
+            "validDate": "Несапраўдная дата",
+            "ageRestriction": "Вам павінна быць 18 гадоў ці больш для стварэння ўліковага запісу"
+          }
+        },
+        "password": {
+          "label": "Пароль",
+          "placeholder": "Увядзіце ваш пароль",
+          "validation": {
+            "minLength": "Пароль павінен змяшчаць не менш за 8 сімвалаў.",
+            "maxLength": "Пароль павінен змяшчаць менш за 64 сімвалы.",
+            "uppercase": "Пароль павінен змяшчаць хаця б адну вялікую літару.",
+            "lowercase": "Пароль павінен змяшчаць хаця б адну малую літару.",
+            "numberOrSpecial": "Пароль павінен змяшчаць хаця б адну лічбу ці спецыяльны сімвал."
+          },
+          "strength": {
+            "weak": "Слабы",
+            "fair": "Задавальняючы",
+            "good": "Добры",
+            "strong": "Моцны"
+          }
+        },
+        "confirmPassword": {
+          "label": "Пацвердзіць Пароль",
+          "placeholder": "Увядзіце ваш пароль яшчэ раз",
+          "validation": "Паролі не супадаюць."
+        }
+      },
+      "buttons": {
+        "createAccount": "Стварыць Уліковы Запіс",
+        "alreadyHaveAccount": "Ужо маеце ўліковы запіс?",
+        "signIn": "Увайсці",
+        "businessJoin": "Далучыцца да Challenz як бізнес-партнёр"
+      },
+      "alerts": {
+        "error": {
+          "title": "Памылка",
+          "message": "Адбылася памылка пры стварэнні вашага ўліковага запісу. Калі ласка, паспрабуйце яшчэ раз."
+        },
+        "passwordMismatch": {
+          "title": "Паролі не супадаюць",
+          "message": "Няправільны пароль. Калі ласка, паспрабуйце яшчэ раз."
+        },
+        "agreementRequired": {
+          "title": "Патрабуецца згода",
+          "message": "Калі ласка, прыміце Умовы выкарыстання і Палітыку прыватнасці."
+        },
+        "success": {
+          "title": "Поспех",
+          "message": "Уліковы запіс паспяхова створаны."
+        },
+        "signUpError": {
+          "title": "Памылка рэгістрацыі",
+          "message": "Адбылася памылка пры стварэнні вашага ўліковага запісу. Калі ласка, паспрабуйце яшчэ раз."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Рэгіструючыся, вы пацвярджаеце, што прачыталі нашы",
+        "termsOfService": "Умовы выкарыстання",
+        "privacyPolicy": "Палітыку прыватнасці",
+        "andAccepted": "і прынялі нашы"
+      }
+    },
+    "signIn": {
+      "title": "Увайсці",
+      "headerMessage": "Увядзіце вашы ўліковыя дадзеныя для доступу да вашага ўліковага запісу.",
+      "form": {
+        "email": "Электронная пошта",
+        "emailPlaceholder": "Увядзіце вашу электронную пошту",
+        "password": "Пароль",
+        "passwordPlaceholder": "Увядзіце ваш пароль"
+      },
+      "buttons": {
+        "signIn": "Увайсці",
+        "forgotPassword": "Забылі пароль?",
+        "noAccount": "Няма ўліковага запісу?",
+        "signUp": " Зарэгістравацца"
+      },
+      "forgotPassword": {
+        "title": "Забылі пароль",
+        "prompt": "Калі ласка, спачатку ўвядзіце вашу электронную пошту вышэй.",
+        "successTitle": "Праверце вашу электронную пошту",
+        "successMessage": "Мы адправілі спасылку для скіду пароля на вашу электронную пошту.",
+        "errorTitle": "Памылка скіду"
+      },
+      "termsAndPrivacy": {
+        "message": "Рэгіструючыся, вы пацвярджаеце, што прачыталі нашы",
+        "termsOfService": "Умовы выкарыстання",
+        "privacyPolicy": "Палітыку прыватнасці",
+        "andAccepted": "і прынялі нашы"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Памылка ўваходу"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Забылі пароль",
+      "description": "Увядзіце ваш адрас электроннай пошты ніжэй, і мы адправім вам спасылку для скіду пароля.",
+      "form": {
+        "email": "Адрас электроннай пошты"
+      },
+      "buttons": {
+        "reset": "Скінуць пароль",
+        "sending": "Адпраўка...",
+        "remembered": "Успомнілі ваш пароль?",
+        "signIn": "Увайсці"
+      },
+      "alerts": {
+        "enterEmail": "Калі ласка, увядзіце ваш адрас электроннай пошты.",
+        "checkEmail": "Праверце вашу электронную пошту для спасылкі скіду.",
+        "resetError": "Не атрымалася скінуць пароль"
+      }
+    },
+    "resetPassword": {
+      "title": "Абнавіць пароль",
+      "description": "Увядзіце ваш новы пароль ніжэй, каб скінуць пароль вашага ўліковага запісу.",
+      "form": {
+        "newPassword": "Увядзіце новы пароль",
+        "confirmPassword": "Пацвердзіце новы пароль"
+      },
+      "alerts": {
+        "enterBothPasswords": "Калі ласка, запоўніце абодва палі пароля.",
+        "passwordMismatch": "Паролі не супадаюць. Калі ласка, паспрабуйце яшчэ раз.",
+        "success": "Ваш пароль паспяхова абноўлены.",
+        "updateError": "Памылка абнаўлення пароля. Калі ласка, паспрабуйце яшчэ раз."
+      },
+      "buttons": {
+        "saving": "Захаванне...",
+        "update": "Абнавіць пароль"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Несапраўдны або адсутны токен доступу.",
+        "sessionFailed": "Не атрымалася ўсталяваць сесію.",
+        "invalidPassword": "Калі ласка, увядзіце сапраўдны пароль даўжынёй не менш за 8 сімвалаў.",
+        "updateFailed": "Не атрымалася абнавіць ваш пароль."
+      },
+      "success": {
+        "passwordUpdated": "Ваш пароль абноўлены. Калі ласка, увайдзіце зноў."
+      },
+      "title": "Скінуць ваш пароль",
+      "instructions": "Увядзіце новы пароль.",
+      "labels": {
+        "newPassword": "Новы пароль"
+      },
+      "placeholders": {
+        "newPassword": "Увядзіце новы пароль"
+      },
+      "buttons": {
+        "updatePassword": "Абнавіць пароль"
+      }
+    },
+    "tabs": {
+      "home": "Галоўная",
+      "search": "Пошук",
+      "create": "Стварыць",
+      "contest": "Конкурсы",
+      "menu": "Меню",
+      "settings": "Налады",
+      "profile": "Профіль",
+      "editProfile": "Рэдагаваць ваш профіль",
+      "otherUserProfile": "Профіль карыстальніка",
+      "explore": "Даследаваць",
+      "challengeDetails": "Дэталі выкліку",
+      "submissionDetails": "Дэталі падачы",
+      "contestDetails": "Дэталі конкурсу",
+      "followers": "Падпісчыкі ",
+      "following": "Падпіскі ",
+      "account": "Уліковы запіс",
+      "notifications": "Апавяшчэнні",
+      "leaderboard": "Рэйтынг",
+      "market": "Маркет",
+      "rewards": "Узнагароды",
+      "coin": "Вашы манеты",
+      "savedChallenges": "Захаваныя выклікі"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Стварыць",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Іконка галоўнай",
+        "search": "Іконка пошуку",
+        "create": "Іконка стварэння",
+        "explore": "Іконка даследавання",
+        "profile": "Іконка профілю"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Шукаць падачы, карыстальнікаў, выклікі...",
+      "clearSearch": "Ачысціць пошукавы запыт",
+      "loading": "Загрузка...",
+      "error": {
+        "title": "Памылка пошуку",
+        "message": "Адбылася памылка пры пошуку."
+      },
+      "noPreviousSearches": "Няма папярэдніх пошукаў.",
+      "previousSearches": "Папярэднія пошукі",
+      "submissions": {
+        "title": "Падачы",
+        "noResults": "Падачы не знойдзены.",
+        "videoError": {
+          "title": "Памылка відэа",
+          "message": "Не атрымалася загрузіць відэа."
+        }
+      },
+      "users": {
+        "title": "Карыстальнікі",
+        "noResults": "Карыстальнікі не знойдзены."
+      },
+      "challenges": {
+        "title": "Выклікі",
+        "noResults": "Выклікі не знойдзены.",
+        "videoError": {
+          "title": "Памылка відэа",
+          "message": "Не атрымалася загрузіць відэа выкліку."
+        },
+        "category": "Катэгорыя: ",
+        "seasonalTag": "Сезонны",
+        "sponsoredTag": "Спансаваны"
+      },
+      "repeatSearch": "Паўтарыць пошук для",
+      "accessibility": {
+        "viewVideo": "Праглядзець відэа з назвай",
+        "viewProfile": "Праглядзець профіль",
+        "viewChallenge": "Праглядзець выклік з назвай"
+      }
+    },
+    "contest": {
+      "title": "Усе конкурсы",
+      "createContestButton": "Стварыць конкурс"
+    },
+    "contests": {
+      "noContests": "Конкурсы не знойдзены.",
+      "error": {
+        "title": "Памылка",
+        "message": "Не атрымалася атрымаць конкурсы."
+      },
+      "status": {
+        "notStarted": "Не пачаты",
+        "ongoing": "Працягваецца",
+        "ended": "Завершаны"
+      },
+      "dates": {
+        "start": "Пачатак: ",
+        "end": "Канец: ",
+        "notAvailable": "Н/Д"
+      },
+      "contestDetailsButton": "Праглядзець дэталі конкурсу"
+    },
+    "newContest": {
+      "header": {
+        "title": "Стварыць новы конкурс",
+        "backButton": "Назад"
+      },
+      "fields": {
+        "title": {
+          "label": "Назва",
+          "placeholder": "напрыклад, Летні танцавальны конкурс",
+          "validation": "Назва абавязковая."
+        },
+        "description": {
+          "label": "Апісанне",
+          "placeholder": "Пра што гэты конкурс?"
+        },
+        "startDate": {
+          "label": "Дата пачатку",
+          "placeholder": "ДД-ММ-ГГГГ",
+          "validation": "Дата заканчэння павінна быць пасля даты пачатку."
+        },
+        "endDate": {
+          "label": "Дата заканчэння",
+          "placeholder": "ДД-ММ-ГГГГ"
+        },
+        "winnerReward": {
+          "label": "Узнагарода пераможцу (Манеты Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Узнагарода ўдзельніку (Манеты Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Відэа-апісанне (Опцыйна)",
+          "noVideoSelected": "Дадаць відэа-апісанне.",
+          "picked": "Выбрана: {filename}",
+          "uploaded": "Загружана: Відэа паспяхова загружана.",
+          "chooseVideoButton": "Выбраць відэа",
+          "uploadVideoButton": "Загрузіць відэа"
+        }
+      },
+      "buttons": {
+        "createContest": "Стварыць конкурс"
+      },
+      "alerts": {
+        "error": {
+          "title": "Памылка",
+          "pickVideoMessage": "Не атрымалася выбраць відэа.",
+          "uploadVideoMessage": "Не атрымалася загрузіць відэа.",
+          "createContestMessage": "Не атрымалася стварыць конкурс."
+        },
+        "success": {
+          "title": "Поспех.",
+          "videoUploadMessage": "Відэа паспяхова загружана!",
+          "createContestMessage": "Конкурс паспяхова створаны!"
+        },
+        "validation": {
+          "noTitle": "Назва абавязковая.",
+          "invalidDates": "Дата заканчэння павінна быць пасля даты пачатку."
+        },
+        "noSession": {
+          "title": "Вы павінны ўвайсці, каб стварыць конкурс."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Профіль",
+        "settingsButton": "Перайсці да налад"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Патрабуецца дазвол",
+          "message": "Нам патрэбен дазвол для доступу да вашых фота."
+        },
+        "errorAlert": {
+          "title": "Памылка",
+          "message": "Не атрымалася выбраць выяву"
+        },
+        "successAlert": {
+          "title": "Поспех",
+          "message": "Выява профілю паспяхова абноўлена"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Памылка распаўсюджвання",
+          "message": "Немагчыма падзяліцца рэферальнай спасылкай."
+        },
+        "successShare": {
+          "title": "Далучайся да мяне на Challenz!",
+          "message": "Гэй! Выкарыстоўвай гэтую спасылку для рэгістрацыі: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Падпісчыкі",
+        "viewFollowers": "Праглядзець падпісчыкаў"
+      },
+      "following": {
+        "label": "Падпіскі",
+        "viewFollowing": "Праглядзець падпіскі"
+      },
+      "posts": {
+        "label": "Допісы",
+        "viewPosts": "Праглядзець допісы",
+        "noVideos": "Яшчэ няма апублікаваных відэа."
+      },
+      "info": {
+        "email": "Электронная пошта",
+        "phone": "Тэлефон",
+        "location": "Месцазнаходжанне",
+        "coins": "Манеты Uwaci",
+        "bio": "Біа",
+        "noProfile": "Профіль не знойдзены"
+      },
+      "buttons": {
+        "inviteFriends": "Запрасіць сяброў",
+        "deleteVideo": "Выдаліць відэа",
+        "deleteVideoAlert": {
+          "title": "Выдаліць відэа",
+          "message": "Вы ўпэўнены, што хочаце выдаліць гэта відэа?"
+        },
+        "deleteSuccess": {
+          "title": "Поспех",
+          "message": "Відэа паспяхова выдалена."
+        },
+        "deleteError": {
+          "title": "Памылка",
+          "message": "Не атрымалася выдаліць відэа."
+        }
+      },
+      "errors": {
+        "generalError": "Адбылася памылка.",
+        "profileError": "Не атрымалася атрымаць профіль.",
+        "submissionsError": "Не атрымалася атрымаць падачы."
+      },
+      "loading": {
+        "profile": "Загрузка профілю...",
+        "submissions": "Загрузка падач..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Рэдагаваць профіль",
+        "cancelButton": "Адмяніць",
+        "saveButton": "Захаваць змены",
+        "savingButton": "Захаванне..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Імя",
+          "placeholder": "Увядзіце ваша імя",
+          "error": {
+            "tooShort": "Імя занадта кароткае"
+          }
+        },
+        "lastName": {
+          "label": "Прозвішча",
+          "placeholder": "Увядзіце ваша прозвішча",
+          "error": {
+            "tooShort": "Прозвішча занадта кароткае"
+          }
+        },
+        "phoneNumber": {
+          "label": "Нумар тэлефона",
+          "placeholder": "Увядзіце ваш нумар тэлефона",
+          "error": {
+            "invalid": "Калі ласка, увядзіце сапраўдны нумар тэлефона"
+          }
+        },
+        "bio": {
+          "label": "Біа",
+          "placeholder": "Раскажыце пра сябе",
+          "error": {
+            "tooLong": "Біа павінна змяшчаць менш за 500 сімвалаў"
+          }
+        },
+        "location": {
+          "label": "Месцазнаходжанне",
+          "placeholder": "Увядзіце ваша месцазнаходжанне",
+          "error": {
+            "tooLong": "Месцазнаходжанне павінна змяшчаць менш за 100 сімвалаў"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Памылка",
+          "message": "Не атрымалася атрымаць дадзеныя профілю"
+        },
+        "updateSuccess": {
+          "title": "Поспех",
+          "message": "Профіль паспяхова абноўлены"
+        },
+        "updateError": {
+          "title": "Памылка",
+          "message": "Не атрымалася абнавіць профіль"
+        }
+      },
+      "loading": {
+        "title": "Загрузка..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Загрузка...",
+      "noProfileFound": "Профіль не знойдзены",
+      "authenticationRequired": "Патрабуецца аўтэнтыфікацыя",
+      "pleaseLogIn": "Калі ласка, увайдзіце, каб падпісвацца на карыстальнікаў.",
+      "success": "Поспех",
+      "unfollowSuccess": "Вы адпісаліся ад",
+      "followSuccess": "Цяпер вы падпісаны на",
+      "error": "Памылка",
+      "followError": "Не атрымалася абнавіць статус падпіскі.",
+      "posts": "Допісы",
+      "followers": "Падпісчыкі",
+      "following": "Падпіскі",
+      "follow": "Падпісацца",
+      "unfollow": "Адпісацца",
+      "chat": "Чат"
+    },
+    "menu": {
+      "menu": "Меню",
+      "settings": "Налады",
+      "yourUwaciCoins": "Вашы манеты Uwaci",
+      "notifications": "Апавяшчэнні",
+      "marketplace": "Маркетплэйс",
+      "signOut": "Выйсці",
+      "confirmSignOut": "Пацвердзіць выхад",
+      "areYouSureSignOut": "Вы ўпэўнены, што хочаце выйсці?",
+      "cancel": "Адмяніць",
+      "goBack": "Вярнуцца",
+      "joinNow": "Далучыцца зараз",
+      "joinLater": "Далучыцца пазней",
+      "savedChallenges": "Выклікі для ўдзелу"
+    },
+    "settings": {
+      "settings": "Налады",
+      "fontSelected": "Шрыфт выбраны",
+      "asYourFont": "усталяваны як ваш шрыфт.",
+      "languageSelected": "Мова выбрана",
+      "asYourLanguage": "усталявана як ваша мова.",
+      "themeSelected": "Тэма выбрана",
+      "asYourTheme": "усталявана як ваша тэма.",
+      "notifications": "Апавяшчэнні",
+      "marketplace": "Маркетплэйс",
+      "account": "Уліковы запіс",
+      "themes": "Тэмы",
+      "fonts": "Шрыфты",
+      "languages": "Мовы",
+      "signOut": "Выйсці",
+      "confirmSignOut": "Пацвердзіць выхад",
+      "areYouSureSignOut": "Вы ўпэўнены, што хочаце выйсці?",
+      "cancel": "Адмяніць",
+      "goBack": "Вярнуцца",
+      "selectFont": "Выбраць шрыфт",
+      "selectLanguage": "Выбраць мову",
+      "selectTheme": "Выбраць тэму",
+      "passwordSecurity": "Пароль і бяспека",
+      "personalDetails": "Асабістыя дадзеныя",
+      "verification": "Верыфікацыя",
+      "paymentMethods": "Спосабы аплаты",
+      "adPreferences": "Налады рэкламы",
+      "upgradePremium": "Абнавіць да прэміум",
+      "content": "Змест",
+      "language": "Мова",
+      "savedDraft": "Захаваны чарнавік",
+      "yourActivity": "Ваша актыўнасць",
+      "accessibility": "Даступнасць",
+      "privacy": "Прыватнасць",
+      "comments": "Каментары",
+      "privateAccount": "Прыватны ўліковы запіс",
+      "directMessaging": "Прамыя паведамленні",
+      "blockedReports": "Заблакаваныя/Справаздачы",
+      "termsPolicies": "Умовы і Палітыкі",
+      "switchAccount": "Пераключыць уліковы запіс"
+    },
+    "accountDetails": {
+      "settingsTitle": "Налады ўліковага запісу",
+      "profileSettings": "Рэдагаваць профіль ",
+      "resetPassword": "Скінуць пароль",
+      "deleteAccount": "Выдаліць уліковы запіс",
+      "resetPasswordModal": {
+        "title": "Скінуць пароль",
+        "message": "Ліст для скіду пароля будзе адпраўлены на",
+        "sendEmail": "Адправіць ліст",
+        "cancel": "Адмяніць"
+      },
+      "deleteAccountModal": {
+        "title": "Выдаліць уліковы запіс",
+        "message": "Вы ўпэўненыя, што хочаце выдаліць свой уліковы запіс? Гэта дзеянне нельга адмяніць.",
+        "delete": "Выдаліць",
+        "cancel": "Адмяніць"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Профіль абноўлены",
+          "message": "Ваш профіль паспяхова абноўлены."
+        },
+        "profileUpdateError": {
+          "title": "Памылка",
+          "message": "Не атрымалася абнавіць ваш профіль. Калі ласка, паспрабуйце яшчэ раз."
+        },
+        "passwordReset": {
+          "title": "Скід пароля",
+          "message": "Ліст для скіду пароля адпраўлены."
+        },
+        "passwordResetError": {
+          "title": "Памылка",
+          "message": "Не атрымалася адправіць ліст для скіду пароля. Калі ласка, паспрабуйце яшчэ раз."
+        },
+        "accountDeleted": {
+          "title": "Уліковы запіс выдалены",
+          "message": "Ваш уліковы запіс паспяхова выдалены."
+        },
+        "accountDeleteError": {
+          "title": "Памылка",
+          "message": "Не атрымалася выдаліць ваш уліковы запіс. Калі ласка, паспрабуйце яшчэ раз."
+        }
+      }
+    }
+  }

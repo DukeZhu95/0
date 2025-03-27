@@ -1,0 +1,632 @@
+// to Isan (Lao dialect)
+
+{
+    "welcomeScreen": {
+      "exploreChallenges": "สำหวะความท้าทาย",
+      "thatInspire": "ที่สิสร้างแฮงบันดาลใจ!",
+      "signUp": "ลงทะเบียน",
+      "signIn": "เข้าสู่ระบบ"
+    },
+    "signUp": {
+      "title": "ลงทะเบียน",
+      "headerMessage": "สร้างบัญชีใหม่เพื่อเริ่มต้น",
+      "businessTitle": "ลงทะเบียนเป็นธุรกิจ",
+      "headerMessageBusiness": "สร้างบัญชีธุรกิจเพื่อเริ่มต้น",
+      "form": {
+        "username": {
+          "label": "ชื่อผู้ใช้",
+          "placeholder": "เลือกชื่อผู้ใช้",
+          "validation": {
+            "minLength": "ชื่อผู้ใช้ต้องมีอย่างน้อย 3 ตัวอักษร",
+            "regex": "ชื่อผู้ใช้ต้องปะกอบด้วยตัวอักษร ตัวเลข และขีดล่างเท่านั้น"
+          }
+        },
+        "firstname": {
+          "label": "ชื่อจริง",
+          "placeholder": "ใส่ชื่อจริงของเจ้า",
+          "validation": "ชื่อจริงต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "lastname": {
+          "label": "นามสกุล",
+          "placeholder": "ใส่นามสกุลของเจ้า",
+          "validation": "นามสกุลต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "businessName": {
+          "label": "ชื่อธุรกิจ",
+          "placeholder": "ใส่ชื่อธุรกิจของเจ้า",
+          "validation": "ชื่อธุรกิจต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "website": {
+          "label": "เว็บไซต์ธุรกิจ",
+          "placeholder": "ใส่เว็บไซต์ของเจ้า",
+          "validation": "ชื่อธุรกิจต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "businessType": {
+          "label": "ปะเภทธุรกิจ",
+          "placeholder": "ปะเภทธุรกิจ",
+          "validation": "ชื่อธุรกิจต้องมีอย่างน้อย 3 ตัวอักษร"
+        },
+        "email": {
+          "label": "อีเมล",
+          "placeholder": "ใส่ที่อยู่อีเมลของเจ้า",
+          "validation": "กรุณาใส่ที่อยู่อีเมลที่ถืกต้อง"
+        },
+        "phoneNumber": {
+          "label": "เบอร์โทรศัพท์",
+          "placeholder": "ใส่เบอร์โทรศัพท์ของเจ้า",
+          "validation": "กรุณาใส่เบอร์โทรศัพท์ที่ถืกต้อง"
+        },
+        "birthday": {
+          "title": "วันเกิด",
+          "label": "วันเกิด",
+          "placeholder": "วว-ดด-ปปปป",
+          "validation": {
+            "format": "วันเกิดต้องอยู่ในฮูปแบบ วว-ดด-ปปปป",
+            "validDate": "วันที่บ่ถืกต้อง",
+            "ageRestriction": "เจ้าต้องมีอายุ 18 ปีขึ้นไปเพื่อสร้างบัญชี"
+          }
+        },
+        "password": {
+          "label": "รหัสผ่าน",
+          "placeholder": "ใส่รหัสผ่านของเจ้า",
+          "validation": {
+            "minLength": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+            "maxLength": "รหัสผ่านต้องมีบ่เกิน 64 ตัวอักษร",
+            "uppercase": "รหัสผ่านต้องมีตัวอักษรพิมพ์ใหญ่อย่างน้อย 1 ตัว",
+            "lowercase": "รหัสผ่านต้องมีตัวอักษรพิมพ์เล็กอย่างน้อย 1 ตัว",
+            "numberOrSpecial": "รหัสผ่านต้องมีตัวเลขหรืออักขระพิเศษอย่างน้อย 1 ตัว"
+          },
+          "strength": {
+            "weak": "อ่อน",
+            "fair": "พอใช้",
+            "good": "ดี",
+            "strong": "แข็งแฮง"
+          }
+        },
+        "confirmPassword": {
+          "label": "ยืนยันรหัสผ่าน",
+          "placeholder": "ใส่รหัสผ่านของเจ้าอีกเทื่อ",
+          "validation": "รหัสผ่านบ่ตรงกัน"
+        }
+      },
+      "buttons": {
+        "createAccount": "สร้างบัญชี",
+        "alreadyHaveAccount": "มีบัญชีอยู่แล้วบ่?",
+        "signIn": "เข้าสู่ระบบ",
+        "businessJoin": "เข้าฮ่วม Challenz ในฐานะพันธมิตรทางธุรกิจ"
+      },
+      "alerts": {
+        "error": {
+          "title": "ข้อผิดพลาด",
+          "message": "เกิดข้อผิดพลาดขณะสร้างบัญชีของเจ้า กรุณาลองอีกเทื่อ"
+        },
+        "passwordMismatch": {
+          "title": "รหัสผ่านบ่ตรงกัน",
+          "message": "รหัสผ่านบ่ถืกต้อง กรุณาลองอีกเทื่อ"
+        },
+        "agreementRequired": {
+          "title": "ต้องยอมฮับข้อตกลง",
+          "message": "กรุณายอมฮับเงื่อนไขการใช้บริการและนโยบายความเป็นส่วนตัว"
+        },
+        "success": {
+          "title": "สำเร็จ",
+          "message": "สร้างบัญชีสำเร็จแล้ว"
+        },
+        "signUpError": {
+          "title": "ข้อผิดพลาดในการลงทะเบียน",
+          "message": "เกิดข้อผิดพลาดขณะสร้างบัญชีของเจ้า กรุณาลองอีกเทื่อ"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "โดยการลงทะเบียน เจ้ายอมฮับว่าได้อ่าน",
+        "termsOfService": "เงื่อนไขการใช้บริการ",
+        "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+        "andAccepted": "และยอมฮับ"
+      }
+    },
+    "signIn": {
+      "title": "เข้าสู่ระบบ",
+      "headerMessage": "ใส่ข้อมูลปะจำตัวของเจ้าเพื่อเข้าถึงบัญชีของเจ้า",
+      "form": {
+        "email": "อีเมล",
+        "emailPlaceholder": "ใส่อีเมลของเจ้า",
+        "password": "รหัสผ่าน",
+        "passwordPlaceholder": "ใส่รหัสผ่านของเจ้า"
+      },
+      "buttons": {
+        "signIn": "เข้าสู่ระบบ",
+        "forgotPassword": "ลืมรหัสผ่านบ่?",
+        "noAccount": "บ่มีบัญชีเทื่อบ่?",
+        "signUp": " ลงทะเบียน"
+      },
+      "forgotPassword": {
+        "title": "ลืมรหัสผ่าน",
+        "prompt": "กรุณาใส่อีเมลของเจ้าด้านเทิงก่อน",
+        "successTitle": "เบิ่งอีเมลของเจ้า",
+        "successMessage": "เฮาได้ส่งลิงก์รีเซ็ตรหัสผ่านไปยังอีเมลของเจ้าแล้ว",
+        "errorTitle": "ข้อผิดพลาดในการรีเซ็ต"
+      },
+      "termsAndPrivacy": {
+        "message": "โดยการลงทะเบียน เจ้ายอมฮับว่าได้อ่าน",
+        "termsOfService": "เงื่อนไขการใช้บริการ",
+        "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+        "andAccepted": "และยอมฮับ"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "ข้อผิดพลาดในการเข้าสู่ระบบ"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "ลืมรหัสผ่าน",
+      "description": "ใส่ที่อยู่อีเมลของเจ้าด้านล่างแล้วเฮาสิส่งลิงก์เพื่อรีเซ็ตรหัสผ่านของเจ้า",
+      "form": {
+        "email": "ที่อยู่อีเมล"
+      },
+      "buttons": {
+        "reset": "รีเซ็ตรหัสผ่าน",
+        "sending": "กำลังส่ง...",
+        "remembered": "จำรหัสผ่านของเจ้าได้แล้วบ่?",
+        "signIn": "เข้าสู่ระบบ"
+      },
+      "alerts": {
+        "enterEmail": "กรุณาใส่ที่อยู่อีเมลของเจ้า",
+        "checkEmail": "เบิ่งอีเมลของเจ้าสำหรับลิงก์รีเซ็ต",
+        "resetError": "ล้มเหลวในการรีเซ็ตรหัสผ่าน"
+      }
+    },
+    "resetPassword": {
+      "title": "อัปเดตรหัสผ่าน",
+      "description": "ใส่รหัสผ่านใหม่ของเจ้าด้านล่างเพื่อรีเซ็ตรหัสผ่านบัญชีของเจ้า",
+      "form": {
+        "newPassword": "ใส่รหัสผ่านใหม่",
+        "confirmPassword": "ยืนยันรหัสผ่านใหม่"
+      },
+      "alerts": {
+        "enterBothPasswords": "กรุณาใส่ช่องรหัสผ่านทั้งสองช่อง",
+        "passwordMismatch": "รหัสผ่านบ่ตรงกัน กรุณาลองอีกเทื่อ",
+        "success": "อัปเดตรหัสผ่านของเจ้าเรียบร้อยแล้ว",
+        "updateError": "เกิดข้อผิดพลาดในการอัปเดตรหัสผ่าน กรุณาลองอีกเทื่อ"
+      },
+      "buttons": {
+        "saving": "กำลังบันทึก...",
+        "update": "อัปเดตรหัสผ่าน"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "โทเค็นการเข้าถึงบ่ถืกต้องหรือหายไป",
+        "sessionFailed": "ล้มเหลวในการตั้งค่าเซสชัน",
+        "invalidPassword": "กรุณาใส่รหัสผ่านที่ถืกต้องซึ่งมีอย่างน้อย 8 ตัวอักษร",
+        "updateFailed": "ล้มเหลวในการอัปเดตรหัสผ่านของเจ้า"
+      },
+      "success": {
+        "passwordUpdated": "รหัสผ่านของเจ้าได้ฮับการอัปเดตแล้ว กรุณาเข้าสู่ระบบอีกเทื่อ"
+      },
+      "title": "รีเซ็ตรหัสผ่านของเจ้า",
+      "instructions": "ใส่รหัสผ่านใหม่",
+      "labels": {
+        "newPassword": "รหัสผ่านใหม่"
+      },
+      "placeholders": {
+        "newPassword": "ใส่รหัสผ่านใหม่"
+      },
+      "buttons": {
+        "updatePassword": "อัปเดตรหัสผ่าน"
+      }
+    },
+    "tabs": {
+      "home": "หน้าหลัก",
+      "search": "ค้นหา",
+      "create": "สร้าง",
+      "contest": "การแข่งขัน",
+      "menu": "เมนู",
+      "settings": "การตั้งค่า",
+      "profile": "โปรไฟล์",
+      "editProfile": "แก้ไขโปรไฟล์ของเจ้า",
+      "otherUserProfile": "โปรไฟล์ผู้ใช้",
+      "explore": "สำหวะ",
+      "challengeDetails": "รายละเอียดความท้าทาย",
+      "submissionDetails": "รายละเอียดการส่งผลงาน",
+      "contestDetails": "รายละเอียดการแข่งขัน",
+      "followers": "ผู้ติดตาม ",
+      "following": "กำลังติดตาม ",
+      "account": "บัญชี",
+      "notifications": "การแจ้งเตือน",
+      "leaderboard": "กระดานผู้นำ",
+      "market": "ตลาด",
+      "rewards": "รางวัล",
+      "coin": "เหรียญของเจ้า"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "สร้าง",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "ไอคอนหน้าหลัก",
+        "search": "ไอคอนค้นหา",
+        "create": "ไอคอนสร้าง",
+        "explore": "ไอคอนสำหวะ",
+        "profile": "ไอคอนโปรไฟล์"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "ค้นหาการส่งผลงาน ผู้ใช้ ความท้าทาย...",
+      "clearSearch": "ล้างข้อมูลการค้นหา",
+      "loading": "กำลังโหลด...",
+      "error": {
+        "title": "ข้อผิดพลาดในการค้นหา",
+        "message": "เกิดข้อผิดพลาดขณะค้นหา"
+      },
+      "noPreviousSearches": "บ่มีการค้นหาก่อนหน้านี้",
+      "previousSearches": "การค้นหาก่อนหน้านี้",
+      "submissions": {
+        "title": "การส่งผลงาน",
+        "noResults": "บ่พบการส่งผลงาน",
+        "videoError": {
+          "title": "ข้อผิดพลาดวิดีโอ",
+          "message": "บ่สามารถโหลดวิดีโอได้"
+        }
+      },
+      "users": {
+        "title": "ผู้ใช้",
+        "noResults": "บ่พบผู้ใช้"
+      },
+      "challenges": {
+        "title": "ความท้าทาย",
+        "noResults": "บ่พบความท้าทาย",
+        "videoError": {
+          "title": "ข้อผิดพลาดวิดีโอ",
+          "message": "บ่สามารถโหลดวิดีโอความท้าทายได้"
+        },
+        "category": "หมวดหมู่: ",
+        "seasonalTag": "ตามฤดูกาล",
+        "sponsoredTag": "สนับสนุน"
+      },
+      "repeatSearch": "ค้นหาซ้ำสำหรับ",
+      "accessibility": {
+        "viewVideo": "เบิ่งวิดีโอชื่อ",
+        "viewProfile": "เบิ่งโปรไฟล์ของ",
+        "viewChallenge": "เบิ่งความท้าทายชื่อ"
+      }
+    },
+    "contest": {
+      "title": "การแข่งขันทั้งหมด",
+      "createContestButton": "สร้างการแข่งขัน"
+    },
+    "contests": {
+      "noContests": "บ่พบการแข่งขัน",
+      "error": {
+        "title": "ข้อผิดพลาด",
+        "message": "บ่สามารถดึงข้อมูลการแข่งขันได้"
+      },
+      "status": {
+        "notStarted": "ยังบ่เริ่ม",
+        "ongoing": "กำลังดำเนินการ",
+        "ended": "สิ้นสุดแล้ว"
+      },
+      "dates": {
+        "start": "เริ่ม: ",
+        "end": "สิ้นสุด: ",
+        "notAvailable": "บ่มี"
+      },
+      "contestDetailsButton": "เบิ่งรายละเอียดการแข่งขัน"
+    },
+    "newContest": {
+      "header": {
+        "title": "สร้างการแข่งขันใหม่",
+        "backButton": "กลับ"
+      },
+      "fields": {
+        "title": {
+          "label": "ชื่อเรื่อง",
+          "placeholder": "เช่น การแข่งขันเต้นฤดูฮ้อน",
+          "validation": "ต้องระบุชื่อเรื่อง"
+        },
+        "description": {
+          "label": "คำอธิบาย",
+          "placeholder": "การแข่งขันนี้เกี่ยวกับอะไร?"
+        },
+        "startDate": {
+          "label": "วันที่เริ่มต้น",
+          "placeholder": "วว-ดด-ปปปป",
+          "validation": "วันที่สิ้นสุดต้องมาหลังวันที่เริ่มต้น"
+        },
+        "endDate": {
+          "label": "วันที่สิ้นสุด",
+          "placeholder": "วว-ดด-ปปปป"
+        },
+        "winnerReward": {
+          "label": "รางวัลผู้ชนะ (Uwaci Coins)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "รางวัลผู้เข้าฮ่วม (Uwaci Coins)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "คำอธิบายวิดีโอ (บ่บังคับ)",
+          "noVideoSelected": "เพิ่มคำอธิบายวิดีโอ",
+          "picked": "เลือกแล้ว: {filename}",
+          "uploaded": "อัปโหลดแล้ว: อัปโหลดวิดีโอสำเร็จแล้ว",
+          "chooseVideoButton": "เลือกวิดีโอ",
+          "uploadVideoButton": "อัปโหลดวิดีโอ"
+        }
+      },
+      "buttons": {
+        "createContest": "สร้างการแข่งขัน"
+      },
+      "alerts": {
+        "error": {
+          "title": "ข้อผิดพลาด",
+          "pickVideoMessage": "บ่สามารถเลือกวิดีโอได้",
+          "uploadVideoMessage": "บ่สามารถอัปโหลดวิดีโอได้",
+          "createContestMessage": "บ่สามารถสร้างการแข่งขันได้"
+        },
+        "success": {
+          "title": "สำเร็จ",
+          "videoUploadMessage": "อัปโหลดวิดีโอสำเร็จแล้ว!",
+          "createContestMessage": "สร้างการแข่งขันสำเร็จแล้ว!"
+        },
+        "validation": {
+          "noTitle": "ต้องระบุชื่อเรื่อง",
+          "invalidDates": "วันที่สิ้นสุดต้องมาหลังวันที่เริ่มต้น"
+        },
+        "noSession": {
+          "title": "เจ้าต้องเข้าสู่ระบบเพื่อสร้างการแข่งขัน"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "โปรไฟล์",
+        "settingsButton": "ไปที่การตั้งค่า"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "ต้องการการอนุญาต",
+          "message": "เฮาต้องการการอนุญาตเพื่อเข้าถึงฮูปของเจ้า"
+        },
+        "errorAlert": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถเลือกฮูปได้"
+        },
+        "successAlert": {
+          "title": "สำเร็จ",
+          "message": "อัปเดตฮูปโปรไฟล์สำเร็จแล้ว"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "ข้อผิดพลาดในการแชร์",
+          "message": "บ่สามารถแชร์ลิงก์แนะนำได้"
+        },
+        "successShare": {
+          "title": "มาฮ่วม Challenz กับข้อย!",
+          "message": "เฮ้! ใช้ลิงก์นี้เพื่อลงทะเบียน: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "ผู้ติดตาม",
+        "viewFollowers": "เบิ่งผู้ติดตาม"
+      },
+      "following": {
+        "label": "กำลังติดตาม",
+        "viewFollowing": "เบิ่งกำลังติดตาม"
+      },
+      "posts": {
+        "label": "โพสต์",
+        "viewPosts": "เบิ่งโพสต์",
+        "noVideos": "ยังบ่มีวิดีโอที่โพสต์"
+      },
+      "info": {
+        "email": "อีเมล",
+        "phone": "โทรศัพท์",
+        "location": "ตำแหน่งที่ตั้ง",
+        "coins": "Uwaci Coins",
+        "bio": "ปะวัติย่อ",
+        "noProfile": "บ่พบโปรไฟล์"
+      },
+      "buttons": {
+        "inviteFriends": "เชิญหมู่",
+        "deleteVideo": "ลบวิดีโอ",
+        "deleteVideoAlert": {
+          "title": "ลบวิดีโอ",
+          "message": "เจ้าแน่ใจบ่ว่าต้องการลบวิดีโอนี้?"
+        },
+        "deleteSuccess": {
+          "title": "สำเร็จ",
+          "message": "ลบวิดีโอสำเร็จแล้ว"
+        },
+        "deleteError": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถลบวิดีโอได้"
+        }
+      },
+      "errors": {
+        "generalError": "เกิดข้อผิดพลาด",
+        "profileError": "บ่สามารถดึงข้อมูลโปรไฟล์ได้",
+        "submissionsError": "บ่สามารถดึงข้อมูลการส่งผลงานได้"
+      },
+      "loading": {
+        "profile": "กำลังโหลดโปรไฟล์...",
+        "submissions": "กำลังโหลดการส่งผลงาน..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "แก้ไขโปรไฟล์",
+        "cancelButton": "ยกเลิก",
+        "saveButton": "บันทึกการเปลี่ยนแปลง",
+        "savingButton": "กำลังบันทึก..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "ชื่อจริง",
+          "placeholder": "ใส่ชื่อจริงของเจ้า",
+          "error": {
+            "tooShort": "ชื่อจริงสั้นเกินไป"
+          }
+        },
+        "lastName": {
+          "label": "นามสกุล",
+          "placeholder": "ใส่นามสกุลของเจ้า",
+          "error": {
+            "tooShort": "นามสกุลสั้นเกินไป"
+          }
+        },
+        "phoneNumber": {
+          "label": "เบอร์โทรศัพท์",
+          "placeholder": "ใส่เบอร์โทรศัพท์ของเจ้า",
+          "error": {
+            "invalid": "กรุณาใส่เบอร์โทรศัพท์ที่ถืกต้อง"
+          }
+        },
+        "bio": {
+          "label": "ปะวัติย่อ",
+          "placeholder": "เล่าเกี่ยวกับตัวเจ้า",
+          "error": {
+            "tooLong": "ปะวัติย่อต้องมีความยาวน้อยกว่า 500 ตัวอักษร"
+          }
+        },
+        "location": {
+          "label": "ตำแหน่งที่ตั้ง",
+          "placeholder": "ใส่ตำแหน่งที่ตั้งของเจ้า",
+          "error": {
+            "tooLong": "ตำแหน่งที่ตั้งต้องมีความยาวน้อยกว่า 100 ตัวอักษร"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถดึงข้อมูลโปรไฟล์ได้"
+        },
+        "updateSuccess": {
+          "title": "สำเร็จ",
+          "message": "อัปเดตโปรไฟล์สำเร็จแล้ว"
+        },
+        "updateError": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถอัปเดตโปรไฟล์ได้"
+        }
+      },
+      "loading": {
+        "title": "กำลังโหลด..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "กำลังโหลด...",
+      "noProfileFound": "บ่พบโปรไฟล์",
+      "authenticationRequired": "ต้องมีการยืนยันตัวตน",
+      "pleaseLogIn": "กรุณาเข้าสู่ระบบเพื่อติดตามผู้ใช้",
+      "success": "สำเร็จ",
+      "unfollowSuccess": "เจ้าได้เลิกติดตาม",
+      "followSuccess": "ตอนนี้เจ้ากำลังติดตาม",
+      "error": "ข้อผิดพลาด",
+      "followError": "บ่สามารถอัปเดตสถานะการติดตามได้",
+      "posts": "โพสต์",
+      "followers": "ผู้ติดตาม",
+      "following": "กำลังติดตาม",
+      "follow": "ติดตาม",
+      "unfollow": "เลิกติดตาม",
+      "chat": "แชท"
+    },
+    "menu": {
+      "menu": "เมนู",
+      "settings": "การตั้งค่า",
+      "yourUwaciCoins": "Uwaci Coins ของเจ้า",
+      "notifications": "การแจ้งเตือน",
+      "marketplace": "ตลาด",
+      "signOut": "ออกจากระบบ",
+      "confirmSignOut": "ยืนยันการออกจากระบบ",
+      "areYouSureSignOut": "เจ้าแน่ใจบ่ว่าต้องการออกจากระบบ?",
+      "cancel": "ยกเลิก",
+      "goBack": "กลับไป"
+    },
+    "settings": {
+      "settings": "การตั้งค่า",
+      "fontSelected": "เลือกแบบอักษรแล้ว",
+      "asYourFont": "ได้ถืกตั้งเป็นแบบอักษรของเจ้าแล้ว",
+      "languageSelected": "เลือกภาษาแล้ว",
+      "asYourLanguage": "ได้ถืกตั้งเป็นภาษาของเจ้าแล้ว",
+      "themeSelected": "เลือกธีมแล้ว",
+      "asYourTheme": "ได้ถืกตั้งเป็นธีมของเจ้าแล้ว",
+      "notifications": "การแจ้งเตือน",
+      "marketplace": "ตลาด",
+      "account": "บัญชี",
+      "themes": "ธีม",
+      "fonts": "แบบอักษร",
+      "languages": "ภาษา",
+      "signOut": "ออกจากระบบ",
+      "confirmSignOut": "ยืนยันการออกจากระบบ",
+      "areYouSureSignOut": "เจ้าแน่ใจบ่ว่าต้องการออกจากระบบ?",
+      "cancel": "ยกเลิก",
+      "goBack": "กลับไป",
+      "selectFont": "เลือกแบบอักษร",
+      "selectLanguage": "เลือกภาษา",
+      "selectTheme": "เลือกธีม",
+      "passwordSecurity": "รหัสผ่านและความปลอดภัย",
+      "personalDetails": "รายละเอียดส่วนตัว",
+      "verification": "การยืนยัน",
+      "paymentMethods": "วิธีการชำระเงิน",
+      "adPreferences": "การตั้งค่าโฆษณา",
+      "upgradePremium": "อัปเกรดเป็นพรีเมียม",
+      "content": "เนื้อหา",
+      "language": "ภาษา",
+      "savedDraft": "แบบฮ่างที่บันทึก",
+      "yourActivity": "กิจกรรมของเจ้า",
+      "accessibility": "การเข้าถึง",
+      "privacy": "ความเป็นส่วนตัว",
+      "comments": "ความคิดเห็น",
+      "privateAccount": "บัญชีส่วนตัว",
+      "directMessaging": "ข้อความโดยตรง",
+      "blockedReports": "บล็อก/รายงาน",
+      "termsPolicies": "ข้อกำหนดและนโยบาย",
+      "switchAccount": "สลับบัญชี"
+    },
+    "accountDetails": {
+      "settingsTitle": "การตั้งค่าบัญชี",
+      "profileSettings": "แก้ไขโปรไฟล์",
+      "resetPassword": "รีเซ็ตรหัสผ่าน",
+      "deleteAccount": "ลบบัญชี",
+      "resetPasswordModal": {
+        "title": "รีเซ็ตรหัสผ่าน",
+        "message": "อีเมลรีเซ็ตรหัสผ่านสิถืกส่งไปที่",
+        "sendEmail": "ส่งอีเมล",
+        "cancel": "ยกเลิก"
+      },
+      "deleteAccountModal": {
+        "title": "ลบบัญชี",
+        "message": "เจ้าแน่ใจบ่ว่าต้องการลบบัญชีของเจ้า? การกระทำนี้บ่สามารถย้อนกลับได้",
+        "delete": "ลบ",
+        "cancel": "ยกเลิก"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "อัปเดตโปรไฟล์แล้ว",
+          "message": "โปรไฟล์ของเจ้าได้ฮับการอัปเดตเรียบฮ้อยแล้ว"
+        },
+        "profileUpdateError": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถอัปเดตโปรไฟล์ของเจ้าได้ กรุณาลองอีกเทื่อ"
+        },
+        "passwordReset": {
+          "title": "รีเซ็ตรหัสผ่าน",
+          "message": "ส่งอีเมลรีเซ็ตรหัสผ่านแล้ว"
+        },
+        "passwordResetError": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถส่งอีเมลรีเซ็ตรหัสผ่านได้ กรุณาลองอีกเทื่อ"
+        },
+        "accountDeleted": {
+          "title": "ลบบัญชีแล้ว",
+          "message": "บัญชีของเจ้าถืกลบเรียบฮ้อยแล้ว"
+        },
+        "accountDeleteError": {
+          "title": "ข้อผิดพลาด",
+          "message": "บ่สามารถลบบัญชีของเจ้าได้ กรุณาลองอีกเทื่อ"
+        }
+      }
+    }
+  }

@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Mormii Ilaali",
+      "thatInspire": "Kan Si Kakaasu!",
+      "signUp": "Galmaa'i",
+      "signIn": "Seeni"
+    },
+    "signUp": {
+      "title": "Galmaa'i",
+      "headerMessage": "Akkaawuntii haaraa uumi jalqabuu keetif",
+      "businessTitle": "Akka Daldalatti Galmaa'i",
+      "headerMessageBusiness": "Akkaawuntii daldalaa haaraa uumi jalqabuu keetif",
+      "form": {
+        "username": {
+          "label": "Maqaa Fayyadamaa",
+          "placeholder": "Maqaa fayyadamaa filladhu",
+          "validation": {
+            "minLength": "Maqaan fayyadamaa yoo xiqqaate qubeewwan 3 qabaachuu qaba",
+            "regex": "Maqaan fayyadamaa qubeewwan, lakkoofsa, fi sarara gadii qofa qabaachuu danda'a"
+          }
+        },
+        "firstname": {
+          "label": "Maqaa Duraa",
+          "placeholder": "Maqaa duraa kee galchi",
+          "validation": "Maqaan duraa yoo xiqqaate qubeewwan 3 qabaachuu qaba"
+        },
+        "lastname": {
+          "label": "Maqaa Abbaa",
+          "placeholder": "Maqaa abbaa kee galchi",
+          "validation": "Maqaan abbaa yoo xiqqaate qubeewwan 3 qabaachuu qaba"
+        },
+        "businessName": {
+          "label": "Maqaa Daldalaa",
+          "placeholder": "Maqaa daldalaa kee galchi",
+          "validation": "Maqaan daldalaa yoo xiqqaate qubeewwan 3 qabaachuu qaba"
+        },
+        "website": {
+          "label": "Marsariitii Daldalaa",
+          "placeholder": "Marsariitii kee galchi",
+          "validation": "Maqaan daldalaa yoo xiqqaate qubeewwan 3 qabaachuu qaba"
+        },
+        "businessType": {
+          "label": "Gosa Daldalaa",
+          "placeholder": "Gosa Daldalaa",
+          "validation": "Maqaan daldalaa yoo xiqqaate qubeewwan 3 qabaachuu qaba"
+        },
+        "email": {
+          "label": "Imeelii",
+          "placeholder": "Teessoo imeelii kee galchi",
+          "validation": "Maaloo teessoo imeelii sirrii galchi"
+        },
+        "phoneNumber": {
+          "label": "Lakkoofsa Bilbilaa",
+          "placeholder": "Lakkoofsa bilbilaa kee galchi",
+          "validation": "Maaloo lakkoofsa bilbilaa sirrii galchi"
+        },
+        "birthday": {
+          "title": "Guyyaa Dhalootaa",
+          "label": "Guyyaa Dhalootaa",
+          "placeholder": "GG-JJ-WWWW",
+          "validation": {
+            "format": "Guyyaan dhalootaa bifa GG-JJ-WWWW ta'uu qaba",
+            "validDate": "Guyyaa sirrii miti",
+            "ageRestriction": "Akkaawuntii uumuuf umuriin kee waggaa 18 fi isaa ol ta'uu qaba"
+          }
+        },
+        "password": {
+          "label": "Jecha Darbii",
+          "placeholder": "Jecha darbii kee galchi",
+          "validation": {
+            "minLength": "Jecha darbiitu yoo xiqqaate qubeewwan 8 qabaachuu qaba",
+            "maxLength": "Jecha darbiitu qubeewwan 64 gadi ta'uu qaba",
+            "uppercase": "Jecha darbiitu yoo xiqqaate qubee guddaa tokko qabaachuu qaba",
+            "lowercase": "Jecha darbiitu yoo xiqqaate qubee xixiqqaa tokko qabaachuu qaba",
+            "numberOrSpecial": "Jecha darbiitu yoo xiqqaate lakkoofsa tokko ykn mallattoo addaa tokko qabaachuu qaba"
+          },
+          "strength": {
+            "weak": "Dadhabaa",
+            "fair": "Giddugaleessa",
+            "good": "Gaarii",
+            "strong": "Jabaa"
+          }
+        },
+        "confirmPassword": {
+          "label": "Jecha Darbii Mirkaneessi",
+          "placeholder": "Jecha darbii kee irra deebi'i galchi",
+          "validation": "Jecha darbiitu wal hin simu"
+        }
+      },
+      "buttons": {
+        "createAccount": "Akkaawuntii Uumi",
+        "alreadyHaveAccount": "Akkaawuntii qabaattaa?",
+        "signIn": "Seeni",
+        "businessJoin": "Challenz wajjin hirmaadhu akka shariikaa daldalatti"
+      },
+      "alerts": {
+        "error": {
+          "title": "Dogoggora",
+          "message": "Akkaawuntii kee uumuun dogoggora ta'e. Maaloo irra deebi'i yaali"
+        },
+        "passwordMismatch": {
+          "title": "Jecha Darbii Wal-hingitu",
+          "message": "Jecha darbii sirrii miti. Maaloo irra deebi'i yaali"
+        },
+        "agreementRequired": {
+          "title": "Waliigaltee Barbaachisa",
+          "message": "Maaloo Haala Tajaajilaa fi Imaammata Dhuunfaa fudhachuu qabda"
+        },
+        "success": {
+          "title": "Milkaa'ina",
+          "message": "Akkaawuntiin haala gaarii ta'een uumame"
+        },
+        "signUpError": {
+          "title": "Dogoggora Galmaa'uu",
+          "message": "Akkaawuntii kee uumuun dogoggora ta'e. Maaloo irra deebi'i yaali"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Galmaa'uudhaan, kan keenya dubbiftee jiraachuu mirkaneessita",
+        "termsOfService": "Haala Tajaajilaa",
+        "privacyPolicy": "Imaammata Dhuunfaa",
+        "andAccepted": "akkasumas kan keenya fudhachuun"
+      }
+    },
+    "signIn": {
+      "title": "Seeni",
+      "headerMessage": "Akkaawuntii kee seenuuf ragaa kee galchi",
+      "form": {
+        "email": "Imeelii",
+        "emailPlaceholder": "Imeelii kee galchi",
+        "password": "Jecha Darbii",
+        "passwordPlaceholder": "Jecha darbii kee galchi"
+      },
+      "buttons": {
+        "signIn": "Seeni",
+        "forgotPassword": "Jecha Darbii Dagatte?",
+        "noAccount": "Akkaawuntii hin qabdu?",
+        "signUp": " Galmaa'i"
+      },
+      "forgotPassword": {
+        "title": "Jecha Darbii Dagatte",
+        "prompt": "Maaloo jalqaba imeelii kee galchi",
+        "successTitle": "Imeelii kee ilaali",
+        "successMessage": "Link jecha darbii haaromfachuu imeelii kee dhaaf ergineerra",
+        "errorTitle": "Dogoggora Haaromfachuu"
+      },
+      "termsAndPrivacy": {
+        "message": "Galmaa'uudhaan, kan keenya dubbiftee jiraachuu mirkaneessita",
+        "termsOfService": "Haala Tajaajilaa",
+        "privacyPolicy": "Imaammata Dhuunfaa",
+        "andAccepted": "akkasumas kan keenya fudhachuun"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Dogoggora Seenuu"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Jecha Darbii Dagatte",
+      "description": "Teessoo imeelii kee asi gaditti galchi, link jecha darbii haaromfachuuf si ergina",
+      "form": {
+        "email": "Teessoo Imeelii"
+      },
+      "buttons": {
+        "reset": "Jecha Darbii Haaromsi",
+        "sending": "Ergaa jira...",
+        "remembered": "Jecha darbii kee yaadatte?",
+        "signIn": "Seeni"
+      },
+      "alerts": {
+        "enterEmail": "Maaloo teessoo imeelii kee galchi",
+        "checkEmail": "Link haaromfachuu dhaaf imeelii kee ilaali",
+        "resetError": "Jecha darbii haaromsuu dadhabame"
+      }
+    },
+    "resetPassword": {
+      "title": "Jecha Darbii Haaromsi",
+      "description": "Jecha darbii haaraa kee asi gaditti galchi akka jecha darbii akkaawuntii kee haaromsuuf",
+      "form": {
+        "newPassword": "Jecha darbii haaraa galchi",
+        "confirmPassword": "Jecha darbii haaraa mirkaneessi"
+      },
+      "alerts": {
+        "enterBothPasswords": "Maaloo oonfii jecha darbii lachanuu galchi",
+        "passwordMismatch": "Jecha darbiitu wal hin simu. Maaloo irra deebi'i yaali",
+        "success": "Jecha darbii kee haala gaarii ta'een haaromfame",
+        "updateError": "Dogoggora jecha darbii haaromsuu. Maaloo irra deebi'i yaali"
+      },
+      "buttons": {
+        "saving": "Ol kaa'aa jira...",
+        "update": "Jecha Darbii Haaromsi"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Tokenii seensaa sirrii miti ykn dhabame",
+        "sessionFailed": "Yeroo seensaa diriirsuun dadhabame",
+        "invalidPassword": "Maaloo jecha darbii sirrii kan yoo xiqqaate qubeewwan 8 qabu galchi",
+        "updateFailed": "Jecha darbii kee haaromsuu dadhabame"
+      },
+      "success": {
+        "passwordUpdated": "Jecha darbii kee haaromfameera. Maaloo irra deebi'i seeni"
+      },
+      "title": "Jecha Darbii Kee Haaromsi",
+      "instructions": "Jecha darbii haaraa galchi",
+      "labels": {
+        "newPassword": "Jecha Darbii Haaraa"
+      },
+      "placeholders": {
+        "newPassword": "Jecha darbii haaraa galchi"
+      },
+      "buttons": {
+        "updatePassword": "Jecha Darbii Haaromsi"
+      }
+    },
+    "tabs": {
+      "home": "Mana",
+      "search": "Barbaadi",
+      "create": "Uumi",
+      "contest": "Dorgommii",
+      "menu": "Meenuu",
+      "settings": "Qindaa'inoota",
+      "profile": "Piroofaayilii",
+      "editProfile": "Piroofaayilii Kee Gulaali",
+      "otherUserProfile": "Piroofaayilii Fayyadamaa",
+      "explore": "Sakatta'i",
+      "challengeDetails": "Ibsa Mormii",
+      "submissionDetails": "Ibsa Ergiinsaa",
+      "contestDetails": "Ibsa Dorgommii",
+      "followers": "Hordoftota ",
+      "following": "Hordofaa jira ",
+      "account": "Akkaawuntii",
+      "notifications": "Beeksisa",
+      "leaderboard": "Gabatee Durattootaa",
+      "market": "Gabaa",
+      "rewards": "Badhaasa",
+      "coin": "Qarshii Kee"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Uumi",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Agarsiistuu mana",
+        "search": "Agarsiistuu barbaacha",
+        "create": "Agarsiistuu uumuu",
+        "explore": "Agarsiistuu sakatta'uu",
+        "profile": "Agarsiistuu piroofaayilii"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Ergiinsa, fayyadamtoota, mormii barbaadi...",
+      "clearSearch": "Galcha barbaacha qulqulleessi",
+      "loading": "Fe'aa jira...",
+      "error": {
+        "title": "Dogoggora Barbaacha",
+        "message": "Yeroo barbaadaa dogoggorri uumame"
+      },
+      "noPreviousSearches": "Barbaacha darbe hin jiru",
+      "previousSearches": "Barbaacha Darbe",
+      "submissions": {
+        "title": "Ergiinsawwan",
+        "noResults": "Ergiinsawwan hin argamne",
+        "videoError": {
+          "title": "Dogoggora Viidiyoo",
+          "message": "Viidiyoo fe'uu dadhabame"
+        }
+      },
+      "users": {
+        "title": "Fayyadamtoota",
+        "noResults": "Fayyadamtoota hin argamne"
+      },
+      "challenges": {
+        "title": "Mormiiwwan",
+        "noResults": "Mormiiwwan hin argamne",
+        "videoError": {
+          "title": "Dogoggora Viidiyoo",
+          "message": "Viidiyoo mormii fe'uu dadhabame"
+        },
+        "category": "Kataagoorii: ",
+        "seasonalTag": "Waggaa keessaa",
+        "sponsoredTag": "Deeggartame"
+      },
+      "repeatSearch": "Barbaacha irra deebi'i",
+      "accessibility": {
+        "viewVideo": "Viidiyoo kan mata duree qabu ilaali",
+        "viewProfile": "Piroofaayilii kan ilaali",
+        "viewChallenge": "Mormii kan mata duree qabu ilaali"
+      }
+    },
+    "contest": {
+      "title": "Dorgommiiwwan Hunda",
+      "createContestButton": "Dorgommii Uumi"
+    },
+    "contests": {
+      "noContests": "Dorgommiiwwan hin argamne",
+      "error": {
+        "title": "Dogoggora",
+        "message": "Dorgommiiwwan fiduu dadhabame"
+      },
+      "status": {
+        "notStarted": "Hin Jalqabamne",
+        "ongoing": "Adeemsa irra",
+        "ended": "Xummurame"
+      },
+      "dates": {
+        "start": "Jalqaba: ",
+        "end": "Dhuma: ",
+        "notAvailable": "Hin jiru"
+      },
+      "contestDetailsButton": "Ibsa Dorgommii Ilaali"
+    },
+    "newContest": {
+      "header": {
+        "title": "Dorgommii Haaraa Uumi",
+        "backButton": "Deebi'i"
+      },
+      "fields": {
+        "title": {
+          "label": "Mata Duree",
+          "placeholder": "fakk., Bonaa Hinkitu-Sooruu",
+          "validation": "Mata duree barbaachisaadha"
+        },
+        "description": {
+          "label": "Ibsa",
+          "placeholder": "Dorgommiin kun waa'ee maalii?"
+        },
+        "startDate": {
+          "label": "Guyyaa Jalqabaa",
+          "placeholder": "GG-JJ-WWWW",
+          "validation": "Guyyaan xummuramaa guyyaa jalqabaa booda ta'uu qaba"
+        },
+        "endDate": {
+          "label": "Guyyaa Xummuramaa",
+          "placeholder": "GG-JJ-WWWW"
+        },
+        "winnerReward": {
+          "label": "Badhaasa Injifataa (Qarshii Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Badhaasa Hirmaataa (Qarshii Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Ibsa Viidiyoo (Filannoo)",
+          "noVideoSelected": "Ibsa viidiyoo dabalaa",
+          "picked": "Filatame: {filename}",
+          "uploaded": "Ol ba'e: Viidiyoon milkaa'inaan ol ba'e",
+          "chooseVideoButton": "Viidiyoo Filachuu",
+          "uploadVideoButton": "Viidiyoo Oli Baasi"
+        }
+      },
+      "buttons": {
+        "createContest": "Dorgommii Uumi"
+      },
+      "alerts": {
+        "error": {
+          "title": "Dogoggora",
+          "pickVideoMessage": "Viidiyoo filachuu dadhabame",
+          "uploadVideoMessage": "Viidiyoo oli baasuu dadhabame",
+          "createContestMessage": "Dorgommii uumuu dadhabame"
+        },
+        "success": {
+          "title": "Milkaa'ina",
+          "videoUploadMessage": "Viidiyoon milkaa'inaan ol ba'e!",
+          "createContestMessage": "Dorgommiin milkaa'inaan uumame!"
+        },
+        "validation": {
+          "noTitle": "Mata duree barbaachisaadha",
+          "invalidDates": "Guyyaan xummuramaa guyyaa jalqabaa booda ta'uu qaba"
+        },
+        "noSession": {
+          "title": "Dorgommii uumuuf seenuu qabda"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Piroofaayilii",
+        "settingsButton": "Gara Qindaa'inoota Deemi"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Hayyama barbaachisa",
+          "message": "Footoowwan kee argachuuf hayyama barbaanna"
+        },
+        "errorAlert": {
+          "title": "Dogoggora",
+          "message": "Fakkii filachuu dadhabame"
+        },
+        "successAlert": {
+          "title": "Milkaa'ina",
+          "message": "Fakkiin piroofaayilii milkaa'inaan haaromfame"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Dogoggora Qooduu",
+          "message": "Link namaaf erguu hindandeenye"
+        },
+        "successShare": {
+          "title": "Challenz irra na wajjin hirmaadhu!",
+          "message": "Akkam! Galmaa'uuf link kana fayyadami: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Hordoftoota",
+        "viewFollowers": "Hordoftoota Ilaali"
+      },
+      "following": {
+        "label": "Hordofaa Jira",
+        "viewFollowing": "Hordofaa Jiru Ilaali"
+      },
+      "posts": {
+        "label": "Poostiiwwan",
+        "viewPosts": "Poostiiwwan Ilaali",
+        "noVideos": "Hanga ammaatti viidiyoon poostii hin ta'in"
+      },
+      "info": {
+        "email": "Imeelii",
+        "phone": "Bilbila",
+        "location": "Teessoo",
+        "coins": "Qarshii Uwaci",
+        "bio": "Seenaa Jireenya",
+        "noProfile": "Piroofaayiliin Hin Argamne"
+      },
+      "buttons": {
+        "inviteFriends": "Hiriyoota Affeer",
+        "deleteVideo": "Viidiyoo Haqi",
+        "deleteVideoAlert": {
+          "title": "Viidiyoo Haqi",
+          "message": "Viidiyoo kana haquu barbaadda mirkaneeffadhu?"
+        },
+        "deleteSuccess": {
+          "title": "Milkaa'ina",
+          "message": "Viidiyoon milkaa'inaan haqame"
+        },
+        "deleteError": {
+          "title": "Dogoggora",
+          "message": "Viidiyoo haquu dadhabame"
+        }
+      },
+      "errors": {
+        "generalError": "Dogoggorri uumame",
+        "profileError": "Piroofaayilii fiduu dadhabame",
+        "submissionsError": "Ergiinsawwan fiduu dadhabame"
+      },
+      "loading": {
+        "profile": "Piroofaayilii fe'aa jira...",
+        "submissions": "Ergiinsawwan fe'aa jira..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Piroofaayilii Gulaali",
+        "cancelButton": "Dhiisi",
+        "saveButton": "Jijjiirama Olkaa'i",
+        "savingButton": "Olkaa'aa jira..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Maqaa Duraa",
+          "placeholder": "Maqaa duraa kee galchi",
+          "error": {
+            "tooShort": "Maqaan duraa baay'ee gabaabadha"
+          }
+        },
+        "lastName": {
+          "label": "Maqaa Abbaa",
+          "placeholder": "Maqaa abbaa kee galchi",
+          "error": {
+            "tooShort": "Maqaan abbaa baay'ee gabaabadha"
+          }
+        },
+        "phoneNumber": {
+          "label": "Lakkoofsa Bilbilaa",
+          "placeholder": "Lakkoofsa bilbilaa kee galchi",
+          "error": {
+            "invalid": "Maaloo lakkoofsa bilbilaa sirrii galchi"
+          }
+        },
+        "bio": {
+          "label": "Seenaa Jireenya",
+          "placeholder": "Waa'ee kee nutti himi",
+          "error": {
+            "tooLong": "Seenaan jireenya qubeewwan 500 gadi ta'uu qaba"
+          }
+        },
+        "location": {
+          "label": "Teessoo",
+          "placeholder": "Teessoo kee galchi",
+          "error": {
+            "tooLong": "Teessoon qubeewwan 100 gadi ta'uu qaba"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Dogoggora",
+          "message": "Ragaa piroofaayilii fiduu dadhabame"
+        },
+        "updateSuccess": {
+          "title": "Milkaa'ina",
+          "message": "Piroofaayiliin milkaa'inaan haaromfame"
+        },
+        "updateError": {
+          "title": "Dogoggora",
+          "message": "Piroofaayilii haaromsuu dadhabame"
+        }
+      },
+      "loading": {
+        "title": "Fe'aa jira..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Fe'aa jira...",
+      "noProfileFound": "Piroofaayiliin Hin Argamne",
+      "authenticationRequired": "Mirkanaa'ina Barbaachisa",
+      "pleaseLogIn": "Maaloo fayyadamtoota hordofuuf seeni",
+      "success": "Milkaa'ina",
+      "unfollowSuccess": "Ati hordofuu dhaabdeetta",
+      "followSuccess": "Ati amma hordofaa jirta",
+      "error": "Dogoggora",
+      "followError": "Haala hordofuu haaromsuu dadhabame",
+      "posts": "Poostiiwwan",
+      "followers": "Hordoftoota",
+      "following": "Hordofaa Jira",
+      "follow": "Hordofi",
+      "unfollow": "Hordofuu Dhiisi",
+      "chat": "Haasawa"
+    },
+    "menu": {
+      "menu": "Meenuu",
+      "settings": "Qindaa'inoota",
+      "yourUwaciCoins": "Qarshii Uwaci Kee",
+      "notifications": "Beeksisa",
+      "marketplace": "Gabaa",
+      "signOut": "Ba'i",
+      "confirmSignOut": "Ba'uu Mirkaneessi",
+      "areYouSureSignOut": "Dhuguma ba'uu barbaaddaa?",
+      "cancel": "Dhiisi",
+      "goBack": "Deebi'i"
+    },
+    "settings": {
+      "settings": "Qindaa'inoota",
+      "fontSelected": "Foontiiwwan Filatamanii",
+      "asYourFont": "akka foontii kee ta'eera",
+      "languageSelected": "Afaan Filatame",
+      "asYourLanguage": "akka afaan kee ta'eera",
+      "themeSelected": "Teemaa Filatame",
+      "asYourTheme": "akka teemaa kee ta'eera",
+      "notifications": "Beeksisa",
+      "marketplace": "Gabaa",
+      "account": "Akkaawuntii",
+      "themes": "Teemaawwan",
+      "fonts": "Foontiiwwan",
+      "languages": "Afaanota",
+      "signOut": "Ba'i",
+      "confirmSignOut": "Ba'uu Mirkaneessi",
+      "areYouSureSignOut": "Dhuguma ba'uu barbaaddaa?",
+      "cancel": "Dhiisi",
+      "goBack": "Deebi'i",
+      "selectFont": "Foontii Filachuu",
+      "selectLanguage": "Afaan Filachuu",
+      "selectTheme": "Teemaa Filachuu",
+      "passwordSecurity": "Jecha Darbii fi Nageenya",
+      "personalDetails": "Ibsa Dhuunfaa",
+      "verification": "Mirkanaa'ina",
+      "paymentMethods": "Akkaataa kaffaltii",
+      "adPreferences": "Filannoo Beeksisaa",
+      "upgradePremium": "Gara preemiyeemiitti Fooyya'i",
+      "content": "Qabiyyee",
+      "language": "Afaan",
+      "savedDraft": "Muuzaada Olkaa'ame",
+      "yourActivity": "Hojii Kee",
+      "accessibility": "Dhaqqabamummaa",
+      "privacy": "Dhuunfummaa",
+      "comments": "Yaada",
+      "privateAccount": "Akkaawuntii Dhuunfaa",
+      "directMessaging": "Ergaa Kallattii",
+      "blockedReports": "Kan Dhorkame/Gabaasawwan",
+      "termsPolicies": "Haalawwan fi Imaammata",
+      "switchAccount": "Akkaawuntii Jijjiiri"
+    },
+    "accountDetails": {
+      "settingsTitle": "Qindaa'ina Akkaawuntii",
+      "profileSettings": "Piroofaayilii Gulaali ",
+      "resetPassword": "Jecha Darbii Haaromsi",
+      "deleteAccount": "Akkaawuntii Haqi",
+      "resetPasswordModal": {
+        "title": "Jecha Darbii Haaromsi",
+        "message": "Imeeliin jecha darbii haaromsu ni ergama",
+        "sendEmail": "Imeelii Ergi",
+        "cancel": "Dhiisi"
+      },
+      "deleteAccountModal": {
+        "title": "Akkaawuntii Haqi",
+        "message": "Akkaawuntii kee haquu barbaadda mirkaneeffadhu? Tarkaanfiin kun hin jijiiramu",
+        "delete": "Haqi",
+        "cancel": "Dhiisi"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Piroofaayiliin Haaromfame",
+          "message": "Piroofaayiliin kee milkaa'inaan haaromfame"
+        },
+        "profileUpdateError": {
+          "title": "Dogoggora",
+          "message": "Piroofaayilii kee haaromsuu dadhabame. Maaloo irra deebi'i yaali"
+        },
+        "passwordReset": {
+          "title": "Jecha Darbii Haaromsi",
+          "message": "Imeeliin jecha darbii haaromsuu ergameera"
+        },
+        "passwordResetError": {
+          "title": "Dogoggora",
+          "message": "Imeelii jecha darbii haaromsuu erguu dadhabame. Maaloo irra deebi'i yaali"
+        },
+        "accountDeleted": {
+          "title": "Akkaawuntiin Haqameera",
+          "message": "Akkaawuntiin kee milkaa'inaan haqameera"
+        },
+        "accountDeleteError": {
+          "title": "Dogoggora",
+          "message": "Akkaawuntii kee haquu dadhabame. Maaloo irra deebi'i yaali"
+        }
+      }
+    }
+  }

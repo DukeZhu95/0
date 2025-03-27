@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Hlola Izinselelo",
+      "thatInspire": "ezikugqugquzelayo!",
+      "signUp": "Bhalisela",
+      "signIn": "Ngena"
+    },
+    "signUp": {
+      "title": "Bhalisela",
+      "headerMessage": "Dala i-akhawunti entsha ukuze uqale",
+      "businessTitle": "Bhalisela njengeBhizinisi",
+      "headerMessageBusiness": "Dala i-akhawunti yebhizinisi ukuze uqale",
+      "form": {
+        "username": {
+          "label": "Igama lomsebenzisi",
+          "placeholder": "Khetha igama lomsebenzisi",
+          "validation": {
+            "minLength": "Igama lomsebenzisi kumele libe nezinhlamvu ezingenani ku-3",
+            "regex": "Igama lomsebenzisi lingaba nohlamvu, izinombolo, kanye nongalo-sho kuphela"
+          }
+        },
+        "firstname": {
+          "label": "Igama",
+          "placeholder": "Faka igama lakho",
+          "validation": "Igama kumele libe nezinhlamvu ezingenani ku-3"
+        },
+        "lastname": {
+          "label": "Isibongo",
+          "placeholder": "Faka isibongo sakho",
+          "validation": "Isibongo kumele sibe nezinhlamvu ezingenani ku-3"
+        },
+        "businessName": {
+          "label": "Igama leBhizinisi",
+          "placeholder": "Faka igama lebhizinisi lakho",
+          "validation": "Igama lebhizinisi kumele libe nezinhlamvu ezingenani ku-3"
+        },
+        "website": {
+          "label": "Iwebhusayithi yeBhizinisi",
+          "placeholder": "Faka iwebhusayithi yakho",
+          "validation": "Igama lebhizinisi kumele libe nezinhlamvu ezingenani ku-3"
+        },
+        "businessType": {
+          "label": "Uhlobo lweBhizinisi",
+          "placeholder": "Uhlobo lweBhizinisi",
+          "validation": "Igama lebhizinisi kumele libe nezinhlamvu ezingenani ku-3"
+        },
+        "email": {
+          "label": "I-imeyili",
+          "placeholder": "Faka ikheli lakho le-imeyili",
+          "validation": "Sicela ufake ikheli le-imeyili elilungile"
+        },
+        "phoneNumber": {
+          "label": "Inombolo yocingo",
+          "placeholder": "Faka inombolo yakho yocingo",
+          "validation": "Sicela ufake inombolo yocingo elungile"
+        },
+        "birthday": {
+          "title": "Usuku lokuzalwa",
+          "label": "Usuku lokuzalwa",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Usuku lokuzalwa kumele lube esimweni se-DD-MM-YYYY",
+            "validDate": "Usuku olungalungile",
+            "ageRestriction": "Kumele ube neminyaka engama-18 noma ngaphezulu ukuze udale i-akhawunti"
+          }
+        },
+        "password": {
+          "label": "Iphasiwedi",
+          "placeholder": "Faka iphasiwedi yakho",
+          "validation": {
+            "minLength": "Iphasiwedi kumele ibe nezinhlamvu ezingenani kwezingu-8",
+            "maxLength": "Iphasiwedi kumele ibe nezinhlamvu ezingaphansi kwezingu-64",
+            "uppercase": "Iphasiwedi kumele ibe nohlamvu olulodwa olukhulu",
+            "lowercase": "Iphasiwedi kumele ibe nohlamvu olulodwa oluncane",
+            "numberOrSpecial": "Iphasiwedi kumele ibe nenombolo eyodwa noma uphawu olukhethekile"
+          },
+          "strength": {
+            "weak": "Ibuthakathaka",
+            "fair": "Yenele",
+            "good": "Kuhle",
+            "strong": "Kuqinile"
+          }
+        },
+        "confirmPassword": {
+          "label": "Qinisekisa Iphasiwedi",
+          "placeholder": "Phinda ufake iphasiwedi yakho",
+          "validation": "Amaphasiwedi awafani"
+        }
+      },
+      "buttons": {
+        "createAccount": "Dala I-akhawunti",
+        "alreadyHaveAccount": "Usunayo i-akhawunti?",
+        "signIn": "Ngena",
+        "businessJoin": "Joyina iChallenz njengombambisani webhizinisi"
+      },
+      "alerts": {
+        "error": {
+          "title": "Iphutha",
+          "message": "Kuvele iphutha ngenkathi udala i-akhawunti yakho. Sicela uzame futhi"
+        },
+        "passwordMismatch": {
+          "title": "Ukungafani kwePhasiwedi",
+          "message": "Iphasiwedi engalungile. Sicela uzame futhi"
+        },
+        "agreementRequired": {
+          "title": "Kudingeka Isivumelwano",
+          "message": "Sicela uvume Imigomo Yokusebenza kanye Nenqubo Yemfihlo"
+        },
+        "success": {
+          "title": "Impumelelo",
+          "message": "I-akhawunti idalwe ngempumelelo"
+        },
+        "signUpError": {
+          "title": "Iphutha Lokubhalisa",
+          "message": "Kuvele iphutha ngenkathi udala i-akhawunti yakho. Sicela uzame futhi"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Ngokubhalisa, uqinisekisa ukuthi ufundile",
+        "termsOfService": "Imigomo Yokusebenza",
+        "privacyPolicy": "Inqubo Yemfihlo",
+        "andAccepted": "futhi uvumile"
+      }
+    },
+    "signIn": {
+      "title": "Ngena",
+      "headerMessage": "Faka imininingwane yakho ukuze ufinyelele ku-akhawunti yakho",
+      "form": {
+        "email": "I-imeyili",
+        "emailPlaceholder": "Faka i-imeyili yakho",
+        "password": "Iphasiwedi",
+        "passwordPlaceholder": "Faka iphasiwedi yakho"
+      },
+      "buttons": {
+        "signIn": "Ngena",
+        "forgotPassword": "Ukhohlwe iphasiwedi?",
+        "noAccount": "Awunayo i-akhawunti?",
+        "signUp": " Bhalisela"
+      },
+      "forgotPassword": {
+        "title": "Ukhohlwe Iphasiwedi",
+        "prompt": "Sicela ufake i-imeyili yakho kuqala",
+        "successTitle": "Hlola i-imeyili yakho",
+        "successMessage": "Sithumele isixhumanisi sokusetha kabusha iphasiwedi ku-imeyili yakho",
+        "errorTitle": "Iphutha Lokusetha Kabusha"
+      },
+      "termsAndPrivacy": {
+        "message": "Ngokubhalisa, uqinisekisa ukuthi ufundile",
+        "termsOfService": "Imigomo Yokusebenza",
+        "privacyPolicy": "Inqubo Yemfihlo",
+        "andAccepted": "futhi uvumile"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Iphutha Lokungena"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Ukhohlwe Iphasiwedi",
+      "description": "Faka ikheli lakho le-imeyili ngezansi futhi sizokuthumelela isixhumanisi sokusetha kabusha iphasiwedi yakho",
+      "form": {
+        "email": "Ikheli le-imeyili"
+      },
+      "buttons": {
+        "reset": "Setha Kabusha Iphasiwedi",
+        "sending": "Iyathumela...",
+        "remembered": "Usuyikhumbule iphasiwedi yakho?",
+        "signIn": "Ngena"
+      },
+      "alerts": {
+        "enterEmail": "Sicela ufake ikheli lakho le-imeyili",
+        "checkEmail": "Hlola i-imeyili yakho ukuze uthole isixhumanisi sokusetha kabusha",
+        "resetError": "Yehlulekile ukusetha kabusha iphasiwedi"
+      }
+    },
+    "resetPassword": {
+      "title": "Buyisela Iphasiwedi",
+      "description": "Faka iphasiwedi yakho entsha ngezansi ukuze usethe kabusha iphasiwedi ye-akhawunti yakho",
+      "form": {
+        "newPassword": "Faka iphasiwedi entsha",
+        "confirmPassword": "Qinisekisa iphasiwedi entsha"
+      },
+      "alerts": {
+        "enterBothPasswords": "Sicela ugcwalise izinkambu zombili zamaphasiwedi",
+        "passwordMismatch": "Amaphasiwedi awafani. Sicela uzame futhi",
+        "success": "Iphasiwedi yakho ibuyiselwe ngempumelelo",
+        "updateError": "Iphutha lokusetha kabusha iphasiwedi. Sicela uzame futhi"
+      },
+      "buttons": {
+        "saving": "Iyalondoloza...",
+        "update": "Setha Kabusha Iphasiwedi"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Ithokeni lokufinyelela engalungile noma elingekho",
+        "sessionFailed": "Yehlulekile ukusetha iseshini",
+        "invalidPassword": "Sicela ufake iphasiwedi elungile eligcwele okungenani izinhlamvu ezingu-8",
+        "updateFailed": "Yehlulekile ukubuyisela iphasiwedi yakho"
+      },
+      "success": {
+        "passwordUpdated": "Iphasiwedi yakho ibuyiselwe. Sicela ungene futhi"
+      },
+      "title": "Setha Kabusha Iphasiwedi Yakho",
+      "instructions": "Faka iphasiwedi entsha",
+      "labels": {
+        "newPassword": "Iphasiwedi Entsha"
+      },
+      "placeholders": {
+        "newPassword": "Faka iphasiwedi entsha"
+      },
+      "buttons": {
+        "updatePassword": "Buyisela Iphasiwedi"
+      }
+    },
+    "tabs": {
+      "home": "Ikhaya",
+      "search": "Sesha",
+      "create": "Dala",
+      "contest": "Imincintiswano",
+      "menu": "Imenyu",
+      "settings": "Izilungiselelo",
+      "profile": "Iphrofayela",
+      "editProfile": "Hlela Iphrofayela Yakho",
+      "otherUserProfile": "Iphrofayela Yomsebenzisi",
+      "explore": "Hlola",
+      "challengeDetails": "Imininingwane Yenselelo",
+      "submissionDetails": "Imininingwane Yokuthunyelwe",
+      "contestDetails": "Imininingwane Yomncintiswano",
+      "followers": "Abalandeli ",
+      "following": "Ukulandela ",
+      "account": "I-akhawunti",
+      "notifications": "Izaziso",
+      "leaderboard": "Ibhodi labaholi",
+      "market": "Imakethe",
+      "rewards": "Imiklomelo",
+      "coin": "Izinhlamvu Zakho"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Dala",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Isithonjana sekhaya",
+        "search": "Isithonjana sokusesha",
+        "create": "Isithonjana sokudala",
+        "explore": "Isithonjana sokuhlola",
+        "profile": "Isithonjana sephrofayela"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Sesha okuthunyelwe, abasebenzisi, izinselelo...",
+      "clearSearch": "Sula ukufaka kokusesha",
+      "loading": "Iyalayisha...",
+      "error": {
+        "title": "Iphutha Lokusesha",
+        "message": "Kuvele iphutha ngenkathi kusesha"
+      },
+      "noPreviousSearches": "Azikho izinsesho ezidlule",
+      "previousSearches": "Izinsesho Ezidlule",
+      "submissions": {
+        "title": "Okuthunyelwe",
+        "noResults": "Akutholakali okuthunyelwe",
+        "videoError": {
+          "title": "Iphutha Levidiyo",
+          "message": "Yehlulekile ukulayisha ividiyo"
+        }
+      },
+      "users": {
+        "title": "Abasebenzisi",
+        "noResults": "Abasebenzisi abatholakali"
+      },
+      "challenges": {
+        "title": "Izinselelo",
+        "noResults": "Izinselelo azitholakali",
+        "videoError": {
+          "title": "Iphutha Levidiyo",
+          "message": "Yehlulekile ukulayisha ividiyo yenselelo"
+        },
+        "category": "Isigaba: ",
+        "seasonalTag": "Isikhathi",
+        "sponsoredTag": "Ixhaswe"
+      },
+      "repeatSearch": "Phinda usesha",
+      "accessibility": {
+        "viewVideo": "Buka ividiyo enenhloko",
+        "viewProfile": "Buka iphrofayela ka",
+        "viewChallenge": "Buka inselelo enenhloko"
+      }
+    },
+    "contest": {
+      "title": "Yonke Imincintiswano",
+      "createContestButton": "Dala Umncintiswano"
+    },
+    "contests": {
+      "noContests": "Ayikho imincintiswano etholakele",
+      "error": {
+        "title": "Iphutha",
+        "message": "Yehlulekile ukuthola imincintiswano"
+      },
+      "status": {
+        "notStarted": "Ayikaqali",
+        "ongoing": "Iyaqhubeka",
+        "ended": "Iphelile"
+      },
+      "dates": {
+        "start": "Ukuqala: ",
+        "end": "Ukuphela: ",
+        "notAvailable": "Akutholakali"
+      },
+      "contestDetailsButton": "Buka Imininingwane Yomncintiswano"
+    },
+    "newContest": {
+      "header": {
+        "title": "Dala Umncintiswano Omusha",
+        "backButton": "Emuva"
+      },
+      "fields": {
+        "title": {
+          "label": "Isihloko",
+          "placeholder": "isibonelo, Ukugida Kwehlobo",
+          "validation": "Isihloko siyadingeka"
+        },
+        "description": {
+          "label": "Incazelo",
+          "placeholder": "Umncintiswano umayelana nani?"
+        },
+        "startDate": {
+          "label": "Usuku Lokuqala",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Usuku lokuphela kumele lube emuva kosuku lokuqala"
+        },
+        "endDate": {
+          "label": "Usuku Lokuphela",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Umklomelo Womnqobi (Izinhlamvu ze-Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Umklomelo Womhlanganyeli (Izinhlamvu ze-Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Ividiyo Yencazelo (Ukukhetha)",
+          "noVideoSelected": "Engeza ividiyo yencazelo",
+          "picked": "Kukhethiwe: {filename}",
+          "uploaded": "Kulayishiwe: Ividiyo ilayishwe ngempumelelo",
+          "chooseVideoButton": "Khetha Ividiyo",
+          "uploadVideoButton": "Layisha Ividiyo"
+        }
+      },
+      "buttons": {
+        "createContest": "Dala Umncintiswano"
+      },
+      "alerts": {
+        "error": {
+          "title": "Iphutha",
+          "pickVideoMessage": "Yehlulekile ukukhetha ividiyo",
+          "uploadVideoMessage": "Yehlulekile ukulayisha ividiyo",
+          "createContestMessage": "Yehlulekile ukudala umncintiswano"
+        },
+        "success": {
+          "title": "Impumelelo",
+          "videoUploadMessage": "Ividiyo ilayishwe ngempumelelo!",
+          "createContestMessage": "Umncintiswano udalwe ngempumelelo!"
+        },
+        "validation": {
+          "noTitle": "Isihloko siyadingeka",
+          "invalidDates": "Usuku lokuphela kumele lube emuva kosuku lokuqala"
+        },
+        "noSession": {
+          "title": "Kumele ungene ukuze udale umncintiswano"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Iphrofayela",
+        "settingsButton": "Yiya Kuzilingiselelo"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Imvume iyadingeka",
+          "message": "Sidinga imvume yokufinyelela izithombe zakho"
+        },
+        "errorAlert": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukukhetha isithombe"
+        },
+        "successAlert": {
+          "title": "Impumelelo",
+          "message": "Isithombe sephrofayela sibuyiselwe ngempumelelo"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Iphutha Lokwabelana",
+          "message": "Akukwazekile ukwabelana ngesixhumanisi sokudlulisa"
+        },
+        "successShare": {
+          "title": "Joyina nami kuChallenz!",
+          "message": "Sawubona! Sebenzisa lesi sixhumanisi ukuze ubhalisele: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Abalandeli",
+        "viewFollowers": "Buka Abalandeli"
+      },
+      "following": {
+        "label": "Ukulandela",
+        "viewFollowing": "Buka Ukulandela"
+      },
+      "posts": {
+        "label": "Okuthunyelwe",
+        "viewPosts": "Buka Okuthunyelwe",
+        "noVideos": "Azikho amavidiyo athunyelwe okwamanje"
+      },
+      "info": {
+        "email": "I-imeyili",
+        "phone": "Ucingo",
+        "location": "Indawo",
+        "coins": "Izinhlamvu ze-Uwaci",
+        "bio": "I-bayografi",
+        "noProfile": "Ayikho Iphrofayela Etholakele"
+      },
+      "buttons": {
+        "inviteFriends": "Mema Abangani",
+        "deleteVideo": "Susa Ividiyo",
+        "deleteVideoAlert": {
+          "title": "Susa Ividiyo",
+          "message": "Uqinisekile ukuthi ufuna ukususa le vidiyo?"
+        },
+        "deleteSuccess": {
+          "title": "Impumelelo",
+          "message": "Ividiyo isuliwe ngempumelelo"
+        },
+        "deleteError": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukususa ividiyo"
+        }
+      },
+      "errors": {
+        "generalError": "Kuvele iphutha",
+        "profileError": "Yehlulekile ukuthola iphrofayela",
+        "submissionsError": "Yehlulekile ukuthola okuthunyelwe"
+      },
+      "loading": {
+        "profile": "Iyalayisha iphrofayela...",
+        "submissions": "Iyalayisha okuthunyelwe..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Hlela Iphrofayela",
+        "cancelButton": "Khansela",
+        "saveButton": "Londoloza Izinguquko",
+        "savingButton": "Iyalondoloza..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Igama",
+          "placeholder": "Faka igama lakho",
+          "error": {
+            "tooShort": "Igama lifushane kakhulu"
+          }
+        },
+        "lastName": {
+          "label": "Isibongo",
+          "placeholder": "Faka isibongo sakho",
+          "error": {
+            "tooShort": "Isibongo sifushane kakhulu"
+          }
+        },
+        "phoneNumber": {
+          "label": "Inombolo yocingo",
+          "placeholder": "Faka inombolo yakho yocingo",
+          "error": {
+            "invalid": "Sicela ufake inombolo yocingo elungile"
+          }
+        },
+        "bio": {
+          "label": "I-bayografi",
+          "placeholder": "Sitshele ngawe",
+          "error": {
+            "tooLong": "I-bayografi kumele ibe nezinhlamvu ezingaphansi kwama-500"
+          }
+        },
+        "location": {
+          "label": "Indawo",
+          "placeholder": "Faka indawo yakho",
+          "error": {
+            "tooLong": "Indawo kumele ibe nezinhlamvu ezingaphansi kwe-100"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukuthola idatha yephrofayela"
+        },
+        "updateSuccess": {
+          "title": "Impumelelo",
+          "message": "Iphrofayela ibuyiselwe ngempumelelo"
+        },
+        "updateError": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukubuyisela iphrofayela"
+        }
+      },
+      "loading": {
+        "title": "Iyalayisha..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Iyalayisha...",
+      "noProfileFound": "Ayikho Iphrofayela Etholakele",
+      "authenticationRequired": "Ukuqinisekisa Kuyadingeka",
+      "pleaseLogIn": "Sicela ungene ukuze ulandele abasebenzisi",
+      "success": "Impumelelo",
+      "unfollowSuccess": "Awusalandeli",
+      "followSuccess": "Manje uyalandela",
+      "error": "Iphutha",
+      "followError": "Yehlulekile ukubuyisela isimo sokulandela",
+      "posts": "Okuthunyelwe",
+      "followers": "Abalandeli",
+      "following": "Ukulandela",
+      "follow": "Landela",
+      "unfollow": "Yeka Ukulandela",
+      "chat": "Xoxa"
+    },
+    "menu": {
+      "menu": "Imenyu",
+      "settings": "Izilungiselelo",
+      "yourUwaciCoins": "Izinhlamvu zakho ze-Uwaci",
+      "notifications": "Izaziso",
+      "marketplace": "Imakethe",
+      "signOut": "Phuma",
+      "confirmSignOut": "Qinisekisa Ukuphuma",
+      "areYouSureSignOut": "Uqinisekile ukuthi ufuna ukuphuma?",
+      "cancel": "Khansela",
+      "goBack": "Buyela Emuva"
+    },
+    "settings": {
+      "settings": "Izilungiselelo",
+      "fontSelected": "Uhlobo Lombhalo Olukhethiwe",
+      "asYourFont": "usetwe njengohlobo lombhalo wakho",
+      "languageSelected": "Ulimi Olukhethiwe",
+      "asYourLanguage": "lusetwe njengeulimi lwakho",
+      "themeSelected": "Isitayela Esikhethiwe",
+      "asYourTheme": "sisetwe njengesitayela sakho",
+      "notifications": "Izaziso",
+      "marketplace": "Imakethe",
+      "account": "I-akhawunti",
+      "themes": "Izitayela",
+      "fonts": "Imibhalo",
+      "languages": "Izilimi",
+      "signOut": "Phuma",
+      "confirmSignOut": "Qinisekisa Ukuphuma",
+      "areYouSureSignOut": "Uqinisekile ukuthi ufuna ukuphuma?",
+      "cancel": "Khansela",
+      "goBack": "Buyela Emuva",
+      "selectFont": "Khetha Uhlobo Lombhalo",
+      "selectLanguage": "Khetha Ulimi",
+      "selectTheme": "Khetha Isitayela",
+      "passwordSecurity": "Iphasiwedi Nokuphepha",
+      "personalDetails": "Imininingwane Yomuntu Siqu",
+      "verification": "Ukuqinisekisa",
+      "paymentMethods": "Izindlela zokukhokha",
+      "adPreferences": "Okukhethwa Kwesikhangiso",
+      "upgradePremium": "Thuthukela ku-premium",
+      "content": "Okuqukethwe",
+      "language": "Ulimi",
+      "savedDraft": "Okugcinwe Okuzolungiswa",
+      "yourActivity": "Umsebenzi Wakho",
+      "accessibility": "Ukufinyelela",
+      "privacy": "Ubumfihlo",
+      "comments": "Amazwana",
+      "privateAccount": "I-akhawunti Eyimfihlo",
+      "directMessaging": "Umlayezo Oqondile",
+      "blockedReports": "Okuvinjelwe/Imibiko",
+      "termsPolicies": "Imigomo kanye Nezinqubomgomo",
+      "switchAccount": "Shintsha I-akhawunti"
+    },
+    "accountDetails": {
+      "settingsTitle": "Izilungiselelo ze-Akhawunti",
+      "profileSettings": "Hlela Iphrofayela ",
+      "resetPassword": "Setha Kabusha Iphasiwedi",
+      "deleteAccount": "Susa I-akhawunti",
+      "resetPasswordModal": {
+        "title": "Setha Kabusha Iphasiwedi",
+        "message": "I-imeyili yokusetha kabusha iphasiwedi izothunyelwa ku",
+        "sendEmail": "Thumela I-imeyili",
+        "cancel": "Khansela"
+      },
+      "deleteAccountModal": {
+        "title": "Susa I-akhawunti",
+        "message": "Uqinisekile ukuthi ufuna ukususa i-akhawunti yakho? Lesi senzo asikwazi ukubuyekezwa",
+        "delete": "Susa",
+        "cancel": "Khansela"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Iphrofayela Ibuyekeziwe",
+          "message": "Iphrofayela yakho ibuyekezwe ngempumelelo"
+        },
+        "profileUpdateError": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukubuyekeza iphrofayela yakho. Sicela uzame futhi"
+        },
+        "passwordReset": {
+          "title": "Ukusetha Kabusha Iphasiwedi",
+          "message": "I-imeyili yokusetha kabusha iphasiwedi ithunyelwe"
+        },
+        "passwordResetError": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukuthumela i-imeyili yokusetha kabusha iphasiwedi. Sicela uzame futhi"
+        },
+        "accountDeleted": {
+          "title": "I-akhawunti Isisuliwe",
+          "message": "I-akhawunti yakho isuliwe ngempumelelo"
+        },
+        "accountDeleteError": {
+          "title": "Iphutha",
+          "message": "Yehlulekile ukususa i-akhawunti yakho. Sicela uzame futhi"
+        }
+      }
+    }
+  }

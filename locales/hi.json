@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "चुनौतियों का अन्वेषण करें",
+    "thatInspire": "जो प्रेरित करती हैं!",
+    "signUp": "साइन अप करें",
+    "signIn": "साइन इन करें"
+  },
+  "signUp": {
+    "title": "साइन अप करें",
+    "headerMessage": "शुरू करने के लिए एक नया खाता बनाएं।",
+    "form": {
+      "username": {
+        "label": "उपयोगकर्ता नाम",
+        "placeholder": "एक उपयोगकर्ता नाम चुनें",
+        "validation": {
+          "minLength": "उपयोगकर्ता नाम कम से कम 3 अक्षरों का होना चाहिए।",
+          "regex": "उपयोगकर्ता नाम में केवल अक्षर, अंक और अंडरस्कोर हो सकते हैं।"
+        }
+      },
+      "firstname": {
+        "label": "पहला नाम",
+        "placeholder": "अपना पहला नाम दर्ज करें",
+        "validation": "पहला नाम कम से कम 3 अक्षरों का होना चाहिए।"
+      },
+      "lastname": {
+        "label": "अंतिम नाम",
+        "placeholder": "अपना अंतिम नाम दर्ज करें",
+        "validation": "अंतिम नाम कम से कम 3 अक्षरों का होना चाहिए।"
+      },
+      "email": {
+        "label": "ईमेल",
+        "placeholder": "अपना ईमेल पता दर्ज करें",
+        "validation": "कृपया एक वैध ईमेल पता दर्ज करें।"
+      },
+      "phoneNumber": {
+        "label": "फोन नंबर",
+        "placeholder": "अपना फोन नंबर दर्ज करें",
+        "validation": "कृपया एक वैध फोन नंबर दर्ज करें।"
+      },
+      "birthday": {
+        "label": "जन्मदिन",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "जन्मदिन YYYY-MM-DD प्रारूप में होना चाहिए",
+          "validDate": "अवैध तारीख",
+          "ageRestriction": "खाता बनाने के लिए आपको 18 वर्ष या उससे अधिक होना चाहिए"
+        }
+      },
+      "password": {
+        "label": "पासवर्ड",
+        "placeholder": "अपना पासवर्ड दर्ज करें",
+        "validation": {
+          "minLength": "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए।",
+          "maxLength": "पासवर्ड 64 अक्षरों से कम होना चाहिए।",
+          "uppercase": "पासवर्ड में कम से कम एक बड़ा अक्षर होना चाहिए।",
+          "lowercase": "पासवर्ड में कम से कम एक छोटा अक्षर होना चाहिए।",
+          "numberOrSpecial": "पासवर्ड में कम से कम एक अंक या विशेष वर्ण होना चाहिए।"
+        },
+        "strength": {
+          "weak": "कमजोर",
+          "fair": "मध्यम",
+          "good": "अच्छा",
+          "strong": "मजबूत"
+        }
+      },
+      "confirmPassword": {
+        "label": "पासवर्ड की पुष्टि करें",
+        "placeholder": "अपना पासवर्ड फिर से दर्ज करें",
+        "validation": "पासवर्ड मेल नहीं खाते।"
+      }
+    },
+    "buttons": {
+      "createAccount": "खाता बनाएं",
+      "alreadyHaveAccount": "क्या आपके पास पहले से खाता है? साइन इन करें"
+    },
+    "alerts": {
+      "error": {
+        "title": "त्रुटि",
+        "message": "आपका खाता बनाने के दौरान एक त्रुटि हुई। कृपया पुन: प्रयास करें।"
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "साइन अप करके, आप सहमत हैं कि आपने हमारे",
+      "termsOfService": "सेवा की शर्तें",
+      "privacyPolicy": "गोपनीयता नीति",
+      "andAccepted": "और इन्हें स्वीकार किया है"
+    }
+  },
+  "signIn": {
+    "title": "साइन इन करें",
+    "headerMessage": "अपने खाते तक पहुंचने के लिए अपने प्रमाण पत्र दर्ज करें।",
+    "form": {
+      "email": "ईमेल",
+      "emailPlaceholder": "ईमेल",
+      "password": "पासवर्ड",
+      "passwordPlaceholder": "पासवर्ड"
+    },
+    "buttons": {
+      "signIn": "साइन इन करें",
+      "forgotPassword": "पासवर्ड भूल गए?",
+      "signUp": "क्या आपके कोई खाता नहीं है? साइन अप करें"
+    },
+    "forgotPassword": {
+      "title": "पासवर्ड भूल गए",
+      "prompt": "कृपया पहले अपना ईमेल दर्ज करें।",
+      "successTitle": "अपना ईमेल जांचें",
+      "successMessage": "हमने आपके ईमेल पर आपके पासवर्ड रीसेट करने का लिंक भेजा है।",
+      "errorTitle": "रीसेट त्रुटि"
+    },
+    "termsAndPrivacy": {
+      "message": "साइन अप करके, आप सहमत हैं कि आपने हमारे",
+      "termsOfService": "सेवा की शर्तें",
+      "privacyPolicy": "गोपनीयता नीति",
+      "andAccepted": "और इन्हें स्वीकार किया है"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "साइन इन त्रुटि"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "अवैध या गायब एक्सेस टोकन।",
+      "sessionFailed": "सत्र सेट करने में विफल।",
+      "invalidPassword": "कृपया कम से कम 8 अक्षरों का एक वैध पासवर्ड दर्ज करें।",
+      "updateFailed": "आपका पासवर्ड अपडेट करने में विफल।"
+    },
+    "success": {
+      "passwordUpdated": "आपका पासवर्ड अपडेट हो गया है। कृपया पुनः साइन इन करें।"
+    },
+    "title": "अपना पासवर्ड रीसेट करें",
+    "instructions": "एक नया पासवर्ड दर्ज करें।",
+    "labels": {
+      "newPassword": "नया पासवर्ड"
+    },
+    "placeholders": {
+      "newPassword": "नया पासवर्ड दर्ज करें"
+    },
+    "buttons": {
+      "updatePassword": "पासवर्ड अपडेट करें"
+    }
+  },
+  "tabs": {
+    "home": "होम",
+    "search": "खोज",
+    "create": "बनाएं",
+    "explore": "प्रतियोगिताएँ",
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स",
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "otherUserProfile": "अन्य उपयोगकर्ता प्रोफ़ाइल",
+    "comment": "टिप्पणी",
+    "contest": "प्रतियोगिता",
+    "challengeDetails": "चुनौती विवरण",
+    "submissionDetails": "सबमिशन विवरण",
+    "contestDetails": "प्रतियोगिता विवरण",
+    "followers": "अनुसरणकर्ता",
+    "following": "अनुसरण कर रहे हैं",
+    "account": "खाता",
+    "notifications": "सूचनाएँ",
+    "leaderboard": "लीडरबोर्ड",
+    "market": "बाजार",
+    "rewards": "इनाम"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "बनाएं",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "होम आइकन",
+      "search": "खोज आइकन",
+      "create": "बनाने का आइकन",
+      "explore": "अन्वेषण आइकन",
+      "profile": "प्रोफ़ाइल आइकन"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "सबमिशन, उपयोगकर्ता, चुनौतियाँ खोजें...",
+    "clearSearch": "खोज साफ़ करें",
+    "loading": "लोड हो रहा है...",
+    "error": {
+      "title": "खोज त्रुटि",
+      "message": "खोज करते समय एक त्रुटि हुई।"
+    },
+    "noPreviousSearches": "कोई पिछली खोजें नहीं।",
+    "previousSearches": "पिछली खोजें",
+    "submissions": {
+      "title": "सबमिशन",
+      "noResults": "कोई सबमिशन नहीं मिला।",
+      "videoError": {
+        "title": "वीडियो त्रुटि",
+        "message": "वीडियो लोड करने में विफल।"
+      }
+    },
+    "users": {
+      "title": "उपयोगकर्ता",
+      "noResults": "कोई उपयोगकर्ता नहीं मिला।"
+    },
+    "challenges": {
+      "title": "चुनौतियाँ",
+      "noResults": "कोई चुनौती नहीं मिली।",
+      "videoError": {
+        "title": "वीडियो त्रुटि",
+        "message": "चुनौती का वीडियो लोड करने में विफल।"
+      },
+      "category": "श्रेणी: ",
+      "seasonalTag": "मौसमी",
+      "sponsoredTag": "प्रायोजित"
+    },
+    "repeatSearch": "फिर से खोजें",
+    "accessibility": {
+      "viewVideo": "शीर्षक के साथ वीडियो देखें",
+      "viewProfile": "प्रोफ़ाइल देखें",
+      "viewChallenge": "शीर्षक के साथ चुनौती देखें"
+    }
+  },
+  "contest": {
+    "title": "सभी प्रतियोगिताएँ",
+    "createContestButton": "प्रतियोगिता बनाएं"
+  },
+  "contests": {
+    "noContests": "कोई प्रतियोगिता नहीं मिली।",
+    "error": {
+      "title": "त्रुटि",
+      "message": "प्रतियोगिताएँ प्राप्त करने में विफल।"
+    },
+    "status": {
+      "notStarted": "शुरू नहीं हुई",
+      "ongoing": "चल रही है",
+      "ended": "समाप्त"
+    },
+    "dates": {
+      "start": "प्रारंभ: ",
+      "end": "समाप्ति: ",
+      "notAvailable": "उपलब्ध नहीं"
+    },
+    "contestDetailsButton": "प्रतियोगिता विवरण देखें"
+  },
+  "newContest": {
+    "header": {
+      "title": "नई प्रतियोगिता बनाएं",
+      "backButton": "वापस"
+    },
+    "fields": {
+      "title": {
+        "label": "शीर्षक",
+        "placeholder": "जैसे, ग्रीष्मकालीन नृत्य चुनौती",
+        "validation": "शीर्षक आवश्यक है।"
+      },
+      "description": {
+        "label": "विवरण",
+        "placeholder": "यह प्रतियोगिता किस बारे में है?"
+      },
+      "startDate": {
+        "label": "प्रारंभ तिथि",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "समाप्ति तिथि प्रारंभ तिथि के बाद होनी चाहिए।"
+      },
+      "endDate": {
+        "label": "समाप्ति तिथि",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "विजेता इनाम (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "प्रतिभागी इनाम (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "वीडियो विवरण (वैकल्पिक)",
+        "noVideoSelected": "एक वीडियो विवरण जोड़ें।",
+        "picked": "चयनित: {filename}",
+        "uploaded": "अपलोड किया गया: वीडियो सफलतापूर्वक अपलोड किया गया।",
+        "chooseVideoButton": "वीडियो चुनें",
+        "uploadVideoButton": "वीडियो अपलोड करें"
+      }
+    },
+    "buttons": {
+      "createContest": "प्रतियोगिता बनाएं"
+    },
+    "alerts": {
+      "error": {
+        "title": "त्रुटि",
+        "pickVideoMessage": "वीडियो चुनने में त्रुटि।",
+        "uploadVideoMessage": "वीडियो अपलोड करने में त्रुटि।",
+        "createContestMessage": "प्रतियोगिता बनाने में त्रुटि।"
+      },
+      "success": {
+        "videoUploadMessage": "वीडियो सफलतापूर्वक अपलोड किया गया!",
+        "createContestMessage": "प्रतियोगिता सफलतापूर्वक बनाई गई!"
+      },
+      "validation": {
+        "noTitle": "शीर्षक आवश्यक है।",
+        "invalidDates": "समाप्ति तिथि प्रारंभ तिथि के बाद होनी चाहिए।"
+      },
+      "noSession": {
+        "title": "प्रतियोगिता बनाने के लिए आपको लॉग इन करना होगा।"
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "प्रोफ़ाइल",
+      "settingsButton": "सेटिंग्स पर जाएं"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "अनुमति आवश्यक",
+        "message": "हमें आपकी तस्वीरों तक पहुंचने के लिए अनुमति की आवश्यकता है।"
+      },
+      "errorAlert": {
+        "title": "त्रुटि",
+        "message": "छवि चुनने में त्रुटि"
+      },
+      "successAlert": {
+        "title": "सफलता",
+        "message": "प्रोफ़ाइल चित्र सफलतापूर्वक अपडेट किया गया"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "शेयर त्रुटि",
+        "message": "रेफ़रल लिंक साझा नहीं किया जा सकता।"
+      },
+      "successShare": {
+        "title": "Challenz में मेरे साथ जुड़ें!",
+        "message": "नमस्ते! पंजीकरण के लिए इस लिंक का उपयोग करें: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "अनुसरणकर्ता",
+      "viewFollowers": "अनुसरणकर्ता देखें"
+    },
+    "following": {
+      "label": "अनुसरण कर रहे हैं",
+      "viewFollowing": "अनुसरण कर रहे हैं देखें"
+    },
+    "posts": {
+      "label": "पोस्ट",
+      "viewPosts": "पोस्ट देखें",
+      "noVideos": "अभी तक कोई वीडियो प्रकाशित नहीं किया गया है।"
+    },
+    "info": {
+      "email": "ईमेल",
+      "phone": "फोन",
+      "location": "स्थान",
+      "coins": "Uwaci Coins",
+      "bio": "बायो",
+      "noProfile": "कोई प्रोफ़ाइल नहीं मिली"
+    },
+    "buttons": {
+      "inviteFriends": "रेफ़रल लिंक साझा करें",
+      "deleteVideo": "वीडियो हटाएं",
+      "deleteVideoAlert": {
+        "title": "वीडियो हटाएं",
+        "message": "क्या आप सुनिश्चित हैं कि आप यह वीडियो हटाना चाहते हैं?"
+      },
+      "deleteSuccess": {
+        "title": "सफलता",
+        "message": "वीडियो सफलतापूर्वक हटा दिया गया।"
+      },
+      "deleteError": {
+        "title": "त्रुटि",
+        "message": "वीडियो हटाने में त्रुटि।"
+      }
+    },
+    "errors": {
+      "generalError": "एक त्रुटि हुई।",
+      "profileError": "प्रोफ़ाइल लाने में त्रुटि।",
+      "submissionsError": "सबमिशन लाने में त्रुटि।"
+    },
+    "loading": {
+      "profile": "प्रोफ़ाइल लोड हो रहा है...",
+      "submissions": "सबमिशन लोड हो रहे हैं..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "प्रोफ़ाइल संपादित करें",
+      "cancelButton": "रद्द करें",
+      "saveButton": "परिवर्तनों को सहेजें",
+      "savingButton": "सहेजा जा रहा है..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "पहला नाम",
+        "placeholder": "अपना पहला नाम दर्ज करें",
+        "error": {
+          "tooShort": "पहला नाम बहुत छोटा है"
+        }
+      },
+      "lastName": {
+        "label": "अंतिम नाम",
+        "placeholder": "अपना अंतिम नाम दर्ज करें",
+        "error": {
+          "tooShort": "अंतिम नाम बहुत छोटा है"
+        }
+      },
+      "phoneNumber": {
+        "label": "फोन नंबर",
+        "placeholder": "अपना फोन नंबर दर्ज करें",
+        "error": {
+          "invalid": "कृपया एक वैध फोन नंबर दर्ज करें"
+        }
+      },
+      "bio": {
+        "label": "बायो",
+        "placeholder": "हमारे साथ अपने बारे में बताएं",
+        "error": {
+          "tooLong": "बायो में 500 अक्षरों से कम होना चाहिए"
+        }
+      },
+      "location": {
+        "label": "स्थान",
+        "placeholder": "अपना स्थान दर्ज करें",
+        "error": {
+          "tooLong": "स्थान में 100 अक्षरों से कम होना चाहिए"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "त्रुटि",
+        "message": "प्रोफ़ाइल डेटा लाने में त्रुटि"
+      },
+      "updateSuccess": {
+        "title": "सफलता",
+        "message": "प्रोफ़ाइल सफलतापूर्वक अपडेट की गई"
+      },
+      "updateError": {
+        "title": "त्रुटि",
+        "message": "प्रोफ़ाइल अपडेट करने में त्रुटि"
+      }
+    },
+    "loading": {
+      "title": "लोड हो रहा है..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "लोड हो रहा है...",
+    "noProfileFound": "कोई प्रोफ़ाइल नहीं मिली",
+    "authenticationRequired": "प्रमाणीकरण आवश्यक",
+    "pleaseLogIn": "उपयोगकर्ताओं का अनुसरण करने के लिए कृपया लॉग इन करें।",
+    "success": "सफलता",
+    "unfollowSuccess": "आपने अनफ़ॉलो किया है",
+    "followSuccess": "आप अब फॉलो कर रहे हैं",
+    "error": "त्रुटि",
+    "followError": "फॉलो स्थिति अपडेट करने में त्रुटि।",
+    "posts": "पोस्ट",
+    "followers": "अनुसरणकर्ता",
+    "following": "अनुसरण कर रहे हैं",
+    "follow": "फॉलो करें",
+    "unfollow": "अनफ़ॉलो करें",
+    "chat": "चैट"
+  },
+  "settings": {
+    "settings": "सेटिंग्स",
+    "fontSelected": "चयनित फ़ॉन्ट",
+    "asYourFont": "को आपके फ़ॉन्ट के रूप में सेट किया गया है।",
+    "languageSelected": "चयनित भाषा",
+    "asYourLanguage": "को आपकी भाषा के रूप में सेट किया गया है।",
+    "themeSelected": "चयनित थीम",
+    "asYourTheme": "को आपकी थीम के रूप में सेट किया गया है।",
+    "notifications": "सूचनाएँ",
+    "marketplace": "मार्केटप्लेस",
+    "account": "खाता",
+    "themes": "थीम्स",
+    "fonts": "फ़ॉन्ट्स",
+    "languages": "भाषाएँ",
+    "signOut": "साइन आउट करें",
+    "confirmSignOut": "साइन आउट की पुष्टि करें",
+    "areYouSureSignOut": "क्या आप वाकई साइन आउट करना चाहते हैं?",
+    "cancel": "रद्द करें",
+    "goBack": "वापस जाएं",
+    "selectFont": "फ़ॉन्ट चुनें",
+    "selectLanguage": "भाषा चुनें",
+    "selectTheme": "थीम चुनें"
+  },
+  "accountDetails": {
+    "settingsTitle": "खाता सेटिंग्स",
+    "profileSettings": "प्रोफ़ाइल संपादित करें",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "deleteAccount": "खाता हटाएं",
+    "resetPasswordModal": {
+      "title": "पासवर्ड रीसेट करें",
+      "message": "पासवर्ड रीसेट करने के लिए एक ईमेल भेजा जाएगा",
+      "sendEmail": "ईमेल भेजें",
+      "cancel": "रद्द करें"
+    },
+    "deleteAccountModal": {
+      "title": "खाता हटाएं",
+      "message": "क्या आप सुनिश्चित हैं कि आप अपना खाता हटाना चाहते हैं? यह क्रिया पूर्ववत नहीं की जा सकती।",
+      "delete": "हटाएं",
+      "cancel": "रद्द करें"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "प्रोफ़ाइल अपडेट की गई",
+        "message": "आपकी प्रोफ़ाइल सफलतापूर्वक अपडेट की गई।"
+      },
+      "profileUpdateError": {
+        "title": "त्रुटि",
+        "message": "आपकी प्रोफ़ाइल अपडेट करने में त्रुटि हुई। कृपया पुनः प्रयास करें।"
+      },
+      "passwordReset": {
+        "title": "पासवर्ड रीसेट किया गया",
+        "message": "पासवर्ड रीसेट करने के लिए एक ईमेल भेजा गया।"
+      },
+      "passwordResetError": {
+        "title": "त्रुटि",
+        "message": "पासवर्ड रीसेट ईमेल भेजने में त्रुटि हुई। कृपया पुनः प्रयास करें।"
+      },
+      "accountDeleted": {
+        "title": "खाता हटाया गया",
+        "message": "आपका खाता सफलतापूर्वक हटा दिया गया।"
+      },
+      "accountDeleteError": {
+        "title": "त्रुटि",
+        "message": "आपका खाता हटाने में त्रुटि हुई। कृपया पुनः प्रयास करें।"
+      }
+    }
+  }
+}

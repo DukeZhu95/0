@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Sheba Diphephetso",
+      "thatInspire": "tse Kgothatsang!",
+      "signUp": "Ngodisa",
+      "signIn": "Kena"
+    },
+    "signUp": {
+      "title": "Ngodisa",
+      "headerMessage": "Etsa akhaonto e ntjha ho qala.",
+      "businessTitle": "Ngodisa jwaloka Kgwebo",
+      "headerMessageBusiness": "Etsa akhaonto ya kgwebo ho qala.",
+      "form": {
+        "username": {
+          "label": "Lebitso la mosebedisi",
+          "placeholder": "Kgetha lebitso la mosebedisi",
+          "validation": {
+            "minLength": "Lebitso la mosebedisi le lokela ho ba le ditlhaku tse 3 kapa ho feta.",
+            "regex": "Lebitso la mosebedisi le ka ba le ditlhaku, dinomoro, le matshwao a tlase feela"
+          }
+        },
+        "firstname": {
+          "label": "Lebitso la pele",
+          "placeholder": "Kenya lebitso la hao la pele",
+          "validation": "Lebitso la pele le lokela ho ba le ditlhaku tse 3 kapa ho feta."
+        },
+        "lastname": {
+          "label": "Sefane",
+          "placeholder": "Kenya sefane sa hao",
+          "validation": "Sefane se lokela ho ba le ditlhaku tse 3 kapa ho feta."
+        },
+        "businessName": {
+          "label": "Lebitso la Kgwebo",
+          "placeholder": "Kenya lebitso la kgwebo ya hao",
+          "validation": "Lebitso la kgwebo le lokela ho ba le ditlhaku tse 3 kapa ho feta."
+        },
+        "website": {
+          "label": "Webosaete ya Kgwebo",
+          "placeholder": "Kenya webosaete ya hao",
+          "validation": "Lebitso la kgwebo le lokela ho ba le ditlhaku tse 3 kapa ho feta."
+        },
+        "businessType": {
+          "label": "Mofuta wa Kgwebo",
+          "placeholder": "Mofuta wa Kgwebo",
+          "validation": "Lebitso la kgwebo le lokela ho ba le ditlhaku tse 3 kapa ho feta."
+        },
+        "email": {
+          "label": "Imeile",
+          "placeholder": "Kenya aterese ya hao ya imeile",
+          "validation": "Ka kopo kenya aterese ya imeile e sebetsang."
+        },
+        "phoneNumber": {
+          "label": "Nomoro ya Mohala",
+          "placeholder": "Kenya nomoro ya hao ya mohala",
+          "validation": "Ka kopo kenya nomoro ya mohala e sebetsang."
+        },
+        "birthday": {
+          "title": "Letsatsi la tswalo",
+          "label": "Letsatsi la tswalo",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Letsatsi la tswalo le lokela ho ba ka sebopeho sa DD-MM-YYYY",
+            "validDate": "Letsatsi le sa sebetseng",
+            "ageRestriction": "O lokela ho ba le dilemo tse 18 kapa ho feta ho etsa akhaonto"
+          }
+        },
+        "password": {
+          "label": "Phasewete",
+          "placeholder": "Kenya phasewete ya hao",
+          "validation": {
+            "minLength": "Phasewete e lokela ho ba le ditlhaku tse 8 kapa ho feta.",
+            "maxLength": "Phasewete e lokela ho ba ka tlase ho ditlhaku tse 64.",
+            "uppercase": "Phasewete e lokela ho ba le tlhaku e le nngwe e kgolo.",
+            "lowercase": "Phasewete e lokela ho ba le tlhaku e le nngwe e nyane.",
+            "numberOrSpecial": "Phasewete e lokela ho ba le nomoro e le nngwe kapa letshwao le ikgethang."
+          },
+          "strength": {
+            "weak": "E fokola",
+            "fair": "E mahareng",
+            "good": "E ntle",
+            "strong": "E matla"
+          }
+        },
+        "confirmPassword": {
+          "label": "Netefatsa Phasewete",
+          "placeholder": "Kenya phasewete ya hao hape",
+          "validation": "Diphasewete ha di tshwane."
+        }
+      },
+      "buttons": {
+        "createAccount": "Etsa Akhaonto",
+        "alreadyHaveAccount": "O se o na le akhaonto?",
+        "signIn": "Kena",
+        "businessJoin": "Kenela Challenz jwaloka molekane wa kgwebo"
+      },
+      "alerts": {
+        "error": {
+          "title": "Phoso",
+          "message": "Ho bile le phoso ha ho etswa akhaonto ya hao. Ka kopo leka hape."
+        },
+        "passwordMismatch": {
+          "title": "Phasewete ha e Tshwane",
+          "message": "Phasewete e fosahetseng. Ka kopo leka hape."
+        },
+        "agreementRequired": {
+          "title": "Tumellano e a Hlokahala",
+          "message": "Ka kopo amohela Melao ya Tshebeletso le Polisi ya Lekunutu."
+        },
+        "success": {
+          "title": "Ho Atlehile",
+          "message": "Akhaonto e entswe ka katleho."
+        },
+        "signUpError": {
+          "title": "Phoso ya ho Ngodisa",
+          "message": "Ho bile le phoso ha ho etswa akhaonto ya hao. Ka kopo leka hape."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Ka ho ngodisa o dumela hore o badile",
+        "termsOfService": "Melao ya Tshebeletso",
+        "privacyPolicy": "Polisi ya Lekunutu",
+        "andAccepted": "mme o amohetse"
+      }
+    },
+    "signIn": {
+      "title": "Kena",
+      "headerMessage": "Kenya dibopeho tsa hao ho kena akhaontong ya hao.",
+      "form": {
+        "email": "Imeile",
+        "emailPlaceholder": "Kenya Imeile ya hao",
+        "password": "Phasewete",
+        "passwordPlaceholder": "Kenya Phasewete ya hao"
+      },
+      "buttons": {
+        "signIn": "Kena",
+        "forgotPassword": "O Lebetse Phasewete?",
+        "noAccount": "Ha o na akhaonto?",
+        "signUp": " Ngodisa"
+      },
+      "forgotPassword": {
+        "title": "Lebetse Phasewete",
+        "prompt": "Ka kopo kenya imeile ya hao pele.",
+        "successTitle": "Sheba imeile ya hao",
+        "successMessage": "Re romeletse kgokahanyo ya ho seta phasewete botjha imeileng ya hao.",
+        "errorTitle": "Phoso ya ho Seta Botjha"
+      },
+      "termsAndPrivacy": {
+        "message": "Ka ho ngodisa o dumela hore o badile",
+        "termsOfService": "Melao ya Tshebeletso",
+        "privacyPolicy": "Polisi ya Lekunutu",
+        "andAccepted": "mme o amohetse"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Phoso ya ho Kena"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Lebetse Phasewete",
+      "description": "Kenya aterese ya hao ya imeile ka tlase mme re tla o romella kgokahanyo ya ho seta phasewete ya hao botjha.",
+      "form": {
+        "email": "Aterese ya Imeile"
+      },
+      "buttons": {
+        "reset": "Seta Phasewete Botjha",
+        "sending": "E a romellwa...",
+        "remembered": "O hopotse phasewete ya hao?",
+        "signIn": "Kena"
+      },
+      "alerts": {
+        "enterEmail": "Ka kopo kenya aterese ya hao ya imeile.",
+        "checkEmail": "Sheba imeile ya hao bakeng sa kgokahanyo ya ho seta botjha.",
+        "resetError": "Ho hlolehile ho seta phasewete botjha"
+      }
+    },
+    "resetPassword": {
+      "title": "Ntjhafatsa Phasewete",
+      "description": "Kenya phasewete ya hao e ntjha ka tlase ho seta phasewete ya akhaonto ya hao botjha.",
+      "form": {
+        "newPassword": "Kenya phasewete e ntjha",
+        "confirmPassword": "Netefatsa phasewete e ntjha"
+      },
+      "alerts": {
+        "enterBothPasswords": "Ka kopo kenya dibaka ka bobedi tsa phasewete.",
+        "passwordMismatch": "Diphasewete ha di tshwane. Ka kopo leka hape.",
+        "success": "Phasewete ya hao e ntjhafaditswe ka katleho.",
+        "updateError": "Phoso ya ho ntjhafatsa phasewete. Ka kopo leka hape."
+      },
+      "buttons": {
+        "saving": "E a boloka...",
+        "update": "Ntjhafatsa Phasewete"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Tokene ya phihlello e sa sebetseng kapa e siyo.",
+        "sessionFailed": "Ho hlolehile ho beha kopano.",
+        "invalidPassword": "Ka kopo kenya phasewete e sebetsang ya ditlhaku tse 8 kapa ho feta.",
+        "updateFailed": "Ho hlolehile ho ntjhafatsa phasewete ya hao."
+      },
+      "success": {
+        "passwordUpdated": "Phasewete ya hao e ntjhafaditswe. Ka kopo kena hape."
+      },
+      "title": "Seta Phasewete ya hao Botjha",
+      "instructions": "Kenya phasewete e ntjha.",
+      "labels": {
+        "newPassword": "Phasewete e Ntjha"
+      },
+      "placeholders": {
+        "newPassword": "Kenya phasewete e ntjha"
+      },
+      "buttons": {
+        "updatePassword": "Ntjhafatsa Phasewete"
+      }
+    },
+    "tabs": {
+      "home": "Lehae",
+      "search": "Batla",
+      "create": "Etsa",
+      "contest": "Dithulano",
+      "menu": "Menyu",
+      "settings": "Ditlhophiso",
+      "profile": "Profaele",
+      "editProfile": "Lokisa Profaele ya Hao",
+      "otherUserProfile": "Profaele ya Mosebedisi",
+      "explore": "Sheba",
+      "challengeDetails": "Dintlha tsa Phephetso",
+      "submissionDetails": "Dintlha tsa Nehelano",
+      "contestDetails": "Dintlha tsa Thulano",
+      "followers": "Balatedi ",
+      "following": "Latela ",
+      "account": "Akhaonto",
+      "notifications": "Ditsebiso",
+      "leaderboard": "Tafole ya Baetapele",
+      "market": "Mmaraka",
+      "rewards": "Meputso",
+      "coin": "Dikoene tsa Hao",
+      "savedChallenges": "Diphephetso tse Bolokwang"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Etsa",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Aekhone ya lehae",
+        "search": "Aekhone ya ho batla",
+        "create": "Aekhone ya ho etsa",
+        "explore": "Aekhone ya ho sheba",
+        "profile": "Aekhone ya profaele"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Batla dinehelano, basebedisi, diphephetso...",
+      "clearSearch": "Hlakola dipatlisiso",
+      "loading": "E a kena...",
+      "error": {
+        "title": "Phoso ya ho Batla",
+        "message": "Ho bile le phoso nakong ya ho batla."
+      },
+      "noPreviousSearches": "Ha ho na dipatlisiso tsa pele.",
+      "previousSearches": "Dipatlisiso tsa Pele",
+      "submissions": {
+        "title": "Dinehelano",
+        "noResults": "Ha ho na dinehelano tse fumanweng.",
+        "videoError": {
+          "title": "Phoso ya Video",
+          "message": "Ho hlolehile ho kena video."
+        }
+      },
+      "users": {
+        "title": "Basebedisi",
+        "noResults": "Ha ho na basebedisi ba fumanweng."
+      },
+      "challenges": {
+        "title": "Diphephetso",
+        "noResults": "Ha ho na diphephetso tse fumanweng.",
+        "videoError": {
+          "title": "Phoso ya Video",
+          "message": "Ho hlolehile ho kena video ya phephetso."
+        },
+        "category": "Sehlopha: ",
+        "seasonalTag": "Ya Sehla",
+        "sponsoredTag": "E Tshehetswa"
+      },
+      "repeatSearch": "Pheta patlisiso ya",
+      "accessibility": {
+        "viewVideo": "Sheba video ya sehlooho",
+        "viewProfile": "Sheba profaele ya",
+        "viewChallenge": "Sheba phephetso ya sehlooho"
+      }
+    },
+    "contest": {
+      "title": "Dithulano Tsohle",
+      "createContestButton": "Etsa Thulano"
+    },
+    "contests": {
+      "noContests": "Ha ho na dithulano tse fumanweng.",
+      "error": {
+        "title": "Phoso",
+        "message": "Ho hlolehile ho fumana dithulano."
+      },
+      "status": {
+        "notStarted": "Ha e so Qale",
+        "ongoing": "E Tswellang",
+        "ended": "E Fedile"
+      },
+      "dates": {
+        "start": "Qala: ",
+        "end": "Fela: ",
+        "notAvailable": "N/A"
+      },
+      "contestDetailsButton": "Sheba Dintlha tsa Thulano"
+    },
+    "newContest": {
+      "header": {
+        "title": "Etsa Thulano e Ntjha",
+        "backButton": "Morao"
+      },
+      "fields": {
+        "title": {
+          "label": "Sehlooho",
+          "placeholder": "mohlala, Thulano ya Motanso ya Lehlabula",
+          "validation": "Sehlooho se a hlokahala."
+        },
+        "description": {
+          "label": "Tlhaloso",
+          "placeholder": "Thulano ena e mabapi le eng?"
+        },
+        "startDate": {
+          "label": "Letsatsi la Qaleho",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Letsatsi la ho fela le lokela ho ba kamora letsatsi la qaleho."
+        },
+        "endDate": {
+          "label": "Letsatsi la ho Fela",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Moputso wa Mofenyi (Dikoene tsa Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Moputso wa Monkakarolo (Dikoene tsa Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Tlhaloso ya Video (Ha e Qobellwe)",
+          "noVideoSelected": "Kenya tlhaloso ya video.",
+          "picked": "E kgethilwe: {filename}",
+          "uploaded": "E kentswe: Video e kentswe ka katleho.",
+          "chooseVideoButton": "Kgetha Video",
+          "uploadVideoButton": "Kenya Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Etsa Thulano"
+      },
+      "alerts": {
+        "error": {
+          "title": "Phoso",
+          "pickVideoMessage": "Ho hlolehile ho kgetha video.",
+          "uploadVideoMessage": "Ho hlolehile ho kenya video.",
+          "createContestMessage": "Ho hlolehile ho etsa thulano."
+        },
+        "success": {
+          "title": "Ho Atlehile.",
+          "videoUploadMessage": "Video e kentswe ka katleho!",
+          "createContestMessage": "Thulano e entswe ka katleho!"
+        },
+        "validation": {
+          "noTitle": "Sehlooho se a hlokahala.",
+          "invalidDates": "Letsatsi la ho fela le lokela ho ba kamora letsatsi la qaleho."
+        },
+        "noSession": {
+          "title": "O lokela ho kena ho etsa thulano."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profaele",
+        "settingsButton": "Eya ho Ditlhophiso"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Tumello e a hlokahala",
+          "message": "Re hloka tumello ho finyella ditshwantsho tsa hao."
+        },
+        "errorAlert": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho kgetha setshwantsho"
+        },
+        "successAlert": {
+          "title": "Ho Atlehile",
+          "message": "Setshwantsho sa profaele se ntjhafaditswe ka katleho"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Phoso ya ho Arolelana",
+          "message": "Ha ho kgonehe ho arolelana kgokahanyo ya tshupiso."
+        },
+        "successShare": {
+          "title": "Kenela le nna ho Challenz!",
+          "message": "Dumela! Sebedisa kgokahanyo ena ho ngodisa: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Balatedi",
+        "viewFollowers": "Sheba Balatedi"
+      },
+      "following": {
+        "label": "Latela",
+        "viewFollowing": "Sheba bao o ba Latelang"
+      },
+      "posts": {
+        "label": "Diposo",
+        "viewPosts": "Sheba Diposo",
+        "noVideos": "Ha ho na dibidio tse posetsweng ho fihlela jwale."
+      },
+      "info": {
+        "email": "Imeile",
+        "phone": "Mohala",
+        "location": "Sebaka",
+        "coins": "Dikoene tsa Uwaci",
+        "bio": "Boitshetleho",
+        "noProfile": "Ha ho na Profaele e Fumanweng"
+      },
+      "buttons": {
+        "inviteFriends": "Mema Metswalle",
+        "deleteVideo": "Hlakola Video",
+        "deleteVideoAlert": {
+          "title": "Hlakola Video",
+          "message": "Na o kgodisehile hore o batla ho hlakola video ena?"
+        },
+        "deleteSuccess": {
+          "title": "Ho Atlehile",
+          "message": "Video e hlakotswe ka katleho."
+        },
+        "deleteError": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho hlakola video."
+        }
+      },
+      "errors": {
+        "generalError": "Ho bile le phoso.",
+        "profileError": "Ho hlolehile ho fumana profaele.",
+        "submissionsError": "Ho hlolehile ho fumana dinehelano."
+      },
+      "loading": {
+        "profile": "Ho kena profaele...",
+        "submissions": "Ho kena dinehelano..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Lokisa Profaele",
+        "cancelButton": "Kansela",
+        "saveButton": "Boloka Diphetoho",
+        "savingButton": "Ho a boloka..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Lebitso la Pele",
+          "placeholder": "Kenya lebitso la hao la pele",
+          "error": {
+            "tooShort": "Lebitso la pele le khutshwane haholo"
+          }
+        },
+        "lastName": {
+          "label": "Sefane",
+          "placeholder": "Kenya sefane sa hao",
+          "error": {
+            "tooShort": "Sefane se khutshwane haholo"
+          }
+        },
+        "phoneNumber": {
+          "label": "Nomoro ya Mohala",
+          "placeholder": "Kenya nomoro ya hao ya mohala",
+          "error": {
+            "invalid": "Ka kopo kenya nomoro ya mohala e sebetsang"
+          }
+        },
+        "bio": {
+          "label": "Boitshetleho",
+          "placeholder": "Re bolelle ka wena",
+          "error": {
+            "tooLong": "Boitshetleho bo lokela ho ba ka tlase ho ditlhaku tse 500"
+          }
+        },
+        "location": {
+          "label": "Sebaka",
+          "placeholder": "Kenya sebaka sa hao",
+          "error": {
+            "tooLong": "Sebaka se lokela ho ba ka tlase ho ditlhaku tse 100"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho fumana data ya profaele"
+        },
+        "updateSuccess": {
+          "title": "Ho Atlehile",
+          "message": "Profaele e ntjhafaditswe ka katleho"
+        },
+        "updateError": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho ntjhafatsa profaele"
+        }
+      },
+      "loading": {
+        "title": "Ho kena..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Ho kena...",
+      "noProfileFound": "Ha ho na Profaele e Fumanweng",
+      "authenticationRequired": "Netefatso e a Hlokahala",
+      "pleaseLogIn": "Ka kopo kena ho latela basebedisi.",
+      "success": "Ho Atlehile",
+      "unfollowSuccess": "O kgaotse ho latela",
+      "followSuccess": "Jwale o latela",
+      "error": "Phoso",
+      "followError": "Ho hlolehile ho ntjhafatsa boemo ba ho latela.",
+      "posts": "Diposo",
+      "followers": "Balatedi",
+      "following": "Latela",
+      "follow": "Latela",
+      "unfollow": "Tlohela ho Latela",
+      "chat": "Qoqa"
+    },
+    "menu": {
+      "menu": "Menyu",
+      "settings": "Ditlhophiso",
+      "yourUwaciCoins": "Dikoene tsa Hao tsa Uwaci",
+      "notifications": "Ditsebiso",
+      "marketplace": "Mmaraka",
+      "signOut": "Tswa",
+      "confirmSignOut": "Netefatsa ho Tswa",
+      "areYouSureSignOut": "Na o kgodisehile hore o batla ho tswa?",
+      "cancel": "Kansela",
+      "goBack": "Kgutlela Morao",
+      "joinNow": "Kenela Hona Jwale",
+      "joinLater": "Kenela Hamorao",
+      "savedChallenges": "Diphephetso tseo o ka di Kenelang"
+    },
+    "settings": {
+      "settings": "Ditlhophiso",
+      "fontSelected": "Fonti e Kgethilwe",
+      "asYourFont": "e setswe jwaloka fonti ya hao.",
+      "languageSelected": "Puo e Kgethilwe",
+      "asYourLanguage": "e setswe jwaloka puo ya hao.",
+      "themeSelected": "Theme e Kgethilwe",
+      "asYourTheme": "e setswe jwaloka theme ya hao.",
+      "notifications": "Ditsebiso",
+      "marketplace": "Mmaraka",
+      "account": "Akhaonto",
+      "themes": "Ditheme",
+      "fonts": "Difonti",
+      "languages": "Dipuo",
+      "signOut": "Tswa",
+      "confirmSignOut": "Netefatsa ho Tswa",
+      "areYouSureSignOut": "Na o kgodisehile hore o batla ho tswa?",
+      "cancel": "Kansela",
+      "goBack": "Kgutlela Morao",
+      "selectFont": "Kgetha Fonti",
+      "selectLanguage": "Kgetha Puo",
+      "selectTheme": "Kgetha Theme",
+      "passwordSecurity": "Phasewete & Tshireletso",
+      "personalDetails": "Dintlha tsa Botho",
+      "verification": "Netefatso",
+      "paymentMethods": "Mekgwa ya Tefo",
+      "adPreferences": "Dikgetho tsa Papatso",
+      "upgradePremium": "Nyollela ho ya ho premium",
+      "content": "Dikahare",
+      "language": "Puo",
+      "savedDraft": "Mokgwaritso o Bolokwang",
+      "yourActivity": "Tshebetso ya Hao",
+      "accessibility": "Phihlello",
+      "privacy": "Lekunutu",
+      "comments": "Ditlhahiso",
+      "privateAccount": "Akhaonto ya Lekunutu",
+      "directMessaging": "Ho Romela Melaetsa ka ho Otloloha",
+      "blockedReports": "E Thibelwa/Dipehelo",
+      "termsPolicies": "Melao le Dipholisi",
+      "switchAccount": "Fetola Akhaonto"
+    },
+    "accountDetails": {
+      "settingsTitle": "Ditlhophiso tsa Akhaonto",
+      "profileSettings": "Lokisa Profaele ",
+      "resetPassword": "Seta Phasewete Botjha",
+      "deleteAccount": "Hlakola Akhaonto",
+      "resetPasswordModal": {
+        "title": "Seta Phasewete Botjha",
+        "message": "Imeile ya ho seta phasewete botjha e tla romelwa ho",
+        "sendEmail": "Romela Imeile",
+        "cancel": "Kansela"
+      },
+      "deleteAccountModal": {
+        "title": "Hlakola Akhaonto",
+        "message": "Na o kgodisehile hore o batla ho hlakola akhaonto ya hao? Tshebetso ena e ke ke ya kgutliswa morao.",
+        "delete": "Hlakola",
+        "cancel": "Kansela"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profaele e Ntjhafaditswe",
+          "message": "Profaele ya hao e ntjhafaditswe ka katleho."
+        },
+        "profileUpdateError": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho ntjhafatsa profaele ya hao. Ka kopo leka hape."
+        },
+        "passwordReset": {
+          "title": "Phasewete e Setswe Botjha",
+          "message": "Imeile ya ho seta phasewete botjha e rometsweng."
+        },
+        "passwordResetError": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho romela imeile ya ho seta phasewete botjha. Ka kopo leka hape."
+        },
+        "accountDeleted": {
+          "title": "Akhaonto e Hlakotswe",
+          "message": "Akhaonto ya hao e hlakotswe ka katleho."
+        },
+        "accountDeleteError": {
+          "title": "Phoso",
+          "message": "Ho hlolehile ho hlakola akhaonto ya hao. Ka kopo leka hape."
+        }
+      }
+    }
+  }

@@ -1,0 +1,634 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Разгледайте Предизвикателства",
+    "thatInspire": "които Вдъхновяват!",
+    "signUp": "Регистрация",
+    "signIn": "Вход"
+  },
+  "signUp": {
+    "title": "Регистрация",
+    "headerMessage": "Създайте нов акаунт, за да започнете.",
+    "businessTitle": "Регистрирайте се като Бизнес",
+    "headerMessageBusiness": "Създайте бизнес акаунт, за да започнете.",
+    "form": {
+      "username": {
+        "label": "Потребителско име",
+        "placeholder": "Изберете потребителско име",
+        "validation": {
+          "minLength": "Потребителското име трябва да съдържа поне 3 символа.",
+          "regex": "Потребителското име може да съдържа само букви, цифри и долни черти"
+        }
+      },
+      "firstname": {
+        "label": "Име",
+        "placeholder": "Въведете вашето име",
+        "validation": "Името трябва да съдържа поне 3 символа."
+      },
+      "lastname": {
+        "label": "Фамилия",
+        "placeholder": "Въведете вашата фамилия",
+        "validation": "Фамилията трябва да съдържа поне 3 символа."
+      },
+      "businessName": {
+        "label": "Име на Компанията",
+        "placeholder": "Въведете името на вашата компания",
+        "validation": "Името на компанията трябва да съдържа поне 3 символа."
+      },
+      "website": {
+        "label": "Уебсайт на Компанията",
+        "placeholder": "Въведете вашия уебсайт",
+        "validation": "Името на компанията трябва да съдържа поне 3 символа."
+      },
+      "businessType": {
+        "label": "Тип Бизнес",
+        "placeholder": "Тип Бизнес",
+        "validation": "Името на компанията трябва да съдържа поне 3 символа."
+      },
+      "email": {
+        "label": "Имейл",
+        "placeholder": "Въведете вашия имейл адрес",
+        "validation": "Моля, въведете валиден имейл адрес."
+      },
+      "phoneNumber": {
+        "label": "Телефонен Номер",
+        "placeholder": "Въведете вашия телефонен номер",
+        "validation": "Моля, въведете валиден телефонен номер."
+      },
+      "birthday": {
+        "title": "Дата на раждане",
+        "label": "Дата на раждане",
+        "placeholder": "ДД-ММ-ГГГГ",
+        "validation": {
+          "format": "Датата на раждане трябва да бъде във формат ДД-ММ-ГГГГ",
+          "validDate": "Невалидна дата",
+          "ageRestriction": "Трябва да сте на поне 18 години, за да създадете акаунт"
+        }
+      },
+      "password": {
+        "label": "Парола",
+        "placeholder": "Въведете вашата парола",
+        "validation": {
+          "minLength": "Паролата трябва да съдържа поне 8 символа.",
+          "maxLength": "Паролата трябва да съдържа по-малко от 64 символа.",
+          "uppercase": "Паролата трябва да съдържа поне една главна буква.",
+          "lowercase": "Паролата трябва да съдържа поне една малка буква.",
+          "numberOrSpecial": "Паролата трябва да съдържа поне една цифра или специален символ."
+        },
+        "strength": {
+          "weak": "Слаба",
+          "fair": "Задоволителна",
+          "good": "Добра",
+          "strong": "Силна"
+        }
+      },
+      "confirmPassword": {
+        "label": "Потвърдете Паролата",
+        "placeholder": "Въведете вашата парола отново",
+        "validation": "Паролите не съвпадат."
+      }
+    },
+    "buttons": {
+      "createAccount": "Създаване на Акаунт",
+      "alreadyHaveAccount": "Вече имате акаунт?",
+      "signIn": "Вход",
+      "businessJoin": "Присъединете се към Challenz като бизнес партньор"
+    },
+    "alerts": {
+      "error": {
+        "title": "Грешка",
+        "message": "Възникна грешка при създаването на вашия акаунт. Моля, опитайте отново."
+      },
+      "passwordMismatch": {
+        "title": "Несъвпадение на Паролите",
+        "message": "Грешна парола. Моля, опитайте отново."
+      },
+      "agreementRequired": {
+        "title": "Изисква се Съгласие",
+        "message": "Моля, приемете Условията за Ползване и Политиката за Поверителност."
+      },
+      "success": {
+        "title": "Успех",
+        "message": "Акаунтът е създаден успешно."
+      },
+      "signUpError": {
+        "title": "Грешка при Регистрация",
+        "message": "Възникна грешка при създаването на вашия акаунт. Моля, опитайте отново."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "С регистрацията потвърждавате, че сте прочели нашите",
+      "termsOfService": "Условия за Ползване",
+      "privacyPolicy": "Политика за Поверителност",
+      "andAccepted": "и сте приели нашата"
+    }
+  },
+  "signIn": {
+    "title": "Вход",
+    "headerMessage": "Въведете вашите идентификационни данни за достъп до акаунта ви.",
+    "form": {
+      "email": "Имейл",
+      "emailPlaceholder": "Въведете вашия Имейл",
+      "password": "Парола",
+      "passwordPlaceholder": "Въведете вашата Парола"
+    },
+    "buttons": {
+      "signIn": "Вход",
+      "forgotPassword": "Забравена Парола?",
+      "noAccount": "Нямате акаунт?",
+      "signUp": " Регистрация"
+    },
+    "forgotPassword": {
+      "title": "Забравена Парола",
+      "prompt": "Моля, първо въведете вашия имейл по-горе.",
+      "successTitle": "Проверете вашия имейл",
+      "successMessage": "Изпратихме ви връзка за възстановяване на паролата на вашия имейл.",
+      "errorTitle": "Грешка при Възстановяване"
+    },
+    "termsAndPrivacy": {
+      "message": "С регистрацията потвърждавате, че сте прочели нашите",
+      "termsOfService": "Условия за Ползване",
+      "privacyPolicy": "Политика за Поверителност",
+      "andAccepted": "и сте приели нашата"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Грешка при Вход"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Забравена Парола",
+    "description": "Въведете вашия имейл адрес по-долу и ще ви изпратим връзка за възстановяване на паролата.",
+    "form": {
+      "email": "Имейл Адрес"
+    },
+    "buttons": {
+      "reset": "Възстановяване на Парола",
+      "sending": "Изпращане...",
+      "remembered": "Спомнихте си паролата?",
+      "signIn": "Вход"
+    },
+    "alerts": {
+      "enterEmail": "Моля, въведете вашия имейл адрес.",
+      "checkEmail": "Проверете вашия имейл за връзката за възстановяване.",
+      "resetError": "Неуспешно възстановяване на паролата"
+    }
+  },
+  "resetPassword": {
+    "title": "Актуализиране на Парола",
+    "description": "Въведете вашата нова парола по-долу, за да възстановите паролата на акаунта си.",
+    "form": {
+      "newPassword": "Въведете нова парола",
+      "confirmPassword": "Потвърдете новата парола"
+    },
+    "alerts": {
+      "enterBothPasswords": "Моля, попълнете и двете полета за парола.",
+      "passwordMismatch": "Паролите не съвпадат. Моля, опитайте отново.",
+      "success": "Вашата парола е актуализирана успешно.",
+      "updateError": "Грешка при актуализиране на паролата. Моля, опитайте отново."
+    },
+    "buttons": {
+      "saving": "Запазване...",
+      "update": "Актуализиране на Парола"
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Невалиден или липсващ токен за достъп.",
+      "sessionFailed": "Неуспешно установяване на сесия.",
+      "invalidPassword": "Моля, въведете валидна парола с поне 8 символа.",
+      "updateFailed": "Неуспешно актуализиране на вашата парола."
+    },
+    "success": {
+      "passwordUpdated": "Вашата парола е актуализирана. Моля, влезте отново."
+    },
+    "title": "Възстановяване на Паролата",
+    "instructions": "Въведете нова парола.",
+    "labels": {
+      "newPassword": "Нова Парола"
+    },
+    "placeholders": {
+      "newPassword": "Въведете нова парола"
+    },
+    "buttons": {
+      "updatePassword": "Актуализиране на Парола"
+    }
+  },
+  "tabs": {
+    "home": "Начало",
+    "search": "Търсене",
+    "create": "Създаване",
+    "contest": "Конкурси",
+    "menu": "Меню",
+    "settings": "Настройки",
+    "profile": "Профил",
+    "editProfile": "Редактиране на Профил",
+    "otherUserProfile": "Профил на Потребител",
+    "explore": "Разглеждане",
+    "challengeDetails": "Детайли на Предизвикателство",
+    "submissionDetails": "Детайли на Подаване",
+    "contestDetails": "Детайли на Конкурс",
+    "followers": "Последователи ",
+    "following": "Следвани ",
+    "account": "Акаунт",
+    "notifications": "Известия",
+    "leaderboard": "Класация",
+    "market": "Пазар",
+    "rewards": "Награди",
+    "coin": "Вашите Монети",
+    "savedChallenges": "Запазени Предизвикателства"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Създаване",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Икона за начало",
+      "search": "Икона за търсене",
+      "create": "Икона за създаване",
+      "explore": "Икона за разглеждане",
+      "profile": "Икона за профил"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Търсене на подавания, потребители, предизвикателства...",
+    "clearSearch": "Изчистване на търсенето",
+    "loading": "Зареждане...",
+    "error": {
+      "title": "Грешка при Търсене",
+      "message": "Възникна грешка при търсенето."
+    },
+    "noPreviousSearches": "Няма предишни търсения.",
+    "previousSearches": "Предишни Търсения",
+    "submissions": {
+      "title": "Подавания",
+      "noResults": "Не са намерени подавания.",
+      "videoError": {
+        "title": "Видео Грешка",
+        "message": "Неуспешно зареждане на видеото."
+      }
+    },
+    "users": {
+      "title": "Потребители",
+      "noResults": "Не са намерени потребители."
+    },
+    "challenges": {
+      "title": "Предизвикателства",
+      "noResults": "Не са намерени предизвикателства.",
+      "videoError": {
+        "title": "Видео Грешка",
+        "message": "Неуспешно зареждане на видеото на предизвикателството."
+      },
+      "category": "Категория: ",
+      "seasonalTag": "Сезонно",
+      "sponsoredTag": "Спонсорирано"
+    },
+    "repeatSearch": "Повторете търсенето за",
+    "accessibility": {
+      "viewVideo": "Преглед на видео със заглавие",
+      "viewProfile": "Преглед на профил на",
+      "viewChallenge": "Преглед на предизвикателство със заглавие"
+    }
+  },
+  "contest": {
+    "title": "Всички Конкурси",
+    "createContestButton": "Създаване на Конкурс"
+  },
+  "contests": {
+    "noContests": "Не са намерени конкурси.",
+    "error": {
+      "title": "Грешка",
+      "message": "Неуспешно извличане на конкурси."
+    },
+    "status": {
+      "notStarted": "Незапочнат",
+      "ongoing": "В процес",
+      "ended": "Приключил"
+    },
+    "dates": {
+      "start": "Начало: ",
+      "end": "Край: ",
+      "notAvailable": "Не е налично"
+    },
+    "contestDetailsButton": "Преглед на Детайли на Конкурса"
+  },
+  "newContest": {
+    "header": {
+      "title": "Създаване на Нов Конкурс",
+      "backButton": "Назад"
+    },
+    "fields": {
+      "title": {
+        "label": "Заглавие",
+        "placeholder": "напр., Летен Танцов Конкурс",
+        "validation": "Заглавието е задължително."
+      },
+      "description": {
+        "label": "Описание",
+        "placeholder": "За какво е този конкурс?"
+      },
+      "startDate": {
+        "label": "Начална Дата",
+        "placeholder": "ДД-ММ-ГГГГ",
+        "validation": "Крайната дата трябва да бъде след началната дата."
+      },
+      "endDate": {
+        "label": "Крайна Дата",
+        "placeholder": "ДД-ММ-ГГГГ"
+      },
+      "winnerReward": {
+        "label": "Награда за Победителя (Uwaci Монети)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Награда за Участник (Uwaci Монети)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Видео Описание (По избор)",
+        "noVideoSelected": "Добавете видео описание.",
+        "picked": "Избрано: {filename}",
+        "uploaded": "Качено: Видеото е успешно качено.",
+        "chooseVideoButton": "Избор на Видео",
+        "uploadVideoButton": "Качване на Видео"
+      }
+    },
+    "buttons": {
+      "createContest": "Създаване на Конкурс"
+    },
+    "alerts": {
+      "error": {
+        "title": "Грешка",
+        "pickVideoMessage": "Неуспешен избор на видео.",
+        "uploadVideoMessage": "Неуспешно качване на видео.",
+        "createContestMessage": "Неуспешно създаване на конкурс."
+      },
+      "success": {
+        "title": "Успех.",
+        "videoUploadMessage": "Видеото е успешно качено!",
+        "createContestMessage": "Конкурсът е успешно създаден!"
+      },
+      "validation": {
+        "noTitle": "Заглавието е задължително.",
+        "invalidDates": "Крайната дата трябва да бъде след началната дата."
+      },
+      "noSession": {
+        "title": "Трябва да сте влезли, за да създадете конкурс."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Профил",
+      "settingsButton": "Отидете в Настройки"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Изисква се разрешение",
+        "message": "Нуждаем се от разрешение за достъп до вашите снимки."
+      },
+      "errorAlert": {
+        "title": "Грешка",
+        "message": "Неуспешен избор на изображение"
+      },
+      "successAlert": {
+        "title": "Успех",
+        "message": "Профилната снимка е успешно актуализирана"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Грешка при Споделяне",
+        "message": "Невъзможно споделяне на реферален линк."
+      },
+      "successShare": {
+        "title": "Присъединете се към мен в Challenz!",
+        "message": "Здравейте! Използвайте този линк, за да се регистрирате: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Последователи",
+      "viewFollowers": "Преглед на Последователи"
+    },
+    "following": {
+      "label": "Следвани",
+      "viewFollowing": "Преглед на Следвани"
+    },
+    "posts": {
+      "label": "Публикации",
+      "viewPosts": "Преглед на Публикации",
+      "noVideos": "Все още няма публикувани видеа."
+    },
+    "info": {
+      "email": "Имейл",
+      "phone": "Телефон",
+      "location": "Местоположение",
+      "coins": "Uwaci Монети",
+      "bio": "Био",
+      "noProfile": "Не е Намерен Профил"
+    },
+    "buttons": {
+      "inviteFriends": "Поканете Приятели",
+      "deleteVideo": "Изтриване на Видео",
+      "deleteVideoAlert": {
+        "title": "Изтриване на Видео",
+        "message": "Сигурни ли сте, че искате да изтриете това видео?"
+      },
+      "deleteSuccess": {
+        "title": "Успех",
+        "message": "Видеото е успешно изтрито."
+      },
+      "deleteError": {
+        "title": "Грешка",
+        "message": "Неуспешно изтриване на видео."
+      }
+    },
+    "errors": {
+      "generalError": "Възникна грешка.",
+      "profileError": "Неуспешно извличане на профил.",
+      "submissionsError": "Неуспешно извличане на подавания."
+    },
+    "loading": {
+      "profile": "Зареждане на профил...",
+      "submissions": "Зареждане на подавания..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Редактиране на Профил",
+      "cancelButton": "Отказ",
+      "saveButton": "Запазване на Промените",
+      "savingButton": "Запазване..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Име",
+        "placeholder": "Въведете вашето име",
+        "error": {
+          "tooShort": "Името е твърде кратко"
+        }
+      },
+      "lastName": {
+        "label": "Фамилия",
+        "placeholder": "Въведете вашата фамилия",
+        "error": {
+          "tooShort": "Фамилията е твърде кратка"
+        }
+      },
+      "phoneNumber": {
+        "label": "Телефонен Номер",
+        "placeholder": "Въведете вашия телефонен номер",
+        "error": {
+          "invalid": "Моля, въведете валиден телефонен номер"
+        }
+      },
+      "bio": {
+        "label": "Био",
+        "placeholder": "Разкажете за себе си",
+        "error": {
+          "tooLong": "Биото трябва да съдържа по-малко от 500 символа"
+        }
+      },
+      "location": {
+        "label": "Местоположение",
+        "placeholder": "Въведете вашето местоположение",
+        "error": {
+          "tooLong": "Местоположението трябва да съдържа по-малко от 100 символа"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Грешка",
+        "message": "Неуспешно извличане на данни за профила"
+      },
+      "updateSuccess": {
+        "title": "Успех",
+        "message": "Профилът е успешно актуализиран"
+      },
+      "updateError": {
+        "title": "Грешка",
+        "message": "Неуспешно актуализиране на профила"
+      }
+    },
+    "loading": {
+      "title": "Зареждане..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Зареждане...",
+    "noProfileFound": "Не е Намерен Профил",
+    "authenticationRequired": "Изисква се Удостоверяване",
+    "pleaseLogIn": "Моля, влезте, за да следвате потребители.",
+    "success": "Успех",
+    "unfollowSuccess": "Вече не следвате",
+    "followSuccess": "Сега следвате",
+    "error": "Грешка",
+    "followError": "Неуспешно актуализиране на статуса на следване.",
+    "posts": "Публикации",
+    "followers": "Последователи",
+    "following": "Следвани",
+    "follow": "Следване",
+    "unfollow": "Прекратяване на Следването",
+    "chat": "Чат"
+  },
+  "menu": {
+    "menu": "Меню",
+    "settings": "Настройки",
+    "yourUwaciCoins": "Вашите Uwaci Монети",
+    "notifications": "Известия",
+    "marketplace": "Маркетплейс",
+    "signOut": "Изход",
+    "confirmSignOut": "Потвърдете Изхода",
+    "areYouSureSignOut": "Сигурни ли сте, че искате да излезете?",
+    "cancel": "Отказ",
+    "goBack": "Назад",
+    "joinNow": "Присъединете се Сега",
+    "joinLater": "Присъединете се По-късно",
+    "savedChallenges": "Предизвикателства за Присъединяване"
+  },
+  "settings": {
+    "settings": "Настройки",
+    "fontSelected": "Избран Шрифт",
+    "asYourFont": "е зададен като ваш шрифт.",
+    "languageSelected": "Избран Език",
+    "asYourLanguage": "е зададен като ваш език.",
+    "themeSelected": "Избрана Тема",
+    "asYourTheme": "е зададена като ваша тема.",
+    "notifications": "Известия",
+    "marketplace": "Маркетплейс",
+    "account": "Акаунт",
+    "themes": "Теми",
+    "fonts": "Шрифтове",
+    "languages": "Езици",
+    "signOut": "Изход",
+    "confirmSignOut": "Потвърдете Изхода",
+    "areYouSureSignOut": "Сигурни ли сте, че искате да излезете?",
+    "cancel": "Отказ",
+    "goBack": "Назад",
+    "selectFont": "Избор на Шрифт",
+    "selectLanguage": "Избор на Език",
+    "selectTheme": "Избор на Тема",
+    "passwordSecurity": "Парола & Сигурност",
+    "personalDetails": "Лични Данни",
+    "verification": "Верификация",
+    "paymentMethods": "Методи за Плащане",
+    "adPreferences": "Рекламни Предпочитания",
+    "upgradePremium": "Надстройка до премиум",
+    "content": "Съдържание",
+    "language": "Език",
+    "savedDraft": "Запазен Чернови",
+    "yourActivity": "Вашата Активност",
+    "accessibility": "Достъпност",
+    "privacy": "Поверителност",
+    "comments": "Коментари",
+    "privateAccount": "Частен Акаунт",
+    "directMessaging": "Директни Съобщения",
+    "blockedReports": "Блокирани/Доклади",
+    "termsPolicies": "Условия и Политики",
+    "switchAccount": "Превключване на Акаунт"
+  },
+  "accountDetails": {
+    "settingsTitle": "Настройки на Акаунта",
+    "profileSettings": "Редактиране на Профил ",
+    "resetPassword": "Възстановяване на Парола",
+    "deleteAccount": "Изтриване на Акаунт",
+    "resetPasswordModal": {
+      "title": "Възстановяване на Парола",
+      "message": "Имейл за възстановяване на паролата ще бъде изпратен до",
+      "sendEmail": "Изпращане на Имейл",
+      "cancel": "Отказ"
+    },
+    "deleteAccountModal": {
+      "title": "Изтриване на Акаунт",
+      "message": "Сигурни ли сте, че искате да изтриете акаунта си? Това действие не може да бъде отменено.",
+      "delete": "Изтриване",
+      "cancel": "Отказ"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Профилът е Актуализиран",
+        "message": "Вашият профил е успешно актуализиран."
+      },
+      "profileUpdateError": {
+        "title": "Грешка",
+        "message": "Неуспешно актуализиране на вашия профил. Моля, опитайте отново."
+      },
+      "passwordReset": {
+        "title": "Възстановяване на Парола",
+        "message": "Имейл за възстановяване на паролата е изпратен."
+      },
+      "passwordResetError": {
+        "title": "Грешка",
+        "message": "Неуспешно изпращане на имейл за възстановяване на паролата. Моля, опитайте отново."
+      },
+      "accountDeleted": {
+        "title": "Акаунтът е Изтрит",
+        "message": "Вашият акаунт е успешно изтрит."
+      },
+      "accountDeleteError": {
+        "title": "Грешка",
+        "message": "Неуспешно изтриване на вашия акаунт. Моля, опитайте отново."
+      }
+    }
+  }
+}

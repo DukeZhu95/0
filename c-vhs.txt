@@ -1,0 +1,244 @@
+supabase
+
+// hooks/useInfiniteVideos
+
+import { useInfiniteQuery, useQueryClient } from "@tanstack/react-query";
+import { supabase } from "@/config/supabase";
+
+interface Creator {
+  username: string;
+  id: string;
+  profile_picture_url?: string;
+}
+
+interface InspiredBy {
+  title: string;
+  username: string;
+  profile_picture_url: string;
+}
+
+interface BasePost {
+  id: string;
+  video_url: string;
+  title: string;
+  description: string;
+  created_at: string;
+  creator: Creator | null;
+}
+
+interface Submission extends BasePost {
+  type: "submission";
+}
+
+interface Challenge extends BasePost {
+  type: "challenge";
+  inspired_by_id?: string | null;
+  inspired_by?: InspiredBy;
+}
+
+type Post = Submission | Challenge;
+
+const PAGE_SIZE = 15; // Adjust to optimize scrolling
+
+// async function fetchVideos({ pageParam = 0 }: { pageParam: number }) {
+//   try {
+//     // Fetch Submissions
+//     const { data: submissions, error: submissionsError } = await supabase
+//       .from("submissions")
+//       .select(
+//         `
+//         id, video_url, title, description, created_at,
+//         creator:users!submissions_user_id_fkey(username, id)
+//       `
+//       )
+//       .eq("is_contest_submission", false)
+//       .order("created_at", { ascending: false })
+//       .range(pageParam * PAGE_SIZE, (pageParam + 1) * PAGE_SIZE - 1);
+
+//     if (submissionsError) throw submissionsError;
+//     console.log("Fetched submissions:", submissions); // ✅ Log fetched submissions
+
+//     // Fetch Challenges
+//     const { data: challenges, error: challengesError } = await supabase
+//       .from("challenges")
+//       .select(
+//         `
+//         id, video_url, title, description, created_at,
+//         creator:users!challenges_creator_id_fkey(username, id),
+//         inspired_by_id
+//       `
+//       )
+//       .order("created_at", { ascending: false })
+//       .range(pageParam * PAGE_SIZE, (pageParam + 1) * PAGE_SIZE - 1);
+
+//     if (challengesError) throw challengesError;
+//     console.log("Fetched challenges:", challenges); // ✅ Log fetched challenges
+
+//     const allVideos: Post[] = [
+//       ...(submissions as Submission[]).map((s) => ({
+//         ...s,
+//         type: "submission",
+//       })),
+//       ...(challenges as Challenge[]).map((c) => ({ ...c, type: "challenge" })),
+//     ].sort(
+//       (a, b) =>
+//         new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+//     );
+
+//     console.log("Merged & Sorted Videos:", allVideos); // ✅ Log combined data
+
+//     return {
+//       data: allVideos,
+//       nextPage: allVideos.length === PAGE_SIZE ? pageParam + 1 : undefined,
+//     };
+//   } catch (error) {
+//     console.error("Error fetching videos:", error);
+//     throw error;
+//   }
+// }
+
+async function fetchVideos({ pageParam = 0 }: { pageParam: number }) {
+  try {
+    const [submissionsResult, challengesResult] = await Promise.all([
+      supabase
+        .from("submissions")
+        .select(
+          `
+          id, video_url, title, description, created_at,
+          creator:users!submissions_user_id_fkey(username, id)
+        `
+        )
+        .eq("is_contest_submission", false)
+        .order("created_at", { ascending: false })
+        .range(pageParam * PAGE_SIZE, (pageParam + 1) * PAGE_SIZE - 1),
+
+      supabase
+        .from("challenges")
+        .select(
+          `
+          id, video_url, title, description, created_at,
+          creator:users!challenges_creator_id_fkey(username, id),
+          inspired_by_id,
+     
+        `
+        )
+        .order("created_at", { ascending: false })
+        .range(pageParam * PAGE_SIZE, (pageParam + 1) * PAGE_SIZE - 1),
+    ]);
+
+    if (submissionsResult.error) throw submissionsResult.error;
+    if (challengesResult.error) throw challengesResult.error;
+
+    const submissions = submissionsResult.data || [];
+    const challenges = challengesResult.data || [];
+
+    console.log("Fetched submissions:", submissions);
+    console.log("Fetched challenges:", challenges);
+    if (__DEV__) {
+      console.log("Fetched submissions:", submissions);
+      console.log("Fetched challenges:", challenges);
+      // console.log("Merged & Sorted Videos:", allVideos);
+    }
+
+    const allVideos: Post[] = [
+      ...submissions.map((s) => ({ ...s, type: "submission" })),
+      ...challenges.map((c) => ({ ...c, type: "challenge" })),
+    ].sort(
+      (a, b) =>
+        new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+    );
+
+    // console.log("Merged & Sorted Videos:", allVideos);
+    if (__DEV__) {
+      // console.log("Fetched submissions:", submissions);
+      // console.log("Fetched challenges:", challenges);
+      console.log("Merged & Sorted Videos:", allVideos);
+    }
+
+    return {
+      data: allVideos,
+      nextPage: allVideos.length === PAGE_SIZE ? pageParam + 1 : undefined,
+    };
+  } catch (error) {
+    console.error("Error fetching videos:", error);
+    throw error;
+  }
+}
+
+
+export function useInfiniteVideos() {
+  const queryClient = useQueryClient();
+
+  const query = useInfiniteQuery({
+    queryKey: ["videos"],
+    queryFn: fetchVideos,
+    initialPageParam: 0, // ✅ Fix: Add initialPageParam
+    getNextPageParam: (lastPage) => lastPage.nextPage,
+    staleTime: 60 * 1000,
+    retry: 3, // Automatically retry up to 3 times before failing
+    refetchOnWindowFocus: false, // Prevents unnecessary refetching when switching tabs
+  });
+  // ✅ Prefetch the next page for smoother scrolling
+  if (query.data?.pages) {
+    const lastPage = query.data.pages[query.data.pages.length - 1];
+    if (lastPage?.nextPage) {
+      queryClient.prefetchQuery({
+        queryKey: ["videos", lastPage.nextPage],
+        queryFn: () => fetchVideos({ pageParam: lastPage.nextPage }),
+      });
+    }
+  }
+
+  return query;
+}
+
+
+import React from "react";
+import { Text, ActivityIndicator, View } from "react-native";
+import { FlashList } from "@shopify/flash-list";
+import { useInfiniteVideos } from "@/hooks/useInfiniteVideos";
+
+export default function VideoList() {
+  const {
+    data,
+    fetchNextPage,
+    hasNextPage,
+    isFetchingNextPage,
+    isLoading,
+    isError,
+    error,
+  } = useInfiniteVideos();
+
+  if (isLoading) return <ActivityIndicator size="large" color="blue" />;
+  if (isError) return <Text>Error: {error?.message}</Text>;
+
+  const videos = data?.pages.flatMap((page) => page.data) || [];
+
+  return (
+    <View style={{ flex: 1, padding: 10 }}>
+      <FlashList
+        data={videos}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <Text style={{ marginBottom: 10 }}>{item.title}</Text>
+        )}
+        estimatedItemSize={100} // Adjust based on your item height
+        onEndReached={() => {
+          if (hasNextPage) fetchNextPage();
+        }}
+        onEndReachedThreshold={0.5} // Load next page when 50% scrolled
+        ListFooterComponent={() =>
+          isFetchingNextPage ? (
+            <ActivityIndicator size="small" color="gray" />
+          ) : null
+        }
+      />
+    </View>
+  );
+}
+
+
+ (NOBRIDGE) ERROR  Error fetching videos: {"code": "PGRST100", "details": "unexpected end of input expecting \"...\", field name (* or [a..z0..9_$]), \"*\" or \"count()\"", "hint": null, "message": "\"failed to parse select parameter (id,video_url,title,description,created_at,creator:users!challenges_creator_id_fkey(username,id),inspired_by_id,)\" (line 1, column 112)"}
+ (NOBRIDGE) ERROR  Error fetching videos: {"code": "PGRST100", "details": "unexpected end of input expecting \"...\", field name (* or [a..z0..9_$]), \"*\" or \"count()\"", "hint": null, "message": "\"failed to parse select parameter (id,video_url,title,description,created_at,creator:users!challenges_creator_id_fkey(username,id),inspired_by_id,)\" (line 1, column 112)"}
+ (NOBRIDGE) ERROR  Error fetching videos: {"code": "PGRST100", "details": "unexpected end of input expecting \"...\", field name (* or [a..z0..9_$]), \"*\" or \"count()\"", "hint": null, "message": "\"failed to parse select parameter (id,video_url,title,description,created_at,creator:users!challenges_creator_id_fkey(username,id),inspired_by_id,)\" (line 1, column 112)"}
+ (NOBRIDGE) ERROR  Error fetching videos: {"code": "PGRST100", "details": "unexpected end of input expecting \"...\", field name (* or [a..z0..9_$]), \"*\" or \"count()\"", "hint": null, "message": "\"failed to parse select parameter (id,video_url,title,description,created_at,creator:users!challenges_creator_id_fkey(username,id),inspired_by_id,)\" (line 1, column 112)"}

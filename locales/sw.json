@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Gundua Changamoto",
+    "thatInspire": "zinazokutia moyo!",
+    "signUp": "Jiandikishe",
+    "signIn": "Ingia"
+  },
+  "signUp": {
+    "title": "Jiandikishe",
+    "headerMessage": "Unda akaunti mpya ili kuanza.",
+    "form": {
+      "username": {
+        "label": "Jina la Mtumiaji",
+        "placeholder": "Chagua jina la mtumiaji",
+        "validation": {
+          "minLength": "Jina la mtumiaji linapaswa kuwa na angalau herufi 3.",
+          "regex": "Jina la mtumiaji linaweza kuwa na herufi, nambari, na alama ya chini tu."
+        }
+      },
+      "firstname": {
+        "label": "Jina la Kwanza",
+        "placeholder": "Ingiza jina lako la kwanza",
+        "validation": "Jina la kwanza linapaswa kuwa na angalau herufi 3."
+      },
+      "lastname": {
+        "label": "Jina la Mwisho",
+        "placeholder": "Ingiza jina lako la mwisho",
+        "validation": "Jina la mwisho linapaswa kuwa na angalau herufi 3."
+      },
+      "email": {
+        "label": "Barua Pepe",
+        "placeholder": "Ingiza anwani yako ya barua pepe",
+        "validation": "Tafadhali ingiza anwani ya barua pepe inayofaa."
+      },
+      "phoneNumber": {
+        "label": "Nambari ya Simu",
+        "placeholder": "Ingiza nambari yako ya simu",
+        "validation": "Tafadhali ingiza nambari ya simu inayofaa."
+      },
+      "birthday": {
+        "label": "Siku ya Kuzaliwa",
+        "placeholder": "MMDD-YYYY",
+        "validation": {
+          "format": "Siku ya kuzaliwa inapaswa kuwa katika muundo wa MMDD-YYYY.",
+          "validDate": "Siku isiyo halali",
+          "ageRestriction": "Unapaswa kuwa na angalau miaka 18 kuunda akaunti."
+        }
+      },
+      "password": {
+        "label": "Nenosiri",
+        "placeholder": "Ingiza nenosiri lako",
+        "validation": {
+          "minLength": "Nenosiri linapaswa kuwa na angalau herufi 8.",
+          "maxLength": "Nenosiri linapaswa kuwa na chini ya herufi 64.",
+          "uppercase": "Nenosiri linapaswa kuwa na angalau herufi moja kubwa.",
+          "lowercase": "Nenosiri linapaswa kuwa na angalau herufi moja ndogo.",
+          "numberOrSpecial": "Nenosiri linapaswa kuwa na angalau nambari moja au alama maalum."
+        },
+        "strength": {
+          "weak": "Dhaifu",
+          "fair": "Katikati",
+          "good": "Nzuri",
+          "strong": "Nguvu"
+        }
+      },
+      "confirmPassword": {
+        "label": "Thibitisha Nenosiri",
+        "placeholder": "Ingiza nenosiri lako tena",
+        "validation": "Nenosiri hazilingani."
+      }
+    },
+    "buttons": {
+      "createAccount": "Unda Akaunti",
+      "alreadyHaveAccount": "Una akaunti tayari? Ingia"
+    },
+    "alerts": {
+      "error": {
+        "title": "Hitilafu",
+        "message": "Kuna hitilafu wakati wa kuunda akaunti yako. Tafadhali jaribu tena."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Kwa kujisajili, unakubali kwamba umesoma",
+      "termsOfService": "Masharti ya Huduma",
+      "privacyPolicy": "Sera ya Faragha",
+      "andAccepted": "na umekubali."
+    }
+  },
+  "signIn": {
+    "title": "Ingia",
+    "headerMessage": "Ingiza taarifa zako za kuingia kupata akaunti yako.",
+    "form": {
+      "email": "Barua Pepe",
+      "emailPlaceholder": "Barua Pepe",
+      "password": "Nenosiri",
+      "passwordPlaceholder": "Nenosiri"
+    },
+    "buttons": {
+      "signIn": "Ingia",
+      "forgotPassword": "Umesahau nenosiri?",
+      "signUp": "Huna akaunti? Jiandikishe"
+    },
+    "forgotPassword": {
+      "title": "Umesahau Nenosiri",
+      "prompt": "Tafadhali ingiza barua pepe yako hapo juu kwanza.",
+      "successTitle": "Angalia Barua Pepe Yako",
+      "successMessage": "Tumetuma kiungo cha kurekebisha nenosiri kwenye barua pepe yako.",
+      "errorTitle": "Hitilafu ya Marekebisho"
+    },
+    "termsAndPrivacy": {
+      "message": "Kwa kujisajili, unakubali kwamba umesoma",
+      "termsOfService": "Masharti ya Huduma",
+      "privacyPolicy": "Sera ya Faragha",
+      "andAccepted": "na umekubali."
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Hitilafu ya Kuingia"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Token ya upatikanaji si sahihi au inakosekana.",
+      "sessionFailed": "Imefaulu kuanzisha kikao.",
+      "invalidPassword": "Tafadhali ingiza nenosiri sahihi lenye angalau herufi 8.",
+      "updateFailed": "Imefaulu kusasisha nenosiri lako."
+    },
+    "success": {
+      "passwordUpdated": "Nenosiri lako limeboreshwa. Tafadhali ingia tena."
+    },
+    "title": "Rekebisha Nenosiri Lako",
+    "instructions": "Ingiza nenosiri jipya.",
+    "labels": {
+      "newPassword": "Nenosiri Jipya"
+    },
+    "placeholders": {
+      "newPassword": "Ingiza nenosiri lako jipya"
+    },
+    "buttons": {
+      "updatePassword": "Sasisha Nenosiri"
+    }
+  },
+  "tabs": {
+    "home": "Nyumbani",
+    "search": "Tafuta",
+    "create": "Unda",
+    "explore": "Mashindano",
+    "profile": "Profaili",
+    "settings": "Mipangilio",
+    "editProfile": "Hariri Profaili",
+    "otherUserProfile": "Profaili ya Mtumiaji Mwingine",
+    "comment": "Maoni",
+    "contest": "Shindano",
+    "challengeDetails": "Maelezo ya Changamoto",
+    "submissionDetails": "Maelezo ya Kutoa",
+    "contestDetails": "Maelezo ya Shindano",
+    "followers": "Wafuasi",
+    "following": "Wanafuatilia",
+    "account": "Akaunti",
+    "notifications": "Tahadhari",
+    "leaderboard": "Ramani ya Mshindi",
+    "market": "Soko",
+    "rewards": "Tuzo"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Unda",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Ishara ya Nyumbani",
+      "search": "Ishara ya Tafuta",
+      "create": "Ishara ya Unda",
+      "explore": "Ishara ya Gundua",
+      "profile": "Ishara ya Profaili"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Tafuta utoaji, watumiaji, changamoto...",
+    "clearSearch": "Futa Utafutaji",
+    "loading": "Inaendeshwa...",
+    "error": {
+      "title": "Hitilafu ya Utafutaji",
+      "message": "Hitilafu ilitokea wakati wa utafutaji."
+    },
+    "noPreviousSearches": "Hakuna utafutaji wa zamani.",
+    "previousSearches": "Utafutaji wa Zamani",
+    "submissions": {
+      "title": "Utoaji",
+      "noResults": "Hakuna utoaji uliopatikana.",
+      "videoError": {
+        "title": "Hitilafu ya Video",
+        "message": "Kutokea tatizo wakati wa kupakia video."
+      }
+    },
+    "users": {
+      "title": "Watumiaji",
+      "noResults": "Hakuna watumiaji walipatikana."
+    },
+    "challenges": {
+      "title": "Changamoto",
+      "noResults": "Hakuna changamoto zilipatikana.",
+      "videoError": {
+        "title": "Hitilafu ya Video",
+        "message": "Kutokea tatizo wakati wa kupakia video ya changamoto."
+      },
+      "category": "Kategoria: ",
+      "seasonalTag": "Ya Msimu",
+      "sponsoredTag": "Imetangazwa"
+    },
+    "repeatSearch": "Rudia utafutaji kwa",
+    "accessibility": {
+      "viewVideo": "Tazama video yenye kichwa",
+      "viewProfile": "Tazama profaili ya",
+      "viewChallenge": "Tazama changamoto yenye kichwa"
+    }
+  },
+  "contest": {
+    "title": "Mashindano Yote",
+    "createContestButton": "Unda Shindano"
+  },
+  "contests": {
+    "noContests": "Hakuna mashindano yalipatikana.",
+    "error": {
+      "title": "Hitilafu",
+      "message": "Hakuna kushindani kuweza kupatikana."
+    },
+    "status": {
+      "notStarted": "Haijasimuliwa",
+      "ongoing": "Inaendelea",
+      "ended": "Imeisha"
+    },
+    "dates": {
+      "start": "Anza: ",
+      "end": "Mwisho: ",
+      "notAvailable": "S/H"
+    },
+    "contestDetailsButton": "Tazama Maelezo ya Shindano"
+  },
+  "newContest": {
+    "header": {
+      "title": "Unda Shindano Mpya",
+      "backButton": "Rudi"
+    },
+    "fields": {
+      "title": {
+        "label": "Kichwa",
+        "placeholder": "mf. Changamoto ya Ngoma ya Majira ya Masika",
+        "validation": "Kichwa ni lazima."
+      },
+      "description": {
+        "label": "Maelezo",
+        "placeholder": "Shindano hili linaelekea kwa nini?"
+      },
+      "startDate": {
+        "label": "Tarehe ya Kuanza",
+        "placeholder": "AAAA-MM-DD",
+        "validation": "Tarehe ya mwisho lazima iwe baada ya tarehe ya kuanza."
+      },
+      "endDate": {
+        "label": "Tarehe ya Mwisho",
+        "placeholder": "AAAA-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Tuzo kwa Mshindi (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Tuzo kwa Washiriki (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Video ya Maelezo (Hiari)",
+        "noVideoSelected": "Ongeza video ya maelezo.",
+        "picked": "Imechaguliwa: {filename}",
+        "uploaded": "Imepakuliwa: Video imepakuliwa kwa mafanikio.",
+        "chooseVideoButton": "Chagua Video",
+        "uploadVideoButton": "Pakia Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Unda Shindano"
+    },
+    "alerts": {
+      "error": {
+        "title": "Hitilafu",
+        "pickVideoMessage": "Kuchagua video imekosa kufanikiwa.",
+        "uploadVideoMessage": "Kupakia video imekosa kufanikiwa.",
+        "createContestMessage": "Uundaji wa shindano umekosa kufanikiwa."
+      },
+      "success": {
+        "videoUploadMessage": "Video imepakuliwa kwa mafanikio!",
+        "createContestMessage": "Shindano limeundwa kwa mafanikio!"
+      },
+      "validation": {
+        "noTitle": "Kichwa ni lazima.",
+        "invalidDates": "Tarehe ya mwisho lazima iwe baada ya tarehe ya kuanza."
+      },
+      "noSession": {
+        "title": "Unahitaji kuingia ili kuunda shindano."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profaili",
+      "settingsButton": "Nenda kwenye Mipangilio"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Hitaji la Ruhusa",
+        "message": "Tunahitaji ruhusa ya kufikia picha zako."
+      },
+      "errorAlert": {
+        "title": "Hitilafu",
+        "message": "Kuchagua picha imekosa kufanikiwa."
+      },
+      "successAlert": {
+        "title": "Mafanikio",
+        "message": "Picha ya profaili imeboreshwa kwa mafanikio."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Hitilafu ya Kushiriki",
+        "message": "Kiungo cha referral hakikusadiriwa kushiriki."
+      },
+      "successShare": {
+        "title": "Jiunge nami kwenye Challenz!",
+        "message": "Hujambo! Tumia kiungo hiki kujiandikisha: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Wafuasi",
+      "viewFollowers": "Tazama Wafuasi"
+    },
+    "following": {
+      "label": "Wanafuatilia",
+      "viewFollowing": "Tazama Wanafuatilia"
+    },
+    "posts": {
+      "label": "Machapisho",
+      "viewPosts": "Tazama Machapisho",
+      "noVideos": "Hakuna video zilizochapishwa bado."
+    },
+    "info": {
+      "email": "Barua Pepe",
+      "phone": "Simu",
+      "location": "Mahali",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Hakuna Profaili Iliyopatikana"
+    },
+    "buttons": {
+      "inviteFriends": "Shiriki Kiungo cha Referral",
+      "deleteVideo": "Futa Video",
+      "deleteVideoAlert": {
+        "title": "Futa Video",
+        "message": "Je, una uhakika unataka kufuta video hii?"
+      },
+      "deleteSuccess": {
+        "title": "Mafanikio",
+        "message": "Video imefutwa kwa mafanikio."
+      },
+      "deleteError": {
+        "title": "Hitilafu",
+        "message": "Kufuta video imekosa kufanikiwa."
+      }
+    },
+    "errors": {
+      "generalError": "Hitilafu imetokea.",
+      "profileError": "Hakika kupakia profaili imekosa.",
+      "submissionsError": "Hakika kupakia utoaji imekosa."
+    },
+    "loading": {
+      "profile": "Inaendeshwa profaili...",
+      "submissions": "Inaendeshwa utoaji..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Hariri Profaili",
+      "cancelButton": "Ghairi",
+      "saveButton": "Hifadhi Mabadiliko",
+      "savingButton": "Ina hifadhi..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Jina la Kwanza",
+        "placeholder": "Ingiza jina lako la kwanza",
+        "error": {
+          "tooShort": "Jina la kwanza ni fupi sana"
+        }
+      },
+      "lastName": {
+        "label": "Jina la Mwisho",
+        "placeholder": "Ingiza jina lako la mwisho",
+        "error": {
+          "tooShort": "Jina la mwisho ni fupi sana"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nambari ya Simu",
+        "placeholder": "Ingiza nambari yako ya simu",
+        "error": {
+          "invalid": "Tafadhali ingiza nambari ya simu inayofaa"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Tuambie kuhusu wewe",
+        "error": {
+          "tooLong": "Bio inapaswa kuwa na herufi chini ya 500"
+        }
+      },
+      "location": {
+        "label": "Mahali",
+        "placeholder": "Ingiza mahali pako",
+        "error": {
+          "tooLong": "Mahali inapaswa kuwa na herufi chini ya 100"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Hitilafu",
+        "message": "Hakika kupakia data ya profaili imekosa."
+      },
+      "updateSuccess": {
+        "title": "Mafanikio",
+        "message": "Profaili imeboreshwa kwa mafanikio."
+      },
+      "updateError": {
+        "title": "Hitilafu",
+        "message": "Hakika kusasisha profaili imekosa."
+      }
+    },
+    "loading": {
+      "title": "Inaenda..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Inaenda...",
+    "noProfileFound": "Hakuna profaili iliyopatikana",
+    "authenticationRequired": "Uthibitishaji Unahitajika",
+    "pleaseLogIn": "Tafadhali ingia ili kufuatilia watumiaji.",
+    "success": "Mafanikio",
+    "unfollowSuccess": "Umeacha kufuatilia",
+    "followSuccess": "Umeanza kufuatilia sasa",
+    "error": "Hitilafu",
+    "followError": "Hakika kusasisha hali ya kufuatilia imekosa.",
+    "posts": "Machapisho",
+    "followers": "Wafuasi",
+    "following": "Wanafuatilia",
+    "follow": "Fuatilia",
+    "unfollow": "Acha kufuatilia",
+    "chat": "Ghafla"
+  },
+  "settings": {
+    "settings": "Mipangilio",
+    "fontSelected": "Fonti iliyochaguliwa",
+    "asYourFont": "imewekwa kama fonti yako.",
+    "languageSelected": "Lugha iliyochaguliwa",
+    "asYourLanguage": "imewekwa kama lugha yako.",
+    "themeSelected": "Mandhari iliyochaguliwa",
+    "asYourTheme": "imewekwa kama mandhari yako.",
+    "notifications": "Tahadhari",
+    "marketplace": "Soko",
+    "account": "Akaunti",
+    "themes": "Mandhari",
+    "fonts": "Fonti",
+    "languages": "Lugha",
+    "signOut": "Toka",
+    "confirmSignOut": "Thibitisha Kutoka",
+    "areYouSureSignOut": "Je, uko hakika unataka kutoka?",
+    "cancel": "Ghairi",
+    "goBack": "Rudi",
+    "selectFont": "Chagua Fonti",
+    "selectLanguage": "Chagua Lugha",
+    "selectTheme": "Chagua Mandhari"
+  },
+  "accountDetails": {
+    "settingsTitle": "Mipangilio ya Akaunti",
+    "profileSettings": "Hariri Profaili",
+    "resetPassword": "Sasisha Nenosiri",
+    "deleteAccount": "Futa Akaunti",
+    "resetPasswordModal": {
+      "title": "Sasisha Nenosiri",
+      "message": "Barua pepe ya kusasisha nenosiri itatumwa kwa",
+      "sendEmail": "Tuma Barua Pepe",
+      "cancel": "Ghairi"
+    },
+    "deleteAccountModal": {
+      "title": "Futa Akaunti",
+      "message": "Je, una uhakika unataka kufuta akaunti yako? Hatua hii haiwezi kurekebishwa.",
+      "delete": "Futa",
+      "cancel": "Ghairi"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profaili Imeboreshwa",
+        "message": "Profaili yako imeboreshwa kwa mafanikio."
+      },
+      "profileUpdateError": {
+        "title": "Hitilafu",
+        "message": "Hakika kusasisha profaili imekosa. Tafadhali jaribu tena."
+      },
+      "passwordReset": {
+        "title": "Nenosiri Imefanyiwa Sasisho",
+        "message": "Barua pepe ya kusasisha nenosiri imekutumwa."
+      },
+      "passwordResetError": {
+        "title": "Hitilafu",
+        "message": "Hakika kutuma barua pepe ya sasisho ya nenosiri imekosa. Tafadhali jaribu tena."
+      },
+      "accountDeleted": {
+        "title": "Akaunti Imefutwa",
+        "message": "Akaunti yako imefutwa kwa mafanikio."
+      },
+      "accountDeleteError": {
+        "title": "Hitilafu",
+        "message": "Hakika kufuta akaunti yako imekosa. Tafadhali jaribu tena."
+      }
+    }
+  }
+}

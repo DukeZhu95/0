@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Verken Uitdagings",
+      "thatInspire": "wat inspireer!",
+      "signUp": "Registreer",
+      "signIn": "Meld Aan"
+    },
+    "signUp": {
+      "title": "Registreer",
+      "headerMessage": "Skep 'n nuwe rekening om te begin",
+      "businessTitle": "Registreer as 'n Besigheid",
+      "headerMessageBusiness": "Skep 'n besigheidsrekening om te begin",
+      "form": {
+        "username": {
+          "label": "Gebruikersnaam",
+          "placeholder": "Kies 'n gebruikersnaam",
+          "validation": {
+            "minLength": "Gebruikersnaam moet ten minste 3 karakters hê",
+            "regex": "Gebruikersnaam kan slegs letters, syfers en onderstrepe bevat"
+          }
+        },
+        "firstname": {
+          "label": "Voornaam",
+          "placeholder": "Vul jou voornaam in",
+          "validation": "Voornaam moet ten minste 3 karakters hê"
+        },
+        "lastname": {
+          "label": "Van",
+          "placeholder": "Vul jou van in",
+          "validation": "Van moet ten minste 3 karakters hê"
+        },
+        "businessName": {
+          "label": "Besigheidsnaam",
+          "placeholder": "Vul jou besigheidsnaam in",
+          "validation": "Besigheidsnaam moet ten minste 3 karakters hê"
+        },
+        "website": {
+          "label": "Besigheidswebwerf",
+          "placeholder": "Vul jou webwerf in",
+          "validation": "Besigheidsnaam moet ten minste 3 karakters hê"
+        },
+        "businessType": {
+          "label": "Tipe Besigheid",
+          "placeholder": "Tipe Besigheid",
+          "validation": "Besigheidsnaam moet ten minste 3 karakters hê"
+        },
+        "email": {
+          "label": "E-pos",
+          "placeholder": "Vul jou e-pos adres in",
+          "validation": "Voer asseblief 'n geldige e-pos adres in"
+        },
+        "phoneNumber": {
+          "label": "Telefoonnommer",
+          "placeholder": "Vul jou telefoonnommer in",
+          "validation": "Voer asseblief 'n geldige telefoonnommer in"
+        },
+        "birthday": {
+          "title": "Geboortedatum",
+          "label": "Geboortedatum",
+          "placeholder": "DD-MM-JJJJ",
+          "validation": {
+            "format": "Geboortedatum moet in die formaat DD-MM-JJJJ wees",
+            "validDate": "Ongeldige datum",
+            "ageRestriction": "Jy moet 18 jaar of ouer wees om 'n rekening te skep"
+          }
+        },
+        "password": {
+          "label": "Wagwoord",
+          "placeholder": "Vul jou wagwoord in",
+          "validation": {
+            "minLength": "Wagwoord moet ten minste 8 karakters hê",
+            "maxLength": "Wagwoord moet minder as 64 karakters hê",
+            "uppercase": "Wagwoord moet ten minste een hoofkarakter hê",
+            "lowercase": "Wagwoord moet ten minste een kleinletter hê",
+            "numberOrSpecial": "Wagwoord moet ten minste een syfer of spesiale karakter hê"
+          },
+          "strength": {
+            "weak": "Swak",
+            "fair": "Billik",
+            "good": "Goed",
+            "strong": "Sterk"
+          }
+        },
+        "confirmPassword": {
+          "label": "Bevestig Wagwoord",
+          "placeholder": "Vul jou wagwoord weer in",
+          "validation": "Wagwoorde stem nie ooreen nie"
+        }
+      },
+      "buttons": {
+        "createAccount": "Skep Rekening",
+        "alreadyHaveAccount": "Het jy reeds 'n rekening?",
+        "signIn": "Meld Aan",
+        "businessJoin": "Sluit aan by Challenz as 'n besigheidsvennoot"
+      },
+      "alerts": {
+        "error": {
+          "title": "Fout",
+          "message": "'n Fout het voorgekom tydens die skep van jou rekening. Probeer asseblief weer"
+        },
+        "passwordMismatch": {
+          "title": "Wagwoord Stem nie Ooreen nie",
+          "message": "Verkeerde wagwoord. Probeer asseblief weer"
+        },
+        "agreementRequired": {
+          "title": "Ooreenkoms Vereis",
+          "message": "Aanvaar asseblief die Diensvoorwaardes en Privaatheidsbeleid"
+        },
+        "success": {
+          "title": "Sukses",
+          "message": "Rekening suksesvol geskep"
+        },
+        "signUpError": {
+          "title": "Registreerfout",
+          "message": "'n Fout het voorgekom tydens die skep van jou rekening. Probeer asseblief weer"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Deur te registreer, bevestig jy dat jy ons",
+        "termsOfService": "Diensvoorwaardes",
+        "privacyPolicy": "Privaatheidsbeleid",
+        "andAccepted": "gelees het en aanvaar"
+      }
+    },
+    "signIn": {
+      "title": "Meld Aan",
+      "headerMessage": "Vul jou besonderhede in om toegang tot jou rekening te verkry",
+      "form": {
+        "email": "E-pos",
+        "emailPlaceholder": "Vul jou e-pos in",
+        "password": "Wagwoord",
+        "passwordPlaceholder": "Vul jou wagwoord in"
+      },
+      "buttons": {
+        "signIn": "Meld Aan",
+        "forgotPassword": "Wagwoord vergeet?",
+        "noAccount": "Nog nie 'n rekening nie?",
+        "signUp": " Registreer"
+      },
+      "forgotPassword": {
+        "title": "Wagwoord Vergeet",
+        "prompt": "Vul asseblief eers jou e-pos in",
+        "successTitle": "Kyk na jou e-pos",
+        "successMessage": "Ons het 'n wagwoord-herstel skakel na jou e-pos gestuur",
+        "errorTitle": "Herstel Fout"
+      },
+      "termsAndPrivacy": {
+        "message": "Deur te registreer, bevestig jy dat jy ons",
+        "termsOfService": "Diensvoorwaardes",
+        "privacyPolicy": "Privaatheidsbeleid",
+        "andAccepted": "gelees het en aanvaar"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Aanmeldfout"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Wagwoord Vergeet",
+      "description": "Vul jou e-pos adres hieronder in en ons sal jou 'n skakel stuur om jou wagwoord te herstel",
+      "form": {
+        "email": "E-pos Adres"
+      },
+      "buttons": {
+        "reset": "Herstel Wagwoord",
+        "sending": "Stuur tans...",
+        "remembered": "Jou wagwoord onthou?",
+        "signIn": "Meld Aan"
+      },
+      "alerts": {
+        "enterEmail": "Vul asseblief jou e-pos adres in",
+        "checkEmail": "Kyk na jou e-pos vir die herstel skakel",
+        "resetError": "Kon nie wagwoord herstel nie"
+      }
+    },
+    "resetPassword": {
+      "title": "Dateer Wagwoord op",
+      "description": "Vul jou nuwe wagwoord hieronder in om jou rekening wagwoord te herstel",
+      "form": {
+        "newPassword": "Vul nuwe wagwoord in",
+        "confirmPassword": "Bevestig nuwe wagwoord"
+      },
+      "alerts": {
+        "enterBothPasswords": "Vul asseblief beide wagwoord velde in",
+        "passwordMismatch": "Wagwoorde stem nie ooreen nie. Probeer asseblief weer",
+        "success": "Jou wagwoord is suksesvol opgedateer",
+        "updateError": "Fout met opdatering van wagwoord. Probeer asseblief weer"
+      },
+      "buttons": {
+        "saving": "Stoor tans...",
+        "update": "Dateer Wagwoord op"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Ongeldige of ontbrekende toegangstoken",
+        "sessionFailed": "Kon nie sessie opstel nie",
+        "invalidPassword": "Vul asseblief 'n geldige wagwoord van ten minste 8 karakters in",
+        "updateFailed": "Kon nie jou wagwoord opdateer nie"
+      },
+      "success": {
+        "passwordUpdated": "Jou wagwoord is opgedateer. Meld asseblief weer aan"
+      },
+      "title": "Herstel Jou Wagwoord",
+      "instructions": "Vul nuwe wagwoord in",
+      "labels": {
+        "newPassword": "Nuwe Wagwoord"
+      },
+      "placeholders": {
+        "newPassword": "Vul nuwe wagwoord in"
+      },
+      "buttons": {
+        "updatePassword": "Dateer Wagwoord op"
+      }
+    },
+    "tabs": {
+      "home": "Tuis",
+      "search": "Soek",
+      "create": "Skep",
+      "contest": "Kompetisies",
+      "menu": "Kieslys",
+      "settings": "Instellings",
+      "profile": "Profiel",
+      "editProfile": "Wysig Jou Profiel",
+      "otherUserProfile": "Gebruikersprofiel",
+      "explore": "Verken",
+      "challengeDetails": "Uitdaging Besonderhede",
+      "submissionDetails": "Inskrywing Besonderhede",
+      "contestDetails": "Kompetisie Besonderhede",
+      "followers": "Volgelinge ",
+      "following": "Volg ",
+      "account": "Rekening",
+      "notifications": "Kennisgewings",
+      "leaderboard": "Ranglys",
+      "market": "Mark",
+      "rewards": "Belonings",
+      "coin": "Jou Munte"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Skep",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Tuis ikoon",
+        "search": "Soek ikoon",
+        "create": "Skep ikoon",
+        "explore": "Verken ikoon",
+        "profile": "Profiel ikoon"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Soek inskrywings, gebruikers, uitdagings...",
+      "clearSearch": "Maak soek invoer skoon",
+      "loading": "Laai tans...",
+      "error": {
+        "title": "Soek Fout",
+        "message": "'n Fout het voorgekom tydens soek"
+      },
+      "noPreviousSearches": "Geen vorige soektogte nie.",
+      "previousSearches": "Vorige Soektogte",
+      "submissions": {
+        "title": "Inskrywings",
+        "noResults": "Geen inskrywings gevind nie.",
+        "videoError": {
+          "title": "Video Fout",
+          "message": "Kon nie die video laai nie."
+        }
+      },
+      "users": {
+        "title": "Gebruikers",
+        "noResults": "Geen gebruikers gevind nie."
+      },
+      "challenges": {
+        "title": "Uitdagings",
+        "noResults": "Geen uitdagings gevind nie.",
+        "videoError": {
+          "title": "Video Fout",
+          "message": "Kon nie die uitdaging video laai nie."
+        },
+        "category": "Kategorie: ",
+        "seasonalTag": "Seisoenaal",
+        "sponsoredTag": "Geborg"
+      },
+      "repeatSearch": "Herhaal soektog vir",
+      "accessibility": {
+        "viewVideo": "Bekyk video getiteld",
+        "viewProfile": "Bekyk profiel van",
+        "viewChallenge": "Bekyk uitdaging getiteld"
+      }
+    },
+    "contest": {
+      "title": "Alle Kompetisies",
+      "createContestButton": "Skep Kompetisie"
+    },
+    "contests": {
+      "noContests": "Geen kompetisies gevind nie.",
+      "error": {
+        "title": "Fout",
+        "message": "Kon nie kompetisies kry nie."
+      },
+      "status": {
+        "notStarted": "Nie Begin",
+        "ongoing": "Aan die Gang",
+        "ended": "Geëindig"
+      },
+      "dates": {
+        "start": "Begin: ",
+        "end": "Einde: ",
+        "notAvailable": "N.v.t."
+      },
+      "contestDetailsButton": "Bekyk Kompetisie Besonderhede"
+    },
+    "newContest": {
+      "header": {
+        "title": "Skep Nuwe Kompetisie",
+        "backButton": "Terug"
+      },
+      "fields": {
+        "title": {
+          "label": "Titel",
+          "placeholder": "bv., Somer Dans-Uit",
+          "validation": "Titel word vereis."
+        },
+        "description": {
+          "label": "Beskrywing",
+          "placeholder": "Waaroor gaan hierdie kompetisie?"
+        },
+        "startDate": {
+          "label": "Begindatum",
+          "placeholder": "DD-MM-JJJJ",
+          "validation": "Einddatum moet na begindatum wees."
+        },
+        "endDate": {
+          "label": "Einddatum",
+          "placeholder": "DD-MM-JJJJ"
+        },
+        "winnerReward": {
+          "label": "Wenner Beloning (Uwaci Munte)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Deelnemer Beloning (Uwaci Munte)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Video Beskrywing (Opsioneel)",
+          "noVideoSelected": "Voeg 'n video beskrywing by.",
+          "picked": "Gekies: {filename}",
+          "uploaded": "Opgelaai: Video is suksesvol opgelaai.",
+          "chooseVideoButton": "Kies Video",
+          "uploadVideoButton": "Laai Video op"
+        }
+      },
+      "buttons": {
+        "createContest": "Skep Kompetisie"
+      },
+      "alerts": {
+        "error": {
+          "title": "Fout",
+          "pickVideoMessage": "Kon nie video kies nie.",
+          "uploadVideoMessage": "Kon nie video oplaai nie.",
+          "createContestMessage": "Kon nie kompetisie skep nie."
+        },
+        "success": {
+          "title": "Sukses",
+          "videoUploadMessage": "Video suksesvol opgelaai!",
+          "createContestMessage": "Kompetisie suksesvol geskep!"
+        },
+        "validation": {
+          "noTitle": "Titel word vereis.",
+          "invalidDates": "Einddatum moet na begindatum wees."
+        },
+        "noSession": {
+          "title": "Jy moet aangemeld wees om 'n kompetisie te skep."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profiel",
+        "settingsButton": "Gaan na Instellings"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Toestemming benodig",
+          "message": "Ons benodig toestemming om toegang tot jou foto's te verkry"
+        },
+        "errorAlert": {
+          "title": "Fout",
+          "message": "Kon nie beeld kies nie"
+        },
+        "successAlert": {
+          "title": "Sukses",
+          "message": "Profielfoto suksesvol opgedateer"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Deel Fout",
+          "message": "Kan nie verwysingskakel deel nie."
+        },
+        "successShare": {
+          "title": "Sluit by my aan op Challenz!",
+          "message": "Hallo! Gebruik hierdie skakel om aan te meld: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Volgelinge",
+        "viewFollowers": "Bekyk Volgelinge"
+      },
+      "following": {
+        "label": "Volg",
+        "viewFollowing": "Bekyk Volg"
+      },
+      "posts": {
+        "label": "Plasings",
+        "viewPosts": "Bekyk Plasings",
+        "noVideos": "Geen video's geplaas nie."
+      },
+      "info": {
+        "email": "E-pos",
+        "phone": "Telefoon",
+        "location": "Ligging",
+        "coins": "Uwaci Munte",
+        "bio": "Bio",
+        "noProfile": "Geen Profiel Gevind nie"
+      },
+      "buttons": {
+        "inviteFriends": "Nooi Vriende",
+        "deleteVideo": "Vee Video Uit",
+        "deleteVideoAlert": {
+          "title": "Vee Video Uit",
+          "message": "Is jy seker jy wil hierdie video uitvee?"
+        },
+        "deleteSuccess": {
+          "title": "Sukses",
+          "message": "Video suksesvol uitgevee."
+        },
+        "deleteError": {
+          "title": "Fout",
+          "message": "Kon nie video uitvee nie."
+        }
+      },
+      "errors": {
+        "generalError": "'n Fout het voorgekom.",
+        "profileError": "Kon nie profiel kry nie.",
+        "submissionsError": "Kon nie inskrywings kry nie."
+      },
+      "loading": {
+        "profile": "Laai profiel...",
+        "submissions": "Laai inskrywings..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Wysig Profiel",
+        "cancelButton": "Kanselleer",
+        "saveButton": "Stoor Veranderinge",
+        "savingButton": "Stoor tans..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Voornaam",
+          "placeholder": "Vul jou voornaam in",
+          "error": {
+            "tooShort": "Voornaam is te kort"
+          }
+        },
+        "lastName": {
+          "label": "Van",
+          "placeholder": "Vul jou van in",
+          "error": {
+            "tooShort": "Van is te kort"
+          }
+        },
+        "phoneNumber": {
+          "label": "Telefoonnommer",
+          "placeholder": "Vul jou telefoonnommer in",
+          "error": {
+            "invalid": "Voer asseblief 'n geldige telefoonnommer in"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Vertel ons oor jouself",
+          "error": {
+            "tooLong": "Bio moet minder as 500 karakters wees"
+          }
+        },
+        "location": {
+          "label": "Ligging",
+          "placeholder": "Vul jou ligging in",
+          "error": {
+            "tooLong": "Ligging moet minder as 100 karakters wees"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Fout",
+          "message": "Kon nie profieldata kry nie"
+        },
+        "updateSuccess": {
+          "title": "Sukses",
+          "message": "Profiel suksesvol opgedateer"
+        },
+        "updateError": {
+          "title": "Fout",
+          "message": "Kon nie profiel opdateer nie"
+        }
+      },
+      "loading": {
+        "title": "Laai tans..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Laai tans...",
+      "noProfileFound": "Geen Profiel Gevind nie",
+      "authenticationRequired": "Verifikasie Benodig",
+      "pleaseLogIn": "Meld asseblief aan om gebruikers te volg.",
+      "success": "Sukses",
+      "unfollowSuccess": "Jy volg nie meer",
+      "followSuccess": "Jy volg nou",
+      "error": "Fout",
+      "followError": "Kon nie volg status opdateer nie.",
+      "posts": "Plasings",
+      "followers": "Volgelinge",
+      "following": "Volg",
+      "follow": "Volg",
+      "unfollow": "Ontvolg",
+      "chat": "Gesels"
+    },
+    "menu": {
+      "menu": "Kieslys",
+      "settings": "Instellings",
+      "yourUwaciCoins": "Jou Uwaci Munte",
+      "notifications": "Kennisgewings",
+      "marketplace": "Markplek",
+      "signOut": "Teken Uit",
+      "confirmSignOut": "Bevestig Uittekening",
+      "areYouSureSignOut": "Is jy seker jy wil uitteken?",
+      "cancel": "Kanselleer",
+      "goBack": "Gaan Terug"
+    },
+    "settings": {
+      "settings": "Instellings",
+      "fontSelected": "Lettertipe Gekies",
+      "asYourFont": "is gestel as jou lettertipe.",
+      "languageSelected": "Taal Gekies",
+      "asYourLanguage": "is gestel as jou taal.",
+      "themeSelected": "Tema Gekies",
+      "asYourTheme": "is gestel as jou tema.",
+      "notifications": "Kennisgewings",
+      "marketplace": "Markplek",
+      "account": "Rekening",
+      "themes": "Temas",
+      "fonts": "Lettertipes",
+      "languages": "Tale",
+      "signOut": "Teken Uit",
+      "confirmSignOut": "Bevestig Uittekening",
+      "areYouSureSignOut": "Is jy seker jy wil uitteken?",
+      "cancel": "Kanselleer",
+      "goBack": "Gaan Terug",
+      "selectFont": "Kies Lettertipe",
+      "selectLanguage": "Kies Taal",
+      "selectTheme": "Kies Tema",
+      "passwordSecurity": "Wagwoord & Sekuriteit",
+      "personalDetails": "Persoonlike Besonderhede",
+      "verification": "Verifikasie",
+      "paymentMethods": "Betaalmetodes",
+      "adPreferences": "Advertensie Voorkeure",
+      "upgradePremium": "Gradeer op na premium",
+      "content": "Inhoud",
+      "language": "Taal",
+      "savedDraft": "Gestoorde Konsep",
+      "yourActivity": "Jou Aktiwiteit",
+      "accessibility": "Toeganklikheid",
+      "privacy": "Privaatheid",
+      "comments": "Kommentaar",
+      "privateAccount": "Private Rekening",
+      "directMessaging": "Direkte Boodskappe",
+      "blockedReports": "Geblokkeer/Verslae",
+      "termsPolicies": "Terme en Beleide",
+      "switchAccount": "Verander Rekening"
+    },
+    "accountDetails": {
+      "settingsTitle": "Rekening Instellings",
+      "profileSettings": "Wysig Profiel ",
+      "resetPassword": "Herstel Wagwoord",
+      "deleteAccount": "Vee Rekening Uit",
+      "resetPasswordModal": {
+        "title": "Herstel Wagwoord",
+        "message": "'n Wagwoord-herstel e-pos sal gestuur word na",
+        "sendEmail": "Stuur E-pos",
+        "cancel": "Kanselleer"
+      },
+      "deleteAccountModal": {
+        "title": "Vee Rekening Uit",
+        "message": "Is jy seker jy wil jou rekening uitvee? Hierdie aksie kan nie ongedaan gemaak word nie.",
+        "delete": "Vee Uit",
+        "cancel": "Kanselleer"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profiel Opgedateer",
+          "message": "Jou profiel is suksesvol opgedateer."
+        },
+        "profileUpdateError": {
+          "title": "Fout",
+          "message": "Kon nie jou profiel opdateer nie. Probeer asseblief weer."
+        },
+        "passwordReset": {
+          "title": "Wagwoord Herstel",
+          "message": "'n Wagwoord-herstel e-pos is gestuur."
+        },
+        "passwordResetError": {
+          "title": "Fout",
+          "message": "Kon nie wagwoord-herstel e-pos stuur nie. Probeer asseblief weer."
+        },
+        "accountDeleted": {
+          "title": "Rekening Uitgevee",
+          "message": "Jou rekening is suksesvol uitgevee."
+        },
+        "accountDeleteError": {
+          "title": "Fout",
+          "message": "Kon nie jou rekening uitvee nie. Probeer asseblief weer."
+        }
+      }
+    }
+  }

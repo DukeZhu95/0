@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Xawisho Koororte",
+      "thatInspire": "Hanqafsiishanno!",
+      "signUp": "Magalti",
+      "signIn": "Seenti"
+    },
+    "signUp": {
+      "title": "Magalti",
+      "headerMessage": "Fanno daaranno hajo aana akkawinti uuri",
+      "businessTitle": "Bitinisiiha Magalti",
+      "headerMessageBusiness": "Fanno daaranno hajo aana bitinisi akkawinti uuri",
+      "form": {
+        "username": {
+          "label": "Bitachu Sumu",
+          "placeholder": "Bitachu sumu doorri",
+          "validation": {
+            "minLength": "Bitachu sumu hiikkanni sase fiicho qawaadho",
+            "regex": "Bitachu sumu fiicha, lakkamo, woy gorte saaxo qofa qawaadho"
+          }
+        },
+        "firstname": {
+          "label": "Hiikko Sumu",
+          "placeholder": "Hiikko sumukki noo galchi",
+          "validation": "Hiikko sumu hiikkanni sase fiicho qawaadho"
+        },
+        "lastname": {
+          "label": "Abbano Sumu",
+          "placeholder": "Abbano sumukki noo galchi",
+          "validation": "Abbano sumu hiikkanni sase fiicho qawaadho"
+        },
+        "businessName": {
+          "label": "Bitinisi Sumu",
+          "placeholder": "Bitinisi sumukki noo galchi",
+          "validation": "Bitinisi sumu hiikkanni sase fiicho qawaadho"
+        },
+        "website": {
+          "label": "Bitinisi Websayiti",
+          "placeholder": "Websayitikki noo galchi",
+          "validation": "Bitinisi sumu hiikkanni sase fiicho qawaadho"
+        },
+        "businessType": {
+          "label": "Bitinisi Qooxe",
+          "placeholder": "Bitinisi Qooxe",
+          "validation": "Bitinisi sumu hiikkanni sase fiicho qawaadho"
+        },
+        "email": {
+          "label": "Imeyli",
+          "placeholder": "Imeyli teessokki noo galchi",
+          "validation": "Giddaaninni imeyli teesso galchi"
+        },
+        "phoneNumber": {
+          "label": "Bilbila Lakkama",
+          "placeholder": "Bilbila lakkamakki noo galchi",
+          "validation": "Giddaaninni bilbila lakkama galchi"
+        },
+        "birthday": {
+          "title": "Daafino Ballo",
+          "label": "Daafino Ballo",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Daafino ballo DD-MM-YYYY hiittite qawaadho",
+            "validDate": "Giddaanitto ballote",
+            "ageRestriction": "Akkawinti uurannoro 18 diri woy hiikkate qawaadho"
+          }
+        },
+        "password": {
+          "label": "Fula",
+          "placeholder": "Fulakki noo galchi",
+          "validation": {
+            "minLength": "Fulu hiikkanni saddeti fiicho qawaadho",
+            "maxLength": "Fulu jaajja 64 fiichi qawaadho",
+            "uppercase": "Fulu hiikkanni mata fiicha qawaadho",
+            "lowercase": "Fulu hiikkanni xuruurra fiicha qawaadho",
+            "numberOrSpecial": "Fulu hiikkanni lakkama woy dinqisiisancho fiicha qawaadho"
+          },
+          "strength": {
+            "weak": "Daafurancho",
+            "fair": "Giddo-giddo",
+            "good": "Hanafino",
+            "strong": "Mino"
+          }
+        },
+        "confirmPassword": {
+          "label": "Fula Mirkaneessi",
+          "placeholder": "Fulakki lammachicho galchi",
+          "validation": "Fulat hintuuhunkkanno"
+        }
+      },
+      "buttons": {
+        "createAccount": "Akkawinti Uuri",
+        "alreadyHaveAccount": "Akkawinti qaagatto?",
+        "signIn": "Seenti",
+        "businessJoin": "Bitinisi wajja Challenz noo geexi"
+      },
+      "alerts": {
+        "error": {
+          "title": "Sorrote",
+          "message": "Akkawintikki uurrunni sorrote fanate. Woroonsi xagiwooti"
+        },
+        "passwordMismatch": {
+          "title": "Fula Hinsincho",
+          "message": "Giddaanitto fulote. Woroonsi xagiwooti"
+        },
+        "agreementRequired": {
+          "title": "Hajimo Fanno",
+          "message": "Servisiti manninote e duuchcho roore fulaate shiqiishsha"
+        },
+        "success": {
+          "title": "Hore",
+          "message": "Akkawinti gedote uurramino"
+        },
+        "signUpError": {
+          "title": "Magalti Sorrote",
+          "message": "Akkawintikki uurrunni sorrote fanate. Woroonsi xagiwooti"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Magaltaadho, kiiraano nabbabbaatto mirkanneesso",
+        "termsOfService": "Servisiti Manninanno",
+        "privacyPolicy": "Duuchcho Roore",
+        "andAccepted": "nna kiiraano shiqishatto"
+      }
+    },
+    "signIn": {
+      "title": "Seenti",
+      "headerMessage": "Akkawintikki seenannoro danaamma noo galchi",
+      "form": {
+        "email": "Imeyli",
+        "emailPlaceholder": "Imeylikki noo galchi",
+        "password": "Fula",
+        "passwordPlaceholder": "Fulakki noo galchi"
+      },
+      "buttons": {
+        "signIn": "Seenti",
+        "forgotPassword": "Fula kaallatto?",
+        "noAccount": "Akkawinti hinqinno?",
+        "signUp": " Magalti"
+      },
+      "forgotPassword": {
+        "title": "Fula Kaallino",
+        "prompt": "Giddaaninni kallaqa imeylikki galchi",
+        "successTitle": "Imeylikki xuuri",
+        "successMessage": "Fula haariranno linki imeylikki rassino",
+        "errorTitle": "Harirsanno Sorrote"
+      },
+      "termsAndPrivacy": {
+        "message": "Magaltaadho, kiiraano nabbabbaatto mirkanneesso",
+        "termsOfService": "Servisiti Manninanno",
+        "privacyPolicy": "Duuchcho Roore",
+        "andAccepted": "nna kiiraano shiqishatto"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Seentanno Sorrote"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Fula Kaallino",
+      "description": "Imeyli teessokki noo hagitte galchi, fula haarisanno linki rassinoonni",
+      "form": {
+        "email": "Imeyli Teesso"
+      },
+      "buttons": {
+        "reset": "Fula Haarisi",
+        "sending": "Raasho...",
+        "remembered": "Fulakki qaagate assato?",
+        "signIn": "Seenti"
+      },
+      "alerts": {
+        "enterEmail": "Imeyli teessokki noo galchi",
+        "checkEmail": "Haarisanno linkira imeylikki xuuri",
+        "resetError": "Fula haarisanno dadisammo"
+      }
+    },
+    "resetPassword": {
+      "title": "Fula Haarisi",
+      "description": "Akkawinti fulakki haarisannoro noo hagitte hajo fula galchi",
+      "form": {
+        "newPassword": "Hajo fula galchi",
+        "confirmPassword": "Hajo fula mirkaneessi"
+      },
+      "alerts": {
+        "enterBothPasswords": "Lamo fula qoofa woroonsi buuxi",
+        "passwordMismatch": "Fulat hintuuhunkkanno. Woroonsi xagiwooti",
+        "success": "Fulakki horete haarammo",
+        "updateError": "Fula haarisanno sorrote. Woroonsi xagiwooti"
+      },
+      "buttons": {
+        "saving": "Kayidaadho...",
+        "update": "Fula Haarisi"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Giddaanitto woy baalanno seenno tokeni",
+        "sessionFailed": "Sessioni direho dadisammo",
+        "invalidPassword": "Giddaaninni hiikkanni saddeti fiicha fula galchi",
+        "updateFailed": "Fulakki haarisanno dadisammo"
+      },
+      "success": {
+        "passwordUpdated": "Fulakki haarammo. Woroonsi seenti"
+      },
+      "title": "Fulakki Haarisi",
+      "instructions": "Hajo fula galchi",
+      "labels": {
+        "newPassword": "Hajo Fula"
+      },
+      "placeholders": {
+        "newPassword": "Hajo fula galchi"
+      },
+      "buttons": {
+        "updatePassword": "Fula Haarisi"
+      }
+    },
+    "tabs": {
+      "home": "Mini",
+      "search": "Hoolli",
+      "create": "Uuri",
+      "contest": "Koro-korote",
+      "menu": "Menu",
+      "settings": "Dirate",
+      "profile": "Maalaali",
+      "editProfile": "Maalaali Haari",
+      "otherUserProfile": "Bitachu Maalaali",
+      "explore": "Xawi",
+      "challengeDetails": "Kororti Faanote",
+      "submissionDetails": "Diratu Faanote",
+      "contestDetails": "Koro-koroteti Faanote",
+      "followers": "Horrowaancho ",
+      "following": "Horrowo ",
+      "account": "Akkawinti",
+      "notifications": "Eelanno",
+      "leaderboard": "Qajeelchiisaanote Bordo",
+      "market": "Qettera",
+      "rewards": "Woyicho",
+      "coin": "Shoolitikki"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Uuri",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Mini aakko",
+        "search": "Hoollo aakko",
+        "create": "Uurro aakko",
+        "explore": "Xawo aakko",
+        "profile": "Maalaali aakko"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Diratino, bitatte, kororte hoolli...",
+      "clearSearch": "Hoollo noote maxissi",
+      "loading": "Fidaadho...",
+      "error": {
+        "title": "Hoollo Sorrote",
+        "message": "Hoolontininni sorrote fanate"
+      },
+      "noPreviousSearches": "Duuchcho hoollanno hinanni",
+      "previousSearches": "Duuchcho Hoollanno",
+      "submissions": {
+        "title": "Diratino",
+        "noResults": "Diratino hingarramino",
+        "videoError": {
+          "title": "Vidiyote Sorrote",
+          "message": "Vidiyote fidonni dadisammo"
+        }
+      },
+      "users": {
+        "title": "Bitatte",
+        "noResults": "Bitatte hingarramino"
+      },
+      "challenges": {
+        "title": "Kororte",
+        "noResults": "Kororte hingarramino",
+        "videoError": {
+          "title": "Vidiyote Sorrote",
+          "message": "Kororti vidiyote fidonni dadisammo"
+        },
+        "category": "Gattaro: ",
+        "seasonalTag": "Waagate",
+        "sponsoredTag": "Woyitino"
+      },
+      "repeatSearch": "Hoollo lammeessi",
+      "accessibility": {
+        "viewVideo": "Sumuti vidiyote xuuri",
+        "viewProfile": "Maalaali xuuri",
+        "viewChallenge": "Sumuti kororote xuuri"
+      }
+    },
+    "contest": {
+      "title": "Hundam Koro-korote",
+      "createContestButton": "Koro-korote Uuri"
+    },
+    "contests": {
+      "noContests": "Koro-korote hingarramino",
+      "error": {
+        "title": "Sorrote",
+        "message": "Koro-korote fidanni dadisammo"
+      },
+      "status": {
+        "notStarted": "Hinfanino",
+        "ongoing": "Faniro",
+        "ended": "Xummaramino"
+      },
+      "dates": {
+        "start": "Fanno: ",
+        "end": "Xummaro: ",
+        "notAvailable": "Hingarramino"
+      },
+      "contestDetailsButton": "Koro-koroteti Faanote Xuuri"
+    },
+    "newContest": {
+      "header": {
+        "title": "Hajo Koro-korote Uuri",
+        "backButton": "Gumbu"
+      },
+      "fields": {
+        "title": {
+          "label": "Sumu",
+          "placeholder": "Fakki., Booni Suumo-hanafate",
+          "validation": "Sumu fanaadho"
+        },
+        "description": {
+          "label": "Faanote",
+          "placeholder": "Tini koro-korotu ma ledo?"
+        },
+        "startDate": {
+          "label": "Fanno Ballo",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Xummaro ballo fanno ballonni gumbuhu qawaadho"
+        },
+        "endDate": {
+          "label": "Xummaro Ballo",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Xaano Woyicho (Uwaci Shoolititi)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Bitaancho Woyicho (Uwaci Shoolititi)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Vidiyote Fayyisanno (Doorancho)",
+          "noVideoSelected": "Vidiyote fayyisanno gedri",
+          "picked": "Doorancho: {filename}",
+          "uploaded": "Gedramino: Vidiyote horete gedrammo",
+          "chooseVideoButton": "Vidiyote Doorri",
+          "uploadVideoButton": "Vidiyote Gedri"
+        }
+      },
+      "buttons": {
+        "createContest": "Koro-korote Uuri"
+      },
+      "alerts": {
+        "error": {
+          "title": "Sorrote",
+          "pickVideoMessage": "Vidiyote dooranni dadisammo",
+          "uploadVideoMessage": "Vidiyote gedranni dadisammo",
+          "createContestMessage": "Koro-korote uuranni dadisammo"
+        },
+        "success": {
+          "title": "Hore",
+          "videoUploadMessage": "Vidiyote horete gedrammo!",
+          "createContestMessage": "Koro-korote horete uurammo!"
+        },
+        "validation": {
+          "noTitle": "Sumu fanaadho",
+          "invalidDates": "Xummaro ballo fanno ballonni gumbuhu qawaadho"
+        },
+        "noSession": {
+          "title": "Koro-korote uurannoro seenaadho beette"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Maalaali",
+        "settingsButton": "Diratira Afi"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Hiitanno Fanaadho",
+          "message": "Fotokkichi fidanno hiitanno noo fanaadho"
+        },
+        "errorAlert": {
+          "title": "Sorrote",
+          "message": "Foto dooranni dadisammo"
+        },
+        "successAlert": {
+          "title": "Hore",
+          "message": "Maalaaliti foto horete haarammo"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Heerranno Sorrote",
+          "message": "Direho linki heeranni dadisammo"
+        },
+        "successShare": {
+          "title": "Challenz noinna geexi!",
+          "message": "Salama! Magaltannoro tini linki bita: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Horrowaancho",
+        "viewFollowers": "Horrowaancho Xuuri"
+      },
+      "following": {
+        "label": "Horrowo",
+        "viewFollowing": "Horrowo Xuuri"
+      },
+      "posts": {
+        "label": "Gedratte",
+        "viewPosts": "Gedratte Xuuri",
+        "noVideos": "Kanniini vidiyote hingeddamino"
+      },
+      "info": {
+        "email": "Imeyli",
+        "phone": "Bilbila",
+        "location": "Horcho",
+        "coins": "Uwaci Shoolititi",
+        "bio": "Ayyaanno Taate",
+        "noProfile": "Maalaali Hingarramino"
+      },
+      "buttons": {
+        "inviteFriends": "Jaallato Heeri",
+        "deleteVideo": "Vidiyote Foxxi",
+        "deleteVideoAlert": {
+          "title": "Vidiyote Foxxi",
+          "message": "Tini vidiyote foxanni heette mirkaneetto?"
+        },
+        "deleteSuccess": {
+          "title": "Hore",
+          "message": "Vidiyote horete foxxammo"
+        },
+        "deleteError": {
+          "title": "Sorrote",
+          "message": "Vidiyote foxxanni dadisammo"
+        }
+      },
+      "errors": {
+        "generalError": "Sorrote fanate",
+        "profileError": "Maalaali fidanni dadisammo",
+        "submissionsError": "Diratino fidanni dadisammo"
+      },
+      "loading": {
+        "profile": "Maalaali fidaadho...",
+        "submissions": "Diratino fidaadho..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Maalaali Haari",
+        "cancelButton": "Haqi",
+        "saveButton": "Lammate Kayidi",
+        "savingButton": "Kayidaadho..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Hiikko Sumu",
+          "placeholder": "Hiikko sumukki noo galchi",
+          "error": {
+            "tooShort": "Hiikko sumu egemete xuruurro"
+          }
+        },
+        "lastName": {
+          "label": "Abbano Sumu",
+          "placeholder": "Abbano sumukki noo galchi",
+          "error": {
+            "tooShort": "Abbano sumu egemete xuruurro"
+          }
+        },
+        "phoneNumber": {
+          "label": "Bilbila Lakkama",
+          "placeholder": "Bilbila lakkamakki noo galchi",
+          "error": {
+            "invalid": "Giddaaninni bilbila lakkama galchi"
+          }
+        },
+        "bio": {
+          "label": "Ayyaanno Taate",
+          "placeholder": "Keetira noo haisiisi",
+          "error": {
+            "tooLong": "Ayyaanno taatu 500 fiicha qoola qawaadho"
+          }
+        },
+        "location": {
+          "label": "Horcho",
+          "placeholder": "Horchokki noo galchi",
+          "error": {
+            "tooLong": "Horchat 100 fiicha qoola qawaadho"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Sorrote",
+          "message": "Maalaaliti xaatte fidanni dadisammo"
+        },
+        "updateSuccess": {
+          "title": "Hore",
+          "message": "Maalaali horete haarammo"
+        },
+        "updateError": {
+          "title": "Sorrote",
+          "message": "Maalaali haaranni dadisammo"
+        }
+      },
+      "loading": {
+        "title": "Fidaadho..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Fidaadho...",
+      "noProfileFound": "Maalaali Hingarramino",
+      "authenticationRequired": "Mirkanesiisate Fanaadho",
+      "pleaseLogIn": "Bitatte horanni seenti",
+      "success": "Hore",
+      "unfollowSuccess": "Horri sharrate",
+      "followSuccess": "Kanniini horraatto",
+      "error": "Sorrote",
+      "followError": "Horratti haala haaranni dadisammo",
+      "posts": "Gedratte",
+      "followers": "Horrowaancho",
+      "following": "Horrowo",
+      "follow": "Horri",
+      "unfollow": "Horri Sharri",
+      "chat": "Haasaawi"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Dirate",
+      "yourUwaciCoins": "Uwaci Shoolitikki",
+      "notifications": "Eelanno",
+      "marketplace": "Qettera",
+      "signOut": "Ba'i",
+      "confirmSignOut": "Ba'anno Mirkaneessi",
+      "areYouSureSignOut": "Ba'anno heette mirkaneetto?",
+      "cancel": "Haqi",
+      "goBack": "Gumbu"
+    },
+    "settings": {
+      "settings": "Dirate",
+      "fontSelected": "Fontiti Doorancho",
+      "asYourFont": "keeti fonti direho diraammo",
+      "languageSelected": "Afote Doorancho",
+      "asYourLanguage": "keeti afo direho diraammo",
+      "themeSelected": "Temeti Doorancho",
+      "asYourTheme": "keeti teme direho diraammo",
+      "notifications": "Eelanno",
+      "marketplace": "Qettera",
+      "account": "Akkawinti",
+      "themes": "Temate",
+      "fonts": "Fontite",
+      "languages": "Afote",
+      "signOut": "Ba'i",
+      "confirmSignOut": "Ba'anno Mirkaneessi",
+      "areYouSureSignOut": "Ba'anno heette mirkaneetto?",
+      "cancel": "Haqi",
+      "goBack": "Gumbu",
+      "selectFont": "Fonti Doorri",
+      "selectLanguage": "Afo Doorri",
+      "selectTheme": "Teme Doorri",
+      "passwordSecurity": "Fula nna Amano",
+      "personalDetails": "Tiko Faanote",
+      "verification": "Mirkanesiisate",
+      "paymentMethods": "Haalawwate Maxxo",
+      "adPreferences": "Afiyyateti Dooro",
+      "upgradePremium": "Premiumi Haaro",
+      "content": "Wontitino",
+      "language": "Afo",
+      "savedDraft": "Qajote Qabyo",
+      "yourActivity": "Keeti Halchote",
+      "accessibility": "Daganno",
+      "privacy": "Duuchcho",
+      "comments": "Hasisate",
+      "privateAccount": "Duuchcho Akkawinti",
+      "directMessaging": "Gonko Hasiso",
+      "blockedReports": "Xaaxame/Xalayye",
+      "termsPolicies": "Manate nna Duuchote",
+      "switchAccount": "Akkawinti Lammeessi"
+    },
+    "accountDetails": {
+      "settingsTitle": "Akkawinti Dirate",
+      "profileSettings": "Maalaali Haari ",
+      "resetPassword": "Fula Haarisi",
+      "deleteAccount": "Akkawinti Foxxi",
+      "resetPasswordModal": {
+        "title": "Fula Haarisi",
+        "message": "Fula haarisanno imeyli rasaadhanno",
+        "sendEmail": "Imeyli Raasi",
+        "cancel": "Haqi"
+      },
+      "deleteAccountModal": {
+        "title": "Akkawinti Foxxi",
+        "message": "Akkawintikki foxxanne heette mirkaneetto? Tini mito gumbanno dandeenna",
+        "delete": "Foxxi",
+        "cancel": "Haqi"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Maalaali Haarame",
+          "message": "Maalaaliikki horete haarammo"
+        },
+        "profileUpdateError": {
+          "title": "Sorrote",
+          "message": "Maalaaliikki haaranni dadisammo. Woroonsi xagiwooti"
+        },
+        "passwordReset": {
+          "title": "Fula Haariso",
+          "message": "Fula haarisanno imeyli raasame"
+        },
+        "passwordResetError": {
+          "title": "Sorrote",
+          "message": "Fula haarisanno imeyli rasanni dadisammo. Woroonsi xagiwooti"
+        },
+        "accountDeleted": {
+          "title": "Akkawinti Foxxammo",
+          "message": "Akkawintikki horete foxxammo"
+        },
+        "accountDeleteError": {
+          "title": "Sorrote",
+          "message": "Akkawintikki foxxanni dadisammo. Woroonsi xagiwooti"
+        }
+      }
+    }
+  }

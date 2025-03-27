@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Llallinakuykuna Mask'ay",
+      "thatInspire": "¡Kallpanchaqkuna!",
+      "signUp": "Qillqakuy",
+      "signIn": "Yaykuy"
+    },
+    "signUp": {
+      "title": "Qillqakuy",
+      "headerMessage": "Musuq yupaqta paqarichiy qallarinaykapaq",
+      "businessTitle": "Negocio hina qillqakuy",
+      "headerMessageBusiness": "Musuq negocio yupaqta paqarichiy qallarinaykapaq",
+      "form": {
+        "username": {
+          "label": "Ruwaq suti",
+          "placeholder": "Ruwaq sutita akllay",
+          "validation": {
+            "minLength": "Ruwaq sutiqa kimsa qillqayuqmanta aswan kanan",
+            "regex": "Ruwaq sutiqa qillqakunallata, yupaykunallata, hinallataq ura rayallata apayta atin"
+          }
+        },
+        "firstname": {
+          "label": "Ñawpaq suti",
+          "placeholder": "Ñawpaq sutikiyta qillqay",
+          "validation": "Ñawpaq sutiqa kimsa qillqayuqmanta aswan kanan"
+        },
+        "lastname": {
+          "label": "Qhipa suti",
+          "placeholder": "Qhipa sutikiyta qillqay",
+          "validation": "Qhipa sutiqa kimsa qillqayuqmanta aswan kanan"
+        },
+        "businessName": {
+          "label": "Negocio suti",
+          "placeholder": "Negocioykip sutinta qillqay",
+          "validation": "Negocio sutiqa kimsa qillqayuqmanta aswan kanan"
+        },
+        "website": {
+          "label": "Negocio web wasinta",
+          "placeholder": "Web wasiykita qillqay",
+          "validation": "Negocio sutiqa kimsa qillqayuqmanta aswan kanan"
+        },
+        "businessType": {
+          "label": "Ima negocio",
+          "placeholder": "Ima negocio",
+          "validation": "Negocio sutiqa kimsa qillqayuqmanta aswan kanan"
+        },
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "Correo electrónicoykita qillqay",
+          "validation": "Allin correo electrónicota qillqay ari"
+        },
+        "phoneNumber": {
+          "label": "Teléfono yupaynin",
+          "placeholder": "Teléfonoykip yupayninta qillqay",
+          "validation": "Allin teléfono yupayninta qillqay ari"
+        },
+        "birthday": {
+          "title": "Paqarisqa p'unchaw",
+          "label": "Paqarisqa p'unchaw",
+          "placeholder": "PP-KK-WWWW",
+          "validation": {
+            "format": "Paqarisqa p'unchawqa kayhina kanan: PP-KK-WWWW",
+            "validDate": "Mana allin p'unchaw",
+            "ageRestriction": "Chunka pusaqniyuq watayuqmanta aswan kanki yupaqta paqarichinaykipaq"
+          }
+        },
+        "password": {
+          "label": "Yaykuna rimay",
+          "placeholder": "Yaykuna rimayniykita qillqay",
+          "validation": {
+            "minLength": "Yaykuna rimayqa pusaq qillqayuqmanta aswan kanan",
+            "maxLength": "Yaykuna rimayqa soqta chunka tawayuq qillqakunamanta pisi kanan",
+            "uppercase": "Yaykuna rimayqa huk hatun qillqayuq kanan",
+            "lowercase": "Yaykuna rimayqa huk tak'a qillqayuq kanan",
+            "numberOrSpecial": "Yaykuna rimayqa huk yupayniyuq utaq sapaq qillqayuq kanan"
+          },
+          "strength": {
+            "weak": "Pisilla",
+            "fair": "Allinlla",
+            "good": "Allin",
+            "strong": "Sinchi"
+          }
+        },
+        "confirmPassword": {
+          "label": "Yaykuna rimayta takyachiy",
+          "placeholder": "Yaykuna rimayniykita huktawan qillqay",
+          "validation": "Yaykuna rimaykunaqa mana kikinchu"
+        }
+      },
+      "buttons": {
+        "createAccount": "Yupaqta paqarichiy",
+        "alreadyHaveAccount": "¿Ñaqña yupaqniyuqchu kanki?",
+        "signIn": "Yaykuy",
+        "businessJoin": "Challenz nisqaman yaykuy negocio masi hina"
+      },
+      "alerts": {
+        "error": {
+          "title": "Pantasqa",
+          "message": "Yupaqniykip paqarichisqanpi huk pantasqa karqan. Huktawan ruwayta qallariy"
+        },
+        "passwordMismatch": {
+          "title": "Yaykuna rimay mana tupaq",
+          "message": "Yaykuna rimay mana allinchu. Huktawan ruwayta qallariy"
+        },
+        "agreementRequired": {
+          "title": "Rimanakuyta munan",
+          "message": "Servicio rimanakuyta hinallataq pakasqa kamachita chaskiy"
+        },
+        "success": {
+          "title": "Allin",
+          "message": "Yupaqniyki allin paqarisqa"
+        },
+        "signUpError": {
+          "title": "Qillqakuy pantasqa",
+          "message": "Yupaqniykip paqarichisqanpi huk pantasqa karqan. Huktawan ruwayta qallariy"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Qillqakuspaqa, ñawiriranki",
+        "termsOfService": "Servicio rimanakuy",
+        "privacyPolicy": "Pakasqa kamachi",
+        "andAccepted": "hinallataq chaskiranki"
+      }
+    },
+    "signIn": {
+      "title": "Yaykuy",
+      "headerMessage": "Yupaqniykiman yaykunaykipaq",
+      "form": {
+        "email": "Correo electrónico",
+        "emailPlaceholder": "Correo electrónicoykita qillqay",
+        "password": "Yaykuna rimay",
+        "passwordPlaceholder": "Yaykuna rimayniykita qillqay"
+      },
+      "buttons": {
+        "signIn": "Yaykuy",
+        "forgotPassword": "¿Yaykuna rimayta qunqachkankichu?",
+        "noAccount": "¿Manachu yupaqniyuq kanki?",
+        "signUp": " Qillqakuy"
+      },
+      "forgotPassword": {
+        "title": "Yaykuna rimayta qunqasqa",
+        "prompt": "Correo electrónicoykita ñawpaqta qillqay",
+        "successTitle": "Correo electrónicoykita qhaway",
+        "successMessage": "Yaykuna rimayta musuqchanaykipaq t'inkita correoykiman apachisqayku",
+        "errorTitle": "Musuqchay pantasqa"
+      },
+      "termsAndPrivacy": {
+        "message": "Qillqakuspaqa, ñawiriranki",
+        "termsOfService": "Servicio rimanakuy",
+        "privacyPolicy": "Pakasqa kamachi",
+        "andAccepted": "hinallataq chaskiranki"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Yaykuy pantasqa"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Yaykuna rimayta qunqasqa",
+      "description": "Correo electrónicoykita kay uraypi qillqay, chaymanta yaykuna rimayta musuqchanaykipaq t'inkita apachisaqku",
+      "form": {
+        "email": "Correo electrónico"
+      },
+      "buttons": {
+        "reset": "Yaykuna rimayta musuqchay",
+        "sending": "Apachispa...",
+        "remembered": "¿Yaykuna rimayniykita yuyarisqankichu?",
+        "signIn": "Yaykuy"
+      },
+      "alerts": {
+        "enterEmail": "Correo electrónicoykita qillqay",
+        "checkEmail": "Correoykipi yaykuna rimay musuqchanaykapaq t'inkita mask'ay",
+        "resetError": "Yaykuna rimay musuqchaypi pantasqa"
+      }
+    },
+    "resetPassword": {
+      "title": "Yaykuna rimayta musuqchay",
+      "description": "Musuq yaykuna rimayniykita kay uraypi qillqay, yupaqniykip yaykuna rimayninta musuqchanaykipaq",
+      "form": {
+        "newPassword": "Musuq yaykuna rimayta qillqay",
+        "confirmPassword": "Musuq yaykuna rimayta takyachiy"
+      },
+      "alerts": {
+        "enterBothPasswords": "Iskay yaykuna rimay k'itimanta qillqay",
+        "passwordMismatch": "Yaykuna rimaykunaqa mana kikinchu. Huktawan ruwayta qallariy",
+        "success": "Yaykuna rimayniyki allin musuqchasqa",
+        "updateError": "Yaykuna rimayniyki musuqchaypi pantasqa. Huktawan ruwayta qallariy"
+      },
+      "buttons": {
+        "saving": "Waqaychaspa...",
+        "update": "Yaykuna rimayta musuqchay"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Yaykuna token mana allinchu utaq chinkapusqa",
+        "sessionFailed": "Sesión churana pantasqa",
+        "invalidPassword": "Allin yaykuna rimayta qillqay, pusaq qillqayuqmanta aswan",
+        "updateFailed": "Yaykuna rimay musuqchaypi pantasqa"
+      },
+      "success": {
+        "passwordUpdated": "Yaykuna rimayniyki musuqchasqa. Huktawan yaykuy"
+      },
+      "title": "Yaykuna rimayniykita musuqchay",
+      "instructions": "Musuq yaykuna rimayta qillqay",
+      "labels": {
+        "newPassword": "Musuq yaykuna rimay"
+      },
+      "placeholders": {
+        "newPassword": "Musuq yaykuna rimayta qillqay"
+      },
+      "buttons": {
+        "updatePassword": "Yaykuna rimayta musuqchay"
+      }
+    },
+    "tabs": {
+      "home": "Wasi",
+      "search": "Mask'ay",
+      "create": "Paqarichiy",
+      "contest": "Llallinakuy",
+      "menu": "Akllana",
+      "settings": "Akllanakuna",
+      "profile": "Ruwaq",
+      "editProfile": "Ruwaqta allichay",
+      "otherUserProfile": "Huk ruwaqpa ruwaqnin",
+      "explore": "Musuqta riqsiy",
+      "challengeDetails": "Llallikuymanta yachay",
+      "submissionDetails": "Churasqamanta yachay",
+      "contestDetails": "Llallinakuymanta yachay",
+      "followers": "Qatiqkuna ",
+      "following": "Qatisqakuna ",
+      "account": "Yupaq",
+      "notifications": "Willakuykuna",
+      "leaderboard": "Ñawpaq ruwaqkuna",
+      "market": "Qhatu",
+      "rewards": "Premiokuna",
+      "coin": "Qullqiykikuna"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Paqarichiy",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Wasi rikch'ay",
+        "search": "Mask'ay rikch'ay",
+        "create": "Paqarichiy rikch'ay",
+        "explore": "Musuqta riqsiy rikch'ay",
+        "profile": "Ruwaq rikch'ay"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Churasqakunata, ruwaqkunata, llallikuykunata mask'ay...",
+      "clearSearch": "Mask'anata ch'uyanchay",
+      "loading": "Chaqnaspa...",
+      "error": {
+        "title": "Mask'ay pantasqa",
+        "message": "Mask'aypi huk pantasqa karqan"
+      },
+      "noPreviousSearches": "Mana qhipa mask'anakuna kanchu",
+      "previousSearches": "Qhipa mask'anakuna",
+      "submissions": {
+        "title": "Churasqakuna",
+        "noResults": "Mana churasqakunata tarirqanchu",
+        "videoError": {
+          "title": "Video pantasqa",
+          "message": "Videota chaqnaypi pantasqa"
+        }
+      },
+      "users": {
+        "title": "Ruwaqkuna",
+        "noResults": "Mana ruwaqkunata tarirqanchu"
+      },
+      "challenges": {
+        "title": "Llallikuykuna",
+        "noResults": "Mana llallikuykunata tarirqanchu",
+        "videoError": {
+          "title": "Video pantasqa",
+          "message": "Llallikuy videota chaqnaypi pantasqa"
+        },
+        "category": "Raki: ",
+        "seasonalTag": "Mit'a mit'a",
+        "sponsoredTag": "Yanapasqa"
+      },
+      "repeatSearch": "Huktawan mask'ay",
+      "accessibility": {
+        "viewVideo": "Kay sutiyuq videota qhaway",
+        "viewProfile": "Kay sutiyuq ruwaqta qhaway",
+        "viewChallenge": "Kay sutiyuq llallikuyta qhaway"
+      }
+    },
+    "contest": {
+      "title": "Llapa llallinakuykuna",
+      "createContestButton": "Llallinakuyta paqarichiy"
+    },
+    "contests": {
+      "noContests": "Mana llallinakuykunata tarirqanchu",
+      "error": {
+        "title": "Pantasqa",
+        "message": "Llallinakuykunata tariypi pantasqa"
+      },
+      "status": {
+        "notStarted": "Mana qallarisqaraqchu",
+        "ongoing": "Ruwakushanmi",
+        "ended": "Tukusqaña"
+      },
+      "dates": {
+        "start": "Qallariy: ",
+        "end": "Tukuy: ",
+        "notAvailable": "Mana kanchu"
+      },
+      "contestDetailsButton": "Llallinakuymanta yachayta qhaway"
+    },
+    "newContest": {
+      "header": {
+        "title": "Musuq llallinakuyta paqarichiy",
+        "backButton": "Kutiy"
+      },
+      "fields": {
+        "title": {
+          "label": "Suti",
+          "placeholder": "Ejemplopaq, Ruphay mit'a tusuy",
+          "validation": "Sutiqa kananpuni"
+        },
+        "description": {
+          "label": "Willakuy",
+          "placeholder": "¿Imaraykutaq kay llallinakuy?"
+        },
+        "startDate": {
+          "label": "Qallariy p'unchaw",
+          "placeholder": "PP-KK-WWWW",
+          "validation": "Tukuy p'unchawqa qallariy p'unchawmanta qhipaman kanan"
+        },
+        "endDate": {
+          "label": "Tukuy p'unchaw",
+          "placeholder": "PP-KK-WWWW"
+        },
+        "winnerReward": {
+          "label": "Llalliq premio (Uwaci qullqi)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Ruwaq premio (Uwaci qullqi)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Video willakuy (Munaspaqa)",
+          "noVideoSelected": "Video willakuyta yapay",
+          "picked": "Akllasqa: {filename}",
+          "uploaded": "Apachisqa: Video allinta apachisqa",
+          "chooseVideoButton": "Videota akllay",
+          "uploadVideoButton": "Videota apachiy"
+        }
+      },
+      "buttons": {
+        "createContest": "Llallinakuyta paqarichiy"
+      },
+      "alerts": {
+        "error": {
+          "title": "Pantasqa",
+          "pickVideoMessage": "Videota akllaypi pantasqa",
+          "uploadVideoMessage": "Videota apachiypi pantasqa",
+          "createContestMessage": "Llallinakuyta paqarichiypi pantasqa"
+        },
+        "success": {
+          "title": "Allin",
+          "videoUploadMessage": "¡Video allinta apachisqa!",
+          "createContestMessage": "¡Llallinakuy allinta paqarichisqa!"
+        },
+        "validation": {
+          "noTitle": "Sutiqa kananpuni",
+          "invalidDates": "Tukuy p'unchawqa qallariy p'unchawmanta qhipaman kanan"
+        },
+        "noSession": {
+          "title": "Llallinakuyta paqarichinaykipaq yaykunayki"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Ruwaq",
+        "settingsButton": "Akllanakunaman riy"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Permisota munan",
+          "message": "Fotoykikunaman permisota munasqayku"
+        },
+        "errorAlert": {
+          "title": "Pantasqa",
+          "message": "Fotota akllaypi pantasqa"
+        },
+        "successAlert": {
+          "title": "Allin",
+          "message": "Ruwaqpa fotonqa allinta musuqchasqa"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Willanakuy pantasqa",
+          "message": "Pusaytaq t'inkita willanakuypi mana atikunchu"
+        },
+        "successShare": {
+          "title": "¡Nuqawan Challenz nisqaman haykuy!",
+          "message": "¡Imaynalla! Kay t'inki qillqakunaykipaq: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Qatiqkuna",
+        "viewFollowers": "Qatiqkunata qhaway"
+      },
+      "following": {
+        "label": "Qatisqakuna",
+        "viewFollowing": "Qatisqakunata qhaway"
+      },
+      "posts": {
+        "label": "Churasqakuna",
+        "viewPosts": "Churasqakunata qhaway",
+        "noVideos": "Manaraq videokuna churasqachu"
+      },
+      "info": {
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "location": "Tiyana",
+        "coins": "Uwaci qullqi",
+        "bio": "Kawsay",
+        "noProfile": "Mana ruwaqta tarirqanchu"
+      },
+      "buttons": {
+        "inviteFriends": "Masiskunata mink'ay",
+        "deleteVideo": "Videota qulluy",
+        "deleteVideoAlert": {
+          "title": "Videota qulluy",
+          "message": "¿Segurochu kay videota qulluyta munanki?"
+        },
+        "deleteSuccess": {
+          "title": "Allin",
+          "message": "Video allinta qullusqa"
+        },
+        "deleteError": {
+          "title": "Pantasqa",
+          "message": "Videota qulluypi pantasqa"
+        }
+      },
+      "errors": {
+        "generalError": "Huk pantasqa karqan",
+        "profileError": "Ruwaqta tariypi pantasqa",
+        "submissionsError": "Churasqakunata tariypi pantasqa"
+      },
+      "loading": {
+        "profile": "Ruwaqta chaqnaspa...",
+        "submissions": "Churasqakunata chaqnaspa..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Ruwaqta allichay",
+        "cancelButton": "Saqiy",
+        "saveButton": "Taqruykunata waqaychay",
+        "savingButton": "Waqaychaspa..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Ñawpaq suti",
+          "placeholder": "Ñawpaq sutikiyta qillqay",
+          "error": {
+            "tooShort": "Ñawpaq sutiqa ancha tak'ami"
+          }
+        },
+        "lastName": {
+          "label": "Qhipa suti",
+          "placeholder": "Qhipa sutikiyta qillqay",
+          "error": {
+            "tooShort": "Qhipa sutiqa ancha tak'ami"
+          }
+        },
+        "phoneNumber": {
+          "label": "Teléfono yupaynin",
+          "placeholder": "Teléfonoykip yupayninta qillqay",
+          "error": {
+            "invalid": "Allin teléfono yupayninta qillqay ari"
+          }
+        },
+        "bio": {
+          "label": "Kawsay",
+          "placeholder": "Qanmanta willawayku",
+          "error": {
+            "tooLong": "Kawsayqa pisqha pachak qillqakunamanta aswan tak'a kanan"
+          }
+        },
+        "location": {
+          "label": "Tiyana",
+          "placeholder": "Tiyanata qillqay",
+          "error": {
+            "tooLong": "Tiyanaqa pachak qillqakunamanta aswan tak'a kanan"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Pantasqa",
+          "message": "Ruwaq datota tariypi pantasqa"
+        },
+        "updateSuccess": {
+          "title": "Allin",
+          "message": "Ruwaq allinta musuqchasqa"
+        },
+        "updateError": {
+          "title": "Pantasqa",
+          "message": "Ruwaq musuqchaypi pantasqa"
+        }
+      },
+      "loading": {
+        "title": "Chaqnaspa..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Chaqnaspa...",
+      "noProfileFound": "Mana ruwaqta tarirqanchu",
+      "authenticationRequired": "Reqsichikuyta munan",
+      "pleaseLogIn": "Ruwaqkunata qatiyta yaykunayki",
+      "success": "Allin",
+      "unfollowSuccess": "Manañam qatinki",
+      "followSuccess": "Kunanqa qatisqankiña",
+      "error": "Pantasqa",
+      "followError": "Qatiy musuqchaypi pantasqa",
+      "posts": "Churasqakuna",
+      "followers": "Qatiqkuna",
+      "following": "Qatisqakuna",
+      "follow": "Qatiy",
+      "unfollow": "Ama qatiychu",
+      "chat": "Rimay"
+    },
+    "menu": {
+      "menu": "Akllana",
+      "settings": "Akllanakuna",
+      "yourUwaciCoins": "Uwaci qullqiykikuna",
+      "notifications": "Willakuykuna",
+      "marketplace": "Qhatu",
+      "signOut": "Lluqsiy",
+      "confirmSignOut": "Lluqsiy takyachiy",
+      "areYouSureSignOut": "¿Segurochu lluqsiyta munanki?",
+      "cancel": "Saqiy",
+      "goBack": "Kutiy"
+    },
+    "settings": {
+      "settings": "Akllanakuna",
+      "fontSelected": "Qillqay akllasqa",
+      "asYourFont": "qillqaykimi",
+      "languageSelected": "Simi akllasqa",
+      "asYourLanguage": "simiykimi",
+      "themeSelected": "Tema akllasqa",
+      "asYourTheme": "temaykimi",
+      "notifications": "Willakuykuna",
+      "marketplace": "Qhatu",
+      "account": "Yupaq",
+      "themes": "Temakuna",
+      "fonts": "Qillqaykuna",
+      "languages": "Simikuna",
+      "signOut": "Lluqsiy",
+      "confirmSignOut": "Lluqsiy takyachiy",
+      "areYouSureSignOut": "¿Segurochu lluqsiyta munanki?",
+      "cancel": "Saqiy",
+      "goBack": "Kutiy",
+      "selectFont": "Qillqayta akllay",
+      "selectLanguage": "Simita akllay",
+      "selectTheme": "Temata akllay",
+      "passwordSecurity": "Yaykuna rimay hinallataq waqaychay",
+      "personalDetails": "Sapanchasqa datokunata",
+      "verification": "Takyachiy",
+      "paymentMethods": "Paganapaq ñankuna",
+      "adPreferences": "Willakuykunapaq akllasqakuna",
+      "upgradePremium": "Premium nisqaman wichariy",
+      "content": "Contenido",
+      "language": "Simi",
+      "savedDraft": "Waqaychasqa borradores",
+      "yourActivity": "Rurasqaykikuna",
+      "accessibility": "Haykuna",
+      "privacy": "Sapanchay",
+      "comments": "Rimaykuna",
+      "privateAccount": "Sapanchasqa yupaq",
+      "directMessaging": "Chiqan willakuy",
+      "blockedReports": "Hark'asqakuna/Willakuykuna",
+      "termsPolicies": "Términos hinallataq políticas",
+      "switchAccount": "Yupaqta tikray"
+    },
+    "accountDetails": {
+      "settingsTitle": "Yupaq akllanakuna",
+      "profileSettings": "Ruwaqta allichay ",
+      "resetPassword": "Yaykuna rimayta musuqchay",
+      "deleteAccount": "Yupaqta qulluy",
+      "resetPasswordModal": {
+        "title": "Yaykuna rimayta musuqchay",
+        "message": "Yaykuna rimayta musuqchana correota apachisunchik kayma",
+        "sendEmail": "Correota apachiy",
+        "cancel": "Saqiy"
+      },
+      "deleteAccountModal": {
+        "title": "Yupaqta qulluy",
+        "message": "¿Segurochu yupaqniykita qulluyta munanki? Kay ruwasqata mana kutichina atikunchu",
+        "delete": "Qulluy",
+        "cancel": "Saqiy"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Ruwaq musuqchasqa",
+          "message": "Ruwaqniyki allinta musuqchasqa"
+        },
+        "profileUpdateError": {
+          "title": "Pantasqa",
+          "message": "Ruwaqniyki musuqchaypi pantasqa. Huktawan ruwayta qallariy"
+        },
+        "passwordReset": {
+          "title": "Yaykuna rimay musuqchay",
+          "message": "Yaykuna rimayta musuqchana correo apachisqa"
+        },
+        "passwordResetError": {
+          "title": "Pantasqa",
+          "message": "Yaykuna rimayta musuqchana correo apachiypi pantasqa. Huktawan ruwayta qallariy"
+        },
+        "accountDeleted": {
+          "title": "Yupaq qullusqa",
+          "message": "Yupaqniyki allinta qullusqa"
+        },
+        "accountDeleteError": {
+          "title": "Pantasqa",
+          "message": "Yupaqniyki qulluypi pantasqa. Huktawan ruwayta qallariy"
+        }
+      }
+    }
+  }

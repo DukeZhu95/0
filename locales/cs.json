@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Prozkoumejte výzvy",
+    "thatInspire": "které inspirují!",
+    "signUp": "Registrovat se",
+    "signIn": "Přihlásit se"
+  },
+  "signUp": {
+    "title": "Registrovat se",
+    "headerMessage": "Vytvořte si nový účet pro zahájení.",
+    "form": {
+      "username": {
+        "label": "Uživatelské jméno",
+        "placeholder": "Vyberte uživatelské jméno",
+        "validation": {
+          "minLength": "Uživatelské jméno musí mít alespoň 3 znaky.",
+          "regex": "Uživatelské jméno může obsahovat pouze písmena, číslice a podtržítka."
+        }
+      },
+      "firstname": {
+        "label": "Křestní jméno",
+        "placeholder": "Zadejte své křestní jméno",
+        "validation": "Křestní jméno musí mít alespoň 3 znaky."
+      },
+      "lastname": {
+        "label": "Příjmení",
+        "placeholder": "Zadejte své příjmení",
+        "validation": "Příjmení musí mít alespoň 3 znaky."
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Zadejte svou e-mailovou adresu",
+        "validation": "Prosím, zadejte platnou e-mailovou adresu."
+      },
+      "phoneNumber": {
+        "label": "Telefonní číslo",
+        "placeholder": "Zadejte své telefonní číslo",
+        "validation": "Prosím, zadejte platné telefonní číslo."
+      },
+      "birthday": {
+        "label": "Datum narození",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Datum narození musí být ve formátu YYYY-MM-DD",
+          "validDate": "Neplatné datum",
+          "ageRestriction": "Musíte mít 18 let nebo více pro vytvoření účtu"
+        }
+      },
+      "password": {
+        "label": "Heslo",
+        "placeholder": "Zadejte své heslo",
+        "validation": {
+          "minLength": "Heslo musí mít alespoň 8 znaků.",
+          "maxLength": "Heslo musí mít méně než 64 znaků.",
+          "uppercase": "Heslo musí obsahovat alespoň jeden velký písmeno.",
+          "lowercase": "Heslo musí obsahovat alespoň jeden malý písmeno.",
+          "numberOrSpecial": "Heslo musí obsahovat alespoň jednu číslici nebo speciální znak."
+        },
+        "strength": {
+          "weak": "Slabé",
+          "fair": "Průměrné",
+          "good": "Dobré",
+          "strong": "Silné"
+        }
+      },
+      "confirmPassword": {
+        "label": "Potvrďte heslo",
+        "placeholder": "Zadejte své heslo znovu",
+        "validation": "Hesla se neshodují."
+      }
+    },
+    "buttons": {
+      "createAccount": "Vytvořit účet",
+      "alreadyHaveAccount": "Máte již účet? Přihlásit se"
+    },
+    "alerts": {
+      "error": {
+        "title": "Chyba",
+        "message": "Došlo k chybě při vytváření vašeho účtu. Zkuste to prosím znovu."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Registrací souhlasíte s tím, že jste přečetli naše",
+      "termsOfService": "Podmínky služby",
+      "privacyPolicy": "Zásady ochrany osobních údajů",
+      "andAccepted": "a jste s nimi souhlasili"
+    }
+  },
+  "signIn": {
+    "title": "Přihlásit se",
+    "headerMessage": "Zadejte své přihlašovací údaje pro přístup k vašemu účtu.",
+    "form": {
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "password": "Heslo",
+      "passwordPlaceholder": "Heslo"
+    },
+    "buttons": {
+      "signIn": "Přihlásit se",
+      "forgotPassword": "Zapomněli jste heslo?",
+      "signUp": "Nemáte účet? Registrujte se"
+    },
+    "forgotPassword": {
+      "title": "Zapomněli jste heslo",
+      "prompt": "Nejprve zadejte svůj e-mail výše.",
+      "successTitle": "Zkontrolujte svůj e-mail",
+      "successMessage": "Odeslali jsme odkaz na resetování vašeho hesla na váš e-mail.",
+      "errorTitle": "Chyba při resetování"
+    },
+    "termsAndPrivacy": {
+      "message": "Registrací souhlasíte s tím, že jste přečetli naše",
+      "termsOfService": "Podmínky služby",
+      "privacyPolicy": "Zásady ochrany osobních údajů",
+      "andAccepted": "a jste s nimi souhlasili"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Chyba při přihlášení"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Neplatný nebo chybějící přístupový token.",
+      "sessionFailed": "Nepodařilo se vytvořit relaci.",
+      "invalidPassword": "Prosím, zadejte platné heslo s alespoň 8 znaky.",
+      "updateFailed": "Nepodařilo se aktualizovat vaše heslo."
+    },
+    "success": {
+      "passwordUpdated": "Vaše heslo bylo aktualizováno. Prosím, přihlaste se znovu."
+    },
+    "title": "Obnovit heslo",
+    "instructions": "Zadejte nové heslo.",
+    "labels": {
+      "newPassword": "Nové heslo"
+    },
+    "placeholders": {
+      "newPassword": "Zadejte nové heslo"
+    },
+    "buttons": {
+      "updatePassword": "Aktualizovat heslo"
+    }
+  },
+  "tabs": {
+    "home": "Domů",
+    "search": "Vyhledávání",
+    "create": "Vytvořit",
+    "explore": "Soutěže",
+    "profile": "Profil",
+    "settings": "Nastavení",
+    "editProfile": "Upravit profil",
+    "otherUserProfile": "Profil jiného uživatele",
+    "comment": "Komentář",
+    "contest": "Soutěž",
+    "challengeDetails": "Detaily výzvy",
+    "submissionDetails": "Detaily podání",
+    "contestDetails": "Detaily soutěže",
+    "followers": "Sledující",
+    "following": "Sleduji",
+    "account": "Účet",
+    "notifications": "Oznámení",
+    "leaderboard": "Žebříček",
+    "market": "Trh",
+    "rewards": "Odmeny"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Vytvořit",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Ikona domů",
+      "search": "Ikona vyhledávání",
+      "create": "Ikona vytváření",
+      "explore": "Ikona průzkumu",
+      "profile": "Ikona profilu"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Hledejte podání, uživatele, výzvy...",
+    "clearSearch": "Vymazat vyhledávání",
+    "loading": "Načítání...",
+    "error": {
+      "title": "Chyba při vyhledávání",
+      "message": "Došlo k chybě při vyhledávání."
+    },
+    "noPreviousSearches": "Žádné předchozí vyhledávání.",
+    "previousSearches": "Předchozí vyhledávání",
+    "submissions": {
+      "title": "Podání",
+      "noResults": "Žádná podání nalezena.",
+      "videoError": {
+        "title": "Chyba videa",
+        "message": "Video se nepodařilo načíst."
+      }
+    },
+    "users": {
+      "title": "Uživatelé",
+      "noResults": "Žádní uživatelé nenalezeni."
+    },
+    "challenges": {
+      "title": "Výzvy",
+      "noResults": "Žádné výzvy nalezeny.",
+      "videoError": {
+        "title": "Chyba videa",
+        "message": "Video výzvy se nepodařilo načíst."
+      },
+      "category": "Kategorie: ",
+      "seasonalTag": "Sezónní",
+      "sponsoredTag": "Sponzorováno"
+    },
+    "repeatSearch": "Opakovat vyhledávání pro",
+    "accessibility": {
+      "viewVideo": "Zobrazit video s názvem",
+      "viewProfile": "Zobrazit profil",
+      "viewChallenge": "Zobrazit výzvu s názvem"
+    }
+  },
+  "contest": {
+    "title": "Všechny soutěže",
+    "createContestButton": "Vytvořit soutěž"
+  },
+  "contests": {
+    "noContests": "Žádné soutěže nalezeny.",
+    "error": {
+      "title": "Chyba",
+      "message": "Nepodařilo se načíst soutěže."
+    },
+    "status": {
+      "notStarted": "Nezačato",
+      "ongoing": "Probíhá",
+      "ended": "Ukončeno"
+    },
+    "dates": {
+      "start": "Začátek: ",
+      "end": "Konec: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Zobrazit detaily soutěže"
+  },
+  "newContest": {
+    "header": {
+      "title": "Vytvořit novou soutěž",
+      "backButton": "Zpět"
+    },
+    "fields": {
+      "title": {
+        "label": "Název",
+        "placeholder": "např. Letní taneční výzva",
+        "validation": "Název je povinný."
+      },
+      "description": {
+        "label": "Popis",
+        "placeholder": "O čem je tato soutěž?"
+      },
+      "startDate": {
+        "label": "Datum začátku",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Datum ukončení musí být po datu začátku."
+      },
+      "endDate": {
+        "label": "Datum ukončení",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Odměna pro vítěze (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Odměna pro účastníky (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Video popis (volitelné)",
+        "noVideoSelected": "Přidejte video popis.",
+        "picked": "Vybráno: {filename}",
+        "uploaded": "Nahráno: Video bylo úspěšně nahráno.",
+        "chooseVideoButton": "Vybrat video",
+        "uploadVideoButton": "Nahrát video"
+      }
+    },
+    "buttons": {
+      "createContest": "Vytvořit soutěž"
+    },
+    "alerts": {
+      "error": {
+        "title": "Chyba",
+        "pickVideoMessage": "Nepodařilo se vybrat video.",
+        "uploadVideoMessage": "Nepodařilo se nahrát video.",
+        "createContestMessage": "Nepodařilo se vytvořit soutěž."
+      },
+      "success": {
+        "videoUploadMessage": "Video úspěšně nahráno!",
+        "createContestMessage": "Soutěž úspěšně vytvořena!"
+      },
+      "validation": {
+        "noTitle": "Název je povinný.",
+        "invalidDates": "Datum ukončení musí být po datu začátku."
+      },
+      "noSession": {
+        "title": "Musíte být přihlášeni, abyste mohli vytvořit soutěž."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Přejít na nastavení"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Požadováno oprávnění",
+        "message": "Potřebujeme oprávnění k přístupu k vašim fotografiím."
+      },
+      "errorAlert": {
+        "title": "Chyba",
+        "message": "Nepodařilo se vybrat obrázek"
+      },
+      "successAlert": {
+        "title": "Úspěch",
+        "message": "Profilový obrázek úspěšně aktualizován"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Chyba sdílení",
+        "message": "Nelze sdílet referral odkaz."
+      },
+      "successShare": {
+        "title": "Připojte se ke mně na Challenz!",
+        "message": "Ahoj! Použijte tento odkaz k registraci: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Sledující",
+      "viewFollowers": "Zobrazit sledující"
+    },
+    "following": {
+      "label": "Sleduji",
+      "viewFollowing": "Zobrazit sledující"
+    },
+    "posts": {
+      "label": "Příspěvky",
+      "viewPosts": "Zobrazit příspěvky",
+      "noVideos": "Zatím nejsou zveřejněna žádná videa."
+    },
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "location": "Umístění",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Profil nenalezen"
+    },
+    "buttons": {
+      "inviteFriends": "Sdílet referral odkaz",
+      "deleteVideo": "Smazat video",
+      "deleteVideoAlert": {
+        "title": "Smazat video",
+        "message": "Jste si jisti, že chcete smazat toto video?"
+      },
+      "deleteSuccess": {
+        "title": "Úspěch",
+        "message": "Video úspěšně smazáno."
+      },
+      "deleteError": {
+        "title": "Chyba",
+        "message": "Nepodařilo se smazat video."
+      }
+    },
+    "errors": {
+      "generalError": "Došlo k chybě.",
+      "profileError": "Nepodařilo se načíst profil.",
+      "submissionsError": "Nepodařilo se načíst podání."
+    },
+    "loading": {
+      "profile": "Načítání profilu...",
+      "submissions": "Načítání podání..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Upravit profil",
+      "cancelButton": "Zrušit",
+      "saveButton": "Uložit změny",
+      "savingButton": "Ukládání..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Jméno",
+        "placeholder": "Zadejte své jméno",
+        "error": {
+          "tooShort": "Jméno je příliš krátké"
+        }
+      },
+      "lastName": {
+        "label": "Příjmení",
+        "placeholder": "Zadejte své příjmení",
+        "error": {
+          "tooShort": "Příjmení je příliš krátké"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonní číslo",
+        "placeholder": "Zadejte své telefonní číslo",
+        "error": {
+          "invalid": "Prosím, zadejte platné telefonní číslo"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Řekněte nám něco o sobě",
+        "error": {
+          "tooLong": "Bio musí mít méně než 500 znaků"
+        }
+      },
+      "location": {
+        "label": "Umístění",
+        "placeholder": "Zadejte své umístění",
+        "error": {
+          "tooLong": "Umístění musí mít méně než 100 znaků"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Chyba",
+        "message": "Nepodařilo se načíst data profilu"
+      },
+      "updateSuccess": {
+        "title": "Úspěch",
+        "message": "Profil úspěšně aktualizován"
+      },
+      "updateError": {
+        "title": "Chyba",
+        "message": "Nepodařilo se aktualizovat profil"
+      }
+    },
+    "loading": {
+      "title": "Načítání..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Načítání...",
+    "noProfileFound": "Profil nenalezen",
+    "authenticationRequired": "Požadováno ověření",
+    "pleaseLogIn": "Přihlaste se, abyste mohli sledovat uživatele.",
+    "success": "Úspěch",
+    "unfollowSuccess": "Přestali jste sledovat",
+    "followSuccess": "Nyní sledujete",
+    "error": "Chyba",
+    "followError": "Nepodařilo se aktualizovat stav sledování.",
+    "posts": "Příspěvky",
+    "followers": "Sledující",
+    "following": "Sleduji",
+    "follow": "Sledovat",
+    "unfollow": "Přestat sledovat",
+    "chat": "Chat"
+  },
+  "settings": {
+    "settings": "Nastavení",
+    "fontSelected": "Vybrané písmo",
+    "asYourFont": "bylo nastaveno jako vaše písmo.",
+    "languageSelected": "Vybraný jazyk",
+    "asYourLanguage": "bylo nastaveno jako váš jazyk.",
+    "themeSelected": "Vybrané téma",
+    "asYourTheme": "bylo nastaveno jako vaše téma.",
+    "notifications": "Oznámení",
+    "marketplace": "Tržiště",
+    "account": "Účet",
+    "themes": "Témata",
+    "fonts": "Písma",
+    "languages": "Jazyky",
+    "signOut": "Odhlásit se",
+    "confirmSignOut": "Potvrdit odhlášení",
+    "areYouSureSignOut": "Jste si jisti, že se chcete odhlásit?",
+    "cancel": "Zrušit",
+    "goBack": "Vrátit se",
+    "selectFont": "Vybrat písmo",
+    "selectLanguage": "Vybrat jazyk",
+    "selectTheme": "Vybrat téma"
+  },
+  "accountDetails": {
+    "settingsTitle": "Nastavení účtu",
+    "profileSettings": "Upravit profil",
+    "resetPassword": "Obnovit heslo",
+    "deleteAccount": "Smazat účet",
+    "resetPasswordModal": {
+      "title": "Obnovit heslo",
+      "message": "E-mail pro obnovu hesla bude odeslán na",
+      "sendEmail": "Odeslat e-mail",
+      "cancel": "Zrušit"
+    },
+    "deleteAccountModal": {
+      "title": "Smazat účet",
+      "message": "Jste si jisti, že chcete smazat svůj účet? Tato akce nelze vrátit.",
+      "delete": "Smazat",
+      "cancel": "Zrušit"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Aktualizován",
+        "message": "Váš profil byl úspěšně aktualizován."
+      },
+      "profileUpdateError": {
+        "title": "Chyba",
+        "message": "Nepodařilo se aktualizovat váš profil. Zkuste to prosím znovu."
+      },
+      "passwordReset": {
+        "title": "Obnova hesla",
+        "message": "E-mail pro obnovu hesla byl odeslán."
+      },
+      "passwordResetError": {
+        "title": "Chyba",
+        "message": "Nepodařilo se odeslat e-mail pro obnovu hesla. Zkuste to prosím znovu."
+      },
+      "accountDeleted": {
+        "title": "Účet Smazán",
+        "message": "Váš účet byl úspěšně smazán."
+      },
+      "accountDeleteError": {
+        "title": "Chyba",
+        "message": "Nepodařilo se smazat váš účet. Zkuste to prosím znovu."
+      }
+    }
+  }
+}

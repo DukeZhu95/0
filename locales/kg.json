@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Tala Bampasi",
+    "thatInspire": "yina Pema!",
+    "signUp": "Sonikisa zina",
+    "signIn": "Kota"
+  },
+  "signUp": {
+    "title": "Sonikisa zina",
+    "headerMessage": "Sala konti ya mpa sambu na kuyantika.",
+    "form": {
+      "username": {
+        "label": "Zina ya muntu",
+        "placeholder": "Pona zina ya muntu",
+        "validation": {
+          "minLength": "Zina ya muntu fwete vanda ti bisono kiteso ya 3.",
+          "regex": "Zina ya muntu lenda vanda kaka ti bisono, banombre, mpi bidimbu ya nsi"
+        }
+      },
+      "firstname": {
+        "label": "Prenom",
+        "placeholder": "Sonika zina na nge ya ntete",
+        "validation": "Zina ya ntete fwete vanda ti bisono kiteso ya 3."
+      },
+      "lastname": {
+        "label": "Zina",
+        "placeholder": "Sonika zina na nge ya nsuka",
+        "validation": "Zina ya nsuka fwete vanda ti bisono kiteso ya 3."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Sonika adresi na nge ya e-mail",
+        "validation": "Sonika adresi mosi ya mbote."
+      },
+      "phoneNumber": {
+        "label": "Nimero ya telefone",
+        "placeholder": "Sonika nimero na nge ya telefone",
+        "validation": "Sonika nimero ya telefone ya mbote."
+      },
+      "birthday": {
+        "label": "Lubutuku",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Kilumbu ya kubutuka fwete vanda na mutindu yina YYYY-MM-DD",
+          "validDate": "Kilumbu ya mbote ve",
+          "ageRestriction": "Nge fwete vanda ti bamvula 18 to kuluta sambu na kusala konti"
+        }
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Sonika mot de passe",
+        "validation": {
+          "minLength": "Mot de passe fwete vanda ti bisono kiteso ya 8.",
+          "maxLength": "Mot de passe fwete vanda na nsi ya bisono 64.",
+          "uppercase": "Mot de passe fwete vanda ata ti kisono mosi ya nene.",
+          "lowercase": "Mot de passe fwete vanda ata ti kisono mosi ya fioti.",
+          "numberOrSpecial": "Mot de passe fwete vanda ata ti nimero mosi to kidimbu mosi ya sipesiali."
+        },
+        "strength": {
+          "weak": "Kulemba",
+          "fair": "Mbote",
+          "good": "Mbote",
+          "strong": "Ngolo"
+        }
+      },
+      "confirmPassword": {
+        "label": "Ndimisa mot de passe",
+        "placeholder": "Sonika diaka mot de passe",
+        "validation": "Ba mot de passe ke wakana ve."
+      }
+    },
+    "buttons": {
+      "createAccount": "Sala konti",
+      "alreadyHaveAccount": "Nge kele dezia ti konti? Kota"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kifu",
+        "message": "Kifu mosi me salama ntangu nge ke sala konti na nge. Meka diaka."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Kana nge sonikisa zina, nge ke ndima nde nge me tanga mikanda na beto .",
+      "termsOfService": "Bansiku ya Kusadila",
+      "privacyPolicy": "Nsiku ya kinsweki",
+      "andAccepted": "mpi ndimaka na beto"
+    }
+  },
+  "signIn": {
+    "title": "Kota",
+    "headerMessage": "Sonika bansangu na nge sambu na kukota na konti na nge.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Mot de passe"
+    },
+    "buttons": {
+      "signIn": "Kota",
+      "forgotPassword": "Nge me vila mot de passe?",
+      "signUp": "Nge kele na konti ve? Sonikisa zina"
+    },
+    "forgotPassword": {
+      "title": "Nge me vila mot de passe",
+      "prompt": "Sonika ntete email na nge na zulu.",
+      "successTitle": "Tala e-mail na nge",
+      "successMessage": "Beto me tinda lien ya kuvutula mot de passe na e-mail na nge.",
+      "errorTitle": "Kifu ya Kuvutula"
+    },
+    "termsAndPrivacy": {
+      "message": "Kana nge sonikisa zina, nge ke ndima nde nge me tanga mikanda na beto .",
+      "termsOfService": "Bansiku ya Kusadila",
+      "privacyPolicy": "Nsiku ya kinsweki",
+      "andAccepted": "mpi ndimaka na beto"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Kifu ya kukota"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Token ya kukota kele ve to ya kukonda.",
+      "sessionFailed": "Kukonda kutula session.",
+      "invalidPassword": "Sonika mot de passe yina kele ti bisono kiteso ya 8.",
+      "updateFailed": "Kukonda kuyidika mot de passe."
+    },
+    "success": {
+      "passwordUpdated": "Bo me yidika mot de passe. Pardo kota diaka."
+    },
+    "title": "Vutula mot de passe",
+    "instructions": "Sonika ngogo ya kukotila ya mpa.",
+    "labels": {
+      "newPassword": "Mot de passe ya mpa"
+    },
+    "placeholders": {
+      "newPassword": "Sonika mot de passe"
+    },
+    "buttons": {
+      "updatePassword": "Kuyidika mot de passe"
+    }
+  },
+  "tabs": {
+    "home": "Nzo",
+    "search": "Sosa",
+    "create": "Kuganga",
+    "explore": "Kutesana",
+    "profile": "Muntu",
+    "settings": "Baparametre",
+    "editProfile": "Soba profil",
+    "otherUserProfile": "Profile ya muntu ya nkaka",
+    "comment": "Komantere",
+    "contest": "Nsaka ya kutesana",
+    "challengeDetails": "Mambu ya fioti ya mpasi",
+    "submissionDetails": "Bansangu ya kutinda",
+    "contestDetails": "Bansangu ya Kutesana",
+    "followers": "Bantu ke landaka",
+    "following": "Ya me landa",
+    "account": "Konti",
+    "notifications": "Bansangu",
+    "leaderboard": "Tablo ya bantwadisi",
+    "market": "Zandu",
+    "rewards": "Makabu"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Kuganga",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Kifwanisu ya nzo",
+      "search": "Kifwanisu ya Sosa",
+      "create": "Sala icone",
+      "explore": "Sosa icone",
+      "profile": "Kifwanisu ya profil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Sosa mambu ya bo me tinda, bantu ya ke sadila yo, bampasi...",
+    "clearSearch": "Katula mambu ya nge me sosa",
+    "loading": "Kutula...",
+    "error": {
+      "title": "Kifu ya Sosa",
+      "message": "Kifu mosi me salama na ntangu ya kusosa."
+    },
+    "noPreviousSearches": "Kusosa ya ntama ve.",
+    "previousSearches": "Bansosa ya ntama",
+    "submissions": {
+      "title": "Mambu ya bo me tinda",
+      "noResults": "Ata kima mosi ve me monana.",
+      "videoError": {
+        "title": "Kifu ya video",
+        "message": "Kukonda kutula video."
+      }
+    },
+    "users": {
+      "title": "Bantu ya ke sadilaka",
+      "noResults": "Ata muntu mosi ve me monana."
+    },
+    "challenges": {
+      "title": "Bampasi",
+      "noResults": "Ke vena mpasi ko zasoloka.",
+      "videoError": {
+        "title": "Kifu ya video",
+        "message": "Kukonda kutula video ya mpasi."
+      },
+      "category": "Kitini: ",
+      "seasonalTag": "Nsungi",
+      "sponsoredTag": "Bo me pesa mbongo"
+    },
+    "repeatSearch": "Sosa diaka sambu na",
+    "accessibility": {
+      "viewVideo": "Tala video yina kele ti ntu-diambu",
+      "viewProfile": "Tala profil ya",
+      "viewChallenge": "Tala mpasi yina kele na ntu-dyambu"
+    }
+  },
+  "contest": {
+    "title": "Ba nsaka yonso",
+    "createContestButton": "Sala Nsaka"
+  },
+  "contests": {
+    "noContests": "Ata nsaka mosi ve me monana.",
+    "error": {
+      "title": "Kifu",
+      "message": "Kukonda kubaka ba concours."
+    },
+    "status": {
+      "notStarted": "Kuyantika ve",
+      "ongoing": "Ke landa",
+      "ended": "Kumanisa"
+    },
+    "dates": {
+      "start": "Kuyantika: ",
+      "end": "Nsuka: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Tala Bansangu ya Kutesana"
+  },
+  "newContest": {
+    "header": {
+      "title": "Sala Nsaka ya Mpa",
+      "backButton": "Nima"
+    },
+    "fields": {
+      "title": {
+        "label": "Titre",
+        "placeholder": "e.g., Summer Dance-Off",
+        "validation": "Titre kele mfunu."
+      },
+      "description": {
+        "label": "Ntendula",
+        "placeholder": "Inki ke tadila nsaka yai?"
+      },
+      "startDate": {
+        "label": "Kilumbu ya luyantiku",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Kilumbu ya nsuka fwete vanda na nima ya kilumbu ya luyantiku."
+      },
+      "endDate": {
+        "label": "Kilumbu ya nsuka",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Dikabu ya muntu ya me nunga (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Dikabu ya muntu ya ke vukana (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Ntendula ya Video (Kupona)",
+        "noVideoSelected": "Yika ntendula ya video.",
+        "picked": "Kupona: {zina ya fichier}",
+        "uploaded": "Bo me tula yo: Bo me tula video mbote.",
+        "chooseVideoButton": "Pona Video",
+        "uploadVideoButton": "Tula video"
+      }
+    },
+    "buttons": {
+      "createContest": "Sala Nsaka"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kifu",
+        "pickVideoMessage": "Kukonda kupona video.",
+        "uploadVideoMessage": "Kukonda kutula video.",
+        "createContestMessage": "Kukonda kusala concours."
+      },
+      "success": {
+        "videoUploadMessage": "Video me tulamaka mbote!",
+        "createContestMessage": "Concours me salama mbote!"
+      },
+      "validation": {
+        "noTitle": "Titre kele mfunu.",
+        "invalidDates": "Kilumbu ya nsuka fwete vanda na nima ya kilumbu ya luyantiku."
+      },
+      "noSession": {
+        "title": "Nge fwete kota sambu na kusala nsaka."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Muntu",
+      "settingsButton": "Kwenda na Parametre"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Nswa kele mfunu",
+        "message": "Beto kele na mfunu ya nswa sambu na kumona bafoto na nge."
+      },
+      "errorAlert": {
+        "title": "Kifu",
+        "message": "Kukonda kupona kifwanisu"
+      },
+      "successAlert": {
+        "title": "Kununga",
+        "message": "Kifwanisu ya profil me salama mbote"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Kifu ya kukabula",
+        "message": "Kukonda kukabula lien ya referral."
+      },
+      "successShare": {
+        "title": "Vukana ti mono Challenz!",
+        "message": "Eh! Sadila lien yayi sambu na kusonikisa zina: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Bantu ke landaka",
+      "viewFollowers": "Mona ba landi"
+    },
+    "following": {
+      "label": "Ya me landa",
+      "viewFollowing": "Tala mambu ke landa"
+    },
+    "posts": {
+      "label": "Ba nsangu",
+      "viewPosts": "Tala mikanda",
+      "noVideos": "Ke vena video ko zasiwa."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Telefone",
+      "location": "Kisika",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Profile mosi ve me monana"
+    },
+    "buttons": {
+      "inviteFriends": "Bingisa banduku",
+      "deleteVideo": "Kufwa Video",
+      "deleteVideoAlert": {
+        "title": "Kufwa Video",
+        "message": "Nga ozolele katula e video yayi?"
+      },
+      "deleteSuccess": {
+        "title": "Kununga",
+        "message": "Video me katuka mbote."
+      },
+      "deleteError": {
+        "title": "Kifu",
+        "message": "Kukonda kufwa video."
+      }
+    },
+    "errors": {
+      "generalError": "Kifu mosi me salama.",
+      "profileError": "Kukonda kubaka profil.",
+      "submissionsError": "Kukonda kubaka mikanda ya bo tindaka."
+    },
+    "loading": {
+      "profile": "Kutula profil...",
+      "submissions": "Kutula bima ya bo me tinda..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Soba profil",
+      "cancelButton": "Kukatula",
+      "saveButton": "Lunda bansoba",
+      "savingButton": "Kubumba..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Prenom",
+        "placeholder": "Sonika zina na nge ya ntete",
+        "error": {
+          "tooShort": "Zina ya ntete kele nkufi mingi"
+        }
+      },
+      "lastName": {
+        "label": "Zina",
+        "placeholder": "Sonika zina na nge ya nsuka",
+        "error": {
+          "tooShort": "Zina ya nsuka kele nkufi mingi"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nimero ya telefone",
+        "placeholder": "Sonika nimero na nge ya telefone",
+        "error": {
+          "invalid": "Sonika nimero ya telefone ya mbote"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Tubila beto mambu na nge mosi",
+        "error": {
+          "tooLong": "Bio fwete vanda na nsi ya bisono 500"
+        }
+      },
+      "location": {
+        "label": "Kisika",
+        "placeholder": "Sonika kisika na nge",
+        "error": {
+          "tooLong": "Kisika fwete vanda na nsi ya bisono 100"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Kifu",
+        "message": "Kukonda kubaka bansangu ya profil"
+      },
+      "updateSuccess": {
+        "title": "Kununga",
+        "message": "Profile me bongisama mbote"
+      },
+      "updateError": {
+        "title": "Kifu",
+        "message": "Kukonda kuyidika profil"
+      }
+    },
+    "loading": {
+      "title": "Kutula..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Kutula...",
+    "noProfileFound": "Profile mosi ve me monana",
+    "authenticationRequired": "Kundimisa kele mfunu",
+    "pleaseLogIn": "Pardo kota sambu na kulanda bantu ya ke sadila yo.",
+    "success": "Kununga",
+    "unfollowSuccess": "Nge me katula kulanda",
+    "followSuccess": "Nge ke landa sesepi",
+    "error": "Kifu",
+    "followError": "Kukonda kutula na kilumbu status ya kulanda.",
+    "posts": "Ba nsangu",
+    "followers": "Bantu ke landaka",
+    "following": "Ya me landa",
+    "follow": "Kulanda",
+    "unfollow": "Katula kulanda",
+    "chat": "Kusolula"
+  },
+  "settings": {
+    "settings": "Baparametre",
+    "fontSelected": "Fonte ya bo me pona",
+    "asYourFont": "me tulama bonso fonte na nge.",
+    "languageSelected": "Ndinga ya bo me pona",
+    "asYourLanguage": "me tulama bonso ndinga na beno.",
+    "themeSelected": "Ntu-dyambu ya bo mepona",
+    "asYourTheme": "bo me tula yo bonso ntu-diambu na nge.",
+    "notifications": "Bansangu",
+    "marketplace": "Kisika ya zandu",
+    "account": "Konti",
+    "themes": "Bantu-diambu",
+    "fonts": "Bafoto",
+    "languages": "Bandinga",
+    "signOut": "Kubasika",
+    "confirmSignOut": "Ndimisa Kubasika",
+    "areYouSureSignOut": "Keti nge ke zola kubasika?",
+    "cancel": "Kukatula",
+    "goBack": "Vutuka",
+    "selectFont": "Pona bisono",
+    "selectLanguage": "Pona ndinga",
+    "selectTheme": "Pona Ntu-Diambu"
+  },
+  "accountDetails": {
+    "settingsTitle": "Parametre ya konti",
+    "profileSettings": "Soba profil ",
+    "resetPassword": "Kuvutula mot de passe",
+    "deleteAccount": "Kufwa konti",
+    "resetPasswordModal": {
+      "title": "Kuvutula mot de passe",
+      "message": "E-mail ya kuvutula mot de passe ta tindama na",
+      "sendEmail": "Tinda e-mail",
+      "cancel": "Kukatula"
+    },
+    "deleteAccountModal": {
+      "title": "Kufwa konti",
+      "message": "Keti nge ke zola kufwa konti na nge? Kisalu yai lenda vutuka ve na nima.",
+      "delete": "Kuvwansa",
+      "cancel": "Kukatula"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profile ya bo me yidika",
+        "message": "Bo me yidika mbote-mbote profil na nge."
+      },
+      "profileUpdateError": {
+        "title": "Kifu",
+        "message": "Kukonda kuyidika profil na nge. Meka diaka."
+      },
+      "passwordReset": {
+        "title": "Kuvutula mot de passe",
+        "message": "Bo me tinda e-mail ya kuvutula mot de passe."
+      },
+      "passwordResetError": {
+        "title": "Kifu",
+        "message": "Kukonda kutinda e-mail ya kuvutula mot de passe. Meka diaka."
+      },
+      "accountDeleted": {
+        "title": "Bo me katulaka konti",
+        "message": "Bo me katulaka konti na nge mbote."
+      },
+      "accountDeleteError": {
+        "title": "Kifu",
+        "message": "Bo me kuka ve kufwa konti na nge. Meka diaka."
+      }
+    }
+  }
+}

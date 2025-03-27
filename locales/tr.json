@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Zorlukları Keşfet",
+    "thatInspire": "size ilham veren!",
+    "signUp": "Kaydol",
+    "signIn": "Giriş Yap"
+  },
+  "signUp": {
+    "title": "Kaydol",
+    "headerMessage": "Başlamak için yeni bir hesap oluşturun.",
+    "form": {
+      "username": {
+        "label": "Kullanıcı Adı",
+        "placeholder": "Bir kullanıcı adı seçin",
+        "validation": {
+          "minLength": "Kullanıcı adı en az 3 karakter olmalıdır.",
+          "regex": "Kullanıcı adı sadece harf, rakam ve alt çizgi içerebilir."
+        }
+      },
+      "firstname": {
+        "label": "Ad",
+        "placeholder": "Adınızı girin",
+        "validation": "Ad en az 3 karakter olmalıdır."
+      },
+      "lastname": {
+        "label": "Soyad",
+        "placeholder": "Soyadınızı girin",
+        "validation": "Soyad en az 3 karakter olmalıdır."
+      },
+      "email": {
+        "label": "E-posta",
+        "placeholder": "E-posta adresinizi girin",
+        "validation": "Lütfen geçerli bir e-posta adresi girin."
+      },
+      "phoneNumber": {
+        "label": "Telefon Numarası",
+        "placeholder": "Telefon numaranızı girin",
+        "validation": "Lütfen geçerli bir telefon numarası girin."
+      },
+      "birthday": {
+        "label": "Doğum Günü",
+        "placeholder": "GGAA-YYYY",
+        "validation": {
+          "format": "Doğum günü GGAA-YYYY formatında olmalıdır.",
+          "validDate": "Geçersiz tarih",
+          "ageRestriction": "Bir hesap oluşturmak için en az 18 yaşında olmalısınız."
+        }
+      },
+      "password": {
+        "label": "Şifre",
+        "placeholder": "Şifrenizi girin",
+        "validation": {
+          "minLength": "Şifre en az 8 karakter olmalıdır.",
+          "maxLength": "Şifre 64 karakterden az olmalıdır.",
+          "uppercase": "Şifre en az bir büyük harf içermelidir.",
+          "lowercase": "Şifre en az bir küçük harf içermelidir.",
+          "numberOrSpecial": "Şifre en az bir rakam veya özel karakter içermelidir."
+        },
+        "strength": {
+          "weak": "Zayıf",
+          "fair": "Orta",
+          "good": "İyi",
+          "strong": "Güçlü"
+        }
+      },
+      "confirmPassword": {
+        "label": "Şifreyi Onayla",
+        "placeholder": "Şifrenizi tekrar girin",
+        "validation": "Şifreler eşleşmiyor."
+      }
+    },
+    "buttons": {
+      "createAccount": "Hesap Oluştur",
+      "alreadyHaveAccount": "Zaten bir hesabın var mı? Giriş Yap"
+    },
+    "alerts": {
+      "error": {
+        "title": "Hata",
+        "message": "Hesabınızı oluştururken bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Kaydolarak, okuyup",
+      "termsOfService": "Hizmet Şartlarını",
+      "privacyPolicy": "Gizlilik Politikasını",
+      "andAccepted": "ve kabul ediyorsunuz."
+    }
+  },
+  "signIn": {
+    "title": "Giriş Yap",
+    "headerMessage": "Hesabınıza erişmek için giriş bilgilerinizi girin.",
+    "form": {
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta",
+      "password": "Şifre",
+      "passwordPlaceholder": "Şifre"
+    },
+    "buttons": {
+      "signIn": "Giriş Yap",
+      "forgotPassword": "Şifremi Unuttum?",
+      "signUp": "Hesabınız yok mu? Kaydolun"
+    },
+    "forgotPassword": {
+      "title": "Şifremi Unuttum",
+      "prompt": "Lütfen önce yukarıda e-postanızı girin.",
+      "successTitle": "E-postanızı Kontrol Edin",
+      "successMessage": "Şifrenizi sıfırlamak için bir bağlantı e-postanıza gönderildi.",
+      "errorTitle": "Sıfırlama Hatası"
+    },
+    "termsAndPrivacy": {
+      "message": "Kaydolarak, okuyup",
+      "termsOfService": "Hizmet Şartlarını",
+      "privacyPolicy": "Gizlilik Politikasını",
+      "andAccepted": "ve kabul ediyorsunuz."
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Giriş Hatası"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Geçersiz veya eksik erişim tokeni.",
+      "sessionFailed": "Oturum oluşturulamadı.",
+      "invalidPassword": "Lütfen en az 8 karakter uzunluğunda geçerli bir şifre girin.",
+      "updateFailed": "Şifrenizi güncellemek başarısız oldu."
+    },
+    "success": {
+      "passwordUpdated": "Şifreniz güncellendi. Lütfen tekrar giriş yapın."
+    },
+    "title": "Şifrenizi Sıfırlayın",
+    "instructions": "Yeni bir şifre girin.",
+    "labels": {
+      "newPassword": "Yeni Şifre"
+    },
+    "placeholders": {
+      "newPassword": "Yeni şifrenizi girin"
+    },
+    "buttons": {
+      "updatePassword": "Şifreyi Güncelle"
+    }
+  },
+  "tabs": {
+    "home": "Ana Sayfa",
+    "search": "Ara",
+    "create": "Oluştur",
+    "explore": "Yarışmalar",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "editProfile": "Profili Düzenle",
+    "otherUserProfile": "Diğer Kullanıcının Profili",
+    "comment": "Yorum",
+    "contest": "Yarışma",
+    "challengeDetails": "Meydan Okuma Detayları",
+    "submissionDetails": "Başvuru Detayları",
+    "contestDetails": "Yarışma Detayları",
+    "followers": "Takipçiler",
+    "following": "Takip Edilenler",
+    "account": "Hesap",
+    "notifications": "Bildirimler",
+    "leaderboard": "Lider Tablosu",
+    "market": "Pazar",
+    "rewards": "Ödüller"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Oluştur",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Ana Sayfa İkonu",
+      "search": "Ara İkonu",
+      "create": "Oluştur İkonu",
+      "explore": "Keşfet İkonu",
+      "profile": "Profil İkonu"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Başvuruları, kullanıcıları, zorlukları ara...",
+    "clearSearch": "Aramayı Temizle",
+    "loading": "Yükleniyor...",
+    "error": {
+      "title": "Arama Hatası",
+      "message": "Arama sırasında bir hata oluştu."
+    },
+    "noPreviousSearches": "Önceki aramalar yok.",
+    "previousSearches": "Önceki Aramalar",
+    "submissions": {
+      "title": "Başvurular",
+      "noResults": "Başvuru bulunamadı.",
+      "videoError": {
+        "title": "Video Hatası",
+        "message": "Videoyu yüklerken sorun oluştu."
+      }
+    },
+    "users": {
+      "title": "Kullanıcılar",
+      "noResults": "Kullanıcı bulunamadı."
+    },
+    "challenges": {
+      "title": "Zorluklar",
+      "noResults": "Zorluk bulunamadı.",
+      "videoError": {
+        "title": "Video Hatası",
+        "message": "Zorluk videosunu yüklerken sorun oluştu."
+      },
+      "category": "Kategori: ",
+      "seasonalTag": "Mevsimsel",
+      "sponsoredTag": "Sponsorlu"
+    },
+    "repeatSearch": "İçin aramayı tekrarla",
+    "accessibility": {
+      "viewVideo": "Başlıklı videoyu izle",
+      "viewProfile": "Profilini izle",
+      "viewChallenge": "Başlıklı zorluğu izle"
+    }
+  },
+  "contest": {
+    "title": "Tüm Yarışmalar",
+    "createContestButton": "Yarışma Oluştur"
+  },
+  "contests": {
+    "noContests": "Yarışma bulunamadı.",
+    "error": {
+      "title": "Hata",
+      "message": "Yarışmalar alınamadı."
+    },
+    "status": {
+      "notStarted": "Başlamadı",
+      "ongoing": "Devam Ediyor",
+      "ended": "Bitti"
+    },
+    "dates": {
+      "start": "Başlangıç: ",
+      "end": "Bitiş: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Yarışma Detaylarını Görüntüle"
+  },
+  "newContest": {
+    "header": {
+      "title": "Yeni Yarışma Oluştur",
+      "backButton": "Geri Dön"
+    },
+    "fields": {
+      "title": {
+        "label": "Başlık",
+        "placeholder": "ör. Yaz Meydan Okuma Dansı",
+        "validation": "Başlık zorunludur."
+      },
+      "description": {
+        "label": "Açıklama",
+        "placeholder": "Bu yarışma ne hakkında?"
+      },
+      "startDate": {
+        "label": "Başlangıç Tarihi",
+        "placeholder": "AAAA-MM-DD",
+        "validation": "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır."
+      },
+      "endDate": {
+        "label": "Bitiş Tarihi",
+        "placeholder": "AAAA-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Kazanan Ödülü (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Katılımcı Ödülü (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Açıklama Videosu (Opsiyonel)",
+        "noVideoSelected": "Bir açıklama videosu ekleyin.",
+        "picked": "Seçildi: {filename}",
+        "uploaded": "Yüklendi: Video başarıyla yüklendi.",
+        "chooseVideoButton": "Video Seç",
+        "uploadVideoButton": "Video Yükle"
+      }
+    },
+    "buttons": {
+      "createContest": "Yarışma Oluştur"
+    },
+    "alerts": {
+      "error": {
+        "title": "Hata",
+        "pickVideoMessage": "Video seçme işlemi başarısız oldu.",
+        "uploadVideoMessage": "Video yükleme işlemi başarısız oldu.",
+        "createContestMessage": "Yarışma oluşturma işlemi başarısız oldu."
+      },
+      "success": {
+        "videoUploadMessage": "Video başarıyla yüklendi!",
+        "createContestMessage": "Yarışma başarıyla oluşturuldu!"
+      },
+      "validation": {
+        "noTitle": "Başlık zorunludur.",
+        "invalidDates": "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır."
+      },
+      "noSession": {
+        "title": "Yarışma oluşturmak için giriş yapmanız gerekiyor."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Ayarlar'a Git"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "İzin Gerekli",
+        "message": "Fotoğraflarınıza erişmek için izne ihtiyacımız var."
+      },
+      "errorAlert": {
+        "title": "Hata",
+        "message": "Fotoğraf seçimi başarısız oldu."
+      },
+      "successAlert": {
+        "title": "Başarı",
+        "message": "Profil fotoğrafı başarıyla güncellendi."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Paylaşım Hatası",
+        "message": "Referral bağlantısı paylaşılmadı."
+      },
+      "successShare": {
+        "title": "Challenz'e Benimle Katıl!",
+        "message": "Merhaba! Kaydolmak için bu bağlantıyı kullan: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Takipçiler",
+      "viewFollowers": "Takipçileri Görüntüle"
+    },
+    "following": {
+      "label": "Takip Edilenler",
+      "viewFollowing": "Takip Edilenleri Görüntüle"
+    },
+    "posts": {
+      "label": "Gönderiler",
+      "viewPosts": "Gönderileri Görüntüle",
+      "noVideos": "Henüz yayınlanmış video yok."
+    },
+    "info": {
+      "email": "E-posta",
+      "phone": "Telefon",
+      "location": "Yer",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Profil Bulunamadı"
+    },
+    "buttons": {
+      "inviteFriends": "Referral Bağlantısını Paylaş",
+      "deleteVideo": "Videoyu Sil",
+      "deleteVideoAlert": {
+        "title": "Videoyu Sil",
+        "message": "Bu videoyu silmek istediğinizden emin misiniz?"
+      },
+      "deleteSuccess": {
+        "title": "Başarı",
+        "message": "Video başarıyla silindi."
+      },
+      "deleteError": {
+        "title": "Hata",
+        "message": "Videoyu silme işlemi başarısız oldu."
+      }
+    },
+    "errors": {
+      "generalError": "Bir hata oluştu.",
+      "profileError": "Profili yükleme başarısız oldu.",
+      "submissionsError": "Başvuruları yükleme başarısız oldu."
+    },
+    "loading": {
+      "profile": "Profil yükleniyor...",
+      "submissions": "Başvurular yükleniyor..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Profili Düzenle",
+      "cancelButton": "İptal",
+      "saveButton": "Değişiklikleri Kaydet",
+      "savingButton": "Kaydediliyor..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Ad",
+        "placeholder": "Adınızı girin",
+        "error": {
+          "tooShort": "Adınız çok kısa"
+        }
+      },
+      "lastName": {
+        "label": "Soyad",
+        "placeholder": "Soyadınızı girin",
+        "error": {
+          "tooShort": "Soyadınız çok kısa"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefon Numarası",
+        "placeholder": "Telefon numaranızı girin",
+        "error": {
+          "invalid": "Lütfen geçerli bir telefon numarası girin"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Hakkında bize bilgi verin",
+        "error": {
+          "tooLong": "Bio 500 karakterden az olmalıdır"
+        }
+      },
+      "location": {
+        "label": "Yer",
+        "placeholder": "Yer bilgilerinizi girin",
+        "error": {
+          "tooLong": "Yer 100 karakterden az olmalıdır"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Hata",
+        "message": "Profil verilerini yükleme başarısız oldu."
+      },
+      "updateSuccess": {
+        "title": "Başarı",
+        "message": "Profil başarıyla güncellendi."
+      },
+      "updateError": {
+        "title": "Hata",
+        "message": "Profil güncellenemedi."
+      }
+    },
+    "loading": {
+      "title": "Yükleniyor..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Yükleniyor...",
+    "noProfileFound": "Profil bulunamadı",
+    "authenticationRequired": "Kimlik Doğrulama Gerekli",
+    "pleaseLogIn": "Kullanıcıları takip etmek için lütfen giriş yapın.",
+    "success": "Başarı",
+    "unfollowSuccess": "Takipten çıktınız",
+    "followSuccess": "Artık takip ediyorsunuz",
+    "error": "Hata",
+    "followError": "Takip durumunu güncelleme başarısız oldu.",
+    "posts": "Gönderiler",
+    "followers": "Takipçiler",
+    "following": "Takip Edilenler",
+    "follow": "Takip Et",
+    "unfollow": "Takibi Bırak",
+    "chat": "Sohbet"
+  },
+  "settings": {
+    "settings": "Ayarlar",
+    "fontSelected": "Seçilen Yazı Tipi",
+    "asYourFont": "yazı tipiniz olarak ayarlandı.",
+    "languageSelected": "Seçilen Dil",
+    "asYourLanguage": "diliniz olarak ayarlandı.",
+    "themeSelected": "Seçilen Tema",
+    "asYourTheme": "temanız olarak ayarlandı.",
+    "notifications": "Bildirimler",
+    "marketplace": "Pazar yeri",
+    "account": "Hesap",
+    "themes": "Temalar",
+    "fonts": "Yazı Tipleri",
+    "languages": "Diller",
+    "signOut": "Çıkış Yap",
+    "confirmSignOut": "Çıkışı Onayla",
+    "areYouSureSignOut": "Çıkış yapmak istediğinizden emin misiniz?",
+    "cancel": "İptal",
+    "goBack": "Geri Dön",
+    "selectFont": "Yazı Tipi Seç",
+    "selectLanguage": "Dil Seç",
+    "selectTheme": "Tema Seç"
+  },
+  "accountDetails": {
+    "settingsTitle": "Hesap Ayarları",
+    "profileSettings": "Profili Düzenle",
+    "resetPassword": "Şifreyi Sıfırla",
+    "deleteAccount": "Hesabı Sil",
+    "resetPasswordModal": {
+      "title": "Şifreyi Sıfırla",
+      "message": "Şifrenizi sıfırlamak için bir e-posta gönderilecek",
+      "sendEmail": "E-posta Gönder",
+      "cancel": "İptal Et"
+    },
+    "deleteAccountModal": {
+      "title": "Hesabı Sil",
+      "message": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "delete": "Sil",
+      "cancel": "İptal Et"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Güncellendi",
+        "message": "Profiliniz başarıyla güncellendi."
+      },
+      "profileUpdateError": {
+        "title": "Hata",
+        "message": "Profilinizi güncelleyemedik. Lütfen tekrar deneyin."
+      },
+      "passwordReset": {
+        "title": "Şifre Sıfırlandı",
+        "message": "Şifrenizi sıfırlamak için bir e-posta gönderildi."
+      },
+      "passwordResetError": {
+        "title": "Hata",
+        "message": "Şifre sıfırlama e-postası gönderilemedi. Lütfen tekrar deneyin."
+      },
+      "accountDeleted": {
+        "title": "Hesap Silindi",
+        "message": "Hesabınız başarıyla silindi."
+      },
+      "accountDeleteError": {
+        "title": "Hata",
+        "message": "Hesabınızı silemedik. Lütfen tekrar deneyin."
+      }
+    }
+  }
+}

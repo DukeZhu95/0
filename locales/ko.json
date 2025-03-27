@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "도전을 탐색하세요",
+    "thatInspire": "영감을 주는 도전들!",
+    "signUp": "회원가입",
+    "signIn": "로그인"
+  },
+  "signUp": {
+    "title": "회원가입",
+    "headerMessage": "시작하려면 새 계정을 만드세요.",
+    "form": {
+      "username": {
+        "label": "사용자 이름",
+        "placeholder": "사용자 이름을 선택하세요",
+        "validation": {
+          "minLength": "사용자 이름은 최소 3자이어야 합니다.",
+          "regex": "사용자 이름은 문자, 숫자 및 밑줄만 포함할 수 있습니다."
+        }
+      },
+      "firstname": {
+        "label": "이름",
+        "placeholder": "이름을 입력하세요",
+        "validation": "이름은 최소 3자이어야 합니다."
+      },
+      "lastname": {
+        "label": "성",
+        "placeholder": "성을 입력하세요",
+        "validation": "성은 최소 3자이어야 합니다."
+      },
+      "email": {
+        "label": "이메일",
+        "placeholder": "이메일 주소를 입력하세요",
+        "validation": "유효한 이메일 주소를 입력하세요."
+      },
+      "phoneNumber": {
+        "label": "전화번호",
+        "placeholder": "전화번호를 입력하세요",
+        "validation": "유효한 전화번호를 입력하세요."
+      },
+      "birthday": {
+        "label": "생일",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "생일은 YYYY-MM-DD 형식이어야 합니다.",
+          "validDate": "유효하지 않은 날짜",
+          "ageRestriction": "계정을 생성하려면 18세 이상이어야 합니다."
+        }
+      },
+      "password": {
+        "label": "비밀번호",
+        "placeholder": "비밀번호를 입력하세요",
+        "validation": {
+          "minLength": "비밀번호는 최소 8자이어야 합니다.",
+          "maxLength": "비밀번호는 64자 미만이어야 합니다.",
+          "uppercase": "비밀번호에는 최소 하나의 대문자가 포함되어야 합니다.",
+          "lowercase": "비밀번호에는 최소 하나의 소문자가 포함되어야 합니다.",
+          "numberOrSpecial": "비밀번호에는 최소 하나의 숫자 또는 특수 문자가 포함되어야 합니다."
+        },
+        "strength": {
+          "weak": "약함",
+          "fair": "보통",
+          "good": "좋음",
+          "strong": "강함"
+        }
+      },
+      "confirmPassword": {
+        "label": "비밀번호 확인",
+        "placeholder": "비밀번호를 다시 입력하세요",
+        "validation": "비밀번호가 일치하지 않습니다."
+      }
+    },
+    "buttons": {
+      "createAccount": "계정 생성",
+      "alreadyHaveAccount": "이미 계정이 있으신가요? 로그인"
+    },
+    "alerts": {
+      "error": {
+        "title": "오류",
+        "message": "계정 생성 중 오류가 발생했습니다. 다시 시도해주세요."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "회원가입함으로써, 귀하는 우리의",
+      "termsOfService": "서비스 약관",
+      "privacyPolicy": "개인정보 보호정책",
+      "andAccepted": "을 읽고 동의하게 됩니다."
+    }
+  },
+  "signIn": {
+    "title": "로그인",
+    "headerMessage": "계정에 접근하기 위해 자격 증명을 입력하세요.",
+    "form": {
+      "email": "이메일",
+      "emailPlaceholder": "이메일",
+      "password": "비밀번호",
+      "passwordPlaceholder": "비밀번호"
+    },
+    "buttons": {
+      "signIn": "로그인",
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "signUp": "계정이 없으신가요? 회원가입"
+    },
+    "forgotPassword": {
+      "title": "비밀번호를 잊으셨나요?",
+      "prompt": "먼저 위에 이메일을 입력해주세요.",
+      "successTitle": "이메일을 확인하세요",
+      "successMessage": "비밀번호 재설정 링크를 이메일로 보냈습니다.",
+      "errorTitle": "재설정 오류"
+    },
+    "termsAndPrivacy": {
+      "message": "회원가입함으로써, 귀하는 우리의",
+      "termsOfService": "서비스 약관",
+      "privacyPolicy": "개인정보 보호정책",
+      "andAccepted": "을 읽고 동의하게 됩니다."
+    },
+    "alerts": {
+      "signInError": {
+        "title": "로그인 오류"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "유효하지 않거나 누락된 액세스 토큰입니다.",
+      "sessionFailed": "세션 설정에 실패했습니다.",
+      "invalidPassword": "적어도 8자의 유효한 비밀번호를 입력하세요.",
+      "updateFailed": "비밀번호 업데이트에 실패했습니다."
+    },
+    "success": {
+      "passwordUpdated": "비밀번호가 업데이트되었습니다. 다시 로그인해주세요."
+    },
+    "title": "비밀번호 재설정",
+    "instructions": "새 비밀번호를 입력하세요.",
+    "labels": {
+      "newPassword": "새 비밀번호"
+    },
+    "placeholders": {
+      "newPassword": "새 비밀번호를 입력하세요"
+    },
+    "buttons": {
+      "updatePassword": "비밀번호 업데이트"
+    }
+  },
+  "tabs": {
+    "home": "홈",
+    "search": "검색",
+    "create": "만들기",
+    "explore": "콘테스트",
+    "profile": "프로필",
+    "settings": "설정",
+    "editProfile": "프로필 편집",
+    "otherUserProfile": "다른 사용자 프로필",
+    "comment": "댓글",
+    "contest": "콘테스트",
+    "challengeDetails": "챌린지 상세",
+    "submissionDetails": "제출 상세",
+    "contestDetails": "콘테스트 상세",
+    "followers": "팔로워",
+    "following": "팔로잉",
+    "account": "계정",
+    "notifications": "알림",
+    "leaderboard": "리더보드",
+    "market": "마켓",
+    "rewards": "보상"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "만들기",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "홈 아이콘",
+      "search": "검색 아이콘",
+      "create": "만들기 아이콘",
+      "explore": "탐색 아이콘",
+      "profile": "프로필 아이콘"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "제출, 사용자, 챌린지를 검색하세요...",
+    "clearSearch": "검색 지우기",
+    "loading": "로딩 중...",
+    "error": {
+      "title": "검색 오류",
+      "message": "검색 중 오류가 발생했습니다."
+    },
+    "noPreviousSearches": "이전 검색 기록이 없습니다.",
+    "previousSearches": "이전 검색",
+    "submissions": {
+      "title": "제출",
+      "noResults": "제출이 없습니다.",
+      "videoError": {
+        "title": "비디오 오류",
+        "message": "비디오 로드에 실패했습니다."
+      }
+    },
+    "users": {
+      "title": "사용자",
+      "noResults": "사용자가 없습니다."
+    },
+    "challenges": {
+      "title": "챌린지",
+      "noResults": "챌린지가 없습니다.",
+      "videoError": {
+        "title": "비디오 오류",
+        "message": "챌린지 비디오 로드에 실패했습니다."
+      },
+      "category": "카테고리: ",
+      "seasonalTag": "계절별",
+      "sponsoredTag": "스폰서"
+    },
+    "repeatSearch": "다시 검색",
+    "accessibility": {
+      "viewVideo": "제목이 있는 비디오 보기",
+      "viewProfile": "프로필 보기",
+      "viewChallenge": "챌린지 보기"
+    }
+  },
+  "contest": {
+    "title": "모든 콘테스트",
+    "createContestButton": "콘테스트 만들기"
+  },
+  "contests": {
+    "noContests": "콘테스트가 없습니다.",
+    "error": {
+      "title": "오류",
+      "message": "콘테스트를 가져오는 데 실패했습니다."
+    },
+    "status": {
+      "notStarted": "시작되지 않음",
+      "ongoing": "진행 중",
+      "ended": "종료됨"
+    },
+    "dates": {
+      "start": "시작: ",
+      "end": "종료: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "콘테스트 상세 보기"
+  },
+  "newContest": {
+    "header": {
+      "title": "새 콘테스트 만들기",
+      "backButton": "뒤로"
+    },
+    "fields": {
+      "title": {
+        "label": "제목",
+        "placeholder": "예: 여름 댄스 챌린지",
+        "validation": "제목은 필수입니다."
+      },
+      "description": {
+        "label": "설명",
+        "placeholder": "이 콘테스트는 무엇에 관한 것인가요?"
+      },
+      "startDate": {
+        "label": "시작 날짜",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "종료 날짜는 시작 날짜 이후여야 합니다."
+      },
+      "endDate": {
+        "label": "종료 날짜",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "승자 보상 (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "참가자 보상 (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "설명 비디오 (선택 사항)",
+        "noVideoSelected": "설명 비디오를 추가하세요.",
+        "picked": "선택됨: {filename}",
+        "uploaded": "업로드됨: 비디오가 성공적으로 업로드되었습니다.",
+        "chooseVideoButton": "비디오 선택",
+        "uploadVideoButton": "비디오 업로드"
+      }
+    },
+    "buttons": {
+      "createContest": "콘테스트 만들기"
+    },
+    "alerts": {
+      "error": {
+        "title": "오류",
+        "pickVideoMessage": "비디오 선택에 실패했습니다.",
+        "uploadVideoMessage": "비디오 업로드에 실패했습니다.",
+        "createContestMessage": "콘테스트 생성에 실패했습니다."
+      },
+      "success": {
+        "videoUploadMessage": "비디오가 성공적으로 업로드되었습니다!",
+        "createContestMessage": "콘테스트가 성공적으로 생성되었습니다!"
+      },
+      "validation": {
+        "noTitle": "제목은 필수입니다.",
+        "invalidDates": "종료 날짜는 시작 날짜 이후여야 합니다."
+      },
+      "noSession": {
+        "title": "콘테스트를 만들려면 로그인해야 합니다."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "프로필",
+      "settingsButton": "설정으로 이동"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "권한 필요",
+        "message": "사진에 접근할 수 있는 권한이 필요합니다."
+      },
+      "errorAlert": {
+        "title": "오류",
+        "message": "이미지 선택에 실패했습니다."
+      },
+      "successAlert": {
+        "title": "성공",
+        "message": "프로필 이미지가 성공적으로 업데이트되었습니다."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "공유 오류",
+        "message": "추천 링크를 공유할 수 없습니다."
+      },
+      "successShare": {
+        "title": "Challenz에 함께하세요!",
+        "message": "안녕하세요! 가입하려면 이 링크를 사용하세요: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "팔로워",
+      "viewFollowers": "팔로워 보기"
+    },
+    "following": {
+      "label": "팔로잉",
+      "viewFollowing": "팔로잉 보기"
+    },
+    "posts": {
+      "label": "게시물",
+      "viewPosts": "게시물 보기",
+      "noVideos": "아직 게시된 비디오가 없습니다."
+    },
+    "info": {
+      "email": "이메일",
+      "phone": "전화",
+      "location": "위치",
+      "coins": "Uwaci Coins",
+      "bio": "바이오",
+      "noProfile": "프로필을 찾을 수 없습니다"
+    },
+    "buttons": {
+      "inviteFriends": "추천 링크 공유",
+      "deleteVideo": "비디오 삭제",
+      "deleteVideoAlert": {
+        "title": "비디오 삭제",
+        "message": "이 비디오를 삭제하시겠습니까?"
+      },
+      "deleteSuccess": {
+        "title": "성공",
+        "message": "비디오가 성공적으로 삭제되었습니다."
+      },
+      "deleteError": {
+        "title": "오류",
+        "message": "비디오 삭제에 실패했습니다."
+      }
+    },
+    "errors": {
+      "generalError": "오류가 발생했습니다.",
+      "profileError": "프로필을 불러오는 데 실패했습니다.",
+      "submissionsError": "제출을 불러오는 데 실패했습니다."
+    },
+    "loading": {
+      "profile": "프로필 로딩 중...",
+      "submissions": "제출 로딩 중..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "프로필 편집",
+      "cancelButton": "취소",
+      "saveButton": "변경 사항 저장",
+      "savingButton": "저장 중..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "이름",
+        "placeholder": "이름을 입력하세요",
+        "error": {
+          "tooShort": "이름이 너무 짧습니다."
+        }
+      },
+      "lastName": {
+        "label": "성",
+        "placeholder": "성을 입력하세요",
+        "error": {
+          "tooShort": "성이 너무 짧습니다."
+        }
+      },
+      "phoneNumber": {
+        "label": "전화번호",
+        "placeholder": "전화번호를 입력하세요",
+        "error": {
+          "invalid": "유효한 전화번호를 입력하세요."
+        }
+      },
+      "bio": {
+        "label": "바이오",
+        "placeholder": "자신에 대해 알려주세요",
+        "error": {
+          "tooLong": "바이오는 500자 미만이어야 합니다."
+        }
+      },
+      "location": {
+        "label": "위치",
+        "placeholder": "위치를 입력하세요",
+        "error": {
+          "tooLong": "위치는 100자 미만이어야 합니다."
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "오류",
+        "message": "프로필 데이터를 불러오는 데 실패했습니다."
+      },
+      "updateSuccess": {
+        "title": "성공",
+        "message": "프로필이 성공적으로 업데이트되었습니다."
+      },
+      "updateError": {
+        "title": "오류",
+        "message": "프로필 업데이트에 실패했습니다."
+      }
+    },
+    "loading": {
+      "title": "로딩 중..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "로딩 중...",
+    "noProfileFound": "프로필을 찾을 수 없습니다",
+    "authenticationRequired": "인증 필요",
+    "pleaseLogIn": "사용자를 팔로우하려면 로그인하세요.",
+    "success": "성공",
+    "unfollowSuccess": "팔로우를 취소했습니다.",
+    "followSuccess": "이제 팔로우 중입니다.",
+    "error": "오류",
+    "followError": "팔로우 상태를 업데이트하는 데 실패했습니다.",
+    "posts": "게시물",
+    "followers": "팔로워",
+    "following": "팔로잉",
+    "follow": "팔로우",
+    "unfollow": "팔로우 취소",
+    "chat": "채팅"
+  },
+  "settings": {
+    "settings": "설정",
+    "fontSelected": "선택된 글꼴",
+    "asYourFont": "으로 글꼴이 설정되었습니다.",
+    "languageSelected": "선택된 언어",
+    "asYourLanguage": "으로 언어가 설정되었습니다.",
+    "themeSelected": "선택된 테마",
+    "asYourTheme": "으로 테마가 설정되었습니다.",
+    "notifications": "알림",
+    "marketplace": "마켓플레이스",
+    "account": "계정",
+    "themes": "테마",
+    "fonts": "글꼴",
+    "languages": "언어",
+    "signOut": "로그아웃",
+    "confirmSignOut": "로그아웃 확인",
+    "areYouSureSignOut": "정말 로그아웃하시겠습니까?",
+    "cancel": "취소",
+    "goBack": "뒤로가기",
+    "selectFont": "글꼴 선택",
+    "selectLanguage": "언어 선택",
+    "selectTheme": "테마 선택"
+  },
+  "accountDetails": {
+    "settingsTitle": "계정 설정",
+    "profileSettings": "프로필 편집",
+    "resetPassword": "비밀번호 재설정",
+    "deleteAccount": "계정 삭제",
+    "resetPasswordModal": {
+      "title": "비밀번호 재설정",
+      "message": "비밀번호 재설정을 위한 이메일이 전송됩니다.",
+      "sendEmail": "이메일 보내기",
+      "cancel": "취소"
+    },
+    "deleteAccountModal": {
+      "title": "계정 삭제",
+      "message": "정말 계정을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "delete": "삭제",
+      "cancel": "취소"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "프로필 업데이트됨",
+        "message": "프로필이 성공적으로 업데이트되었습니다."
+      },
+      "profileUpdateError": {
+        "title": "오류",
+        "message": "프로필 업데이트에 실패했습니다. 다시 시도해주세요."
+      },
+      "passwordReset": {
+        "title": "비밀번호 재설정됨",
+        "message": "비밀번호 재설정을 위한 이메일이 전송되었습니다."
+      },
+      "passwordResetError": {
+        "title": "오류",
+        "message": "비밀번호 재설정 이메일을 보내는 데 실패했습니다. 다시 시도해주세요."
+      },
+      "accountDeleted": {
+        "title": "계정 삭제됨",
+        "message": "계정이 성공적으로 삭제되었습니다."
+      },
+      "accountDeleteError": {
+        "title": "오류",
+        "message": "계정 삭제에 실패했습니다. 다시 시도해주세요."
+      }
+    }
+  }
+}

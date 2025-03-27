@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "チャレンジを探索する",
+    "thatInspire": "がインスピレーションを与える！",
+    "signUp": "サインアップ",
+    "signIn": "サインイン"
+  },
+  "signUp": {
+    "title": "サインアップ",
+    "headerMessage": "開始するために新しいアカウントを作成してください。",
+    "form": {
+      "username": {
+        "label": "ユーザー名",
+        "placeholder": "ユーザー名を選択してください",
+        "validation": {
+          "minLength": "ユーザー名は少なくとも3文字でなければなりません。",
+          "regex": "ユーザー名は文字、数字、アンダースコアのみを含むことができます。"
+        }
+      },
+      "firstname": {
+        "label": "名",
+        "placeholder": "名を入力してください",
+        "validation": "名は少なくとも3文字でなければなりません。"
+      },
+      "lastname": {
+        "label": "姓",
+        "placeholder": "姓を入力してください",
+        "validation": "姓は少なくとも3文字でなければなりません。"
+      },
+      "email": {
+        "label": "Eメール",
+        "placeholder": "あなたのEメールアドレスを入力してください",
+        "validation": "有効なEメールアドレスを入力してください。"
+      },
+      "phoneNumber": {
+        "label": "電話番号",
+        "placeholder": "あなたの電話番号を入力してください",
+        "validation": "有効な電話番号を入力してください。"
+      },
+      "birthday": {
+        "label": "誕生日",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "誕生日はYYYY-MM-DD形式でなければなりません。",
+          "validDate": "無効な日付",
+          "ageRestriction": "アカウントを作成するには、18歳以上でなければなりません。"
+        }
+      },
+      "password": {
+        "label": "パスワード",
+        "placeholder": "パスワードを入力してください",
+        "validation": {
+          "minLength": "パスワードは少なくとも8文字でなければなりません。",
+          "maxLength": "パスワードは64文字未満でなければなりません。",
+          "uppercase": "パスワードには少なくとも1つの大文字が含まれている必要があります。",
+          "lowercase": "パスワードには少なくとも1つの小文字が含まれている必要があります。",
+          "numberOrSpecial": "パスワードには少なくとも1つの数字または特殊文字が含まれている必要があります。"
+        },
+        "strength": {
+          "weak": "弱い",
+          "fair": "普通",
+          "good": "良い",
+          "strong": "強い"
+        }
+      },
+      "confirmPassword": {
+        "label": "パスワードの確認",
+        "placeholder": "パスワードを再入力してください",
+        "validation": "パスワードが一致しません。"
+      }
+    },
+    "buttons": {
+      "createAccount": "アカウントを作成",
+      "alreadyHaveAccount": "すでにアカウントをお持ちですか？サインイン"
+    },
+    "alerts": {
+      "error": {
+        "title": "エラー",
+        "message": "アカウントの作成中にエラーが発生しました。もう一度お試しください。"
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "サインアップすることで、私たちの",
+      "termsOfService": "サービス利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "andAccepted": "を読んで同意したことになります。"
+    }
+  },
+  "signIn": {
+    "title": "サインイン",
+    "headerMessage": "アカウントにアクセスするために資格情報を入力してください。",
+    "form": {
+      "email": "Eメール",
+      "emailPlaceholder": "Eメール",
+      "password": "パスワード",
+      "passwordPlaceholder": "パスワード"
+    },
+    "buttons": {
+      "signIn": "サインイン",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "signUp": "アカウントがありませんか？サインアップ"
+    },
+    "forgotPassword": {
+      "title": "パスワードをお忘れですか？",
+      "prompt": "まず、上にEメールを入力してください。",
+      "successTitle": "メールを確認してください",
+      "successMessage": "パスワードをリセットするリンクをあなたのEメールに送りました。",
+      "errorTitle": "リセットエラー"
+    },
+    "termsAndPrivacy": {
+      "message": "サインアップすることで、私たちの",
+      "termsOfService": "サービス利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "andAccepted": "を読んで同意したことになります。"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "サインインエラー"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "無効または欠落したアクセストークン。",
+      "sessionFailed": "セッションの設定に失敗しました。",
+      "invalidPassword": "少なくとも8文字の有効なパスワードを入力してください。",
+      "updateFailed": "パスワードの更新に失敗しました。"
+    },
+    "success": {
+      "passwordUpdated": "パスワードが更新されました。再度サインインしてください。"
+    },
+    "title": "パスワードをリセット",
+    "instructions": "新しいパスワードを入力してください。",
+    "labels": {
+      "newPassword": "新しいパスワード"
+    },
+    "placeholders": {
+      "newPassword": "新しいパスワードを入力"
+    },
+    "buttons": {
+      "updatePassword": "パスワードを更新"
+    }
+  },
+  "tabs": {
+    "home": "ホーム",
+    "search": "検索",
+    "create": "作成",
+    "explore": "コンテスト",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "editProfile": "プロフィール編集",
+    "otherUserProfile": "他のユーザープロフィール",
+    "comment": "コメント",
+    "contest": "コンテスト",
+    "challengeDetails": "チャレンジ詳細",
+    "submissionDetails": "提出詳細",
+    "contestDetails": "コンテスト詳細",
+    "followers": "フォロワー",
+    "following": "フォロー中",
+    "account": "アカウント",
+    "notifications": "通知",
+    "leaderboard": "リーダーボード",
+    "market": "マーケット",
+    "rewards": "報酬"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "作成",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "ホームアイコン",
+      "search": "検索アイコン",
+      "create": "作成アイコン",
+      "explore": "探索アイコン",
+      "profile": "プロフィールアイコン"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "提出、ユーザー、チャレンジを検索...",
+    "clearSearch": "検索をクリア",
+    "loading": "読み込み中...",
+    "error": {
+      "title": "検索エラー",
+      "message": "検索中にエラーが発生しました。"
+    },
+    "noPreviousSearches": "以前の検索はありません。",
+    "previousSearches": "以前の検索",
+    "submissions": {
+      "title": "提出",
+      "noResults": "提出が見つかりませんでした。",
+      "videoError": {
+        "title": "ビデオエラー",
+        "message": "ビデオの読み込みに失敗しました。"
+      }
+    },
+    "users": {
+      "title": "ユーザー",
+      "noResults": "ユーザーが見つかりませんでした。"
+    },
+    "challenges": {
+      "title": "チャレンジ",
+      "noResults": "チャレンジが見つかりませんでした。",
+      "videoError": {
+        "title": "ビデオエラー",
+        "message": "チャレンジのビデオの読み込みに失敗しました。"
+      },
+      "category": "カテゴリー: ",
+      "seasonalTag": "季節限定",
+      "sponsoredTag": "スポンサー提供"
+    },
+    "repeatSearch": "再検索",
+    "accessibility": {
+      "viewVideo": "タイトル付きビデオを表示",
+      "viewProfile": "プロフィールを表示",
+      "viewChallenge": "タイトル付きチャレンジを表示"
+    }
+  },
+  "contest": {
+    "title": "すべてのコンテスト",
+    "createContestButton": "コンテストを作成"
+  },
+  "contests": {
+    "noContests": "コンテストが見つかりませんでした。",
+    "error": {
+      "title": "エラー",
+      "message": "コンテストを取得できませんでした。"
+    },
+    "status": {
+      "notStarted": "未開始",
+      "ongoing": "進行中",
+      "ended": "終了"
+    },
+    "dates": {
+      "start": "開始: ",
+      "end": "終了: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "コンテスト詳細を表示"
+  },
+  "newContest": {
+    "header": {
+      "title": "新しいコンテストを作成",
+      "backButton": "戻る"
+    },
+    "fields": {
+      "title": {
+        "label": "タイトル",
+        "placeholder": "例: 夏のダンスチャレンジ",
+        "validation": "タイトルは必須です。"
+      },
+      "description": {
+        "label": "説明",
+        "placeholder": "このコンテストは何についてですか？"
+      },
+      "startDate": {
+        "label": "開始日",
+        "placeholder": "AAAA-MM-DD",
+        "validation": "終了日は開始日より後でなければなりません。"
+      },
+      "endDate": {
+        "label": "終了日",
+        "placeholder": "AAAA-MM-DD"
+      },
+      "winnerReward": {
+        "label": "勝者報酬 (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "参加者報酬 (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "ビデオ説明 (任意)",
+        "noVideoSelected": "ビデオ説明を追加してください。",
+        "picked": "選択済み: {filename}",
+        "uploaded": "アップロード済み: ビデオが正常にアップロードされました。",
+        "chooseVideoButton": "ビデオを選択",
+        "uploadVideoButton": "ビデオをアップロード"
+      }
+    },
+    "buttons": {
+      "createContest": "コンテストを作成"
+    },
+    "alerts": {
+      "error": {
+        "title": "エラー",
+        "pickVideoMessage": "ビデオの選択に失敗しました。",
+        "uploadVideoMessage": "ビデオのアップロードに失敗しました。",
+        "createContestMessage": "コンテストの作成に失敗しました。"
+      },
+      "success": {
+        "videoUploadMessage": "ビデオが正常にアップロードされました！",
+        "createContestMessage": "コンテストが正常に作成されました！"
+      },
+      "validation": {
+        "noTitle": "タイトルは必須です。",
+        "invalidDates": "終了日は開始日より後でなければなりません。"
+      },
+      "noSession": {
+        "title": "コンテストを作成するにはログインする必要があります。"
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "プロフィール",
+      "settingsButton": "設定に移動"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "許可が必要",
+        "message": "写真にアクセスする許可が必要です。"
+      },
+      "errorAlert": {
+        "title": "エラー",
+        "message": "画像の選択に失敗しました"
+      },
+      "successAlert": {
+        "title": "成功",
+        "message": "プロフィール画像が正常に更新されました"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "共有エラー",
+        "message": "紹介リンクを共有できませんでした。"
+      },
+      "successShare": {
+        "title": "Challenzに参加しよう！",
+        "message": "こんにちは！登録するにはこのリンクを使用してください: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "フォロワー",
+      "viewFollowers": "フォロワーを表示"
+    },
+    "following": {
+      "label": "フォロー中",
+      "viewFollowing": "フォロー中を表示"
+    },
+    "posts": {
+      "label": "投稿",
+      "viewPosts": "投稿を表示",
+      "noVideos": "まだ動画が投稿されていません。"
+    },
+    "info": {
+      "email": "Eメール",
+      "phone": "電話",
+      "location": "場所",
+      "coins": "Uwaci Coins",
+      "bio": "バイオ",
+      "noProfile": "プロフィールが見つかりません"
+    },
+    "buttons": {
+      "inviteFriends": "紹介リンクを共有",
+      "deleteVideo": "動画を削除",
+      "deleteVideoAlert": {
+        "title": "動画を削除",
+        "message": "この動画を削除してもよろしいですか？"
+      },
+      "deleteSuccess": {
+        "title": "成功",
+        "message": "動画が正常に削除されました。"
+      },
+      "deleteError": {
+        "title": "エラー",
+        "message": "動画の削除に失敗しました。"
+      }
+    },
+    "errors": {
+      "generalError": "エラーが発生しました。",
+      "profileError": "プロフィールの取得に失敗しました。",
+      "submissionsError": "提出の取得に失敗しました。"
+    },
+    "loading": {
+      "profile": "プロフィールを読み込み中...",
+      "submissions": "提出を読み込み中..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "プロフィールを編集",
+      "cancelButton": "キャンセル",
+      "saveButton": "変更を保存",
+      "savingButton": "保存中..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "名",
+        "placeholder": "名を入力してください",
+        "error": {
+          "tooShort": "名が短すぎます"
+        }
+      },
+      "lastName": {
+        "label": "姓",
+        "placeholder": "姓を入力してください",
+        "error": {
+          "tooShort": "姓が短すぎます"
+        }
+      },
+      "phoneNumber": {
+        "label": "電話番号",
+        "placeholder": "電話番号を入力してください",
+        "error": {
+          "invalid": "有効な電話番号を入力してください"
+        }
+      },
+      "bio": {
+        "label": "バイオ",
+        "placeholder": "あなたについて教えてください",
+        "error": {
+          "tooLong": "バイオは500文字未満でなければなりません。"
+        }
+      },
+      "location": {
+        "label": "場所",
+        "placeholder": "場所を入力してください",
+        "error": {
+          "tooLong": "場所は100文字未満でなければなりません。"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "エラー",
+        "message": "プロフィールデータの取得に失敗しました"
+      },
+      "updateSuccess": {
+        "title": "成功",
+        "message": "プロフィールが正常に更新されました"
+      },
+      "updateError": {
+        "title": "エラー",
+        "message": "プロフィールの更新に失敗しました"
+      }
+    },
+    "loading": {
+      "title": "読み込み中..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "読み込み中...",
+    "noProfileFound": "プロフィールが見つかりません",
+    "authenticationRequired": "認証が必要です",
+    "pleaseLogIn": "ユーザーをフォローするにはログインしてください。",
+    "success": "成功",
+    "unfollowSuccess": "フォローを解除しました",
+    "followSuccess": "フォローしました",
+    "error": "エラー",
+    "followError": "フォロー状態の更新に失敗しました。",
+    "posts": "投稿",
+    "followers": "フォロワー",
+    "following": "フォロー中",
+    "follow": "フォロー",
+    "unfollow": "フォロー解除",
+    "chat": "チャット"
+  },
+  "settings": {
+    "settings": "設定",
+    "fontSelected": "選択したフォント",
+    "asYourFont": "があなたのフォントとして設定されました。",
+    "languageSelected": "選択した言語",
+    "asYourLanguage": "があなたの言語として設定されました。",
+    "themeSelected": "選択したテーマ",
+    "asYourTheme": "があなたのテーマとして設定されました。",
+    "notifications": "通知",
+    "marketplace": "マーケットプレイス",
+    "account": "アカウント",
+    "themes": "テーマ",
+    "fonts": "フォント",
+    "languages": "言語",
+    "signOut": "サインアウト",
+    "confirmSignOut": "サインアウトを確認",
+    "areYouSureSignOut": "本当にサインアウトしますか？",
+    "cancel": "キャンセル",
+    "goBack": "戻る",
+    "selectFont": "フォントを選択",
+    "selectLanguage": "言語を選択",
+    "selectTheme": "テーマを選択"
+  },
+  "accountDetails": {
+    "settingsTitle": "アカウント設定",
+    "profileSettings": "プロフィールを編集",
+    "resetPassword": "パスワードをリセット",
+    "deleteAccount": "アカウントを削除",
+    "resetPasswordModal": {
+      "title": "パスワードをリセット",
+      "message": "パスワードリセットのメールが送信されます",
+      "sendEmail": "メールを送信",
+      "cancel": "キャンセル"
+    },
+    "deleteAccountModal": {
+      "title": "アカウントを削除",
+      "message": "本当にアカウントを削除しますか？この操作は元に戻せません。",
+      "delete": "削除",
+      "cancel": "キャンセル"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "プロフィールが更新されました",
+        "message": "プロフィールが正常に更新されました。"
+      },
+      "profileUpdateError": {
+        "title": "エラー",
+        "message": "プロフィールの更新に失敗しました。もう一度お試しください。"
+      },
+      "passwordReset": {
+        "title": "パスワードがリセットされました",
+        "message": "パスワードリセットのメールが送信されました。"
+      },
+      "passwordResetError": {
+        "title": "エラー",
+        "message": "パスワードリセットのメールの送信に失敗しました。もう一度お試しください。"
+      },
+      "accountDeleted": {
+        "title": "アカウントが削除されました",
+        "message": "アカウントが正常に削除されました。"
+      },
+      "accountDeleteError": {
+        "title": "エラー",
+        "message": "アカウントの削除に失敗しました。もう一度お試しください。"
+      }
+    }
+  }
+}

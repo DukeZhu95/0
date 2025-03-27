@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Verken Uitdagingen",
+    "thatInspire": "die inspireren!",
+    "signUp": "Aanmelden",
+    "signIn": "Inloggen"
+  },
+  "signUp": {
+    "title": "Aanmelden",
+    "headerMessage": "Maak een nieuw account aan om te beginnen.",
+    "form": {
+      "username": {
+        "label": "Gebruikersnaam",
+        "placeholder": "Kies een gebruikersnaam",
+        "validation": {
+          "minLength": "Gebruikersnaam moet minstens 3 tekens bevatten.",
+          "regex": "Gebruikersnaam mag alleen letters, cijfers en underscores bevatten."
+        }
+      },
+      "firstname": {
+        "label": "Voornaam",
+        "placeholder": "Voer je voornaam in",
+        "validation": "Voornaam moet minstens 3 tekens bevatten."
+      },
+      "lastname": {
+        "label": "Achternaam",
+        "placeholder": "Voer je achternaam in",
+        "validation": "Achternaam moet minstens 3 tekens bevatten."
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Voer je e-mailadres in",
+        "validation": "Voer alstublieft een geldig e-mailadres in."
+      },
+      "phoneNumber": {
+        "label": "Telefoonnummer",
+        "placeholder": "Voer je telefoonnummer in",
+        "validation": "Voer alstublieft een geldig telefoonnummer in."
+      },
+      "birthday": {
+        "label": "Geboortedatum",
+        "placeholder": "JJJJ-MM-DD",
+        "validation": {
+          "format": "Geboortedatum moet in het formaat JJJJ-MM-DD zijn.",
+          "validDate": "Ongeldige datum",
+          "ageRestriction": "Je moet minstens 18 jaar oud zijn om een account te maken."
+        }
+      },
+      "password": {
+        "label": "Wachtwoord",
+        "placeholder": "Voer je wachtwoord in",
+        "validation": {
+          "minLength": "Wachtwoord moet minstens 8 tekens lang zijn.",
+          "maxLength": "Wachtwoord moet minder dan 64 tekens lang zijn.",
+          "uppercase": "Wachtwoord moet ten minste één hoofdletter bevatten.",
+          "lowercase": "Wachtwoord moet ten minste één kleine letter bevatten.",
+          "numberOrSpecial": "Wachtwoord moet ten minste één cijfer of speciaal teken bevatten."
+        },
+        "strength": {
+          "weak": "Zwak",
+          "fair": "Matig",
+          "good": "Goed",
+          "strong": "Sterk"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bevestig Wachtwoord",
+        "placeholder": "Voer je wachtwoord opnieuw in",
+        "validation": "Wachtwoorden komen niet overeen."
+      }
+    },
+    "buttons": {
+      "createAccount": "Account Aanmaken",
+      "alreadyHaveAccount": "Heb je al een account? Inloggen"
+    },
+    "alerts": {
+      "error": {
+        "title": "Fout",
+        "message": "Er is een fout opgetreden bij het aanmaken van je account. Probeer het alstublieft opnieuw."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Door je aan te melden, ga je akkoord met het feit dat je onze",
+      "termsOfService": "Servicevoorwaarden",
+      "privacyPolicy": "Privacybeleid",
+      "andAccepted": "en deze hebt geaccepteerd."
+    }
+  },
+  "signIn": {
+    "title": "Inloggen",
+    "headerMessage": "Voer je inloggegevens in om toegang te krijgen tot je account.",
+    "form": {
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "password": "Wachtwoord",
+      "passwordPlaceholder": "Wachtwoord"
+    },
+    "buttons": {
+      "signIn": "Inloggen",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "signUp": "Heb je geen account? Aanmelden"
+    },
+    "forgotPassword": {
+      "title": "Wachtwoord Vergeten",
+      "prompt": "Voer eerst je e-mail hierboven in.",
+      "successTitle": "Controleer je e-mail",
+      "successMessage": "We hebben een link naar je e-mail gestuurd om je wachtwoord opnieuw in te stellen.",
+      "errorTitle": "Reset Fout"
+    },
+    "termsAndPrivacy": {
+      "message": "Door je aan te melden, ga je akkoord met het feit dat je onze",
+      "termsOfService": "Servicevoorwaarden",
+      "privacyPolicy": "Privacybeleid",
+      "andAccepted": "en deze hebt geaccepteerd."
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Inlogfout"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Ongeldige of ontbrekende toegangstoken.",
+      "sessionFailed": "Het is niet gelukt om een sessie te maken.",
+      "invalidPassword": "Voer alstublieft een geldig wachtwoord in met minstens 8 tekens.",
+      "updateFailed": "Het is niet gelukt om je wachtwoord bij te werken."
+    },
+    "success": {
+      "passwordUpdated": "Je wachtwoord is bijgewerkt. Log alstublieft opnieuw in."
+    },
+    "title": "Reset je Wachtwoord",
+    "instructions": "Voer een nieuw wachtwoord in.",
+    "labels": {
+      "newPassword": "Nieuw Wachtwoord"
+    },
+    "placeholders": {
+      "newPassword": "Voer je nieuwe wachtwoord in"
+    },
+    "buttons": {
+      "updatePassword": "Wachtwoord Bijwerken"
+    }
+  },
+  "tabs": {
+    "home": "Home",
+    "search": "Zoeken",
+    "create": "Maken",
+    "explore": "Wedstrijden",
+    "profile": "Profiel",
+    "settings": "Instellingen",
+    "editProfile": "Profiel Bewerken",
+    "otherUserProfile": "Profiel Andere Gebruiker",
+    "comment": "Reactie",
+    "contest": "Wedstrijd",
+    "challengeDetails": "Uitdaging Details",
+    "submissionDetails": "Inzending Details",
+    "contestDetails": "Wedstrijd Details",
+    "followers": "Volgers",
+    "following": "Volgend",
+    "account": "Account",
+    "notifications": "Meldingen",
+    "leaderboard": "Leaderboard",
+    "market": "Markt",
+    "rewards": "Beloningen"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Maken",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Home icoon",
+      "search": "Zoek icoon",
+      "create": "Maak icoon",
+      "explore": "Verken icoon",
+      "profile": "Profiel icoon"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Zoek inzendingen, gebruikers, uitdagingen...",
+    "clearSearch": "Zoekopdracht wissen",
+    "loading": "Bezig met laden...",
+    "error": {
+      "title": "Zoekfout",
+      "message": "Er is een fout opgetreden tijdens het zoeken."
+    },
+    "noPreviousSearches": "Geen eerdere zoekopdrachten.",
+    "previousSearches": "Eerdere Zoekopdrachten",
+    "submissions": {
+      "title": "Inzendingen",
+      "noResults": "Geen inzendingen gevonden.",
+      "videoError": {
+        "title": "Video Fout",
+        "message": "Video kon niet geladen worden."
+      }
+    },
+    "users": {
+      "title": "Gebruikers",
+      "noResults": "Geen gebruikers gevonden."
+    },
+    "challenges": {
+      "title": "Uitdagingen",
+      "noResults": "Geen uitdagingen gevonden.",
+      "videoError": {
+        "title": "Video Fout",
+        "message": "Uitdaging video kon niet geladen worden."
+      },
+      "category": "Categorie: ",
+      "seasonalTag": "Seizoensgebonden",
+      "sponsoredTag": "Gesponsord"
+    },
+    "repeatSearch": "Herhaal zoekopdracht voor",
+    "accessibility": {
+      "viewVideo": "Bekijk video met titel",
+      "viewProfile": "Bekijk profiel van",
+      "viewChallenge": "Bekijk uitdaging met titel"
+    }
+  },
+  "contest": {
+    "title": "Alle Wedstrijden",
+    "createContestButton": "Wedstrijd Maken"
+  },
+  "contests": {
+    "noContests": "Geen wedstrijden gevonden.",
+    "error": {
+      "title": "Fout",
+      "message": "Wedstrijden konden niet worden geladen."
+    },
+    "status": {
+      "notStarted": "Niet Gestart",
+      "ongoing": "Gaande",
+      "ended": "Beëindigd"
+    },
+    "dates": {
+      "start": "Start: ",
+      "end": "Einde: ",
+      "notAvailable": "N/B"
+    },
+    "contestDetailsButton": "Bekijk Wedstrijd Details"
+  },
+  "newContest": {
+    "header": {
+      "title": "Nieuwe Wedstrijd Maken",
+      "backButton": "Terug"
+    },
+    "fields": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "bijv. Zomer Dansuitdaging",
+        "validation": "Titel is verplicht."
+      },
+      "description": {
+        "label": "Beschrijving",
+        "placeholder": "Waar gaat deze wedstrijd over?"
+      },
+      "startDate": {
+        "label": "Startdatum",
+        "placeholder": "JJJJ-MM-DD",
+        "validation": "Einddatum moet na de startdatum zijn."
+      },
+      "endDate": {
+        "label": "Einddatum",
+        "placeholder": "JJJJ-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Winnaar Beloning (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Deelnemer Beloning (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Uitleg Video (Optioneel)",
+        "noVideoSelected": "Voeg een uitlegvideo toe.",
+        "picked": "Gekozen: {filename}",
+        "uploaded": "Geüpload: Video is succesvol geüpload.",
+        "chooseVideoButton": "Video Kiezen",
+        "uploadVideoButton": "Video Uploaden"
+      }
+    },
+    "buttons": {
+      "createContest": "Wedstrijd Maken"
+    },
+    "alerts": {
+      "error": {
+        "title": "Fout",
+        "pickVideoMessage": "Video kiezen is mislukt.",
+        "uploadVideoMessage": "Video uploaden is mislukt.",
+        "createContestMessage": "Wedstrijd maken is mislukt."
+      },
+      "success": {
+        "videoUploadMessage": "Video succesvol geüpload!",
+        "createContestMessage": "Wedstrijd succesvol aangemaakt!"
+      },
+      "validation": {
+        "noTitle": "Titel is verplicht.",
+        "invalidDates": "Einddatum moet na de startdatum zijn."
+      },
+      "noSession": {
+        "title": "Je moet ingelogd zijn om een wedstrijd te maken."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profiel",
+      "settingsButton": "Ga naar Instellingen"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Toestemming Vereist",
+        "message": "We hebben toestemming nodig om toegang te krijgen tot je foto's."
+      },
+      "errorAlert": {
+        "title": "Fout",
+        "message": "Afbeelding selecteren is mislukt."
+      },
+      "successAlert": {
+        "title": "Succes",
+        "message": "Profielafbeelding succesvol bijgewerkt."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Deelfout",
+        "message": "Referentielink kan niet worden gedeeld."
+      },
+      "successShare": {
+        "title": "Doe mee met mij op Challenz!",
+        "message": "Hallo! Gebruik deze link om je aan te melden: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Volgers",
+      "viewFollowers": "Volgers Bekijken"
+    },
+    "following": {
+      "label": "Volgend",
+      "viewFollowing": "Volgend Bekijken"
+    },
+    "posts": {
+      "label": "Berichten",
+      "viewPosts": "Berichten Bekijken",
+      "noVideos": "Nog geen video's gepubliceerd."
+    },
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "location": "Locatie",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Geen profiel gevonden"
+    },
+    "buttons": {
+      "inviteFriends": "Deelfenferiël",
+      "deleteVideo": "Video Verwijderen",
+      "deleteVideoAlert": {
+        "title": "Video Verwijderen",
+        "message": "Weet je zeker dat je deze video wilt verwijderen?"
+      },
+      "deleteSuccess": {
+        "title": "Succes",
+        "message": "Video succesvol verwijderd."
+      },
+      "deleteError": {
+        "title": "Fout",
+        "message": "Video verwijderen is mislukt."
+      }
+    },
+    "errors": {
+      "generalError": "Er is een fout opgetreden.",
+      "profileError": "Profiel laden is mislukt.",
+      "submissionsError": "Inzendingen laden is mislukt."
+    },
+    "loading": {
+      "profile": "Profiel aan het laden...",
+      "submissions": "Inzendingen aan het laden..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Profiel Bewerken",
+      "cancelButton": "Annuleren",
+      "saveButton": "Wijzigingen Opslaan",
+      "savingButton": "Opslaan..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Voornaam",
+        "placeholder": "Voer je voornaam in",
+        "error": {
+          "tooShort": "Voornaam is te kort"
+        }
+      },
+      "lastName": {
+        "label": "Achternaam",
+        "placeholder": "Voer je achternaam in",
+        "error": {
+          "tooShort": "Achternaam is te kort"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefoonnummer",
+        "placeholder": "Voer je telefoonnummer in",
+        "error": {
+          "invalid": "Voer alstublieft een geldig telefoonnummer in"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Vertel ons over jezelf",
+        "error": {
+          "tooLong": "Bio moet minder dan 500 tekens bevatten"
+        }
+      },
+      "location": {
+        "label": "Locatie",
+        "placeholder": "Voer je locatie in",
+        "error": {
+          "tooLong": "Locatie moet minder dan 100 tekens bevatten"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Fout",
+        "message": "Profielgegevens laden is mislukt."
+      },
+      "updateSuccess": {
+        "title": "Succes",
+        "message": "Profiel succesvol bijgewerkt."
+      },
+      "updateError": {
+        "title": "Fout",
+        "message": "Profiel bijwerken is mislukt."
+      }
+    },
+    "loading": {
+      "title": "Bezig met laden..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Bezig met laden...",
+    "noProfileFound": "Geen profiel gevonden",
+    "authenticationRequired": "Authenticatie Vereist",
+    "pleaseLogIn": "Log in om gebruikers te volgen.",
+    "success": "Succes",
+    "unfollowSuccess": "Je hebt ontvolgd",
+    "followSuccess": "Je volgt nu",
+    "error": "Fout",
+    "followError": "Volgstatus bijwerken is mislukt.",
+    "posts": "Berichten",
+    "followers": "Volgers",
+    "following": "Volgend",
+    "follow": "Volgen",
+    "unfollow": "Ontvolgen",
+    "chat": "Chat"
+  },
+  "settings": {
+    "settings": "Instellingen",
+    "fontSelected": "Geselecteerd lettertype",
+    "asYourFont": "is ingesteld als je lettertype.",
+    "languageSelected": "Geselecteerde taal",
+    "asYourLanguage": "is ingesteld als je taal.",
+    "themeSelected": "Geselecteerd thema",
+    "asYourTheme": "is ingesteld als je thema.",
+    "notifications": "Meldingen",
+    "marketplace": "Marktplaats",
+    "account": "Account",
+    "themes": "Thema's",
+    "fonts": "Lettertypen",
+    "languages": "Talen",
+    "signOut": "Uitloggen",
+    "confirmSignOut": "Uitloggen Bevestigen",
+    "areYouSureSignOut": "Weet je zeker dat je wilt uitloggen?",
+    "cancel": "Annuleren",
+    "goBack": "Ga terug",
+    "selectFont": "Selecteer Lettertype",
+    "selectLanguage": "Selecteer Taal",
+    "selectTheme": "Selecteer Thema"
+  },
+  "accountDetails": {
+    "settingsTitle": "Accountinstellingen",
+    "profileSettings": "Profiel Bewerken",
+    "resetPassword": "Wachtwoord Resetten",
+    "deleteAccount": "Account Verwijderen",
+    "resetPasswordModal": {
+      "title": "Wachtwoord Resetten",
+      "message": "Een e-mail voor het resetten van je wachtwoord wordt verzonden naar",
+      "sendEmail": "E-mail Verzenden",
+      "cancel": "Annuleren"
+    },
+    "deleteAccountModal": {
+      "title": "Account Verwijderen",
+      "message": "Weet je zeker dat je je account wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "delete": "Verwijderen",
+      "cancel": "Annuleren"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profiel Bijgewerkt",
+        "message": "Je profiel is succesvol bijgewerkt."
+      },
+      "profileUpdateError": {
+        "title": "Fout",
+        "message": "Het bijwerken van je profiel is mislukt. Probeer het alstublieft opnieuw."
+      },
+      "passwordReset": {
+        "title": "Wachtwoord Gereset",
+        "message": "Een e-mail voor het resetten van je wachtwoord is verzonden."
+      },
+      "passwordResetError": {
+        "title": "Fout",
+        "message": "Het verzenden van de wachtwoord reset e-mail is mislukt. Probeer het alstublieft opnieuw."
+      },
+      "accountDeleted": {
+        "title": "Account Verwijderd",
+        "message": "Je account is succesvol verwijderd."
+      },
+      "accountDeleteError": {
+        "title": "Fout",
+        "message": "Het verwijderen van je account is mislukt. Probeer het alstublieft opnieuw."
+      }
+    }
+  }
+}

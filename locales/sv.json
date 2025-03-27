@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Utforska Utmaningar",
+    "thatInspire": "som inspirerar!",
+    "signUp": "Registrera dig",
+    "signIn": "Logga in"
+  },
+  "signUp": {
+    "title": "Registrera dig",
+    "headerMessage": "Skapa ett nytt konto för att komma igång.",
+    "form": {
+      "username": {
+        "label": "Användarnamn",
+        "placeholder": "Välj ett användarnamn",
+        "validation": {
+          "minLength": "Användarnamnet måste vara minst 3 tecken.",
+          "regex": "Användarnamnet kan endast innehålla bokstäver, siffror och understreck."
+        }
+      },
+      "firstname": {
+        "label": "Förnamn",
+        "placeholder": "Ange ditt förnamn",
+        "validation": "Förnamnet måste vara minst 3 tecken."
+      },
+      "lastname": {
+        "label": "Efternamn",
+        "placeholder": "Ange ditt efternamn",
+        "validation": "Efternamnet måste vara minst 3 tecken."
+      },
+      "email": {
+        "label": "E-post",
+        "placeholder": "Ange din e-postadress",
+        "validation": "Vänligen ange en giltig e-postadress."
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Ange ditt telefonnummer",
+        "validation": "Vänligen ange ett giltigt telefonnummer."
+      },
+      "birthday": {
+        "label": "Födelsedag",
+        "placeholder": "ÅÅÅÅ-MM-DD",
+        "validation": {
+          "format": "Födelsedagen måste vara i formatet ÅÅÅÅ-MM-DD.",
+          "validDate": "Ogiltigt datum",
+          "ageRestriction": "Du måste vara minst 18 år gammal för att skapa ett konto."
+        }
+      },
+      "password": {
+        "label": "Lösenord",
+        "placeholder": "Ange ditt lösenord",
+        "validation": {
+          "minLength": "Lösenordet måste vara minst 8 tecken.",
+          "maxLength": "Lösenordet måste vara mindre än 64 tecken.",
+          "uppercase": "Lösenordet måste innehålla minst en versal bokstav.",
+          "lowercase": "Lösenordet måste innehålla minst en gemen bokstav.",
+          "numberOrSpecial": "Lösenordet måste innehålla minst en siffra eller specialtecken."
+        },
+        "strength": {
+          "weak": "Svagt",
+          "fair": "Medel",
+          "good": "Bra",
+          "strong": "Starkt"
+        }
+      },
+      "confirmPassword": {
+        "label": "Bekräfta Lösenord",
+        "placeholder": "Ange ditt lösenord igen",
+        "validation": "Lösenorden matchar inte."
+      }
+    },
+    "buttons": {
+      "createAccount": "Skapa Konto",
+      "alreadyHaveAccount": "Har du redan ett konto? Logga in"
+    },
+    "alerts": {
+      "error": {
+        "title": "Fel",
+        "message": "Ett fel uppstod när kontot skapades. Försök igen."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Genom att registrera dig godkänner du att du har läst våra",
+      "termsOfService": "Användarvillkor",
+      "privacyPolicy": "Integritetspolicy",
+      "andAccepted": "och godkänner dem."
+    }
+  },
+  "signIn": {
+    "title": "Logga in",
+    "headerMessage": "Ange dina inloggningsuppgifter för att få tillgång till ditt konto.",
+    "form": {
+      "email": "E-post",
+      "emailPlaceholder": "E-post",
+      "password": "Lösenord",
+      "passwordPlaceholder": "Lösenord"
+    },
+    "buttons": {
+      "signIn": "Logga in",
+      "forgotPassword": "Glömt lösenord?",
+      "signUp": "Har du inget konto? Registrera dig"
+    },
+    "forgotPassword": {
+      "title": "Glömt lösenord",
+      "prompt": "Ange först din e-post ovan.",
+      "successTitle": "Kontrollera din e-post",
+      "successMessage": "Vi har skickat en länk för att återställa ditt lösenord till din e-post.",
+      "errorTitle": "Återställningsfel"
+    },
+    "termsAndPrivacy": {
+      "message": "Genom att registrera dig godkänner du att du har läst våra",
+      "termsOfService": "Användarvillkor",
+      "privacyPolicy": "Integritetspolicy",
+      "andAccepted": "och godkänner dem."
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Inloggningsfel"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Ogiltig eller saknad åtkomsttoken.",
+      "sessionFailed": "Misslyckades med att skapa session.",
+      "invalidPassword": "Vänligen ange ett giltigt lösenord med minst 8 tecken.",
+      "updateFailed": "Misslyckades med att uppdatera ditt lösenord."
+    },
+    "success": {
+      "passwordUpdated": "Ditt lösenord har uppdaterats. Vänligen logga in igen."
+    },
+    "title": "Återställ ditt lösenord",
+    "instructions": "Ange ett nytt lösenord.",
+    "labels": {
+      "newPassword": "Nytt Lösenord"
+    },
+    "placeholders": {
+      "newPassword": "Ange ditt nya lösenord"
+    },
+    "buttons": {
+      "updatePassword": "Uppdatera lösenord"
+    }
+  },
+  "tabs": {
+    "home": "Hem",
+    "search": "Sök",
+    "create": "Skapa",
+    "explore": "Tävlingar",
+    "profile": "Profil",
+    "settings": "Inställningar",
+    "editProfile": "Redigera Profil",
+    "otherUserProfile": "Annan Användares Profil",
+    "comment": "Kommentar",
+    "contest": "Tävling",
+    "challengeDetails": "Detaljer om Utmaningen",
+    "submissionDetails": "Detaljer om Inlämningen",
+    "contestDetails": "Detaljer om Tävlingen",
+    "followers": "Följare",
+    "following": "Följer",
+    "account": "Konto",
+    "notifications": "Aviseringar",
+    "leaderboard": "Leaderboard",
+    "market": "Marknad",
+    "rewards": "Belöningar"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Skapa",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Hem-ikon",
+      "search": "Sök-ikon",
+      "create": "Skapa-ikon",
+      "explore": "Utforska-ikon",
+      "profile": "Profil-ikon"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Sök inlämningar, användare, utmaningar...",
+    "clearSearch": "Rensa sökning",
+    "loading": "Laddar...",
+    "error": {
+      "title": "Sökningsfel",
+      "message": "Ett fel uppstod under sökningen."
+    },
+    "noPreviousSearches": "Inga tidigare sökningar.",
+    "previousSearches": "Tidigare Sökningar",
+    "submissions": {
+      "title": "Inlämningar",
+      "noResults": "Inga inlämningar hittades.",
+      "videoError": {
+        "title": "Videofel",
+        "message": "Kunde inte ladda videon."
+      }
+    },
+    "users": {
+      "title": "Användare",
+      "noResults": "Inga användare hittades."
+    },
+    "challenges": {
+      "title": "Utmaningar",
+      "noResults": "Inga utmaningar hittades.",
+      "videoError": {
+        "title": "Videofel",
+        "message": "Kunde inte ladda utmaningens video."
+      },
+      "category": "Kategori: ",
+      "seasonalTag": "Säsongsbetonad",
+      "sponsoredTag": "Sponsrad"
+    },
+    "repeatSearch": "Upprepa sökning för",
+    "accessibility": {
+      "viewVideo": "Visa video med titel",
+      "viewProfile": "Visa profil av",
+      "viewChallenge": "Visa utmaning med titel"
+    }
+  },
+  "contest": {
+    "title": "Alla Tävlingar",
+    "createContestButton": "Skapa Tävling"
+  },
+  "contests": {
+    "noContests": "Inga tävlingar hittades.",
+    "error": {
+      "title": "Fel",
+      "message": "Kunde inte hämta tävlingar."
+    },
+    "status": {
+      "notStarted": "Inte Startad",
+      "ongoing": "Pågående",
+      "ended": "Avslutad"
+    },
+    "dates": {
+      "start": "Start: ",
+      "end": "Slut: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Visa Tävlingsdetaljer"
+  },
+  "newContest": {
+    "header": {
+      "title": "Skapa Ny Tävling",
+      "backButton": "Tillbaka"
+    },
+    "fields": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "t.ex. Sommardansutmaning",
+        "validation": "Titeln är obligatorisk."
+      },
+      "description": {
+        "label": "Beskrivning",
+        "placeholder": "Vad handlar denna tävling om?"
+      },
+      "startDate": {
+        "label": "Startdatum",
+        "placeholder": "ÅÅÅÅ-MM-DD",
+        "validation": "Slutdatum måste vara efter startdatum."
+      },
+      "endDate": {
+        "label": "Slutdatum",
+        "placeholder": "ÅÅÅÅ-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Vinnare Belöning (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Deltagare Belöning (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Förklaringsvideo (valfritt)",
+        "noVideoSelected": "Lägg till en förklaringsvideo.",
+        "picked": "Vald: {filename}",
+        "uploaded": "Uppladdad: Videon har laddats upp framgångsrikt.",
+        "chooseVideoButton": "Välj Video",
+        "uploadVideoButton": "Ladda upp Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Skapa Tävling"
+    },
+    "alerts": {
+      "error": {
+        "title": "Fel",
+        "pickVideoMessage": "Det gick inte att välja video.",
+        "uploadVideoMessage": "Det gick inte att ladda upp video.",
+        "createContestMessage": "Det gick inte att skapa tävling."
+      },
+      "success": {
+        "videoUploadMessage": "Videon har laddats upp framgångsrikt!",
+        "createContestMessage": "Tävlingen har skapats framgångsrikt!"
+      },
+      "validation": {
+        "noTitle": "Titeln är obligatorisk.",
+        "invalidDates": "Slutdatum måste vara efter startdatum."
+      },
+      "noSession": {
+        "title": "Du måste vara inloggad för att skapa en tävling."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Gå till Inställningar"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Behöver Tillstånd",
+        "message": "Vi behöver tillstånd för att komma åt dina bilder."
+      },
+      "errorAlert": {
+        "title": "Fel",
+        "message": "Kunde inte välja bilden."
+      },
+      "successAlert": {
+        "title": "Framgång",
+        "message": "Profilbilden har uppdaterats framgångsrikt."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Delningsfel",
+        "message": "Referral-länken kunde inte delas."
+      },
+      "successShare": {
+        "title": "Gå med mig på Challenz!",
+        "message": "Hej! Använd denna länk för att registrera dig: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Följare",
+      "viewFollowers": "Visa Följare"
+    },
+    "following": {
+      "label": "Följer",
+      "viewFollowing": "Visa Följande"
+    },
+    "posts": {
+      "label": "Inlägg",
+      "viewPosts": "Visa Inlägg",
+      "noVideos": "Inga videor publicerade ännu."
+    },
+    "info": {
+      "email": "E-post",
+      "phone": "Telefon",
+      "location": "Plats",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Inga Profiler Hittades"
+    },
+    "buttons": {
+      "inviteFriends": "Dela Referral-länk",
+      "deleteVideo": "Ta bort Video",
+      "deleteVideoAlert": {
+        "title": "Ta bort Video",
+        "message": "Är du säker på att du vill ta bort denna video?"
+      },
+      "deleteSuccess": {
+        "title": "Framgång",
+        "message": "Videon har tagits bort framgångsrikt."
+      },
+      "deleteError": {
+        "title": "Fel",
+        "message": "Kunde inte ta bort videon."
+      }
+    },
+    "errors": {
+      "generalError": "Ett fel uppstod.",
+      "profileError": "Kunde inte hämta profilen.",
+      "submissionsError": "Kunde inte hämta inlämningarna."
+    },
+    "loading": {
+      "profile": "Laddar profil...",
+      "submissions": "Laddar inlämningar..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Redigera Profil",
+      "cancelButton": "Avbryt",
+      "saveButton": "Spara Ändringar",
+      "savingButton": "Sparar..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Förnamn",
+        "placeholder": "Ange ditt förnamn",
+        "error": {
+          "tooShort": "Förnamnet är för kort"
+        }
+      },
+      "lastName": {
+        "label": "Efternamn",
+        "placeholder": "Ange ditt efternamn",
+        "error": {
+          "tooShort": "Efternamnet är för kort"
+        }
+      },
+      "phoneNumber": {
+        "label": "Telefonnummer",
+        "placeholder": "Ange ditt telefonnummer",
+        "error": {
+          "invalid": "Vänligen ange ett giltigt telefonnummer"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Berätta om dig själv",
+        "error": {
+          "tooLong": "Bio måste vara mindre än 500 tecken"
+        }
+      },
+      "location": {
+        "label": "Plats",
+        "placeholder": "Ange din plats",
+        "error": {
+          "tooLong": "Platsen måste vara mindre än 100 tecken"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Fel",
+        "message": "Kunde inte hämta profiluppgifterna."
+      },
+      "updateSuccess": {
+        "title": "Framgång",
+        "message": "Profilen har uppdaterats framgångsrikt."
+      },
+      "updateError": {
+        "title": "Fel",
+        "message": "Kunde inte uppdatera profilen."
+      }
+    },
+    "loading": {
+      "title": "Laddar..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Laddar...",
+    "noProfileFound": "Inga profiler hittades",
+    "authenticationRequired": "Autentisering krävs",
+    "pleaseLogIn": "Logga in för att följa användare.",
+    "success": "Framgång",
+    "unfollowSuccess": "Du har slutat följa",
+    "followSuccess": "Du följer nu",
+    "error": "Fel",
+    "followError": "Kunde inte uppdatera följsstatus.",
+    "posts": "Inlägg",
+    "followers": "Följare",
+    "following": "Följer",
+    "follow": "Följ",
+    "unfollow": "Sluta Följa",
+    "chat": "Chatt"
+  },
+  "settings": {
+    "settings": "Inställningar",
+    "fontSelected": "Vald typsnitt",
+    "asYourFont": "har satts som ditt typsnitt.",
+    "languageSelected": "Valt språk",
+    "asYourLanguage": "har satts som ditt språk.",
+    "themeSelected": "Vald tema",
+    "asYourTheme": "har satts som ditt tema.",
+    "notifications": "Aviseringar",
+    "marketplace": "Marknadsplats",
+    "account": "Konto",
+    "themes": "Teman",
+    "fonts": "Typsnitt",
+    "languages": "Språk",
+    "signOut": "Logga ut",
+    "confirmSignOut": "Bekräfta utloggning",
+    "areYouSureSignOut": "Är du säker på att du vill logga ut?",
+    "cancel": "Avbryt",
+    "goBack": "Gå tillbaka",
+    "selectFont": "Välj Typsnitt",
+    "selectLanguage": "Välj Språk",
+    "selectTheme": "Välj Tema"
+  },
+  "accountDetails": {
+    "settingsTitle": "Kontoinställningar",
+    "profileSettings": "Redigera Profil",
+    "resetPassword": "Återställ Lösenord",
+    "deleteAccount": "Radera Konto",
+    "resetPasswordModal": {
+      "title": "Återställ Lösenord",
+      "message": "Ett e-postmeddelande för att återställa lösenordet kommer att skickas till",
+      "sendEmail": "Skicka E-post",
+      "cancel": "Avbryt"
+    },
+    "deleteAccountModal": {
+      "title": "Radera Konto",
+      "message": "Är du säker på att du vill radera ditt konto? Denna åtgärd kan inte ångras.",
+      "delete": "Radera",
+      "cancel": "Avbryt"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Uppdaterad",
+        "message": "Din profil har uppdaterats framgångsrikt."
+      },
+      "profileUpdateError": {
+        "title": "Fel",
+        "message": "Kunde inte uppdatera din profil. Försök igen."
+      },
+      "passwordReset": {
+        "title": "Lösenord Återställt",
+        "message": "Ett e-postmeddelande för att återställa lösenordet har skickats."
+      },
+      "passwordResetError": {
+        "title": "Fel",
+        "message": "Kunde inte skicka e-postmeddelandet för att återställa lösenordet. Försök igen."
+      },
+      "accountDeleted": {
+        "title": "Konto Raderat",
+        "message": "Ditt konto har raderats framgångsrikt."
+      },
+      "accountDeleteError": {
+        "title": "Fel",
+        "message": "Kunde inte radera ditt konto. Försök igen."
+      }
+    }
+  }
+}

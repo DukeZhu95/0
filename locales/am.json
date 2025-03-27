@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "ፈታኝ ነገሮችን ፈልግ",
+      "thatInspire": "የሚያነሳሱ!",
+      "signUp": "ይመዝገቡ",
+      "signIn": "ይግቡ"
+    },
+    "signUp": {
+      "title": "ይመዝገቡ",
+      "headerMessage": "ለመጀመር አዲስ መለያ ይፍጠሩ",
+      "businessTitle": "እንደ ንግድ ይመዝገቡ",
+      "headerMessageBusiness": "ለመጀመር የንግድ መለያ ይፍጠሩ",
+      "form": {
+        "username": {
+          "label": "የተጠቃሚ ስም",
+          "placeholder": "የተጠቃሚ ስም ይምረጡ",
+          "validation": {
+            "minLength": "የተጠቃሚ ስም ቢያንስ 3 ቁምፊዎች ሊኖሩት ይገባል",
+            "regex": "የተጠቃሚ ስም ፊደሎች፣ ቁጥሮች እና የሥር መስመር ብቻ ሊኖረው ይችላል"
+          }
+        },
+        "firstname": {
+          "label": "ስም",
+          "placeholder": "ስምዎን ያስገቡ",
+          "validation": "ስም ቢያንስ 3 ቁምፊዎች ሊኖሩት ይገባል"
+        },
+        "lastname": {
+          "label": "የአባት ስም",
+          "placeholder": "የአባት ስምዎን ያስገቡ",
+          "validation": "የአባት ስም ቢያንስ 3 ቁምፊዎች ሊኖሩት ይገባል"
+        },
+        "businessName": {
+          "label": "የንግድ ስም",
+          "placeholder": "የንግድ ስምዎን ያስገቡ",
+          "validation": "የንግድ ስም ቢያንስ 3 ቁምፊዎች ሊኖሩት ይገባል"
+        },
+        "website": {
+          "label": "የንግድ ድረ-ገጽ",
+          "placeholder": "ድረ-ገጽዎን ያስገቡ",
+          "validation": "የንግድ ስም ቢያንስ 3 ቁምፊዎች ሊኖሩት ይገባል"
+        },
+        "businessType": {
+          "label": "የንግድ ዓይነት",
+          "placeholder": "የንግድ ዓይነት",
+          "validation": "የንግድ ስም ቢያንስ 3 ቁምፊዎች ሊኖሩት ይገባል"
+        },
+        "email": {
+          "label": "ኢሜይል",
+          "placeholder": "የኢሜይል አድራሻዎን ያስገቡ",
+          "validation": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ"
+        },
+        "phoneNumber": {
+          "label": "ስልክ ቁጥር",
+          "placeholder": "ስልክ ቁጥርዎን ያስገቡ",
+          "validation": "እባክዎ ትክክለኛ ስልክ ቁጥር ያስገቡ"
+        },
+        "birthday": {
+          "title": "የልደት ቀን",
+          "label": "የልደት ቀን",
+          "placeholder": "ቀን-ወር-ዓመት",
+          "validation": {
+            "format": "የልደት ቀን በቀን-ወር-ዓመት ቅርጸት መሆን አለበት",
+            "validDate": "ልክ ያልሆነ ቀን",
+            "ageRestriction": "መለያ ለመፍጠር 18 ዓመት እና ከዚያ በላይ መሆን አለብዎት"
+          }
+        },
+        "password": {
+          "label": "የይለፍ ቃል",
+          "placeholder": "የይለፍ ቃልዎን ያስገቡ",
+          "validation": {
+            "minLength": "የይለፍ ቃሉ ቢያንስ 8 ቁምፊዎች ሊኖሩት ይገባል",
+            "maxLength": "የይለፍ ቃሉ ከ64 ቁምፊዎች በታች መሆን አለበት",
+            "uppercase": "የይለፍ ቃሉ ቢያንስ አንድ የላይኛው ፊደል ሊኖረው ይገባል",
+            "lowercase": "የይለፍ ቃሉ ቢያንስ አንድ የታችኛው ፊደል ሊኖረው ይገባል",
+            "numberOrSpecial": "የይለፍ ቃሉ ቢያንስ አንድ ቁጥር ወይም ልዩ ቁምፊ ሊኖረው ይገባል"
+          },
+          "strength": {
+            "weak": "ደካማ",
+            "fair": "መካከለኛ",
+            "good": "ጥሩ",
+            "strong": "ጠንካራ"
+          }
+        },
+        "confirmPassword": {
+          "label": "የይለፍ ቃል ያረጋግጡ",
+          "placeholder": "የይለፍ ቃልዎን እንደገና ያስገቡ",
+          "validation": "የይለፍ ቃሎቹ አይጣጣሙም"
+        }
+      },
+      "buttons": {
+        "createAccount": "መለያ ይፍጠሩ",
+        "alreadyHaveAccount": "ቀድሞውኑ መለያ አለዎት?",
+        "signIn": "ይግቡ",
+        "businessJoin": "Challenz ን እንደ የንግድ አጋር ይቀላቀሉ"
+      },
+      "alerts": {
+        "error": {
+          "title": "ስህተት",
+          "message": "መለያዎን በመፍጠር ላይ ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ"
+        },
+        "passwordMismatch": {
+          "title": "የይለፍ ቃል አለመዛመድ",
+          "message": "ትክክል ያልሆነ የይለፍ ቃል። እባክዎ እንደገና ይሞክሩ"
+        },
+        "agreementRequired": {
+          "title": "ስምምነት ያስፈልጋል",
+          "message": "እባክዎ የአገልግሎት ውሎችን እና የግላዊነት ፖሊሲን ይቀበሉ"
+        },
+        "success": {
+          "title": "ስኬት",
+          "message": "መለያ በሚገባ ተፈጥሯል"
+        },
+        "signUpError": {
+          "title": "የመመዝገቢያ ስህተት",
+          "message": "መለያዎን በመፍጠር ላይ ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "በመመዝገብ የኛን ያነበቡ መሆንዎን ያረጋግጣሉ",
+        "termsOfService": "የአገልግሎት ውሎች",
+        "privacyPolicy": "የግላዊነት ፖሊሲ",
+        "andAccepted": "እና የኛን ተቀብለዋል"
+      }
+    },
+    "signIn": {
+      "title": "ይግቡ",
+      "headerMessage": "መለያዎን ለመድረስ የመለያ መረጃዎን ያስገቡ",
+      "form": {
+        "email": "ኢሜይል",
+        "emailPlaceholder": "ኢሜይልዎን ያስገቡ",
+        "password": "የይለፍ ቃል",
+        "passwordPlaceholder": "የይለፍ ቃልዎን ያስገቡ"
+      },
+      "buttons": {
+        "signIn": "ይግቡ",
+        "forgotPassword": "የይለፍ ቃል ረስተዋል?",
+        "noAccount": "መለያ የለዎትም?",
+        "signUp": " ይመዝገቡ"
+      },
+      "forgotPassword": {
+        "title": "የይለፍ ቃል ረስተዋል",
+        "prompt": "እባክዎ ኢሜይልዎን መጀመሪያ ያስገቡ",
+        "successTitle": "ኢሜይልዎን ይመልከቱ",
+        "successMessage": "የይለፍ ቃል ዳግም ማስጀመሪያ አገናኝ ወደ ኢሜይልዎ ልከናል",
+        "errorTitle": "የዳግም ማስጀመሪያ ስህተት"
+      },
+      "termsAndPrivacy": {
+        "message": "በመመዝገብ የኛን ያነበቡ መሆንዎን ያረጋግጣሉ",
+        "termsOfService": "የአገልግሎት ውሎች",
+        "privacyPolicy": "የግላዊነት ፖሊሲ",
+        "andAccepted": "እና የኛን ተቀብለዋል"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "የመግቢያ ስህተት"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "የይለፍ ቃል ረስተዋል",
+      "description": "የኢሜይል አድራሻዎን ከዚህ በታች ያስገቡ እና የይለፍ ቃልዎን ለመቀየር አገናኝ እንልክልዎታለን",
+      "form": {
+        "email": "የኢሜይል አድራሻ"
+      },
+      "buttons": {
+        "reset": "የይለፍ ቃል ዳግም ያስጀምሩ",
+        "sending": "በመላክ ላይ...",
+        "remembered": "የይለፍ ቃልዎን አስታወሱ?",
+        "signIn": "ይግቡ"
+      },
+      "alerts": {
+        "enterEmail": "እባክዎ የኢሜይል አድራሻዎን ያስገቡ",
+        "checkEmail": "ለዳግም ማስጀመሪያ አገናኝ ኢሜይልዎን ይመልከቱ",
+        "resetError": "የይለፍ ቃል ዳግም ማስጀመር አልተሳካም"
+      }
+    },
+    "resetPassword": {
+      "title": "የይለፍ ቃል ያዘምኑ",
+      "description": "የመለያዎን የይለፍ ቃል ዳግም ለማስጀመር አዲስ የይለፍ ቃልዎን ከዚህ በታች ያስገቡ",
+      "form": {
+        "newPassword": "አዲስ የይለፍ ቃል ያስገቡ",
+        "confirmPassword": "አዲስ የይለፍ ቃል ያረጋግጡ"
+      },
+      "alerts": {
+        "enterBothPasswords": "እባክዎ ሁለቱንም የይለፍ ቃል መስኮች ይሙሉ",
+        "passwordMismatch": "የይለፍ ቃሎቹ አይጣጣሙም። እባክዎ እንደገና ይሞክሩ",
+        "success": "የይለፍ ቃልዎ በሚገባ ተዘምኗል",
+        "updateError": "የይለፍ ቃል በማዘመን ላይ ስህተት። እባክዎ እንደገና ይሞክሩ"
+      },
+      "buttons": {
+        "saving": "በማስቀመጥ ላይ...",
+        "update": "የይለፍ ቃል ያዘምኑ"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "ልክ ያልሆነ ወይም የጎደለ የመዳረሻ ቶከን",
+        "sessionFailed": "ክፍለ-ጊዜን መመስረት አልተሳካም",
+        "invalidPassword": "እባክዎ ቢያንስ 8 ቁምፊዎች ያለው ትክክለኛ የይለፍ ቃል ያስገቡ",
+        "updateFailed": "የይለፍ ቃልዎን ማዘመን አልተሳካም"
+      },
+      "success": {
+        "passwordUpdated": "የይለፍ ቃልዎ ተዘምኗል። እባክዎ እንደገና ይግቡ"
+      },
+      "title": "የይለፍ ቃልዎን ዳግም ያስጀምሩ",
+      "instructions": "አዲስ የይለፍ ቃል ያስገቡ",
+      "labels": {
+        "newPassword": "አዲስ የይለፍ ቃል"
+      },
+      "placeholders": {
+        "newPassword": "አዲስ የይለፍ ቃል ያስገቡ"
+      },
+      "buttons": {
+        "updatePassword": "የይለፍ ቃል ያዘምኑ"
+      }
+    },
+    "tabs": {
+      "home": "መነሻ",
+      "search": "ፍለጋ",
+      "create": "ይፍጠሩ",
+      "contest": "ውድድሮች",
+      "menu": "ምናሌ",
+      "settings": "ቅንብሮች",
+      "profile": "መገለጫ",
+      "editProfile": "መገለጫዎን ያርትዑ",
+      "otherUserProfile": "የተጠቃሚ መገለጫ",
+      "explore": "ያስሱ",
+      "challengeDetails": "የፈተና ዝርዝሮች",
+      "submissionDetails": "የማስገቢያ ዝርዝሮች",
+      "contestDetails": "የውድድር ዝርዝሮች",
+      "followers": "ተከታዮች ",
+      "following": "በመከተል ላይ ",
+      "account": "መለያ",
+      "notifications": "ማሳወቂያዎች",
+      "leaderboard": "የአሸናፊዎች ሰንጠረዥ",
+      "market": "ገበያ",
+      "rewards": "ሽልማቶች",
+      "coin": "ሳንቲሞችዎ"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "ይፍጠሩ",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "የመነሻ አዶ",
+        "search": "የፍለጋ አዶ",
+        "create": "የመፍጠሪያ አዶ",
+        "explore": "የማሰሻ አዶ",
+        "profile": "የመገለጫ አዶ"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "ማስገቢያዎችን፣ ተጠቃሚዎችን፣ ፈተናዎችን ይፈልጉ...",
+      "clearSearch": "የፍለጋ ግብዓትን ያጽዱ",
+      "loading": "በመጫን ላይ...",
+      "error": {
+        "title": "የፍለጋ ስህተት",
+        "message": "በፍለጋ ወቅት ስህተት ተከስቷል"
+      },
+      "noPreviousSearches": "ምንም ቀዳሚ ፍለጋዎች የሉም",
+      "previousSearches": "ቀዳሚ ፍለጋዎች",
+      "submissions": {
+        "title": "ማስገቢያዎች",
+        "noResults": "ምንም ማስገቢያዎች አልተገኙም",
+        "videoError": {
+          "title": "የቪዲዮ ስህተት",
+          "message": "ቪዲዮውን መጫን አልተሳካም"
+        }
+      },
+      "users": {
+        "title": "ተጠቃሚዎች",
+        "noResults": "ምንም ተጠቃሚዎች አልተገኙም"
+      },
+      "challenges": {
+        "title": "ፈተናዎች",
+        "noResults": "ምንም ፈተናዎች አልተገኙም",
+        "videoError": {
+          "title": "የቪዲዮ ስህተት",
+          "message": "የፈተና ቪዲዮን መጫን አልተሳካም"
+        },
+        "category": "ምድብ: ",
+        "seasonalTag": "ወቅታዊ",
+        "sponsoredTag": "የስፖንሰር የሆነ"
+      },
+      "repeatSearch": "ፍለጋን ይድገሙ ለ",
+      "accessibility": {
+        "viewVideo": "ርዕስ ያለው ቪዲዮ ይመልከቱ",
+        "viewProfile": "የ መገለጫ ይመልከቱ",
+        "viewChallenge": "ርዕስ ያለው ፈተና ይመልከቱ"
+      }
+    },
+    "contest": {
+      "title": "ሁሉም ውድድሮች",
+      "createContestButton": "ውድድር ይፍጠሩ"
+    },
+    "contests": {
+      "noContests": "ምንም ውድድሮች አልተገኙም",
+      "error": {
+        "title": "ስህተት",
+        "message": "ውድድሮችን ማምጣት አልተሳካም"
+      },
+      "status": {
+        "notStarted": "አልተጀመረም",
+        "ongoing": "በሂደት ላይ",
+        "ended": "አብቅቷል"
+      },
+      "dates": {
+        "start": "መጀመሪያ: ",
+        "end": "መጨረሻ: ",
+        "notAvailable": "የለም"
+      },
+      "contestDetailsButton": "የውድድር ዝርዝሮችን ይመልከቱ"
+    },
+    "newContest": {
+      "header": {
+        "title": "አዲስ ውድድር ይፍጠሩ",
+        "backButton": "ተመለስ"
+      },
+      "fields": {
+        "title": {
+          "label": "ርዕስ",
+          "placeholder": "ለምሳሌ፣ የበጋ ዳንስ ውድድር",
+          "validation": "ርዕስ ያስፈልጋል"
+        },
+        "description": {
+          "label": "መግለጫ",
+          "placeholder": "ይህ ውድድር ስለምንድን ነው?"
+        },
+        "startDate": {
+          "label": "የመጀመሪያ ቀን",
+          "placeholder": "ቀን-ወር-ዓመት",
+          "validation": "የመጨረሻ ቀን ከመጀመሪያ ቀን በኋላ መሆን አለበት"
+        },
+        "endDate": {
+          "label": "የመጨረሻ ቀን",
+          "placeholder": "ቀን-ወር-ዓመት"
+        },
+        "winnerReward": {
+          "label": "የአሸናፊ ሽልማት (Uwaci ሳንቲሞች)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "የተሳታፊ ሽልማት (Uwaci ሳንቲሞች)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "የቪዲዮ መግለጫ (አማራጭ)",
+          "noVideoSelected": "የቪዲዮ መግለጫ ይጨምሩ",
+          "picked": "የተመረጠ: {filename}",
+          "uploaded": "የተሰቀለ: ቪዲዮ በተሳካ ሁኔታ ተሰቅሏል",
+          "chooseVideoButton": "ቪዲዮ ይምረጡ",
+          "uploadVideoButton": "ቪዲዮ ይስቀሉ"
+        }
+      },
+      "buttons": {
+        "createContest": "ውድድር ይፍጠሩ"
+      },
+      "alerts": {
+        "error": {
+          "title": "ስህተት",
+          "pickVideoMessage": "ቪዲዮ መምረጥ አልተሳካም",
+          "uploadVideoMessage": "ቪዲዮ መስቀል አልተሳካም",
+          "createContestMessage": "ውድድር መፍጠር አልተሳካም"
+        },
+        "success": {
+          "title": "ስኬት",
+          "videoUploadMessage": "ቪዲዮ በተሳካ ሁኔታ ተሰቅሏል!",
+          "createContestMessage": "ውድድር በተሳካ ሁኔታ ተፈጥሯል!"
+        },
+        "validation": {
+          "noTitle": "ርዕስ ያስፈልጋል",
+          "invalidDates": "የመጨረሻ ቀን ከመጀመሪያ ቀን በኋላ መሆን አለበት"
+        },
+        "noSession": {
+          "title": "ውድድር ለመፍጠር መግባት አለብዎት"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "መገለጫ",
+        "settingsButton": "ወደ ቅንብሮች ይሂዱ"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "ፈቃድ ያስፈልጋል",
+          "message": "ፎቶዎችዎን ለመድረስ ፈቃድ እንፈልጋለን"
+        },
+        "errorAlert": {
+          "title": "ስህተት",
+          "message": "ምስል መምረጥ አልተሳካም"
+        },
+        "successAlert": {
+          "title": "ስኬት",
+          "message": "የመገለጫ ፎቶ በተሳካ ሁኔታ ተዘምኗል"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "የማጋራት ስህተት",
+          "message": "የሪፈራል አገናኝ ማጋራት አልተቻለም"
+        },
+        "successShare": {
+          "title": "በChallenz ይቀላቀሉኝ!",
+          "message": "ሰላም! ለመመዝገብ ይህን አገናኝ ይጠቀሙ: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "ተከታዮች",
+        "viewFollowers": "ተከታዮችን ይመልከቱ"
+      },
+      "following": {
+        "label": "በመከተል ላይ",
+        "viewFollowing": "በመከተል ላይ ያሉ ይመልከቱ"
+      },
+      "posts": {
+        "label": "ልጥፎች",
+        "viewPosts": "ልጥፎችን ይመልከቱ",
+        "noVideos": "እስካሁን ምንም ቪዲዮዎች አልተለጠፉም"
+      },
+      "info": {
+        "email": "ኢሜይል",
+        "phone": "ስልክ",
+        "location": "አካባቢ",
+        "coins": "Uwaci ሳንቲሞች",
+        "bio": "ባዮግራፊ",
+        "noProfile": "ምንም መገለጫ አልተገኘም"
+      },
+      "buttons": {
+        "inviteFriends": "ጓደኞችን ይጋብዙ",
+        "deleteVideo": "ቪዲዮ ይሰርዙ",
+        "deleteVideoAlert": {
+          "title": "ቪዲዮ ይሰርዙ",
+          "message": "ይህን ቪዲዮ መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?"
+        },
+        "deleteSuccess": {
+          "title": "ስኬት",
+          "message": "ቪዲዮ በተሳካ ሁኔታ ተሰርዟል"
+        },
+        "deleteError": {
+          "title": "ስህተት",
+          "message": "ቪዲዮ መሰረዝ አልተሳካም"
+        }
+      },
+      "errors": {
+        "generalError": "ስህተት ተከስቷል",
+        "profileError": "መገለጫን ማምጣት አልተሳካም",
+        "submissionsError": "ማስገቢያዎችን ማምጣት አልተሳካም"
+      },
+      "loading": {
+        "profile": "መገለጫን በመጫን ላይ...",
+        "submissions": "ማስገቢያዎችን በመጫን ላይ..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "መገለጫ ያርትዑ",
+        "cancelButton": "ይሰርዙ",
+        "saveButton": "ለውጦችን ያስቀምጡ",
+        "savingButton": "በማስቀመጥ ላይ..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "ስም",
+          "placeholder": "ስምዎን ያስገቡ",
+          "error": {
+            "tooShort": "ስም በጣም አጭር ነው"
+          }
+        },
+        "lastName": {
+          "label": "የአባት ስም",
+          "placeholder": "የአባት ስምዎን ያስገቡ",
+          "error": {
+            "tooShort": "የአባት ስም በጣም አጭር ነው"
+          }
+        },
+        "phoneNumber": {
+          "label": "ስልክ ቁጥር",
+          "placeholder": "ስልክ ቁጥርዎን ያስገቡ",
+          "error": {
+            "invalid": "እባክዎ ትክክለኛ ስልክ ቁጥር ያስገቡ"
+          }
+        },
+        "bio": {
+          "label": "ባዮግራፊ",
+          "placeholder": "ስለ እራስዎ ይንገሩን",
+          "error": {
+            "tooLong": "ባዮግራፊ ከ500 ቁምፊዎች በታች መሆን አለበት"
+          }
+        },
+        "location": {
+          "label": "አካባቢ",
+          "placeholder": "አካባቢዎን ያስገቡ",
+          "error": {
+            "tooLong": "አካባቢ ከ100 ቁምፊዎች በታች መሆን አለበት"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "ስህተት",
+          "message": "የመገለጫ ውሂብ ማምጣት አልተሳካም"
+        },
+        "updateSuccess": {
+          "title": "ስኬት",
+          "message": "መገለጫ በሚገባ ተዘምኗል"
+        },
+        "updateError": {
+          "title": "ስህተት",
+          "message": "መገለጫን ማዘመን አልተሳካም"
+        }
+      },
+      "loading": {
+        "title": "በመጫን ላይ..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "በመጫን ላይ...",
+      "noProfileFound": "ምንም መገለጫ አልተገኘም",
+      "authenticationRequired": "ማረጋገጫ ያስፈልጋል",
+      "pleaseLogIn": "እባክዎ ተጠቃሚዎችን ለመከተል ይግቡ",
+      "success": "ስኬት",
+      "unfollowSuccess": "አለመከተል ተሳክቷል",
+      "followSuccess": "አሁን እየተከተሉ ነው",
+      "error": "ስህተት",
+      "followError": "የመከታተል ሁኔታን ማዘመን አልተሳካም",
+      "posts": "ልጥፎች",
+      "followers": "ተከታዮች",
+      "following": "በመከተል ላይ",
+      "follow": "ተከተል",
+      "unfollow": "አትከተል",
+      "chat": "ውይይት"
+    },
+    "menu": {
+      "menu": "ምናሌ",
+      "settings": "ቅንብሮች",
+      "yourUwaciCoins": "የእርስዎ Uwaci ሳንቲሞች",
+      "notifications": "ማሳወቂያዎች",
+      "marketplace": "ገበያ",
+      "signOut": "ይውጡ",
+      "confirmSignOut": "መውጣትን ያረጋግጡ",
+      "areYouSureSignOut": "እርግጠኛ ነዎት መውጣት ይፈልጋሉ?",
+      "cancel": "ይሰርዙ",
+      "goBack": "ተመለስ"
+    },
+    "settings": {
+      "settings": "ቅንብሮች",
+      "fontSelected": "ቅርጸ-ቁምፊ ተመርጧል",
+      "asYourFont": "እንደ ቅርጸ-ቁምፊዎ ተዘጋጅቷል",
+      "languageSelected": "ቋንቋ ተመርጧል",
+      "asYourLanguage": "እንደ ቋንቋዎ ተዘጋጅቷል",
+      "themeSelected": "ገጽታ ተመርጧል",
+      "asYourTheme": "እንደ ገጽታዎ ተዘጋጅቷል",
+      "notifications": "ማሳወቂያዎች",
+      "marketplace": "ገበያ",
+      "account": "መለያ",
+      "themes": "ገጽታዎች",
+      "fonts": "ቅርጸ-ቁምፊዎች",
+      "languages": "ቋንቋዎች",
+      "signOut": "ይውጡ",
+      "confirmSignOut": "መውጣትን ያረጋግጡ",
+      "areYouSureSignOut": "እርግጠኛ ነዎት መውጣት ይፈልጋሉ?",
+      "cancel": "ይሰርዙ",
+      "goBack": "ተመለስ",
+      "selectFont": "ቅርጸ-ቁምፊ ይምረጡ",
+      "selectLanguage": "ቋንቋ ይምረጡ",
+      "selectTheme": "ገጽታ ይምረጡ",
+      "passwordSecurity": "የይለፍ ቃል እና ደህንነት",
+      "personalDetails": "የግል ዝርዝሮች",
+      "verification": "ማረጋገጫ",
+      "paymentMethods": "የክፍያ ዘዴዎች",
+      "adPreferences": "የማስታወቂያ ምርጫዎች",
+      "upgradePremium": "ወደ ፕሪሚየም ያሻሽሉ",
+      "content": "ይዘት",
+      "language": "ቋንቋ",
+      "savedDraft": "የተቀመጠ ረቂቅ",
+      "yourActivity": "እንቅስቃሴዎ",
+      "accessibility": "ተደራሽነት",
+      "privacy": "ግላዊነት",
+      "comments": "አስተያየቶች",
+      "privateAccount": "የግል መለያ",
+      "directMessaging": "ቀጥታ መልዕክት",
+      "blockedReports": "የታገዱ/ሪፖርቶች",
+      "termsPolicies": "ውሎች እና ፖሊሲዎች",
+      "switchAccount": "መለያ ይቀይሩ"
+    },
+    "accountDetails": {
+      "settingsTitle": "የመለያ ቅንብሮች",
+      "profileSettings": "መገለጫን አርትዕ ",
+      "resetPassword": "የይለፍ ቃል ዳግም ያስጀምሩ",
+      "deleteAccount": "መለያ ይሰርዙ",
+      "resetPasswordModal": {
+        "title": "የይለፍ ቃል ዳግም ያስጀምሩ",
+        "message": "የይለፍ ቃል ዳግም ማስጀመሪያ ኢሜይል ይላክ",
+        "sendEmail": "ኢሜይል ይላኩ",
+        "cancel": "ይሰርዙ"
+      },
+      "deleteAccountModal": {
+        "title": "መለያ ይሰርዙ",
+        "message": "መለያዎን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ይህ እርምጃ ሊቀለበስ አይችልም",
+        "delete": "ሰርዝ",
+        "cancel": "ይሰርዙ"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "መገለጫ ተዘምኗል",
+          "message": "መገለጫዎ በሚገባ ተዘምኗል"
+        },
+        "profileUpdateError": {
+          "title": "ስህተት",
+          "message": "መገለጫዎን ማዘመን አልተሳካም። እባክዎ እንደገና ይሞክሩ"
+        },
+        "passwordReset": {
+          "title": "የይለፍ ቃል ዳግም ማስጀመር",
+          "message": "የይለፍ ቃል ዳግም ማስጀመሪያ ኢሜይል ተልኳል"
+        },
+        "passwordResetError": {
+          "title": "ስህተት",
+          "message": "የይለፍ ቃል ዳግም ማስጀመሪያ ኢሜይል መላክ አልተሳካም። እባክዎ እንደገና ይሞክሩ"
+        },
+        "accountDeleted": {
+          "title": "መለያ ተሰርዟል",
+          "message": "መለያዎ በሚገባ ተሰርዟል"
+        },
+        "accountDeleteError": {
+          "title": "ስህተት",
+          "message": "መለያዎን መሰረዝ አልተሳካም። እባክዎ እንደገና ይሞክሩ"
+        }
+      }
+    }
+  }

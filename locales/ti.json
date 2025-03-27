@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "ፈተናታት ኣድልዮም",
+      "thatInspire": "ዘተባብዑ!",
+      "signUp": "ተመዝገብ",
+      "signIn": "ኣእቱ"
+    },
+    "signUp": {
+      "title": "ተመዝገብ",
+      "headerMessage": "ንምጅማር ሓድሽ ኣካውንት ፍጠር",
+      "businessTitle": "ከም ንግዲ ተመዝገብ",
+      "headerMessageBusiness": "ንምጅማር ሓድሽ ናይ ንግዲ ኣካውንት ፍጠር",
+      "form": {
+        "username": {
+          "label": "ሽም ተጠቃሚ",
+          "placeholder": "ሽም ተጠቃሚ ምረጽ",
+          "validation": {
+            "minLength": "ሽም ተጠቃሚ ብውሑድ 3 ፊደላት ክህልዎ ኣለዎ",
+            "regex": "ሽም ተጠቃሚ ፊደላት፣ ቁጽርታትን ትሕተ ባርን ጥራይ ክህልዎ ይኽእል"
+          }
+        },
+        "firstname": {
+          "label": "ቀዳማይ ሽም",
+          "placeholder": "ቀዳማይ ሽምካ ኣእቱ",
+          "validation": "ቀዳማይ ሽም ብውሑድ 3 ፊደላት ክህልዎ ኣለዎ"
+        },
+        "lastname": {
+          "label": "ናይ ኣቦ ሽም",
+          "placeholder": "ናይ ኣቦ ሽምካ ኣእቱ",
+          "validation": "ናይ ኣቦ ሽም ብውሑድ 3 ፊደላት ክህልዎ ኣለዎ"
+        },
+        "businessName": {
+          "label": "ሽም ንግዲ",
+          "placeholder": "ሽም ንግድኻ ኣእቱ",
+          "validation": "ሽም ንግዲ ብውሑድ 3 ፊደላት ክህልዎ ኣለዎ"
+        },
+        "website": {
+          "label": "ናይ ንግዲ ወብሳይት",
+          "placeholder": "ወብሳይትካ ኣእቱ",
+          "validation": "ሽም ንግዲ ብውሑድ 3 ፊደላት ክህልዎ ኣለዎ"
+        },
+        "businessType": {
+          "label": "ዓይነት ንግዲ",
+          "placeholder": "ዓይነት ንግዲ",
+          "validation": "ሽም ንግዲ ብውሑድ 3 ፊደላት ክህልዎ ኣለዎ"
+        },
+        "email": {
+          "label": "ኢመይል",
+          "placeholder": "ናይ ኢመይል ኣድራሻኻ ኣእቱ",
+          "validation": "በጃኻ ቅኑዕ ናይ ኢመይል ኣድራሻ ኣእቱ"
+        },
+        "phoneNumber": {
+          "label": "ቁጽሪ ስልኪ",
+          "placeholder": "ቁጽሪ ስልክኻ ኣእቱ",
+          "validation": "በጃኻ ቅኑዕ ቁጽሪ ስልኪ ኣእቱ"
+        },
+        "birthday": {
+          "title": "ዕለተ ልደት",
+          "label": "ዕለተ ልደት",
+          "placeholder": "መዓልቲ-ወርሒ-ዓመት",
+          "validation": {
+            "format": "ዕለተ ልደት ኣብ ቅርጺ መዓልቲ-ወርሒ-ዓመት ክኸውን ኣለዎ",
+            "validDate": "ዘይቅኑዕ ዕለት",
+            "ageRestriction": "ኣካውንት ንምፍጣር 18 ዓመት ወይ ልዕሊኡ ክትከውን ኣለካ"
+          }
+        },
+        "password": {
+          "label": "መሕለፊ ቃል",
+          "placeholder": "መሕለፊ ቃልካ ኣእቱ",
+          "validation": {
+            "minLength": "መሕለፊ ቃል ብውሑድ 8 ፊደላት ክህልዎ ኣለዎ",
+            "maxLength": "መሕለፊ ቃል ትሕቲ 64 ፊደላት ክኸውን ኣለዎ",
+            "uppercase": "መሕለፊ ቃል ብውሑድ ሓደ ላዕለዋይ ፊደል ክህልዎ ኣለዎ",
+            "lowercase": "መሕለፊ ቃል ብውሑድ ሓደ ታሕተዋይ ፊደል ክህልዎ ኣለዎ",
+            "numberOrSpecial": "መሕለፊ ቃል ብውሑድ ሓደ ቁጽሪ ወይ ፍሉይ ፊደል ክህልዎ ኣለዎ"
+          },
+          "strength": {
+            "weak": "ድኹም",
+            "fair": "ማእከላይ",
+            "good": "ጽቡቕ",
+            "strong": "ሓያል"
+          }
+        },
+        "confirmPassword": {
+          "label": "መሕለፊ ቃል ኣረጋግጽ",
+          "placeholder": "መሕለፊ ቃልካ እንደገና ኣእቱ",
+          "validation": "መሕለፊ ቃላት ኣይተዛመዱን"
+        }
+      },
+      "buttons": {
+        "createAccount": "ኣካውንት ፍጠር",
+        "alreadyHaveAccount": "ድሮ ኣካውንት ኣለካ ዶ?",
+        "signIn": "ኣእቱ",
+        "businessJoin": "Challenz ምስ ናይ ንግዲ መሻርኽቲ ተሓወስ"
+      },
+      "alerts": {
+        "error": {
+          "title": "ጌጋ",
+          "message": "ኣካውንትካ ኣብ ምፍጣር ጌጋ ተረኺቡ። በጃኻ እንደገና ፈትን"
+        },
+        "passwordMismatch": {
+          "title": "መሕለፊ ቃል ዘይምዕሳል",
+          "message": "ዘይቅኑዕ መሕለፊ ቃል። በጃኻ እንደገና ፈትን"
+        },
+        "agreementRequired": {
+          "title": "ስምምዕ ኣድላዪ እዩ",
+          "message": "በጃኻ ናይ ኣገልግሎት ኩነታትን ናይ ውልቃውነት ፖሊሲን ተቐበል"
+        },
+        "success": {
+          "title": "ዓወት",
+          "message": "ኣካውንት ብዓወት ተፈጢሩ"
+        },
+        "signUpError": {
+          "title": "ጌጋ ኣብ ምምዝጋብ",
+          "message": "ኣካውንትካ ኣብ ምፍጣር ጌጋ ተረኺቡ። በጃኻ እንደገና ፈትን"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "ብምምዝጋብ፡ ንናትና ኣንቢብካ ምህላውካ ተረጋግጽ",
+        "termsOfService": "ኩነታት ኣገልግሎት",
+        "privacyPolicy": "ናይ ውልቃውነት ፖሊሲ",
+        "andAccepted": "ከምኡ'ውን ንናትና ተቐቢልካ"
+      }
+    },
+    "signIn": {
+      "title": "ኣእቱ",
+      "headerMessage": "ናብ ኣካውንትካ ንምእታው ምስክርካ ኣእቱ",
+      "form": {
+        "email": "ኢመይል",
+        "emailPlaceholder": "ኢመይልካ ኣእቱ",
+        "password": "መሕለፊ ቃል",
+        "passwordPlaceholder": "መሕለፊ ቃልካ ኣእቱ"
+      },
+      "buttons": {
+        "signIn": "ኣእቱ",
+        "forgotPassword": "መሕለፊ ቃል ረሲዕካዮ?",
+        "noAccount": "ኣካውንት የብልካን?",
+        "signUp": " ተመዝገብ"
+      },
+      "forgotPassword": {
+        "title": "መሕለፊ ቃል ረሲዕካዮ",
+        "prompt": "በጃኻ ኢመይልካ ኣቐዲምካ ኣእቱ",
+        "successTitle": "ኢመይልካ ርአ",
+        "successMessage": "መሕለፊ ቃል ንምሕዳስ ሊንክ ናብ ኢመይልካ ልኢኽናልካ ኣለና",
+        "errorTitle": "ናይ ምሕዳስ ጌጋ"
+      },
+      "termsAndPrivacy": {
+        "message": "ብምምዝጋብ፡ ንናትና ኣንቢብካ ምህላውካ ተረጋግጽ",
+        "termsOfService": "ኩነታት ኣገልግሎት",
+        "privacyPolicy": "ናይ ውልቃውነት ፖሊሲ",
+        "andAccepted": "ከምኡ'ውን ንናትና ተቐቢልካ"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "ናይ ምእታው ጌጋ"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "መሕለፊ ቃል ረሲዕካዮ",
+      "description": "ናይ ኢመይል ኣድራሻኻ ኣብ ታሕቲ ኣእቱ፡ ንመሕለፊ ቃልካ ንምሕዳስ ሊንክ ክንልእከልካ ኢና",
+      "form": {
+        "email": "ናይ ኢመይል ኣድራሻ"
+      },
+      "buttons": {
+        "reset": "መሕለፊ ቃል ሓድስ",
+        "sending": "ይልእኽ ኣሎ...",
+        "remembered": "መሕለፊ ቃልካ ዘኪርካዮ?",
+        "signIn": "ኣእቱ"
+      },
+      "alerts": {
+        "enterEmail": "በጃኻ ናይ ኢመይል ኣድራሻኻ ኣእቱ",
+        "checkEmail": "ንመሕዳሻ ሊንክ ንኢመይልካ ተወከስ",
+        "resetError": "መሕለፊ ቃል ምሕዳስ ኣይተዓወተን"
+      }
+    },
+    "resetPassword": {
+      "title": "መሕለፊ ቃል ሓድስ",
+      "description": "ሓድሽ መሕለፊ ቃልካ ኣብ ታሕቲ ኣእቱ ናይ ኣካውንትካ መሕለፊ ቃል ንምሕዳስ",
+      "form": {
+        "newPassword": "ሓድሽ መሕለፊ ቃል ኣእቱ",
+        "confirmPassword": "ሓድሽ መሕለፊ ቃል ኣረጋግጽ"
+      },
+      "alerts": {
+        "enterBothPasswords": "በጃኻ ክልተ መሕለፊ ቃል ሜዳታት ኣእቱ",
+        "passwordMismatch": "መሕለፊ ቃላት ኣይተዛመዱን። በጃኻ እንደገና ፈትን",
+        "success": "መሕለፊ ቃልካ ብዓወት ሓዲሱ",
+        "updateError": "መሕለፊ ቃል ኣብ ምሕዳስ ጌጋ። በጃኻ እንደገና ፈትን"
+      },
+      "buttons": {
+        "saving": "ይዕቅብ ኣሎ...",
+        "update": "መሕለፊ ቃል ሓድስ"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "ዘይቅኑዕ ወይ ዝጎደለ ናይ መእተዊ ቶከን",
+        "sessionFailed": "ክፍለ-ግዜ ምትካል ኣይተዓወተን",
+        "invalidPassword": "በጃኻ ብውሑድ 8 ፊደላት ዘለዎ ቅኑዕ መሕለፊ ቃል ኣእቱ",
+        "updateFailed": "መሕለፊ ቃልካ ምሕዳስ ኣይተዓወተን"
+      },
+      "success": {
+        "passwordUpdated": "መሕለፊ ቃልካ ሓዲሱ። በጃኻ እንደገና እቶ"
+      },
+      "title": "መሕለፊ ቃልካ ሓድስ",
+      "instructions": "ሓድሽ መሕለፊ ቃል ኣእቱ",
+      "labels": {
+        "newPassword": "ሓድሽ መሕለፊ ቃል"
+      },
+      "placeholders": {
+        "newPassword": "ሓድሽ መሕለፊ ቃል ኣእቱ"
+      },
+      "buttons": {
+        "updatePassword": "መሕለፊ ቃል ሓድስ"
+      }
+    },
+    "tabs": {
+      "home": "መበገሲ",
+      "search": "ድለይ",
+      "create": "ፍጠር",
+      "contest": "ውድድራት",
+      "menu": "ሜኑ",
+      "settings": "ቅጥዕታት",
+      "profile": "መግለጺ",
+      "editProfile": "መግለጺ ኣርትዕ",
+      "otherUserProfile": "ናይ ተጠቃሚ መግለጺ",
+      "explore": "ኣድልይ",
+      "challengeDetails": "ናይ ፈተና ዝርዝር",
+      "submissionDetails": "ናይ ምቕራብ ዝርዝር",
+      "contestDetails": "ናይ ውድድር ዝርዝር",
+      "followers": "ተኸተልቲ ",
+      "following": "ይከታተል ኣሎ ",
+      "account": "ኣካውንት",
+      "notifications": "መፍለጢታት",
+      "leaderboard": "ናይ መሪሕነት ሰሌዳ",
+      "market": "ዕዳጋ",
+      "rewards": "ሽልማታት",
+      "coin": "ሳንቲምካ"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "ፍጠር",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "ናይ መበገሲ ኣዶ",
+        "search": "ናይ ምድላይ ኣዶ",
+        "create": "ናይ ምፍጣር ኣዶ",
+        "explore": "ናይ ምድላይ ኣዶ",
+        "profile": "ናይ መግለጺ ኣዶ"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "ምቕራባት፣ ተጠቀምቲ፣ ፈተናታት ድለይ...",
+      "clearSearch": "ናይ ምድላይ ግቡእ ኣጽርይ",
+      "loading": "ይጽዕን ኣሎ...",
+      "error": {
+        "title": "ጌጋ ኣብ ምድላይ",
+        "message": "ኣብ ምድላይ ጌጋ ተረኺቡ"
+      },
+      "noPreviousSearches": "ዝሓለፉ ድለይታት የለዉን",
+      "previousSearches": "ዝሓለፉ ድለይታት",
+      "submissions": {
+        "title": "ምቕራባት",
+        "noResults": "ምንም ምቕራባት ኣይተረኽቡን",
+        "videoError": {
+          "title": "ናይ ቪድዮ ጌጋ",
+          "message": "ቪድዮ ምጽዓን ኣይተዓወተን"
+        }
+      },
+      "users": {
+        "title": "ተጠቀምቲ",
+        "noResults": "ምንም ተጠቀምቲ ኣይተረኽቡን"
+      },
+      "challenges": {
+        "title": "ፈተናታት",
+        "noResults": "ምንም ፈተናታት ኣይተረኽቡን",
+        "videoError": {
+          "title": "ናይ ቪድዮ ጌጋ",
+          "message": "ናይ ፈተና ቪድዮ ምጽዓን ኣይተዓወተን"
+        },
+        "category": "ምድብ: ",
+        "seasonalTag": "ዓወደ-ዓመት",
+        "sponsoredTag": "ዝድገፍ"
+      },
+      "repeatSearch": "ድለይ ድገም",
+      "accessibility": {
+        "viewVideo": "ርእሲ ዘለዎ ቪድዮ ተመልከት",
+        "viewProfile": "ናይ መግለጺ ተመልከት",
+        "viewChallenge": "ርእሲ ዘለዎ ፈተና ተመልከት"
+      }
+    },
+    "contest": {
+      "title": "ኩሎም ውድድራት",
+      "createContestButton": "ውድድር ፍጠር"
+    },
+    "contests": {
+      "noContests": "ምንም ውድድራት ኣይተረኽቡን",
+      "error": {
+        "title": "ጌጋ",
+        "message": "ውድድራት ምምጻእ ኣይተዓወተን"
+      },
+      "status": {
+        "notStarted": "ኣይተጀመረን",
+        "ongoing": "ኣብ ምክያድ",
+        "ended": "ተወዲኡ"
+      },
+      "dates": {
+        "start": "መጀመርያ: ",
+        "end": "መወዳእታ: ",
+        "notAvailable": "ኣይርከብን"
+      },
+      "contestDetailsButton": "ናይ ውድድር ዝርዝር ርአ"
+    },
+    "newContest": {
+      "header": {
+        "title": "ሓድሽ ውድድር ፍጠር",
+        "backButton": "ተመለስ"
+      },
+      "fields": {
+        "title": {
+          "label": "ርእሲ",
+          "placeholder": "ንኣብነት፡ ናይ ሓጋይ ሳዕስዒት-ተራ",
+          "validation": "ርእሲ የድሊ"
+        },
+        "description": {
+          "label": "መግለጺ",
+          "placeholder": "እዚ ውድድር እዚ ብዛዕባ እንታይ እዩ?"
+        },
+        "startDate": {
+          "label": "ናይ መጀመሪያ ዕለት",
+          "placeholder": "መዓልቲ-ወርሒ-ዓመት",
+          "validation": "ናይ መወዳእታ ዕለት ድሕሪ ናይ መጀመሪያ ዕለት ክኸውን ኣለዎ"
+        },
+        "endDate": {
+          "label": "ናይ መወዳእታ ዕለት",
+          "placeholder": "መዓልቲ-ወርሒ-ዓመት"
+        },
+        "winnerReward": {
+          "label": "ናይ ዕወታይ ሽልማት (ሳንቲም Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "ናይ ተሳታፊ ሽልማት (ሳንቲም Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "ናይ ቪድዮ መግለጺ (ኣማራጺ)",
+          "noVideoSelected": "ናይ ቪድዮ መግለጺ ወስኽ",
+          "picked": "ተመሪጹ: {filename}",
+          "uploaded": "ተሰቒሉ: ቪድዮ ብዓወት ተሰቒሉ",
+          "chooseVideoButton": "ቪድዮ ምረጽ",
+          "uploadVideoButton": "ቪድዮ ስቐል"
+        }
+      },
+      "buttons": {
+        "createContest": "ውድድር ፍጠር"
+      },
+      "alerts": {
+        "error": {
+          "title": "ጌጋ",
+          "pickVideoMessage": "ቪድዮ ምምራጽ ኣይተዓወተን",
+          "uploadVideoMessage": "ቪድዮ ምስቓል ኣይተዓወተን",
+          "createContestMessage": "ውድድር ምፍጣር ኣይተዓወተን"
+        },
+        "success": {
+          "title": "ዓወት",
+          "videoUploadMessage": "ቪድዮ ብዓወት ተሰቒሉ!",
+          "createContestMessage": "ውድድር ብዓወት ተፈጢሩ!"
+        },
+        "validation": {
+          "noTitle": "ርእሲ የድሊ",
+          "invalidDates": "ናይ መወዳእታ ዕለት ድሕሪ ናይ መጀመሪያ ዕለት ክኸውን ኣለዎ"
+        },
+        "noSession": {
+          "title": "ውድድር ንምፍጣር ክትኣቱ ኣለካ"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "መግለጺ",
+        "settingsButton": "ናብ ቅጥዕታት ኪድ"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "ፍቓድ የድሊ",
+          "message": "ንፎቶታትካ ምብጻሕ ፍቓድ ነደሊ ኢና"
+        },
+        "errorAlert": {
+          "title": "ጌጋ",
+          "message": "ምስሊ ምምራጽ ኣይተዓወተን"
+        },
+        "successAlert": {
+          "title": "ዓወት",
+          "message": "ናይ መግለጺ ፎቶ ብዓወት ሓዲሱ"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "ናይ ምክፋል ጌጋ",
+          "message": "ናይ ሪፈራል ሊንክ ምክፋል ኣይተኻእለን"
+        },
+        "successShare": {
+          "title": "ኣብ Challenz ምሳይ ተጸምበር!",
+          "message": "ሰላም! ንምምዝጋብ እዚ ሊንክ ተጠቐም: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "ተኸተልቲ",
+        "viewFollowers": "ተኸተልቲ ርአ"
+      },
+      "following": {
+        "label": "ይከታተል ኣሎ",
+        "viewFollowing": "ዝከታተል ዘሎ ርአ"
+      },
+      "posts": {
+        "label": "ልጠፋታት",
+        "viewPosts": "ልጠፋታት ርአ",
+        "noVideos": "ክሳብ ሕጂ ዝተለጠፉ ቪድዮታት የለዉን"
+      },
+      "info": {
+        "email": "ኢመይል",
+        "phone": "ስልኪ",
+        "location": "ቦታ",
+        "coins": "ሳንቲም Uwaci",
+        "bio": "ህይወት ታሪኽ",
+        "noProfile": "ምንም መግለጺ ኣይተረኽበን"
+      },
+      "buttons": {
+        "inviteFriends": "መሓዙት ዓድም",
+        "deleteVideo": "ቪድዮ ሰርዝ",
+        "deleteVideoAlert": {
+          "title": "ቪድዮ ሰርዝ",
+          "message": "እዚ ቪድዮ እዚ ክትሰርዞ ትደሊ ኢኻ ርግጸኛ ዲኻ?"
+        },
+        "deleteSuccess": {
+          "title": "ዓወት",
+          "message": "ቪድዮ ብዓወት ተሰሪዙ"
+        },
+        "deleteError": {
+          "title": "ጌጋ",
+          "message": "ቪድዮ ምስራዝ ኣይተዓወተን"
+        }
+      },
+      "errors": {
+        "generalError": "ጌጋ ተረኺቡ",
+        "profileError": "መግለጺ ምምጻእ ኣይተዓወተን",
+        "submissionsError": "ምቕራባት ምምጻእ ኣይተዓወተን"
+      },
+      "loading": {
+        "profile": "መግለጺ ይጽዕን ኣሎ...",
+        "submissions": "ምቕራባት ይጽዕን ኣሎ..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "መግለጺ ኣርትዕ",
+        "cancelButton": "ሰርዝ",
+        "saveButton": "ለውጥታት ዓቅብ",
+        "savingButton": "የዕቅብ ኣሎ..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "ቀዳማይ ሽም",
+          "placeholder": "ቀዳማይ ሽምካ ኣእቱ",
+          "error": {
+            "tooShort": "ቀዳማይ ሽም ኣዝዩ ሓጺር'ዩ"
+          }
+        },
+        "lastName": {
+          "label": "ናይ ኣቦ ሽም",
+          "placeholder": "ናይ ኣቦ ሽምካ ኣእቱ",
+          "error": {
+            "tooShort": "ናይ ኣቦ ሽም ኣዝዩ ሓጺር'ዩ"
+          }
+        },
+        "phoneNumber": {
+          "label": "ቁጽሪ ስልኪ",
+          "placeholder": "ቁጽሪ ስልክኻ ኣእቱ",
+          "error": {
+            "invalid": "በጃኻ ቅኑዕ ቁጽሪ ስልኪ ኣእቱ"
+          }
+        },
+        "bio": {
+          "label": "ህይወት ታሪኽ",
+          "placeholder": "ብዛዕባ ባዕልኻ ንገረና",
+          "error": {
+            "tooLong": "ህይወት ታሪኽ ትሕቲ 500 ፊደላት ክኸውን ኣለዎ"
+          }
+        },
+        "location": {
+          "label": "ቦታ",
+          "placeholder": "ቦታኻ ኣእቱ",
+          "error": {
+            "tooLong": "ቦታ ትሕቲ 100 ፊደላት ክኸውን ኣለዎ"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "ጌጋ",
+          "message": "ናይ መግለጺ ሓበሬታ ምምጻእ ኣይተዓወተን"
+        },
+        "updateSuccess": {
+          "title": "ዓወት",
+          "message": "መግለጺ ብዓወት ሓዲሱ"
+        },
+        "updateError": {
+          "title": "ጌጋ",
+          "message": "መግለጺ ምሕዳስ ኣይተዓወተን"
+        }
+      },
+      "loading": {
+        "title": "ይጽዕን ኣሎ..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "ይጽዕን ኣሎ...",
+      "noProfileFound": "ምንም መግለጺ ኣይተረኽበን",
+      "authenticationRequired": "ምርግጋጽ የድሊ",
+      "pleaseLogIn": "በጃኻ ነተጠቀምቲ ንምክትታል እቶ",
+      "success": "ዓወት",
+      "unfollowSuccess": "ምክትታል ኣቋሪጽካ",
+      "followSuccess": "ሕጂ ትከታተል ኣለኻ",
+      "error": "ጌጋ",
+      "followError": "ናይ ምክትታል ኩነታት ምሕዳስ ኣይተዓወተን",
+      "posts": "ልጠፋታት",
+      "followers": "ተኸተልቲ",
+      "following": "ይከታተል ኣሎ",
+      "follow": "ተኸታተል",
+      "unfollow": "ካብ ምክትታል ኣቋርጽ",
+      "chat": "ዕላል"
+    },
+    "menu": {
+      "menu": "ሜኑ",
+      "settings": "ቅጥዕታት",
+      "yourUwaciCoins": "ሳንቲምካ Uwaci",
+      "notifications": "መፍለጢታት",
+      "marketplace": "ዕዳጋ",
+      "signOut": "ውጻእ",
+      "confirmSignOut": "ምውጻእ ኣረጋግጽ",
+      "areYouSureSignOut": "ብርግጽ ክትወጽእ ትደሊ ዲኻ?",
+      "cancel": "ሰርዝ",
+      "goBack": "ተመለስ"
+    },
+    "settings": {
+      "settings": "ቅጥዕታት",
+      "fontSelected": "ቅርጺ-ጽሑፍ ተመሪጹ",
+      "asYourFont": "ከም ቅርጺ-ጽሑፍካ ተዘጋጂኡ",
+      "languageSelected": "ቋንቋ ተመሪጹ",
+      "asYourLanguage": "ከም ቋንቋኻ ተዘጋጂኡ",
+      "themeSelected": "ልልዮ ተመሪጹ",
+      "asYourTheme": "ከም ልልዮኻ ተዘጋጂኡ",
+      "notifications": "መፍለጢታት",
+      "marketplace": "ዕዳጋ",
+      "account": "ኣካውንት",
+      "themes": "ልልዮታት",
+      "fonts": "ቅርጽታት-ጽሑፍ",
+      "languages": "ቋንቋታት",
+      "signOut": "ውጻእ",
+      "confirmSignOut": "ምውጻእ ኣረጋግጽ",
+      "areYouSureSignOut": "ብርግጽ ክትወጽእ ትደሊ ዲኻ?",
+      "cancel": "ሰርዝ",
+      "goBack": "ተመለስ",
+      "selectFont": "ቅርጺ-ጽሑፍ ምረጽ",
+      "selectLanguage": "ቋንቋ ምረጽ",
+      "selectTheme": "ልልዮ ምረጽ",
+      "passwordSecurity": "መሕለፊ ቃልን ድሕነትን",
+      "personalDetails": "ውልቃዊ ዝርዝራት",
+      "verification": "ምርግጋጽ",
+      "paymentMethods": "ኣገባባት ክፍሊት",
+      "adPreferences": "ናይ ማስታወቂያ ምርጫታት",
+      "upgradePremium": "ናብ ፕሪምየም ተሓደስ",
+      "content": "ትሕዝቶ",
+      "language": "ቋንቋ",
+      "savedDraft": "ዝተዓቀበ ረቂቕ",
+      "yourActivity": "ንጥፈታትካ",
+      "accessibility": "ተበጻሕነት",
+      "privacy": "ውልቃውነት",
+      "comments": "ርእይቶታት",
+      "privateAccount": "ናይ ውልቂ ኣካውንት",
+      "directMessaging": "ቀጥታ መልእኽቲ",
+      "blockedReports": "ዝተዓገደ/ጸብጻባት",
+      "termsPolicies": "ውዕላትን ፖሊሲታትን",
+      "switchAccount": "ኣካውንት ቀይር"
+    },
+    "accountDetails": {
+      "settingsTitle": "ናይ ኣካውንት ቅጥዕታት",
+      "profileSettings": "መግለጺ ኣርትዕ ",
+      "resetPassword": "መሕለፊ ቃል ሓድስ",
+      "deleteAccount": "ኣካውንት ሰርዝ",
+      "resetPasswordModal": {
+        "title": "መሕለፊ ቃል ሓድስ",
+        "message": "ናይ መሕለፊ ቃል ምሕዳስ ኢመይል ክልኣኽ እዩ",
+        "sendEmail": "ኢመይል ልኣኽ",
+        "cancel": "ሰርዝ"
+      },
+      "deleteAccountModal": {
+        "title": "ኣካውንት ሰርዝ",
+        "message": "ኣካውንትካ ክትሰርዞ ርግጸኛ ዲኻ? እዚ ተግባር እዚ ክምለስ ኣይክእልን",
+        "delete": "ሰርዝ",
+        "cancel": "ሰርዝ"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "መግለጺ ሓዲሱ",
+          "message": "መግለጺካ ብዓወት ሓዲሱ"
+        },
+        "profileUpdateError": {
+          "title": "ጌጋ",
+          "message": "መግለጺኻ ምሕዳስ ኣይተዓወተን። በጃኻ እንደገና ፈትን"
+        },
+        "passwordReset": {
+          "title": "መሕለፊ ቃል ሓድስ",
+          "message": "ናይ መሕለፊ ቃል ምሕዳስ ኢመይል ተልኢኹ"
+        },
+        "passwordResetError": {
+          "title": "ጌጋ",
+          "message": "ናይ መሕለፊ ቃል ምሕዳስ ኢመይል ምልኣኽ ኣይተዓወተን። በጃኻ እንደገና ፈትን"
+        },
+        "accountDeleted": {
+          "title": "ኣካውንት ተሰሪዙ",
+          "message": "ኣካውንትካ ብዓወት ተሰሪዙ"
+        },
+        "accountDeleteError": {
+          "title": "ጌጋ",
+          "message": "ኣካውንትካ ምሕዳስ ኣይተዓወተን። በጃኻ እንደገና ፈትን"
+        }
+      }
+    }
+  }

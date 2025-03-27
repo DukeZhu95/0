@@ -1,0 +1,182 @@
+{
+  "expo": {
+    "name": "Challenz",
+    "slug": "challenzsocialapp",
+    "scheme": "challenzsocialapp",
+    "version": "1.0.1",
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_START",
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/a510671f-8332-4aba-8454-c658c1105c2f"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "newArchEnabled": true,
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.challenzsocialapp.app",
+      "associatedDomains": [
+        "applinks:www.challenzapp.com"
+      ],
+      "supportsTablet": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "Challenz uses your camera to record challenge videos, which you can share with other users on the platform.",
+        "NSMicrophoneUsageDescription": "Challenz uses your microphone to capture audio for your challenge videos, making your content engaging and interactive.",
+        "NSPhotoLibraryUsageDescription": "Challenz allows you to upload challenge videos and photos from your gallery to share with the community."
+      },
+      "buildProperties": {
+        "useModularHeaders": true
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff",
+        "dark": {
+          "backgroundColor": "#000000",
+          "resizeMode": "cover",
+          "image": "./assets/splash-dark.png"
+        }
+      },
+      "bitcode": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff",
+        "dark": {
+          "backgroundColor": "#000000",
+          "resizeMode": "cover",
+          "image": "./assets/splash-dark.png"
+        }
+      },
+      "package": "com.challenzsocialapp.app",
+      "googleServicesFile": "./google-services.json",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": {
+            "scheme": "https",
+            "host": "www.challenzapp.com",
+            "pathPrefix": "/"
+          },
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "permissions": [
+        "android.permission.BIND_TELECOM_CONNECTION_SERVICE",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.CALL_PHONE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.INTERNET",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.WAKE_LOCK",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-video",
+      "react-native-compressor",
+      "@react-native-firebase/messaging",
+      [
+        "@react-native-firebase/app",
+        {
+          "android": {
+            "googleServicesFile": "./google-services.json"
+          },
+          "ios": {
+            "googleServicesFile": "./GoogleService-Info.plist"
+          }
+        }
+      ],
+      "@config-plugins/react-native-callkeep",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Challenz needs camera access to record challenge videos that you can share with others.",
+          "microphonePermission": "Challenz needs microphone access to record audio for your challenge videos."
+        }
+      ],
+      [
+        "@stream-io/video-react-native-sdk",
+        {
+          "ringingPushNotifications": {
+            "disableVideoIos": false,
+            "includesCallsInRecentsIos": true
+          }
+        }
+      ],
+      [
+        "@config-plugins/react-native-webrtc",
+        {
+          "cameraPermission": "$(PRODUCT_NAME) requires camera access in order to capture and transmit video",
+          "microphonePermission": "$(PRODUCT_NAME) requires microphone access in order to capture and transmit audio"
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "$(PRODUCT_NAME) would like to use your microphone for voice recording."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "$(PRODUCT_NAME) would like to use your camera to share image in a message."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "$(PRODUCT_NAME) would like access to your photo gallery to share image in a message.",
+          "savePhotosPermission": "$(PRODUCT_NAME) would like to save photos to your photo gallery after downloading from a message."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "react-native-video"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "718e275f-db5e-442a-857a-9700f50fb1dd"
+      }
+    }
+  }
+}

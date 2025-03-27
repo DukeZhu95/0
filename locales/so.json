@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Sahamii Caqabadaha",
+      "thatInspire": "kuwaas oo ku dhiirrigeliya!",
+      "signUp": "Iska diiwaan geli",
+      "signIn": "Soo gal"
+    },
+    "signUp": {
+      "title": "Iska diiwaan geli",
+      "headerMessage": "Abuur akoon cusub si aad u bilowdo",
+      "businessTitle": "Iska diiwaan geli sida Ganacsi",
+      "headerMessageBusiness": "Abuur akoonka ganacsi si aad u bilowdo",
+      "form": {
+        "username": {
+          "label": "Magaca isticmaalaha",
+          "placeholder": "Dooro magaca isticmaalaha",
+          "validation": {
+            "minLength": "Magaca isticmaalaha waa inuu lahaadaa ugu yaraan 3 xaraf",
+            "regex": "Magaca isticmaalaha waxaa ku jiri kara oo kaliya xarfaha, lambarrada, iyo hoosta"
+          }
+        },
+        "firstname": {
+          "label": "Magaca koowaad",
+          "placeholder": "Gali magacaaga koowaad",
+          "validation": "Magaca koowaad waa inuu lahaadaa ugu yaraan 3 xaraf"
+        },
+        "lastname": {
+          "label": "Magaca qoyska",
+          "placeholder": "Gali magacaaga qoyska",
+          "validation": "Magaca qoyska waa inuu lahaadaa ugu yaraan 3 xaraf"
+        },
+        "businessName": {
+          "label": "Magaca Ganacsi",
+          "placeholder": "Gali magaca ganacsigaaga",
+          "validation": "Magaca ganacsi waa inuu lahaadaa ugu yaraan 3 xaraf"
+        },
+        "website": {
+          "label": "Websaydhka Ganacsi",
+          "placeholder": "Gali websaydkaaga",
+          "validation": "Magaca ganacsi waa inuu lahaadaa ugu yaraan 3 xaraf"
+        },
+        "businessType": {
+          "label": "Nooca Ganacsi",
+          "placeholder": "Nooca Ganacsi",
+          "validation": "Magaca ganacsi waa inuu lahaadaa ugu yaraan 3 xaraf"
+        },
+        "email": {
+          "label": "Iimaylka",
+          "placeholder": "Gali cinwaankaaga iimaylka",
+          "validation": "Fadlan gali cinwaanka iimaylka saxda ah"
+        },
+        "phoneNumber": {
+          "label": "Lambarka Taleefonka",
+          "placeholder": "Gali lambarka taleefonkaaga",
+          "validation": "Fadlan gali lambarka taleefonka saxda ah"
+        },
+        "birthday": {
+          "title": "Taariikhda Dhalashada",
+          "label": "Taariikhda Dhalashada",
+          "placeholder": "MM-BB-SSSS",
+          "validation": {
+            "format": "Taariikhda dhalashada waa inay ku ahaataa qaabka MM-BB-SSSS",
+            "validDate": "Taariikhda aan saxda aheyn",
+            "ageRestriction": "Waa inaad jirtaa 18 sano ama ka badan si aad akoon u abuurto"
+          }
+        },
+        "password": {
+          "label": "Furaha",
+          "placeholder": "Gali furahaaga",
+          "validation": {
+            "minLength": "Furaha waa inuu lahaadaa ugu yaraan 8 xaraf",
+            "maxLength": "Furaha waa inuu ka yar yahay 64 xaraf",
+            "uppercase": "Furaha waa inuu lahaadaa ugu yaraan 1 xaraf oo waaweyn",
+            "lowercase": "Furaha waa inuu lahaadaa ugu yaraan 1 xaraf oo yar",
+            "numberOrSpecial": "Furaha waa inuu lahaadaa ugu yaraan 1 tirsiga ama xaraf gaar ah"
+          },
+          "strength": {
+            "weak": "Daciif",
+            "fair": "Caddaalad",
+            "good": "Wanaagsan",
+            "strong": "Xoog leh"
+          }
+        },
+        "confirmPassword": {
+          "label": "Xaqiiji Furaha",
+          "placeholder": "Dib u gali furahaaga",
+          "validation": "Fureyaasha kuma haboonaayo"
+        }
+      },
+      "buttons": {
+        "createAccount": "Abuur akoon",
+        "alreadyHaveAccount": "Horey ma u leedahay akoon?",
+        "signIn": "Soo gal",
+        "businessJoin": "Ku biir Challenz sida lahaanshaha ganacsi"
+      },
+      "alerts": {
+        "error": {
+          "title": "Khalad",
+          "message": "Khalad ayaa dhacay marki la abuurayay akoonkaaga. Fadlan mar kale isku day"
+        },
+        "passwordMismatch": {
+          "title": "Furaha Aan ku haboonayn",
+          "message": "Furaha aan saxda aheyn. Fadlan mar kale isku day"
+        },
+        "agreementRequired": {
+          "title": "Heshiiska Ayaa Loo Baahan Yahay",
+          "message": "Fadlan ogolow Shuruudaha Adeegga iyo Siyaasadda Arrimaha Gaarka ah"
+        },
+        "success": {
+          "title": "Guul",
+          "message": "Akoonka si guul leh ayaa loo abuuray"
+        },
+        "signUpError": {
+          "title": "Khalad Is-diiwaangalinta",
+          "message": "Khalad ayaa dhacay marki la abuurayay akoonkaaga. Fadlan mar kale isku day"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Iyada oo diiwaangalintu, waxaad xaqiijinaysaa inaad akhriyay",
+        "termsOfService": "Shuruudaha Adeegga",
+        "privacyPolicy": "Siyaasadda Arrimaha Gaarka ah",
+        "andAccepted": "oo aad aqbashay kaaga"
+      }
+    },
+    "signIn": {
+      "title": "Soo gal",
+      "headerMessage": "Gali shahaadahaddaada si aad u gasho akoonkaaga",
+      "form": {
+        "email": "Iimaylka",
+        "emailPlaceholder": "Gali iimaylkaaga",
+        "password": "Furaha",
+        "passwordPlaceholder": "Gali furahaaga"
+      },
+      "buttons": {
+        "signIn": "Soo gal",
+        "forgotPassword": "Ma ilowday furaha?",
+        "noAccount": "Ma lihid akoon?",
+        "signUp": " Iska diiwaan geli"
+      },
+      "forgotPassword": {
+        "title": "Ma ilowday furaha",
+        "prompt": "Fadlan marka hore gali iimaylkaaga",
+        "successTitle": "Fiiri iimaylkaaga",
+        "successMessage": "Waxaan u dirnay xiriiriyaha dib u dejinta furaha iimaylkaaga",
+        "errorTitle": "Khalad Dib-u-dejinta"
+      },
+      "termsAndPrivacy": {
+        "message": "Iyada oo diiwaangalintu, waxaad xaqiijinaysaa inaad akhriyay",
+        "termsOfService": "Shuruudaha Adeegga",
+        "privacyPolicy": "Siyaasadda Arrimaha Gaarka ah",
+        "andAccepted": "oo aad aqbashay kaaga"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Khalad Soo-galinta"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Ma ilowday furaha",
+      "description": "Gali cinwaanka iimaylkaaga halkan hoose waxaanan kuu soo diri doonnaa xiriiriye si aad dib u dejiso furahaaga",
+      "form": {
+        "email": "Cinwaanka Iimaylka"
+      },
+      "buttons": {
+        "reset": "Dib u dejiso furaha",
+        "sending": "La dirayaa...",
+        "remembered": "Ma xasuusatay furahaaga?",
+        "signIn": "Soo gal"
+      },
+      "alerts": {
+        "enterEmail": "Fadlan gali cinwaankaaga iimaylka",
+        "checkEmail": "Fiiri iimaylkaaga xiriiriyaha dib u dejinta",
+        "resetError": "Waa ku guuldareysatay dib u dejinta furaha"
+      }
+    },
+    "resetPassword": {
+      "title": "Cusbooneysii Furaha",
+      "description": "Gali furahaaga cusub halkan hoose si aad dib u dejiso furaha akoonkaaga",
+      "form": {
+        "newPassword": "Gali furaha cusub",
+        "confirmPassword": "Xaqiiji furaha cusub"
+      },
+      "alerts": {
+        "enterBothPasswords": "Fadlan buuxi labada goobood ee furaha",
+        "passwordMismatch": "Fureyaasha kuma haboonaayo. Fadlan mar kale isku day",
+        "success": "Furahaaga si guul leh ayaa loo cusbooneysiiyay",
+        "updateError": "Khalad cusbooneysiinta furaha. Fadlan mar kale isku day"
+      },
+      "buttons": {
+        "saving": "Kaydinayaa...",
+        "update": "Cusbooneysii Furaha"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Calaamadda gelitaanka aan saxda aheyn ama maqan",
+        "sessionFailed": "Waa ku guuldareysatay dejinta kalfadhiga",
+        "invalidPassword": "Fadlan gali furaha saxda ah oo leh ugu yaraan 8 xaraf",
+        "updateFailed": "Waa ku guuldareysatay cusbooneysiinta furahaaga"
+      },
+      "success": {
+        "passwordUpdated": "Furahaaga ayaa la cusbooneysiiyay. Fadlan mar kale soo gal"
+      },
+      "title": "Dib u dejiso Furahaaga",
+      "instructions": "Gali furaha cusub",
+      "labels": {
+        "newPassword": "Furaha Cusub"
+      },
+      "placeholders": {
+        "newPassword": "Gali furaha cusub"
+      },
+      "buttons": {
+        "updatePassword": "Cusbooneysii Furaha"
+      }
+    },
+    "tabs": {
+      "home": "Guriga",
+      "search": "Raadi",
+      "create": "Abuur",
+      "contest": "Tartanka",
+      "menu": "Menu",
+      "settings": "Goobaha",
+      "profile": "Profile",
+      "editProfile": "Wax ka beddel Profilekaaga",
+      "otherUserProfile": "Profileka Isticmaale",
+      "explore": "Sahamii",
+      "challengeDetails": "Faahfaahinta Caqabadda",
+      "submissionDetails": "Faahfaahinta Soo gudbinta",
+      "contestDetails": "Faahfaahinta Tartanka",
+      "followers": "Raacayaasha ",
+      "following": "Raacitaanka ",
+      "account": "Akoon",
+      "notifications": "Ogeysiisyada",
+      "leaderboard": "Miiska hogaamiyeyaasha",
+      "market": "Suuqa",
+      "rewards": "Abaalmarinta",
+      "coin": "Lacagtaada"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Abuur",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Calaamadda guriga",
+        "search": "Calaamadda raadinta",
+        "create": "Calaamadda abuurista",
+        "explore": "Calaamadda sahaminta",
+        "profile": "Calaamadda profileka"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Raadi soo gudbinta, isticmaalayaasha, caqabadaha...",
+      "clearSearch": "Nadiifi qoraalka raadinta",
+      "loading": "Waa soo raarayaa...",
+      "error": {
+        "title": "Khalad Raadinta",
+        "message": "Khalad ayaa dhacay inta lagu jiray raadinta"
+      },
+      "noPreviousSearches": "Ma jiraan raadimo hore",
+      "previousSearches": "Raadimaha Hore",
+      "submissions": {
+        "title": "Soo gudbinta",
+        "noResults": "Lama helin soo gudbinta",
+        "videoError": {
+          "title": "Khalad Muuqaalka",
+          "message": "Waa ku guuldareysatay soo raarka muuqaalka"
+        }
+      },
+      "users": {
+        "title": "Isticmaalayaasha",
+        "noResults": "Lama helin isticmaalayaasha"
+      },
+      "challenges": {
+        "title": "Caqabadaha",
+        "noResults": "Lama helin caqabadaha",
+        "videoError": {
+          "title": "Khalad Muuqaalka",
+          "message": "Waa ku guuldareysatay soo raarka muuqaalka caqabadda"
+        },
+        "category": "Qaybta: ",
+        "seasonalTag": "Xilliga",
+        "sponsoredTag": "La maalgeliyay"
+      },
+      "repeatSearch": "Ku celi raadinta",
+      "accessibility": {
+        "viewVideo": "Fiiri muuqaalka cinwaanku yahay",
+        "viewProfile": "Fiiri profileka ee",
+        "viewChallenge": "Fiiri caqabadda cinwaanku yahay"
+      }
+    },
+    "contest": {
+      "title": "Dhammaan Tartamada",
+      "createContestButton": "Abuur Tartan"
+    },
+    "contests": {
+      "noContests": "Lama helin tartamada",
+      "error": {
+        "title": "Khalad",
+        "message": "Waa ku guuldareysatay soo bixinta tartamada"
+      },
+      "status": {
+        "notStarted": "Lama Bilaabin",
+        "ongoing": "Socota",
+        "ended": "Dhammaatay"
+      },
+      "dates": {
+        "start": "Bilowga: ",
+        "end": "Dhammaadka: ",
+        "notAvailable": "Ma heli karo"
+      },
+      "contestDetailsButton": "Fiiri Faahfaahinta Tartanka"
+    },
+    "newContest": {
+      "header": {
+        "title": "Abuur Tartan Cusub",
+        "backButton": "Dib u laabo"
+      },
+      "fields": {
+        "title": {
+          "label": "Cinwaan",
+          "placeholder": "tusaale, Tartanka Xagaaga ee Qoob ka ciyaarka",
+          "validation": "Cinwaanka waa loo baahan yahay"
+        },
+        "description": {
+          "label": "Faahfaahin",
+          "placeholder": "Tartankani waa maxay?"
+        },
+        "startDate": {
+          "label": "Taariikhda Bilaabashada",
+          "placeholder": "MM-BB-SSSS",
+          "validation": "Taariikhda dhammaadka waa inay ka dambaysaa taariikhda bilaabashada"
+        },
+        "endDate": {
+          "label": "Taariikhda Dhammaadka",
+          "placeholder": "MM-BB-SSSS"
+        },
+        "winnerReward": {
+          "label": "Abaalmarinta Guuleyste (Lacagta Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Abaalmarinta Ka qaybgalaha (Lacagta Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Muuqaalka Sharaxaadda (Ikhtiyaari)",
+          "noVideoSelected": "Ku dar muuqaalka sharaxaadda",
+          "picked": "La doortay: {filename}",
+          "uploaded": "La soo galiyey: Muuqaalka si guul leh ayaa loo soo galiyey",
+          "chooseVideoButton": "Dooro Muuqaal",
+          "uploadVideoButton": "Soo gali Muuqaal"
+        }
+      },
+      "buttons": {
+        "createContest": "Abuur Tartan"
+      },
+      "alerts": {
+        "error": {
+          "title": "Khalad",
+          "pickVideoMessage": "Waa ku guuldareysatay doorashada muuqaalka",
+          "uploadVideoMessage": "Waa ku guuldareysatay soo galinta muuqaalka",
+          "createContestMessage": "Waa ku guuldareysatay abuurista tartanka"
+        },
+        "success": {
+          "title": "Guul",
+          "videoUploadMessage": "Muuqaalka si guul leh ayaa loo soo galiyey!",
+          "createContestMessage": "Tartanka si guul leh ayaa loo abuuray!"
+        },
+        "validation": {
+          "noTitle": "Cinwaanka waa loo baahan yahay",
+          "invalidDates": "Taariikhda dhammaadka waa inay ka dambaysaa taariikhda bilaabashada"
+        },
+        "noSession": {
+          "title": "Waa inaad gasho si aad u abuurto tartan"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profile",
+        "settingsButton": "Tag Goobaha"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Ogolaansho ayaa loo baahan yahay",
+          "message": "Waxaan u baahanahay ogolaansho si aan u helno sawirradaada"
+        },
+        "errorAlert": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay doorashada sawirka"
+        },
+        "successAlert": {
+          "title": "Guul",
+          "message": "Sawirka profileka si guul leh ayaa loo cusbooneysiiyay"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Khalad La wadaagidda",
+          "message": "Lama wada uu wadaagi karo xiriiriyaha gudbinta"
+        },
+        "successShare": {
+          "title": "Igula biir Challenz!",
+          "message": "Salaan! Isticmaal xiriiriyahan si aad isu diiwaangeliso: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Raacayaasha",
+        "viewFollowers": "Fiiri Raacayaasha"
+      },
+      "following": {
+        "label": "Raacitaanka",
+        "viewFollowing": "Fiiri Raacitaanka"
+      },
+      "posts": {
+        "label": "Qoraallada",
+        "viewPosts": "Fiiri Qoraallada",
+        "noVideos": "Weli muuqaallo lama soo dhigin"
+      },
+      "info": {
+        "email": "Iimaylka",
+        "phone": "Teleefoon",
+        "location": "Goobta",
+        "coins": "Lacagta Uwaci",
+        "bio": "Taariikhda nololeed",
+        "noProfile": "Profile Lama Helin"
+      },
+      "buttons": {
+        "inviteFriends": "Casuun Saaxiibbada",
+        "deleteVideo": "Tirtir Muuqaalka",
+        "deleteVideoAlert": {
+          "title": "Tirtir Muuqaalka",
+          "message": "Ma hubtaa inaad rabto inaad tirtirto muuqaalkan?"
+        },
+        "deleteSuccess": {
+          "title": "Guul",
+          "message": "Muuqaalka si guul leh ayaa loo tirtiray"
+        },
+        "deleteError": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay tirtiridda muuqaalka"
+        }
+      },
+      "errors": {
+        "generalError": "Khalad ayaa dhacay",
+        "profileError": "Waa ku guuldareysatay soo bixinta profileka",
+        "submissionsError": "Waa ku guuldareysatay soo bixinta soo gudbinta"
+      },
+      "loading": {
+        "profile": "Profile ayaa soo raarayaa...",
+        "submissions": "Soo gudbinta ayaa soo raarayaa..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Wax ka beddel Profile",
+        "cancelButton": "Jooji",
+        "saveButton": "Kaydi Isbadelada",
+        "savingButton": "Waa kaydinayaa..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Magaca koowaad",
+          "placeholder": "Gali magacaaga koowaad",
+          "error": {
+            "tooShort": "Magaca koowaad waa aad u gaaban yahay"
+          }
+        },
+        "lastName": {
+          "label": "Magaca qoyska",
+          "placeholder": "Gali magacaaga qoyska",
+          "error": {
+            "tooShort": "Magaca qoyska waa aad u gaaban yahay"
+          }
+        },
+        "phoneNumber": {
+          "label": "Lambarka Taleefonka",
+          "placeholder": "Gali lambarka taleefonkaaga",
+          "error": {
+            "invalid": "Fadlan gali lambarka taleefonka saxda ah"
+          }
+        },
+        "bio": {
+          "label": "Taariikhda nololeed",
+          "placeholder": "Noo sheeg wax kugu saabsan",
+          "error": {
+            "tooLong": "Taariikhda nololeedi waa inay ka yar tahay 500 xaraf"
+          }
+        },
+        "location": {
+          "label": "Goobta",
+          "placeholder": "Gali goobta",
+          "error": {
+            "tooLong": "Goobtu waa inay ka yar tahay 100 xaraf"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay soo bixinta xogta profileka"
+        },
+        "updateSuccess": {
+          "title": "Guul",
+          "message": "Profile si guul leh ayaa loo cusbooneysiiyay"
+        },
+        "updateError": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay cusbooneysiinta profileka"
+        }
+      },
+      "loading": {
+        "title": "Waa soo raarayaa..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Waa soo raarayaa...",
+      "noProfileFound": "Profile Lama Helin",
+      "authenticationRequired": "Xaqiijinta Ayaa Loo Baahan Yahay",
+      "pleaseLogIn": "Fadlan soo gal si aad u raacdo isticmaalayaasha",
+      "success": "Guul",
+      "unfollowSuccess": "Waad joojisay raacitaanka",
+      "followSuccess": "Hadda waa raacaysaa",
+      "error": "Khalad",
+      "followError": "Waa ku guuldareysatay cusbooneysiinta xaaladda raacitaanka",
+      "posts": "Qoraallada",
+      "followers": "Raacayaasha",
+      "following": "Raacitaanka",
+      "follow": "Raac",
+      "unfollow": "Jooji Raacitaanka",
+      "chat": "Sheekeysi"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Goobaha",
+      "yourUwaciCoins": "Lacagtaada Uwaci",
+      "notifications": "Ogeysiisyada",
+      "marketplace": "Suuqa",
+      "signOut": "Ka bax",
+      "confirmSignOut": "Xaqiiji Ka bixidda",
+      "areYouSureSignOut": "Ma hubtaa inaad rabto inaad ka baxdo?",
+      "cancel": "Jooji",
+      "goBack": "Dib u laabo"
+    },
+    "settings": {
+      "settings": "Goobaha",
+      "fontSelected": "Farta Laga doortay",
+      "asYourFont": "waxaa loo dejiyay fartaada",
+      "languageSelected": "Luuqadda Laga doortay",
+      "asYourLanguage": "waxaa loo dejiyay luuqaddaada",
+      "themeSelected": "Mowduuca Laga doortay",
+      "asYourTheme": "waxaa loo dejiyay mowduucaaga",
+      "notifications": "Ogeysiisyada",
+      "marketplace": "Suuqa",
+      "account": "Akoon",
+      "themes": "Mowduucyada",
+      "fonts": "Fartaha",
+      "languages": "Luuqadaha",
+      "signOut": "Ka bax",
+      "confirmSignOut": "Xaqiiji Ka bixidda",
+      "areYouSureSignOut": "Ma hubtaa inaad rabto inaad ka baxdo?",
+      "cancel": "Jooji",
+      "goBack": "Dib u laabo",
+      "selectFont": "Dooro Farta",
+      "selectLanguage": "Dooro Luuqadda",
+      "selectTheme": "Dooro Mowduuca",
+      "passwordSecurity": "Furaha iyo Amniga",
+      "personalDetails": "Faahfaahinta Shakhsiga",
+      "verification": "Xaqiijinta",
+      "paymentMethods": "Habka lacag bixinta",
+      "adPreferences": "Doorashada Xayeysiiska",
+      "upgradePremium": "Ku casriyee premium",
+      "content": "Waxa ku jira",
+      "language": "Luuqadda",
+      "savedDraft": "Qabyo la Keydiyay",
+      "yourActivity": "Howlgalkaaga",
+      "accessibility": "Helitaanka",
+      "privacy": "Arrimaha Gaarka ah",
+      "comments": "Faallooyinka",
+      "privateAccount": "Akoon Gaar ah",
+      "directMessaging": "Fariin toos ah",
+      "blockedReports": "La xannibay/Warbixinnada",
+      "termsPolicies": "Shuruudaha iyo Siyaasadaha",
+      "switchAccount": "Beddel Akoonka"
+    },
+    "accountDetails": {
+      "settingsTitle": "Goobaha Akoonka",
+      "profileSettings": "Wax ka beddel Profileka ",
+      "resetPassword": "Dib u dejiso furaha",
+      "deleteAccount": "Tirtir Akoonka",
+      "resetPasswordModal": {
+        "title": "Dib u dejiso furaha",
+        "message": "Iimaylka dib u dejinta furaha ayaa loo diri doonaa",
+        "sendEmail": "Dir Iimaylka",
+        "cancel": "Jooji"
+      },
+      "deleteAccountModal": {
+        "title": "Tirtir Akoonka",
+        "message": "Ma hubtaa inaad rabto inaad tirtirto akoonkaaga? Tallaabadan lama noqon karo",
+        "delete": "Tirtir",
+        "cancel": "Jooji"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profile La Cusbooneysiiyay",
+          "message": "Profilekaaga si guul leh ayaa loo cusbooneysiiyay"
+        },
+        "profileUpdateError": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay cusbooneysiinta profilekaaga. Fadlan mar kale isku day"
+        },
+        "passwordReset": {
+          "title": "Dib u dejinta Furaha",
+          "message": "Iimaylka dib u dejinta furaha ayaa la diray"
+        },
+        "passwordResetError": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay dirista iimaylka dib u dejinta furaha. Fadlan mar kale isku day"
+        },
+        "accountDeleted": {
+          "title": "Akoon La Tirtiray",
+          "message": "Akoonkaaga si guul leh ayaa loo tirtiray"
+        },
+        "accountDeleteError": {
+          "title": "Khalad",
+          "message": "Waa ku guuldareysatay tirtiridda akoonkaaga. Fadlan mar kale isku day"
+        }
+      }
+    }
+  }

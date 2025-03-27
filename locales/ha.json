@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Binciken Kalubale",
+    "thatInspire": "wanda ke Ƙarfafa!",
+    "signUp": "Rajista",
+    "signIn": "Shiga"
+  },
+  "signUp": {
+    "title": "Rajista",
+    "headerMessage": "Ƙirƙiri sabon asusu don fara.",
+    "form": {
+      "username": {
+        "label": "Sunan mai amfani",
+        "placeholder": "Zaɓi sunan mai amfani",
+        "validation": {
+          "minLength": "Sunan mai amfani dole ne ya kasance aƙalla haruffa 3.",
+          "regex": "Sunan mai amfani zai iya ƙunsar haruffa, lambobi, da ƙananan layukan ƙasa kawai"
+        }
+      },
+      "firstname": {
+        "label": "Sunan Farko",
+        "placeholder": "Shigar da sunanka na farko",
+        "validation": "Sunan farko dole ne ya kasance aƙalla haruffa 3."
+      },
+      "lastname": {
+        "label": "Sunan Karshe",
+        "placeholder": "Shigar da sunanka na ƙarshe",
+        "validation": "Sunan ƙarshe dole ne ya kasance aƙalla haruffa 3."
+      },
+      "email": {
+        "label": "Imel",
+        "placeholder": "Shigar da adireshin imel ɗinka",
+        "validation": "Don Allah, shigar da ingantaccen adireshin imel."
+      },
+      "phoneNumber": {
+        "label": "Lambar Waya",
+        "placeholder": "Shigar da lambar wayarka",
+        "validation": "Don Allah, shigar da lambar waya mai inganci."
+      },
+      "birthday": {
+        "label": "Ranar Haihuwa",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Ranar haihuwa dole ne ta kasance cikin tsarin YYYY-MM-DD",
+          "validDate": "Rana maras kyau",
+          "ageRestriction": "Dole ne ka kasance da shekaru 18 ko fiye don ƙirƙirar asusu"
+        }
+      },
+      "password": {
+        "label": "Kalmar Sirri",
+        "placeholder": "Shigar da kalmar sirrinka",
+        "validation": {
+          "minLength": "Kalmar sirri dole ne ta kasance aƙalla haruffa 8.",
+          "maxLength": "Kalmar sirri dole ne ta kasance ƙasa da haruffa 64.",
+          "uppercase": "Kalmar sirri dole ne ta ƙunshi aƙalla harafi babba guda ɗaya.",
+          "lowercase": "Kalmar sirri dole ne ta ƙunshi aƙalla harafi ƙanana guda ɗaya.",
+          "numberOrSpecial": "Kalmar sirri dole ne ta ƙunshi aƙalla lamba ko harafi na musamman guda ɗaya."
+        },
+        "strength": {
+          "weak": "Rauni",
+          "fair": "Matsakaici",
+          "good": "Mai kyau",
+          "strong": "Ƙarfi"
+        }
+      },
+      "confirmPassword": {
+        "label": "Tabbatar da Kalmar Sirri",
+        "placeholder": "Sake shigar da kalmar sirrinka",
+        "validation": "Kalmar sirri ba ta dace ba."
+      }
+    },
+    "buttons": {
+      "createAccount": "Ƙirƙiri Asusun",
+      "alreadyHaveAccount": "Kana da asusu? Shiga"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kuskure",
+        "message": "An samu kuskure yayin ƙirƙirar asusunka. Da fatan za a sake gwadawa."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Ta hanyar rajista, kana amincewa cewa ka karanta",
+      "termsOfService": "Ka'idojin Sabis",
+      "privacyPolicy": "Manufar Sirri",
+      "andAccepted": "kuma ka amince da"
+    }
+  },
+  "signIn": {
+    "title": "Shiga",
+    "headerMessage": "Shigar da bayanan sirrinka don samun damar asusunka.",
+    "form": {
+      "email": "Imel",
+      "emailPlaceholder": "Imel",
+      "password": "Kalmar Sirri",
+      "passwordPlaceholder": "Kalmar Sirri"
+    },
+    "buttons": {
+      "signIn": "Shiga",
+      "forgotPassword": "Ka manta da Kalmar Sirri?",
+      "signUp": "Ba ka da asusu? Rajista"
+    },
+    "forgotPassword": {
+      "title": "Na manta da Kalmar Sirri",
+      "prompt": "Don Allah, shigar da imel ɗinka a sama da farko.",
+      "successTitle": "Duba Imel ɗinka",
+      "successMessage": "Mun aika da hanyar sake saita kalmar sirri zuwa imel ɗinka.",
+      "errorTitle": "Kuskuren Sake Saita"
+    },
+    "termsAndPrivacy": {
+      "message": "Ta hanyar rajista, kana amincewa cewa ka karanta",
+      "termsOfService": "Ka'idojin Sabis",
+      "privacyPolicy": "Manufar Sirri",
+      "andAccepted": "kuma ka amince da"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Kuskuren Shiga"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Token na shiga ba daidai bane ko an rasa shi.",
+      "sessionFailed": "An kasa kafa zaman.",
+      "invalidPassword": "Don Allah, shigar da kalmar sirri mai inganci mai haruffa 8 aƙalla.",
+      "updateFailed": "An kasa sabunta kalmar sirrinka."
+    },
+    "success": {
+      "passwordUpdated": "An sabunta kalmar sirrinka. Don Allah, shiga sake."
+    },
+    "title": "Sake Saita Kalmar Sirrinka",
+    "instructions": "Shigar da sabon kalmar sirri.",
+    "labels": {
+      "newPassword": "Sabon Kalmar Sirri"
+    },
+    "placeholders": {
+      "newPassword": "Shigar da sabon kalmar sirri"
+    },
+    "buttons": {
+      "updatePassword": "Sabunta Kalmar Sirri"
+    }
+  },
+  "tabs": {
+    "home": "Gida",
+    "search": "Bincike",
+    "create": "Ƙirƙiri",
+    "explore": "Gasa",
+    "profile": "Fayil",
+    "settings": "Saituna",
+    "editProfile": "Gyara Fayil",
+    "otherUserProfile": "Fayil na Wani Mai Amfani",
+    "comment": "Sharhi",
+    "contest": "Gasa",
+    "challengeDetails": "Cikakkun Bayanai na Kalubale",
+    "submissionDetails": "Cikakkun Bayanai na Bayarwa",
+    "contestDetails": "Cikakkun Bayanai na Gasa",
+    "followers": "Masu Biyo",
+    "following": "Biyo",
+    "account": "Asusu",
+    "notifications": "Sanarwa",
+    "leaderboard": "Jerin Jagora",
+    "market": "Kasuwa",
+    "rewards": "Ladabi"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Ƙirƙiri",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Alamar Gida",
+      "search": "Alamar Bincike",
+      "create": "Alamar Ƙirƙiri",
+      "explore": "Alamar Bincike",
+      "profile": "Alamar Fayil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Bincika bayarwa, masu amfani, kalubale...",
+    "clearSearch": "Share bincike",
+    "loading": "Ana lodawa...",
+    "error": {
+      "title": "Kuskuren Bincike",
+      "message": "An samu kuskure yayin bincike."
+    },
+    "noPreviousSearches": "Babu bincike na baya.",
+    "previousSearches": "Binciken da suka gabata",
+    "submissions": {
+      "title": "Bayarwa",
+      "noResults": "Ba a sami bayarwa ba.",
+      "videoError": {
+        "title": "Kuskuren Bidiyo",
+        "message": "An kasa lodawa bidiyo."
+      }
+    },
+    "users": {
+      "title": "Masu Amfani",
+      "noResults": "Ba a sami masu amfani ba."
+    },
+    "challenges": {
+      "title": "Kalubale",
+      "noResults": "Ba a sami kalubale ba.",
+      "videoError": {
+        "title": "Kuskuren Bidiyo",
+        "message": "An kasa lodawa bidiyon kalubale."
+      },
+      "category": "Rukuni: ",
+      "seasonalTag": "Lokaci",
+      "sponsoredTag": "Tallafi"
+    },
+    "repeatSearch": "Maimaita bincike don",
+    "accessibility": {
+      "viewVideo": "Duba bidiyo mai taken",
+      "viewProfile": "Duba fayil na",
+      "viewChallenge": "Duba kalubalen mai taken"
+    }
+  },
+  "contest": {
+    "title": "Dukkan Gasanni",
+    "createContestButton": "Ƙirƙiri Gasa"
+  },
+  "contests": {
+    "noContests": "Ba a sami gasanni ba.",
+    "error": {
+      "title": "Kuskure",
+      "message": "An kasa samun gasanni."
+    },
+    "status": {
+      "notStarted": "Ba a Fara ba",
+      "ongoing": "A Cikin Aiki",
+      "ended": "Ƙare"
+    },
+    "dates": {
+      "start": "Fara: ",
+      "end": "Ƙare: ",
+      "notAvailable": "Ba a Samu ba"
+    },
+    "contestDetailsButton": "Duba Cikakkun Bayanai na Gasa"
+  },
+  "newContest": {
+    "header": {
+      "title": "Ƙirƙiri Sabon Gasa",
+      "backButton": "Komawa"
+    },
+    "fields": {
+      "title": {
+        "label": "Take",
+        "placeholder": "Misali, Gasar Raye-Raye na Yau",
+        "validation": "Take yana buƙata."
+      },
+      "description": {
+        "label": "Bayani",
+        "placeholder": "Menene wannan gasar ke game da shi?"
+      },
+      "startDate": {
+        "label": "Ranar Fara",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Ranar ƙarewa dole ne ta kasance bayan ranar fara."
+      },
+      "endDate": {
+        "label": "Ranar Ƙarewa",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Ladabi na Mai Cin Gasa (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Ladabi na Masu Halarta (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Bayanan Bidiyo (Zabi)",
+        "noVideoSelected": "Ƙara bayanin bidiyo.",
+        "picked": "An zaɓa: {filename}",
+        "uploaded": "An ɗora: An ɗora bidiyon da nasara.",
+        "chooseVideoButton": "Zaɓi Bidiyo",
+        "uploadVideoButton": "Dora Bidiyo"
+      }
+    },
+    "buttons": {
+      "createContest": "Ƙirƙiri Gasa"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kuskure",
+        "pickVideoMessage": "An kasa zaɓar bidiyo.",
+        "uploadVideoMessage": "An kasa ɗora bidiyo.",
+        "createContestMessage": "An kasa ƙirƙirar gasa."
+      },
+      "success": {
+        "videoUploadMessage": "An ɗora bidiyo da nasara!",
+        "createContestMessage": "An ƙirƙiri gasa da nasara!"
+      },
+      "validation": {
+        "noTitle": "Take yana buƙata.",
+        "invalidDates": "Ranar ƙarewa dole ne ta kasance bayan ranar fara."
+      },
+      "noSession": {
+        "title": "Dole ne ka shiga don ƙirƙirar gasa."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Fayil",
+      "settingsButton": "Je zuwa Saituna"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Ana Bukatar Izini",
+        "message": "Muna buƙatar izini don samun damar hotunan ka."
+      },
+      "errorAlert": {
+        "title": "Kuskure",
+        "message": "An kasa zaɓar hoto"
+      },
+      "successAlert": {
+        "title": "Nasara",
+        "message": "An sabunta hoton fayil ɗinka da nasara"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Kuskuren Rabawa",
+        "message": "Ba za a iya rabawa da hanyar tura ba."
+      },
+      "successShare": {
+        "title": "Shiga tare da ni a Challenz!",
+        "message": "Sannu! Yi amfani da wannan hanyar don rajista: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Masu Biyo",
+      "viewFollowers": "Duba Masu Biyo"
+    },
+    "following": {
+      "label": "Biyo",
+      "viewFollowing": "Duba Biyo"
+    },
+    "posts": {
+      "label": "Fasali",
+      "viewPosts": "Duba Fasali",
+      "noVideos": "Babu bidiyo da aka buga tukuna."
+    },
+    "info": {
+      "email": "Imel",
+      "phone": "Waya",
+      "location": "Wuri",
+      "coins": "Uwaci Coins",
+      "bio": "Bayanan Sirri",
+      "noProfile": "Babu Fayil da aka samo"
+    },
+    "buttons": {
+      "inviteFriends": "Raba Hanyar Tura",
+      "deleteVideo": "Goge Bidiyo",
+      "deleteVideoAlert": {
+        "title": "Goge Bidiyo",
+        "message": "Shin kana tabbatar kana son gogewa wannan bidiyo?"
+      },
+      "deleteSuccess": {
+        "title": "Nasara",
+        "message": "An goge bidiyo da nasara."
+      },
+      "deleteError": {
+        "title": "Kuskure",
+        "message": "An kasa gogewa bidiyo."
+      }
+    },
+    "errors": {
+      "generalError": "An samu kuskure.",
+      "profileError": "An kasa samun fayil.",
+      "submissionsError": "An kasa samun bayarwa."
+    },
+    "loading": {
+      "profile": "Ana lodawa fayil...",
+      "submissions": "Ana lodawa bayarwa..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Gyara Fayil",
+      "cancelButton": "Soke",
+      "saveButton": "Ajiye Canje-canje",
+      "savingButton": "Ana Ajiye..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Sunan Farko",
+        "placeholder": "Shigar da sunanka na farko",
+        "error": {
+          "tooShort": "Sunan farko ya yi ƙanƙanta"
+        }
+      },
+      "lastName": {
+        "label": "Sunan Karshe",
+        "placeholder": "Shigar da sunanka na ƙarshe",
+        "error": {
+          "tooShort": "Sunan ƙarshe ya yi ƙanƙanta"
+        }
+      },
+      "phoneNumber": {
+        "label": "Lambar Waya",
+        "placeholder": "Shigar da lambar wayarka",
+        "error": {
+          "invalid": "Don Allah, shigar da lambar waya mai inganci"
+        }
+      },
+      "bio": {
+        "label": "Bayanan Sirri",
+        "placeholder": "Faɗa mana game da kanka",
+        "error": {
+          "tooLong": "Bayanan sirri dole ne ya kasance ƙasa da haruffa 500"
+        }
+      },
+      "location": {
+        "label": "Wuri",
+        "placeholder": "Shigar da wurinka",
+        "error": {
+          "tooLong": "Wurin dole ne ya kasance ƙasa da haruffa 100"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Kuskure",
+        "message": "An kasa samun bayanan fayil ɗin"
+      },
+      "updateSuccess": {
+        "title": "Nasara",
+        "message": "An sabunta fayil ɗinka da nasara"
+      },
+      "updateError": {
+        "title": "Kuskure",
+        "message": "An kasa sabunta fayil ɗinka"
+      }
+    },
+    "loading": {
+      "title": "Ana lodawa..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Ana lodawa...",
+    "noProfileFound": "Ba a sami fayil ba",
+    "authenticationRequired": "Ana Bukatar Tabbatarwa",
+    "pleaseLogIn": "Da fatan za a shiga don biyo masu amfani.",
+    "success": "Nasara",
+    "unfollowSuccess": "Ka daina bin",
+    "followSuccess": "Yanzu kana bin",
+    "error": "Kuskure",
+    "followError": "An kasa sabunta matsayin bin.",
+    "posts": "Fasali",
+    "followers": "Masu Biyo",
+    "following": "Biyo",
+    "follow": "Bi",
+    "unfollow": "Daina Bi",
+    "chat": "Tattaunawa"
+  },
+  "settings": {
+    "settings": "Saituna",
+    "fontSelected": "Fonti da Aka Zaɓa",
+    "asYourFont": "an saita shi a matsayin fontinka.",
+    "languageSelected": "Harshe da Aka Zaɓa",
+    "asYourLanguage": "an saita shi a matsayin harshenka.",
+    "themeSelected": "Jigo da Aka Zaɓa",
+    "asYourTheme": "an saita shi a matsayin jigon ka.",
+    "notifications": "Sanarwa",
+    "marketplace": "Kasuwar",
+    "account": "Asusu",
+    "themes": "Jigo",
+    "fonts": "Fonti",
+    "languages": "Harshe",
+    "signOut": "Fita",
+    "confirmSignOut": "Tabbatar da Fita",
+    "areYouSureSignOut": "Shin kana tabbatar kana son fita?",
+    "cancel": "Soke",
+    "goBack": "Komawa",
+    "selectFont": "Zaɓi Fonti",
+    "selectLanguage": "Zaɓi Harshe",
+    "selectTheme": "Zaɓi Jigo"
+  },
+  "accountDetails": {
+    "settingsTitle": "Saitunan Asusun",
+    "profileSettings": "Gyara Fayil",
+    "resetPassword": "Sake Saita Kalmar Sirri",
+    "deleteAccount": "Goge Asusun",
+    "resetPasswordModal": {
+      "title": "Sake Saita Kalmar Sirri",
+      "message": "Za a aika imel ɗin sake saitawa zuwa",
+      "sendEmail": "Aika Imel",
+      "cancel": "Soke"
+    },
+    "deleteAccountModal": {
+      "title": "Goge Asusun",
+      "message": "Shin kana tabbatar kana son gogewa asusunka? Wannan aiki ba za a iya janye shi ba.",
+      "delete": "Goge",
+      "cancel": "Soke"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "An Sabunta Fayil",
+        "message": "An sabunta fayil ɗinka da nasara."
+      },
+      "profileUpdateError": {
+        "title": "Kuskure",
+        "message": "An kasa sabunta fayil ɗinka. Da fatan za a sake gwadawa."
+      },
+      "passwordReset": {
+        "title": "Sake Saita Kalmar Sirri",
+        "message": "An aika imel ɗin sake saitawa na kalmar sirri."
+      },
+      "passwordResetError": {
+        "title": "Kuskure",
+        "message": "An kasa aika imel ɗin sake saitawa na kalmar sirri. Da fatan za a sake gwadawa."
+      },
+      "accountDeleted": {
+        "title": "An Goge Asusun",
+        "message": "An goge asusunka da nasara."
+      },
+      "accountDeleteError": {
+        "title": "Kuskure",
+        "message": "An kasa goge asusunka. Da fatan za a sake gwadawa."
+      }
+    }
+  }
+}

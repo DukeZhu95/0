@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Khám phá Thử Thách",
+    "thatInspire": "để truyền cảm hứng!",
+    "signUp": "Đăng Ký",
+    "signIn": "Đăng Nhập"
+  },
+  "signUp": {
+    "title": "Đăng Ký",
+    "headerMessage": "Tạo một tài khoản mới để bắt đầu.",
+    "form": {
+      "username": {
+        "label": "Tên Người Dùng",
+        "placeholder": "Chọn tên người dùng",
+        "validation": {
+          "minLength": "Tên người dùng phải có ít nhất 3 ký tự.",
+          "regex": "Tên người dùng chỉ có thể chứa chữ cái, số và gạch dưới."
+        }
+      },
+      "firstname": {
+        "label": "Tên",
+        "placeholder": "Nhập tên của bạn",
+        "validation": "Tên phải có ít nhất 3 ký tự."
+      },
+      "lastname": {
+        "label": "Họ",
+        "placeholder": "Nhập họ của bạn",
+        "validation": "Họ phải có ít nhất 3 ký tự."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Nhập địa chỉ email của bạn",
+        "validation": "Vui lòng nhập địa chỉ email hợp lệ."
+      },
+      "phoneNumber": {
+        "label": "Số Điện Thoại",
+        "placeholder": "Nhập số điện thoại của bạn",
+        "validation": "Vui lòng nhập số điện thoại hợp lệ."
+      },
+      "birthday": {
+        "label": "Ngày Sinh",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Ngày sinh phải theo định dạng YYYY-MM-DD.",
+          "validDate": "Ngày không hợp lệ",
+          "ageRestriction": "Bạn phải ít nhất 18 tuổi để tạo tài khoản."
+        }
+      },
+      "password": {
+        "label": "Mật Khẩu",
+        "placeholder": "Nhập mật khẩu của bạn",
+        "validation": {
+          "minLength": "Mật khẩu phải có ít nhất 8 ký tự.",
+          "maxLength": "Mật khẩu phải có dưới 64 ký tự.",
+          "uppercase": "Mật khẩu phải chứa ít nhất một chữ cái viết hoa.",
+          "lowercase": "Mật khẩu phải chứa ít nhất một chữ cái viết thường.",
+          "numberOrSpecial": "Mật khẩu phải chứa ít nhất một số hoặc ký tự đặc biệt."
+        },
+        "strength": {
+          "weak": "Yếu",
+          "fair": "Trung Bình",
+          "good": "Tốt",
+          "strong": "Mạnh"
+        }
+      },
+      "confirmPassword": {
+        "label": "Xác Nhận Mật Khẩu",
+        "placeholder": "Nhập lại mật khẩu của bạn",
+        "validation": "Mật khẩu không khớp."
+      }
+    },
+    "buttons": {
+      "createAccount": "Tạo Tài Khoản",
+      "alreadyHaveAccount": "Đã có tài khoản? Đăng Nhập"
+    },
+    "alerts": {
+      "error": {
+        "title": "Lỗi",
+        "message": "Đã xảy ra lỗi khi tạo tài khoản của bạn. Vui lòng thử lại."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Bằng việc đăng ký, bạn đồng ý rằng bạn đã đọc",
+      "termsOfService": "Điều Khoản Dịch Vụ",
+      "privacyPolicy": "Chính Sách Bảo Mật",
+      "andAccepted": "và đã chấp nhận chúng"
+    }
+  },
+  "signIn": {
+    "title": "Đăng Nhập",
+    "headerMessage": "Nhập thông tin đăng nhập của bạn để truy cập tài khoản.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Mật Khẩu",
+      "passwordPlaceholder": "Mật Khẩu"
+    },
+    "buttons": {
+      "signIn": "Đăng Nhập",
+      "forgotPassword": "Quên mật khẩu?",
+      "signUp": "Chưa có tài khoản? Đăng Ký"
+    },
+    "forgotPassword": {
+      "title": "Quên Mật Khẩu",
+      "prompt": "Vui lòng nhập email của bạn ở trên trước.",
+      "successTitle": "Kiểm Tra Email của Bạn",
+      "successMessage": "Chúng tôi đã gửi một liên kết để đặt lại mật khẩu đến email của bạn.",
+      "errorTitle": "Lỗi Đặt Lại"
+    },
+    "termsAndPrivacy": {
+      "message": "Bằng việc đăng ký, bạn đồng ý rằng bạn đã đọc",
+      "termsOfService": "Điều Khoản Dịch Vụ",
+      "privacyPolicy": "Chính Sách Bảo Mật",
+      "andAccepted": "và đã chấp nhận chúng"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Lỗi Đăng Nhập"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Token truy cập không hợp lệ hoặc thiếu.",
+      "sessionFailed": "Không thể tạo phiên.",
+      "invalidPassword": "Vui lòng nhập mật khẩu hợp lệ với ít nhất 8 ký tự.",
+      "updateFailed": "Không thể cập nhật mật khẩu của bạn."
+    },
+    "success": {
+      "passwordUpdated": "Mật khẩu của bạn đã được cập nhật. Vui lòng đăng nhập lại."
+    },
+    "title": "Đặt Lại Mật Khẩu",
+    "instructions": "Nhập mật khẩu mới.",
+    "labels": {
+      "newPassword": "Mật Khẩu Mới"
+    },
+    "placeholders": {
+      "newPassword": "Nhập mật khẩu mới của bạn"
+    },
+    "buttons": {
+      "updatePassword": "Cập Nhật Mật Khẩu"
+    }
+  },
+  "tabs": {
+    "home": "Trang Chủ",
+    "search": "Tìm Kiếm",
+    "create": "Tạo",
+    "explore": "Cuộc Thi",
+    "profile": "Hồ Sơ",
+    "settings": "Cài Đặt",
+    "editProfile": "Chỉnh Sửa Hồ Sơ",
+    "otherUserProfile": "Hồ Sơ Người Dùng Khác",
+    "comment": "Bình Luận",
+    "contest": "Cuộc Thi",
+    "challengeDetails": "Chi Tiết Thử Thách",
+    "submissionDetails": "Chi Tiết Đệ Trình",
+    "contestDetails": "Chi Tiết Cuộc Thi",
+    "followers": "Người Theo Dõi",
+    "following": "Đang Theo Dõi",
+    "account": "Tài Khoản",
+    "notifications": "Thông Báo",
+    "leaderboard": "Bảng Xếp Hạng",
+    "market": "Thị Trường",
+    "rewards": "Phần Thưởng"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Tạo",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Biểu Tượng Trang Chủ",
+      "search": "Biểu Tượng Tìm Kiếm",
+      "create": "Biểu Tượng Tạo",
+      "explore": "Biểu Tượng Khám Phá",
+      "profile": "Biểu Tượng Hồ Sơ"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Tìm kiếm đệ trình, người dùng, thử thách...",
+    "clearSearch": "Xóa Tìm Kiếm",
+    "loading": "Đang tải...",
+    "error": {
+      "title": "Lỗi Tìm Kiếm",
+      "message": "Đã xảy ra lỗi trong quá trình tìm kiếm."
+    },
+    "noPreviousSearches": "Không có tìm kiếm trước đó.",
+    "previousSearches": "Tìm Kiếm Trước Đây",
+    "submissions": {
+      "title": "Đệ Trình",
+      "noResults": "Không tìm thấy đệ trình nào.",
+      "videoError": {
+        "title": "Lỗi Video",
+        "message": "Không thể tải video."
+      }
+    },
+    "users": {
+      "title": "Người Dùng",
+      "noResults": "Không tìm thấy người dùng nào."
+    },
+    "challenges": {
+      "title": "Thử Thách",
+      "noResults": "Không tìm thấy thử thách nào.",
+      "videoError": {
+        "title": "Lỗi Video",
+        "message": "Không thể tải video thử thách."
+      },
+      "category": "Thể Loại: ",
+      "seasonalTag": "Theo Mùa",
+      "sponsoredTag": "Được Tài Trợ"
+    },
+    "repeatSearch": "Lặp lại tìm kiếm cho",
+    "accessibility": {
+      "viewVideo": "Xem video có tiêu đề",
+      "viewProfile": "Xem hồ sơ của",
+      "viewChallenge": "Xem thử thách có tiêu đề"
+    }
+  },
+  "contest": {
+    "title": "Tất Cả Cuộc Thi",
+    "createContestButton": "Tạo Cuộc Thi"
+  },
+  "contests": {
+    "noContests": "Không tìm thấy cuộc thi nào.",
+    "error": {
+      "title": "Lỗi",
+      "message": "Không thể lấy cuộc thi."
+    },
+    "status": {
+      "notStarted": "Chưa Bắt Đầu",
+      "ongoing": "Đang Diễn Ra",
+      "ended": "Đã Kết Thúc"
+    },
+    "dates": {
+      "start": "Bắt Đầu: ",
+      "end": "Kết Thúc: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Xem Chi Tiết Cuộc Thi"
+  },
+  "newContest": {
+    "header": {
+      "title": "Tạo Cuộc Thi Mới",
+      "backButton": "Quay Lại"
+    },
+    "fields": {
+      "title": {
+        "label": "Tiêu Đề",
+        "placeholder": "ví dụ: Thử Thách Nhảy Hè",
+        "validation": "Tiêu đề là bắt buộc."
+      },
+      "description": {
+        "label": "Mô Tả",
+        "placeholder": "Cuộc thi này về gì?"
+      },
+      "startDate": {
+        "label": "Ngày Bắt Đầu",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Ngày kết thúc phải sau ngày bắt đầu."
+      },
+      "endDate": {
+        "label": "Ngày Kết Thúc",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Phần Thưởng Người Thắng (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Phần Thưởng Người Tham Gia (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Video Giải Thích (Tùy Chọn)",
+        "noVideoSelected": "Thêm video giải thích.",
+        "picked": "Đã chọn: {filename}",
+        "uploaded": "Đã tải lên: Video đã được tải lên thành công.",
+        "chooseVideoButton": "Chọn Video",
+        "uploadVideoButton": "Tải Lên Video"
+      }
+    },
+    "buttons": {
+      "createContest": "Tạo Cuộc Thi"
+    },
+    "alerts": {
+      "error": {
+        "title": "Lỗi",
+        "pickVideoMessage": "Không thể chọn video.",
+        "uploadVideoMessage": "Không thể tải lên video.",
+        "createContestMessage": "Không thể tạo cuộc thi."
+      },
+      "success": {
+        "videoUploadMessage": "Video đã được tải lên thành công!",
+        "createContestMessage": "Cuộc thi đã được tạo thành công!"
+      },
+      "validation": {
+        "noTitle": "Tiêu đề là bắt buộc.",
+        "invalidDates": "Ngày kết thúc phải sau ngày bắt đầu."
+      },
+      "noSession": {
+        "title": "Bạn cần đăng nhập để tạo cuộc thi."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Hồ Sơ",
+      "settingsButton": "Đi đến Cài Đặt"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Cần Quyền",
+        "message": "Chúng tôi cần quyền truy cập vào hình ảnh của bạn."
+      },
+      "errorAlert": {
+        "title": "Lỗi",
+        "message": "Không thể chọn hình ảnh."
+      },
+      "successAlert": {
+        "title": "Thành Công",
+        "message": "Ảnh hồ sơ đã được cập nhật thành công."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Lỗi Chia Sẻ",
+        "message": "Không thể chia sẻ liên kết giới thiệu."
+      },
+      "successShare": {
+        "title": "Tham Gia cùng tôi trên Challenz!",
+        "message": "Chào! Sử dụng liên kết này để đăng ký: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Người Theo Dõi",
+      "viewFollowers": "Xem Người Theo Dõi"
+    },
+    "following": {
+      "label": "Đang Theo Dõi",
+      "viewFollowing": "Xem Đang Theo Dõi"
+    },
+    "posts": {
+      "label": "Bài Đăng",
+      "viewPosts": "Xem Bài Đăng",
+      "noVideos": "Chưa có video nào được đăng tải."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Điện Thoại",
+      "location": "Vị Trí",
+      "coins": "Uwaci Coins",
+      "bio": "Tiểu Sử",
+      "noProfile": "Không Tìm Thấy Hồ Sơ"
+    },
+    "buttons": {
+      "inviteFriends": "Chia Sẻ Liên Kết Giới Thiệu",
+      "deleteVideo": "Xóa Video",
+      "deleteVideoAlert": {
+        "title": "Xóa Video",
+        "message": "Bạn có chắc chắn muốn xóa video này?"
+      },
+      "deleteSuccess": {
+        "title": "Thành Công",
+        "message": "Video đã được xóa thành công."
+      },
+      "deleteError": {
+        "title": "Lỗi",
+        "message": "Không thể xóa video."
+      }
+    },
+    "errors": {
+      "generalError": "Đã xảy ra lỗi.",
+      "profileError": "Không thể tải hồ sơ.",
+      "submissionsError": "Không thể tải đệ trình."
+    },
+    "loading": {
+      "profile": "Đang tải hồ sơ...",
+      "submissions": "Đang tải đệ trình..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Chỉnh Sửa Hồ Sơ",
+      "cancelButton": "Hủy",
+      "saveButton": "Lưu Thay Đổi",
+      "savingButton": "Đang Lưu..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Tên",
+        "placeholder": "Nhập tên của bạn",
+        "error": {
+          "tooShort": "Tên quá ngắn"
+        }
+      },
+      "lastName": {
+        "label": "Họ",
+        "placeholder": "Nhập họ của bạn",
+        "error": {
+          "tooShort": "Họ quá ngắn"
+        }
+      },
+      "phoneNumber": {
+        "label": "Số Điện Thoại",
+        "placeholder": "Nhập số điện thoại của bạn",
+        "error": {
+          "invalid": "Vui lòng nhập số điện thoại hợp lệ"
+        }
+      },
+      "bio": {
+        "label": "Tiểu Sử",
+        "placeholder": "Kể cho chúng tôi về bạn",
+        "error": {
+          "tooLong": "Tiểu sử phải dưới 500 ký tự"
+        }
+      },
+      "location": {
+        "label": "Vị Trí",
+        "placeholder": "Nhập vị trí của bạn",
+        "error": {
+          "tooLong": "Vị trí phải dưới 100 ký tự"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Lỗi",
+        "message": "Không thể tải dữ liệu hồ sơ."
+      },
+      "updateSuccess": {
+        "title": "Thành Công",
+        "message": "Hồ sơ đã được cập nhật thành công."
+      },
+      "updateError": {
+        "title": "Lỗi",
+        "message": "Không thể cập nhật hồ sơ."
+      }
+    },
+    "loading": {
+      "title": "Đang tải..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Đang tải...",
+    "noProfileFound": "Không tìm thấy hồ sơ",
+    "authenticationRequired": "Yêu cầu xác thực",
+    "pleaseLogIn": "Vui lòng đăng nhập để theo dõi người dùng.",
+    "success": "Thành Công",
+    "unfollowSuccess": "Bạn đã ngừng theo dõi",
+    "followSuccess": "Bạn đang theo dõi bây giờ",
+    "error": "Lỗi",
+    "followError": "Không thể cập nhật trạng thái theo dõi.",
+    "posts": "Bài Đăng",
+    "followers": "Người Theo Dõi",
+    "following": "Đang Theo Dõi",
+    "follow": "Theo Dõi",
+    "unfollow": "Ngừng Theo Dõi",
+    "chat": "Trò Chuyện"
+  },
+  "settings": {
+    "settings": "Cài Đặt",
+    "fontSelected": "Phông chữ đã chọn",
+    "asYourFont": "đã được thiết lập làm phông chữ của bạn.",
+    "languageSelected": "Ngôn ngữ đã chọn",
+    "asYourLanguage": "đã được thiết lập làm ngôn ngữ của bạn.",
+    "themeSelected": "Chủ đề đã chọn",
+    "asYourTheme": "đã được thiết lập làm chủ đề của bạn.",
+    "notifications": "Thông Báo",
+    "marketplace": "Chợ",
+    "account": "Tài Khoản",
+    "themes": "Chủ Đề",
+    "fonts": "Phông Chữ",
+    "languages": "Ngôn Ngữ",
+    "signOut": "Đăng Xuất",
+    "confirmSignOut": "Xác Nhận Đăng Xuất",
+    "areYouSureSignOut": "Bạn có chắc chắn muốn đăng xuất?",
+    "cancel": "Hủy",
+    "goBack": "Quay Lại",
+    "selectFont": "Chọn Phông Chữ",
+    "selectLanguage": "Chọn Ngôn Ngữ",
+    "selectTheme": "Chọn Chủ Đề"
+  },
+  "accountDetails": {
+    "settingsTitle": "Cài Đặt Tài Khoản",
+    "profileSettings": "Chỉnh Sửa Hồ Sơ",
+    "resetPassword": "Đặt Lại Mật Khẩu",
+    "deleteAccount": "Xóa Tài Khoản",
+    "resetPasswordModal": {
+      "title": "Đặt Lại Mật Khẩu",
+      "message": "Một email để đặt lại mật khẩu sẽ được gửi đến",
+      "sendEmail": "Gửi Email",
+      "cancel": "Hủy"
+    },
+    "deleteAccountModal": {
+      "title": "Xóa Tài Khoản",
+      "message": "Bạn có chắc chắn muốn xóa tài khoản của mình? Hành động này không thể hoàn tác.",
+      "delete": "Xóa",
+      "cancel": "Hủy"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Hồ Sơ Đã Cập Nhật",
+        "message": "Hồ sơ của bạn đã được cập nhật thành công."
+      },
+      "profileUpdateError": {
+        "title": "Lỗi",
+        "message": "Không thể cập nhật hồ sơ của bạn. Vui lòng thử lại."
+      },
+      "passwordReset": {
+        "title": "Mật Khẩu Đã Được Đặt Lại",
+        "message": "Một email để đặt lại mật khẩu đã được gửi."
+      },
+      "passwordResetError": {
+        "title": "Lỗi",
+        "message": "Không thể gửi email để đặt lại mật khẩu. Vui lòng thử lại."
+      },
+      "accountDeleted": {
+        "title": "Tài Khoản Đã Được Xóa",
+        "message": "Tài khoản của bạn đã được xóa thành công."
+      },
+      "accountDeleteError": {
+        "title": "Lỗi",
+        "message": "Không thể xóa tài khoản của bạn. Vui lòng thử lại."
+      }
+    }
+  }
+}

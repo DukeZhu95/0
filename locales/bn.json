@@ -1,0 +1,526 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "চ্যালেঞ্জগুলি এক্সপ্লোর করুন",
+    "thatInspire": "যা অনুপ্রাণিত করে!",
+    "signUp": "নিবন্ধন করুন",
+    "signIn": "প্রবেশ করুন"
+  },
+  "signUp": {
+    "title": "নিবন্ধন করুন",
+    "headerMessage": "শুরু করার জন্য একটি নতুন অ্যাকাউন্ট তৈরি করুন।",
+    "form": {
+      "username": {
+        "label": "ব্যবহারকারীর নাম",
+        "placeholder": "একটি ব্যবহারকারীর নাম বেছে নিন",
+        "validation": {
+          "minLength": "ব্যবহারকারীর নাম কমপক্ষে ৩টি অক্ষর হতে হবে।",
+          "regex": "ব্যবহারকারীর নাম শুধুমাত্র অক্ষর, সংখ্যা এবং আন্ডারস্কোর থাকতে পারে"
+        }
+      },
+      "firstname": {
+        "label": "নামের প্রথম অংশ",
+        "placeholder": "আপনার প্রথম নাম লিখুন",
+        "validation": "প্রথম নাম কমপক্ষে ৩টি অক্ষর হতে হবে।"
+      },
+      "lastname": {
+        "label": "নামের শেষাংশ",
+        "placeholder": "আপনার শেষ নাম লিখুন",
+        "validation": "শেষ নাম কমপক্ষে ৩টি অক্ষর হতে হবে।"
+      },
+      "email": {
+        "label": "ইমেল",
+        "placeholder": "আপনার ইমেল ঠিকানা লিখুন",
+        "validation": "একটি বৈধ ইমেল ঠিকানা লিখুন।"
+      },
+      "phoneNumber": {
+        "label": "ফোন নম্বর",
+        "placeholder": "আপনার ফোন নম্বর লিখুন",
+        "validation": "একটি বৈধ ফোন নম্বর লিখুন।"
+      },
+      "birthday": {
+        "label": "জন্মদিন",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "জন্মদিনের তারিখ YYYY-MM-DD বিন্যাসে হতে হবে",
+          "validDate": "অবৈধ তারিখ",
+          "ageRestriction": "একটি অ্যাকাউন্ট তৈরি করতে আপনাকে ১৮ বছর বা তার বেশি হতে হবে"
+        }
+      },
+      "password": {
+        "label": "পাসওয়ার্ড",
+        "placeholder": "আপনার পাসওয়ার্ড লিখুন",
+        "validation": {
+          "minLength": "পাসওয়ার্ড কমপক্ষে ৮টি অক্ষর হতে হবে।",
+          "maxLength": "পাসওয়ার্ড ৬৪টি অক্ষরের কম হতে হবে।",
+          "uppercase": "পাসওয়ার্ডে অন্তত একটি বড় হাতের অক্ষর থাকতে হবে।",
+          "lowercase": "পাসওয়ার্ডে অন্তত একটি ছোট হাতের অক্ষর থাকতে হবে।",
+          "numberOrSpecial": "পাসওয়ার্ডে অন্তত একটি সংখ্যা বা বিশেষ চরিত্র থাকতে হবে।"
+        },
+        "strength": {
+          "weak": "দুর্বল",
+          "fair": "মাঝারি",
+          "good": "ভাল",
+          "strong": "শক্তিশালী"
+        }
+      },
+      "confirmPassword": {
+        "label": "পাসওয়ার্ড নিশ্চিত করুন",
+        "placeholder": "পাসওয়ার্ডটি পুনরায় লিখুন",
+        "validation": "পাসওয়ার্ডগুলি মেলে না।"
+      }
+    },
+    "buttons": {
+      "createAccount": "অ্যাকাউন্ট তৈরি করুন",
+      "alreadyHaveAccount": "আপনার ইতিমধ্যেই একটি অ্যাকাউন্ট আছে? প্রবেশ করুন"
+    },
+    "alerts": {
+      "error": {
+        "title": "ত্রুটি",
+        "message": "আপনার অ্যাকাউন্ট তৈরি করার সময় একটি ত্রুটি ঘটেছে। দয়া করে আবার চেষ্টা করুন।"
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "নিবন্ধনের মাধ্যমে, আপনি সম্মত হন যে আপনি আমাদের",
+      "termsOfService": "পরিষেবার শর্তাবলী",
+      "privacyPolicy": "গোপনীয়তা নীতি",
+      "andAccepted": "এবং আমাদের গ্রহণ করেছেন"
+    }
+  },
+  "signIn": {
+    "title": "প্রবেশ করুন",
+    "headerMessage": "আপনার অ্যাকাউন্টে অ্যাক্সেস পেতে আপনার সনদপত্র দিন।",
+    "form": {
+      "email": "ইমেল",
+      "emailPlaceholder": "ইমেল",
+      "password": "পাসওয়ার্ড",
+      "passwordPlaceholder": "পাসওয়ার্ড"
+    },
+    "buttons": {
+      "signIn": "প্রবেশ করুন",
+      "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+      "signUp": "আপনার কোনও অ্যাকাউন্ট নেই? নিবন্ধন করুন"
+    },
+    "forgotPassword": {
+      "title": "পাসওয়ার্ড ভুলে গেছেন",
+      "prompt": "দয়া করে প্রথমে আপনার ইমেলটি উপরে লিখুন।",
+      "successTitle": "আপনার ইমেলটি পরীক্ষা করুন",
+      "successMessage": "আমরা আপনার ইমেলে একটি পাসওয়ার্ড রিসেট লিঙ্ক পাঠিয়েছি।",
+      "errorTitle": "রিসেট ত্রুটি"
+    },
+    "termsAndPrivacy": {
+      "message": "নিবন্ধনের মাধ্যমে, আপনি সম্মত হন যে আপনি আমাদের",
+      "termsOfService": "পরিষেবার শর্তাবলী",
+      "privacyPolicy": "গোপনীয়তা নীতি",
+      "andAccepted": "এবং আমাদের গ্রহণ করেছেন"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "প্রবেশ ত্রুটি"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "অবৈধ বা অনুপস্থিত অ্যাক্সেস টোকেন।",
+      "sessionFailed": "সেশন সেট করতে ব্যর্থ হয়েছে।",
+      "invalidPassword": "কমপক্ষে ৮ অক্ষরের একটি বৈধ পাসওয়ার্ড লিখুন।",
+      "updateFailed": "আপনার পাসওয়ার্ড আপডেট করতে ব্যর্থ হয়েছে।"
+    },
+    "success": {
+      "passwordUpdated": "আপনার পাসওয়ার্ড আপডেট করা হয়েছে। অনুগ্রহ করে আবার প্রবেশ করুন।"
+    },
+    "title": "আপনার পাসওয়ার্ড রিসেট করুন",
+    "instructions": "একটি নতুন পাসওয়ার্ড লিখুন।",
+    "labels": {
+      "newPassword": "নতুন পাসওয়ার্ড"
+    },
+    "placeholders": {
+      "newPassword": "নতুন পাসওয়ার্ড লিখুন"
+    },
+    "buttons": {
+      "updatePassword": "পাসওয়ার্ড আপডেট করুন"
+    }
+  },
+  "tabs": {
+    "home": "হোম",
+    "search": "অনুসন্ধান",
+    "create": "তৈরি করুন",
+    "explore": "প্রতিযোগিতা",
+    "profile": "প্রোফাইল",
+    "menu": "মেনু",
+    "settings": "সেটিংস",
+    "editProfile": "প্রোফাইল সম্পাদনা করুন",
+    "otherUserProfile": "অন্য ব্যবহারকারীর প্রোফাইল",
+    "comment": "মন্তব্য",
+    "contest": "প্রতিযোগিতা",
+    "challengeDetails": "চ্যালেঞ্জের বিবরণ",
+    "submissionDetails": "জমাদানের বিবরণ",
+    "contestDetails": "প্রতিযোগিতার বিবরণ",
+    "followers": "অনুসারী",
+    "following": "অনুসরণ",
+    "account": "অ্যাকাউন্ট",
+    "notifications": "বিজ্ঞপ্তি",
+    "leaderboard": "লিডারবোর্ড",
+    "market": "বাজার",
+    "rewards": "পুরস্কার"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "তৈরি করুন",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "হোম আইকন",
+      "search": "অনুসন্ধানের আইকন",
+      "create": "তৈরির আইকন",
+      "explore": "অনুসন্ধানের আইকন",
+      "profile": "প্রোফাইল আইকন"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "জমা, ব্যবহারকারী, চ্যালেঞ্জ অনুসন্ধান করুন...",
+    "clearSearch": "অনুসন্ধান মুছুন",
+    "loading": "লোড হচ্ছে...",
+    "error": {
+      "title": "অনুসন্ধানের ত্রুটি",
+      "message": "অনুসন্ধানের সময় একটি ত্রুটি ঘটেছে।"
+    },
+    "noPreviousSearches": "কোন পূর্ববর্তী অনুসন্ধান নেই।",
+    "previousSearches": "পূর্ববর্তী অনুসন্ধানগুলি",
+    "submissions": {
+      "title": "জমা",
+      "noResults": "কোন জমা পাওয়া যায়নি।",
+      "videoError": {
+        "title": "ভিডিও ত্রুটি",
+        "message": "ভিডিও লোড করতে ব্যর্থ হয়েছে।"
+      }
+    },
+    "users": {
+      "title": "ব্যবহারকারী",
+      "noResults": "কোন ব্যবহারকারী পাওয়া যায়নি।"
+    },
+    "challenges": {
+      "title": "চ্যালেঞ্জ",
+      "noResults": "কোন চ্যালেঞ্জ পাওয়া যায়নি।",
+      "videoError": {
+        "title": "ভিডিও ত্রুটি",
+        "message": "চ্যালেঞ্জের ভিডিও লোড করতে ব্যর্থ হয়েছে।"
+      },
+      "category": "বিভাগ: ",
+      "seasonalTag": "ঋতুকালীন",
+      "sponsoredTag": "প্রচারিত"
+    },
+    "repeatSearch": "পুনরায় অনুসন্ধান করুন",
+    "accessibility": {
+      "viewVideo": "ভিডিও দেখুন যার শিরোনাম",
+      "viewProfile": "এর প্রোফাইল দেখুন",
+      "viewChallenge": "চ্যালেঞ্জ দেখুন যার শিরোনাম"
+    }
+  },
+  "contest": {
+    "title": "সব প্রতিযোগিতা",
+    "createContestButton": "প্রতিযোগিতা তৈরি করুন"
+  },
+  "contests": {
+    "noContests": "কোন প্রতিযোগিতা পাওয়া যায়নি।",
+    "error": {
+      "title": "ত্রুটি",
+      "message": "প্রতিযোগিতাগুলি আনতে ব্যর্থ হয়েছে।"
+    },
+    "status": {
+      "notStarted": "শুরু হয়নি",
+      "ongoing": "চালু",
+      "ended": "সমাপ্ত"
+    },
+    "dates": {
+      "start": "শুরু: ",
+      "end": "শেষ: ",
+      "notAvailable": "উপলব্ধ নয়"
+    },
+    "contestDetailsButton": "প্রতিযোগিতার বিবরণ দেখুন"
+  },
+  "newContest": {
+    "header": {
+      "title": "নতুন প্রতিযোগিতা তৈরি করুন",
+      "backButton": "পিছনে"
+    },
+    "fields": {
+      "title": {
+        "label": "শিরোনাম",
+        "placeholder": "উদাহরণস্বরূপ, গ্রীষ্মের নাচ প্রতিযোগিতা",
+        "validation": "শিরোনাম আবশ্যক।"
+      },
+      "description": {
+        "label": "বর্ণনা",
+        "placeholder": "এই প্রতিযোগিতা সম্পর্কে কী?"
+      },
+      "startDate": {
+        "label": "শুরুর তারিখ",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "শেষ তারিখ শুরু তারিখের পরে হতে হবে।"
+      },
+      "endDate": {
+        "label": "শেষ তারিখ",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "বিজয়ীর পুরস্কার (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "অংশগ্রহণকারীদের পুরস্কার (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "ভিডিও বর্ণনা (ঐচ্ছিক)",
+        "noVideoSelected": "একটি ভিডিও বর্ণনা যোগ করুন।",
+        "picked": "নির্বাচিত: {filename}",
+        "uploaded": "আপলোড করা হয়েছে: ভিডিওটি সফলভাবে আপলোড হয়েছে।",
+        "chooseVideoButton": "ভিডিও বেছে নিন",
+        "uploadVideoButton": "ভিডিও আপলোড করুন"
+      }
+    },
+    "buttons": {
+      "createContest": "প্রতিযোগিতা তৈরি করুন"
+    },
+    "alerts": {
+      "error": {
+        "title": "ত্রুটি",
+        "pickVideoMessage": "ভিডিও বেছে নিতে ব্যর্থ হয়েছে।",
+        "uploadVideoMessage": "ভিডিও আপলোড করতে ব্যর্থ হয়েছে।",
+        "createContestMessage": "প্রতিযোগিতা তৈরি করতে ব্যর্থ হয়েছে।"
+      },
+      "success": {
+        "videoUploadMessage": "ভিডিও সফলভাবে আপলোড হয়েছে!",
+        "createContestMessage": "প্রতিযোগিতা সফলভাবে তৈরি হয়েছে!"
+      },
+      "validation": {
+        "noTitle": "শিরোনাম আবশ্যক।",
+        "invalidDates": "শেষ তারিখ শুরু তারিখের পরে হতে হবে।"
+      },
+      "noSession": {
+        "title": "প্রতিযোগিতা তৈরি করতে আপনাকে লগইন করতে হবে।"
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "প্রোফাইল",
+      "settingsButton": "সেটিংসে যান"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "অনুমতি প্রয়োজন",
+        "message": "আমরা আপনার ফটোগুলিতে অ্যাক্সেস করার অনুমতি প্রয়োজন।"
+      },
+      "errorAlert": {
+        "title": "ত্রুটি",
+        "message": "ছবি নির্বাচন করতে ব্যর্থ হয়েছে"
+      },
+      "successAlert": {
+        "title": "সফল",
+        "message": "প্রোফাইল ছবি সফলভাবে আপডেট করা হয়েছে"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "শেয়ার ত্রুটি",
+        "message": "রেফারেল লিঙ্ক শেয়ার করা সম্ভব নয়।"
+      },
+      "successShare": {
+        "title": "Challenz-এ আমার সাথে যোগ দিন!",
+        "message": "হ্যালো! নিবন্ধনের জন্য এই লিঙ্কটি ব্যবহার করুন: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "অনুসারী",
+      "viewFollowers": "অনুসারী দেখুন"
+    },
+    "following": {
+      "label": "অনুসরণ",
+      "viewFollowing": "অনুসরণ দেখুন"
+    },
+    "posts": {
+      "label": "পোস্ট",
+      "viewPosts": "পোস্ট দেখুন",
+      "noVideos": "এখনও কোনও ভিডিও পোস্ট করা হয়নি।"
+    },
+    "info": {
+      "email": "ইমেল",
+      "phone": "ফোন",
+      "location": "অবস্থান",
+      "coins": "Uwaci Coins",
+      "bio": "বায়ো",
+      "noProfile": "কোন প্রোফাইল পাওয়া যায়নি"
+    },
+    "buttons": {
+      "inviteFriends": "রেফারেল লিঙ্ক শেয়ার করুন",
+      "deleteVideo": "ভিডিও মুছুন",
+      "deleteVideoAlert": {
+        "title": "ভিডিও মুছুন",
+        "message": "আপনি কি নিশ্চিত যে আপনি এই ভিডিওটি মুছতে চান?"
+      },
+      "deleteSuccess": {
+        "title": "সফল",
+        "message": "ভিডিও সফলভাবে মুছে ফেলা হয়েছে।"
+      },
+      "deleteError": {
+        "title": "ত্রুটি",
+        "message": "ভিডিও মুছে ফেলা ব্যর্থ হয়েছে।"
+      }
+    },
+    "errors": {
+      "generalError": "একটি ত্রুটি ঘটেছে।",
+      "profileError": "প্রোফাইল আনতে ব্যর্থ হয়েছে।",
+      "submissionsError": "জমা আনতে ব্যর্থ হয়েছে।"
+    },
+    "loading": {
+      "profile": "প্রোফাইল লোড হচ্ছে...",
+      "submissions": "জমা লোড হচ্ছে..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "প্রোফাইল সম্পাদনা করুন",
+      "cancelButton": "বাতিল করুন",
+      "saveButton": "পরিবর্তনগুলি সংরক্ষণ করুন",
+      "savingButton": "সংরক্ষণ হচ্ছে..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "নামের প্রথম অংশ",
+        "placeholder": "আপনার প্রথম নাম লিখুন",
+        "error": {
+          "tooShort": "প্রথম নাম খুবই ছোট"
+        }
+      },
+      "lastName": {
+        "label": "নামের শেষাংশ",
+        "placeholder": "আপনার শেষ নাম লিখুন",
+        "error": {
+          "tooShort": "শেষ নাম খুবই ছোট"
+        }
+      },
+      "phoneNumber": {
+        "label": "ফোন নম্বর",
+        "placeholder": "আপনার ফোন নম্বর লিখুন",
+        "error": {
+          "invalid": "একটি বৈধ ফোন নম্বর লিখুন"
+        }
+      },
+      "bio": {
+        "label": "বায়ো",
+        "placeholder": "আমাদের আপনার সম্পর্কে বলুন",
+        "error": {
+          "tooLong": "বায়ো ৫০০ অক্ষরের কম হতে হবে"
+        }
+      },
+      "location": {
+        "label": "অবস্থান",
+        "placeholder": "আপনার অবস্থান লিখুন",
+        "error": {
+          "tooLong": "অবস্থান ১০০ অক্ষরের কম হতে হবে"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "ত্রুটি",
+        "message": "প্রোফাইল তথ্য আনতে ব্যর্থ হয়েছে"
+      },
+      "updateSuccess": {
+        "title": "সফল",
+        "message": "প্রোফাইল সফলভাবে আপডেট হয়েছে"
+      },
+      "updateError": {
+        "title": "ত্রুটি",
+        "message": "প্রোফাইল আপডেট করতে ব্যর্থ হয়েছে"
+      }
+    },
+    "loading": {
+      "title": "লোড হচ্ছে..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "লোড হচ্ছে...",
+    "noProfileFound": "কোন প্রোফাইল পাওয়া যায়নি",
+    "authenticationRequired": "প্রমাণীকরণ প্রয়োজন",
+    "pleaseLogIn": "ব্যবহারকারীদের অনুসরণ করতে লগইন করুন।",
+    "success": "সফল",
+    "unfollowSuccess": "আপনি অনুসরণ বন্ধ করেছেন",
+    "followSuccess": "আপনি এখন অনুসরণ করছেন",
+    "error": "ত্রুটি",
+    "followError": "অনুসরণ স্ট্যাটাস আপডেট করতে ব্যর্থ হয়েছে।",
+    "posts": "পোস্ট",
+    "followers": "অনুসারী",
+    "following": "অনুসরণ",
+    "follow": "অনুসরণ করুন",
+    "unfollow": "অনুসরণ বন্ধ করুন",
+    "chat": "চ্যাট"
+  },
+  "settings": {
+    "settings": "সেটিংস",
+    "fontSelected": "নির্বাচিত ফন্ট",
+    "asYourFont": "আপনার ফন্ট হিসেবে সেট করা হয়েছে।",
+    "languageSelected": "নির্বাচিত ভাষা",
+    "asYourLanguage": "আপনার ভাষা হিসেবে সেট করা হয়েছে।",
+    "themeSelected": "নির্বাচিত থিম",
+    "asYourTheme": "আপনার থিম হিসেবে সেট করা হয়েছে।",
+    "notifications": "বিজ্ঞপ্তি",
+    "marketplace": "মার্কেটপ্লেস",
+    "account": "অ্যাকাউন্ট",
+    "themes": "থিম",
+    "fonts": "ফন্ট",
+    "languages": "ভাষা",
+    "signOut": "সাইন আউট",
+    "confirmSignOut": "সাইন আউট নিশ্চিত করুন",
+    "areYouSureSignOut": "আপনি কি নিশ্চিত যে আপনি সাইন আউট করতে চান?",
+    "cancel": "বাতিল করুন",
+    "goBack": "পেছনে যান",
+    "selectFont": "ফন্ট নির্বাচন করুন",
+    "selectLanguage": "ভাষা নির্বাচন করুন",
+    "selectTheme": "থিম নির্বাচন করুন"
+  },
+  "accountDetails": {
+    "settingsTitle": "অ্যাকাউন্ট সেটিংস",
+    "profileSettings": "প্রোফাইল সম্পাদনা করুন",
+    "resetPassword": "পাসওয়ার্ড রিসেট করুন",
+    "deleteAccount": "অ্যাকাউন্ট মুছুন",
+    "resetPasswordModal": {
+      "title": "পাসওয়ার্ড রিসেট করুন",
+      "message": "একটি পাসওয়ার্ড রিসেট ইমেল পাঠানো হবে",
+      "sendEmail": "ইমেল পাঠান",
+      "cancel": "বাতিল করুন"
+    },
+    "deleteAccountModal": {
+      "title": "অ্যাকাউন্ট মুছুন",
+      "message": "আপনি কি নিশ্চিত যে আপনি আপনার অ্যাকাউন্ট মুছতে চান? এই ক্রিয়া ফিরিয়ে আনা যাবে না।",
+      "delete": "মুছুন",
+      "cancel": "বাতিল করুন"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "প্রোফাইল আপডেট হয়েছে",
+        "message": "আপনার প্রোফাইল সফলভাবে আপডেট হয়েছে।"
+      },
+      "profileUpdateError": {
+        "title": "ত্রুটি",
+        "message": "আপনার প্রোফাইল আপডেট করতে ব্যর্থ হয়েছে। দয়া করে আবার চেষ্টা করুন।"
+      },
+      "passwordReset": {
+        "title": "পাসওয়ার্ড রিসেট",
+        "message": "একটি পাসওয়ার্ড রিসেট ইমেল পাঠানো হয়েছে।"
+      },
+      "passwordResetError": {
+        "title": "ত্রুটি",
+        "message": "পাসওয়ার্ড রিসেট ইমেল পাঠাতে ব্যর্থ হয়েছে। দয়া করে আবার চেষ্টা করুন।"
+      },
+      "accountDeleted": {
+        "title": "অ্যাকাউন্ট মুছে ফেলা হয়েছে",
+        "message": "আপনার অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে।"
+      },
+      "accountDeleteError": {
+        "title": "ত্রুটি",
+        "message": "আপনার অ্যাকাউন্ট মুছে ফেলতে ব্যর্থ হয়েছে। দয়া করে আবার চেষ্টা করুন।"
+      }
+    }
+  }
+}

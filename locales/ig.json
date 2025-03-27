@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Chọpụta ihe ịma aka",
+    "thatInspire": "nke na-akpali!",
+    "signUp": "Debanye aha",
+    "signIn": "Banye"
+  },
+  "signUp": {
+    "title": "Debanye aha",
+    "headerMessage": "Mepụta akaụntụ ọhụrụ ka ịmalite.",
+    "form": {
+      "username": {
+        "label": "Aha njirimara",
+        "placeholder": "Họrọ aha njirimara",
+        "validation": {
+          "minLength": "Aha njirimara ga-abụrịrị opekata mpe mkpụrụedemede 3.",
+          "regex": "Username can only contain letters, numbers, and underscores"
+        }
+      },
+      "firstname": {
+        "label": "Aha mbụ",
+        "placeholder": "Tinye aha mbụ gị",
+        "validation": "Aha mbụ ga-abụrịrị opekata mpe mkpụrụedemede 3."
+      },
+      "lastname": {
+        "label": "Aha ikpeazụ",
+        "placeholder": "Tinye aha ikpeazụ gị",
+        "validation": "Aha ikpeazụ ga-abụrịrị opekata mpe mkpụrụedemede 3."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Tinye adreesị email gị",
+        "validation": "Biko tinye adreesị ozi ịntanetị dabara adaba."
+      },
+      "phoneNumber": {
+        "label": "Nọmba ekwentị",
+        "placeholder": "Tinye nọmba ekwentị gị",
+        "validation": "Biko tinye nọmba ekwentị bara uru."
+      },
+      "birthday": {
+        "label": "Ụbọchị ọmụmụ",
+        "placeholder": "YYYY-MM-DD",
+        "validation": {
+          "format": "Ụbọchị ọmụmụ ga-abụrịrị n'ụdị YYYY-MM-DD",
+          "validDate": "Ụbọchị ezighi ezi",
+          "ageRestriction": "Ị ga-abụ 18 ma ọ bụ karịa ka ịmepụta akaụntụ"
+        }
+      },
+      "password": {
+        "label": "Okwuntughe",
+        "placeholder": "Tinye paswọọdụ gị",
+        "validation": {
+          "minLength": "Okwuntughe ga-abụrịrị opekata mpe mkpụrụedemede 8.",
+          "maxLength": "Okwuntughe ga-abụrịrị ihe na-erughị mkpụrụedemede 64.",
+          "uppercase": "Okwuntughe ga-enwerịrị opekata mpe otu mkpụrụedemede ukwu.",
+          "lowercase": "Okwuntughe ga-enwerịrị opekata mpe otu mkpụrụedemede obere.",
+          "numberOrSpecial": "Okwuntughe ga-enwerịrị opekata mpe otu nọmba ma ọ bụ mkpụrụedemede pụrụ iche."
+        },
+        "strength": {
+          "weak": "Adịghị ike",
+          "fair": "Ọmarịcha",
+          "good": "Ọ dị mma",
+          "strong": "siri ike"
+        }
+      },
+      "confirmPassword": {
+        "label": "Kwenye Na Okwuntughe",
+        "placeholder": "Tinyegharịa paswọọdụ gị ọzọ",
+        "validation": "Okwuntughe adabaghị."
+      }
+    },
+    "buttons": {
+      "createAccount": "Mebe akaụntụ",
+      "alreadyHaveAccount": "Ị nwere akaụntụ? Banye"
+    },
+    "alerts": {
+      "error": {
+        "title": "Njehie",
+        "message": "Enwere mperi mgbe ị na-eke akaụntụ gị. Biko nwaa ọzọ."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Site na ịdenye aha ị kwenyere na ị gụọla anyị",
+      "termsOfService": "Usoro ọrụ",
+      "privacyPolicy": "amụma nzuzo",
+      "andAccepted": "ma nabata nke anyi"
+    }
+  },
+  "signIn": {
+    "title": "Banye",
+    "headerMessage": "Tinye nzere gị iji nweta akaụntụ gị.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Okwuntughe",
+      "passwordPlaceholder": "Okwuntughe"
+    },
+    "buttons": {
+      "signIn": "Banye",
+      "forgotPassword": "Chefuru okwuntughe?",
+      "signUp": "Ịnweghị akaụntụ? Debanye aha"
+    },
+    "forgotPassword": {
+      "title": "Chefuru okwuntughe",
+      "prompt": "Biko buru ụzọ tinye email gị n'elu.",
+      "successTitle": "Lelee email gị",
+      "successMessage": "Anyị ezipụla njikọ nrụpụta paswọọdụ na email gị.",
+      "errorTitle": "Tọgharia mperi"
+    },
+    "termsAndPrivacy": {
+      "message": "Site na ịdenye aha ị kwenyere na ị gụọla anyị",
+      "termsOfService": "Usoro ọrụ",
+      "privacyPolicy": "amụma nzuzo",
+      "andAccepted": "ma nabata nke anyi"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Banye mperi"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Ngosipụta ohere ezighi ezi ma ọ bụ na-efu.",
+      "sessionFailed": "Ịtọ oge agaghị.",
+      "invalidPassword": "Biko tinye paswọọdụ dị irè nke opekata mpe mkpụrụedemede 8.",
+      "updateFailed": "Imelite paswọọdụ gị agaghị eme."
+    },
+    "success": {
+      "passwordUpdated": "Emelitela paswọọdụ gị. Biko banye ọzọ."
+    },
+    "title": "Tọgharịa okwuntughe gị",
+    "instructions": "Tinye paswọọdụ ọhụrụ.",
+    "labels": {
+      "newPassword": "Okwuntughe Ọhụrụ"
+    },
+    "placeholders": {
+      "newPassword": "Tinye paswọọdụ ọhụrụ"
+    },
+    "buttons": {
+      "updatePassword": "Melite okwuntughe"
+    }
+  },
+  "tabs": {
+    "home": "Ụlọ",
+    "search": "Chọọ",
+    "create": "Mepụta",
+    "explore": "Asọmpi",
+    "profile": "Profaịlụ",
+    "settings": "Ntọala",
+    "editProfile": "Dezie profaịlụ",
+    "otherUserProfile": "Profaịlụ njirimara ndị ọzọ",
+    "comment": "Ikwu",
+    "contest": "Asọmpi",
+    "challengeDetails": "Nkọwa ịma aka",
+    "submissionDetails": "Nkọwa ntinye",
+    "contestDetails": "Nkọwa asọmpi",
+    "followers": "Ndị na-eso ụzọ",
+    "following": "Na-eso",
+    "account": "Akaụntụ",
+    "notifications": "Amamọkwa",
+    "leaderboard": "Akwụkwọ ndu",
+    "market": "Ahịa",
+    "rewards": "Ụgwọ ọrụ"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Mepụta",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Akara ngosi ụlọ",
+      "search": "Chọọ akara ngosi",
+      "create": "Mepụta akara ngosi",
+      "explore": "Chọgharịa akara ngosi",
+      "profile": "Akara ngosi profaịlụ"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Chọọ ntinye, ndị ọrụ, ihe ịma aka...",
+    "clearSearch": "Kpochapụ ntinye ọchụchọ",
+    "loading": "Na-ebu...",
+    "error": {
+      "title": "Chọọ mperi",
+      "message": "Enwere mperi n'oge ọchụchọ."
+    },
+    "noPreviousSearches": "Enweghị ọchụchọ gara aga.",
+    "previousSearches": "Nchọgharị gara aga",
+    "submissions": {
+      "title": "Nnyefe",
+      "noResults": "Ọnweghị ntinye ahụrụ.",
+      "videoError": {
+        "title": "Mperi vidiyo",
+        "message": "Ịbunye vidiyo a agaghị."
+      }
+    },
+    "users": {
+      "title": "Ndị ọrụ",
+      "noResults": "Ọnweghị ndị ọrụ ahụrụ."
+    },
+    "challenges": {
+      "title": "Ihe ịma aka",
+      "noResults": "Ọnweghị ihe ịma aka ahụrụ.",
+      "videoError": {
+        "title": "Mperi vidiyo",
+        "message": "Ịbunye vidiyo ịma aka agaghị."
+      },
+      "category": "Otu: ",
+      "seasonalTag": "Nke oge",
+      "sponsoredTag": "kwadoro"
+    },
+    "repeatSearch": "Tinyegharịa ọchụchọ maka",
+    "accessibility": {
+      "viewVideo": "Lelee vidiyo akpọrọ",
+      "viewProfile": "Lelee profaịlụ nke",
+      "viewChallenge": "Lelee ihe ịma aka akpọrọ"
+    }
+  },
+  "contest": {
+    "title": "Asọmpi niile",
+    "createContestButton": "Mepụta asọmpi"
+  },
+  "contests": {
+    "noContests": "Enweghị asọmpi ahụrụ.",
+    "error": {
+      "title": "Njehie",
+      "message": "Enwetaghị asọmpi."
+    },
+    "status": {
+      "notStarted": "Amaliteghị",
+      "ongoing": "Na-aga n'ihu",
+      "ended": "Akwụsịla"
+    },
+    "dates": {
+      "start": "Malite: ",
+      "end": "Ọgwụgwụ: ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Lelee nkọwa asọmpi"
+  },
+  "newContest": {
+    "header": {
+      "title": "Mepụta asọmpi ọhụrụ",
+      "backButton": "Azu"
+    },
+    "fields": {
+      "title": {
+        "label": "Aha",
+        "placeholder": "e.g., Summer Dance-Off",
+        "validation": "Achọrọ aha."
+      },
+      "description": {
+        "label": "Nkọwa",
+        "placeholder": "Gịnị bụ asọmpi a gbasara?"
+      },
+      "startDate": {
+        "label": "Ụbọchị mmalite",
+        "placeholder": "YYYY-MM-DD",
+        "validation": "Ụbọchị ngwụcha ga-abụrịrị ụbọchị mmalite."
+      },
+      "endDate": {
+        "label": "Ụbọchị ngwụcha",
+        "placeholder": "YYYY-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Ụgwọ ọrụ mmeri (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Ụgwọ ọrụ onye so na ya (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Nkọwa vidiyo (Nhọrọ)",
+        "noVideoSelected": "Tinye nkọwa vidiyo.",
+        "picked": "Nhọrọ: {filename}",
+        "uploaded": "Ebugoro: Ebugoro vidiyo nke ọma.",
+        "chooseVideoButton": "Họrọ Vidiyo",
+        "uploadVideoButton": "Bulite vidiyo"
+      }
+    },
+    "buttons": {
+      "createContest": "Mepụta asọmpi"
+    },
+    "alerts": {
+      "error": {
+        "title": "Njehie",
+        "pickVideoMessage": "Ịhọrọ vidiyo adaghị.",
+        "uploadVideoMessage": "Ibulite vidiyo agaghị aga.",
+        "createContestMessage": "Ịmepụta asọmpi agaghị."
+      },
+      "success": {
+        "videoUploadMessage": "Ebugoro vidiyo nke ọma!",
+        "createContestMessage": "Emepụtara asọmpi nke ọma!"
+      },
+      "validation": {
+        "noTitle": "Achọrọ aha.",
+        "invalidDates": "Ụbọchị ngwụcha ga-abụrịrị ụbọchị mmalite."
+      },
+      "noSession": {
+        "title": "Ị ga-abanyerịrị iji mepụta asọmpi."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profaịlụ",
+      "settingsButton": "Gaa na Ntọala"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Achọrọ ikike",
+        "message": "Anyị chọrọ ikike ịnweta foto gị."
+      },
+      "errorAlert": {
+        "title": "Njehie",
+        "message": "Ịhọrọ onyonyo adaghị"
+      },
+      "successAlert": {
+        "title": "Ihe ịga nke ọma",
+        "message": "Emelitere foto profaịlụ nke ọma"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Ekekọrịta mperi",
+        "message": "Enweghị ike ịkekọrịta njikọ ntụnye aka."
+      },
+      "successShare": {
+        "title": "Soro m Challenz!",
+        "message": "Hey! Jiri njikọ a ka ịbanye: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Ndị na-eso ụzọ",
+      "viewFollowers": "Lelee ndị na-eso ụzọ"
+    },
+    "following": {
+      "label": "Na-eso",
+      "viewFollowing": "Lelee Ndị na-eso"
+    },
+    "posts": {
+      "label": "Ederede",
+      "viewPosts": "Lelee posts",
+      "noVideos": "Ọnweghị vidiyo ebisara."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Ekwentị",
+      "location": "Ebe",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Enweghị profaịlụ ahụrụ"
+    },
+    "buttons": {
+      "inviteFriends": "Kpọọ ndị enyi",
+      "deleteVideo": "Hichapụ vidiyo",
+      "deleteVideoAlert": {
+        "title": "Hichapụ vidiyo",
+        "message": "Ị ji n'aka na ịchọrọ ihichapụ vidiyo a?"
+      },
+      "deleteSuccess": {
+        "title": "Ihe ịga nke ọma",
+        "message": "Vidiyo ehichapụrụ nke ọma."
+      },
+      "deleteError": {
+        "title": "Njehie",
+        "message": "Ihichapụ vidiyo agaghị."
+      }
+    },
+    "errors": {
+      "generalError": "Enwere mperi.",
+      "profileError": "Ịnweta profaịlụ adịghị.",
+      "submissionsError": "Enwetaghị ntinye."
+    },
+    "loading": {
+      "profile": "Na-ebu profaịlụ...",
+      "submissions": "Na-ebunye ntinye..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Dezie profaịlụ",
+      "cancelButton": "Kagbuo",
+      "saveButton": "Chekwaa mgbanwe",
+      "savingButton": "Na-echekwa..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Aha mbụ",
+        "placeholder": "Tinye aha mbụ gị",
+        "error": {
+          "tooShort": "Aha mbụ dị mkpụmkpụ"
+        }
+      },
+      "lastName": {
+        "label": "Aha ikpeazụ",
+        "placeholder": "Tinye aha ikpeazụ gị",
+        "error": {
+          "tooShort": "Aha ikpeazụ dị mkpụmkpụ"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nọmba ekwentị",
+        "placeholder": "Tinye nọmba ekwentị gị",
+        "error": {
+          "invalid": "Biko tinye nọmba ekwentị bara uru"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Gwa anyị gbasara onwe gị",
+        "error": {
+          "tooLong": "Bio ga-erughị mkpụrụedemede 500"
+        }
+      },
+      "location": {
+        "label": "Ebe",
+        "placeholder": "Tinye ọnọdụ gị",
+        "error": {
+          "tooLong": "Ọnọdụ ga-abụrịrị ihe na-erughị mkpụrụedemede 100"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Njehie",
+        "message": "Ị nweta data profaịlụ agaghị"
+      },
+      "updateSuccess": {
+        "title": "Ihe ịga nke ọma",
+        "message": "Emelitere profaịlụ nke ọma"
+      },
+      "updateError": {
+        "title": "Njehie",
+        "message": "Emelite profaịlụ agaghị eme"
+      }
+    },
+    "loading": {
+      "title": "Na-ebu..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Na-ebu...",
+    "noProfileFound": "Enweghị profaịlụ ahụrụ",
+    "authenticationRequired": "Achọrọ nyocha",
+    "pleaseLogIn": "Biko banye ka iso ndị ọrụ.",
+    "success": "Ihe ịga nke ọma",
+    "unfollowSuccess": "Ị esobeghị",
+    "followSuccess": "Ị na-eso ugbu a",
+    "error": "Njehie",
+    "followError": "Emeliteghị ọkwa nsonye.",
+    "posts": "Ederede",
+    "followers": "Ndị na-eso ụzọ",
+    "following": "Na-eso",
+    "follow": "Soro",
+    "unfollow": "Hapụ",
+    "chat": "Kpaa nkata"
+  },
+  "settings": {
+    "settings": "Ntọala",
+    "fontSelected": "Akara mkpụrụedemede ahọpụtara",
+    "asYourFont": "edobela ka font gị.",
+    "languageSelected": "Asụsụ ahọpụtara",
+    "asYourLanguage": "edobela ka asụsụ gị.",
+    "themeSelected": "Isiokwu ahọpụtara",
+    "asYourTheme": "edobela ka isiokwu gị.",
+    "notifications": "Amamọkwa",
+    "marketplace": "Ebe ahịa",
+    "account": "Akaụntụ",
+    "themes": "Gburugburu",
+    "fonts": "Ụdị mkpụrụedemede",
+    "languages": "Asụsụ",
+    "signOut": "Pụọ",
+    "confirmSignOut": "Kwenye n'ọnụ ụzọ",
+    "areYouSureSignOut": "Ị ji n'aka na ị chọrọ ịpụ?",
+    "cancel": "Kagbuo",
+    "goBack": "Laghachi azụ",
+    "selectFont": "Họrọ Font",
+    "selectLanguage": "Họrọ Asụsụ",
+    "selectTheme": "Họrọ Okwu"
+  },
+  "accountDetails": {
+    "settingsTitle": "Ntọala akaụntụ",
+    "profileSettings": "Dezie profaịlụ",
+    "resetPassword": "Tọgharia okwuntughe",
+    "deleteAccount": "Hichapụ Akaụntụ",
+    "resetPasswordModal": {
+      "title": "Tọgharia okwuntughe",
+      "message": "A ga-ezigara email nrụpụta paswọọdụ",
+      "sendEmail": "Zipu ozi-e",
+      "cancel": "Kagbuo"
+    },
+    "deleteAccountModal": {
+      "title": "Hichapụ Akaụntụ",
+      "message": "Ị ji n'aka na ịchọrọ ihichapụ akaụntụ gị? Enweghị ike imegharị ihe a.",
+      "delete": "Hichapụ",
+      "cancel": "Kagbuo"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Emelitere profaịlụ",
+        "message": "Emelitela profaịlụ gị nke ọma."
+      },
+      "profileUpdateError": {
+        "title": "Njehie",
+        "message": "Imelite profaịlụ gị agaghị eme. Biko nwaa ọzọ."
+      },
+      "passwordReset": {
+        "title": "Tọgharia okwuntughe",
+        "message": "Ezipula email nrụpụta paswọọdụ."
+      },
+      "passwordResetError": {
+        "title": "Njehie",
+        "message": "Izipu email ntọgharị paswọọdụ agaghị. Biko nwaa ọzọ."
+      },
+      "accountDeleted": {
+        "title": "Ehichapụ akaụntụ",
+        "message": "Eehichapụla akaụntụ gị nke ọma."
+      },
+      "accountDeleteError": {
+        "title": "Njehie",
+        "message": "Ihichapụ akaụntụ gị agaghị. Biko nwaa ọzọ."
+      }
+    }
+  }
+}

@@ -1,0 +1,516 @@
+ (NOBRIDGE) ERROR  Error fetching contest: 
+{"code": "PGRST116", "details": "The result contains 0 rows", "hint": null, "message": "JSON object requested, multiple (or no) rows returned"}
+
+
+import React from "react";
+import { View, Text, TouchableOpacity } from "react-native";
+import { router } from "expo-router";
+import { useTheme } from "@/context/theme-context";
+import { colors } from "@/constants/colours";
+import { Card } from "@/components/ui/card";
+import { useFont } from "@/context/font-context";
+import { useTranslation } from "react-i18next";
+import { useSupabase } from "@/context/supabase-provider";
+
+export default function Contest() {
+  const { colorScheme } = useTheme();
+  const { selectedFont } = useFont();
+  const { t } = useTranslation();
+  const { profile } = useSupabase();
+
+  const contestOptions = [
+    ...(profile?.role && profile.role !== "standard" && profile.role !== "minor"
+      ? [{ id: 1, label: "Create a Contest", route: "(app)/contestform" }]
+      : []),
+    { id: 2, label: "Watch Contests", route: "(app)/contestWatch" },
+    // { id: 3, label: "Join Contests", route: "(app)/contestWatch" },
+  ];
+  return (
+    <View
+      style={{
+        flex: 1,
+        backgroundColor: colors[colorScheme]?.foreground,
+        padding: 16,
+      }}
+    >
+      <Text
+        style={{
+          fontSize: 24,
+          color: colors[colorScheme]?.cardForeground,
+          marginBottom: 16,
+          fontFamily: selectedFont,
+        }}
+      >
+        Contests
+      </Text>
+      {contestOptions.map((option) => (
+        <Card
+          key={option.id}
+          variant="elevated"
+          style={{
+            backgroundColor: colors[colorScheme]?.background,
+            marginBottom: 16,
+            padding: 16,
+            borderRadius: 8,
+          }}
+        >
+          <TouchableOpacity
+            style={{
+              borderRadius: 8,
+
+              justifyContent: "center",
+              alignItems: "flex-start",
+              paddingVertical: 12,
+              paddingHorizontal: 16,
+            }}
+            onPress={() => router.push(`/${option.route}`)}
+          >
+            <Text
+              className="uppercase"
+              style={{
+                color: colors[colorScheme]?.card,
+                fontSize: 18,
+                fontFamily: selectedFont,
+              }}
+            >
+              {option.label}
+            </Text>
+          </TouchableOpacity>
+        </Card>
+      ))}
+    </View>
+  );
+}
+
+
+//  app/(app)/contestWatch.tsx
+
+import React from "react";
+import { SafeAreaView } from "@/components/safe-area-view";
+import { colors } from "@/constants/colours";
+import { useFont } from "@/context/font-context";
+import { useTheme } from "@/context/theme-context";
+import ContestWatchCategory from "@/components/exploremore/contests/watchCategory";
+
+export default function Contestform() {
+  const { colorScheme } = useTheme();
+  const { selectedFont } = useFont();
+
+  return (
+    <SafeAreaView
+      style={{
+        backgroundColor: colors[colorScheme]?.foreground,
+        fontFamily: selectedFont,
+        height:"100%",
+      }}
+    >
+      <ContestWatchCategory />
+    </SafeAreaView>
+  );
+}
+
+
+import React from "react";
+import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import { router } from "expo-router";
+import { useTheme } from "@/context/theme-context";
+import { colors } from "@/constants/colours";
+import { Card } from "@/components/ui/card";
+import { useFont } from "@/context/font-context";
+import { useTranslation } from "react-i18next";
+import { useSupabase } from "@/context/supabase-provider";
+import { Ionicons } from "@expo/vector-icons";
+
+const contestCategories = [
+  {
+    title: "Contest Categories",
+    data: [
+      "Entertainment, Creative, Artistic",
+      "Education",
+      "Animal & Environment",
+      "Health, Fitness & Well-being",
+      "Culture & Social Good",
+      "Festivals",
+    ],
+  },
+  { title: "Comedy", data: ["Comedy"] },
+  { title: "Short-Films", data: ["Short-Films"] },
+];
+
+export default function ContestWatchCategory() {
+  const { colorScheme } = useTheme();
+  const { selectedFont } = useFont();
+
+  return (
+    <ScrollView
+      style={{
+        flex: 1,
+        backgroundColor: colors[colorScheme]?.muted,
+        padding: 16,
+      }}
+    >
+      {contestCategories.map((section, index) => (
+        <View
+          key={index}
+          style={{
+            marginBottom: 16,
+            backgroundColor: colors[colorScheme]?.muted,
+          }}
+        >
+          <Text
+            style={{
+              fontSize: 20,
+              marginBottom: 8,
+              color: colors[colorScheme]?.background,
+            }}
+          >
+            {section.title}
+          </Text>
+          {section.data.map((category, idx) => (
+            <Card
+              key={idx}
+              style={{
+                backgroundColor: colors[colorScheme]?.card,
+                padding: 16,
+                borderRadius: 0,
+              }}
+            >
+              <TouchableOpacity
+                style={{
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+                onPress={() =>
+                  router.push(
+                    `/contestList`
+                  )
+                }
+              >
+                <Text
+                  style={{
+                    fontSize: 16,
+                    color: colors[colorScheme]?.cardForeground,
+                  }}
+                >
+                  {category}
+                </Text>
+
+                <Ionicons
+                  name="chevron-forward"
+                  size={20}
+                  color={colors[colorScheme]?.cardForeground}
+                />
+              </TouchableOpacity>
+            </Card>
+          ))}
+        </View>
+      ))}
+    </ScrollView>
+  );
+}
+
+
+// app/(app)/(protected)/contestList
+import { View, Text } from 'react-native'
+import React from 'react'
+import Contests from '@/components/exploremore/contests/contests'
+
+export default function ContestList() {
+  return (
+    <View>
+      <Contests />
+    </View>
+  )
+}
+
+
+// // components/exploremore/contests/contests.tsx
+
+import { router } from "expo-router";
+import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  FlatList,
+  Alert,
+  RefreshControl,
+} from "react-native";
+
+import { supabase } from "@/config/supabase";
+import { colors } from "@/constants/colours";
+import { useFont } from "@/context/font-context";
+import { useTheme } from "@/context/theme-context";
+
+type Contest = {
+  id: string;
+  title: string;
+  description?: string;
+  start_date?: string;
+  end_date?: string;
+  winner_reward?: number;
+  participant_reward?: number;
+  created_at?: string;
+  updated_at?: string;
+};
+
+export default function Contests() {
+  const { colorScheme } = useTheme();
+  const { selectedFont } = useFont();
+  const { t } = useTranslation();
+
+  const [contests, setContests] = useState<Contest[]>([]);
+  const [refreshing, setRefreshing] = useState(false);
+
+  useEffect(() => {
+    fetchContests();
+  }, []);
+
+  const fetchContests = async () => {
+    try {
+      const { data, error } = await supabase
+        .from("contests")
+        .select("*")
+        .order("created_at", { ascending: false });
+
+      if (error) throw error;
+
+      setContests(data || []);
+    } catch (error) {
+      console.error("Error fetching contests:", error);
+      Alert.alert(t("contests.error.title"), t("contests.error.message"));
+    }
+  };
+
+  const onRefresh = async () => {
+    setRefreshing(true);
+    await fetchContests();
+    setRefreshing(false);
+  };
+
+  const getStatus = (startDate?: string, endDate?: string): string => {
+    const now = new Date();
+    const start = startDate ? new Date(startDate) : null;
+    const end = endDate ? new Date(endDate) : null;
+
+    if (start && now < start) return t("contests.status.notStarted");
+    if (end && now > end) return t("contests.status.ended");
+    return t("contests.status.ongoing");
+  };
+
+  const renderItem = ({ item }: { item: Contest }) => {
+    const status = getStatus(item.start_date, item.end_date);
+
+    // Define colors based on status
+    let statusColor = "";
+    let cardBorderColor = colors[colorScheme]?.border;
+    switch (status) {
+      case t("contests.status.notStarted"):
+        statusColor = "text-yellow-400";
+        break;
+      case t("contests.status.ongoing"):
+        statusColor = "text-green-400";
+        cardBorderColor = "rgba(29, 197, 94, 0.2)";
+        break;
+      case t("contests.status.ended"):
+        statusColor = "text-red-400";
+        break;
+      default:
+        statusColor = "text-gray-400";
+    }
+
+    return (
+      <TouchableOpacity
+        className="px-4"
+        style={{
+          flexDirection: "column",
+          justifyContent: "space-between",
+          paddingVertical: 28,
+          paddingHorizontal: 12,
+          margin: 8,
+          borderRadius: 8,
+          borderWidth: 1,
+          borderStyle:"dotted",
+          borderColor: cardBorderColor,
+          backgroundColor: colors[colorScheme]?.card,
+        }}
+        onPress={() =>
+          router.push({
+            pathname: "../contestDetails",
+            params: { contestId: item.id },
+          })
+        }
+      >
+        <Text
+          style={{
+            color: colors[colorScheme]?.cardForeground,
+            fontFamily: selectedFont,
+            // fontWeight:"bold"
+          }}
+          className="text-lg"
+        >
+          {item.title}
+        </Text>
+        {item.description ? (
+          <Text
+            style={{
+              color: colors[colorScheme]?.mutedForeground,
+              fontFamily: selectedFont,
+            }}
+          >
+            {item.description}
+          </Text>
+        ) : null}
+        <Text className={`${statusColor} font-semibold mt-1`}>{status}</Text>
+        <Text
+          style={{ color: colors[colorScheme]?.mutedForeground }}
+          className="mt-0.5"
+        >
+          {t("contests.dates.start")}
+          {item.start_date ?? t("contests.dates.notAvailable")} |{" "}
+          {t("contests.dates.end")}
+          {item.end_date ?? t("contests.dates.notAvailable")}
+        </Text>
+      </TouchableOpacity>
+    );
+  };
+
+  return (
+    <View
+      style={{ backgroundColor: colors[colorScheme]?.background }}
+      // className={`bg-slate-900`}
+    >
+      <FlatList
+        data={contests}
+        keyExtractor={(item) => item.id}
+        renderItem={renderItem}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
+        ListEmptyComponent={() => (
+          <View className="mt-10 items-center">
+            <Text
+              style={{ color: colors[colorScheme]?.destructive }}
+              // className={`text-red-500`}
+            >
+              {t("contests.noContests")}
+            </Text>
+          </View>
+        )}
+      />
+    </View>
+  );
+}
+
+[
+  {
+    "column_name": "id",
+    "data_type": "uuid",
+    "is_nullable": "NO",
+    "column_default": "uuid_generate_v4()"
+  },
+  {
+    "column_name": "creator_id",
+    "data_type": "uuid",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "challenge_id",
+    "data_type": "uuid",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "title",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "column_name": "description",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "category",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "is_sponsored",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": "false"
+  },
+  {
+    "column_name": "start_date",
+    "data_type": "date",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "end_date",
+    "data_type": "date",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": "now()"
+  },
+  {
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": "now()"
+  },
+  {
+    "column_name": "winner_reward",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": "100"
+  },
+  {
+    "column_name": "participant_reward",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": "10"
+  },
+  {
+    "column_name": "explanation_video_url",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "is_rewarded",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": "false"
+  },
+  {
+    "column_name": "sightengine_media_id",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "column_name": "moderation_status",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": "'pending'::text"
+  },
+  {
+    "column_name": "sponsor_name",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  }
+]

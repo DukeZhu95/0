@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Odkrywaj Wyzwania",
+    "thatInspire": "które inspirują!",
+    "signUp": "Zarejestruj się",
+    "signIn": "Zaloguj się"
+  },
+  "signUp": {
+    "title": "Zarejestruj się",
+    "headerMessage": "Utwórz nowe konto, aby zacząć.",
+    "form": {
+      "username": {
+        "label": "Nazwa użytkownika",
+        "placeholder": "Wybierz nazwę użytkownika",
+        "validation": {
+          "minLength": "Nazwa użytkownika musi mieć co najmniej 3 znaki.",
+          "regex": "Nazwa użytkownika może zawierać tylko litery, cyfry i podkreślenia."
+        }
+      },
+      "firstname": {
+        "label": "Imię",
+        "placeholder": "Wprowadź swoje imię",
+        "validation": "Imię musi mieć co najmniej 3 znaki."
+      },
+      "lastname": {
+        "label": "Nazwisko",
+        "placeholder": "Wprowadź swoje nazwisko",
+        "validation": "Nazwisko musi mieć co najmniej 3 znaki."
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Wprowadź swój adres e-mail",
+        "validation": "Proszę wprowadzić prawidłowy adres e-mail."
+      },
+      "phoneNumber": {
+        "label": "Numer telefonu",
+        "placeholder": "Wprowadź swój numer telefonu",
+        "validation": "Proszę wprowadzić prawidłowy numer telefonu."
+      },
+      "birthday": {
+        "label": "Data urodzenia",
+        "placeholder": "RRRR-MM-DD",
+        "validation": {
+          "format": "Data urodzenia musi być w formacie RRRR-MM-DD.",
+          "validDate": "Nieprawidłowa data",
+          "ageRestriction": "Aby utworzyć konto, musisz mieć co najmniej 18 lat."
+        }
+      },
+      "password": {
+        "label": "Hasło",
+        "placeholder": "Wprowadź swoje hasło",
+        "validation": {
+          "minLength": "Hasło musi mieć co najmniej 8 znaków.",
+          "maxLength": "Hasło musi mieć mniej niż 64 znaki.",
+          "uppercase": "Hasło musi zawierać przynajmniej jedną wielką literę.",
+          "lowercase": "Hasło musi zawierać przynajmniej jedną małą literę.",
+          "numberOrSpecial": "Hasło musi zawierać przynajmniej jedną cyfrę lub znak specjalny."
+        },
+        "strength": {
+          "weak": "Słabe",
+          "fair": "Średnie",
+          "good": "Dobre",
+          "strong": "Silne"
+        }
+      },
+      "confirmPassword": {
+        "label": "Potwierdź Hasło",
+        "placeholder": "Wprowadź swoje hasło ponownie",
+        "validation": "Hasła nie są zgodne."
+      }
+    },
+    "buttons": {
+      "createAccount": "Utwórz Konto",
+      "alreadyHaveAccount": "Masz już konto? Zaloguj się"
+    },
+    "alerts": {
+      "error": {
+        "title": "Błąd",
+        "message": "Wystąpił błąd podczas tworzenia konta. Spróbuj ponownie."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Rejestrując się, zgadzasz się, że przeczytałeś nasze",
+      "termsOfService": "Warunki Usługi",
+      "privacyPolicy": "Politykę Prywatności",
+      "andAccepted": "i je zaakceptowałeś"
+    }
+  },
+  "signIn": {
+    "title": "Zaloguj się",
+    "headerMessage": "Wprowadź swoje dane logowania, aby uzyskać dostęp do konta.",
+    "form": {
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "password": "Hasło",
+      "passwordPlaceholder": "Hasło"
+    },
+    "buttons": {
+      "signIn": "Zaloguj się",
+      "forgotPassword": "Zapomniałeś hasła?",
+      "signUp": "Nie masz konta? Zarejestruj się"
+    },
+    "forgotPassword": {
+      "title": "Zapomniałeś hasła",
+      "prompt": "Najpierw wprowadź swój adres e-mail powyżej.",
+      "successTitle": "Sprawdź swoją e-mail",
+      "successMessage": "Wysłaliśmy link do zresetowania hasła na Twój adres e-mail.",
+      "errorTitle": "Błąd resetu"
+    },
+    "termsAndPrivacy": {
+      "message": "Rejestrując się, zgadzasz się, że przeczytałeś nasze",
+      "termsOfService": "Warunki Usługi",
+      "privacyPolicy": "Politykę Prywatności",
+      "andAccepted": "i je zaakceptowałeś"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Błąd logowania"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Nieprawidłowy lub brakujący token dostępu.",
+      "sessionFailed": "Nie udało się utworzyć sesji.",
+      "invalidPassword": "Proszę wprowadzić prawidłowe hasło o długości co najmniej 8 znaków.",
+      "updateFailed": "Aktualizacja hasła nie powiodła się."
+    },
+    "success": {
+      "passwordUpdated": "Twoje hasło zostało zaktualizowane. Zaloguj się ponownie."
+    },
+    "title": "Zresetuj swoje hasło",
+    "instructions": "Wprowadź nowe hasło.",
+    "labels": {
+      "newPassword": "Nowe Hasło"
+    },
+    "placeholders": {
+      "newPassword": "Wprowadź nowe hasło"
+    },
+    "buttons": {
+      "updatePassword": "Zaktualizuj Hasło"
+    }
+  },
+  "tabs": {
+    "home": "Strona Główna",
+    "search": "Szukaj",
+    "create": "Utwórz",
+    "explore": "Konkursy",
+    "profile": "Profil",
+    "settings": "Ustawienia",
+    "editProfile": "Edytuj Profil",
+    "otherUserProfile": "Profil Innego Użytkownika",
+    "comment": "Komentarz",
+    "contest": "Konkurs",
+    "challengeDetails": "Szczegóły Wyzwania",
+    "submissionDetails": "Szczegóły Zgłoszenia",
+    "contestDetails": "Szczegóły Konkursu",
+    "followers": "Obserwujący",
+    "following": "Obserwuję",
+    "account": "Konto",
+    "notifications": "Powiadomienia",
+    "leaderboard": "Ranking",
+    "market": "Rynek",
+    "rewards": "Nagrody"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Utwórz",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Ikona Strony Głównej",
+      "search": "Ikona Szukania",
+      "create": "Ikona Tworzenia",
+      "explore": "Ikona Eksploracji",
+      "profile": "Ikona Profilu"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Szukaj zgłoszeń, użytkowników, wyzwań...",
+    "clearSearch": "Wyczyść wyszukiwanie",
+    "loading": "Ładowanie...",
+    "error": {
+      "title": "Błąd wyszukiwania",
+      "message": "Wystąpił błąd podczas wyszukiwania."
+    },
+    "noPreviousSearches": "Brak wcześniejszych wyszukiwań.",
+    "previousSearches": "Poprzednie wyszukiwania",
+    "submissions": {
+      "title": "Zgłoszenia",
+      "noResults": "Nie znaleziono zgłoszeń.",
+      "videoError": {
+        "title": "Błąd wideo",
+        "message": "Nie udało się załadować wideo."
+      }
+    },
+    "users": {
+      "title": "Użytkownicy",
+      "noResults": "Nie znaleziono użytkowników."
+    },
+    "challenges": {
+      "title": "Wyzwania",
+      "noResults": "Nie znaleziono wyzwań.",
+      "videoError": {
+        "title": "Błąd wideo",
+        "message": "Nie udało się załadować wideo wyzwania."
+      },
+      "category": "Kategoria: ",
+      "seasonalTag": "Sezonowe",
+      "sponsoredTag": "Sponsorowane"
+    },
+    "repeatSearch": "Powtórz wyszukiwanie dla",
+    "accessibility": {
+      "viewVideo": "Zobacz wideo z tytułem",
+      "viewProfile": "Zobacz profil użytkownika",
+      "viewChallenge": "Zobacz wyzwanie z tytułem"
+    }
+  },
+  "contest": {
+    "title": "Wszystkie Konkursy",
+    "createContestButton": "Utwórz Konkurs"
+  },
+  "contests": {
+    "noContests": "Nie znaleziono konkursów.",
+    "error": {
+      "title": "Błąd",
+      "message": "Nie udało się pobrać konkursów."
+    },
+    "status": {
+      "notStarted": "Nie rozpoczęty",
+      "ongoing": "W trakcie",
+      "ended": "Zakończony"
+    },
+    "dates": {
+      "start": "Start: ",
+      "end": "Koniec: ",
+      "notAvailable": "N/D"
+    },
+    "contestDetailsButton": "Zobacz szczegóły konkursu"
+  },
+  "newContest": {
+    "header": {
+      "title": "Utwórz Nowy Konkurs",
+      "backButton": "Wstecz"
+    },
+    "fields": {
+      "title": {
+        "label": "Tytuł",
+        "placeholder": "np. Letni Konkurs Taneczny",
+        "validation": "Tytuł jest wymagany."
+      },
+      "description": {
+        "label": "Opis",
+        "placeholder": "O czym jest ten konkurs?"
+      },
+      "startDate": {
+        "label": "Data rozpoczęcia",
+        "placeholder": "RRRR-MM-DD",
+        "validation": "Data zakończenia musi być po dacie rozpoczęcia."
+      },
+      "endDate": {
+        "label": "Data zakończenia",
+        "placeholder": "RRRR-MM-DD"
+      },
+      "winnerReward": {
+        "label": "Nagroda dla zwycięzcy (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Nagroda dla uczestników (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Wideo wyjaśniające (opcjonalnie)",
+        "noVideoSelected": "Dodaj wideo wyjaśniające.",
+        "picked": "Wybrane: {filename}",
+        "uploaded": "Załadowane: Wideo zostało pomyślnie załadowane.",
+        "chooseVideoButton": "Wybierz wideo",
+        "uploadVideoButton": "Załaduj wideo"
+      }
+    },
+    "buttons": {
+      "createContest": "Utwórz Konkurs"
+    },
+    "alerts": {
+      "error": {
+        "title": "Błąd",
+        "pickVideoMessage": "Wystąpił błąd podczas wyboru wideo.",
+        "uploadVideoMessage": "Wystąpił błąd podczas ładowania wideo.",
+        "createContestMessage": "Wystąpił błąd podczas tworzenia konkursu."
+      },
+      "success": {
+        "videoUploadMessage": "Wideo zostało pomyślnie załadowane!",
+        "createContestMessage": "Konkurs został pomyślnie utworzony!"
+      },
+      "validation": {
+        "noTitle": "Tytuł jest wymagany.",
+        "invalidDates": "Data zakończenia musi być po dacie rozpoczęcia."
+      },
+      "noSession": {
+        "title": "Musisz być zalogowany, aby utworzyć konkurs."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Przejdź do ustawień"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Wymagane uprawnienia",
+        "message": "Potrzebujemy uprawnień do dostępu do Twoich zdjęć."
+      },
+      "errorAlert": {
+        "title": "Błąd",
+        "message": "Wystąpił błąd podczas wyboru obrazka."
+      },
+      "successAlert": {
+        "title": "Sukces",
+        "message": "Obraz profilowy został pomyślnie zaktualizowany."
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Błąd udostępniania",
+        "message": "Nie udało się udostępnić linku referencyjnego."
+      },
+      "successShare": {
+        "title": "Dołącz do mnie na Challenz!",
+        "message": "Cześć! Użyj tego linku, aby się zarejestrować: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Obserwujący",
+      "viewFollowers": "Zobacz Obserwujących"
+    },
+    "following": {
+      "label": "Obserwuję",
+      "viewFollowing": "Zobacz Obserwowanych"
+    },
+    "posts": {
+      "label": "Posty",
+      "viewPosts": "Zobacz Posty",
+      "noVideos": "Jeszcze nie opublikowano żadnych wideo."
+    },
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "location": "Lokalizacja",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Nie znaleziono profilu"
+    },
+    "buttons": {
+      "inviteFriends": "Udostępnij link referencyjny",
+      "deleteVideo": "Usuń wideo",
+      "deleteVideoAlert": {
+        "title": "Usuń wideo",
+        "message": "Czy na pewno chcesz usunąć to wideo?"
+      },
+      "deleteSuccess": {
+        "title": "Sukces",
+        "message": "Wideo zostało pomyślnie usunięte."
+      },
+      "deleteError": {
+        "title": "Błąd",
+        "message": "Nie udało się usunąć wideo."
+      }
+    },
+    "errors": {
+      "generalError": "Wystąpił błąd.",
+      "profileError": "Nie udało się załadować profilu.",
+      "submissionsError": "Nie udało się załadować zgłoszeń."
+    },
+    "loading": {
+      "profile": "Ładowanie profilu...",
+      "submissions": "Ładowanie zgłoszeń..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Edytuj Profil",
+      "cancelButton": "Anuluj",
+      "saveButton": "Zapisz Zmiany",
+      "savingButton": "Zapisywanie..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Imię",
+        "placeholder": "Wprowadź swoje imię",
+        "error": {
+          "tooShort": "Imię jest za krótkie"
+        }
+      },
+      "lastName": {
+        "label": "Nazwisko",
+        "placeholder": "Wprowadź swoje nazwisko",
+        "error": {
+          "tooShort": "Nazwisko jest za krótkie"
+        }
+      },
+      "phoneNumber": {
+        "label": "Numer telefonu",
+        "placeholder": "Wprowadź swój numer telefonu",
+        "error": {
+          "invalid": "Proszę wprowadzić prawidłowy numer telefonu"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Opowiedz nam o sobie",
+        "error": {
+          "tooLong": "Bio musi mieć mniej niż 500 znaków"
+        }
+      },
+      "location": {
+        "label": "Lokalizacja",
+        "placeholder": "Wprowadź swoją lokalizację",
+        "error": {
+          "tooLong": "Lokalizacja musi mieć mniej niż 100 znaków"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Błąd",
+        "message": "Nie udało się załadować danych profilu."
+      },
+      "updateSuccess": {
+        "title": "Sukces",
+        "message": "Profil został pomyślnie zaktualizowany."
+      },
+      "updateError": {
+        "title": "Błąd",
+        "message": "Nie udało się zaktualizować profilu."
+      }
+    },
+    "loading": {
+      "title": "Ładowanie..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Ładowanie...",
+    "noProfileFound": "Nie znaleziono profilu",
+    "authenticationRequired": "Wymagana autoryzacja",
+    "pleaseLogIn": "Zaloguj się, aby obserwować użytkowników.",
+    "success": "Sukces",
+    "unfollowSuccess": "Przestałeś obserwować",
+    "followSuccess": "Obserwujesz teraz",
+    "error": "Błąd",
+    "followError": "Nie udało się zaktualizować statusu obserwacji.",
+    "posts": "Posty",
+    "followers": "Obserwujący",
+    "following": "Obserwuję",
+    "follow": "Obserwuj",
+    "unfollow": "Przestań obserwować",
+    "chat": "Czat"
+  },
+  "settings": {
+    "settings": "Ustawienia",
+    "fontSelected": "Wybrany font",
+    "asYourFont": "został ustawiony jako twój font.",
+    "languageSelected": "Wybrany język",
+    "asYourLanguage": "został ustawiony jako twój język.",
+    "themeSelected": "Wybrany motyw",
+    "asYourTheme": "został ustawiony jako twój motyw.",
+    "notifications": "Powiadomienia",
+    "marketplace": "Marketplace",
+    "account": "Konto",
+    "themes": "Motywy",
+    "fonts": "Fonty",
+    "languages": "Języki",
+    "signOut": "Wyloguj się",
+    "confirmSignOut": "Potwierdź wylogowanie",
+    "areYouSureSignOut": "Czy na pewno chcesz się wylogować?",
+    "cancel": "Anuluj",
+    "goBack": "Wróć",
+    "selectFont": "Wybierz font",
+    "selectLanguage": "Wybierz język",
+    "selectTheme": "Wybierz motyw"
+  },
+  "accountDetails": {
+    "settingsTitle": "Ustawienia konta",
+    "profileSettings": "Edytuj profil",
+    "resetPassword": "Zresetuj hasło",
+    "deleteAccount": "Usuń konto",
+    "resetPasswordModal": {
+      "title": "Zresetuj hasło",
+      "message": "E-mail do resetowania hasła zostanie wysłany na",
+      "sendEmail": "Wyślij e-mail",
+      "cancel": "Anuluj"
+    },
+    "deleteAccountModal": {
+      "title": "Usuń konto",
+      "message": "Czy na pewno chcesz usunąć swoje konto? Ta operacja jest nieodwracalna.",
+      "delete": "Usuń",
+      "cancel": "Anuluj"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil zaktualizowany",
+        "message": "Twój profil został pomyślnie zaktualizowany."
+      },
+      "profileUpdateError": {
+        "title": "Błąd",
+        "message": "Nie udało się zaktualizować profilu. Spróbuj ponownie."
+      },
+      "passwordReset": {
+        "title": "Hasło zresetowane",
+        "message": "E-mail do resetowania hasła został wysłany."
+      },
+      "passwordResetError": {
+        "title": "Błąd",
+        "message": "Nie udało się wysłać e-maila do resetowania hasła. Spróbuj ponownie."
+      },
+      "accountDeleted": {
+        "title": "Konto usunięte",
+        "message": "Twoje konto zostało pomyślnie usunięte."
+      },
+      "accountDeleteError": {
+        "title": "Błąd",
+        "message": "Nie udało się usunąć konta. Spróbuj ponownie."
+      }
+    }
+  }
+}

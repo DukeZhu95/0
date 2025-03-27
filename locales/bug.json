@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Jelajahi Tanntangeng",
+      "thatInspire": "iya mannennungeng!",
+      "signUp": "Daftarakki",
+      "signIn": "Uttama"
+    },
+    "signUp": {
+      "title": "Daftarakki",
+      "headerMessage": "Ebbu akun baru untuk mammulai.",
+      "businessTitle": "Daftar sebagai Bisnis",
+      "headerMessageBusiness": "Ebbu akun bisnis untuk mammulai.",
+      "form": {
+        "username": {
+          "label": "Aseng Pabbangung",
+          "placeholder": "Pile aseng pabbangung",
+          "validation": {
+            "minLength": "Aseng pabbangung haruski minimal 3 karakter.",
+            "regex": "Aseng pabbangung bisamua hanya menggunakan huruf, angka, sibawa garis bawah"
+          }
+        },
+        "firstname": {
+          "label": "Aseng Yolo",
+          "placeholder": "Attamaki aseng yolota",
+          "validation": "Aseng yolo haruski minimal 3 karakter."
+        },
+        "lastname": {
+          "label": "Aseng Paccappa",
+          "placeholder": "Attamaki aseng paccappata",
+          "validation": "Aseng paccappa haruski minimal 3 karakter."
+        },
+        "businessName": {
+          "label": "Aseng Bisnis",
+          "placeholder": "Attamaki aseng bisnismu",
+          "validation": "Aseng bisnis haruski minimal 3 karakter."
+        },
+        "website": {
+          "label": "Situs Web Bisnis",
+          "placeholder": "Attamaki situs webmu",
+          "validation": "Aseng bisnis haruski minimal 3 karakter."
+        },
+        "businessType": {
+          "label": "Jenis Bisnis",
+          "placeholder": "Jenis Bisnis",
+          "validation": "Aseng bisnis haruski minimal 3 karakter."
+        },
+        "email": {
+          "label": "Surek",
+          "placeholder": "Attamaki alamat surekmu",
+          "validation": "Tulisangi alamat surek engka bettuangna."
+        },
+        "phoneNumber": {
+          "label": "Nomoro Telpon",
+          "placeholder": "Attamaki nomoro telponmu",
+          "validation": "Tulisangi nomoro telpon engka bettuangna."
+        },
+        "birthday": {
+          "title": "Esso Jajingmu",
+          "label": "Esso Jajingmu",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Esso jajing haruski dalam format DD-MM-YYYY",
+            "validDate": "Tanggal de naengka bettuanna",
+            "ageRestriction": "Harusko umuru 18 taung atau lebbi untuk mammebbu akun"
+          }
+        },
+        "password": {
+          "label": "Kunci Rahasiya",
+          "placeholder": "Attamaki kunci rahasiyamu",
+          "validation": {
+            "minLength": "Kunci rahasiya haruski minimal 8 karakter.",
+            "maxLength": "Kunci rahasiya haruski maksimal 64 karakter.",
+            "uppercase": "Kunci rahasiya haruski mengandung minimal seddi huruf kapital.",
+            "lowercase": "Kunci rahasiya haruski mengandung minimal seddi huruf kecil.",
+            "numberOrSpecial": "Kunci rahasiya haruski mengandung minimal seddi angka atau karakter khusus."
+          },
+          "strength": {
+            "weak": "Lamma",
+            "fair": "Cukup",
+            "good": "Makessing",
+            "strong": "Mawatang"
+          }
+        },
+        "confirmPassword": {
+          "label": "Pattantu Kunci Rahasiya",
+          "placeholder": "Attama poleki kunci rahasiyamu",
+          "validation": "Kunci rahasiya de naccocok."
+        }
+      },
+      "buttons": {
+        "createAccount": "Ebbu Akun",
+        "alreadyHaveAccount": "Engkaga makkampungi akun?",
+        "signIn": "Uttama",
+        "businessJoin": "Gabung Challenz sebagai mitra bisnis"
+      },
+      "alerts": {
+        "error": {
+          "title": "Asalang",
+          "message": "Asalang jaji wettunna mammebbu akunmu. Tulisangi dicoba paimeng."
+        },
+        "passwordMismatch": {
+          "title": "Kunci Rahasiya De Naccocok",
+          "message": "Kunci rahasiya salah. Tulisangi dicoba paimeng."
+        },
+        "agreementRequired": {
+          "title": "Persetujuan Riparelluki",
+          "message": "Tulisangi tarima Ketentuan Layanan sibawa Kebijakan Privasi."
+        },
+        "success": {
+          "title": "Berhasil",
+          "message": "Akun berhasil riebbu."
+        },
+        "signUpError": {
+          "title": "Asalang Daftar",
+          "message": "Asalang jaji wettunna mammebbu akunmu. Tulisangi dicoba paimeng."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Dengenna daftar iko massuro setuju iya purana mabbaca",
+        "termsOfService": "Ketentuan Layanan",
+        "privacyPolicy": "Kebijakan Privasi",
+        "andAccepted": "sibawa tarima"
+      }
+    },
+    "signIn": {
+      "title": "Uttama",
+      "headerMessage": "Attamaki identitasmu untuk mengakses akunmu.",
+      "form": {
+        "email": "Surek",
+        "emailPlaceholder": "Attamaki Surekmu",
+        "password": "Kunci Rahasiya",
+        "passwordPlaceholder": "Attamaki Kunci Rahasiyamu"
+      },
+      "buttons": {
+        "signIn": "Uttama",
+        "forgotPassword": "Salai Kunci Rahasiya?",
+        "noAccount": "Degaga akun?",
+        "signUp": " Daftarakki"
+      },
+      "forgotPassword": {
+        "title": "Salai Kunci Rahasiya",
+        "prompt": "Tulisangi attamaki surekmu riyolo.",
+        "successTitle": "Periksa surekmu",
+        "successMessage": "Idi' purana kiringi tautan reset kunci rahasiya lao ri surekmu.",
+        "errorTitle": "Asalang Reset"
+      },
+      "termsAndPrivacy": {
+        "message": "Dengenna daftar iko massuro setuju iya purana mabbaca",
+        "termsOfService": "Ketentuan Layanan",
+        "privacyPolicy": "Kebijakan Privasi",
+        "andAccepted": "sibawa tarima"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Asalang Uttama"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Salai Kunci Rahasiya",
+      "description": "Attamaki alamat surekmu ri yawa sibawa idi' nakiringangki tautan untuk mereset kunci rahasiyamu.",
+      "form": {
+        "email": "Alamat Surek"
+      },
+      "buttons": {
+        "reset": "Reset Kunci Rahasiya",
+        "sending": "Mangirim...",
+        "remembered": "Naengngerangki kunci rahasiyamu?",
+        "signIn": "Uttama"
+      },
+      "alerts": {
+        "enterEmail": "Tulisangi attamaki alamat surekmu.",
+        "checkEmail": "Periksa surekmu untuk tautan reset.",
+        "resetError": "Gagal reset kunci rahasiya"
+      }
+    },
+    "resetPassword": {
+      "title": "Perbaharui Kunci Rahasiya",
+      "description": "Attamaki kunci rahasiya barumu ri yawa untuk mereset kunci rahasiya akunmu.",
+      "form": {
+        "newPassword": "Attamaki kunci rahasiya baru",
+        "confirmPassword": "Pattantu kunci rahasiya baru"
+      },
+      "alerts": {
+        "enterBothPasswords": "Tulisangi attamaki dua-duanna kolom kunci rahasiya.",
+        "passwordMismatch": "Kunci rahasiya de naccocok. Tulisangi dicoba paimeng.",
+        "success": "Kunci rahasiyamu berhasil riperbaharui.",
+        "updateError": "Asalang wettunna mammerbaharui kunci rahasiya. Tulisangi dicoba paimeng."
+      },
+      "buttons": {
+        "saving": "Mantaroi...",
+        "update": "Perbaharui Kunci Rahasiya"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Token akses de nasah atau hilang.",
+        "sessionFailed": "Gagal mattattei sesi.",
+        "invalidPassword": "Tulisangi attamaki kunci rahasiya engka bettuangna minimal 8 karakter.",
+        "updateFailed": "Gagal mammerbaharui kunci rahasiyamu."
+      },
+      "success": {
+        "passwordUpdated": "Kunci rahasiyamu berhasil riperbaharui. Tulisangi uttamaki paimeng."
+      },
+      "title": "Reset Kunci Rahasiyamu",
+      "instructions": "Attamaki kunci rahasiya baru.",
+      "labels": {
+        "newPassword": "Kunci Rahasiya Baru"
+      },
+      "placeholders": {
+        "newPassword": "Attamaki kunci rahasiya baru"
+      },
+      "buttons": {
+        "updatePassword": "Perbaharui Kunci Rahasiya"
+      }
+    },
+    "tabs": {
+      "home": "Bolamu",
+      "search": "Sappa",
+      "create": "Ebbu",
+      "contest": "Lomba",
+      "menu": "Menu",
+      "settings": "Pengaturang",
+      "profile": "Profil",
+      "editProfile": "Perbaiki Profilmu",
+      "otherUserProfile": "Profil Pabbangung",
+      "explore": "Jelajah",
+      "challengeDetails": "Detail Tanntangeng",
+      "submissionDetails": "Detail Kiriman",
+      "contestDetails": "Detail Lomba",
+      "followers": "Pangolonrong ",
+      "following": "Mangolonrong ",
+      "account": "Akun",
+      "notifications": "Pamappaissengen",
+      "leaderboard": "Papan Peringkat",
+      "market": "Pasar",
+      "rewards": "Hadiah",
+      "coin": "Uwaci-mu"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Ebbu",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Ikon bolamu",
+        "search": "Ikon sappa",
+        "create": "Ikon ebbu",
+        "explore": "Ikon jelajah",
+        "profile": "Ikon profil"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Sappa kiriman, pabbangung, tanntangeng...",
+      "clearSearch": "Lecceki input pappasappang",
+      "loading": "Mallisek...",
+      "error": {
+        "title": "Asalang Pappasappang",
+        "message": "Asalang jaji wettunna pappasappang."
+      },
+      "noPreviousSearches": "Degaga pappasappang sebelumnya.",
+      "previousSearches": "Pappasappang Sebelumnya",
+      "submissions": {
+        "title": "Kiriman",
+        "noResults": "Degaga kiriman iya ridapek.",
+        "videoError": {
+          "title": "Asalang Video",
+          "message": "Gagal mallisek video."
+        }
+      },
+      "users": {
+        "title": "Pabbangung",
+        "noResults": "Degaga pabbangung iya ridapek."
+      },
+      "challenges": {
+        "title": "Tanntangeng",
+        "noResults": "Degaga tanntangeng iya ridapek.",
+        "videoError": {
+          "title": "Asalang Video",
+          "message": "Gagal mallisek video tanntangeng."
+        },
+        "category": "Kategori: ",
+        "seasonalTag": "Musiman",
+        "sponsoredTag": "Disponsori"
+      },
+      "repeatSearch": "Ullangi pappasappang untuk",
+      "accessibility": {
+        "viewVideo": "Ita video berjudul",
+        "viewProfile": "Ita profil pole",
+        "viewChallenge": "Ita tanntangeng berjudul"
+      }
+    },
+    "contest": {
+      "title": "Maneng Lomba",
+      "createContestButton": "Ebbu Lomba"
+    },
+    "contests": {
+      "noContests": "Degaga lomba iya ridapek.",
+      "error": {
+        "title": "Asalang",
+        "message": "Gagal mallai lomba."
+      },
+      "status": {
+        "notStarted": "De Namammulai",
+        "ongoing": "Matteru",
+        "ended": "Purana"
+      },
+      "dates": {
+        "start": "Mammulai: ",
+        "end": "Cappuk: ",
+        "notAvailable": "Degaga"
+      },
+      "contestDetailsButton": "Ita Detail Lomba"
+    },
+    "newContest": {
+      "header": {
+        "title": "Ebbu Lomba Baru",
+        "backButton": "Lisu"
+      },
+      "fields": {
+        "title": {
+          "label": "Judul",
+          "placeholder": "conto, Kompetisi Tari Wettu Pella",
+          "validation": "Judul riparelluki."
+        },
+        "description": {
+          "label": "Deskripsi",
+          "placeholder": "Aga lomba iye?"
+        },
+        "startDate": {
+          "label": "Tanggal Mammulai",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Tanggal cappuk haruski munri tanggal mammulai."
+        },
+        "endDate": {
+          "label": "Tanggal Cappuk",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Hadiah Pamenne (Uwaci Coins)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Hadiah Peserta (Uwaci Coins)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Deskripsi Video (Opsional)",
+          "noVideoSelected": "Tambahangi deskripsi video.",
+          "picked": "Ripile: {filename}",
+          "uploaded": "Unggah: Video berhasil riunggah.",
+          "chooseVideoButton": "Pile Video",
+          "uploadVideoButton": "Unggah Video"
+        }
+      },
+      "buttons": {
+        "createContest": "Ebbu Lomba"
+      },
+      "alerts": {
+        "error": {
+          "title": "Asalang",
+          "pickVideoMessage": "Gagal mammile video.",
+          "uploadVideoMessage": "Gagal mangunggah video.",
+          "createContestMessage": "Gagal mammebu lomba."
+        },
+        "success": {
+          "title": "Berhasil.",
+          "videoUploadMessage": "Video berhasil riunggah!",
+          "createContestMessage": "Lomba berhasil riebbu!"
+        },
+        "validation": {
+          "noTitle": "Judul riparelluki.",
+          "invalidDates": "Tanggal cappuk haruski munri tanggal mammulai."
+        },
+        "noSession": {
+          "title": "Harusko uttama untuk mammebu lomba."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profil",
+        "settingsButton": "Lao Pengaturang"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Izin riparelluki",
+          "message": "Idi' parelluki izin untuk mengakses potomu."
+        },
+        "errorAlert": {
+          "title": "Asalang",
+          "message": "Gagal mammile gambar"
+        },
+        "successAlert": {
+          "title": "Berhasil",
+          "message": "Gambar profil berhasil riperbaharui"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Asalang Mabbagi",
+          "message": "De namala mabbagi tautan rujukan."
+        },
+        "successShare": {
+          "title": "Gabungko sibawa idi' di Challenz!",
+          "message": "Halo! Pakeki tautan ini untuk daftar: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Pangolonrong",
+        "viewFollowers": "Ita Pangolonrong"
+      },
+      "following": {
+        "label": "Mangolonrong",
+        "viewFollowing": "Ita Mangolonrong"
+      },
+      "posts": {
+        "label": "Kiriman",
+        "viewPosts": "Ita Kiriman",
+        "noVideos": "Degagapa video iya riunggah."
+      },
+      "info": {
+        "email": "Surek",
+        "phone": "Telpon",
+        "location": "Lokasi",
+        "coins": "Uwaci Coins",
+        "bio": "Bio",
+        "noProfile": "Degaga Profil"
+      },
+      "buttons": {
+        "inviteFriends": "Undang Sellao",
+        "deleteVideo": "Lecceki Video",
+        "deleteVideoAlert": {
+          "title": "Lecceki Video",
+          "message": "Yakinno madeceng mallecceki video iye?"
+        },
+        "deleteSuccess": {
+          "title": "Berhasil",
+          "message": "Video berhasil rilecceki."
+        },
+        "deleteError": {
+          "title": "Asalang",
+          "message": "Gagal mallecceki video."
+        }
+      },
+      "errors": {
+        "generalError": "Asalang jaji.",
+        "profileError": "Gagal mallai profil.",
+        "submissionsError": "Gagal mallai kiriman."
+      },
+      "loading": {
+        "profile": "Mallisek profil...",
+        "submissions": "Mallisek kiriman..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Perbaiki Profil",
+        "cancelButton": "Pabolik",
+        "saveButton": "Attaroi Perubahan",
+        "savingButton": "Mantaroi..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Aseng Yolo",
+          "placeholder": "Attamaki aseng yolota",
+          "error": {
+            "tooShort": "Aseng yolo masemmeki"
+          }
+        },
+        "lastName": {
+          "label": "Aseng Paccappa",
+          "placeholder": "Attamaki aseng paccappata",
+          "error": {
+            "tooShort": "Aseng paccappa masemmeki"
+          }
+        },
+        "phoneNumber": {
+          "label": "Nomoro Telpon",
+          "placeholder": "Attamaki nomoro telponmu",
+          "error": {
+            "invalid": "Tulisangi attamaki nomoro telpon engka bettuangna"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Ceritai tentang alemu",
+          "error": {
+            "tooLong": "Bio haruski kurrang pole 500 karakter"
+          }
+        },
+        "location": {
+          "label": "Lokasi",
+          "placeholder": "Attamaki lokasimu",
+          "error": {
+            "tooLong": "Lokasi haruski kurrang pole 100 karakter"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Asalang",
+          "message": "Gagal mallai data profil"
+        },
+        "updateSuccess": {
+          "title": "Berhasil",
+          "message": "Profil berhasil riperbaharui"
+        },
+        "updateError": {
+          "title": "Asalang",
+          "message": "Gagal mammerbaharui profil"
+        }
+      },
+      "loading": {
+        "title": "Mallisek..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Mallisek...",
+      "noProfileFound": "Degaga Profil",
+      "authenticationRequired": "Otentikasi Riparelluki",
+      "pleaseLogIn": "Tulisangi uttamako untuk mangolonrongi pabbangung.",
+      "success": "Berhasil",
+      "unfollowSuccess": "Iko purana mappettu mangolonrongi",
+      "followSuccess": "Iko mappamulaini mangolonrongi",
+      "error": "Asalang",
+      "followError": "Gagal mammerbaharui status mangolonrongi.",
+      "posts": "Kiriman",
+      "followers": "Pangolonrong",
+      "following": "Mangolonrong",
+      "follow": "Olonrongi",
+      "unfollow": "Pettui Mangolonrongi",
+      "chat": "Pammareng"
+    },
+    "menu": {
+      "menu": "Menu",
+      "settings": "Pengaturang",
+      "yourUwaciCoins": "Uwaci Coins-mu",
+      "notifications": "Pamappaissengen",
+      "marketplace": "Pasar",
+      "signOut": "Messuk",
+      "confirmSignOut": "Pattantu Messuk",
+      "areYouSureSignOut": "Yakinno madeceng messuk?",
+      "cancel": "Pabolik",
+      "goBack": "Lisu"
+    },
+    "settings": {
+      "settings": "Pengaturang",
+      "fontSelected": "Fon Ripile",
+      "asYourFont": "purana riattattei sebagai fonmu.",
+      "languageSelected": "Bahasa Ripile",
+      "asYourLanguage": "purana riattattei sebagai bahasamu.",
+      "themeSelected": "Tema Ripile",
+      "asYourTheme": "purana riattattei sebagai temamu.",
+      "notifications": "Pamappaissengen",
+      "marketplace": "Pasar",
+      "account": "Akun",
+      "themes": "Tema",
+      "fonts": "Fon",
+      "languages": "Bahasa",
+      "signOut": "Messuk",
+      "confirmSignOut": "Pattantu Messuk",
+      "areYouSureSignOut": "Yakinno madeceng messuk?",
+      "cancel": "Pabolik",
+      "goBack": "Lisu",
+      "selectFont": "Pile Fon",
+      "selectLanguage": "Pile Bahasa",
+      "selectTheme": "Pile Tema",
+      "passwordSecurity": "Kunci Rahasiya & Keamanan",
+      "personalDetails": "Detail Pribadi",
+      "verification": "Verifikasi",
+      "paymentMethods": "Metode pembayaran",
+      "adPreferences": "Preferensi Iklan",
+      "upgradePremium": "Upgrade lao premium",
+      "content": "Konten",
+      "language": "Bahasa",
+      "savedDraft": "Konsep Tersimpan",
+      "yourActivity": "Aktivitasmu",
+      "accessibility": "Aksesibilitas",
+      "privacy": "Privasi",
+      "comments": "Komentar",
+      "privateAccount": "Akun Pribadi",
+      "directMessaging": "Pesan Langsung",
+      "blockedReports": "Riblokir/Laporan",
+      "termsPolicies": "Ketentuan sibawa Kebijakan",
+      "switchAccount": "Ganti Akun"
+    },
+    "accountDetails": {
+      "settingsTitle": "Pengaturang Akun",
+      "profileSettings": "Perbaiki Profil",
+      "resetPassword": "Reset Kunci Rahasiya",
+      "deleteAccount": "Lecceki Akun",
+      "resetPasswordModal": {
+        "title": "Reset Kunci Rahasiya",
+        "message": "Surek reset kunci rahasiya narikirimi lao ri",
+        "sendEmail": "Kiringi Surek",
+        "cancel": "Pabolik"
+      },
+      "deleteAccountModal": {
+        "title": "Lecceki Akun",
+        "message": "Yakinno madeceng mallecceki akunmu? Tindakan ini de namala ripabolik.",
+        "delete": "Lecceki",
+        "cancel": "Pabolik"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profil Riperbaharui",
+          "message": "Profilmu berhasil riperbaharui."
+        },
+        "profileUpdateError": {
+          "title": "Asalang",
+          "message": "Gagal mammerbaharui profilmu. Tulisangi dicoba paimeng."
+        },
+        "passwordReset": {
+          "title": "Reset Kunci Rahasiya",
+          "message": "Surek reset kunci rahasiya berhasil rikirimi."
+        },
+        "passwordResetError": {
+          "title": "Asalang",
+          "message": "Gagal mangirimi surek reset kunci rahasiya. Tulisangi dicoba paimeng."
+        },
+        "accountDeleted": {
+          "title": "Akun Rilecceki",
+          "message": "Akunmu berhasil rilecceki."
+        },
+        "accountDeleteError": {
+          "title": "Asalang",
+          "message": "Gagal mallecceki akunmu. Tulisangi dicoba paimeng."
+        }
+      }
+    }
+  }

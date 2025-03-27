@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74935327881",
+    "project_id": "challenzsocial-88233",
+    "storage_bucket": "challenzsocial-88233.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74935327881:android:5da68ff8e32bc652907a58",
+        "android_client_info": {
+          "package_name": "com.challenzsocialapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoybZmIfoq_6m85Sc1_BvUpUNKgSpGKnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

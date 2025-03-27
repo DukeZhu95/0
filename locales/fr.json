@@ -1,0 +1,525 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Explorer les Défis",
+    "thatInspire": "qui Inspirent !",
+    "signUp": "S'inscrire",
+    "signIn": "Se Connecter"
+  },
+  "signUp": {
+    "title": "S'inscrire",
+    "headerMessage": "Créez un nouveau compte pour commencer.",
+    "form": {
+      "username": {
+        "label": "Nom d'utilisateur",
+        "placeholder": "Choisissez un nom d'utilisateur",
+        "validation": {
+          "minLength": "Le nom d'utilisateur doit comporter au moins 3 caractères.",
+          "regex": "Le nom d'utilisateur ne peut contenir que des lettres, des chiffres et des underscores"
+        }
+      },
+      "firstname": {
+        "label": "Prénom",
+        "placeholder": "Entrez votre prénom",
+        "validation": "Le prénom doit comporter au moins 3 caractères."
+      },
+      "lastname": {
+        "label": "Nom de famille",
+        "placeholder": "Entrez votre nom de famille",
+        "validation": "Le nom de famille doit comporter au moins 3 caractères."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Entrez votre adresse email",
+        "validation": "Veuillez entrer une adresse email valide."
+      },
+      "phoneNumber": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "validation": "Veuillez entrer un numéro de téléphone valide."
+      },
+      "birthday": {
+        "label": "Date de naissance",
+        "placeholder": "AAAA-MM-JJ",
+        "validation": {
+          "format": "La date de naissance doit être au format AAAA-MM-JJ",
+          "validDate": "Date invalide",
+          "ageRestriction": "Vous devez avoir 18 ans ou plus pour créer un compte"
+        }
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Entrez votre mot de passe",
+        "validation": {
+          "minLength": "Le mot de passe doit comporter au moins 8 caractères.",
+          "maxLength": "Le mot de passe doit comporter moins de 64 caractères.",
+          "uppercase": "Le mot de passe doit contenir au moins une lettre majuscule.",
+          "lowercase": "Le mot de passe doit contenir au moins une lettre minuscule.",
+          "numberOrSpecial": "Le mot de passe doit contenir au moins un chiffre ou un caractère spécial."
+        },
+        "strength": {
+          "weak": "Faible",
+          "fair": "Moyen",
+          "good": "Bon",
+          "strong": "Fort"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirmer le mot de passe",
+        "placeholder": "Ressaisissez votre mot de passe",
+        "validation": "Les mots de passe ne correspondent pas."
+      }
+    },
+    "buttons": {
+      "createAccount": "Créer un Compte",
+      "alreadyHaveAccount": "Vous avez déjà un compte ? Se Connecter"
+    },
+    "alerts": {
+      "error": {
+        "title": "Erreur",
+        "message": "Une erreur est survenue lors de la création de votre compte. Veuillez réessayer."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "En vous inscrivant, vous acceptez d'avoir lu nos",
+      "termsOfService": "Conditions d'Utilisation",
+      "privacyPolicy": "Politique de Confidentialité",
+      "andAccepted": "et accepté notre"
+    }
+  },
+  "signIn": {
+    "title": "Se Connecter",
+    "headerMessage": "Entrez vos identifiants pour accéder à votre compte.",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Mot de passe"
+    },
+    "buttons": {
+      "signIn": "Se Connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "signUp": "Vous n'avez pas de compte ? S'inscrire"
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "prompt": "Veuillez d'abord entrer votre email ci-dessus.",
+      "successTitle": "Vérifiez votre email",
+      "successMessage": "Nous avons envoyé un lien de réinitialisation de mot de passe à votre email.",
+      "errorTitle": "Erreur de Réinitialisation"
+    },
+    "termsAndPrivacy": {
+      "message": "En vous inscrivant, vous acceptez d'avoir lu nos",
+      "termsOfService": "Conditions d'Utilisation",
+      "privacyPolicy": "Politique de Confidentialité",
+      "andAccepted": "et accepté notre"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Erreur de Connexion"
+      }
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Jeton d'accès invalide ou manquant.",
+      "sessionFailed": "Échec de la création de la session.",
+      "invalidPassword": "Veuillez entrer un mot de passe valide d'au moins 8 caractères.",
+      "updateFailed": "Échec de la mise à jour de votre mot de passe."
+    },
+    "success": {
+      "passwordUpdated": "Votre mot de passe a été mis à jour. Veuillez vous reconnecter."
+    },
+    "title": "Réinitialiser Votre Mot de Passe",
+    "instructions": "Entrez un nouveau mot de passe.",
+    "labels": {
+      "newPassword": "Nouveau Mot de Passe"
+    },
+    "placeholders": {
+      "newPassword": "Entrez le nouveau mot de passe"
+    },
+    "buttons": {
+      "updatePassword": "Mettre à Jour le Mot de Passe"
+    }
+  },
+  "tabs": {
+    "home": "Accueil",
+    "search": "Recherche",
+    "create": "Créer",
+    "explore": "Concours",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "editProfile": "Modifier le Profil",
+    "otherUserProfile": "Profil d'un Autre Utilisateur",
+    "comment": "Commentaire",
+    "contest": "Concours",
+    "challengeDetails": "Détails du Défi",
+    "submissionDetails": "Détails de la Soumission",
+    "contestDetails": "Détails du Concours",
+    "followers": "Abonnés",
+    "following": "Abonnements",
+    "account": "Compte",
+    "notifications": "Notifications",
+    "leaderboard": "Classement",
+    "market": "Marché",
+    "rewards": "Récompenses"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Créer",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Icône Accueil",
+      "search": "Icône Recherche",
+      "create": "Icône Créer",
+      "explore": "Icône Explorer",
+      "profile": "Icône Profil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Rechercher des soumissions, utilisateurs, défis...",
+    "clearSearch": "Effacer la recherche",
+    "loading": "Chargement...",
+    "error": {
+      "title": "Erreur de Recherche",
+      "message": "Une erreur est survenue lors de la recherche."
+    },
+    "noPreviousSearches": "Aucune recherche précédente.",
+    "previousSearches": "Recherches Précédentes",
+    "submissions": {
+      "title": "Soumissions",
+      "noResults": "Aucune soumission trouvée.",
+      "videoError": {
+        "title": "Erreur Vidéo",
+        "message": "Échec du chargement de la vidéo."
+      }
+    },
+    "users": {
+      "title": "Utilisateurs",
+      "noResults": "Aucun utilisateur trouvé."
+    },
+    "challenges": {
+      "title": "Défis",
+      "noResults": "Aucun défi trouvé.",
+      "videoError": {
+        "title": "Erreur Vidéo",
+        "message": "Échec du chargement de la vidéo du défi."
+      },
+      "category": "Catégorie : ",
+      "seasonalTag": "Saisonnier",
+      "sponsoredTag": "Sponsorisé"
+    },
+    "repeatSearch": "Répéter la recherche pour",
+    "accessibility": {
+      "viewVideo": "Voir la vidéo intitulée",
+      "viewProfile": "Voir le profil de",
+      "viewChallenge": "Voir le défi intitulé"
+    }
+  },
+  "contest": {
+    "title": "Tous les Concours",
+    "createContestButton": "Créer un Concours"
+  },
+  "contests": {
+    "noContests": "Aucun concours trouvé.",
+    "error": {
+      "title": "Erreur",
+      "message": "Échec de la récupération des concours."
+    },
+    "status": {
+      "notStarted": "Pas Commencé",
+      "ongoing": "En Cours",
+      "ended": "Terminé"
+    },
+    "dates": {
+      "start": "Début : ",
+      "end": "Fin : ",
+      "notAvailable": "N/A"
+    },
+    "contestDetailsButton": "Voir les Détails du Concours"
+  },
+  "newContest": {
+    "header": {
+      "title": "Créer un Nouveau Concours",
+      "backButton": "Retour"
+    },
+    "fields": {
+      "title": {
+        "label": "Titre",
+        "placeholder": "ex., Défi de Danse d'Été",
+        "validation": "Le titre est requis."
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "De quoi s'agit ce concours ?"
+      },
+      "startDate": {
+        "label": "Date de Début",
+        "placeholder": "AAAA-MM-JJ",
+        "validation": "La date de fin doit être après la date de début."
+      },
+      "endDate": {
+        "label": "Date de Fin",
+        "placeholder": "AAAA-MM-JJ"
+      },
+      "winnerReward": {
+        "label": "Récompense du Gagnant (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Récompense des Participants (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Description Vidéo (Optionnel)",
+        "noVideoSelected": "Ajouter une description vidéo.",
+        "picked": "Choisi : {filename}",
+        "uploaded": "Téléchargé : La vidéo a été téléchargée avec succès.",
+        "chooseVideoButton": "Choisir une Vidéo",
+        "uploadVideoButton": "Télécharger la Vidéo"
+      }
+    },
+    "buttons": {
+      "createContest": "Créer le Concours"
+    },
+    "alerts": {
+      "error": {
+        "title": "Erreur",
+        "pickVideoMessage": "Échec de la sélection de la vidéo.",
+        "uploadVideoMessage": "Échec du téléchargement de la vidéo.",
+        "createContestMessage": "Échec de la création du concours."
+      },
+      "success": {
+        "videoUploadMessage": "Vidéo téléchargée avec succès !",
+        "createContestMessage": "Concours créé avec succès !"
+      },
+      "validation": {
+        "noTitle": "Le titre est requis.",
+        "invalidDates": "La date de fin doit être après la date de début."
+      },
+      "noSession": {
+        "title": "Vous devez être connecté pour créer un concours."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Aller aux Paramètres"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Permission requise",
+        "message": "Nous avons besoin de la permission pour accéder à vos photos."
+      },
+      "errorAlert": {
+        "title": "Erreur",
+        "message": "Échec de la sélection de l'image"
+      },
+      "successAlert": {
+        "title": "Succès",
+        "message": "Photo de profil mise à jour avec succès"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Erreur de Partage",
+        "message": "Impossible de partager le lien de parrainage."
+      },
+      "successShare": {
+        "title": "Rejoignez-moi sur Challenz !",
+        "message": "Hé ! Utilisez ce lien pour vous inscrire : {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Abonnés",
+      "viewFollowers": "Voir les Abonnés"
+    },
+    "following": {
+      "label": "Abonnements",
+      "viewFollowing": "Voir les Abonnements"
+    },
+    "posts": {
+      "label": "Publications",
+      "viewPosts": "Voir les Publications",
+      "noVideos": "Aucune vidéo publiée pour le moment."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Lieu",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Aucun Profil Trouvé"
+    },
+    "buttons": {
+      "inviteFriends": "Partager le Lien de Parrainage",
+      "deleteVideo": "Supprimer la Vidéo",
+      "deleteVideoAlert": {
+        "title": "Supprimer la Vidéo",
+        "message": "Êtes-vous sûr de vouloir supprimer cette vidéo ?"
+      },
+      "deleteSuccess": {
+        "title": "Succès",
+        "message": "Vidéo supprimée avec succès."
+      },
+      "deleteError": {
+        "title": "Erreur",
+        "message": "Échec de la suppression de la vidéo."
+      }
+    },
+    "errors": {
+      "generalError": "Une erreur est survenue.",
+      "profileError": "Échec de la récupération du profil.",
+      "submissionsError": "Échec de la récupération des soumissions."
+    },
+    "loading": {
+      "profile": "Chargement du profil...",
+      "submissions": "Chargement des soumissions..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Modifier le Profil",
+      "cancelButton": "Annuler",
+      "saveButton": "Enregistrer les Modifications",
+      "savingButton": "Enregistrement..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Entrez votre prénom",
+        "error": {
+          "tooShort": "Le prénom est trop court"
+        }
+      },
+      "lastName": {
+        "label": "Nom de famille",
+        "placeholder": "Entrez votre nom de famille",
+        "error": {
+          "tooShort": "Le nom de famille est trop court"
+        }
+      },
+      "phoneNumber": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "error": {
+          "invalid": "Veuillez entrer un numéro de téléphone valide"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Parlez-nous de vous",
+        "error": {
+          "tooLong": "La bio doit comporter moins de 500 caractères"
+        }
+      },
+      "location": {
+        "label": "Lieu",
+        "placeholder": "Entrez votre lieu",
+        "error": {
+          "tooLong": "Le lieu doit comporter moins de 100 caractères"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Erreur",
+        "message": "Échec de la récupération des données du profil"
+      },
+      "updateSuccess": {
+        "title": "Succès",
+        "message": "Profil mis à jour avec succès"
+      },
+      "updateError": {
+        "title": "Erreur",
+        "message": "Échec de la mise à jour du profil"
+      }
+    },
+    "loading": {
+      "title": "Chargement..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Chargement...",
+    "noProfileFound": "Aucun Profil Trouvé",
+    "authenticationRequired": "Authentification Requise",
+    "pleaseLogIn": "Veuillez vous connecter pour suivre les utilisateurs.",
+    "success": "Succès",
+    "unfollowSuccess": "Vous avez unfollowé",
+    "followSuccess": "Vous suivez maintenant",
+    "error": "Erreur",
+    "followError": "Échec de la mise à jour du statut de suivi.",
+    "posts": "Publications",
+    "followers": "Abonnés",
+    "following": "Abonnements",
+    "follow": "Suivre",
+    "unfollow": "Ne Plus Suivre",
+    "chat": "Chat"
+  },
+  "settings": {
+    "settings": "Paramètres",
+    "fontSelected": "Police Sélectionnée",
+    "asYourFont": "a été définie comme votre police.",
+    "languageSelected": "Langue Sélectionnée",
+    "asYourLanguage": "a été définie comme votre langue.",
+    "themeSelected": "Thème Sélectionné",
+    "asYourTheme": "a été défini comme votre thème.",
+    "notifications": "Notifications",
+    "marketplace": "Marché",
+    "account": "Compte",
+    "themes": "Thèmes",
+    "fonts": "Polices",
+    "languages": "Langues",
+    "signOut": "Se Déconnecter",
+    "confirmSignOut": "Confirmer la Déconnexion",
+    "areYouSureSignOut": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "cancel": "Annuler",
+    "goBack": "Retourner",
+    "selectFont": "Sélectionner une Police",
+    "selectLanguage": "Sélectionner une Langue",
+    "selectTheme": "Sélectionner un Thème"
+  },
+  "accountDetails": {
+    "settingsTitle": "Paramètres du Compte",
+    "profileSettings": "Modifier le Profil",
+    "resetPassword": "Réinitialiser le Mot de Passe",
+    "deleteAccount": "Supprimer le Compte",
+    "resetPasswordModal": {
+      "title": "Réinitialiser le Mot de Passe",
+      "message": "Un email de réinitialisation de mot de passe sera envoyé à",
+      "sendEmail": "Envoyer l'Email",
+      "cancel": "Annuler"
+    },
+    "deleteAccountModal": {
+      "title": "Supprimer le Compte",
+      "message": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+      "delete": "Supprimer",
+      "cancel": "Annuler"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Mis à Jour",
+        "message": "Votre profil a été mis à jour avec succès."
+      },
+      "profileUpdateError": {
+        "title": "Erreur",
+        "message": "Échec de la mise à jour de votre profil. Veuillez réessayer."
+      },
+      "passwordReset": {
+        "title": "Réinitialisation du Mot de Passe",
+        "message": "Un email de réinitialisation de mot de passe a été envoyé."
+      },
+      "passwordResetError": {
+        "title": "Erreur",
+        "message": "Échec de l'envoi de l'email de réinitialisation de mot de passe. Veuillez réessayer."
+      },
+      "accountDeleted": {
+        "title": "Compte Supprimé",
+        "message": "Votre compte a été supprimé avec succès."
+      },
+      "accountDeleteError": {
+        "title": "Erreur",
+        "message": "Échec de la suppression de votre compte. Veuillez réessayer."
+      }
+    }
+  }
+}

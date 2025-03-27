@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Lavisisa Mitlhontlho",
+      "thatInspire": "leyi Hlohloterisaka!",
+      "signUp": "Tsarisa",
+      "signIn": "Nghena"
+    },
+    "signUp": {
+      "title": "Tsarisa",
+      "headerMessage": "Endla akhawunti yintshwa ku sungula.",
+      "businessTitle": "Tsarisa tanihi Bindzu",
+      "headerMessageBusiness": "Endla akhawunti ya bindzu ku sungula.",
+      "form": {
+        "username": {
+          "label": "Vito ra mutirhisi",
+          "placeholder": "Hlawula vito ra mutirhisi",
+          "validation": {
+            "minLength": "Vito ra mutirhisi ri fanele ku va ni maletere ya 3 kumbe ku tlula.",
+            "regex": "Vito ra mutirhisi ri nga va ni maletere, tinomboro, na swikombiso swa le hansi ntsena"
+          }
+        },
+        "firstname": {
+          "label": "Vito ro sungula",
+          "placeholder": "Nghenisa vito ra wena ro sungula",
+          "validation": "Vito ro sungula ri fanele ku va ni maletere ya 3 kumbe ku tlula."
+        },
+        "lastname": {
+          "label": "Xivongo",
+          "placeholder": "Nghenisa xivongo xa wena",
+          "validation": "Xivongo xi fanele ku va ni maletere ya 3 kumbe ku tlula."
+        },
+        "businessName": {
+          "label": "Vito ra Bindzu",
+          "placeholder": "Nghenisa vito ra bindzu ra wena",
+          "validation": "Vito ra bindzu ri fanele ku va ni maletere ya 3 kumbe ku tlula."
+        },
+        "website": {
+          "label": "Webusayiti ya Bindzu",
+          "placeholder": "Nghenisa webusayiti ya wena",
+          "validation": "Vito ra bindzu ri fanele ku va ni maletere ya 3 kumbe ku tlula."
+        },
+        "businessType": {
+          "label": "Muxaka wa Bindzu",
+          "placeholder": "Muxaka wa Bindzu",
+          "validation": "Vito ra bindzu ri fanele ku va ni maletere ya 3 kumbe ku tlula."
+        },
+        "email": {
+          "label": "Imeyili",
+          "placeholder": "Nghenisa adirese ya wena ya imeyili",
+          "validation": "Hi kombela u nghenisa adirese ya imeyili leyi tirhaka."
+        },
+        "phoneNumber": {
+          "label": "Nomboro ya Riqingho",
+          "placeholder": "Nghenisa nomboro ya wena ya riqingho",
+          "validation": "Hi kombela u nghenisa nomboro ya riqingho leyi tirhaka."
+        },
+        "birthday": {
+          "title": "Siku ra ku velekiwa",
+          "label": "Siku ra ku velekiwa",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Siku ra ku velekiwa ri fanele ku va hi xivumbeko xa DD-MM-YYYY",
+            "validDate": "Siku leri nga tirhiki",
+            "ageRestriction": "U fanele ku va ni malembe ya 18 kumbe ku tlula ku endla akhawunti"
+          }
+        },
+        "password": {
+          "label": "Phaswedi",
+          "placeholder": "Nghenisa phaswedi ya wena",
+          "validation": {
+            "minLength": "Phaswedi yi fanele ku va ni maletere ya 8 kumbe ku tlula.",
+            "maxLength": "Phaswedi yi fanele ku va ehansi ka maletere ya 64.",
+            "uppercase": "Phaswedi yi fanele ku va ni letere rin'we lexikulu.",
+            "lowercase": "Phaswedi yi fanele ku va ni letere rin'we lexitsongo.",
+            "numberOrSpecial": "Phaswedi yi fanele ku va ni nomboro yin'we kumbe xikombiso xo hlawuleka."
+          },
+          "strength": {
+            "weak": "Yi tsana",
+            "fair": "Yi antswa",
+            "good": "Yi kahle",
+            "strong": "Yi tiyile"
+          }
+        },
+        "confirmPassword": {
+          "label": "Tiyisisa Phaswedi",
+          "placeholder": "Nghenisa phaswedi ya wena nakambe",
+          "validation": "Tiphaswedi a ti fani."
+        }
+      },
+      "buttons": {
+        "createAccount": "Endla Akhawunti",
+        "alreadyHaveAccount": "U se u ri ni akhawunti?",
+        "signIn": "Nghena",
+        "businessJoin": "Joyina Challenz tanihi mutirhisani wa bindzu"
+      },
+      "alerts": {
+        "error": {
+          "title": "Xihoxo",
+          "message": "Ku ve ni xihoxo loko ku endliwa akhawunti ya wena. Hi kombela u ringeta nakambe."
+        },
+        "passwordMismatch": {
+          "title": "Phaswedi a yi Fani",
+          "message": "Phaswedi yo hoxeka. Hi kombela u ringeta nakambe."
+        },
+        "agreementRequired": {
+          "title": "Ntwanano wa Laveka",
+          "message": "Hi kombela u amukela Milawu ya Vutirhisi na Pholisi ya Xihundla."
+        },
+        "success": {
+          "title": "Humelelo",
+          "message": "Akhawunti yi endliwe hi ku humelela."
+        },
+        "signUpError": {
+          "title": "Xihoxo xa ku Tsarisa",
+          "message": "Ku ve ni xihoxo loko ku endliwa akhawunti ya wena. Hi kombela u ringeta nakambe."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Hi ku tsarisa u pfumela leswaku u hlayile",
+        "termsOfService": "Milawu ya Vutirhisi",
+        "privacyPolicy": "Pholisi ya Xihundla",
+        "andAccepted": "naswona u amukerile"
+      }
+    },
+    "signIn": {
+      "title": "Nghena",
+      "headerMessage": "Nghenisa vuxokoxoko bya wena ku nghena eka akhawunti ya wena.",
+      "form": {
+        "email": "Imeyili",
+        "emailPlaceholder": "Nghenisa Imeyili ya wena",
+        "password": "Phaswedi",
+        "passwordPlaceholder": "Nghenisa Phaswedi ya wena"
+      },
+      "buttons": {
+        "signIn": "Nghena",
+        "forgotPassword": "U Rivele Phaswedi?",
+        "noAccount": "A wu na akhawunti?",
+        "signUp": " Tsarisa"
+      },
+      "forgotPassword": {
+        "title": "Rivele Phaswedi",
+        "prompt": "Hi kombela u nghenisa imeyili ya wena ro sungula.",
+        "successTitle": "Languta imeyili ya wena",
+        "successMessage": "Hi rhumele linki yo veka phaswedi nakambe eka imeyili ya wena.",
+        "errorTitle": "Xihoxo xo Veka nakambe"
+      },
+      "termsAndPrivacy": {
+        "message": "Hi ku tsarisa u pfumela leswaku u hlayile",
+        "termsOfService": "Milawu ya Vutirhisi",
+        "privacyPolicy": "Pholisi ya Xihundla",
+        "andAccepted": "naswona u amukerile"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Xihoxo xo Nghena"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Rivele Phaswedi",
+      "description": "Nghenisa adirese ya wena ya imeyili ehansi naswona hi ta ku rhumela linki yo veka phaswedi ya wena nakambe.",
+      "form": {
+        "email": "Adirese ya Imeyili"
+      },
+      "buttons": {
+        "reset": "Veka Phaswedi Nakambe",
+        "sending": "Ya rhumiwa...",
+        "remembered": "U tsundzukile phaswedi ya wena?",
+        "signIn": "Nghena"
+      },
+      "alerts": {
+        "enterEmail": "Hi kombela u nghenisa adirese ya wena ya imeyili.",
+        "checkEmail": "Languta imeyili ya wena eka linki yo veka nakambe.",
+        "resetError": "Ku tsandzekile ku veka phaswedi nakambe"
+      }
+    },
+    "resetPassword": {
+      "title": "Pfuxeta Phaswedi",
+      "description": "Nghenisa phaswedi ya wena yintshwa ehansi ku veka phaswedi ya akhawunti ya wena nakambe.",
+      "form": {
+        "newPassword": "Nghenisa phaswedi yintshwa",
+        "confirmPassword": "Tiyisisa phaswedi yintshwa"
+      },
+      "alerts": {
+        "enterBothPasswords": "Hi kombela u nghenisa tindhawu himbirhi ta phaswedi.",
+        "passwordMismatch": "Tiphaswedi a ti fani. Hi kombela u ringeta nakambe.",
+        "success": "Phaswedi ya wena yi pfuxetiwile hi ku humelela.",
+        "updateError": "Xihoxo xo pfuxeta phaswedi. Hi kombela u ringeta nakambe."
+      },
+      "buttons": {
+        "saving": "Ya hlayisa...",
+        "update": "Pfuxeta Phaswedi"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Tokhene yo nghena leyi nga tirhiki kumbe leyi nga kona.",
+        "sessionFailed": "Ku tsandzekile ku veka nhlengeletano.",
+        "invalidPassword": "Hi kombela u nghenisa phaswedi leyi tirhaka ya maletere ya 8 kumbe ku tlula.",
+        "updateFailed": "Ku tsandzekile ku pfuxeta phaswedi ya wena."
+      },
+      "success": {
+        "passwordUpdated": "Phaswedi ya wena yi pfuxetiwile. Hi kombela u nghena nakambe."
+      },
+      "title": "Veka Phaswedi ya wena Nakambe",
+      "instructions": "Nghenisa phaswedi yintshwa.",
+      "labels": {
+        "newPassword": "Phaswedi Yintshwa"
+      },
+      "placeholders": {
+        "newPassword": "Nghenisa phaswedi yintshwa"
+      },
+      "buttons": {
+        "updatePassword": "Pfuxeta Phaswedi"
+      }
+    },
+    "tabs": {
+      "home": "Kaya",
+      "search": "Lavisisa",
+      "create": "Endla",
+      "contest": "Mphikizano",
+      "menu": "Menyu",
+      "settings": "Matirhiselo",
+      "profile": "Phrofayili",
+      "editProfile": "Lulamisa Phrofayili ya Wena",
+      "otherUserProfile": "Phrofayili ya Mutirhisi",
+      "explore": "Lavisisa",
+      "challengeDetails": "Vuxokoxoko bya Ntlhontlho",
+      "submissionDetails": "Vuxokoxoko bya ku Yisa",
+      "contestDetails": "Vuxokoxoko bya Mphikizano",
+      "followers": "Valandzeri ",
+      "following": "Ku landzela ",
+      "account": "Akhawunti",
+      "notifications": "Switiviso",
+      "leaderboard": "Tafula ra Varhangeri",
+      "market": "Makete",
+      "rewards": "Miholo",
+      "coin": "Tikhoyini ta Wena",
+      "savedChallenges": "Mitlhontlho leyi Hlayisiweke"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Endla",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Ayikhoni ya kaya",
+        "search": "Ayikhoni yo lavisisa",
+        "create": "Ayikhoni yo endla",
+        "explore": "Ayikhoni yo lavisisa",
+        "profile": "Ayikhoni ya phrofayili"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Lavisisa ku yisiwa, vatirhisi, mitlhontlho...",
+      "clearSearch": "Sula ku lavisisa",
+      "loading": "Ya longoloka...",
+      "error": {
+        "title": "Xihoxo xo Lavisisa",
+        "message": "Ku ve ni xihoxo hi nkarhi wo lavisisa."
+      },
+      "noPreviousSearches": "Ku hava ku lavisisa ka khale.",
+      "previousSearches": "Ku lavisisa ka Khale",
+      "submissions": {
+        "title": "Ku yisiwa",
+        "noResults": "Ku hava ku yisiwa loku kumiweke.",
+        "videoError": {
+          "title": "Xihoxo xa Vhidiyo",
+          "message": "Ku tsandzekile ku longoloka vhidiyo."
+        }
+      },
+      "users": {
+        "title": "Vatirhisi",
+        "noResults": "Ku hava vatirhisi lava kumiweke."
+      },
+      "challenges": {
+        "title": "Mitlhontlho",
+        "noResults": "Ku hava mitlhontlho leyi kumiweke.",
+        "videoError": {
+          "title": "Xihoxo xa Vhidiyo",
+          "message": "Ku tsandzekile ku longoloka vhidiyo ya ntlhontlho."
+        },
+        "category": "Xiyenge: ",
+        "seasonalTag": "Ya Nkarhi",
+        "sponsoredTag": "Yi Seketeriwa"
+      },
+      "repeatSearch": "Vuyelela ku lavisisa ka",
+      "accessibility": {
+        "viewVideo": "Languta vhidiyo ya nhlokomhaka",
+        "viewProfile": "Languta phrofayili ya",
+        "viewChallenge": "Languta ntlhontlho wa nhlokomhaka"
+      }
+    },
+    "contest": {
+      "title": "Miphikizano Hinkwayo",
+      "createContestButton": "Endla Mphikizano"
+    },
+    "contests": {
+      "noContests": "Ku hava miphikizano leyi kumiweke.",
+      "error": {
+        "title": "Xihoxo",
+        "message": "Ku tsandzekile ku kuma miphikizano."
+      },
+      "status": {
+        "notStarted": "Yi nga si Sungula",
+        "ongoing": "Ya ha Ri Karhi",
+        "ended": "Yi Herile"
+      },
+      "dates": {
+        "start": "Sungula: ",
+        "end": "Heta: ",
+        "notAvailable": "N/A"
+      },
+      "contestDetailsButton": "Languta Vuxokoxoko bya Mphikizano"
+    },
+    "newContest": {
+      "header": {
+        "title": "Endla Mphikizano Wuntshwa",
+        "backButton": "Endzhaku"
+      },
+      "fields": {
+        "title": {
+          "label": "Nhlokomhaka",
+          "placeholder": "xikombiso, Mphikizano wa ku Cina wa Ximumu",
+          "validation": "Nhlokomhaka ya laveka."
+        },
+        "description": {
+          "label": "Nhlamuselo",
+          "placeholder": "Xana mphikizano lowu wu mayelana na yini?"
+        },
+        "startDate": {
+          "label": "Siku ro Sungula",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Siku ro heta ri fanele ku va endzhaku ka siku ro sungula."
+        },
+        "endDate": {
+          "label": "Siku ro Heta",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Mbuyelo wa Muhluri (Tikhoyini ta Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Mbuyelo wa Mutekaxiave (Tikhoyini ta Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Nhlamuselo ya Vhidiyo (Yi nga Bohi)",
+          "noVideoSelected": "Engetela nhlamuselo ya vhidiyo.",
+          "picked": "Yi hlawuriwile: {filename}",
+          "uploaded": "Yi longoloxiwile: Vhidiyo yi longoloxiwile hi ku humelela.",
+          "chooseVideoButton": "Hlawula Vhidiyo",
+          "uploadVideoButton": "Longoloxela Vhidiyo"
+        }
+      },
+      "buttons": {
+        "createContest": "Endla Mphikizano"
+      },
+      "alerts": {
+        "error": {
+          "title": "Xihoxo",
+          "pickVideoMessage": "Ku tsandzekile ku hlawula vhidiyo.",
+          "uploadVideoMessage": "Ku tsandzekile ku longoloxela vhidiyo.",
+          "createContestMessage": "Ku tsandzekile ku endla mphikizano."
+        },
+        "success": {
+          "title": "Humelelo.",
+          "videoUploadMessage": "Vhidiyo yi longoloxiwile hi ku humelela!",
+          "createContestMessage": "Mphikizano wu endliwile hi ku humelela!"
+        },
+        "validation": {
+          "noTitle": "Nhlokomhaka ya laveka.",
+          "invalidDates": "Siku ro heta ri fanele ku va endzhaku ka siku ro sungula."
+        },
+        "noSession": {
+          "title": "U fanele ku nghena ku endla mphikizano."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Phrofayili",
+        "settingsButton": "Yana eka Matirhiselo"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Mpfumelelo wa laveka",
+          "message": "Hi lava mpfumelelo ku fikelela swifaniso swa wena."
+        },
+        "errorAlert": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku hlawula xifaniso"
+        },
+        "successAlert": {
+          "title": "Humelelo",
+          "message": "Xifaniso xa phrofayili xi pfuxetiwile hi ku humelela"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Xihoxo xo Avelana",
+          "message": "A swi koteki ku avelana linki yo rhumera."
+        },
+        "successShare": {
+          "title": "Joyina na mina eka Challenz!",
+          "message": "Helo! Tirhisa linki leyi ku tsarisa: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Valandzeri",
+        "viewFollowers": "Languta Valandzeri"
+      },
+      "following": {
+        "label": "Ku landzela",
+        "viewFollowing": "Languta lava u va Landzelaka"
+      },
+      "posts": {
+        "label": "Tiphosithi",
+        "viewPosts": "Languta Tiphosithi",
+        "noVideos": "Ku hava tivhidiyo leti phositiweke sweswi."
+      },
+      "info": {
+        "email": "Imeyili",
+        "phone": "Riqingho",
+        "location": "Ndhawu",
+        "coins": "Tikhoyini ta Uwaci",
+        "bio": "Vutomi",
+        "noProfile": "Ku hava Phrofayili leyi Kumiweke"
+      },
+      "buttons": {
+        "inviteFriends": "Rhamba Vanghana",
+        "deleteVideo": "Sula Vhidiyo",
+        "deleteVideoAlert": {
+          "title": "Sula Vhidiyo",
+          "message": "Xana u na ntiyiso leswaku u lava ku sula vhidiyo leyi?"
+        },
+        "deleteSuccess": {
+          "title": "Humelelo",
+          "message": "Vhidiyo yi suriwile hi ku humelela."
+        },
+        "deleteError": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku sula vhidiyo."
+        }
+      },
+      "errors": {
+        "generalError": "Ku ve ni xihoxo.",
+        "profileError": "Ku tsandzekile ku kuma phrofayili.",
+        "submissionsError": "Ku tsandzekile ku kuma ku yisiwa."
+      },
+      "loading": {
+        "profile": "Ku longoloka phrofayili...",
+        "submissions": "Ku longoloka ku yisiwa..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Lulamisa Phrofayili",
+        "cancelButton": "Tshika",
+        "saveButton": "Hlayisa Ku Cinca",
+        "savingButton": "Ya hlayisa..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Vito ro Sungula",
+          "placeholder": "Nghenisa vito ra wena ro sungula",
+          "error": {
+            "tooShort": "Vito ro sungula ri koma ngopfu"
+          }
+        },
+        "lastName": {
+          "label": "Xivongo",
+          "placeholder": "Nghenisa xivongo xa wena",
+          "error": {
+            "tooShort": "Xivongo xi koma ngopfu"
+          }
+        },
+        "phoneNumber": {
+          "label": "Nomboro ya Riqingho",
+          "placeholder": "Nghenisa nomboro ya wena ya riqingho",
+          "error": {
+            "invalid": "Hi kombela u nghenisa nomboro ya riqingho leyi tirhaka"
+          }
+        },
+        "bio": {
+          "label": "Vutomi",
+          "placeholder": "Hi byeli hi wena",
+          "error": {
+            "tooLong": "Vutomi byi fanele ku va ehansi ka maletere ya 500"
+          }
+        },
+        "location": {
+          "label": "Ndhawu",
+          "placeholder": "Nghenisa ndhawu ya wena",
+          "error": {
+            "tooLong": "Ndhawu yi fanele ku va ehansi ka maletere ya 100"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku kuma data ya phrofayili"
+        },
+        "updateSuccess": {
+          "title": "Humelelo",
+          "message": "Phrofayili yi pfuxetiwile hi ku humelela"
+        },
+        "updateError": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku pfuxeta phrofayili"
+        }
+      },
+      "loading": {
+        "title": "Ya longoloka..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Ya longoloka...",
+      "noProfileFound": "Ku hava Phrofayili leyi Kumiweke",
+      "authenticationRequired": "Ku Tiyisekisa Ka Laveka",
+      "pleaseLogIn": "Hi kombela u nghena ku landzela vatirhisi.",
+      "success": "Humelelo",
+      "unfollowSuccess": "U tshikile ku landzela",
+      "followSuccess": "Sweswi u landzela",
+      "error": "Xihoxo",
+      "followError": "Ku tsandzekile ku pfuxeta xiyimo xa ku landzela.",
+      "posts": "Tiphosithi",
+      "followers": "Valandzeri",
+      "following": "Ku landzela",
+      "follow": "Landzela",
+      "unfollow": "Tshika ku Landzela",
+      "chat": "Vulavula"
+    },
+    "menu": {
+      "menu": "Menyu",
+      "settings": "Matirhiselo",
+      "yourUwaciCoins": "Tikhoyini ta wena ta Uwaci",
+      "notifications": "Switiviso",
+      "marketplace": "Makete",
+      "signOut": "Huma",
+      "confirmSignOut": "Tiyisisa ku Huma",
+      "areYouSureSignOut": "Xana u na ntiyiso leswaku u lava ku huma?",
+      "cancel": "Tshika",
+      "goBack": "Tlhelela Endzhaku",
+      "joinNow": "Joyina Sweswi",
+      "joinLater": "Joyina Endzhaku",
+      "savedChallenges": "Mitlhontlho yo yi Joyina"
+    },
+    "settings": {
+      "settings": "Matirhiselo",
+      "fontSelected": "Maletere lama Hlawuriweke",
+      "asYourFont": "yi vekiwile tanihi maletere ya wena.",
+      "languageSelected": "Ririmi leri Hlawuriweke",
+      "asYourLanguage": "ri vekiwile tanihi ririmi ra wena.",
+      "themeSelected": "Theme leyi Hlawuriweke",
+      "asYourTheme": "yi vekiwile tanihi theme ya wena.",
+      "notifications": "Switiviso",
+      "marketplace": "Makete",
+      "account": "Akhawunti",
+      "themes": "Titheme",
+      "fonts": "Tifonti",
+      "languages": "Tindzimi",
+      "signOut": "Huma",
+      "confirmSignOut": "Tiyisisa ku Huma",
+      "areYouSureSignOut": "Xana u na ntiyiso leswaku u lava ku huma?",
+      "cancel": "Tshika",
+      "goBack": "Tlhelela Endzhaku",
+      "selectFont": "Hlawula Fonti",
+      "selectLanguage": "Hlawula Ririmi",
+      "selectTheme": "Hlawula Theme",
+      "passwordSecurity": "Phaswedi & Nsirhelelo",
+      "personalDetails": "Vuxokoxoko bya Munhu",
+      "verification": "Ku Tiyisekisa",
+      "paymentMethods": "Tindlela ta ku Hakela",
+      "adPreferences": "Ku Tsakela ka Xinavetiso",
+      "upgradePremium": "Tlakusa ku ya eka premium",
+      "content": "Vundzeni",
+      "language": "Ririmi",
+      "savedDraft": "Mpfampfarhuto lowu Hlayisiweke",
+      "yourActivity": "Migingiriko ya Wena",
+      "accessibility": "Ku Fikelela",
+      "privacy": "Xihundla",
+      "comments": "Mavonelo",
+      "privateAccount": "Akhawunti ya Xihundla",
+      "directMessaging": "Ku Rhumela Mahungu hi ku kongoma",
+      "blockedReports": "Leswi Siviweke/Switiviwa",
+      "termsPolicies": "Milawu na Tipholisi",
+      "switchAccount": "Cinca Akhawunti"
+    },
+    "accountDetails": {
+      "settingsTitle": "Matirhiselo ya Akhawunti",
+      "profileSettings": "Lulamisa Phrofayili ",
+      "resetPassword": "Veka Phaswedi Nakambe",
+      "deleteAccount": "Sula Akhawunti",
+      "resetPasswordModal": {
+        "title": "Veka Phaswedi Nakambe",
+        "message": "Imeyili yo veka phaswedi nakambe yi ta rhumiwa eka",
+        "sendEmail": "Rhumela Imeyili",
+        "cancel": "Tshika"
+      },
+      "deleteAccountModal": {
+        "title": "Sula Akhawunti",
+        "message": "Xana u na ntiyiso leswaku u lava ku sula akhawunti ya wena? Xiendlo lexi xi ngaka xi nga tlheleriwi endzhaku.",
+        "delete": "Sula",
+        "cancel": "Tshika"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Phrofayili Yi Pfuxetiwile",
+          "message": "Phrofayili ya wena yi pfuxetiwile hi ku humelela."
+        },
+        "profileUpdateError": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku pfuxeta phrofayili ya wena. Hi kombela u ringeta nakambe."
+        },
+        "passwordReset": {
+          "title": "Phaswedi Yi Vekiwile Nakambe",
+          "message": "Imeyili yo veka phaswedi nakambe yi rhumiwile."
+        },
+        "passwordResetError": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku rhumela imeyili yo veka phaswedi nakambe. Hi kombela u ringeta nakambe."
+        },
+        "accountDeleted": {
+          "title": "Akhawunti Yi Suriwile",
+          "message": "Akhawunti ya wena yi suriwile hi ku humelela."
+        },
+        "accountDeleteError": {
+          "title": "Xihoxo",
+          "message": "Ku tsandzekile ku sula akhawunti ya wena. Hi kombela u ringeta nakambe."
+        }
+      }
+    }
+  }

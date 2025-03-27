@@ -1,0 +1,630 @@
+{
+  "welcomeScreen": {
+    "exploreChallenges": "Jelajah Tantangan",
+    "thatInspire": "anu Ngainspirasi!",
+    "signUp": "Daptar",
+    "signIn": "Lebet"
+  },
+  "signUp": {
+    "title": "Daptar",
+    "headerMessage": "Jieun akun anyar pikeun mimitian.",
+    "businessTitle": "Daptar salaku Bisnis",
+    "headerMessageBusiness": "Jieun akun bisnis pikeun mimitian.",
+    "form": {
+      "username": {
+        "label": "Ngaran Pamaké",
+        "placeholder": "Pilih ngaran pamaké",
+        "validation": {
+          "minLength": "Ngaran pamaké sakedikna 3 karakter.",
+          "regex": "Ngaran pamaké ngan ukur tiasa ngagunakeun aksara, angka, sareng garis handap"
+        }
+      },
+      "firstname": {
+        "label": "Nami Payun",
+        "placeholder": "Lebetkeun nami payun anjeun",
+        "validation": "Nami payun sakedikna 3 karakter."
+      },
+      "lastname": {
+        "label": "Nami Pamaké",
+        "placeholder": "Lebetkeun nami pamaké anjeun",
+        "validation": "Nami pamaké sakedikna 3 karakter."
+      },
+      "businessName": {
+        "label": "Nami Bisnis",
+        "placeholder": "Lebetkeun nami bisnis anjeun",
+        "validation": "Nami bisnis sakedikna 3 karakter."
+      },
+      "website": {
+        "label": "Situs Wéb Bisnis",
+        "placeholder": "Lebetkeun situs wéb anjeun",
+        "validation": "Situs wéb sakedikna 3 karakter."
+      },
+      "businessType": {
+        "label": "Jenis Bisnis",
+        "placeholder": "Jenis Bisnis",
+        "validation": "Jenis bisnis sakedikna 3 karakter."
+      },
+      "email": {
+        "label": "Surélék",
+        "placeholder": "Lebetkeun alamat surélék anjeun",
+        "validation": "Punten lebetkeun alamat surélék anu leres."
+      },
+      "phoneNumber": {
+        "label": "Nomer Telepon",
+        "placeholder": "Lebetkeun nomer telepon anjeun",
+        "validation": "Punten lebetkeun nomer telepon anu leres."
+      },
+      "birthday": {
+        "title": "Dinten Lahir",
+        "label": "Dinten Lahir",
+        "placeholder": "DD-MM-YYYY",
+        "validation": {
+          "format": "Dinten lahir kedah dina format DD-MM-YYYY",
+          "validDate": "Dinten teu valid",
+          "ageRestriction": "Anjeun kedah umur 18 taun atawa langkung pikeun ngadamel akun"
+        }
+      },
+      "password": {
+        "label": "Kecap Konci",
+        "placeholder": "Lebetkeun kecap konci anjeun",
+        "validation": {
+          "minLength": "Kecap konci sakedikna 8 karakter.",
+          "maxLength": "Kecap konci sakedikna 64 karakter.",
+          "uppercase": "Kecap konci kedah ngandung sakedikna hiji aksara kapital.",
+          "lowercase": "Kecap konci kedah ngandung sakedikna hiji aksara alit.",
+          "numberOrSpecial": "Kecap konci kedah ngandung sakedikna hiji angka atawa karakter husus."
+        },
+        "strength": {
+          "weak": "Lemah",
+          "fair": "Cukup",
+          "good": "Saé",
+          "strong": "Kuat"
+        }
+      },
+      "confirmPassword": {
+        "label": "Konfirmasi Kecap Konci",
+        "placeholder": "Lebetkeun deui kecap konci anjeun",
+        "validation": "Kecap konci teu cocog."
+      }
+    },
+    "buttons": {
+      "createAccount": "Jieun Akun",
+      "alreadyHaveAccount": "Parantos gaduh akun?",
+      "signIn": "Lebet",
+      "businessJoin": "Gabung Challenz salaku mitra bisnis"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kasalahan",
+        "message": "Kasalahan lumangsung nalika ngadamel akun anjeun. Punten cobian deui."
+      },
+      "passwordMismatch": {
+        "title": "Kecap Konci Teu Cocog",
+        "message": "Kecap konci salah. Punten cobian deui."
+      },
+      "agreementRequired": {
+        "title": "Persetujuan Diperyogikeun",
+        "message": "Punten tarima Katangtuan Layanan sareng Kabijakan Privasi."
+      },
+      "success": {
+        "title": "Hasil",
+        "message": "Akun parantos diresmikeun."
+      },
+      "signUpError": {
+        "title": "Kasalahan Daptar",
+        "message": "Kasalahan lumangsung nalika ngadamel akun anjeun. Punten cobian deui."
+      }
+    },
+    "termsAndPrivacy": {
+      "message": "Ku ngadaptar anjeun satuju yén anjeun parantos maca",
+      "termsOfService": "Katangtuan Layanan",
+      "privacyPolicy": "Kabijakan Privasi",
+      "andAccepted": "sareng tarima"
+    }
+  },
+  "signIn": {
+    "title": "Lebet",
+    "headerMessage": "Lebetkeun idéntitas anjeun pikeun ngaksés akun anjeun.",
+    "form": {
+      "email": "Surélék",
+      "emailPlaceholder": "Lebetkeun Surélék anjeun",
+      "password": "Kecap Konci",
+      "passwordPlaceholder": "Lebetkeun Kecap Konci anjeun"
+    },
+    "buttons": {
+      "signIn": "Lebet",
+      "forgotPassword": "Hilap Kecap Konci?",
+      "noAccount": "Teu gaduh akun?",
+      "signUp": " Daptar"
+    },
+    "forgotPassword": {
+      "title": "Hilap Kecap Konci",
+      "prompt": "Punten lebetkeun surélék anjeun payun.",
+      "successTitle": "Tingali surélék anjeun",
+      "successMessage": "Abdi parantos ngirimkeun tautan reset kecap konci ka surélék anjeun.",
+      "errorTitle": "Kasalahan Reset"
+    },
+    "termsAndPrivacy": {
+      "message": "Ku ngadaptar anjeun satuju yén anjeun parantos maca",
+      "termsOfService": "Katangtuan Layanan",
+      "privacyPolicy": "Kabijakan Privasi",
+      "andAccepted": "sareng tarima"
+    },
+    "alerts": {
+      "signInError": {
+        "title": "Kasalahan Lebet"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Hilap Kecap Konci",
+    "description": "Lebetkeun alamat surélék anjeun di handap sareng kami bakal ngirimkeun tautan pikeun reset kecap konci anjeun.",
+    "form": {
+      "email": "Alamat Surélék"
+    },
+    "buttons": {
+      "reset": "Reset Kecap Konci",
+      "sending": "Ngirim...",
+      "remembered": "Emut kecap konci anjeun?",
+      "signIn": "Lebet"
+    },
+    "alerts": {
+      "enterEmail": "Punten lebetkeun alamat surélék anjeun.",
+      "checkEmail": "Tingali surélék anjeun pikeun tautan reset.",
+      "resetError": "Gagal reset kecap konci"
+    }
+  },
+  "resetPassword": {
+    "title": "Perbarui Kecap Konci",
+    "description": "Lebetkeun kecap konci anyar anjeun di handap pikeun reset kecap konci akun anjeun.",
+    "form": {
+      "newPassword": "Lebetkeun kecap konci anyar",
+      "confirmPassword": "Konfirmasi kecap konci anyar"
+    },
+    "alerts": {
+      "enterBothPasswords": "Punten lebetkeun duanana bidang kecap konci.",
+      "passwordMismatch": "Kecap konci teu cocog. Punten cobian deui.",
+      "success": "Kecap konci anjeun parantos diperbarui.",
+      "updateError": "Kasalahan nalika ngaperbarui kecap konci. Punten cobian deui."
+    },
+    "buttons": {
+      "saving": "Nyimpen...",
+      "update": "Perbarui Kecap Konci"
+    }
+  },
+  "resetPasswordScreen": {
+    "error": {
+      "missingTokens": "Token aksés teu valid atawa leungit.",
+      "sessionFailed": "Gagal netepkeun sesi.",
+      "invalidPassword": "Punten lebetkeun kecap konci anu valid sakedikna 8 karakter.",
+      "updateFailed": "Gagal ngaperbarui kecap konci anjeun."
+    },
+    "success": {
+      "passwordUpdated": "Kecap konci anjeun parantos diperbarui. Punten lebet deui."
+    },
+    "title": "Reset Kecap Konci Anjeun",
+    "instructions": "Lebetkeun kecap konci anyar.",
+    "labels": {
+      "newPassword": "Kecap Konci Anyar"
+    },
+    "placeholders": {
+      "newPassword": "Lebetkeun kecap konci anyar"
+    },
+    "buttons": {
+      "updatePassword": "Perbarui Kecap Konci"
+    }
+  },
+  "tabs": {
+    "home": "Utama",
+    "search": "Paluruh",
+    "create": "Jieun",
+    "contest": "Kontes",
+    "menu": "Menu",
+    "settings": "Setélan",
+    "profile": "Profil",
+    "editProfile": "Edit Profil Anjeun",
+    "otherUserProfile": "Profil Pamaké",
+    "explore": "Jelajah",
+    "challengeDetails": "Détail Tantangan",
+    "submissionDetails": "Détail Kiriman",
+    "contestDetails": "Détail Kontes",
+    "followers": "Pangiring ",
+    "following": "Diiring ",
+    "account": "Akun",
+    "notifications": "Béwara",
+    "leaderboard": "Papan Peringkat",
+    "market": "Pasar",
+    "rewards": "Hadiahh",
+    "coin": "Uwaci Anjeun"
+  },
+  "tabsMessages": {
+    "tabBarCreateTitle": "Jieun",
+    "tabBarCreateLabel": null,
+    "tabBarIconAltText": {
+      "home": "Ikon utama",
+      "search": "Ikon paluruh",
+      "create": "Ikon jieun",
+      "explore": "Ikon jelajah",
+      "profile": "Ikon profil"
+    }
+  },
+  "search": {
+    "inputPlaceholder": "Paluruh kiriman, pamaké, tantangan...",
+    "clearSearch": "Bersihkeun input paluruh",
+    "loading": "Ngamuat...",
+    "error": {
+      "title": "Kasalahan Paluruh",
+      "message": "Kasalahan lumangsung nalika paluruh."
+    },
+    "noPreviousSearches": "Teu aya paluruh saméméhna.",
+    "previousSearches": "Paluruh Saméméhna",
+    "submissions": {
+      "title": "Kiriman",
+      "noResults": "Teu aya kiriman anu kapanggih.",
+      "videoError": {
+        "title": "Kasalahan Vidéo",
+        "message": "Gagal ngamuat vidéo."
+      }
+    },
+    "users": {
+      "title": "Pamaké",
+      "noResults": "Teu aya pamaké anu kapanggih."
+    },
+    "challenges": {
+      "title": "Tantangan",
+      "noResults": "Teu aya tantangan anu kapanggih.",
+      "videoError": {
+        "title": "Kasalahan Vidéo",
+        "message": "Gagal ngamuat vidéo tantangan."
+      },
+      "category": "Katégori: ",
+      "seasonalTag": "Musiman",
+      "sponsoredTag": "Disponsoran"
+    },
+    "repeatSearch": "Paluruh deui pikeun",
+    "accessibility": {
+      "viewVideo": "Tingali vidéo judulna",
+      "viewProfile": "Tingali profil ti",
+      "viewChallenge": "Tingali tantangan judulna"
+    }
+  },
+  "contest": {
+    "title": "Sadaya Kontes",
+    "createContestButton": "Jieun Kontes"
+  },
+  "contests": {
+    "noContests": "Teu aya kontes anu kapanggih.",
+    "error": {
+      "title": "Kasalahan",
+      "message": "Gagal nyokot kontes."
+    },
+    "status": {
+      "notStarted": "Can Dimitian",
+      "ongoing": "Lumangsung",
+      "ended": "Parantos Réngsé"
+    },
+    "dates": {
+      "start": "Mimiti: ",
+      "end": "Réngsé: ",
+      "notAvailable": "Teu Aya"
+    },
+    "contestDetailsButton": "Tingali Détail Kontes"
+  },
+  "newContest": {
+    "header": {
+      "title": "Jieun Kontes Anyar",
+      "backButton": "Balik"
+    },
+    "fields": {
+      "title": {
+        "label": "Judul",
+        "placeholder": "cont., Kompetisi Tari Musim Panas",
+        "validation": "Judul diperyogikeun."
+      },
+      "description": {
+        "label": "Déskripsi",
+        "placeholder": "Ngeunaan naon kontes ieu?"
+      },
+      "startDate": {
+        "label": "Tanggal Mimiti",
+        "placeholder": "DD-MM-YYYY",
+        "validation": "Tanggal réngsé kedah saatos tanggal mimiti."
+      },
+      "endDate": {
+        "label": "Tanggal Réngsé",
+        "placeholder": "DD-MM-YYYY"
+      },
+      "winnerReward": {
+        "label": "Hadiah Pamenang (Uwaci Coins)",
+        "placeholder": "100"
+      },
+      "participantReward": {
+        "label": "Hadiah Pamilon (Uwaci Coins)",
+        "placeholder": "10"
+      },
+      "explanationVideo": {
+        "label": "Déskripsi Vidéo (Opsional)",
+        "noVideoSelected": "Tambahkeun déskripsi vidéo.",
+        "picked": "Dipilih: {filename}",
+        "uploaded": "Diunggah: Vidéo parantos hasil diunggah.",
+        "chooseVideoButton": "Pilih Vidéo",
+        "uploadVideoButton": "Unggah Vidéo"
+      }
+    },
+    "buttons": {
+      "createContest": "Jieun Kontes"
+    },
+    "alerts": {
+      "error": {
+        "title": "Kasalahan",
+        "pickVideoMessage": "Gagal milih vidéo.",
+        "uploadVideoMessage": "Gagal ngunggah vidéo.",
+        "createContestMessage": "Gagal ngadamel kontes."
+      },
+      "success": {
+        "title": "Hasil.",
+        "videoUploadMessage": "Vidéo hasil diunggah!",
+        "createContestMessage": "Kontes hasil diresmikeun!"
+      },
+      "validation": {
+        "noTitle": "Judul diperyogikeun.",
+        "invalidDates": "Tanggal réngsé kedah saatos tanggal mimiti."
+      },
+      "noSession": {
+        "title": "Anjeun kedah lebet pikeun ngadamel kontes."
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "Profil",
+      "settingsButton": "Ka Setélan"
+    },
+    "imagePicker": {
+      "permissionAlert": {
+        "title": "Idin diperyogikeun",
+        "message": "Kami peryogi idin pikeun ngaksés foto anjeun."
+      },
+      "errorAlert": {
+        "title": "Kasalahan",
+        "message": "Gagal milih gambar"
+      },
+      "successAlert": {
+        "title": "Hasil",
+        "message": "Gambar profil hasil diperbarui"
+      }
+    },
+    "referral": {
+      "shareError": {
+        "title": "Kasalahan Babagi",
+        "message": "Teu tiasa babagi tautan rujukan."
+      },
+      "successShare": {
+        "title": "Gabung kuring di Challenz!",
+        "message": "Hé! Paké tautan ieu pikeun daptar: {{referralUrl}}"
+      }
+    },
+    "followers": {
+      "label": "Pangiring",
+      "viewFollowers": "Tingali Pangiring"
+    },
+    "following": {
+      "label": "Diiring",
+      "viewFollowing": "Tingali Diiring"
+    },
+    "posts": {
+      "label": "Kiriman",
+      "viewPosts": "Tingali Kiriman",
+      "noVideos": "Can aya vidéo anu diunggah."
+    },
+    "info": {
+      "email": "Surélék",
+      "phone": "Telepon",
+      "location": "Lokasi",
+      "coins": "Uwaci Coins",
+      "bio": "Bio",
+      "noProfile": "Teu Aya Profil"
+    },
+    "buttons": {
+      "inviteFriends": "Ondang Babaturan",
+      "deleteVideo": "Hapus Vidéo",
+      "deleteVideoAlert": {
+        "title": "Hapus Vidéo",
+        "message": "Yakin badé ngahapus vidéo ieu?"
+      },
+      "deleteSuccess": {
+        "title": "Hasil",
+        "message": "Vidéo parantos dihapus."
+      },
+      "deleteError": {
+        "title": "Kasalahan",
+        "message": "Gagal ngahapus vidéo."
+      }
+    },
+    "errors": {
+      "generalError": "Kasalahan lumangsung.",
+      "profileError": "Gagal nyokot profil.",
+      "submissionsError": "Gagal nyokot kiriman."
+    },
+    "loading": {
+      "profile": "Ngamuat profil...",
+      "submissions": "Ngamuat kiriman..."
+    }
+  },
+  "editProfile": {
+    "header": {
+      "title": "Edit Profil",
+      "cancelButton": "Batal",
+      "saveButton": "Simpen Parobahan",
+      "savingButton": "Nyimpen..."
+    },
+    "fields": {
+      "firstName": {
+        "label": "Nami Payun",
+        "placeholder": "Lebetkeun nami payun anjeun",
+        "error": {
+          "tooShort": "Nami payun terlalu pendek"
+        }
+      },
+      "lastName": {
+        "label": "Nami Pamaké",
+        "placeholder": "Lebetkeun nami pamaké anjeun",
+        "error": {
+          "tooShort": "Nami pamaké terlalu pendek"
+        }
+      },
+      "phoneNumber": {
+        "label": "Nomer Telepon",
+        "placeholder": "Lebetkeun nomer telepon anjeun",
+        "error": {
+          "invalid": "Punten lebetkeun nomer telepon anu leres"
+        }
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Caritakeun ngeunaan diri anjeun",
+        "error": {
+          "tooLong": "Bio kedah kurang ti 500 karakter"
+        }
+      },
+      "location": {
+        "label": "Lokasi",
+        "placeholder": "Lebetkeun lokasi anjeun",
+        "error": {
+          "tooLong": "Lokasi kedah kurang ti 100 karakter"
+        }
+      }
+    },
+    "alerts": {
+      "fetchError": {
+        "title": "Kasalahan",
+        "message": "Gagal nyokot data profil"
+      },
+      "updateSuccess": {
+        "title": "Hasil",
+        "message": "Profil hasil diperbarui"
+      },
+      "updateError": {
+        "title": "Kasalahan",
+        "message": "Gagal ngaperbarui profil"
+      }
+    },
+    "loading": {
+      "title": "Ngamuat..."
+    }
+  },
+  "otherUserProfile": {
+    "loading": "Ngamuat...",
+    "noProfileFound": "Teu Aya Profil",
+    "authenticationRequired": "Otentikasi Diperyogikeun",
+    "pleaseLogIn": "Punten lebet pikeun nunda pamaké.",
+    "success": "Hasil",
+    "unfollowSuccess": "Anjeun parantos teu nunda",
+    "followSuccess": "Anjeun parantos nunda",
+    "error": "Kasalahan",
+    "followError": "Gagal ngaperbarui status nunda.",
+    "posts": "Kiriman",
+    "followers": "Pangiring",
+    "following": "Diiring",
+    "follow": "Tunda",
+    "unfollow": "Teu Tunda",
+    "chat": "Obrolan"
+  },
+  "menu": {
+    "menu": "Menu",
+    "settings": "Setélan",
+    "yourUwaciCoins": "Uwaci Coins Anjeun",
+    "notifications": "Béwara",
+    "marketplace": "Pasar",
+    "signOut": "Kaluar",
+    "confirmSignOut": "Konfirmasi Kaluar",
+    "areYouSureSignOut": "Yakin badé kaluar?",
+    "cancel": "Batal",
+    "goBack": "Balik"
+  },
+  "settings": {
+    "settings": "Setélan",
+    "fontSelected": "Fon Dipilih",
+    "asYourFont": "parantos dijieun salaku fon anjeun.",
+    "languageSelected": "Basa Dipilih",
+    "asYourLanguage": "parantos dijieun salaku basa anjeun.",
+    "themeSelected": "Téma Dipilih",
+    "asYourTheme": "parantos dijieun salaku téma anjeun.",
+    "notifications": "Béwara",
+    "marketplace": "Pasar",
+    "account": "Akun",
+    "themes": "Téma",
+    "fonts": "Fon",
+    "languages": "Basa",
+    "signOut": "Kaluar",
+    "confirmSignOut": "Konfirmasi Kaluar",
+    "areYouSureSignOut": "Yakin badé kaluar?",
+    "cancel": "Batal",
+    "goBack": "Balik",
+    "selectFont": "Pilih Fon",
+    "selectLanguage": "Pilih Basa",
+    "selectTheme": "Pilih Téma",
+    "passwordSecurity": "Kecap Konci & Kaamanan",
+    "personalDetails": "Détail Pribadi",
+    "verification": "Verifikasi",
+    "paymentMethods": "Métode pembayaran",
+    "adPreferences": "Preferensi Iklan",
+    "upgradePremium": "Upgrade ka premium",
+    "content": "Eusi",
+    "language": "Basa",
+    "savedDraft": "Konsép Disimpen",
+    "yourActivity": "Aktivitas Anjeun",
+    "accessibility": "Aksesibilitas",
+    "privacy": "Privasi",
+    "comments": "Koméntar",
+    "privateAccount": "Akun Pribadi",
+    "directMessaging": "Pesan Langsung",
+    "blockedReports": "Diblokir/Laporan",
+    "termsPolicies": "Katangtuan sareng Kabijakan",
+    "switchAccount": "Ganti Akun"
+  },
+  "accountDetails": {
+    "settingsTitle": "Setélan Akun",
+    "profileSettings": "Edit Profil",
+    "resetPassword": "Reset Kecap Konci",
+    "deleteAccount": "Hapus Akun",
+    "resetPasswordModal": {
+      "title": "Reset Kecap Konci",
+      "message": "Surélék reset kecap konci bakal dikirim ka",
+      "sendEmail": "Kirim Surélék",
+      "cancel": "Batal"
+    },
+    "deleteAccountModal": {
+      "title": "Hapus Akun",
+      "message": "Yakin badé ngahapus akun anjeun? Tindakan ieu teu tiasa dibatalkeun.",
+      "delete": "Hapus",
+      "cancel": "Batal"
+    },
+    "alerts": {
+      "profileUpdated": {
+        "title": "Profil Diperbarui",
+        "message": "Profil anjeun parantos diperbarui."
+      },
+      "profileUpdateError": {
+        "title": "Kasalahan",
+        "message": "Gagal ngaperbarui profil anjeun. Punten cobian deui."
+      },
+      "passwordReset": {
+        "title": "Reset Kecap Konci",
+        "message": "Surélék reset kecap konci parantos dikirim."
+      },
+      "passwordResetError": {
+        "title": "Kasalahan",
+        "message": "Gagal ngirim surélék reset kecap konci. Punten cobian deui."
+      },
+      "accountDeleted": {
+        "title": "Akun Dihapus",
+        "message": "Akun anjeun parantos dihapus."
+      },
+      "accountDeleteError": {
+        "title": "Kasalahan",
+        "message": "Gagal ngahapus akun anjeun. Punten cobian deui."
+      }
+    }
+  }
+}

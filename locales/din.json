@@ -1,0 +1,630 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Yök Timjieeth",
+      "thatInspire": "yeeŋ cï yïn puɔ̈c!",
+      "signUp": "Boŋ Cök",
+      "signIn": "Në Thïn"
+    },
+    "signUp": {
+      "title": "Boŋ Cök",
+      "headerMessage": "Cak akäunt yam bïk yïn kɔɔr",
+      "businessTitle": "Boŋ Cök Cï Luɔi",
+      "headerMessageBusiness": "Cak akäunt luɔi bïk yïn kɔɔr",
+      "form": {
+        "username": {
+          "label": "Rin Ye Luui",
+          "placeholder": "Lɔc rin ye luui",
+          "validation": {
+            "minLength": "Rin ye luui adhil bɛ̈n akölä akölä ke diäk",
+            "regex": "Rin ye luui alëu bï bɛ̈n kek akölä, akuëën, ku akölä piny ë rot"
+          }
+        },
+        "firstname": {
+          "label": "Rin Tueŋ",
+          "placeholder": "Tääu rin du tueŋ",
+          "validation": "Rin tueŋ adhil bɛ̈n akölä akölä ke diäk"
+        },
+        "lastname": {
+          "label": "Rin de Wun",
+          "placeholder": "Tääu rin de wun du",
+          "validation": "Rin de wun du adhil bɛ̈n akölä akölä ke diäk"
+        },
+        "businessName": {
+          "label": "Rin Luɔi",
+          "placeholder": "Tääu rin luɔi du",
+          "validation": "Rin luɔi adhil bɛ̈n akölä akölä ke diäk"
+        },
+        "website": {
+          "label": "Wɛbthait de Luɔi",
+          "placeholder": "Tääu wɛbthait du",
+          "validation": "Rin luɔi adhil bɛ̈n akölä akölä ke diäk"
+        },
+        "businessType": {
+          "label": "Ye Luɔi Ŋö",
+          "placeholder": "Ye Luɔi Ŋö",
+          "validation": "Rin luɔi adhil bɛ̈n akölä akölä ke diäk"
+        },
+        "email": {
+          "label": "Imeel",
+          "placeholder": "Tääu imeel du",
+          "validation": "Tääu imeel cï ŋiɛc bɛ̈n"
+        },
+        "phoneNumber": {
+          "label": "Telepun Namba",
+          "placeholder": "Tääu telepun namba du",
+          "validation": "Tääu telepun namba cï ŋiɛc bɛ̈n"
+        },
+        "birthday": {
+          "title": "Aköl cï Dhiëëth",
+          "label": "Aköl cï Dhiëëth",
+          "placeholder": "DD-MM-YYYY",
+          "validation": {
+            "format": "Aköl cï dhiëëth adhil bɛ̈n cït DD-MM-YYYY",
+            "validDate": "Aköl këc ŋiɛc bɛ̈n",
+            "ageRestriction": "Yïn adhil bɛ̈n ke raan cï run 18 wälä ke dït apɛi bïk akäunt cak"
+          }
+        },
+        "password": {
+          "label": "Wɛ̈t Thiök",
+          "placeholder": "Tääu wɛ̈t thiök du",
+          "validation": {
+            "minLength": "Wɛ̈t thiök adhil bɛ̈n akölä akölä ke bɛt",
+            "maxLength": "Wɛ̈t thiök adhil bɛ̈n ke cï ye akölä 64 cök",
+            "uppercase": "Wɛ̈t thiök adhil bɛ̈n kek akölä dït tök",
+            "lowercase": "Wɛ̈t thiök adhil bɛ̈n kek akölä koor tök",
+            "numberOrSpecial": "Wɛ̈t thiök adhil bɛ̈n kek akuën tök wälä akölä piath tök"
+          },
+          "strength": {
+            "weak": "Niɔp",
+            "fair": "Cak Bɛ̈n Apath",
+            "good": "Path",
+            "strong": "Ril"
+          }
+        },
+        "confirmPassword": {
+          "label": "Thany Wɛ̈t Thiök",
+          "placeholder": "Tääu wɛ̈t thiök du ëdɛ̈",
+          "validation": "Wɛ̈t thiök acie thöŋ"
+        }
+      },
+      "buttons": {
+        "createAccount": "Cak Akäunt",
+        "alreadyHaveAccount": "Cïk akäunt thɛɛr?",
+        "signIn": "Në Thïn",
+        "businessJoin": "Mat ka Challenz kek kë luɔi"
+      },
+      "alerts": {
+        "error": {
+          "title": "Awuɔ̈c",
+          "message": "Awuɔ̈c acï rot looi ë cak akäunt du. Them ëdɛ̈"
+        },
+        "passwordMismatch": {
+          "title": "Wɛ̈t Thiök këc Thöŋ",
+          "message": "Wɛ̈t thiök cï wuɔ̈ɔ̈c. Them ëdɛ̈"
+        },
+        "agreementRequired": {
+          "title": "Gamëtöök Wïc",
+          "message": "Gamëtöök de Luɔi ku Athör de Tiɛɛtpiac adhil gam"
+        },
+        "success": {
+          "title": "Acï Piath",
+          "message": "Akäunt acï ŋiɛc cak"
+        },
+        "signUpError": {
+          "title": "Awuɔ̈c de Boŋ Cök",
+          "message": "Awuɔ̈c acï rot looi ë cak akäunt du. Them ëdɛ̈"
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "Në gör boŋ cök, yïn agam lɔn acï yïn kueen",
+        "termsOfService": "Gamëtöök de Luɔi",
+        "privacyPolicy": "Athör de Tiɛɛtpiac",
+        "andAccepted": "ku acï yïn gam"
+      }
+    },
+    "signIn": {
+      "title": "Në Thïn",
+      "headerMessage": "Tääu wël ku pïŋpïŋ bïk akäunt du yök",
+      "form": {
+        "email": "Imeel",
+        "emailPlaceholder": "Tääu imeel du",
+        "password": "Wɛ̈t Thiök",
+        "passwordPlaceholder": "Tääu wɛ̈t thiök du"
+      },
+      "buttons": {
+        "signIn": "Në Thïn",
+        "forgotPassword": "Cïk wɛ̈t thiök muɔr?",
+        "noAccount": "Cïk akäunt?",
+        "signUp": " Boŋ Cök"
+      },
+      "forgotPassword": {
+        "title": "Wɛ̈t Thiök cï Muɔr",
+        "prompt": "Tääu imeel du tueŋ",
+        "successTitle": "Tïŋ imeel du",
+        "successMessage": "Ɣok acï tuɔɔc gɛt bï wɛ̈t thiök bɛn bɛɛr në imeel du",
+        "errorTitle": "Awuɔ̈c de Bɛn Bɛɛr"
+      },
+      "termsAndPrivacy": {
+        "message": "Në gör boŋ cök, yïn agam lɔn acï yïn kueen",
+        "termsOfService": "Gamëtöök de Luɔi",
+        "privacyPolicy": "Athör de Tiɛɛtpiac",
+        "andAccepted": "ku acï yïn gam"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Awuɔ̈c de Në Thïn"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Wɛ̈t Thiök cï Muɔr",
+      "description": "Tääu imeel du piny tɛn ku ɣok bï tuɔɔc gɛt bï wɛ̈t thiök du bɛn bɛɛr",
+      "form": {
+        "email": "Imeel"
+      },
+      "buttons": {
+        "reset": "Bɛn Bɛɛr Wɛ̈t Thiök",
+        "sending": "Tuɔɔc...",
+        "remembered": "Cïk wɛ̈t thiök tak?",
+        "signIn": "Në Thïn"
+      },
+      "alerts": {
+        "enterEmail": "Tääu imeel du",
+        "checkEmail": "Tïŋ imeel du de gɛt bɛn bɛɛr",
+        "resetError": "Awuɔ̈ɔ̈c acï rot looi në bɛn bɛɛr wɛ̈t thiök"
+      }
+    },
+    "resetPassword": {
+      "title": "Bɛn Bɛɛr Wɛ̈t Thiök",
+      "description": "Tääu wɛ̈t thiök yam du piny tɛn bï wɛ̈t thiök de akäunt du bɛn bɛɛr",
+      "form": {
+        "newPassword": "Tääu wɛ̈t thiök yam",
+        "confirmPassword": "Thany wɛ̈t thiök yam"
+      },
+      "alerts": {
+        "enterBothPasswords": "Tääu käŋ ril de wɛ̈t thiök kedhiɛ",
+        "passwordMismatch": "Wɛ̈t thiök acie thöŋ. Them ëdɛ̈",
+        "success": "Wɛ̈t thiök du acï ŋiɛc bɛn bɛɛr",
+        "updateError": "Awuɔ̈c acï rot looi në bɛn bɛɛr wɛ̈t thiök. Them ëdɛ̈"
+      },
+      "buttons": {
+        "saving": "Muk...",
+        "update": "Bɛn Bɛɛr Wɛ̈t Thiök"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Cït akölä de në thïn akëc ŋiɛc bɛ̈n wälä acï määr",
+        "sessionFailed": "Awuɔ̈ɔ̈c acï rot looi në tɛɛm",
+        "invalidPassword": "Tääu wɛ̈t thiök cï ŋiɛc bɛ̈n kek akölä akölä ke bɛt",
+        "updateFailed": "Awuɔ̈ɔ̈c acï rot looi në bɛn bɛɛr wɛ̈t thiök du"
+      },
+      "success": {
+        "passwordUpdated": "Wɛ̈t thiök du acï bɛn bɛɛr. Näk thïn ëdɛ̈"
+      },
+      "title": "Bɛn Bɛɛr Wɛ̈t Thiök Du",
+      "instructions": "Tääu wɛ̈t thiök yam",
+      "labels": {
+        "newPassword": "Wɛ̈t Thiök Yam"
+      },
+      "placeholders": {
+        "newPassword": "Tääu wɛ̈t thiök yam"
+      },
+      "buttons": {
+        "updatePassword": "Bɛn Bɛɛr Wɛ̈t Thiök"
+      }
+    },
+    "tabs": {
+      "home": "Baai",
+      "search": "Wïc",
+      "create": "Cak",
+      "contest": "Gël",
+      "menu": "Menyu",
+      "settings": "Cëŋ",
+      "profile": "Pöroopail",
+      "editProfile": "Cök Pöroopail Du",
+      "otherUserProfile": "Pöroopail de Raan Dɛ̈t",
+      "explore": "Yök",
+      "challengeDetails": "Wël de Timjieeth",
+      "submissionDetails": "Wël de Tuɔɔc",
+      "contestDetails": "Wël de Gël",
+      "followers": "Buɔth ",
+      "following": "Buɔɔth ",
+      "account": "Akäunt",
+      "notifications": "Lëk",
+      "leaderboard": "Bord Wat",
+      "market": "Akëthuk",
+      "rewards": "Ariöp",
+      "coin": "Wëu Du"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Cak",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Kïn de baai",
+        "search": "Kïn de wïc",
+        "create": "Kïn de cak",
+        "explore": "Kïn de yök",
+        "profile": "Kïn de pöroopail"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Wïc tuɔɔc, kɔc, timjieeth...",
+      "clearSearch": "Wuuny wïc",
+      "loading": "Bɛ̈n...",
+      "error": {
+        "title": "Awuɔ̈c de Wïc",
+        "message": "Awuɔ̈c acï rot looi në wïc"
+      },
+      "noPreviousSearches": "Acïn wïc thɛɛr",
+      "previousSearches": "Wïc Thɛɛr",
+      "submissions": {
+        "title": "Tuɔɔc",
+        "noResults": "Acïn tuɔɔc cï yök",
+        "videoError": {
+          "title": "Awuɔ̈c de Bidio",
+          "message": "Acï pëël në bɛ̈n bidio"
+        }
+      },
+      "users": {
+        "title": "Kɔc",
+        "noResults": "Acïn kɔc cï yök"
+      },
+      "challenges": {
+        "title": "Timjieeth",
+        "noResults": "Acïn timjieeth cï yök",
+        "videoError": {
+          "title": "Awuɔ̈c de Bidio",
+          "message": "Acï pëël në bɛ̈n bidio de timjieeth"
+        },
+        "category": "Kït: ",
+        "seasonalTag": "De Ruön",
+        "sponsoredTag": "Kony"
+      },
+      "repeatSearch": "Bɛn wïc ëdɛ̈",
+      "accessibility": {
+        "viewVideo": "Tïŋ bidio kek cɔl",
+        "viewProfile": "Tïŋ pöroopail de",
+        "viewChallenge": "Tïŋ timjieeth kek cɔl"
+      }
+    },
+    "contest": {
+      "title": "Gël Ëbɛ̈n",
+      "createContestButton": "Cak Gël"
+    },
+    "contests": {
+      "noContests": "Acïn gël cï yök",
+      "error": {
+        "title": "Awuɔ̈c",
+        "message": "Acï pëël në bɛ̈n gël"
+      },
+      "status": {
+        "notStarted": "Akëc Jɔɔk",
+        "ongoing": "La Tueŋ",
+        "ended": "Acï Thök"
+      },
+      "dates": {
+        "start": "Jɔɔk: ",
+        "end": "Thök: ",
+        "notAvailable": "Atöŋ"
+      },
+      "contestDetailsButton": "Tïŋ Wël de Gël"
+    },
+    "newContest": {
+      "header": {
+        "title": "Cak Gël Yam",
+        "backButton": "Dhuk"
+      },
+      "fields": {
+        "title": {
+          "label": "Rin",
+          "placeholder": "deet, Dieeny de Ruön Liɛɛc",
+          "validation": "Rin awïc"
+        },
+        "description": {
+          "label": "Tɛ̈t",
+          "placeholder": "Gël kënë atɔ̈ në ŋö?"
+        },
+        "startDate": {
+          "label": "Aköl de Jɔɔk",
+          "placeholder": "DD-MM-YYYY",
+          "validation": "Aköl de thök adhil bɛ̈n ke le nhial tënë aköl de jɔɔk"
+        },
+        "endDate": {
+          "label": "Aköl de Thök",
+          "placeholder": "DD-MM-YYYY"
+        },
+        "winnerReward": {
+          "label": "Ariöp de Kuany (Wëu de Uwaci)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Ariöp de Rot Mat (Wëu de Uwaci)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Bidio de Tɛ̈t (Mat-mat)",
+          "noVideoSelected": "Mat bidio de tɛ̈t",
+          "picked": "Acï Lɔc: {filename}",
+          "uploaded": "Acï Bɛ̈n: Bidio acï ŋiɛc bɛ̈n",
+          "chooseVideoButton": "Lɔc Bidio",
+          "uploadVideoButton": "Bɛ̈n Bidio"
+        }
+      },
+      "buttons": {
+        "createContest": "Cak Gël"
+      },
+      "alerts": {
+        "error": {
+          "title": "Awuɔ̈c",
+          "pickVideoMessage": "Acï pëël në lɔc bidio",
+          "uploadVideoMessage": "Acï pëël në bɛ̈n bidio",
+          "createContestMessage": "Acï pëël në cak gël"
+        },
+        "success": {
+          "title": "Acï Piath",
+          "videoUploadMessage": "Bidio acï ŋiɛc bɛ̈n!",
+          "createContestMessage": "Gël acï ŋiɛc cak!"
+        },
+        "validation": {
+          "noTitle": "Rin awïc",
+          "invalidDates": "Aköl de thök adhil bɛ̈n ke le nhial tënë aköl de jɔɔk"
+        },
+        "noSession": {
+          "title": "Yïn adhil bɛ̈n në thïn bïk gël cak"
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Pöroopail",
+        "settingsButton": "La Tënë Cëŋ"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Lëu awïc",
+          "message": "Ɣok awïc lëu bïk laai piny"
+        },
+        "errorAlert": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në lɔc laai"
+        },
+        "successAlert": {
+          "title": "Acï Piath",
+          "message": "Laai de pöroopail acï ŋiɛc bɛn bɛɛr"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Awuɔ̈c de Tek",
+          "message": "Acï pëël në tek gɛt tëk"
+        },
+        "successShare": {
+          "title": "Mat kek ɣɛn në Challenz!",
+          "message": "Ciɛn! Luui gɛt kënë bïk boŋ cök: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Buɔth",
+        "viewFollowers": "Tïŋ Buɔth"
+      },
+      "following": {
+        "label": "Buɔɔth",
+        "viewFollowing": "Tïŋ Buɔɔth"
+      },
+      "posts": {
+        "label": "Athör",
+        "viewPosts": "Tïŋ Athör",
+        "noVideos": "Acïn bidio cï tääu"
+      },
+      "info": {
+        "email": "Imeel",
+        "phone": "Telepun",
+        "location": "Nyuɔɔt",
+        "coins": "Wëu de Uwaci",
+        "bio": "Pïr",
+        "noProfile": "Acïn Pöroopail cï Yök"
+      },
+      "buttons": {
+        "inviteFriends": "Cɔɔl Mäth",
+        "deleteVideo": "Nyop Bidio",
+        "deleteVideoAlert": {
+          "title": "Nyop Bidio",
+          "message": "Cïk la nhom lɔn wïc yïn nyop bidio kënë?"
+        },
+        "deleteSuccess": {
+          "title": "Acï Piath",
+          "message": "Bidio acï ŋiɛc nyop"
+        },
+        "deleteError": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në nyop bidio"
+        }
+      },
+      "errors": {
+        "generalError": "Awuɔ̈c acï rot looi",
+        "profileError": "Acï pëël në bɛ̈n pöroopail",
+        "submissionsError": "Acï pëël në bɛ̈n tuɔɔc"
+      },
+      "loading": {
+        "profile": "Bɛ̈n pöroopail...",
+        "submissions": "Bɛ̈n tuɔɔc..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Cök Pöroopail",
+        "cancelButton": "Pël",
+        "saveButton": "Muk Waar",
+        "savingButton": "Muk..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Rin Tueŋ",
+          "placeholder": "Tääu rin du tueŋ",
+          "error": {
+            "tooShort": "Rin tueŋ acït thiin apɛi"
+          }
+        },
+        "lastName": {
+          "label": "Rin de Wun",
+          "placeholder": "Tääu rin de wun du",
+          "error": {
+            "tooShort": "Rin de wun acït thiin apɛi"
+          }
+        },
+        "phoneNumber": {
+          "label": "Telepun Namba",
+          "placeholder": "Tääu telepun namba du",
+          "error": {
+            "invalid": "Tääu telepun namba cï ŋiɛc bɛ̈n"
+          }
+        },
+        "bio": {
+          "label": "Pïr",
+          "placeholder": "Lëk ɣok në yïn",
+          "error": {
+            "tooLong": "Pïr adhil bɛ̈n ke cï ye akölä 500 cök"
+          }
+        },
+        "location": {
+          "label": "Nyuɔɔt",
+          "placeholder": "Tääu nyuɔɔt du",
+          "error": {
+            "tooLong": "Nyuɔɔt adhil bɛ̈n ke cï ye akölä 100 cök"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në bɛ̈n wël de pöroopail"
+        },
+        "updateSuccess": {
+          "title": "Acï Piath",
+          "message": "Pöroopail acï ŋiɛc bɛn bɛɛr"
+        },
+        "updateError": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në bɛn bɛɛr pöroopail"
+        }
+      },
+      "loading": {
+        "title": "Bɛ̈n..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Bɛ̈n...",
+      "noProfileFound": "Acïn Pöroopail cï Yök",
+      "authenticationRequired": "Gam Awïc",
+      "pleaseLogIn": "Näk thïn bïk kɔc buɔɔth",
+      "success": "Acï Piath",
+      "unfollowSuccess": "Yïn acï kɔŋ buɔɔth",
+      "followSuccess": "Yïn atɔ̈ në buɔɔth ëmën",
+      "error": "Awuɔ̈c",
+      "followError": "Acï pëël në bɛn bɛɛr tɛ̈n buɔɔth",
+      "posts": "Athör",
+      "followers": "Buɔth",
+      "following": "Buɔɔth",
+      "follow": "Buɔɔth",
+      "unfollow": "Cï Buɔɔth",
+      "chat": "Jam"
+    },
+    "menu": {
+      "menu": "Menyu",
+      "settings": "Cëŋ",
+      "yourUwaciCoins": "Wëu de Uwaci Du",
+      "notifications": "Lëk",
+      "marketplace": "Akëthuk",
+      "signOut": "Bei",
+      "confirmSignOut": "Thany Bei",
+      "areYouSureSignOut": "Cïk la nhom lɔn wïc yïn bei?",
+      "cancel": "Pël",
+      "goBack": "Dhuk"
+    },
+    "settings": {
+      "settings": "Cëŋ",
+      "fontSelected": "Thurat cï Lɔc",
+      "asYourFont": "acï tääu cïmën thurat du",
+      "languageSelected": "Thok cï Lɔc",
+      "asYourLanguage": "acï tääu cïmën thok du",
+      "themeSelected": "Alueeth cï Lɔc",
+      "asYourTheme": "acï tääu cïmën alueeth du",
+      "notifications": "Lëk",
+      "marketplace": "Akëthuk",
+      "account": "Akäunt",
+      "themes": "Alueeth",
+      "fonts": "Thurat",
+      "languages": "Thok",
+      "signOut": "Bei",
+      "confirmSignOut": "Thany Bei",
+      "areYouSureSignOut": "Cïk la nhom lɔn wïc yïn bei?",
+      "cancel": "Pël",
+      "goBack": "Dhuk",
+      "selectFont": "Lɔc Thurat",
+      "selectLanguage": "Lɔc Thok",
+      "selectTheme": "Lɔc Alueeth",
+      "passwordSecurity": "Wɛ̈t Thiök ku Kuɔɔny",
+      "personalDetails": "Wël Yic",
+      "verification": "Nyuuth",
+      "paymentMethods": "Tɛ̈ de Riɔ̈p",
+      "adPreferences": "Lɔc de Athör",
+      "upgradePremium": "Waar tënë Athiɛɛr",
+      "content": "Wël",
+      "language": "Thok",
+      "savedDraft": "Akuën cï Muk",
+      "yourActivity": "Luɔi Du",
+      "accessibility": "Bɛ̈n",
+      "privacy": "Tiɛɛtpiac",
+      "comments": "Athör",
+      "privateAccount": "Akäunt Tiɛɛtpiac",
+      "directMessaging": "Tuɔɔc Athör",
+      "blockedReports": "Thiöök/Lɛ̈k",
+      "termsPolicies": "Gamëtöök ku Löŋ",
+      "switchAccount": "Waar Akäunt"
+    },
+    "accountDetails": {
+      "settingsTitle": "Cëŋ de Akäunt",
+      "profileSettings": "Cök Pöroopail ",
+      "resetPassword": "Bɛn Bɛɛr Wɛ̈t Thiök",
+      "deleteAccount": "Nyop Akäunt",
+      "resetPasswordModal": {
+        "title": "Bɛn Bɛɛr Wɛ̈t Thiök",
+        "message": "Imeel de bɛn bɛɛr wɛ̈t thiök abï tuɔɔc",
+        "sendEmail": "Tuɔɔc Imeel",
+        "cancel": "Pël"
+      },
+      "deleteAccountModal": {
+        "title": "Nyop Akäunt",
+        "message": "Cïk la nhom lɔn wïc yïn nyop akäunt du? Luɔi kënë acïï bï ya bɛn waar",
+        "delete": "Nyop",
+        "cancel": "Pël"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Pöroopail cï Bɛn Bɛɛr",
+          "message": "Pöroopail du acï ŋiɛc bɛn bɛɛr"
+        },
+        "profileUpdateError": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në bɛn bɛɛr pöroopail du. Them ëdɛ̈"
+        },
+        "passwordReset": {
+          "title": "Bɛn Bɛɛr Wɛ̈t Thiök",
+          "message": "Imeel de bɛn bɛɛr wɛ̈t thiök acï tuɔɔc"
+        },
+        "passwordResetError": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në tuɔɔc imeel de bɛn bɛɛr wɛ̈t thiök. Them ëdɛ̈"
+        },
+        "accountDeleted": {
+          "title": "Akäunt cï Nyop",
+          "message": "Akäunt du acï ŋiɛc nyop"
+        },
+        "accountDeleteError": {
+          "title": "Awuɔ̈c",
+          "message": "Acï pëël në nyop akäunt du. Them ëdɛ̈"
+        }
+      }
+    }
+  }

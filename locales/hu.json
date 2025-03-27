@@ -1,0 +1,634 @@
+{
+    "welcomeScreen": {
+      "exploreChallenges": "Fedezd fel a Kihívásokat",
+      "thatInspire": "amik Inspirálnak!",
+      "signUp": "Regisztráció",
+      "signIn": "Bejelentkezés"
+    },
+    "signUp": {
+      "title": "Regisztráció",
+      "headerMessage": "Hozz létre egy új fiókot a kezdéshez.",
+      "businessTitle": "Regisztráció Vállalkozásként",
+      "headerMessageBusiness": "Hozz létre egy vállalkozási fiókot a kezdéshez.",
+      "form": {
+        "username": {
+          "label": "Felhasználónév",
+          "placeholder": "Válassz felhasználónevet",
+          "validation": {
+            "minLength": "A felhasználónévnek legalább 3 karakterből kell állnia.",
+            "regex": "A felhasználónév csak betűket, számokat és aláhúzásjeleket tartalmazhat"
+          }
+        },
+        "firstname": {
+          "label": "Keresztnév",
+          "placeholder": "Add meg a keresztnevedet",
+          "validation": "A keresztnévnek legalább 3 karakterből kell állnia."
+        },
+        "lastname": {
+          "label": "Vezetéknév",
+          "placeholder": "Add meg a vezetéknevedet",
+          "validation": "A vezetéknévnek legalább 3 karakterből kell állnia."
+        },
+        "businessName": {
+          "label": "Vállalkozás Neve",
+          "placeholder": "Add meg a vállalkozásod nevét",
+          "validation": "A vállalkozás nevének legalább 3 karakterből kell állnia."
+        },
+        "website": {
+          "label": "Vállalkozás Weboldala",
+          "placeholder": "Add meg a weboldaladat",
+          "validation": "A vállalkozás nevének legalább 3 karakterből kell állnia."
+        },
+        "businessType": {
+          "label": "Vállalkozás Típusa",
+          "placeholder": "Vállalkozás Típusa",
+          "validation": "A vállalkozás nevének legalább 3 karakterből kell állnia."
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Add meg az email címedet",
+          "validation": "Kérjük, adj meg egy érvényes email címet."
+        },
+        "phoneNumber": {
+          "label": "Telefonszám",
+          "placeholder": "Add meg a telefonszámodat",
+          "validation": "Kérjük, adj meg egy érvényes telefonszámot."
+        },
+        "birthday": {
+          "title": "Születési idő",
+          "label": "Születési idő",
+          "placeholder": "NN-HH-ÉÉÉÉ",
+          "validation": {
+            "format": "A születési időnek NN-HH-ÉÉÉÉ formátumúnak kell lennie",
+            "validDate": "Érvénytelen dátum",
+            "ageRestriction": "Legalább 18 évesnek kell lenned a fiók létrehozásához"
+          }
+        },
+        "password": {
+          "label": "Jelszó",
+          "placeholder": "Add meg a jelszavadat",
+          "validation": {
+            "minLength": "A jelszónak legalább 8 karakterből kell állnia.",
+            "maxLength": "A jelszó legfeljebb 64 karakterből állhat.",
+            "uppercase": "A jelszónak tartalmaznia kell legalább egy nagybetűt.",
+            "lowercase": "A jelszónak tartalmaznia kell legalább egy kisbetűt.",
+            "numberOrSpecial": "A jelszónak tartalmaznia kell legalább egy számot vagy speciális karaktert."
+          },
+          "strength": {
+            "weak": "Gyenge",
+            "fair": "Megfelelő",
+            "good": "Jó",
+            "strong": "Erős"
+          }
+        },
+        "confirmPassword": {
+          "label": "Jelszó Megerősítése",
+          "placeholder": "Add meg újra a jelszavadat",
+          "validation": "A jelszavak nem egyeznek."
+        }
+      },
+      "buttons": {
+        "createAccount": "Fiók Létrehozása",
+        "alreadyHaveAccount": "Már van fiókod?",
+        "signIn": "Bejelentkezés",
+        "businessJoin": "Csatlakozz a Challenz-hez üzleti partnerként"
+      },
+      "alerts": {
+        "error": {
+          "title": "Hiba",
+          "message": "Hiba történt a fiókod létrehozásakor. Kérjük, próbáld újra."
+        },
+        "passwordMismatch": {
+          "title": "Jelszó Eltérés",
+          "message": "Helytelen jelszó. Kérjük, próbáld újra."
+        },
+        "agreementRequired": {
+          "title": "Hozzájárulás Szükséges",
+          "message": "Kérjük, fogadd el a Szolgáltatási Feltételeket és az Adatvédelmi Szabályzatot."
+        },
+        "success": {
+          "title": "Siker",
+          "message": "A fiók sikeresen létrehozva."
+        },
+        "signUpError": {
+          "title": "Regisztrációs Hiba",
+          "message": "Hiba történt a fiókod létrehozásakor. Kérjük, próbáld újra."
+        }
+      },
+      "termsAndPrivacy": {
+        "message": "A regisztrációval megerősíted, hogy elolvastad a",
+        "termsOfService": "Szolgáltatási Feltételeket",
+        "privacyPolicy": "Adatvédelmi Szabályzatot",
+        "andAccepted": "és elfogadtad a"
+      }
+    },
+    "signIn": {
+      "title": "Bejelentkezés",
+      "headerMessage": "Add meg a hitelesítő adataidat a fiókodhoz való hozzáféréshez.",
+      "form": {
+        "email": "Email",
+        "emailPlaceholder": "Add meg az Email címedet",
+        "password": "Jelszó",
+        "passwordPlaceholder": "Add meg a Jelszavadat"
+      },
+      "buttons": {
+        "signIn": "Bejelentkezés",
+        "forgotPassword": "Elfelejtetted a Jelszavadat?",
+        "noAccount": "Nincs fiókod?",
+        "signUp": " Regisztráció"
+      },
+      "forgotPassword": {
+        "title": "Elfelejtett Jelszó",
+        "prompt": "Kérjük, először add meg az email címedet fent.",
+        "successTitle": "Ellenőrizd az emailedet",
+        "successMessage": "Jelszó-visszaállítási linket küldtünk az email címedre.",
+        "errorTitle": "Visszaállítási Hiba"
+      },
+      "termsAndPrivacy": {
+        "message": "A regisztrációval megerősíted, hogy elolvastad a",
+        "termsOfService": "Szolgáltatási Feltételeket",
+        "privacyPolicy": "Adatvédelmi Szabályzatot",
+        "andAccepted": "és elfogadtad a"
+      },
+      "alerts": {
+        "signInError": {
+          "title": "Bejelentkezési Hiba"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Elfelejtett Jelszó",
+      "description": "Add meg az email címedet alább, és küldünk egy linket a jelszavad visszaállításához.",
+      "form": {
+        "email": "Email Cím"
+      },
+      "buttons": {
+        "reset": "Jelszó Visszaállítása",
+        "sending": "Küldés...",
+        "remembered": "Emlékszel a jelszavadra?",
+        "signIn": "Bejelentkezés"
+      },
+      "alerts": {
+        "enterEmail": "Kérjük, add meg az email címedet.",
+        "checkEmail": "Ellenőrizd az emailedet a visszaállítási linkért.",
+        "resetError": "Nem sikerült visszaállítani a jelszót"
+      }
+    },
+    "resetPassword": {
+      "title": "Jelszó Frissítése",
+      "description": "Add meg az új jelszavadat alább a fiókod jelszavának visszaállításához.",
+      "form": {
+        "newPassword": "Adj meg új jelszót",
+        "confirmPassword": "Erősítsd meg az új jelszót"
+      },
+      "alerts": {
+        "enterBothPasswords": "Kérjük, töltsd ki mindkét jelszómezőt.",
+        "passwordMismatch": "A jelszavak nem egyeznek. Kérjük, próbáld újra.",
+        "success": "A jelszavad sikeresen frissítve.",
+        "updateError": "Hiba a jelszó frissítésekor. Kérjük, próbáld újra."
+      },
+      "buttons": {
+        "saving": "Mentés...",
+        "update": "Jelszó Frissítése"
+      }
+    },
+    "resetPasswordScreen": {
+      "error": {
+        "missingTokens": "Érvénytelen vagy hiányzó hozzáférési token.",
+        "sessionFailed": "Nem sikerült beállítani a munkamenetet.",
+        "invalidPassword": "Kérjük, adj meg egy érvényes, legalább 8 karakterből álló jelszót.",
+        "updateFailed": "Nem sikerült frissíteni a jelszavadat."
+      },
+      "success": {
+        "passwordUpdated": "A jelszavad frissítve lett. Kérjük, jelentkezz be újra."
+      },
+      "title": "Jelszó Visszaállítása",
+      "instructions": "Adj meg egy új jelszót.",
+      "labels": {
+        "newPassword": "Új Jelszó"
+      },
+      "placeholders": {
+        "newPassword": "Adj meg új jelszót"
+      },
+      "buttons": {
+        "updatePassword": "Jelszó Frissítése"
+      }
+    },
+    "tabs": {
+      "home": "Kezdőlap",
+      "search": "Keresés",
+      "create": "Létrehozás",
+      "contest": "Versenyek",
+      "menu": "Menü",
+      "settings": "Beállítások",
+      "profile": "Profil",
+      "editProfile": "Profilod Szerkesztése",
+      "otherUserProfile": "Felhasználói Profil",
+      "explore": "Felfedezés",
+      "challengeDetails": "Kihívás Részletei",
+      "submissionDetails": "Beküldés Részletei",
+      "contestDetails": "Verseny Részletei",
+      "followers": "Követők ",
+      "following": "Követések ",
+      "account": "Fiók",
+      "notifications": "Értesítések",
+      "leaderboard": "Ranglista",
+      "market": "Piac",
+      "rewards": "Jutalmak",
+      "coin": "Érméid",
+      "savedChallenges": "Mentett Kihívások"
+    },
+    "tabsMessages": {
+      "tabBarCreateTitle": "Létrehozás",
+      "tabBarCreateLabel": null,
+      "tabBarIconAltText": {
+        "home": "Kezdőlap ikon",
+        "search": "Keresés ikon",
+        "create": "Létrehozás ikon",
+        "explore": "Felfedezés ikon",
+        "profile": "Profil ikon"
+      }
+    },
+    "search": {
+      "inputPlaceholder": "Keress beküldéseket, felhasználókat, kihívásokat...",
+      "clearSearch": "Keresés törlése",
+      "loading": "Betöltés...",
+      "error": {
+        "title": "Keresési Hiba",
+        "message": "Hiba történt a keresés során."
+      },
+      "noPreviousSearches": "Nincsenek korábbi keresések.",
+      "previousSearches": "Előző Keresések",
+      "submissions": {
+        "title": "Beküldések",
+        "noResults": "Nem találhatók beküldések.",
+        "videoError": {
+          "title": "Videó Hiba",
+          "message": "Nem sikerült betölteni a videót."
+        }
+      },
+      "users": {
+        "title": "Felhasználók",
+        "noResults": "Nem találhatók felhasználók."
+      },
+      "challenges": {
+        "title": "Kihívások",
+        "noResults": "Nem találhatók kihívások.",
+        "videoError": {
+          "title": "Videó Hiba",
+          "message": "Nem sikerült betölteni a kihívás videóját."
+        },
+        "category": "Kategória: ",
+        "seasonalTag": "Szezonális",
+        "sponsoredTag": "Szponzorált"
+      },
+      "repeatSearch": "Keresés ismétlése a következőre",
+      "accessibility": {
+        "viewVideo": "Videó megtekintése címmel",
+        "viewProfile": "Profil megtekintése",
+        "viewChallenge": "Kihívás megtekintése címmel"
+      }
+    },
+    "contest": {
+      "title": "Összes Verseny",
+      "createContestButton": "Verseny Létrehozása"
+    },
+    "contests": {
+      "noContests": "Nem találhatók versenyek.",
+      "error": {
+        "title": "Hiba",
+        "message": "Nem sikerült lekérni a versenyeket."
+      },
+      "status": {
+        "notStarted": "Nem Kezdődött El",
+        "ongoing": "Folyamatban",
+        "ended": "Befejeződött"
+      },
+      "dates": {
+        "start": "Kezdés: ",
+        "end": "Vége: ",
+        "notAvailable": "N/A"
+      },
+      "contestDetailsButton": "Verseny Részleteinek Megtekintése"
+    },
+    "newContest": {
+      "header": {
+        "title": "Új Verseny Létrehozása",
+        "backButton": "Vissza"
+      },
+      "fields": {
+        "title": {
+          "label": "Cím",
+          "placeholder": "pl., Nyári Táncverseny",
+          "validation": "A cím kötelező."
+        },
+        "description": {
+          "label": "Leírás",
+          "placeholder": "Miről szól ez a verseny?"
+        },
+        "startDate": {
+          "label": "Kezdő Dátum",
+          "placeholder": "NN-HH-ÉÉÉÉ",
+          "validation": "A befejező dátumnak a kezdő dátum után kell lennie."
+        },
+        "endDate": {
+          "label": "Befejező Dátum",
+          "placeholder": "NN-HH-ÉÉÉÉ"
+        },
+        "winnerReward": {
+          "label": "Győztes Jutalma (Uwaci Érmék)",
+          "placeholder": "100"
+        },
+        "participantReward": {
+          "label": "Résztvevő Jutalma (Uwaci Érmék)",
+          "placeholder": "10"
+        },
+        "explanationVideo": {
+          "label": "Videó Leírás (Opcionális)",
+          "noVideoSelected": "Adj hozzá videó leírást.",
+          "picked": "Kiválasztva: {filename}",
+          "uploaded": "Feltöltve: A videó sikeresen feltöltve.",
+          "chooseVideoButton": "Videó Kiválasztása",
+          "uploadVideoButton": "Videó Feltöltése"
+        }
+      },
+      "buttons": {
+        "createContest": "Verseny Létrehozása"
+      },
+      "alerts": {
+        "error": {
+          "title": "Hiba",
+          "pickVideoMessage": "Nem sikerült kiválasztani a videót.",
+          "uploadVideoMessage": "Nem sikerült feltölteni a videót.",
+          "createContestMessage": "Nem sikerült létrehozni a versenyt."
+        },
+        "success": {
+          "title": "Siker.",
+          "videoUploadMessage": "A videó sikeresen feltöltve!",
+          "createContestMessage": "A verseny sikeresen létrehozva!"
+        },
+        "validation": {
+          "noTitle": "A cím kötelező.",
+          "invalidDates": "A befejező dátumnak a kezdő dátum után kell lennie."
+        },
+        "noSession": {
+          "title": "Be kell jelentkezned a verseny létrehozásához."
+        }
+      }
+    },
+    "profile": {
+      "header": {
+        "title": "Profil",
+        "settingsButton": "Ugrás a Beállításokhoz"
+      },
+      "imagePicker": {
+        "permissionAlert": {
+          "title": "Engedély szükséges",
+          "message": "Engedélyre van szükségünk a fényképeidhez való hozzáféréshez."
+        },
+        "errorAlert": {
+          "title": "Hiba",
+          "message": "Nem sikerült kiválasztani a képet"
+        },
+        "successAlert": {
+          "title": "Siker",
+          "message": "A profilkép sikeresen frissítve"
+        }
+      },
+      "referral": {
+        "shareError": {
+          "title": "Megosztási Hiba",
+          "message": "Nem lehet megosztani az ajánlási linket."
+        },
+        "successShare": {
+          "title": "Csatlakozz hozzám a Challenz-en!",
+          "message": "Helló! Használd ezt a linket a regisztrációhoz: {{referralUrl}}"
+        }
+      },
+      "followers": {
+        "label": "Követők",
+        "viewFollowers": "Követők Megtekintése"
+      },
+      "following": {
+        "label": "Követések",
+        "viewFollowing": "Követések Megtekintése"
+      },
+      "posts": {
+        "label": "Bejegyzések",
+        "viewPosts": "Bejegyzések Megtekintése",
+        "noVideos": "Még nincsenek feltöltött videók."
+      },
+      "info": {
+        "email": "Email",
+        "phone": "Telefon",
+        "location": "Hely",
+        "coins": "Uwaci Érmék",
+        "bio": "Bio",
+        "noProfile": "Nem Található Profil"
+      },
+      "buttons": {
+        "inviteFriends": "Barátok Meghívása",
+        "deleteVideo": "Videó Törlése",
+        "deleteVideoAlert": {
+          "title": "Videó Törlése",
+          "message": "Biztosan törölni szeretnéd ezt a videót?"
+        },
+        "deleteSuccess": {
+          "title": "Siker",
+          "message": "A videó sikeresen törölve."
+        },
+        "deleteError": {
+          "title": "Hiba",
+          "message": "Nem sikerült törölni a videót."
+        }
+      },
+      "errors": {
+        "generalError": "Hiba történt.",
+        "profileError": "Nem sikerült lekérni a profilt.",
+        "submissionsError": "Nem sikerült lekérni a beküldéseket."
+      },
+      "loading": {
+        "profile": "Profil betöltése...",
+        "submissions": "Beküldések betöltése..."
+      }
+    },
+    "editProfile": {
+      "header": {
+        "title": "Profil Szerkesztése",
+        "cancelButton": "Mégse",
+        "saveButton": "Változtatások Mentése",
+        "savingButton": "Mentés..."
+      },
+      "fields": {
+        "firstName": {
+          "label": "Keresztnév",
+          "placeholder": "Add meg a keresztnevedet",
+          "error": {
+            "tooShort": "A keresztnév túl rövid"
+          }
+        },
+        "lastName": {
+          "label": "Vezetéknév",
+          "placeholder": "Add meg a vezetéknevedet",
+          "error": {
+            "tooShort": "A vezetéknév túl rövid"
+          }
+        },
+        "phoneNumber": {
+          "label": "Telefonszám",
+          "placeholder": "Add meg a telefonszámodat",
+          "error": {
+            "invalid": "Kérjük, adj meg egy érvényes telefonszámot"
+          }
+        },
+        "bio": {
+          "label": "Bio",
+          "placeholder": "Mesélj magadról",
+          "error": {
+            "tooLong": "A bio nem lehet hosszabb 500 karakternél"
+          }
+        },
+        "location": {
+          "label": "Hely",
+          "placeholder": "Add meg a helyedet",
+          "error": {
+            "tooLong": "A hely nem lehet hosszabb 100 karakternél"
+          }
+        }
+      },
+      "alerts": {
+        "fetchError": {
+          "title": "Hiba",
+          "message": "Nem sikerült lekérni a profil adatokat"
+        },
+        "updateSuccess": {
+          "title": "Siker",
+          "message": "A profil sikeresen frissítve"
+        },
+        "updateError": {
+          "title": "Hiba",
+          "message": "Nem sikerült frissíteni a profilt"
+        }
+      },
+      "loading": {
+        "title": "Betöltés..."
+      }
+    },
+    "otherUserProfile": {
+      "loading": "Betöltés...",
+      "noProfileFound": "Nem Található Profil",
+      "authenticationRequired": "Hitelesítés Szükséges",
+      "pleaseLogIn": "Kérjük, jelentkezz be a felhasználók követéséhez.",
+      "success": "Siker",
+      "unfollowSuccess": "Már nem követed őt:",
+      "followSuccess": "Most már követed őt:",
+      "error": "Hiba",
+      "followError": "Nem sikerült frissíteni a követési állapotot.",
+      "posts": "Bejegyzések",
+      "followers": "Követők",
+      "following": "Követések",
+      "follow": "Követés",
+      "unfollow": "Követés Megszüntetése",
+      "chat": "Chat"
+    },
+    "menu": {
+      "menu": "Menü",
+      "settings": "Beállítások",
+      "yourUwaciCoins": "Uwaci Érméid",
+      "notifications": "Értesítések",
+      "marketplace": "Piactér",
+      "signOut": "Kijelentkezés",
+      "confirmSignOut": "Kijelentkezés Megerősítése",
+      "areYouSureSignOut": "Biztosan ki szeretnél jelentkezni?",
+      "cancel": "Mégse",
+      "goBack": "Vissza",
+      "joinNow": "Csatlakozz Most",
+      "joinLater": "Csatlakozz Később",
+      "savedChallenges": "Csatlakozásra Váró Kihívások"
+    },
+    "settings": {
+      "settings": "Beállítások",
+      "fontSelected": "Betűtípus Kiválasztva",
+      "asYourFont": "beállítva betűtípusodként.",
+      "languageSelected": "Nyelv Kiválasztva",
+      "asYourLanguage": "beállítva nyelvedként.",
+      "themeSelected": "Téma Kiválasztva",
+      "asYourTheme": "beállítva témádként.",
+      "notifications": "Értesítések",
+      "marketplace": "Piactér",
+      "account": "Fiók",
+      "themes": "Témák",
+      "fonts": "Betűtípusok",
+      "languages": "Nyelvek",
+      "signOut": "Kijelentkezés",
+      "confirmSignOut": "Kijelentkezés Megerősítése",
+      "areYouSureSignOut": "Biztosan ki szeretnél jelentkezni?",
+      "cancel": "Mégse",
+      "goBack": "Vissza",
+      "selectFont": "Betűtípus Kiválasztása",
+      "selectLanguage": "Nyelv Kiválasztása",
+      "selectTheme": "Téma Kiválasztása",
+      "passwordSecurity": "Jelszó & Biztonság",
+      "personalDetails": "Személyes Adatok",
+      "verification": "Ellenőrzés",
+      "paymentMethods": "Fizetési módok",
+      "adPreferences": "Hirdetési Beállítások",
+      "upgradePremium": "Frissítés prémiumra",
+      "content": "Tartalom",
+      "language": "Nyelv",
+      "savedDraft": "Mentett Vázlat",
+      "yourActivity": "Tevékenységed",
+      "accessibility": "Hozzáférhetőség",
+      "privacy": "Adatvédelem",
+      "comments": "Hozzászólások",
+      "privateAccount": "Privát Fiók",
+      "directMessaging": "Közvetlen Üzenetküldés",
+      "blockedReports": "Letiltott/Jelentések",
+      "termsPolicies": "Feltételek és Szabályzatok",
+      "switchAccount": "Fiókváltás"
+    },
+    "accountDetails": {
+      "settingsTitle": "Fiók Beállítások",
+      "profileSettings": "Profil Szerkesztése ",
+      "resetPassword": "Jelszó Visszaállítása",
+      "deleteAccount": "Fiók Törlése",
+      "resetPasswordModal": {
+        "title": "Jelszó Visszaállítása",
+        "message": "Jelszó-visszaállítási email lesz elküldve a következő címre",
+        "sendEmail": "Email Küldése",
+        "cancel": "Mégse"
+      },
+      "deleteAccountModal": {
+        "title": "Fiók Törlése",
+        "message": "Biztosan törölni szeretnéd a fiókodat? Ez a művelet nem vonható vissza.",
+        "delete": "Törlés",
+        "cancel": "Mégse"
+      },
+      "alerts": {
+        "profileUpdated": {
+          "title": "Profil Frissítve",
+          "message": "A profilod sikeresen frissítve."
+        },
+        "profileUpdateError": {
+          "title": "Hiba",
+          "message": "Nem sikerült frissíteni a profilodat. Kérjük, próbáld újra."
+        },
+        "passwordReset": {
+          "title": "Jelszó Visszaállítás",
+          "message": "Jelszó-visszaállítási email elküldve."
+        },
+        "passwordResetError": {
+          "title": "Hiba",
+          "message": "Nem sikerült elküldeni a jelszó-visszaállítási emailt. Kérjük, próbáld újra."
+        },
+        "accountDeleted": {
+          "title": "Fiók Törölve",
+          "message": "A fiókod sikeresen törölve."
+        },
+        "accountDeleteError": {
+          "title": "Hiba",
+          "message": "Nem sikerült törölni a fiókodat. Kérjük, próbáld újra."
+        }
+      }
+    }
+  }
